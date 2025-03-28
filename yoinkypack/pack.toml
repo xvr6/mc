@@ -1,0 +1,12 @@
+name = "Yoinky Sploinky 2.0.5"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "b1e7096811dd47b90efe5d7b905bdd2375d12c46d2be36b0a5b884e64e9de9ae"
+
+[versions]
+fabric = "0.15.11"
+minecraft = "1.20.1"

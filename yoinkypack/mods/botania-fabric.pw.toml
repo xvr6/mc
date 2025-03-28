@@ -1,0 +1,13 @@
+name = "Botania (Fabric/Quilt)"
+filename = "Botania-1.20.1-447-FABRIC.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cb5e376ec92ab51f96c15794e7d4161097190895"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6172171
+project-id = 421839

@@ -1,0 +1,13 @@
+name = "This Rocks!"
+filename = "rocks-1.7.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a25261b5d3affffd16b9b9d613e693db55deea60"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4580121
+project-id = 416283

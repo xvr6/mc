@@ -1,0 +1,13 @@
+name = "Spectrum"
+filename = "spectrum-1.8.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "85cc49b34b46daee63c040dfdae642febeed565c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6098940
+project-id = 556967
