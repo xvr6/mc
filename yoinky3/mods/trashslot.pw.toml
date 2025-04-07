@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/vRYk0bv7/versions/fugZlKHM/trashslot-forge-1.20-15.1.1.jar"
-hash-format = "sha256"
-hash = "d724b0a814a53b897fa985789b778dbb221f34bdc28c9079f0251b546c0cd7eb"
+hash-format = "sha512"
+hash = "ea4c243aec3a6c20f5aa1dbf3b01e2c0b3c030e1478d4499979f5d0995a745b37af59797872142a2a3555586eed9a63b804b92fe73d7e349de3faa0734872f30"
 
 [update]
 [update.modrinth]

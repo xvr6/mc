@@ -5,7 +5,7 @@ side = "both"
 [download]
 url = "https://cdn.modrinth.com/data/fRiHVvU7/versions/AcC9huLj/emi-1.1.21%2B1.20.1%2Bforge.jar"
 hash-format = "sha256"
-hash = "ee132b69eecae6fad2fc0a7e65c53375d512388ea23576a0d4c3ca87fffce2fd"
+hash = "d75583165a6e4236b4e25dbd7cf416d41cd19d7d64286413f071d8a383fe6a47"
 
 [update]
 [update.modrinth]

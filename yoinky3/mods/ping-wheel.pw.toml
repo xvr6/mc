@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/QQXAdCzh/versions/8EFsyOgc/Ping-Wheel-1.10.2-forge-1.20.1.jar"
-hash-format = "sha256"
-hash = "10da959fa5cb16296604d3aa450bf48fb83ba63a83306ca324a29c450947b37c"
+hash-format = "sha512"
+hash = "920fd454aab89b05e80f4b697e28f0e1c608d8af5123a1c246b5317851fd0fda6b140830e7249fbf1b7ef9f4ee71bb1648defbe48a14349e5f410aad13c31001"
 
 [update]
 [update.modrinth]

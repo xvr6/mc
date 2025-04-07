@@ -5,7 +5,7 @@ side = "server"
 [download]
 url = "https://cdn.modrinth.com/data/KuNKN7d2/versions/AfjBJbK1/noisium-merged-2.0.1%2Bmc1.20.x.jar"
 hash-format = "sha256"
-hash = "85fcb2e1165d30913bf1453502997aa389bc13a92b5dc57645199d808d7e51b2"
+hash = "2ee00030b925913470735fe172da67f214cd2e70babe487602d2bbc798515016"
 
 [update]
 [update.modrinth]

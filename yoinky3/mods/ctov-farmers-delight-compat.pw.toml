@@ -5,7 +5,7 @@ side = "both"
 [download]
 url = "https://cdn.modrinth.com/data/CdRC4fyI/versions/qWJ0YcQq/ctov-farmers-delight-compat-2.1.jar"
 hash-format = "sha256"
-hash = "702ce649fb80e450ea8867359e90a044a97ec19e064c5ea39d7bcd60f2aad8d9"
+hash = "2bf211c1cd627cab26ddaf54624b4968c360ec00c127040f112aac644089e96f"
 
 [update]
 [update.modrinth]

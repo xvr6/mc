@@ -3,8 +3,8 @@ filename = "origins-forge-1.20.1-1.10.0.9-all.jar"
 side = "both"
 
 [download]
-hash-format = "sha256"
-hash = "5244b8b4434cd1bb6f4ebb71a36008218e700ed3245c14f867b8dc5487137c64"
+hash-format = "sha512"
+hash = "b103ac2ac509e98eaceedf04891bbe302e82f8b4a7fc3790b3d63bd912306bb09f9925489473211627a7a87d2049672a3e66c5cf6f5b1e34e62049f3a43d0e5d"
 mode = "metadata:curseforge"
 
 [update]

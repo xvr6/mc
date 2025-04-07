@@ -5,7 +5,7 @@ side = "both"
 [download]
 url = "https://cdn.modrinth.com/data/twkfQtEc/versions/62CPFGur/moonlight-1.20-2.13.81-forge.jar"
 hash-format = "sha256"
-hash = "b587707c76981ac9ade997172c32dd1deab9372bbeff923e684cc041c2e6dfa7"
+hash = "054b0a1be86510ed6bd05de66a29200f13f5603c0c9eb7e62074ddc3d19cb0e4"
 
 [update]
 [update.modrinth]

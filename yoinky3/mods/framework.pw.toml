@@ -3,8 +3,8 @@ filename = "framework-forge-1.20.1-0.7.12.jar"
 side = "both"
 
 [download]
-hash-format = "sha256"
-hash = "28ade2da0795ca36de2925e14cb5fe6b4e51ae84c149352fd9690951fe1baf87"
+hash-format = "sha512"
+hash = "c0559a7df74a72e941b7fec48f4072837c01fd3f60d8b5c1c3935e5ed1d19617b525fe68ba53d81f2b15ffb80db82c5cd4b023c260ff558662855e337a7a9d86"
 mode = "metadata:curseforge"
 
 [update]

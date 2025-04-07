@@ -5,7 +5,7 @@ side = "both"
 [download]
 url = "https://cdn.modrinth.com/data/Ua7DFN59/versions/PJOYAmAs/YungsApi-1.20-Forge-4.0.6.jar"
 hash-format = "sha256"
-hash = "101c30d01d0cf9d86190f578eb1e43bd06b64092e95662a00ef52946f472c7b1"
+hash = "f324cc18aa87a9400509c092155bc892a5be91df5e89a0239170ccc49f131519"
 
 [update]
 [update.modrinth]

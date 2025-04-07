@@ -5,7 +5,7 @@ side = "server"
 [download]
 url = "https://cdn.modrinth.com/data/O1XGs7ps/versions/jhyrH2s8/expanded_ecosphere-3.2.4-forge.jar"
 hash-format = "sha256"
-hash = "46d1018f3e18974838dab938b07420dfcb102a3b11dd8c178990525942547d74"
+hash = "c404b9e5cf8595427a72d4ca6ee5730289168762b463f169be3ae5dfe3727ded"
 
 [update]
 [update.modrinth]

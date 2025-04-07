@@ -5,7 +5,7 @@ side = "client"
 [download]
 url = "https://cdn.modrinth.com/data/XeEZ3fK2/versions/bvoDmWip/freecam-forge-1.2.1%2B1.20.jar"
 hash-format = "sha256"
-hash = "8d7778cb5d181e981cb6d7c1015e3597cd5a88a18b2924386a6f8790abb239b4"
+hash = "b13afb95231d88e1caea5a045967e0fc291b29020b0d26ad39e6f9e9a551fee8"
 
 [update]
 [update.modrinth]

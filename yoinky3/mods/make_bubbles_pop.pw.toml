@@ -4,8 +4,8 @@ side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/gPCdW0Wr/versions/B7ndPMxE/make_bubbles_pop-0.3.0-forge-mc1.19.4-1.20.4.jar"
-hash-format = "sha256"
-hash = "a702dc463ddf4d0a8b7d1fb90e9f718c66f131b9f038687f8df2e063b94d329e"
+hash-format = "sha512"
+hash = "eda2168acb6d0bd4ee7ad8ec039e38baee76d89025e7c3515b3c9a789dc90d8e4f66ae6defdd1d48cb4081fb4725103a372fb795ef3ea7cf4b69aef7aed88c29"
 
 [update]
 [update.modrinth]

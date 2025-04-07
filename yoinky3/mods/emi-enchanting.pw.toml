@@ -5,7 +5,7 @@ side = "client"
 [download]
 url = "https://cdn.modrinth.com/data/wbWoo11W/versions/s8VlWyjj/emi_enchanting-0.1.2%2B1.20.1%2Bforge.jar"
 hash-format = "sha256"
-hash = "adcb1007f165e2c8fd734fe845bdd45026e936c7dde6c6dfed3a21b2787368aa"
+hash = "d7470921fc5ff988788d43409083f62478aecc91f4b81d7e6b63c80c933d4613"
 
 [update]
 [update.modrinth]

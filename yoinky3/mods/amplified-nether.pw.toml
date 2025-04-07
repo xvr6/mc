@@ -5,7 +5,7 @@ side = "both"
 [download]
 url = "https://cdn.modrinth.com/data/wXiGiyGX/versions/qO36KEYQ/Amplified_Nether_1.20.x_v1.2.5.jar"
 hash-format = "sha256"
-hash = "f571479a0375581f21095b03ab948833f94500261824bf4a7257e5b9865e726d"
+hash = "c404b9e5cf8595427a72d4ca6ee5730289168762b463f169be3ae5dfe3727ded"
 
 [update]
 [update.modrinth]

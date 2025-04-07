@@ -5,7 +5,7 @@ side = "server"
 [download]
 url = "https://cdn.modrinth.com/data/XaDC71GB/versions/4ooXso77/lithostitched-forge-1.20.1-1.4.4.jar"
 hash-format = "sha256"
-hash = "cdb4e6374c8a983084a5f5b061d21e132259795beebb7bc01f2483bdb7c4c460"
+hash = "6202d8241f01e21278fd5de644fd2e992824069f2cf0fc9dc6a74ab2218015b6"
 
 [update]
 [update.modrinth]

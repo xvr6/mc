@@ -5,7 +5,7 @@ side = "both"
 [download]
 url = "https://cdn.modrinth.com/data/kawJN2LZ/versions/BbKorFuj/ctov-friends-and-foes-compat-2.0.jar"
 hash-format = "sha256"
-hash = "eb7703b3ce7d274267e9eed9ca0686ddbf01f84eacc4081604301d9f376ea0af"
+hash = "24b3bdc844755e8a39571b5000d8dd829543f7b150d154016ccd926e47d06a71"
 
 [update]
 [update.modrinth]

@@ -5,7 +5,7 @@ side = "server"
 [download]
 url = "https://cdn.modrinth.com/data/Z2mXHnxP/versions/2nUEz0zq/YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar"
 hash-format = "sha256"
-hash = "12cffc99dccca69d294ba5bc39c331367794b339061572a6f3773620303a2f51"
+hash = "13ff4eccdf641485d059a902d2ad58daf9ff85914da456ab1a9d00bc44f31ba6"
 
 [update]
 [update.modrinth]

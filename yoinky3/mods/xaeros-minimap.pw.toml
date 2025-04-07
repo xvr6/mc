@@ -5,7 +5,7 @@ side = "client"
 [download]
 url = "https://cdn.modrinth.com/data/1bokaNcj/versions/uhCZlwOM/Xaeros_Minimap_25.2.0_Forge_1.20.jar"
 hash-format = "sha256"
-hash = "0425ffd1e2036dd10bae359d30cc6f48b8b31a8f37602ecdcc08bbc21120230e"
+hash = "1e8a9f1c929ccea1adda609233dad8b52f0d44d73b5c73254bed92a8b0d0f992"
 
 [update]
 [update.modrinth]

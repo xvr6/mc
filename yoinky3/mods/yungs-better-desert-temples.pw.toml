@@ -5,7 +5,7 @@ side = "server"
 [download]
 url = "https://cdn.modrinth.com/data/XNlO7sBv/versions/lRK2ZA9U/YungsBetterDesertTemples-1.20-Forge-3.0.3.jar"
 hash-format = "sha256"
-hash = "5a74294725232c665b908af6e25224d111550cf69d74613e415b9f48ff150d16"
+hash = "054b0a1be86510ed6bd05de66a29200f13f5603c0c9eb7e62074ddc3d19cb0e4"
 
 [update]
 [update.modrinth]

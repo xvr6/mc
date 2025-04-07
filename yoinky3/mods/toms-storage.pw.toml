@@ -5,7 +5,7 @@ side = "both"
 [download]
 url = "https://cdn.modrinth.com/data/XZNI4Cpy/versions/UjCLHkAa/toms_storage-1.20-1.7.0.jar"
 hash-format = "sha256"
-hash = "2ee00030b925913470735fe172da67f214cd2e70babe487602d2bbc798515016"
+hash = "bea2640c4afeb5231362a756d886ca4f246c7951175c91348272b3ce5d483bae"
 
 [update]
 [update.modrinth]

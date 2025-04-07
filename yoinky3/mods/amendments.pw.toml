@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/6iTJugQR/versions/luR9kOmm/amendments-1.20-1.2.19.jar"
-hash-format = "sha256"
-hash = "f0e399a37a4d4a1bac1c4e3cd3feeacd760d049b53f7cc4d5f728f5dfd53fe0a"
+hash-format = "sha512"
+hash = "3d78f4918056d91641fe50b78011b62aa1b6973fd078bd5d986e3d7411f27dce5a57c2a770f8b4dadaf8ff024d1af099b0b14e7fe6db0619349bd5e15e239df3"
 
 [update]
 [update.modrinth]

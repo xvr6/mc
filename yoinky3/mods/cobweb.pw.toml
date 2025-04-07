@@ -5,7 +5,7 @@ side = "both"
 [download]
 url = "https://cdn.modrinth.com/data/dQcfqGbl/versions/6tcgyNkq/cobweb-forge-1.20.1-1.0.1.jar"
 hash-format = "sha256"
-hash = "93771b365320a08d0516633afb210f36f5aa20c0906dc4f1ead394250f660736"
+hash = "323b51111ff2ac9736e42d770c7943a66337e4c10c00084f91b646f83368e4e5"
 
 [update]
 [update.modrinth]

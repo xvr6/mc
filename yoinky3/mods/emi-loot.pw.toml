@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/qbbO7Jns/versions/1UGIiguq/emi_loot-0.7.5%2B1.20.1%2Bfix1%2Bforge.jar"
-hash-format = "sha256"
-hash = "323b51111ff2ac9736e42d770c7943a66337e4c10c00084f91b646f83368e4e5"
+hash-format = "sha512"
+hash = "64fc99b8df17999117f3f9ef460dcac9acddc70c418d236e7a7b1d489a10ac737eaedc15c01540f0bf9e2bf51aee04f16bfb741c680370ac69f6f2ca2af24afc"
 
 [update]
 [update.modrinth]
