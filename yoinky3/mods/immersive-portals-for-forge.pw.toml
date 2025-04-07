@@ -3,8 +3,8 @@ filename = "immersive-portals-3.0.7-all.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "b4a6d71ca7dc07a1da33e7272befabc6ce95057b"
+hash-format = "sha256"
+hash = "deb233d1e530e5e208ba6f3529a3b90ad071a06a2dc8d7ea60f14b0d67912efc"
 mode = "metadata:curseforge"
 
 [update]

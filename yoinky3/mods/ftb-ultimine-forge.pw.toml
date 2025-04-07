@@ -3,8 +3,8 @@ filename = "ftb-ultimine-forge-2001.1.5.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "106aa8ae16ceda4bb7244bfc64a6ee86c842f2a5"
+hash-format = "sha256"
+hash = "cc6c93a44da1682671c6ca1f2fbc779f6a48963a4df3030350d1707dd91fb563"
 mode = "metadata:curseforge"
 
 [update]

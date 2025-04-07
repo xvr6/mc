@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/Yd4wb5wZ/versions/acDDSIG3/crittersandcompanions-forge-2.2.2.jar"
-hash-format = "sha512"
-hash = "210b7e2850af46dcdeb341d95bee89a30a311ab2a573d0d6269bc4fbb611e3ab122b86052cd079949d4652ba9b3e3fbe009aaa0e01367683cffc83ff35585bff"
+hash-format = "sha256"
+hash = "de79ecc6df93915813ca683993b41fcbc5574d3fb6a4fc7d1ed70cd1235cf682"
 
 [update]
 [update.modrinth]

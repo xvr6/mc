@@ -3,8 +3,8 @@ filename = "alexscaves-2.0.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "a1e5c7b7c7eadda4c8e954acbcbaf75a7b500d53"
+hash-format = "sha256"
+hash = "131e205ce3eed384d701b336d8a0d4a671108ed56b6eff6014f0e407db2997f0"
 mode = "metadata:curseforge"
 
 [update]

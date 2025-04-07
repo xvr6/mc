@@ -4,8 +4,8 @@ side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/fgmhI8kH/versions/nF92O1uF/ctov-3.3.6.jar"
-hash-format = "sha512"
-hash = "bfe67af2d569d41ed96ee9165ba0c9c2c4452c69a2b6062183d2394cde075315e957df4688b401bd6753286ce14542daf0279868902fe8f9c2014d1043e77dec"
+hash-format = "sha256"
+hash = "4533867b4f77123797a586ecccea32d80f18d1acad143c7e95c37f65b8302df9"
 
 [update]
 [update.modrinth]

@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/fFEIiSDQ/versions/LEmnQ18s/supplementaries-1.20-3.1.24.jar"
-hash-format = "sha512"
-hash = "ee93f002338b265f038d607255badec3d02fa8f75433a6c329130e78a5ea1d7d45b87fc1d419edfc31ac3ea2e57f98e5123c6d2ca6bbc3879c23fdde3928403e"
+hash-format = "sha256"
+hash = "3447ac851d238f133cc68be05a554c77ecefc005af0c409e0893fa33369900a3"
 
 [update]
 [update.modrinth]

@@ -3,8 +3,8 @@ filename = "PresenceFootsteps-1.20.1-1.9.1-beta.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "6ccb76043763f929a11f1857a57b41bb70ab7512"
+hash-format = "sha256"
+hash = "447dd543e178a9454ccf3bf0d9d7bd7957b1af6da9d74f2cd3d9b5fbe8548e98"
 mode = "metadata:curseforge"
 
 [update]

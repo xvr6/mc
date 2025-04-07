@@ -4,8 +4,8 @@ side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/2BwBOmBQ/versions/Izqhg3Va/YungsBetterEndIsland-1.20-Forge-2.0.6.jar"
-hash-format = "sha512"
-hash = "a51b76fc41d19276bea2ebe081b153d3be53c502ef9de93593990f8b7bf644e3e4fd4cff17477abce16692f23aff3077be1762606f10ca1058771741ad652e2e"
+hash-format = "sha256"
+hash = "05c2f43a67116f0bbca32d903b55ce1655b9319ed6554080de02bd1d0c232a83"
 
 [update]
 [update.modrinth]
