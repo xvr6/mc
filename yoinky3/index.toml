@@ -296,11 +296,6 @@ hash = "3f63f54bf638954d1da79cacc7ab2d58e1886c98bdb2b267035abfa0ce8a5a72"
 metafile = true
 
 [[files]]
-file = "mods/estrogen.pw.toml"
-hash = "84aeb73e7fda6b06d38b8f092132da98f16e5913da1dc28050b6abd7e566668a"
-metafile = true
-
-[[files]]
 file = "mods/excavated_variants.pw.toml"
 hash = "8c99a2f18765dea9f320eed774f060e1082366fafd94d406375cacfcbd117750"
 metafile = true
