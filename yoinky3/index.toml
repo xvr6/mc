@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/tectonic.json"
+hash = "e5ba531dc5d98b2c9dd828bde206831d4603c87ee6d5f3ace41b0e7663f7d82e"
+
+[[files]]
 file = "mods/alexs-caves.pw.toml"
 hash = "6f864eef65f9a38f57eb0cc6fc71469b36ea70444a10c3e27502d617c5eaf917"
 metafile = true
@@ -353,11 +357,6 @@ metafile = true
 [[files]]
 file = "mods/immersive-melodies.pw.toml"
 hash = "270dc0990d6d6520f6915402fe1e59a1759b6c102b97a3ef949cf96a07423f03"
-metafile = true
-
-[[files]]
-file = "mods/immersive-portals-for-forge.pw.toml"
-hash = "3f39a4de2aa2f99842f2cbb3cc3af2d19335cc57c1ce52a26fb985cd937ec311"
 metafile = true
 
 [[files]]
