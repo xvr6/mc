@@ -427,7 +427,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-zoom.pw.toml"
-hash = "589b370ffcef405a00daafc5bfa6febaeafef81aa797a3cb63a49555db90fd76"
+hash = "af1510cb084b6687b0c40554fe401c912a17d99f2c6c5907e2aa523f1a2998f1"
 metafile = true
 
 [[files]]
@@ -437,7 +437,7 @@ metafile = true
 
 [[files]]
 file = "mods/konkrete.pw.toml"
-hash = "90a70141bcec839b6a1aa647c91f97bb7b33b6b9e6ce6b3b18a4113aa7dff636"
+hash = "815ae4dfd9d1bc891988baa09341c12d05782b8a8ac7c246786930800a619457"
 metafile = true
 
 [[files]]
