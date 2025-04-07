@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/bV2crgLh/versions/XCgKj8gL/constructionwand-1.20.1-2.11.jar"
-hash-format = "sha256"
-hash = "537a723c6a02a748372a800e20c02892f0d0fcbd39c12242b6bf8f5fbf14c55a"
+hash-format = "sha512"
+hash = "a029f801dbcfacd230650fd018f7424535454fb2062d796cbe9cd622a9fe4ae80cb0d7883faa2775c27ed73a21dffbadb44ddc32ce1293ec098654393e7b1c95"
 
 [update]
 [update.modrinth]

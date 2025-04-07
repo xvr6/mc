@@ -3,8 +3,8 @@ filename = "goblintraders-forge-1.20.1-1.9.3.jar"
 side = "both"
 
 [download]
-hash-format = "sha512"
-hash = "585f4cb811a335ae196955184eaeecd4d407dee69209776fd14dce3ee286c921206507a714b3f613f573cbb669ad54743a5c5e7bc066cd00e6608f740bbb9754"
+hash-format = "sha1"
+hash = "341b9ec065568812c217ad7f38b7acc1b0313d9a"
 mode = "metadata:curseforge"
 
 [update]

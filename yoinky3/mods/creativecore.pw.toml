@@ -5,7 +5,7 @@ side = "both"
 [download]
 url = "https://cdn.modrinth.com/data/OsZiaDHq/versions/IbFWHI5h/CreativeCore_FORGE_v2.12.32_mc1.20.1.jar"
 hash-format = "sha512"
-hash = "3d78f4918056d91641fe50b78011b62aa1b6973fd078bd5d986e3d7411f27dce5a57c2a770f8b4dadaf8ff024d1af099b0b14e7fe6db0619349bd5e15e239df3"
+hash = "7f7c684a35020a0327e31f5521a363d1c29312a22839c69c5dbdf51d77428298dbd0ca685166c06d8426010448e777e087e141fef6b5093fd67cb73c4bd51f8a"
 
 [update]
 [update.modrinth]

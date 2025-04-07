@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/RYtXKJPr/versions/YuF7RHRe/gravestone-forge-1.20.1-1.0.24.jar"
-hash-format = "sha256"
-hash = "bea425ef7e9cd27a7fc0f4b89e00cbd0a1ee050f071ecaa9f28f7238f400f0a3"
+hash-format = "sha512"
+hash = "6459b1be3428dd8df64ef22251ad9cb853aec8d7cd03755c065c7a00e1cbca3a2464d483125daa3e5035f3fca2938dd9ec47d7b06139171e2bf65b1f48850245"
 
 [update]
 [update.modrinth]

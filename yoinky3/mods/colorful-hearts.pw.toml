@@ -5,7 +5,7 @@ side = "client"
 [download]
 url = "https://cdn.modrinth.com/data/wQfMUdZT/versions/LkhTyd10/colorfulhearts-forge-1.20.1-4.3.16.jar"
 hash-format = "sha512"
-hash = "32be0d33a889bae5275fa53e8c45312e5573b006a36f8fb44f1f48d3fa40be9f1077765e3c33899eb26f54677bfbbacb9452000279df9e2591e47e4ea6a3b250"
+hash = "4f0c9400669b36b6504b495856d8b3f3ae6885ef41ba596f41a94ef7f39e88e976e91e2d49312ce9b155abdbbaf19acaf9ac0530e3557486b969dab79438734c"
 
 [update]
 [update.modrinth]

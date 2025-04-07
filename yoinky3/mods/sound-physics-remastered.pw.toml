@@ -4,8 +4,8 @@ side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/qyVF9oeo/versions/qeWNOzYk/sound-physics-remastered-forge-1.20.1-1.4.10.jar"
-hash-format = "sha256"
-hash = "5919cd2f2d7deea798d22cdf91cdf06bd5d7393a640ca8e6861873fd7ddc37e7"
+hash-format = "sha512"
+hash = "920fd454aab89b05e80f4b697e28f0e1c608d8af5123a1c246b5317851fd0fda6b140830e7249fbf1b7ef9f4ee71bb1648defbe48a14349e5f410aad13c31001"
 
 [update]
 [update.modrinth]

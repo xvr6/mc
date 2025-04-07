@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/rEuzehyH/versions/BYWcTIfc/findme-3.2.1-forge.jar"
-hash-format = "sha256"
-hash = "e23c0c503ee271ca351084c5a40411c5921dbf1d97e95fc59c304270977171c6"
+hash-format = "sha512"
+hash = "c485f9f4541a0da5fd73d6d6a11a214fa876f76f1544f20dc53a3801cbd6c03e8b42b926670b52e3372bf9555700a578385b4d8e24a484c2e5c4471c93d6148e"
 
 [update]
 [update.modrinth]

@@ -5,7 +5,7 @@ side = "both"
 [download]
 url = "https://cdn.modrinth.com/data/iunZDj0l/versions/elBmQR7P/ctov-beautify-compat-2.0.jar"
 hash-format = "sha512"
-hash = "7f7c684a35020a0327e31f5521a363d1c29312a22839c69c5dbdf51d77428298dbd0ca685166c06d8426010448e777e087e141fef6b5093fd67cb73c4bd51f8a"
+hash = "327891ba03becb4c2e70a40f09ff86ba8fb28ff0467f6d66901c7a86727464adced54841e32bcf2d96e90745b452bd7159e9f01d5af70d019c1faf101aaa7fc2"
 
 [update]
 [update.modrinth]

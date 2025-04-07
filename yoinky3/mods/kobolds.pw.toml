@@ -3,8 +3,8 @@ filename = "Kobolds-2.12.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha512"
-hash = "6d23bd7e8ffafe46577b07c8c69b589011608bb4319fcb8742a559d24e64a2b1a98d5debad704b7f705e7f31b91738e84af7630676600f5c407da2b8d9e3c830"
+hash-format = "sha1"
+hash = "27a2ddc3207ed9d1ff00337f8b5aa36a5063f758"
 mode = "metadata:curseforge"
 
 [update]

@@ -5,7 +5,7 @@ side = "both"
 [download]
 url = "https://cdn.modrinth.com/data/8YcE8y4T/versions/CZuzLvC7/Ribbits-1.20.1-Forge-3.0.4.jar"
 hash-format = "sha512"
-hash = "8d5c8bb59be56c49ef0fcc3593862ad09862210e5099f39bf66c29c73f1b54b637ec6e6fa01b2e1409dafe4cc3e2f2e43d9c6113c78372f49d7c2ff71d056ca0"
+hash = "7572b9a974fbc9dd4153d7c55bf4ccffe0700db012d8c5e0d577e6a4954abdaf4fac15e8e72b146735165ab887ff643ec642d38f91f43bb78c7f1e151a82404d"
 
 [update]
 [update.modrinth]

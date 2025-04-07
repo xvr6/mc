@@ -5,7 +5,7 @@ side = "client"
 [download]
 url = "https://cdn.modrinth.com/data/DFqQfIBR/versions/oIpViecx/CraftPresence-2.4.3%2B1.20.1.jar"
 hash-format = "sha512"
-hash = "7e209ccfcc438bec934556132ec7bb48dcf7db55611fd0e26a72f19b6a7c07e8a5103408e5e2d46b825979944a2208ba5dc28b95a0e3c4f6a78d8494e1d9780a"
+hash = "b11f9b49c80bf193c5324685bf40345117bab6dfc8afdbc59c015d08cd46736f0f3b3b36613bc1fd012549af2681c47c580f0b7398f7e34fe2dbe64c581a9ae0"
 
 [update]
 [update.modrinth]
