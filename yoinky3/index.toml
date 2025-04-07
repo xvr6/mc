@@ -1,13 +1,8 @@
 hash-format = "sha256"
 
 [[files]]
-file = "mods/create-design-n-decor.pw.toml"
-hash = "f79b52a9604440f0dccce0de72c8a4347b0ce00d896a9871690d20c585b90600"
-metafile = true
-
-[[files]]
-file = "mods/create-dreams-and-desires.pw.toml"
-hash = "23dc3517bb479f4a7275bedc75ea45362aef0ff1b240d8cd0fde2fd152032cdf"
+file = "mods/create-deco.pw.toml"
+hash = "87be52b8aaa9864eab1ec2df8c862cd01a084989b07c4cdbfaa21c57a9a778a6"
 metafile = true
 
 [[files]]
@@ -23,6 +18,16 @@ metafile = true
 [[files]]
 file = "mods/create-power-loader.pw.toml"
 hash = "719ad710d4cbd6bef252afe144a3609425f5b63592187448e14bbc3267d4941b"
+metafile = true
+
+[[files]]
+file = "mods/create-steam-n-rails.pw.toml"
+hash = "ba16d5e568349bc79bb6a648090047fee23db3931f5399f9ad09c930410c740c"
+metafile = true
+
+[[files]]
+file = "mods/create-structures.pw.toml"
+hash = "4f64bc81a381a3cb0c637829d547d8b0f5daa0ea29fe84a9e43a91784763745e"
 metafile = true
 
 [[files]]
