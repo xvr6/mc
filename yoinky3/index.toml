@@ -26,11 +26,6 @@ hash = "719ad710d4cbd6bef252afe144a3609425f5b63592187448e14bbc3267d4941b"
 metafile = true
 
 [[files]]
-file = "mods/create-structures.pw.toml"
-hash = "4f64bc81a381a3cb0c637829d547d8b0f5daa0ea29fe84a9e43a91784763745e"
-metafile = true
-
-[[files]]
 file = "mods/create.pw.toml"
 hash = "74486cd0b25b3c6bef4cdca60187d0f79109b8cf9b067be978887b28c315222e"
 metafile = true
