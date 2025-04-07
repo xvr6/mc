@@ -131,7 +131,7 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "74486cd0b25b3c6bef4cdca60187d0f79109b8cf9b067be978887b28c315222e"
+hash = "119d501c87aef8afa8cf89ed6f17499518c21240d7781f4331e3007e57957a79"
 metafile = true
 
 [[files]]
@@ -191,7 +191,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "8276518c6ba5c30439e6361e115d6b26cd0a96904f7792d1501013aa05c3512f"
+hash = "e36b4b89462bfdae7f5f0607a9cb91af89fe34308c9e14978075e7c32ce3e8cb"
 metafile = true
 
 [[files]]
@@ -512,6 +512,11 @@ metafile = true
 [[files]]
 file = "mods/ribbits.pw.toml"
 hash = "d668582ea913944b31fda3e0cbe8bd7fda3852f960bd4f7a58fe9bba526a9037"
+metafile = true
+
+[[files]]
+file = "mods/rubidium-extra.pw.toml"
+hash = "817b4a47826bd99c69957fe07131d5704984f89fec96287cdc20c6fbe46100cf"
 metafile = true
 
 [[files]]
