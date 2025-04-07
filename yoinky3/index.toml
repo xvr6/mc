@@ -161,11 +161,6 @@ hash = "85823e6c3eccc199df1cfd11c4855ff09f5607d0c1c50bf2e7fb531c99a35171"
 metafile = true
 
 [[files]]
-file = "mods/ctov-create-structures.pw.toml"
-hash = "d0114dcd9e7b204c1d2438b902faa1561763d8bd5b3130080895a16e106f06af"
-metafile = true
-
-[[files]]
 file = "mods/ctov-farmers-delight-compat.pw.toml"
 hash = "ec327ba7471215f9816ab868a11a1eab1cc5361458528b06eb666677b77bb3c8"
 metafile = true
