@@ -28,7 +28,7 @@ metafile = true
 
 [[files]]
 file = "mods/ambientsounds.pw.toml"
-hash = "301eae1324c4754b99c18b249276c162dd2d236784207fc379709bfd7e8e3a78"
+hash = "1bedf1b1cc49bca9ab53d5d63a6da8034af4f8d15565ff7983cc37871c25a3bd"
 metafile = true
 
 [[files]]
@@ -168,7 +168,7 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "119d501c87aef8afa8cf89ed6f17499518c21240d7781f4331e3007e57957a79"
+hash = "04eff00e4383097d9809dec31ab08976a4516fd5a2fe348b88a532507f68e6ba"
 metafile = true
 
 [[files]]
@@ -228,7 +228,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "119cdf69bcd3093001fda2d92d57534dcef205efd251de143da9294df3d60f6a"
+hash = "ccb51805104181555c1c5edcd96d2eb1619f56449dbdba018feb599085fcea40"
 metafile = true
 
 [[files]]
@@ -338,7 +338,7 @@ metafile = true
 
 [[files]]
 file = "mods/friends-and-foes-forge.pw.toml"
-hash = "499d62c738423235aa1ce0510fb8a3befb3aaba7443bc9638e14e9fab2ff6ca9"
+hash = "d7e93654d8f8ba58742e86d26cbd9e7f563be4f8c9683f52d72777a3807d7078"
 metafile = true
 
 [[files]]
@@ -353,7 +353,7 @@ metafile = true
 
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
-hash = "f5ab56d7aa5b1c62f74226b07a17fd5adb4e26208cf757c4cf1e3fd3c63b707e"
+hash = "24b0cbd84c3a4790e8e5e2d40f159588828a518c4bc691b1162d46e269a12b17"
 metafile = true
 
 [[files]]
@@ -363,7 +363,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "a66ce8fdd15abadd17b5d3d62e5bca0afe8209c081c8be1407b0e6166c8714d9"
+hash = "f57b760f1db9b4033c89bd46a296b48e0d6c547de4b60e724e799608dab41bef"
 metafile = true
 
 [[files]]
@@ -418,7 +418,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-zoom.pw.toml"
-hash = "610dc26ce6882cc4f67ab992951603766438f5fa13d0f7cc79a01ed397ebf99d"
+hash = "8010272b270d01d09fbf64934939e9a02e7b9f91c86c6a6db54c0793e280ccbe"
 metafile = true
 
 [[files]]
@@ -592,18 +592,28 @@ hash = "4d10afb9f6e717c0125f86599d1d402ab88b41e5988a34b56971138e05ec5d97"
 metafile = true
 
 [[files]]
+file = "mods/sophisticated-storage-create-integration.pw.toml"
+hash = "7d68ec56a026844f07b47cd14bbd5b05b5cc0c7b357b66f2fabdf4ac0fd3132f"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-storage-in-motion.pw.toml"
+hash = "2e52766c603207c0e96eb46a17c7b15591274a43c71f5d22455bab6205845862"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-storage.pw.toml"
+hash = "e92a4622c799664b6767e5887a5724d48d847d0487e304b30b702056d2446bbb"
+metafile = true
+
+[[files]]
 file = "mods/sound-physics-remastered.pw.toml"
-hash = "fc1da99fc32c3d136a9d6a4c4e4f58d9bd20db28db432bb1b6d102d79b75c368"
+hash = "860fc3d1f54380f99f3337029b441cc0665c33bdf6356f23a2c9adf21fca3072"
 metafile = true
 
 [[files]]
 file = "mods/sound.pw.toml"
 hash = "4a603693baa20af56faea5e84e47d780b3ac961ead3ab8529e2dd54b42aefea4"
-metafile = true
-
-[[files]]
-file = "mods/storage-drawers.pw.toml"
-hash = "eb7fb878f669cc17a22d19902fe96cdcfe541a9cf7d03eb7244fc11e13713b61"
 metafile = true
 
 [[files]]
