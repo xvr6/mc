@@ -7,6 +7,11 @@ url = "https://cdn.modrinth.com/data/pzCY6C3e/versions/rJocjNjf/MindfulDarkness-
 hash-format = "sha512"
 hash = "f25a3300823f8a1f7d9a177f06873a3aa2faf09de90e6d364edded9f7ec2e60f3091317fb37108280c53c8f5f37469aa49080ed87cb39a68cbd128821234f311"
 
+[option]
+optional = true
+default = true
+description = "Adds dark mode toggle!"
+
 [update]
 [update.modrinth]
 mod-id = "pzCY6C3e"

@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/DistantHorizons.toml"
+hash = "03cf6d58ae5bd3eb0c82147c63ea8f10fa5148b5180c3496f833f761b597092d"
+
+[[files]]
 file = "config/alexscaves-client.toml"
 hash = "db5c9fddb7816fae75ecdb86e604c97408eca8626d785b9380a0b39d68b8bd58"
 
@@ -459,7 +463,7 @@ metafile = true
 
 [[files]]
 file = "mods/mindful-darkness.pw.toml"
-hash = "8c0b39fe7dcf2de0a30bc02f07e6c23d500790dc07853be246e057b97065febb"
+hash = "acc38386a77ce600071aa0712ee3194bc98422be28c0087f11931c54a7e57af2"
 metafile = true
 
 [[files]]
