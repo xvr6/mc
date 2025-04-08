@@ -7,6 +7,11 @@ hash-format = "sha1"
 hash = "016cb38a9e59c95392a25da8f6f19d337f80360a"
 mode = "metadata:curseforge"
 
+[option]
+optional = true
+default = true
+description = "Zoom mod"
+
 [update]
 [update.curseforge]
 file-id = 4641225

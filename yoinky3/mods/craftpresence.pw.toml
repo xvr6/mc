@@ -7,6 +7,11 @@ url = "https://cdn.modrinth.com/data/DFqQfIBR/versions/oIpViecx/CraftPresence-2.
 hash-format = "sha512"
 hash = "b11f9b49c80bf193c5324685bf40345117bab6dfc8afdbc59c015d08cd46736f0f3b3b36613bc1fd012549af2681c47c580f0b7398f7e34fe2dbe64c581a9ae0"
 
+[option]
+optional = true
+default = true
+description = "Adds Discord presence integration!"
+
 [update]
 [update.modrinth]
 mod-id = "DFqQfIBR"

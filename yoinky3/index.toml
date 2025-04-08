@@ -5,6 +5,10 @@ file = "config/alexscaves-client.toml"
 hash = "db5c9fddb7816fae75ecdb86e604c97408eca8626d785b9380a0b39d68b8bd58"
 
 [[files]]
+file = "config/autohud.json5"
+hash = "64edc8dfcb92182dab60d64e09bc03863e64c36a1b8d0d3be6b5d00167323dd1"
+
+[[files]]
 file = "config/tectonic.json"
 hash = "e5ba531dc5d98b2c9dd828bde206831d4603c87ee6d5f3ace41b0e7663f7d82e"
 
@@ -41,6 +45,11 @@ metafile = true
 [[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "4e81241ba2da06f425efc5e09fb6b38470125c1581c39e1310c5843a0b96ec76"
+metafile = true
+
+[[files]]
+file = "mods/autohud.pw.toml"
+hash = "d7bcf5343fc6ef7da268c07e11745c3f4d1a7fb553d609dd8279ced761346ed0"
 metafile = true
 
 [[files]]
@@ -150,7 +159,7 @@ metafile = true
 
 [[files]]
 file = "mods/craftpresence.pw.toml"
-hash = "17a10532b2a12768f31f8bd209024312e6e224d01f87c8476704000b40d2334e"
+hash = "e639dbaeb10313c983e50cb64aa7dbbf011aab1df31fc46a063ea0ba6d7a3dd7"
 metafile = true
 
 [[files]]
@@ -200,7 +209,7 @@ metafile = true
 
 [[files]]
 file = "mods/cubes-without-borders.pw.toml"
-hash = "ac4cbd7785b8c70de4037162d6626910633e6b997c957e90de961316716e8402"
+hash = "52318374041387b60dfb8171b96d4515f087319a7c8d3d68b044c5f0fa24c6a2"
 metafile = true
 
 [[files]]
@@ -215,7 +224,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "276e1986d17845723e3ff29ba3fab5ca02b3647b1ae85de612408d3aa621e997"
+hash = "119cdf69bcd3093001fda2d92d57534dcef205efd251de143da9294df3d60f6a"
 metafile = true
 
 [[files]]
@@ -320,7 +329,7 @@ metafile = true
 
 [[files]]
 file = "mods/freecam.pw.toml"
-hash = "5c2edd9eb7d86b2b2a34c393022cb376f2667dacd143533412f4c7c731357509"
+hash = "23f5a824b6827da107484b50b5aab17a30544e68a21b2e4703d34f296873898f"
 metafile = true
 
 [[files]]
@@ -389,6 +398,11 @@ hash = "0a83314a5c0d8d8f356bd3a8a7a57a0b09133855a59c8ec6791a470c174d57ee"
 metafile = true
 
 [[files]]
+file = "mods/inventory-tweaks-refoxed.pw.toml"
+hash = "b69fb92fec98dc393e59fb63ad1533d8d66c230a1ddec263309dece9ae884ee3"
+metafile = true
+
+[[files]]
 file = "mods/jade-addons-forge.pw.toml"
 hash = "f8312021fd88a4952e1d50a2f156fab65314f87658d7153efc56be76a422d5cd"
 metafile = true
@@ -400,7 +414,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-zoom.pw.toml"
-hash = "3878cbe2da91ca469763d8ea0a753cc749fd99cb8be74f666003e929eaa3046e"
+hash = "610dc26ce6882cc4f67ab992951603766438f5fa13d0f7cc79a01ed397ebf99d"
 metafile = true
 
 [[files]]
@@ -451,11 +465,6 @@ metafile = true
 [[files]]
 file = "mods/moonlight.pw.toml"
 hash = "f13e328561f1ee2eaf77fedcd5fcc253fb9b8b128facea35427e89bd5d95e357"
-metafile = true
-
-[[files]]
-file = "mods/mouse-tweaks.pw.toml"
-hash = "e72f73611904e14d915418f0e3c6cb483cdc600e211375c2eceb393fec5b80f1"
 metafile = true
 
 [[files]]

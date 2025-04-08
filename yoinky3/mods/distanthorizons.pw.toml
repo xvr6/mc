@@ -7,6 +7,11 @@ url = "https://cdn.modrinth.com/data/uCdwusMi/versions/nVT5sVYS/DistantHorizons-
 hash-format = "sha512"
 hash = "15f1cf301c82083603d31758ef92e198703f7e5a178520ca0fed299ee1b041eb6001349683251160189ee4a1701c21cfdc39d543a816abd232422f4ca8b7e20d"
 
+[option]
+optional = true
+default = false
+description = "Enables LODs! This allows you to see well beyond the default render distance (256 chunks!) These are generated on the server-side, but still may lag your client extremely hard on first join."
+
 [update]
 [update.modrinth]
 mod-id = "uCdwusMi"
