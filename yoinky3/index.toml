@@ -50,6 +50,16 @@ hash = "126db1f1ec01bbc4cf3393e087363e2fdbfe4a3face897ed27985b14a1a519a9"
 metafile = true
 
 [[files]]
+file = "mods/bluemap.pw.toml"
+hash = "121311026aa3bb351153cfe527757261947d04ef6cc79768a53c0b058839abec"
+metafile = true
+
+[[files]]
+file = "mods/bluemapfrontiers.pw.toml"
+hash = "10ba3fd700250983f000f177eff123298612405c73a68993407acf2c9ac1fe8b"
+metafile = true
+
+[[files]]
 file = "mods/bookshelf-lib.pw.toml"
 hash = "02062a6b61e230e7debaf1c03d5e1e7203e427588fceb9f3d6ef8cad8062397e"
 metafile = true
@@ -90,6 +100,11 @@ hash = "d960f68e4c5e5f79eff91a277dc22d7acb49f04080fcf0fe1648b5a9a83e3d4f"
 metafile = true
 
 [[files]]
+file = "mods/chunky-autopause.pw.toml"
+hash = "94a537a21ed76bd7df2198550e43a4dbadc372db6e8a07b7f04c810e32ee95e3"
+metafile = true
+
+[[files]]
 file = "mods/chunky.pw.toml"
 hash = "0e17f9758f6f67ef87aa6f8d5afc47901521a05904cd8470ef65063b48e69d73"
 metafile = true
@@ -122,6 +137,11 @@ metafile = true
 [[files]]
 file = "mods/construction-wand.pw.toml"
 hash = "f0a3b2a75840024a3dfc03dc073b20e61aa41cf939cef2698308029a5f870c35"
+metafile = true
+
+[[files]]
+file = "mods/controlling.pw.toml"
+hash = "4063abe583282834b2f78e3b3e6b9ee4d231a680f74c020e405a4ef196f21ee4"
 metafile = true
 
 [[files]]
@@ -252,6 +272,11 @@ metafile = true
 [[files]]
 file = "mods/enderman-overhaul.pw.toml"
 hash = "3f63f54bf638954d1da79cacc7ab2d58e1886c98bdb2b267035abfa0ce8a5a72"
+metafile = true
+
+[[files]]
+file = "mods/endrem.pw.toml"
+hash = "cf8b399763d0fc62822c3b1e3a7f9aee6b033dcaddc3cef4bfc33b4f52f2ba7c"
 metafile = true
 
 [[files]]
@@ -420,6 +445,11 @@ hash = "15aa420ec9cf1482e0bcce52197f1f7f6208a3fead0dfabbdf655e122494040f"
 metafile = true
 
 [[files]]
+file = "mods/mapfrontiers.pw.toml"
+hash = "fe878c20c83e1d4ac34a97c370a50947ed90d765ec005c935925aaded41abe8c"
+metafile = true
+
+[[files]]
 file = "mods/mindful-darkness.pw.toml"
 hash = "8c0b39fe7dcf2de0a30bc02f07e6c23d500790dc07853be246e057b97065febb"
 metafile = true
@@ -437,6 +467,11 @@ metafile = true
 [[files]]
 file = "mods/mru.pw.toml"
 hash = "f5e19eff418ff12946e7cd4f10e16508ba7261c9cd9685e3d87016fa21c127d1"
+metafile = true
+
+[[files]]
+file = "mods/my-server-is-compatible.pw.toml"
+hash = "27cd835739eabf2e0dc092cb9670a954c6a94c193ce587178a1d1f69504fbdc1"
 metafile = true
 
 [[files]]
@@ -517,6 +552,11 @@ metafile = true
 [[files]]
 file = "mods/rubidium-extra.pw.toml"
 hash = "817b4a47826bd99c69957fe07131d5704984f89fec96287cdc20c6fbe46100cf"
+metafile = true
+
+[[files]]
+file = "mods/searchables.pw.toml"
+hash = "b8c7497acbf4890b4609b6b20de7affdd3482fc99af975d9ff6b29c075e1d8a7"
 metafile = true
 
 [[files]]
