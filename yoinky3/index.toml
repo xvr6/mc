@@ -90,11 +90,6 @@ hash = "0722da0022c3d9dcf6be08f561828222f61911b62aed7d8c75f71c126e12e1b8"
 metafile = true
 
 [[files]]
-file = "mods/cave-dust.pw.toml"
-hash = "8cecef107bc478f399553ef1b20882dcf89ad3dc0aadfef6c4a554ed5b015b9d"
-metafile = true
-
-[[files]]
 file = "mods/chimes.pw.toml"
 hash = "d960f68e4c5e5f79eff91a277dc22d7acb49f04080fcf0fe1648b5a9a83e3d4f"
 metafile = true
@@ -211,7 +206,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "e36b4b89462bfdae7f5f0607a9cb91af89fe34308c9e14978075e7c32ce3e8cb"
+hash = "276e1986d17845723e3ff29ba3fab5ca02b3647b1ae85de612408d3aa621e997"
 metafile = true
 
 [[files]]
@@ -286,7 +281,7 @@ metafile = true
 
 [[files]]
 file = "mods/expanded-ecosphere.pw.toml"
-hash = "a2daf59835c14f2c37ef6494ff7faf6cbcad02b06c38478ed0dca4085046da41"
+hash = "99319f285802f0d3eaaeaba30ad7697704e58f7508cd194c4d2ae052f8df84e1"
 metafile = true
 
 [[files]]
@@ -401,7 +396,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-zoom.pw.toml"
-hash = "af1510cb084b6687b0c40554fe401c912a17d99f2c6c5907e2aa523f1a2998f1"
+hash = "3878cbe2da91ca469763d8ea0a753cc749fd99cb8be74f666003e929eaa3046e"
 metafile = true
 
 [[files]]
@@ -411,7 +406,7 @@ metafile = true
 
 [[files]]
 file = "mods/konkrete.pw.toml"
-hash = "815ae4dfd9d1bc891988baa09341c12d05782b8a8ac7c246786930800a619457"
+hash = "ba6600d024f257ff40d4fca84e87fc553d5853b6c71f666d8597891d611b62f0"
 metafile = true
 
 [[files]]
