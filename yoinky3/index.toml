@@ -289,11 +289,6 @@ hash = "8c99a2f18765dea9f320eed774f060e1082366fafd94d406375cacfcbd117750"
 metafile = true
 
 [[files]]
-file = "mods/expanded-ecosphere.pw.toml"
-hash = "99319f285802f0d3eaaeaba30ad7697704e58f7508cd194c4d2ae052f8df84e1"
-metafile = true
-
-[[files]]
 file = "mods/fallingleavesforge.pw.toml"
 hash = "2db3a1221517a6d4344b7359463d115461844f12b001edd8d19395eecc12a7f3"
 metafile = true
@@ -621,6 +616,11 @@ metafile = true
 [[files]]
 file = "mods/terrablender.pw.toml"
 hash = "14117b94c456598c9acece143c7a0da3cf56d13182d035a74a2da8a52dd19cbd"
+metafile = true
+
+[[files]]
+file = "mods/terralith.pw.toml"
+hash = "3b61fcf1c80cfdd79282be71ddfa9cce02fc13f8d87a760db455e2a97b801f40"
 metafile = true
 
 [[files]]
