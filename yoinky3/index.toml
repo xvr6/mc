@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/alexscaves-client.toml"
+hash = "db5c9fddb7816fae75ecdb86e604c97408eca8626d785b9380a0b39d68b8bd58"
+
+[[files]]
 file = "config/tectonic.json"
 hash = "e5ba531dc5d98b2c9dd828bde206831d4603c87ee6d5f3ace41b0e7663f7d82e"
 
@@ -87,6 +91,11 @@ metafile = true
 [[files]]
 file = "mods/catalogue.pw.toml"
 hash = "0722da0022c3d9dcf6be08f561828222f61911b62aed7d8c75f71c126e12e1b8"
+metafile = true
+
+[[files]]
+file = "mods/cave-dust.pw.toml"
+hash = "8cecef107bc478f399553ef1b20882dcf89ad3dc0aadfef6c4a554ed5b015b9d"
 metafile = true
 
 [[files]]
