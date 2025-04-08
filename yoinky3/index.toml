@@ -55,11 +55,6 @@ hash = "121311026aa3bb351153cfe527757261947d04ef6cc79768a53c0b058839abec"
 metafile = true
 
 [[files]]
-file = "mods/bluemapfrontiers.pw.toml"
-hash = "10ba3fd700250983f000f177eff123298612405c73a68993407acf2c9ac1fe8b"
-metafile = true
-
-[[files]]
 file = "mods/bookshelf-lib.pw.toml"
 hash = "02062a6b61e230e7debaf1c03d5e1e7203e427588fceb9f3d6ef8cad8062397e"
 metafile = true
@@ -442,11 +437,6 @@ metafile = true
 [[files]]
 file = "mods/mantle.pw.toml"
 hash = "15aa420ec9cf1482e0bcce52197f1f7f6208a3fead0dfabbdf655e122494040f"
-metafile = true
-
-[[files]]
-file = "mods/mapfrontiers.pw.toml"
-hash = "fe878c20c83e1d4ac34a97c370a50947ed90d765ec005c935925aaded41abe8c"
 metafile = true
 
 [[files]]
