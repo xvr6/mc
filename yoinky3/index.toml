@@ -222,6 +222,11 @@ hash = "f865472be4b729bbb3a37867a6013d06d3b4cd40cc2ddf30d69b621154811939"
 metafile = true
 
 [[files]]
+file = "mods/create-utilities.pw.toml"
+hash = "32015c007bf45f87c9bd2c44885aa221c9e6bde8e76d650c35a0560ec93ecfa1"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "119d501c87aef8afa8cf89ed6f17499518c21240d7781f4331e3007e57957a79"
 metafile = true
