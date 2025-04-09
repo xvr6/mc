@@ -1,0 +1,13 @@
+name = "Create: Molten Processing"
+filename = "create-molten-processing-1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/yiluHzDs/versions/qS0esSFi/create-molten-processing-1.0.jar"
+hash-format = "sha512"
+hash = "2e2d2f9f40f725e58fa01e30039e91d27073f4bac1f2d7eeb4297a724b4b6a4cd939eb173aad743846e7116f4cc310eb803628e731cd5287a2c0117a8de830e3"
+
+[update]
+[update.modrinth]
+mod-id = "yiluHzDs"
+version = "qS0esSFi"
