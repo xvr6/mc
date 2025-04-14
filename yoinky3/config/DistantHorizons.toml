@@ -265,7 +265,7 @@ _version = 3
 		#  outside the vanilla render distance? 
 		# Depending on the generator mode, this will import existing chunks 
 		# and/or generating missing chunks.
-		enableDistantGeneration = true
+		enableDistantGeneration = false
 
 [client]
 	#
@@ -387,7 +387,9 @@ _version = 3
 
 			[client.advanced.debugging.openGl]
 				#
-				# Requires a reboot to change.
+				# Defines how OpenGL errors are handled. 
+				#  Requires rebooting Minecraft to change. 
+				# Will catch OpenGL errors thrown by other mods.
 				overrideVanillaGLLogger = true
 				#
 				# Defines how OpenGL errors are handled. 
@@ -454,7 +456,7 @@ _version = 3
 				#  overhangs or walls for floating objects. 
 				#  Tweaking the caveCullingHeight, can resolve some 
 				#  of those issues.
-				enableCaveCulling = true
+				enableCaveCulling = false
 				#
 				# Identical to the other frustum culling option
 				# only used when a shader mod is present using the DH API
@@ -613,7 +615,7 @@ _version = 3
 				# 
 				# Lowest Quality: HEIGHT_MAP
 				# Highest Quality: EXTREME
-				verticalQuality = "EXTREME"
+				verticalQuality = "MEDIUM"
 				#
 				# What blocks shouldn't be rendered as LODs? 
 				# 
@@ -644,7 +646,7 @@ _version = 3
 				# This indicates how quickly LODs decrease in quality the further away they are. 
 				# Higher settings will render higher quality fake chunks farther away, 
 				# but will increase memory and GPU usage.
-				horizontalQuality = "EXTREME"
+				horizontalQuality = "MEDIUM"
 				#
 				# How should LOD transparency be handled. 
 				# 

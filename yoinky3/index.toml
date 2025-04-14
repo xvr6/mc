@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "03cf6d58ae5bd3eb0c82147c63ea8f10fa5148b5180c3496f833f761b597092d"
+hash = "4641c44952c68616cc5c8fc2fb6d645282e10013b0997c6cf58113d24e8aa516"
 
 [[files]]
 file = "config/alexscaves-client.toml"
@@ -13,12 +13,21 @@ file = "config/autohud.json5"
 hash = "64edc8dfcb92182dab60d64e09bc03863e64c36a1b8d0d3be6b5d00167323dd1"
 
 [[files]]
+file = "config/seasons.toml"
+hash = "4de1976288b196a2a4f78608022e792b02b3006a8130d21593ead4450f7752e0"
+
+[[files]]
 file = "config/tectonic.json"
 hash = "e5ba531dc5d98b2c9dd828bde206831d4603c87ee6d5f3ace41b0e7663f7d82e"
 
 [[files]]
 file = "mods/alexs-caves.pw.toml"
 hash = "6f864eef65f9a38f57eb0cc6fc71469b36ea70444a10c3e27502d617c5eaf917"
+metafile = true
+
+[[files]]
+file = "mods/alexs-mobs-naturalist-compat.pw.toml"
+hash = "9e9c83aa2f11c8bf9a5ab8d427e65583e839383076ac2f5d54db98023e114ff4"
 metafile = true
 
 [[files]]
@@ -209,6 +218,11 @@ metafile = true
 [[files]]
 file = "mods/create-power-loader.pw.toml"
 hash = "719ad710d4cbd6bef252afe144a3609425f5b63592187448e14bbc3267d4941b"
+metafile = true
+
+[[files]]
+file = "mods/create-structures-arise.pw.toml"
+hash = "136d630b65f3961a6bcb8e5a4d5ad1d4e71ba4cfc2bb3e63b7ab7af31259f016"
 metafile = true
 
 [[files]]
@@ -427,6 +441,11 @@ hash = "d7e93654d8f8ba58742e86d26cbd9e7f563be4f8c9683f52d72777a3807d7078"
 metafile = true
 
 [[files]]
+file = "mods/ftb-essentials.pw.toml"
+hash = "ec9e13fc5fa49d1aa91d51ac05c7056578056a5fd03c96e084a4eec80aeda678"
+metafile = true
+
+[[files]]
 file = "mods/ftb-library-forge.pw.toml"
 hash = "eb351918762f5c8f05672257082d1ca144c3c9397c40d6785116d1af8b02d864"
 metafile = true
@@ -544,6 +563,11 @@ metafile = true
 [[files]]
 file = "mods/lithostitched.pw.toml"
 hash = "46b276b7afe9a1b5aa8de4fc15cdf50fbe44e485da6870c7b5f1f36c0845f276"
+metafile = true
+
+[[files]]
+file = "mods/lmft.pw.toml"
+hash = "ccb79452729ccb62e2a3afa88b80e834411ac1e9ed4712cbd27be6ba98d4ff79"
 metafile = true
 
 [[files]]
@@ -724,6 +748,11 @@ metafile = true
 [[files]]
 file = "mods/sound.pw.toml"
 hash = "4a603693baa20af56faea5e84e47d780b3ac961ead3ab8529e2dd54b42aefea4"
+metafile = true
+
+[[files]]
+file = "mods/spawn-animations.pw.toml"
+hash = "b49acca4cdb9a2af435a558088478819b2f44c2a1ae212a0aad686f2ac8dd7a7"
 metafile = true
 
 [[files]]
