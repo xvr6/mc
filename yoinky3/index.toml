@@ -185,11 +185,6 @@ hash = "e4783078375411368741c2c8d3dcebfc671cce1cc504a3418279327fce3c39f1"
 metafile = true
 
 [[files]]
-file = "mods/craftpresence.pw.toml"
-hash = "e639dbaeb10313c983e50cb64aa7dbbf011aab1df31fc46a063ea0ba6d7a3dd7"
-metafile = true
-
-[[files]]
 file = "mods/create-diesel-generators.pw.toml"
 hash = "d675e5c2b08df4fee40416e6320183a443a864f448594ffa0f02b8b396166369"
 metafile = true
@@ -415,6 +410,11 @@ hash = "22ceac3dd118087ae3f8d4254b81afa8a028edb1d9df39869320dfe84b55e319"
 metafile = true
 
 [[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "902bac905b93271f02bd0951a22bac06a3da24f5c237fcaeb469e14a7679e508"
+metafile = true
+
+[[files]]
 file = "mods/festive-delight.pw.toml"
 hash = "f673f79956cbb8366289f104c7366d0ecf0bb25c68fd8354449defcec64b0612"
 metafile = true
@@ -525,11 +525,6 @@ hash = "0a83314a5c0d8d8f356bd3a8a7a57a0b09133855a59c8ec6791a470c174d57ee"
 metafile = true
 
 [[files]]
-file = "mods/inventory-tweaks-refoxed.pw.toml"
-hash = "b69fb92fec98dc393e59fb63ad1533d8d66c230a1ddec263309dece9ae884ee3"
-metafile = true
-
-[[files]]
 file = "mods/jade-addons-forge.pw.toml"
 hash = "f8312021fd88a4952e1d50a2f156fab65314f87658d7153efc56be76a422d5cd"
 metafile = true
@@ -597,6 +592,11 @@ metafile = true
 [[files]]
 file = "mods/moonlight.pw.toml"
 hash = "f13e328561f1ee2eaf77fedcd5fcc253fb9b8b128facea35427e89bd5d95e357"
+metafile = true
+
+[[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "679fa8f3b49b9ed3fbcb29d6ccdb99bce465faa01f9cec000464ac8d4fbe134f"
 metafile = true
 
 [[files]]
@@ -807,6 +807,11 @@ metafile = true
 [[files]]
 file = "mods/trashslot.pw.toml"
 hash = "6a249583abaec5492b693b8a19e1b42abb338af6517f92004c86471df57ddfc0"
+metafile = true
+
+[[files]]
+file = "mods/treechop.pw.toml"
+hash = "f156304cd261a234aee02630dc33e8ad6b3a10898d5b0a7069d1a88f9b607813"
 metafile = true
 
 [[files]]
