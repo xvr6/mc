@@ -1,13 +1,13 @@
 name = "Create: Structures Arise"
-filename = "create_structures_arise-150.23.22-forge-1.20.1.jar"
+filename = "create_structures_arise-153.26.25-forge-1.20.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "a4bfd0df7281a7510e39ceb1ec4b30b5439349f7"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/9enMEvoc/versions/h7w5TMt9/create_structures_arise-153.26.25-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "7e6083dc727112b6602c2adc2cf8f7d86e1e2b7d4e151bb2e873d5c44045c2e1cba0d64197c99a39003e44e54e1409bf3f7e2fdaabc4e3a5874124ddfd5acc1d"
 
 [update]
-[update.curseforge]
-file-id = 6321506
-project-id = 1010066
+[update.modrinth]
+mod-id = "9enMEvoc"
+version = "h7w5TMt9"

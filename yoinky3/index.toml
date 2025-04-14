@@ -27,12 +27,12 @@ metafile = true
 
 [[files]]
 file = "mods/alexs-mobs-naturalist-compat.pw.toml"
-hash = "9e9c83aa2f11c8bf9a5ab8d427e65583e839383076ac2f5d54db98023e114ff4"
+hash = "712ff4f0e423c2af05b9fd083667da9fe3532752b3940be434641b052e1bccd1"
 metafile = true
 
 [[files]]
 file = "mods/alexs-mobs.pw.toml"
-hash = "5e1239fd67c97c042d09cf38664698c9d1a3cfbc50d779fc550c461cf6aeb565"
+hash = "e1016eb125a5a41a10f80847eb00affae0e539e703846f303949ed5d82b7f1bf"
 metafile = true
 
 [[files]]
@@ -222,7 +222,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-structures-arise.pw.toml"
-hash = "136d630b65f3961a6bcb8e5a4d5ad1d4e71ba4cfc2bb3e63b7ab7af31259f016"
+hash = "7d473074e7beac0694877d2ae11592e5fb14ef87250ae6aea1f22b2885393316"
 metafile = true
 
 [[files]]
@@ -808,6 +808,11 @@ metafile = true
 [[files]]
 file = "mods/untamedwilds.pw.toml"
 hash = "5f2012f607afe3130627a4298e4db6f8121ecfc11068de231b0f8c92ca8e87de"
+metafile = true
+
+[[files]]
+file = "mods/vminus.pw.toml"
+hash = "1bb99f86c3352e98cddc7609347eee315fa387d84b5148166505ad212408d116"
 metafile = true
 
 [[files]]
