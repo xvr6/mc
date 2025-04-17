@@ -25,8 +25,8 @@ file = "config/tectonic.json"
 hash = "e5ba531dc5d98b2c9dd828bde206831d4603c87ee6d5f3ace41b0e7663f7d82e"
 
 [[files]]
-file = "global_packs/required_data/yoinky_origins-main.zip"
-hash = "eeb82b86b8701105f142d0b04913594a81b35aac4501b0448118d41aaabf1e46"
+file = "global_packs/required_data/yoinky_origins.zip"
+hash = "a0d10438e4818fba6384d7879a57627a93746506665ff07fb482923f98ebb29a"
 
 [[files]]
 file = "mods/alexs-caves.pw.toml"
