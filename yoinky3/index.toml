@@ -544,6 +544,11 @@ hash = "66a8d44f5ef66075063ced8b54312a46bb8a256090d36df877b8ff58de9d16be"
 metafile = true
 
 [[files]]
+file = "mods/jei.pw.toml"
+hash = "7cfcef2f1142baa641151461c3e8f99fcd84f6f9f447cbc16e069a03f5aee8ca"
+metafile = true
+
+[[files]]
 file = "mods/just-zoom.pw.toml"
 hash = "8010272b270d01d09fbf64934939e9a02e7b9f91c86c6a6db54c0793e280ccbe"
 metafile = true
