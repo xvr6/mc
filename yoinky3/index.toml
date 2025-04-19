@@ -13,6 +13,10 @@ file = "config/autohud.json5"
 hash = "64edc8dfcb92182dab60d64e09bc03863e64c36a1b8d0d3be6b5d00167323dd1"
 
 [[files]]
+file = "config/lighty.config"
+hash = "1baf8d77f095e18fa8890de1c528760a8c58cd5e00babf33e95487c17fe319c0"
+
+[[files]]
 file = "config/lmft.json"
 hash = "2a2ee19297afe3fc512f5cbe639349847f3e7a74616f282d24a179a17f4559ed"
 
