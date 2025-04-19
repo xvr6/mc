@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "4641c44952c68616cc5c8fc2fb6d645282e10013b0997c6cf58113d24e8aa516"
+hash = "0018c4d6fa7fb17871fa9b010a9d8f2ff8718ca9e6ad98d262ea17f8f75ac044"
 
 [[files]]
 file = "config/alexscaves-client.toml"
