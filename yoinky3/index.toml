@@ -773,6 +773,11 @@ hash = "014f6a45e3853e6048b9bada3dc89c813adc0ffc402734c80908a9426c3fe725"
 metafile = true
 
 [[files]]
+file = "mods/simple-backups.pw.toml"
+hash = "ba0c68dbb5d164f5ed3b7a0b15c668b400d1eaca4b03ab4ee0236be24db5e1e4"
+metafile = true
+
+[[files]]
 file = "mods/sit.pw.toml"
 hash = "8e53bd7c51af468c9dd6dc8843167c4f9a55cc059dcfb127b55f9ac06c387bca"
 metafile = true
