@@ -25,6 +25,10 @@ file = "config/seasons.toml"
 hash = "4de1976288b196a2a4f78608022e792b02b3006a8130d21593ead4450f7752e0"
 
 [[files]]
+file = "config/simplebackups-common.toml"
+hash = "fbf2cc5a2ccdbe7d5dddf6bf1dc2ea8fa3666028e626095e65530a2d3a241a74"
+
+[[files]]
 file = "config/tectonic.json"
 hash = "e5ba531dc5d98b2c9dd828bde206831d4603c87ee6d5f3ace41b0e7663f7d82e"
 
@@ -630,6 +634,11 @@ metafile = true
 [[files]]
 file = "mods/mindful-darkness.pw.toml"
 hash = "acc38386a77ce600071aa0712ee3194bc98422be28c0087f11931c54a7e57af2"
+metafile = true
+
+[[files]]
+file = "mods/mixintrace-resmithed.pw.toml"
+hash = "5197de5ea708b3618af42f2c3ff9b3857e8ff7fbd4780e8711d98e03d108429b"
 metafile = true
 
 [[files]]
