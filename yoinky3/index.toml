@@ -26,7 +26,7 @@ hash = "4de1976288b196a2a4f78608022e792b02b3006a8130d21593ead4450f7752e0"
 
 [[files]]
 file = "config/simplebackups-common.toml"
-hash = "fbf2cc5a2ccdbe7d5dddf6bf1dc2ea8fa3666028e626095e65530a2d3a241a74"
+hash = "dd69728bebf1c465e0916dfe4b0eea780b8aa3f165c0471a78ceae1db8416247"
 
 [[files]]
 file = "config/tectonic.json"
