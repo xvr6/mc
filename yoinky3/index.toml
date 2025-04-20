@@ -197,11 +197,6 @@ hash = "4063abe583282834b2f78e3b3e6b9ee4d231a680f74c020e405a4ef196f21ee4"
 metafile = true
 
 [[files]]
-file = "mods/coroutil.pw.toml"
-hash = "b2c7739b56ef71f50a86658cfa67375796beafd391c4dbe26a5de8cd92b9b685"
-metafile = true
-
-[[files]]
 file = "mods/crabbers-delight.pw.toml"
 hash = "e4783078375411368741c2c8d3dcebfc671cce1cc504a3418279327fce3c39f1"
 metafile = true
@@ -597,11 +592,6 @@ hash = "b6ed220c9069f60704dbfe19fd55c976ca56ada35bcb6918c4ad226cd842b99c"
 metafile = true
 
 [[files]]
-file = "mods/leaves-be-gone.pw.toml"
-hash = "9a5e498a9c596fb0bfbab74173aa854257466e8c538d15c1966ce268b3267575"
-metafile = true
-
-[[files]]
 file = "mods/lighty.pw.toml"
 hash = "94aa69e3f800f454553aa7f80b8e28a4751d58487775100fb60ae16bbd799259"
 metafile = true
@@ -723,7 +713,7 @@ metafile = true
 
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
-hash = "74991cede8019cf93d1243369d840913375ab3a7d448d764c7a15f87f5bc4e52"
+hash = "ad777301cc52714b043daee10e94f91d3311970178d29e1f4d0328b8e8a9313d"
 metafile = true
 
 [[files]]
@@ -889,11 +879,6 @@ metafile = true
 [[files]]
 file = "mods/untamedwilds.pw.toml"
 hash = "5f2012f607afe3130627a4298e4db6f8121ecfc11068de231b0f8c92ca8e87de"
-metafile = true
-
-[[files]]
-file = "mods/what-are-they-up-to.pw.toml"
-hash = "c557d1b26559ef987c229187d2f2705616e78179ce04fa1c96cc3d76a1cdf1b5"
 metafile = true
 
 [[files]]
