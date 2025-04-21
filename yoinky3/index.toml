@@ -14,7 +14,7 @@ hash = "64edc8dfcb92182dab60d64e09bc03863e64c36a1b8d0d3be6b5d00167323dd1"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "50ad5d594227c0158db42f38be7a3a0cf446a55530833cc9d2790237bdc3ef45"
+hash = "512bccf52ec00a472b4d250ca405de9fab3f9383c0831081234a1b8ddfac70f6"
 
 [[files]]
 file = "config/lighty.config"
