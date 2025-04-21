@@ -1,6 +1,6 @@
 name = "Puzzles Lib"
 filename = "PuzzlesLib-v8.1.32-1.20.1-Forge.jar"
-side = "client"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/QAGBst4M/versions/YFZdsqXl/PuzzlesLib-v8.1.32-1.20.1-Forge.jar"
