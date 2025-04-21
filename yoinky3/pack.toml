@@ -1,16 +1,17 @@
 name = "Yoinky 3"
 author = "Prectriv"
-version = "1.0.5"
+version = "1.0.6"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "37d8fb5d3d8c4e1a5efe372af83a7ece2e2311e0ea85b29242006615572bdf6a"
+hash = "16b86eecd433f4679c52844818b171d2a2b34f1577bc3312114f7444aa68cdc3"
 
 [versions]
 forge = "47.3.0"
 minecraft = "1.20.1"
 
 [options]
+acceptable-game-versions = ["fabric"]
 datapack-folder = "global_packs/required_data"

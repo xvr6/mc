@@ -3,11 +3,11 @@ filename = "sophisticatedcore-1.20.1-1.2.46.956.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "72571f1fc7a6dcba97d4470cb893172ff5718e03"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/nmoqTijg/versions/uVJCHLez/sophisticatedcore-1.20.1-1.2.46.956.jar"
+hash-format = "sha512"
+hash = "bb4a296aeff4dd0a9b048e6897a7b5fa216a71e26a79bc68161f8bb5becaa2085ff3b2c9e8b743782627f250e0cc05a7fff076668933a26097643a057a41451e"
 
 [update]
-[update.curseforge]
-file-id = 6448228
-project-id = 618298
+[update.modrinth]
+mod-id = "nmoqTijg"
+version = "uVJCHLez"
