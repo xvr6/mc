@@ -38,7 +38,7 @@ hash = "e5ba531dc5d98b2c9dd828bde206831d4603c87ee6d5f3ace41b0e7663f7d82e"
 
 [[files]]
 file = "global_packs/required_data/yoinky_origins.zip"
-hash = "a0d10438e4818fba6384d7879a57627a93746506665ff07fb482923f98ebb29a"
+hash = "5423d7d4d2e7f3abd8f1eb112a3008ca5c261fc91eab7aee4f0a7f9617f58519"
 
 [[files]]
 file = "mods/alexs-caves.pw.toml"
@@ -436,11 +436,6 @@ hash = "8c99a2f18765dea9f320eed774f060e1082366fafd94d406375cacfcbd117750"
 metafile = true
 
 [[files]]
-file = "mods/extended-drawers.pw.toml"
-hash = "21bdbce23d3cef1dca238e5797f4b87b1e3eb44c8c213e51cd73c51bf55cdced"
-metafile = true
-
-[[files]]
 file = "mods/fallingleavesforge.pw.toml"
 hash = "2db3a1221517a6d4344b7359463d115461844f12b001edd8d19395eecc12a7f3"
 metafile = true
@@ -823,6 +818,11 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
 hash = "6780eff549e8adc3da4678a80f2009fcccf25cea6f8997c3b14f7a95111ec591"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-storage-create-integration.pw.toml"
+hash = "30924a285b07f898b84e5c9a54170c05a69a97d79ed7913882e0723b2cabd26d"
 metafile = true
 
 [[files]]
