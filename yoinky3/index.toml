@@ -156,6 +156,11 @@ hash = "d960f68e4c5e5f79eff91a277dc22d7acb49f04080fcf0fe1648b5a9a83e3d4f"
 metafile = true
 
 [[files]]
+file = "mods/chunk-sending-forge-fabric.pw.toml"
+hash = "4ab858babfd5ef7474b4e78c93b1819a78eef5b92ca30349f16aaa82f883fc55"
+metafile = true
+
+[[files]]
 file = "mods/chunky-autopause.pw.toml"
 hash = "94a537a21ed76bd7df2198550e43a4dbadc372db6e8a07b7f04c810e32ee95e3"
 metafile = true
@@ -238,6 +243,11 @@ metafile = true
 [[files]]
 file = "mods/create-new-age.pw.toml"
 hash = "705f2896491dcb762ea9585a9d72f9482dcfd326796c3d9554764a5431aba844"
+metafile = true
+
+[[files]]
+file = "mods/create-pattern-schematics.pw.toml"
+hash = "e84e0a242227bb9c314e32e4b0cff900f3e052f4cdf65276edb8621dbbc83608"
 metafile = true
 
 [[files]]
@@ -328,6 +338,11 @@ metafile = true
 [[files]]
 file = "mods/cultural-delights.pw.toml"
 hash = "16adcd779e8cf3e206f1e42b2ce1cce18aaf2b786257cb04eafefbe5991a8345"
+metafile = true
+
+[[files]]
+file = "mods/cupboard.pw.toml"
+hash = "2eb26b157c4159bfeff6a00147afa35284397d558f84b55367d1a41064d7456a"
 metafile = true
 
 [[files]]
@@ -458,6 +473,11 @@ metafile = true
 [[files]]
 file = "mods/findme.pw.toml"
 hash = "f608b8ea0277a4a27e4f61f17ac689f9d2d105e5ebcd2b0893caa437fd576af4"
+metafile = true
+
+[[files]]
+file = "mods/fix-gpu-memory-leak.pw.toml"
+hash = "e60a8e1a8559394229fbd54e3e386709f10d3a693f0d470b3708da08736efaae"
 metafile = true
 
 [[files]]
@@ -628,6 +648,11 @@ metafile = true
 [[files]]
 file = "mods/lmft.pw.toml"
 hash = "ccb79452729ccb62e2a3afa88b80e834411ac1e9ed4712cbd27be6ba98d4ff79"
+metafile = true
+
+[[files]]
+file = "mods/login-protection.pw.toml"
+hash = "2cc3e04346dd40e35885ad4f64ce5bc1362d5a4882c58fc53717fe12aa389002"
 metafile = true
 
 [[files]]
@@ -808,6 +833,11 @@ metafile = true
 [[files]]
 file = "mods/sit.pw.toml"
 hash = "8e53bd7c51af468c9dd6dc8843167c4f9a55cc059dcfb127b55f9ac06c387bca"
+metafile = true
+
+[[files]]
+file = "mods/smooth-chunk-save.pw.toml"
+hash = "a061b4f98461fc38b4ff6495b5e3a9b8708e9d87333c2cbb29e6b265053a5abe"
 metafile = true
 
 [[files]]

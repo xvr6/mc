@@ -1,12 +1,12 @@
 name = "Yoinky 3"
 author = "Prectriv"
-version = "1.0.6"
+version = "1.0.7"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "a893c1eb557888ec454b85bda3b489e1e83e3dd6c7483c527400159a0dd36449"
+hash = "85f8e6a7e2f1f9818b54f2202d45dbf9ee15b1eff112df859c3d9b966c4e9691"
 
 [versions]
 forge = "47.3.0"
