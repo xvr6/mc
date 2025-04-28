@@ -1,13 +1,13 @@
-name = "Caelus API (Forge/NeoForge)"
+name = "Caelus API"
 filename = "caelus-forge-3.2.0+1.20.1.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/40FYwb4z/versions/mRry0DgY/caelus-forge-3.2.0%2B1.20.1.jar"
 hash-format = "sha512"
-hash = "c2cd101a569fc124a3c25b692cce5825ebfce908985532dba6cb694407da09404654c7c9877ac0295327eb3351fca1d3a6088ca23ef98f76d3eabf7ad4d7d5ff"
-mode = "metadata:curseforge"
+hash = "906baad404c33288d8daf8937bc6a85d3bcc03db67a4a68395b8f01eea57f773420ff97919aadb08a7618b62b0c6c3db72270f9c3af836b822385464f509cf78"
 
 [update]
-[update.curseforge]
-file-id = 5281700
-project-id = 308989
+[update.modrinth]
+mod-id = "40FYwb4z"
+version = "mRry0DgY"

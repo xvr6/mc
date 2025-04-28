@@ -5,7 +5,7 @@ side = "both"
 [download]
 url = "https://cdn.modrinth.com/data/EltpO5cN/versions/uZTpIy1Z/lootr-forge-1.20-0.7.35.90.jar"
 hash-format = "sha512"
-hash = "105e53ae17a14f918c88f47a0465ad836f3000073813b5538bf9b5f72204050106d8d0813561c466306d16a76b6030c1394543968588d8dba8c19b972e9c3895"
+hash = "57830390a8d3fb59b0950aa0a422d31e3d18eeff09a77175548876d322e2f395a69a2720d988f256cfdebde26ec54f1cf1e1c35b6b3ae3aea42855906b816421"
 
 [update]
 [update.modrinth]

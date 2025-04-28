@@ -3,11 +3,11 @@ filename = "origins-forge-1.20.1-1.10.0.9-all.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/jl3m2lR9/versions/vynFXywM/origins-forge-1.20.1-1.10.0.9-all.jar"
 hash-format = "sha512"
-hash = "1aa952c8a3545ac2dcdc9802018cfcf9a20fd76cedcc62f82529051e0873537f8cd401f91c95c5a910e6f2a3083a8a260ee6b2b758710740fe9e74d1cee98200"
-mode = "metadata:curseforge"
+hash = "b103ac2ac509e98eaceedf04891bbe302e82f8b4a7fc3790b3d63bd912306bb09f9925489473211627a7a87d2049672a3e66c5cf6f5b1e34e62049f3a43d0e5d"
 
 [update]
-[update.curseforge]
-file-id = 5314209
-project-id = 474438
+[update.modrinth]
+mod-id = "jl3m2lR9"
+version = "vynFXywM"
