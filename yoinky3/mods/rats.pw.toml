@@ -3,8 +3,8 @@ filename = "Rats-1.20.1-8.1.3.jar"
 side = "both"
 
 [download]
-hash-format = "sha256"
-hash = "9a73aa327f8d48a06208bb6f47f03799e061eac8714f09301df0ef5d34ca5f3c"
+hash-format = "sha512"
+hash = "9743b737d2ecbb102d5d3f27e9e3a21dfce3bbe62be8c63669e864b210b15564c738272139f1db7730dd57a5425b730d382d369fbff90299f8bd1c957868bfe4"
 mode = "metadata:curseforge"
 
 [update]

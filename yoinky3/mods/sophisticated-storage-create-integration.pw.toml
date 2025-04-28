@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/MJ0hdevs/versions/IdGwhd1j/sophisticatedstoragecreateintegration-1.20.1-0.1.9.28.jar"
-hash-format = "sha256"
-hash = "b89d5deec4b334277de80390a7a5b40fff01a4588f14510744ed755696b4e290"
+hash-format = "sha512"
+hash = "f8efc7ae8d6334f4fc79ea6daf2cb57d2cc733c9f8e02bd9d438ebf8162aa54a86a188d5615c932a724ace5a63d42debd43132d060c760e480f8688ba56507f8"
 
 [update]
 [update.modrinth]

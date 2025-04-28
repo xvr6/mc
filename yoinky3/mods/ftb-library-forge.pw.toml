@@ -3,8 +3,8 @@ filename = "ftb-library-forge-2001.2.9.jar"
 side = "both"
 
 [download]
-hash-format = "sha256"
-hash = "8ceb5eb471c6feb899c02a9d560917dcc460cd0cb0d6b77d3237889cffb7e1d9"
+hash-format = "sha512"
+hash = "51158a57623562253ae2940d67a6ae172e1c558bf06f288bb61dab2f182a8945ade5a8e9e192a3c94fad686c37063158c2bcacd202f0ccb73f0c1fc57f7dcf0d"
 mode = "metadata:curseforge"
 
 [update]

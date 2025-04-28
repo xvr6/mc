@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/IZaMGxb0/versions/i1GPEWXO/excavatedvariants-neoforge-1.20.1-3.0.9.jar"
-hash-format = "sha256"
-hash = "f324cc18aa87a9400509c092155bc892a5be91df5e89a0239170ccc49f131519"
+hash-format = "sha512"
+hash = "32be0d33a889bae5275fa53e8c45312e5573b006a36f8fb44f1f48d3fa40be9f1077765e3c33899eb26f54677bfbbacb9452000279df9e2591e47e4ea6a3b250"
 
 [update]
 [update.modrinth]

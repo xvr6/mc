@@ -3,8 +3,8 @@ filename = "HostileNeuralNetworks-1.20.1-5.3.3.jar"
 side = "both"
 
 [download]
-hash-format = "sha256"
-hash = "dcddfb263a0eaf3d69c160d3532802b7f821cb4cc8f6a62aa8c35adde4eaa592"
+hash-format = "sha512"
+hash = "b9d2ae44efd361eb91822f51f50644820f908425953e5b4d4f2a9c3c55e7f43275e1e3dbc8d8f40ca2d3b6a078ff6aa45127372874aaef4bd3d91c5cc25e285a"
 mode = "metadata:curseforge"
 
 [update]

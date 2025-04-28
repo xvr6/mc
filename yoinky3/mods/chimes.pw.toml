@@ -3,8 +3,8 @@ filename = "Chimes-v2.0.1-1.20.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha256"
-hash = "186fafcb94a1d93847f84ab89d63d2e20ec0fd748f79acc0cec7d6abb371b204"
+hash-format = "sha512"
+hash = "a740f45553c945e0cc255390c5f84db9de2efc0f801c5c3a8580662fd5521b5ee9633c07ae8453f3a54d785f49aef7eed97e279ccd714137c4ab3d560c3600d3"
 mode = "metadata:curseforge"
 
 [update]

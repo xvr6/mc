@@ -3,8 +3,8 @@ filename = "global_packs-forge-1.19.4-1.16.2_forge.jar"
 side = "both"
 
 [download]
-hash-format = "sha256"
-hash = "077aedf66d7b1850a128df622734c802ad2e629e4eeec215ece218c41ea26483"
+hash-format = "sha512"
+hash = "67d09e386a2b221951dae9f2e4e1e4c5a3b5dfcc8bf9c8b793b267f174b68daf42dc59bfbc022b3e9ebeea6c320a2517401a7c61e46948d3fe9c76e634f6ab0a"
 mode = "metadata:curseforge"
 
 [update]

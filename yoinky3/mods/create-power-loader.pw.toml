@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/wPQ6GgFE/versions/4LadWtSk/create_power_loader-2.0.0-mc1.20.1.jar"
-hash-format = "sha256"
-hash = "2bf211c1cd627cab26ddaf54624b4968c360ec00c127040f112aac644089e96f"
+hash-format = "sha512"
+hash = "6e0b17ec9ad6090864b6b8eec041dc1468a2f7fa6b485df0225abfb2c074093595ed81c380e88796fcdd14cef640133236eba78b306815a173c3ea16c4876a36"
 
 [update]
 [update.modrinth]

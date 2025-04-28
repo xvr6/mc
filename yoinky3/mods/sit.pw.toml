@@ -3,8 +3,8 @@ filename = "sit-1.20.1-1.3.5.jar"
 side = "both"
 
 [download]
-hash-format = "sha256"
-hash = "18f9f0bf3a9b4f77ad6913c28ccb927cde24f5d19524152cfe79ebb3dcccacc5"
+hash-format = "sha512"
+hash = "febe0456384ecc71d1366535ac49c4852820bba19704f4f23e453f9855e1494dfe1c7d9ac617e353baf18a805bfb6fbd9728c5f0641120cd8e5d93ead0c29bd0"
 mode = "metadata:curseforge"
 
 [update]

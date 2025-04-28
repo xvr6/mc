@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/TaSmHw8V/versions/KViAadNz/immersive_melodies-0.4.0%2B1.20.1-forge.jar"
-hash-format = "sha256"
-hash = "0a4f12e2d70f6846a52871f352d328545197273af4a76e783482409bf51d0f63"
+hash-format = "sha512"
+hash = "2ba146dcdd481f805030e42ac18167c2e5f2fc9c7ae4ffd3dcd4180ada88d86ea33174131ab4230900482fa3d3108523ef73ded6cdcb1bb0f4acbca885345738"
 
 [update]
 [update.modrinth]
