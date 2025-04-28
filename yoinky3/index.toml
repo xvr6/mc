@@ -632,7 +632,7 @@ metafile = true
 
 [[files]]
 file = "mods/leaves-be-gone.pw.toml"
-hash = "a0e19506d51df4701b20006fbeecf8ee792c74d1c8de7e7fe34ad5af891e3368"
+hash = "071ae7387afbd840ec0142a0a07c2edf31d28a0a43334ce1e0786eca4e9d715b"
 metafile = true
 
 [[files]]
@@ -992,5 +992,5 @@ metafile = true
 
 [[files]]
 file = "mods/yungs-better-witch-huts.pw.toml"
-hash = "e25c97f72666319efdd79eafc22301376446912cbb8ac14339c428c98e3ce1b5"
+hash = "35e69603e8b8b3c999f2054d34949578088c40d0042e13678fd1f85d793add34"
 metafile = true
