@@ -5,14 +5,9 @@ side = "client"
 [download]
 url = "https://cdn.modrinth.com/data/ETlrkaYF/versions/QzVMYIfG/cwb-forge-3.0.0%2Bmc1.20.jar"
 hash-format = "sha512"
-hash = "1e8237e0fc4dd7e00a3ad30c5c02a82eeed63aed4544310cfdee863ac95b626874773f599779b985e6e460869804c036e1336c2720fbb34a3b09445434c063c8"
+hash = "0eb5f0d4ec7739c4cd767fbabf37c00b23c7435546072d82431e08b1b72c87cff5f36fd800f85881497ab764b62f15908fbca8f92b25620975d8a0da9c945765"
 
 [update]
 [update.modrinth]
 mod-id = "ETlrkaYF"
 version = "QzVMYIfG"
-
-[option]
-optional = true
-description = "Allows for better Borderless Fullscreen!"
-default = true
