@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/fFEIiSDQ/versions/PAtUBEPn/supplementaries-1.20-3.1.26.jar"
-hash-format = "sha512"
-hash = "56eefcf1fd712b61931fa54bbd4cb095dcee470da089c595f7ebd08c7bcc3bbeb5a5705922262ff25f74872ff870ed5e589a6233a6323c958df3cb305883ed49"
+hash-format = "sha256"
+hash = "d78c1760b2f0174ce1fb6be0de9f589da1f95de22315a179586da1e8262c3a16"
 
 [update]
 [update.modrinth]

@@ -3,8 +3,8 @@ filename = "logprot-1.20.1-3.5.jar"
 side = "server"
 
 [download]
-hash-format = "sha1"
-hash = "26347b80241985cc80022fee9dbc3e62593cbe88"
+hash-format = "sha256"
+hash = "22374c27fefbba07c4f62b5cfb212ab186e43b24025252ba42579632c1e5052a"
 mode = "metadata:curseforge"
 
 [update]

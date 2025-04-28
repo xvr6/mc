@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/h1E7sQNL/versions/KryzW6PO/CustomPlayerModels-1.20-0.6.21a.jar"
-hash-format = "sha512"
-hash = "7125fba97ba10244d32c016d883ab97dd4e49f12fc7f84a38d469e80be7e5ec3745a6824513a82ed35daa3a0340ab2e3a98cb7e8fa82efdb585399ea8ea1662a"
+hash-format = "sha256"
+hash = "07129178ab11a6721fb1f1671ce208d7620eabcef2569c8b0f539311ad38e1e6"
 
 [update]
 [update.modrinth]

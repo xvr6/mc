@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/83pFEQVb/versions/gC6FX5Kn/dynamicassetgenerator-forge-1.20.1-4.2.2.jar"
-hash-format = "sha512"
-hash = "33f1650bcf3d935eb565b36f798528853063ef08c62e2e7064c8112ed3a485e2676e10ec777d8299de9137f0da4455a623ecf1b4778dfda964587185557bd879"
+hash-format = "sha256"
+hash = "bea425ef7e9cd27a7fc0f4b89e00cbd0a1ee050f071ecaa9f28f7238f400f0a3"
 
 [update]
 [update.modrinth]

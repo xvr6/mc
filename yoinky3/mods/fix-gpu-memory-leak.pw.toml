@@ -3,8 +3,8 @@ filename = "gpumemleakfix-1.20.1-1.8.jar"
 side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "54301c2db5467e0f9f5c504887436f358335331f"
+hash-format = "sha256"
+hash = "a7019442f1b07b1a4a875fe404d04d162905cc7fd42e0b3c843aefc7b39efc46"
 mode = "metadata:curseforge"
 
 [update]

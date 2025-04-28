@@ -3,8 +3,8 @@ filename = "mixintracereforged-forge-1.0.0-1.20.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "e00d8db134dfa4493ba2586198b133336c56ca5c"
+hash-format = "sha256"
+hash = "f3ea75ede08479db2b6424b4a3dbcb089908b6cc41c26b82525ea9db642fdcf8"
 mode = "metadata:curseforge"
 
 [update]

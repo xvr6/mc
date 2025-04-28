@@ -3,8 +3,8 @@ filename = "caelus-forge-3.2.0+1.20.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "fa834f140bf7dce7b67c29b46cb531f4309d3209"
+hash-format = "sha256"
+hash = "37495445e79df8b30a3a038a0051f3c8aa8447f91a9d0aa0d20baef69dda9368"
 mode = "metadata:curseforge"
 
 [update]

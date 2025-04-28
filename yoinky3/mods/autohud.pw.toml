@@ -4,15 +4,14 @@ side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/temczoTQ/versions/FmdEZnCk/autohud-8.4%2B1.20.1-forge.jar"
-hash-format = "sha512"
-hash = "450872d3ad8886b59b9aadc187c58121bc364251faba9d22b573a64bc2ffebd4044a5db6d691cbd0684d1574624b78a73febd7a9ea9fc58886ac46bdfcf36ffb"
-
-[option]
-optional = true
-default = false
-description = "Automatically hides the HUD when exploring. (Weaver loves it so its here)"
+hash-format = "sha256"
+hash = "798815e89c37386a22b56893002539f905651d0217e99c19750abe97309ff315"
 
 [update]
 [update.modrinth]
 mod-id = "temczoTQ"
 version = "FmdEZnCk"
+
+[option]
+optional = true
+description = "Automatically hides the HUD when exploring. (Weaver loves it so its here)"

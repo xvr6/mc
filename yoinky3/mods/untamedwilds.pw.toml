@@ -3,8 +3,8 @@ filename = "untamedwilds-1.20.1-4.0.4.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "c156f9e8730c39650fe13c8f612de87529d4abcf"
+hash-format = "sha256"
+hash = "47782ad2e846fa2b3c3dfba5305b9b4dbe752cc6ab1b17b1fd314a1a63b1ebbb"
 mode = "metadata:curseforge"
 
 [update]

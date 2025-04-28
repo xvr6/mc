@@ -4,8 +4,8 @@ side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/jawg7zT1/versions/inDklMG3/cavedust-2.0.4-1.20.1-forge.jar"
-hash-format = "sha512"
-hash = "eda2168acb6d0bd4ee7ad8ec039e38baee76d89025e7c3515b3c9a789dc90d8e4f66ae6defdd1d48cb4081fb4725103a372fb795ef3ea7cf4b69aef7aed88c29"
+hash-format = "sha256"
+hash = "2fe10b7d7958a9f0977f57c84cddc7fb2501cc329e1459c7704156d207e3f0a7"
 
 [update]
 [update.modrinth]
