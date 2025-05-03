@@ -17,6 +17,10 @@ file = "config/carryon-common.toml"
 hash = "512bccf52ec00a472b4d250ca405de9fab3f9383c0831081234a1b8ddfac70f6"
 
 [[files]]
+file = "config/immersive_paintings.json"
+hash = "70a47eb535486335fb63bc482652dcb2ab99f6db74e0e502f7969c6d4d88a9b7"
+
+[[files]]
 file = "config/lighty.config"
 hash = "1baf8d77f095e18fa8890de1c528760a8c58cd5e00babf33e95487c17fe319c0"
 
