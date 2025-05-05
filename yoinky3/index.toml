@@ -179,11 +179,6 @@ hash = "d960f68e4c5e5f79eff91a277dc22d7acb49f04080fcf0fe1648b5a9a83e3d4f"
 metafile = true
 
 [[files]]
-file = "mods/chunk-sending-forge-fabric.pw.toml"
-hash = "4affa1bb29bc9f8ea212e7aa6e3a4b390c7c69d57355c01f073aa1ed52377049"
-metafile = true
-
-[[files]]
 file = "mods/chunky-autopause.pw.toml"
 hash = "94a537a21ed76bd7df2198550e43a4dbadc372db6e8a07b7f04c810e32ee95e3"
 metafile = true
