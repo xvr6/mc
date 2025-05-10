@@ -13,6 +13,10 @@ file = "config/apotheosis/apotheosis.cfg"
 hash = "0f8db50adcc9b8e6c22ec989b332b1f7fa93015ef71a3ad9df6d8f25e7d8a4db"
 
 [[files]]
+file = "config/apotheosis/enchantments.cfg"
+hash = "e592f60ccf0b0ffb5af54613cbd1909deff3c04dfd2c3fe0f27c4a6036ff3077"
+
+[[files]]
 file = "config/autohud.json5"
 hash = "64edc8dfcb92182dab60d64e09bc03863e64c36a1b8d0d3be6b5d00167323dd1"
 
