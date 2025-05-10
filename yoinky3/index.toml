@@ -38,7 +38,7 @@ hash = "4de1976288b196a2a4f78608022e792b02b3006a8130d21593ead4450f7752e0"
 
 [[files]]
 file = "config/simplebackups-common.toml"
-hash = "dd69728bebf1c465e0916dfe4b0eea780b8aa3f165c0471a78ceae1db8416247"
+hash = "dafa44f0f90852c799bfe7fca873d472e0942280d8f4aaf227bef1ccbbc673d5"
 
 [[files]]
 file = "config/tectonic.json"
@@ -179,13 +179,18 @@ hash = "d960f68e4c5e5f79eff91a277dc22d7acb49f04080fcf0fe1648b5a9a83e3d4f"
 metafile = true
 
 [[files]]
+file = "mods/chunk-sending-forge-fabric.pw.toml"
+hash = "4ab858babfd5ef7474b4e78c93b1819a78eef5b92ca30349f16aaa82f883fc55"
+metafile = true
+
+[[files]]
 file = "mods/chunky-autopause.pw.toml"
 hash = "94a537a21ed76bd7df2198550e43a4dbadc372db6e8a07b7f04c810e32ee95e3"
 metafile = true
 
 [[files]]
 file = "mods/chunky.pw.toml"
-hash = "0e17f9758f6f67ef87aa6f8d5afc47901521a05904cd8470ef65063b48e69d73"
+hash = "2274e08910d949f9962383e2314e8d42490f2e8195782786392614d0f0879629"
 metafile = true
 
 [[files]]
@@ -355,7 +360,7 @@ metafile = true
 
 [[files]]
 file = "mods/cupboard.pw.toml"
-hash = "463a4a8255f249f144408b93b839b3d02303edf543304bc5e8c610065183215a"
+hash = "1619b4a2829a8f4682d4be567a08d15110908269e66fb5244418114fabf51e18"
 metafile = true
 
 [[files]]
@@ -865,7 +870,7 @@ metafile = true
 
 [[files]]
 file = "mods/smooth-chunk-save.pw.toml"
-hash = "4e8bd2fcb5228fb0ee68312697356288e0fd770084a081c3f6269f43a5632370"
+hash = "4d6a90c4ae11d2f7139cbb5414cb88fe13a96eaa8d23bf7a8a1bdd4500538492"
 metafile = true
 
 [[files]]

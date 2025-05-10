@@ -26,7 +26,7 @@ sendMessages = true
 #The max size of storage the backup folder. If it takes more storage, old files will be deleted.
 #Needs to be written as <number><space><storage type>
 #Valid storage types: B, KB, MB, GB, TB
-maxDiskSize = "100 GB"
+maxDiskSize = "500 GB"
 #Used to define the output path.
 outputPath = "simplebackups"
 #Create backups, even if nobody is online
@@ -39,5 +39,5 @@ createSubDirs = false
 useTickCounter = false
 
 [mod_compat]
-        #Should backup notifications be sent to Discord by using mc2discord? (needs to be installed)
-        mc2discord = true
+	#Should backup notifications be sent to Discord by using mc2discord? (needs to be installed)
+	mc2discord = false
