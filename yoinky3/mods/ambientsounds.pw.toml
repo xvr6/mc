@@ -1,13 +1,13 @@
 name = "AmbientSounds"
-filename = "AmbientSounds_FORGE_v6.1.8_mc1.20.1.jar"
+filename = "AmbientSounds_FORGE_v6.1.9_mc1.20.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/fM515JnW/versions/PDmfRznc/AmbientSounds_FORGE_v6.1.8_mc1.20.1.jar"
+url = "https://cdn.modrinth.com/data/fM515JnW/versions/Azcdw9vT/AmbientSounds_FORGE_v6.1.9_mc1.20.1.jar"
 hash-format = "sha512"
-hash = "10b8e34696583a6354c857ff00a15f7fa8978686a0dab4301bfc8cf11d24661ac296af9d481642f18145f21c241876eb40189b095b0505818fe44769ab63b665"
+hash = "7f50aca7fd415b8ccbab47d28b5f7fecc5bc83f7c6964d6b40222f02119f453e515e00659b11f3c4797e403d39e11796b467d7f06a0ec30c257a6a1948767eec"
 
 [update]
 [update.modrinth]
 mod-id = "fM515JnW"
-version = "PDmfRznc"
+version = "Azcdw9vT"
