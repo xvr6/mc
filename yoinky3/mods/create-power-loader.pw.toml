@@ -1,13 +1,13 @@
 name = "Create: Power Loader"
-filename = "create_power_loader-2.0.0-mc1.20.1.jar"
+filename = "create_power_loader-2.0.3-mc1.20.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/wPQ6GgFE/versions/4LadWtSk/create_power_loader-2.0.0-mc1.20.1.jar"
+url = "https://cdn.modrinth.com/data/wPQ6GgFE/versions/gQuz8jcV/create_power_loader-2.0.3-mc1.20.1.jar"
 hash-format = "sha512"
-hash = "4f99ab6b0e7163a805cbbb925d493f275ac082a5a924b781ceec3e3b123e57693fa96a1a0c35686f841b7f973546c617a99db99affe3b5fda5ffa97c68ede6d2"
+hash = "cce4eeb6a7dc942f24f0a7b4182c1b92898b3cc998a876d910148a498d0a39ac8a37fb7d9b66ee81dadd422b9fe42ff57c7f5f9aa05dcdde80b64c04cfb9d55d"
 
 [update]
 [update.modrinth]
 mod-id = "wPQ6GgFE"
-version = "4LadWtSk"
+version = "gQuz8jcV"

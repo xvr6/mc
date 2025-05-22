@@ -37,6 +37,10 @@ file = "config/lmft.json"
 hash = "2a2ee19297afe3fc512f5cbe639349847f3e7a74616f282d24a179a17f4559ed"
 
 [[files]]
+file = "config/mindfuldarkness-client.toml"
+hash = "72288575fba4f1bcdb9013b57c3b18f956b94164ff29eb96fe3c2ddfeb094060"
+
+[[files]]
 file = "config/seasons.toml"
 hash = "4de1976288b196a2a4f78608022e792b02b3006a8130d21593ead4450f7752e0"
 
@@ -69,7 +73,7 @@ metafile = true
 
 [[files]]
 file = "mods/ambientsounds.pw.toml"
-hash = "155bf176cec5f849aed266e39716932f73a7a32f45a36b7b6a64b3fd3ce80bff"
+hash = "252f756f2ed3073d34560aeb39e25298285ecaae6db344addc24d2aea8ee3c19"
 metafile = true
 
 [[files]]
@@ -109,7 +113,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "4439e1b9d2a828841dc521295308836fb16d8a9ea37ec998fe7593eb7399c9e6"
+hash = "3afd17e47ffde236c82d70bb36feb74bf0b405be3ea8a23e06599ef40fcc999d"
 metafile = true
 
 [[files]]
@@ -269,12 +273,12 @@ metafile = true
 
 [[files]]
 file = "mods/create-power-loader.pw.toml"
-hash = "719ad710d4cbd6bef252afe144a3609425f5b63592187448e14bbc3267d4941b"
+hash = "255864fc7aa8e28619e5ddbf9094623bfcc9d6caa260bc0cd3d32b39d45a532f"
 metafile = true
 
 [[files]]
 file = "mods/create-structures-arise.pw.toml"
-hash = "75854d5ae49ac1423d65b79e6e3fe28923fa71aaf9becab9a6ce19776cc570e0"
+hash = "d8a55666021a5da70a7744ff765a5caffd065b2e9a73fcc4b65a9602d8cd8e72"
 metafile = true
 
 [[files]]
@@ -519,7 +523,7 @@ metafile = true
 
 [[files]]
 file = "mods/framework.pw.toml"
-hash = "2a4f28e582d8bb538efaeb0faa5a8592f44b2e90dd192af58852f45aa7be8be8"
+hash = "376f8a190f00bd120193d7a665ebe1b03dfe329cc395f7d944f7216c1182c84d"
 metafile = true
 
 [[files]]
@@ -534,7 +538,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-essentials.pw.toml"
-hash = "e196c44c69785ae15eb47a10207fee12362d34e63d94f663a00aa58e26313c37"
+hash = "8cf91dcad4590fed49069cdae47b211bdbee7da6e0c175ae802421ec6a961ae1"
 metafile = true
 
 [[files]]
@@ -609,7 +613,7 @@ metafile = true
 
 [[files]]
 file = "mods/immersive-melodies.pw.toml"
-hash = "270dc0990d6d6520f6915402fe1e59a1759b6c102b97a3ef949cf96a07423f03"
+hash = "badaab4d45a8d5b5e477d3e49697671a012a8148d8f0b4439095d1aa042ffdd6"
 metafile = true
 
 [[files]]
@@ -684,7 +688,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "46b276b7afe9a1b5aa8de4fc15cdf50fbe44e485da6870c7b5f1f36c0845f276"
+hash = "be3f2b037e3774940e9c48aa7a28ded6dd4d54092afd82a4ad095225672030a6"
 metafile = true
 
 [[files]]
@@ -724,7 +728,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "0ecdd609ce9f0d7be12e7e7dfd8317152c7c93164afe8e5c92dcfcb80c7a26e8"
+hash = "859fd42bdc2aad18998e946f011f015ed163e11f9fa8eccafe897f05b2a0218a"
 metafile = true
 
 [[files]]
@@ -874,7 +878,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-backups.pw.toml"
-hash = "c2239aa08240c1209822cf3dd4f591e6e0056c72093794a69d309b589dd30042"
+hash = "ce00a81f2f75424c52867ae6e5eddc91eafda113cf7406fdedcee04de93f169b"
 metafile = true
 
 [[files]]
@@ -889,22 +893,22 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "eb437e3ab2c9201cd7b7e77dd9f7df13fa9a8ebe28fc0d593a9d73b2af5e9539"
+hash = "3466500d3d5e0582ef44b24b3ae5596790b430b9a7ee784d1a6a0f48105c4598"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "e45cdd4751dfd5edea04db2e8fc52da2f13891a9c641d42c5a35d3132450c9d9"
+hash = "8d7c44fcc5a5a9a7d3394f68a203a6081edaaccf077273f72f127c8e1bec5f8a"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage-create-integration.pw.toml"
-hash = "30924a285b07f898b84e5c9a54170c05a69a97d79ed7913882e0723b2cabd26d"
+hash = "4e853b9df82db6ad398b6ef504aab4a002841259e10a16fc88ba992ed1204c0a"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "beae454e935d5c1035c770c62b1fd26e9cb0fcdc79959eb34e0e6110e9bba62f"
+hash = "22b95e38979fec0d857d97cfb17f3d61164344bdd8feee62436d5bd64063f2b5"
 metafile = true
 
 [[files]]
@@ -984,7 +988,7 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "8415f043e1b75f3ef11c990896598389343f87be9d133edd866e466c626fb31e"
+hash = "95650f26d33823363d0003ff801e081f4c1e9e33d88a4fc871ebc7ec33b72ac5"
 metafile = true
 
 [[files]]
