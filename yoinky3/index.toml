@@ -878,7 +878,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-backups.pw.toml"
-hash = "ce00a81f2f75424c52867ae6e5eddc91eafda113cf7406fdedcee04de93f169b"
+hash = "11dbfae770e25f4e4e79ebd159995d3afca24f6f4cd9b48f86ba3c724c928cb0"
 metafile = true
 
 [[files]]
