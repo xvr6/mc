@@ -111,6 +111,11 @@ hash = "2b7949e506ba69c57139127c0ccc6caf5a9ec5ec97788b81288118db3d7c2ad3"
 metafile = true
 
 [[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "098d6976a738658ca490cc58e9fab19f06cd1a7b23199b6f1ee108d866333e22"
+metafile = true
+
+[[files]]
 file = "mods/findme.pw.toml"
 hash = "915dd342659f472c1e26ad781831eea4b8b5c47d5d68c426432008ae361d325f"
 metafile = true
