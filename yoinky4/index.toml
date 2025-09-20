@@ -1,13 +1,28 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/amplified-nether.pw.toml"
+hash = "e63323ef22e8672030d1b6c4d10572b36c9684e76093d953f1ca4fa51d30c700"
+metafile = true
+
+[[files]]
 file = "mods/botania.pw.toml"
 hash = "c325387d3cbdf2658de2a51ea6235b610505c6de8dc8be71799d050c713c88a2"
 metafile = true
 
 [[files]]
+file = "mods/emi.pw.toml"
+hash = "fec1ffa03b4d62e47be25512840490844fc383cf82d2ad35345b2f87a21e8228"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "2b7949e506ba69c57139127c0ccc6caf5a9ec5ec97788b81288118db3d7c2ad3"
+metafile = true
+
+[[files]]
+file = "mods/immersive-weathering.pw.toml"
+hash = "b98e57540394632b45e59d4f8f9b78f217cbd2935400a6081382968745054776"
 metafile = true
 
 [[files]]
