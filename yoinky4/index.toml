@@ -131,6 +131,11 @@ hash = "ca245bac7c3a4113d77ab0d4a0968ceb3aba16d7e657ca15cac2bcbde83c64f3"
 metafile = true
 
 [[files]]
+file = "mods/custom-player-models.pw.toml"
+hash = "f9f2ae8ea6efec0e5509588b038c87add6dff2487481fdc569830936b932cb37"
+metafile = true
+
+[[files]]
 file = "mods/dynamicsurroundingsfabric.pw.toml"
 hash = "6bf279de64daa6f416d8e776c2f9ce4a36e52be22d4ef9e6a6380f0a0443f7cf"
 metafile = true
@@ -338,6 +343,11 @@ metafile = true
 [[files]]
 file = "mods/sound.pw.toml"
 hash = "e53888490a33ad3127b09dd98ce001e579cb6c205a99a1e6e0424ab9f5b862c2"
+metafile = true
+
+[[files]]
+file = "mods/spelunkery.pw.toml"
+hash = "5a955b4e4c847837490e430e4a586e6aa9692c32acad9321391881d2107058b4"
 metafile = true
 
 [[files]]
