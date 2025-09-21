@@ -341,11 +341,6 @@ hash = "e53888490a33ad3127b09dd98ce001e579cb6c205a99a1e6e0424ab9f5b862c2"
 metafile = true
 
 [[files]]
-file = "mods/spelunkery.pw.toml"
-hash = "5a955b4e4c847837490e430e4a586e6aa9692c32acad9321391881d2107058b4"
-metafile = true
-
-[[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
 hash = "caa507edc23c21df56cda8b40d30d74eaa999b19bf2fe4e2b53cf9a256e1ac76"
 metafile = true
