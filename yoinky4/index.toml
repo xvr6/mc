@@ -87,7 +87,7 @@ metafile = true
 
 [[files]]
 file = "mods/coolrain.pw.toml"
-hash = "926adf62f73ee9bc2999ca82eff4e259fba820865c4d38135964bc9381231f20"
+hash = "dd3c03678a537da1f286dd617e8d127b76b778a207864a5b1c20813bfa7304db"
 metafile = true
 
 [[files]]
@@ -217,7 +217,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "26eb9a0d230cfebd3e32df2db21326d45ecca1348fb3d731657f3e55a9dde467"
+hash = "6fd888d1b4de5d7b4ceb3db0a7f8c353b8d6685e7b8a4386ad8ecde7e23256c4"
 metafile = true
 
 [[files]]
