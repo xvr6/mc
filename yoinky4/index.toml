@@ -376,11 +376,6 @@ hash = "caa507edc23c21df56cda8b40d30d74eaa999b19bf2fe4e2b53cf9a256e1ac76"
 metafile = true
 
 [[files]]
-file = "mods/supplementaries.pw.toml"
-hash = "76804443193bcbeb5ff05e34758b3722785c86852dfc53b5be0f42d2a57acfda"
-metafile = true
-
-[[files]]
 file = "mods/sushi-bar.pw.toml"
 hash = "6bfb09a5bf731cd8d347b8e77b0379c254b2e2dd2763c8051b6bfe122a22b7fb"
 metafile = true
