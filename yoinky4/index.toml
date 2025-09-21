@@ -191,6 +191,11 @@ hash = "858b7118ce19537e0833360fbb636ff070639799a0d14b471e05aa834a8673c7"
 metafile = true
 
 [[files]]
+file = "mods/friends-and-foes.pw.toml"
+hash = "2fcd17a965738c1649d434a0d5f8077321b4bb90a8c9d9d868d220d8bbd5abb3"
+metafile = true
+
+[[files]]
 file = "mods/frozenlib.pw.toml"
 hash = "41e364c29ac783e302b4dfd7e1832ca3d814870acdfc4591e4791eb80ce445f7"
 metafile = true
