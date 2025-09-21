@@ -236,6 +236,11 @@ hash = "b98e57540394632b45e59d4f8f9b78f217cbd2935400a6081382968745054776"
 metafile = true
 
 [[files]]
+file = "mods/immersivethunder.pw.toml"
+hash = "1e7626658f151f660110a788c0e3771f08a023992a62c38aacb272fd9559dd94"
+metafile = true
+
+[[files]]
 file = "mods/indium.pw.toml"
 hash = "cb85864ff2d3936a5ab4f7e7ccf763dbda0153412ba52c95a63b29677a012aaf"
 metafile = true
