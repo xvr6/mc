@@ -86,6 +86,11 @@ hash = "d4c8b0fcade7d1dcfc3a90cb41c798d1ba4a08e18f94d70d23d0c5c36b488cb6"
 metafile = true
 
 [[files]]
+file = "mods/coolrain.pw.toml"
+hash = "926adf62f73ee9bc2999ca82eff4e259fba820865c4d38135964bc9381231f20"
+metafile = true
+
+[[files]]
 file = "mods/create-deco.pw.toml"
 hash = "023532063fbf310dd047a33cf1afd06b0c4baf72da4dc23e78d1d599ad5dcccd"
 metafile = true
@@ -163,6 +168,11 @@ metafile = true
 [[files]]
 file = "mods/expanded-ecosphere.pw.toml"
 hash = "128337df7163d3e27e28677aa9282422cfd4a0dee68542e545ac1ad2a34a9c69"
+metafile = true
+
+[[files]]
+file = "mods/explosive-enhancement.pw.toml"
+hash = "85e012f1e3fa929ed32f3ce347c9f26606e80393ed30988553a656fd8003900b"
 metafile = true
 
 [[files]]
@@ -291,6 +301,16 @@ hash = "df4c4fe3aff1792aa7d19d097d5d1bc0c6e958e6e4ee32dbf148ecac62e1274d"
 metafile = true
 
 [[files]]
+file = "mods/particle-rain.pw.toml"
+hash = "a2236e01f615439638e7942c0d131786b2366c3d466a09d4aaf663af7a8a6734"
+metafile = true
+
+[[files]]
+file = "mods/particular.pw.toml"
+hash = "63a2011c75cdaf07c0a537c1f5c0661b7e5e0471c81625273634f88fed05b9c4"
+metafile = true
+
+[[files]]
 file = "mods/patchouli.pw.toml"
 hash = "3c2fe6485d980a094a5094263d9d54dd59bd4cfd37439109be561894342a82f8"
 metafile = true
@@ -361,6 +381,11 @@ hash = "76804443193bcbeb5ff05e34758b3722785c86852dfc53b5be0f42d2a57acfda"
 metafile = true
 
 [[files]]
+file = "mods/sushi-bar.pw.toml"
+hash = "6bfb09a5bf731cd8d347b8e77b0379c254b2e2dd2763c8051b6bfe122a22b7fb"
+metafile = true
+
+[[files]]
 file = "mods/tectonic.pw.toml"
 hash = "e0d9b83b7f2e24520fae694ee47e977f4325e6555b94cc35fbda1f40eab40008"
 metafile = true
@@ -391,8 +416,23 @@ hash = "ffdb79f5bc29f990e5889f5d159a043c7046b8cd8d79f17f54b44d7ccc2b242a"
 metafile = true
 
 [[files]]
+file = "mods/visuality.pw.toml"
+hash = "407b6a954f9c3aee145dfa649eaa0b336a6b31d7660476c81cba1da1f6ff54e3"
+metafile = true
+
+[[files]]
+file = "mods/wakes.pw.toml"
+hash = "24cfa457173f8fd0aec773a4437c86dc22a9ef41c73514a2237160b514ff837d"
+metafile = true
+
+[[files]]
 file = "mods/wilder-wild.pw.toml"
 hash = "92ab915119bb2c72eacd9e8407142b45c40e95a5373396219bcc708531e364fe"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "8305bf17272f0c579b0930b751c12089de9fb157dbdb5c080836ce3daad310b5"
 metafile = true
 
 [[files]]
