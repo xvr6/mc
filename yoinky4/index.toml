@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/amendments.pw.toml"
+hash = "69d8ee62dcee2d04a9fcee5f9931b8e5b44b0c445a00b917b30a9e683dd6a87c"
+metafile = true
+
+[[files]]
 file = "mods/amplified-nether.pw.toml"
 hash = "e63323ef22e8672030d1b6c4d10572b36c9684e76093d953f1ca4fa51d30c700"
 metafile = true
@@ -13,6 +18,11 @@ metafile = true
 [[files]]
 file = "mods/balm.pw.toml"
 hash = "bf7fe8f45caecb5d45ac8cc9ddfde08a3a854e43f874a35b8c1090a0a2a6137e"
+metafile = true
+
+[[files]]
+file = "mods/bellsandwhistles.pw.toml"
+hash = "bee459c3b3739a46717f04675ba175d8a5d26fc00a8683acd4ef5bdfb73a9066"
 metafile = true
 
 [[files]]
@@ -46,6 +56,11 @@ hash = "1408ae4514817640988c90d8a96c872027132b93dda7872398949128b82fcdea"
 metafile = true
 
 [[files]]
+file = "mods/botarium.pw.toml"
+hash = "2f57caef93731338be19b1e14065978eb3e14dbfc0c1f9699dfcc2f201e2c23b"
+metafile = true
+
+[[files]]
 file = "mods/cardinal-components-api.pw.toml"
 hash = "0ed502ad7d53ca1936079cb7508b2e085909610ac51337fff2a3ce0fa6dcae28"
 metafile = true
@@ -63,6 +78,46 @@ metafile = true
 [[files]]
 file = "mods/clumps.pw.toml"
 hash = "15385164e2cd07cce7493a10d6d87df5c7bce587a866613126be3b54b6b28fc7"
+metafile = true
+
+[[files]]
+file = "mods/cobweb.pw.toml"
+hash = "d4c8b0fcade7d1dcfc3a90cb41c798d1ba4a08e18f94d70d23d0c5c36b488cb6"
+metafile = true
+
+[[files]]
+file = "mods/create-deco.pw.toml"
+hash = "023532063fbf310dd047a33cf1afd06b0c4baf72da4dc23e78d1d599ad5dcccd"
+metafile = true
+
+[[files]]
+file = "mods/create-dreams-and-desires.pw.toml"
+hash = "fd2c9cdc0083b93038ce74132c66078e8e223722c4fae902ba4bfef28c37ed71"
+metafile = true
+
+[[files]]
+file = "mods/create-fabric.pw.toml"
+hash = "7d227ef90b1918ceb348ade235a5d17c7894acbf387575e96c08920a5bad1bbb"
+metafile = true
+
+[[files]]
+file = "mods/create-mod-trims.pw.toml"
+hash = "598af112d247563245d5638a384c711eb8d6f19d2281da119aca3a82a313a609"
+metafile = true
+
+[[files]]
+file = "mods/create-new-age.pw.toml"
+hash = "2c65b7ed826a2d147f0eb4788152b9f1ae878e0df102af58a9ea23ebd1c48f04"
+metafile = true
+
+[[files]]
+file = "mods/create-steam-n-rails.pw.toml"
+hash = "b79bc9976d5958f4b88ca23575e0d0dc677a2b06931108f6f7bc3fd3e46bb22c"
+metafile = true
+
+[[files]]
+file = "mods/create-utilities.pw.toml"
+hash = "9ccef182f9ef60d4dd5e093430c372098b45809d0468aedda6e43011a9c89b87"
 metafile = true
 
 [[files]]
@@ -151,6 +206,11 @@ hash = "4315bd28152610d64fdaecfebcb90fef34e7ebb103110055302383ffa617993a"
 metafile = true
 
 [[files]]
+file = "mods/harvest-with-ease.pw.toml"
+hash = "196988222658fc8f718be52916a302991e683970197344922cae053fd4975e14"
+metafile = true
+
+[[files]]
 file = "mods/immersive-weathering.pw.toml"
 hash = "b98e57540394632b45e59d4f8f9b78f217cbd2935400a6081382968745054776"
 metafile = true
@@ -163,6 +223,11 @@ metafile = true
 [[files]]
 file = "mods/leaves-be-gone.pw.toml"
 hash = "37421d14755957856ddafed04020b2b23f902f6f4c410fb5bdfc956959f99fba"
+metafile = true
+
+[[files]]
+file = "mods/lithostitched.pw.toml"
+hash = "55167e582fd4841cd6c581beb53d341e94285c216e04b1d7bff0068e875be2a6"
 metafile = true
 
 [[files]]
@@ -211,6 +276,11 @@ hash = "43b4a9ca9aaac5a16ed067aee92cafaf30d6166d62d7fa851179c6257ed75b59"
 metafile = true
 
 [[files]]
+file = "mods/presence-footsteps.pw.toml"
+hash = "a9769ced0531122518321833966d375196753db1c3a47b975aed4bb6837fae7a"
+metafile = true
+
+[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "a1eff7b33a54586b6989c7bfd89992f9d315f1c656b7596649d9af7017c6af7b"
 metafile = true
@@ -228,6 +298,11 @@ metafile = true
 [[files]]
 file = "mods/ribbits.pw.toml"
 hash = "a812307bc32bf4fa246f43e3d7dfd758c6ad75fc54448660303664582e4d272e"
+metafile = true
+
+[[files]]
+file = "mods/slice-and-dice.pw.toml"
+hash = "47493d398295964924d386d0fb866dac1a2d5e0cd4692b8436ea2552ce6c99f6"
 metafile = true
 
 [[files]]
