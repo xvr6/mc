@@ -1,0 +1,13 @@
+name = "Better Sniffers"
+filename = "better-sniffers-2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/CPzAGS06/versions/7TUYXlM8/better-sniffers-2.jar"
+hash-format = "sha512"
+hash = "0e2029e85d3d1774252e6f4fb024abff92e9f340dbdfd9127e6d6c9e299f0be14adab4e6a561ba3b42d9e3a25d92a353b00120e2d6b2032fc96c61a7337c897f"
+
+[update]
+[update.modrinth]
+mod-id = "CPzAGS06"
+version = "7TUYXlM8"

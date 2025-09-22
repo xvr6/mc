@@ -76,6 +76,11 @@ hash = "8f54b2270c2d87b56a73b4355305cc4a4dd277330cad97d137b98073ec0d8e83"
 metafile = true
 
 [[files]]
+file = "mods/better-sniffers.pw.toml"
+hash = "459ff24d9b95e48993f9086017e0b7d2361d2793fd1a54124470472d231df8ac"
+metafile = true
+
+[[files]]
 file = "mods/bewitchment.pw.toml"
 hash = "1e77bb42d892684f7ccdccf6b82169d9bb0eb339f40bc7014ef871253a877815"
 metafile = true
@@ -598,6 +603,11 @@ metafile = true
 [[files]]
 file = "mods/pehkui.pw.toml"
 hash = "43b4a9ca9aaac5a16ed067aee92cafaf30d6166d62d7fa851179c6257ed75b59"
+metafile = true
+
+[[files]]
+file = "mods/polymorph.pw.toml"
+hash = "8293786ca23e23e7dd04d60d666f34145a00229a5959f7a1962995654cacdf1f"
 metafile = true
 
 [[files]]
