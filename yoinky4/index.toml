@@ -131,18 +131,8 @@ hash = "dd3c03678a537da1f286dd617e8d127b76b778a207864a5b1c20813bfa7304db"
 metafile = true
 
 [[files]]
-file = "mods/create-aquatic-ambitions.pw.toml"
-hash = "a59fd86db347785d3622ea88af11307eccca43690a76ff6aadb7ddfd360b68e1"
-metafile = true
-
-[[files]]
 file = "mods/create-deco.pw.toml"
 hash = "023532063fbf310dd047a33cf1afd06b0c4baf72da4dc23e78d1d599ad5dcccd"
-metafile = true
-
-[[files]]
-file = "mods/create-design-n-decor.pw.toml"
-hash = "80c5ee4c23d552b939a151d7f694c3d046792dc45ff6dd0dbfbc88d1a2ba77a7"
 metafile = true
 
 [[files]]
@@ -633,6 +623,11 @@ metafile = true
 [[files]]
 file = "mods/soul-mage-origin.pw.toml"
 hash = "308399d458b3f113b9b9bbf01e2fa847c7af60831b8bbfcad9b98746d4cd42b4"
+metafile = true
+
+[[files]]
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "74c90177581bbab79a050dc99a2402ce7dd122d96e467642515cb9443a2f1541"
 metafile = true
 
 [[files]]
