@@ -3,8 +3,8 @@ filename = "ftb-ultimine-fabric-2001.1.7.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "416c3af27ade2481cb7c2e2f82da6e1e1a022352"
+hash-format = "sha512"
+hash = "eb4142a22106dc61f9903911bfcf0c5296e25ea2337d708730edee76fb412cb1da347a757ba2d79b75ec7da7e4637344486405723afebfb97fe3986e2891eb9f"
 mode = "metadata:curseforge"
 
 [update]
