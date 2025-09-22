@@ -1,0 +1,13 @@
+name = "Create: Aquatic Ambitions"
+filename = "create_aquatic_ambitions-fabric-1.1.2+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9SyaPzp7/versions/RFho1G3m/create_aquatic_ambitions-fabric-1.1.2%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "842c4c8a8bf4589f492536d26f37ac53f3f5be9a2bd6898a31bdf436c7bc22b6b12ebc5852110fc34668beeaa829e386369a4deb5ffa0c7c0542468ba3d69719"
+
+[update]
+[update.modrinth]
+mod-id = "9SyaPzp7"
+version = "RFho1G3m"

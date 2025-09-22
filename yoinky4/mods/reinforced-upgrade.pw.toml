@@ -1,0 +1,13 @@
+name = "Reinforced Upgrade"
+filename = "reinforced-upgrade-1.3.6-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gbrcCuxo/versions/nkNhp7Ew/reinforced-upgrade-1.3.6-1.20.1.jar"
+hash-format = "sha512"
+hash = "843c6a7b8154e5a9f0a320993aff9a04ef8317ee549f1df4737141ce6309ac8e38f615182dfddb398ffb7c33765687acb21c2853a1e34d3adf4829829bda4d7f"
+
+[update]
+[update.modrinth]
+mod-id = "gbrcCuxo"
+version = "nkNhp7Ew"

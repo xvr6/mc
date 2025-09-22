@@ -1,0 +1,13 @@
+name = "Pale Garden Backport: The Garden Awakens"
+filename = "palegardenbackport-fabric-2.0.3+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/wjFTvIvm/versions/SIwcEw41/palegardenbackport-fabric-2.0.3%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "093c4358305ce8d70d71e1647d59f39689ecd68ad352e5cc07ac42adaa82d5cf948290fa2bdd1474744aa371631d4f550fb4691bb7b9a7b46bfb730510cb9984"
+
+[update]
+[update.modrinth]
+mod-id = "wjFTvIvm"
+version = "SIwcEw41"

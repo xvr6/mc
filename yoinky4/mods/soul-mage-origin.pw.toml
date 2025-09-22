@@ -1,0 +1,13 @@
+name = "Soul Mage Origin"
+filename = "Soul Mage 1.20.1-0.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Tlph4Ufj/versions/TpaDLUkL/Soul%20Mage%201.20.1-0.0.2.jar"
+hash-format = "sha512"
+hash = "174f896cd6c83d5b805a20a13d34172dbd1f9bf959073aff75ea57ef094484de69f342b574356f953739e750fd6e21d19fde2db803566a1ef4e1142bbc165366"
+
+[update]
+[update.modrinth]
+mod-id = "Tlph4Ufj"
+version = "TpaDLUkL"

@@ -1,0 +1,13 @@
+name = "Spinosaurus Origin"
+filename = "spinosaurus-origin-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gUwwfEx5/versions/4jLMNvwK/spinosaurus-origin-1.0.0.jar"
+hash-format = "sha512"
+hash = "aefbb973d1ad2e87892cbfc0bb5d5315ad42d8893b4caf830b138c0eb3f135616948c125b5503b507fd34583d04178373a5cf591268ffd8081e5a343815be9a6"
+
+[update]
+[update.modrinth]
+mod-id = "gUwwfEx5"
+version = "4jLMNvwK"

@@ -1,0 +1,13 @@
+name = "Origins: Envisioner"
+filename = "envisioner-1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/htCUhsL5/versions/rckNfQlb/envisioner-1.jar"
+hash-format = "sha512"
+hash = "7009fce76a78b6b98f98da7d25b38f0620114d9f4952af406548c19d410dcd1767eb99d97c1e97e6c6605238da2603cf2755c2eb31a1c4de69493a7c62e85fa7"
+
+[update]
+[update.modrinth]
+mod-id = "htCUhsL5"
+version = "rckNfQlb"

@@ -1,0 +1,13 @@
+name = "TriQue API"
+filename = "triqueapi-mc1.20.1-1.1.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/RhzuAoZx/versions/FtBAZkxS/triqueapi-mc1.20.1-1.1.0.jar"
+hash-format = "sha512"
+hash = "e50d80c083674ab812c0b38043d6d19d29cd13d7af4a837ccea93682422f6a13a2c85c05c82c564bfd0aa3168c3d21392605d9b39da56585410463669fb0666f"
+
+[update]
+[update.modrinth]
+mod-id = "RhzuAoZx"
+version = "FtBAZkxS"

@@ -1,0 +1,13 @@
+name = "Origins: Sculk Mole"
+filename = "mole-origin-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/4RiLY0c2/versions/8sR6Ee0l/mole-origin-1.1.0.jar"
+hash-format = "sha512"
+hash = "23e8d736eca8f9f89fa507090e18b333ff3f1fb1ed9462cf0e8f0856fd45d3ac249426eaa69fb45c6c2ed26e4499a40c5ad0fd6eff07c49550f1aa6175adca5c"
+
+[update]
+[update.modrinth]
+mod-id = "4RiLY0c2"
+version = "8sR6Ee0l"
