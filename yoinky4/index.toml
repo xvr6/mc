@@ -1,6 +1,50 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/carryon-client.json"
+hash = "b66da6824b6141acca353406c20654ebf599c814d50da37006b2bf51009b4f2a"
+
+[[files]]
+file = "config/carryon-common.json"
+hash = "50d0a0562e70d2c4342178876961284f3ded39bcd65828f095cf095d9334c9ea"
+
+[[files]]
+file = "config/zenith/adventure.cfg"
+hash = "ff883a9706784d0cbcb2b41f47a655c96a2b135f828f519cb73bf8434ff77474"
+
+[[files]]
+file = "config/zenith/ench.cfg"
+hash = "f409392e6c6187d92d02a298467af2fc5efdd14fc667aa91de13ad545c8f4a8c"
+
+[[files]]
+file = "config/zenith/enchantments.cfg"
+hash = "dc97ea546ca6f88ef342259bd9df62a31f98388d8bb3b5ef5e107b7717c57885"
+
+[[files]]
+file = "config/zenith/garden.cfg"
+hash = "6e32f000f23eea21e8a59982093b84889dfadf97bb4d0b3de45a63449044b52d"
+
+[[files]]
+file = "config/zenith/names.cfg"
+hash = "475dc5d3fc249545f4769e613db5f1b1215ba497ef386dbab75555024fa42318"
+
+[[files]]
+file = "config/zenith/potion.cfg"
+hash = "e1330410e291a3afdf4c759c6e6c8ad6049b31b50bb1870a5ab85071a8b289fd"
+
+[[files]]
+file = "config/zenith/spawner.cfg"
+hash = "c8224be1327a25d576d37d4d816766bf9b402cb33eacc6d9b80b2be8705be68c"
+
+[[files]]
+file = "config/zenith/village.cfg"
+hash = "311f6d845179bdf56286fb27bb54803e2e4de531cf7dcc3ff1588eafbd7c7a0a"
+
+[[files]]
+file = "config/zenith/zenith.cfg"
+hash = "977a4956ad15900b6320bdc48d0dd48d02294e96c683a967d3e29b17679dfdf8"
+
+[[files]]
 file = "mods/advanced-netherite.pw.toml"
 hash = "f61033f5acde76e2405e9549ff54ccdf4d3dc24a9caca015720523f02ee91033"
 metafile = true
@@ -32,7 +76,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "e12dce3e543168379a2856c66064ee2001e6420a9dfc6163f37b78e518947456"
+hash = "2492a7266fab4c2ff411612180974b98510afb66a18e640f4de63ad615dd1e9e"
 metafile = true
 
 [[files]]
@@ -48,11 +92,6 @@ metafile = true
 [[files]]
 file = "mods/balm.pw.toml"
 hash = "bf7fe8f45caecb5d45ac8cc9ddfde08a3a854e43f874a35b8c1090a0a2a6137e"
-metafile = true
-
-[[files]]
-file = "mods/bclib.pw.toml"
-hash = "ab1e22cc66189067e002a204c70c553cc7cc0e738bd602f405d7cc37561260be"
 metafile = true
 
 [[files]]
@@ -73,11 +112,6 @@ metafile = true
 [[files]]
 file = "mods/better-ping-display-fabric.pw.toml"
 hash = "8f54b2270c2d87b56a73b4355305cc4a4dd277330cad97d137b98073ec0d8e83"
-metafile = true
-
-[[files]]
-file = "mods/better-sniffers.pw.toml"
-hash = "459ff24d9b95e48993f9086017e0b7d2361d2793fd1a54124470472d231df8ac"
 metafile = true
 
 [[files]]
@@ -382,7 +416,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "2b7949e506ba69c57139127c0ccc6caf5a9ec5ec97788b81288118db3d7c2ad3"
+hash = "c784cee4a8eed3f2b36172b8c5a119a62a28880d15e7f169947c935bf3bf4bb3"
 metafile = true
 
 [[files]]
@@ -436,6 +470,16 @@ hash = "41e364c29ac783e302b4dfd7e1832ca3d814870acdfc4591e4791eb80ce445f7"
 metafile = true
 
 [[files]]
+file = "mods/ftb-library-fabric.pw.toml"
+hash = "36cef0788ba915e48a0fd991847c35056bdbacda46273840c6f300b8431dfdc5"
+metafile = true
+
+[[files]]
+file = "mods/ftb-ultimine-fabric.pw.toml"
+hash = "448e563f4786e28ce661929ffdd4d16639a06c1a3b025418d50e317207b76a4b"
+metafile = true
+
+[[files]]
 file = "mods/fusion-connected-textures.pw.toml"
 hash = "b0866b0a27163b903b4d4d0d21f5959c3e481bce03653afd0ce9c6a7e1fbf299"
 metafile = true
@@ -463,6 +507,11 @@ metafile = true
 [[files]]
 file = "mods/harvest-with-ease.pw.toml"
 hash = "196988222658fc8f718be52916a302991e683970197344922cae053fd4975e14"
+metafile = true
+
+[[files]]
+file = "mods/immersive-melodies.pw.toml"
+hash = "40a8d97db3162ea083e5ad40a6a8f7ba0f260d714b74854ba77d2644e1914bbf"
 metafile = true
 
 [[files]]
@@ -531,6 +580,11 @@ hash = "3a3666463c703b8a4562156884098fdcd3a205891e239a4a7984fb0cf9d13a13"
 metafile = true
 
 [[files]]
+file = "mods/more-sniffer-flowers.pw.toml"
+hash = "e85ffadfb27d73e2f9dcb42781145f10b3b17df55dc85aea74fa916f4e9df0a0"
+metafile = true
+
+[[files]]
 file = "mods/mouse-wheelie.pw.toml"
 hash = "b71ebab572583fcca1a864236e233a84c637bf00c78f0d1240b742763c0375d8"
 metafile = true
@@ -553,6 +607,11 @@ metafile = true
 [[files]]
 file = "mods/nethers-delight-refabricated.pw.toml"
 hash = "80b0b7333c6c4235d840800afc8583a1e03f5fe493dd8085bf46dbf18e48eab3"
+metafile = true
+
+[[files]]
+file = "mods/no-chat-reports.pw.toml"
+hash = "9ce6efc7149cdae2deb751b4ebf2d220700cc1b204e7a1d026275203387f106b"
 metafile = true
 
 [[files]]

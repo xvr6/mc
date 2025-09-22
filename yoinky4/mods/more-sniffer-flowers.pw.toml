@@ -1,0 +1,13 @@
+name = "More Sniffer Flowers"
+filename = "MoreSnifferFlowers-1.20.1-Fabric-1.5.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DbriYWc8/versions/skD0D3t2/MoreSnifferFlowers-1.20.1-Fabric-1.5.3.jar"
+hash-format = "sha512"
+hash = "b459b1f8a3a7b922a09f43049124f0f536ef3ba2a94e37a7ccfda034510ae4d13402e5e7cb257520a0fe3a04803af756debf02917598b31ca6bfd21c0712905e"
+
+[update]
+[update.modrinth]
+mod-id = "DbriYWc8"
+version = "skD0D3t2"
