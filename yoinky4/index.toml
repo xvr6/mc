@@ -80,6 +80,11 @@ hash = "3f9189fb90280a4286423a44a63f7b3a9e17d5e1ff058fb639a7794727f19f33"
 metafile = true
 
 [[files]]
+file = "mods/astrocraft-mod.pw.toml"
+hash = "b11f23fec804c4244ef1698fe87284caea4e34a8f1f7ab8414a55f780118e3a3"
+metafile = true
+
+[[files]]
 file = "mods/athena-ctm.pw.toml"
 hash = "064b0019e4f545599e5af2a4f74f11777086fce18e68f0b93dd77136ce7c0193"
 metafile = true
@@ -416,7 +421,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "943fa20d34422a6e01a805bac8332b64088caee63af6e4b9188cfe95c086a914"
+hash = "2b7949e506ba69c57139127c0ccc6caf5a9ec5ec97788b81288118db3d7c2ad3"
 metafile = true
 
 [[files]]
@@ -537,6 +542,11 @@ metafile = true
 [[files]]
 file = "mods/jade.pw.toml"
 hash = "d5faaf6d7e4be8bdf9b1b200edee175c2704ce13abad9d1951a4d4a45b432d4e"
+metafile = true
+
+[[files]]
+file = "mods/lambdynamiclights.pw.toml"
+hash = "8508e46b7e272d79dc6b3cc0149f9fd132c701369bcb2abb5c35da3ed92b27fb"
 metafile = true
 
 [[files]]
