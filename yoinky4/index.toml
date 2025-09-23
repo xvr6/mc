@@ -93,6 +93,10 @@ file = "config/zenith/zenith.cfg"
 hash = "977a4956ad15900b6320bdc48d0dd48d02294e96c683a967d3e29b17679dfdf8"
 
 [[files]]
+file = "global_packs/required_data/HungryCroc.zip"
+hash = "a2c33bff08346b543af225cfc7fee45c2e29759f8bfada577a99d7053584c99d"
+
+[[files]]
 file = "mods/advanced-netherite.pw.toml"
 hash = "f61033f5acde76e2405e9549ff54ccdf4d3dc24a9caca015720523f02ee91033"
 metafile = true
