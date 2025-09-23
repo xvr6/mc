@@ -91,7 +91,7 @@ metafile = true
 
 [[files]]
 file = "mods/autohud.pw.toml"
-hash = "ec41d2ad3af2a96f33d1ec29e4751744337655fdadebecbab49446277ff4f1cd"
+hash = "201c34e8bf2737405601b53baa9537e87ab52c93cf1c9181d73ca3478cd58dd9"
 metafile = true
 
 [[files]]
@@ -170,13 +170,18 @@ hash = "cce9179413c47b3f0bea0f89226089adac1ebe761c272f072f1ad526d393fc19"
 metafile = true
 
 [[files]]
+file = "mods/chimes.pw.toml"
+hash = "83eeb853e25dbc170868cb1c4d7893512f4e755eec073c77dde260963a8ed7cd"
+metafile = true
+
+[[files]]
 file = "mods/chipped.pw.toml"
 hash = "58d6861337626edf09635b6bc0bc45f49286c2517a234cb50baee9a23c538fc6"
 metafile = true
 
 [[files]]
 file = "mods/chunky.pw.toml"
-hash = "fed6f66373bb06b6ff552c97cd9cdbdf78ec429320252619e563f9a4fb65feb9"
+hash = "b1581bbfae9d16690f4022536da6567f000130c4ea5e04d92177c1bc61fea709"
 metafile = true
 
 [[files]]
@@ -336,7 +341,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "9c553500c771ace491481e52fb2a144e97ce332f03bc36155b62bcf5e64877ed"
+hash = "690ba6c334629b10e23fb01e3c9b8df0e2a056291a32a9bcdeb70f7a2f28b69c"
 metafile = true
 
 [[files]]
@@ -825,6 +830,11 @@ hash = "e53888490a33ad3127b09dd98ce001e579cb6c205a99a1e6e0424ab9f5b862c2"
 metafile = true
 
 [[files]]
+file = "mods/sparsestructures.pw.toml"
+hash = "58d7767ed9ce171b4a3afe10e5d945074bdf65458b09e7c8f98a229d28dd9439"
+metafile = true
+
+[[files]]
 file = "mods/spelunkery.pw.toml"
 hash = "5a955b4e4c847837490e430e4a586e6aa9692c32acad9321391881d2107058b4"
 metafile = true
@@ -942,11 +952,6 @@ metafile = true
 [[files]]
 file = "mods/yungs-api.pw.toml"
 hash = "95940b5fc72e8df82ab3adb72b43d10a37e6d926fbb37c405c9fe50bda27a991"
-metafile = true
-
-[[files]]
-file = "mods/yungs-better-caves.pw.toml"
-hash = "51e404ac23d0613de9b5095e8ac6492d06eb906ec81ed86228f75b11b851838f"
 metafile = true
 
 [[files]]

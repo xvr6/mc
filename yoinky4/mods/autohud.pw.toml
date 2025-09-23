@@ -11,3 +11,8 @@ hash = "08e700c332b0233fd40da4314f2c5a12e09172167b1a113cc1b297335c8c1daf3adc6ea8
 [update.modrinth]
 mod-id = "temczoTQ"
 version = "KRiY9Gqo"
+
+[option]
+optional = true
+description = "Mod that automatically hides on used HUDs"
+default = false
