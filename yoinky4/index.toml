@@ -26,7 +26,7 @@ hash = "694884a78573b2d0610d4ed6a498fbb6a4eccc52e4d88aef96e493c87793b308"
 
 [[files]]
 file = "config/tectonic.json"
-hash = "e9bb37dfcaf2b300ac12c1c2aaedcd7e1d9116e997cfd0f96441e60fa0fa036e"
+hash = "94f6f18676e08cffdc6fe74ba2b659f24a7d7dba78ee037c7a138d6559438037"
 
 [[files]]
 file = "config/xaerominimap-common.txt"

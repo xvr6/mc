@@ -36,7 +36,7 @@
     "increased_height": true,
     "lava_tunnels": true,
     "ultrasmooth": false,
-    "vertical_scale": 1.0
+    "vertical_scale": 1.2
   },
   "islands": {
     "enabled": true,
