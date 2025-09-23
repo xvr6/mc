@@ -29,6 +29,30 @@ file = "config/tectonic.json"
 hash = "e9bb37dfcaf2b300ac12c1c2aaedcd7e1d9116e997cfd0f96441e60fa0fa036e"
 
 [[files]]
+file = "config/xaerominimap-common.txt"
+hash = "771a844d13ab6c2ff99f14b8fd912d02c55a1a4104361692b740c3e596084f6f"
+
+[[files]]
+file = "config/xaerominimap.txt"
+hash = "fc53a7734ea58998ed4d899196932e9fa6a2a98d25f46b1bd07a16dbbffa6cc7"
+
+[[files]]
+file = "config/xaerominimap_entities.json"
+hash = "94fc0e69a1754ef80c54e1f3c9193526c620b0ac646f94a4a0f560bcc58826a8"
+
+[[files]]
+file = "config/xaeropatreon.txt"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/xaeroworldmap-common.txt"
+hash = "f02ca95d7246bd4b9c7de895c46108fff42fd5fcf9d56816b7bdba821597b58f"
+
+[[files]]
+file = "config/xaeroworldmap.txt"
+hash = "6a3ec46b651874c937238dd98ad2bf36a288d6e4a6c875dd37a0027adc48cb69"
+
+[[files]]
 file = "config/zenith/adventure.cfg"
 hash = "ff883a9706784d0cbcb2b41f47a655c96a2b135f828f519cb73bf8434ff77474"
 
