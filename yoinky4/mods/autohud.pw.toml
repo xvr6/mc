@@ -15,4 +15,3 @@ version = "KRiY9Gqo"
 [option]
 optional = true
 description = "Mod that automatically hides on used HUDs"
-default = false

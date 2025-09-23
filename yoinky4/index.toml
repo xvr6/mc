@@ -9,6 +9,10 @@ file = "config/carryon-common.json"
 hash = "50d0a0562e70d2c4342178876961284f3ded39bcd65828f095cf095d9334c9ea"
 
 [[files]]
+file = "config/tectonic.json"
+hash = "e9bb37dfcaf2b300ac12c1c2aaedcd7e1d9116e997cfd0f96441e60fa0fa036e"
+
+[[files]]
 file = "config/zenith/adventure.cfg"
 hash = "ff883a9706784d0cbcb2b41f47a655c96a2b135f828f519cb73bf8434ff77474"
 
@@ -81,7 +85,7 @@ metafile = true
 
 [[files]]
 file = "mods/astrocraft-mod.pw.toml"
-hash = "b11f23fec804c4244ef1698fe87284caea4e34a8f1f7ab8414a55f780118e3a3"
+hash = "780382ed4743c8894c82035fa4e23d5991f3f92665f464a0f44940e101b3a591"
 metafile = true
 
 [[files]]
@@ -91,7 +95,7 @@ metafile = true
 
 [[files]]
 file = "mods/autohud.pw.toml"
-hash = "201c34e8bf2737405601b53baa9537e87ab52c93cf1c9181d73ca3478cd58dd9"
+hash = "ef97bca7575e32ab9dcbe572e286749ddf562ff9c113c20663054e943618d131"
 metafile = true
 
 [[files]]
@@ -171,7 +175,7 @@ metafile = true
 
 [[files]]
 file = "mods/chimes.pw.toml"
-hash = "83eeb853e25dbc170868cb1c4d7893512f4e755eec073c77dde260963a8ed7cd"
+hash = "052fc43bda8d479449b2d3922e0dc7ddf283d879ddbd6734530f04c62f03f956"
 metafile = true
 
 [[files]]
@@ -181,7 +185,7 @@ metafile = true
 
 [[files]]
 file = "mods/chunky.pw.toml"
-hash = "b1581bbfae9d16690f4022536da6567f000130c4ea5e04d92177c1bc61fea709"
+hash = "fed6f66373bb06b6ff552c97cd9cdbdf78ec429320252619e563f9a4fb65feb9"
 metafile = true
 
 [[files]]
@@ -341,7 +345,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "690ba6c334629b10e23fb01e3c9b8df0e2a056291a32a9bcdeb70f7a2f28b69c"
+hash = "d411107bbbf5d261d603c58cc9608af403aaae2715e96f24b350f504000b4387"
 metafile = true
 
 [[files]]
@@ -486,12 +490,12 @@ metafile = true
 
 [[files]]
 file = "mods/framework-fabric.pw.toml"
-hash = "afc98470b699a933cbdcc7d95822455596d91864ef14ec21a48f4fdd51d5eb03"
+hash = "16609ac7ff66ed81e1a766b26abf130d7875a6e0603babd9bcc41137a6c03468"
 metafile = true
 
 [[files]]
 file = "mods/framework.pw.toml"
-hash = "42b0e94254b3fa4eaf4cfe24d67223acfd0c93868f1e9df19d1f8c172b8dbda4"
+hash = "eb8dd1e9d0a0a0ab8a7f215b835d9d25a008bfd6a94c26e2eb5badb82c07651d"
 metafile = true
 
 [[files]]
@@ -536,7 +540,7 @@ metafile = true
 
 [[files]]
 file = "mods/goblintraders-fabric.pw.toml"
-hash = "32ee7a7170ed798a1e4d8b4bd98d3659566615f8c189f70ea58419a39dce1c42"
+hash = "fe45c366b407078b6e680f830e341240a85c975081baa74385e1c311d21c20ba"
 metafile = true
 
 [[files]]
@@ -596,7 +600,7 @@ metafile = true
 
 [[files]]
 file = "mods/leaves-be-gone.pw.toml"
-hash = "37421d14755957856ddafed04020b2b23f902f6f4c410fb5bdfc956959f99fba"
+hash = "f20b40399c36c6189c7436923eb814890c508a34d955cfd045b3ad5df6f9a315"
 metafile = true
 
 [[files]]
@@ -756,7 +760,7 @@ metafile = true
 
 [[files]]
 file = "mods/refurbished-furniture.pw.toml"
-hash = "36d22538866b8e9e7f0889586c05fa4f2ae9c0695ef2a00e4be12031ef1e6c8f"
+hash = "b64106acff91040765898a5e9aec991582cef123980ae602e56b4a3c07192e90"
 metafile = true
 
 [[files]]

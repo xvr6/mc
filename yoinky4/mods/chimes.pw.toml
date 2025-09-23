@@ -3,8 +3,8 @@ filename = "Chimes-v2.0.1-1.20.1-Fabric.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "5477114f82c8e200f000828276567918f0e074e8"
+hash-format = "sha512"
+hash = "35181a4112adce4f368eb1b9b017740a837bdc766edb4935093d1e53ea460ca882c771b061dbe639be79ff6852f8726703b8a52d7c6c795b192376403f6e964a"
 mode = "metadata:curseforge"
 
 [update]

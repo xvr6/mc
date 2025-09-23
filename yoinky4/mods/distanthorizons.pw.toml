@@ -15,4 +15,3 @@ version = "MhxUKxWI"
 [option]
 optional = true
 description = "Visual mod that expands render distance. Has LARGE performance impact."
-default = false
