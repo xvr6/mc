@@ -1,12 +1,28 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/DistantHorizons.toml"
+hash = "0018c4d6fa7fb17871fa9b010a9d8f2ff8718ca9e6ad98d262ea17f8f75ac044"
+
+[[files]]
+file = "config/autohud.json5"
+hash = "64edc8dfcb92182dab60d64e09bc03863e64c36a1b8d0d3be6b5d00167323dd1"
+
+[[files]]
 file = "config/carryon-client.json"
 hash = "b66da6824b6141acca353406c20654ebf599c814d50da37006b2bf51009b4f2a"
 
 [[files]]
 file = "config/carryon-common.json"
 hash = "50d0a0562e70d2c4342178876961284f3ded39bcd65828f095cf095d9334c9ea"
+
+[[files]]
+file = "config/lighty.config"
+hash = "1baf8d77f095e18fa8890de1c528760a8c58cd5e00babf33e95487c17fe319c0"
+
+[[files]]
+file = "config/mindfuldarkness-client.toml"
+hash = "694884a78573b2d0610d4ed6a498fbb6a4eccc52e4d88aef96e493c87793b308"
 
 [[files]]
 file = "config/tectonic.json"
@@ -606,6 +622,11 @@ metafile = true
 [[files]]
 file = "mods/leaves-be-gone.pw.toml"
 hash = "f20b40399c36c6189c7436923eb814890c508a34d955cfd045b3ad5df6f9a315"
+metafile = true
+
+[[files]]
+file = "mods/lighty.pw.toml"
+hash = "6b986485b44e2007fc69334325f45ad1a4ad1d09d7f7814b1dbc443f171abbd1"
 metafile = true
 
 [[files]]
