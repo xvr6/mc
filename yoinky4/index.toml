@@ -131,6 +131,11 @@ hash = "71ee2c3e42554bd666679a6ec17305213bba097a864014ba03c83fdd77262555"
 metafile = true
 
 [[files]]
+file = "mods/aquamirae.pw.toml"
+hash = "d48e943c59dd7c5c0c20b80afd23e18e05385ed79b37e80238f949ec0f5e8d9c"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "3f9189fb90280a4286423a44a63f7b3a9e17d5e1ff058fb639a7794727f19f33"
 metafile = true
@@ -276,8 +281,68 @@ hash = "7d227ef90b1918ceb348ade235a5d17c7894acbf387575e96c08920a5bad1bbb"
 metafile = true
 
 [[files]]
+file = "mods/create-structures.pw.toml"
+hash = "916c17614ec51da73e173b7249118b473e479c370a48378bc7f91eb5e5abfa9d"
+metafile = true
+
+[[files]]
+file = "mods/creeper-overhaul.pw.toml"
+hash = "20e6e39afc3881c4d6530f33208ecf55014c2dc420f742c3fa2ca450c9b110af"
+metafile = true
+
+[[files]]
 file = "mods/cristel-lib.pw.toml"
 hash = "6ec7fc70c84dc7f7f4578a85480264d82336d64ac0d8c95c0fcc55d350f64ab7"
+metafile = true
+
+[[files]]
+file = "mods/critters-and-companions.pw.toml"
+hash = "ca245bac7c3a4113d77ab0d4a0968ceb3aba16d7e657ca15cac2bcbde83c64f3"
+metafile = true
+
+[[files]]
+file = "mods/ct-overhaul-village.pw.toml"
+hash = "e19d7296a530e9489f08a72fd03bc86ead52c45cac5e84a791679a34f3bd1fd3"
+metafile = true
+
+[[files]]
+file = "mods/ctov-beautify-compat.pw.toml"
+hash = "85823e6c3eccc199df1cfd11c4855ff09f5607d0c1c50bf2e7fb531c99a35171"
+metafile = true
+
+[[files]]
+file = "mods/ctov-chefs-delight-compat.pw.toml"
+hash = "3e41df25fbf26489935cba33f8522f0358765425da4159e895218f12b6976d2b"
+metafile = true
+
+[[files]]
+file = "mods/ctov-create-structures.pw.toml"
+hash = "d0114dcd9e7b204c1d2438b902faa1561763d8bd5b3130080895a16e106f06af"
+metafile = true
+
+[[files]]
+file = "mods/ctov-farmers-delight-compat.pw.toml"
+hash = "ec327ba7471215f9816ab868a11a1eab1cc5361458528b06eb666677b77bb3c8"
+metafile = true
+
+[[files]]
+file = "mods/ctov-friends-and-foes-compat.pw.toml"
+hash = "afcd4470f08c342d9c09af255d113736906d2d2c739f5277951eb7ebde9446b9"
+metafile = true
+
+[[files]]
+file = "mods/cubes-without-borders.pw.toml"
+hash = "5944ed5a779d142aea9ccd8c466a20fa3d9233a29f2be1e5ae54fc15f5edd57e"
+metafile = true
+
+[[files]]
+file = "mods/cultural-delights-fabric.pw.toml"
+hash = "419bfd63bc351527f11cb16f22734f1c6419e7c511fb2597e6bdebc4c9beda59"
+metafile = true
+
+[[files]]
+file = "mods/custom-player-models.pw.toml"
+hash = "edf4692b747c4fd7dfd6eb8d58ac645747e4fb4e66a7de4a5048415c709f6934"
 metafile = true
 
 [[files]]
@@ -303,6 +368,16 @@ metafile = true
 [[files]]
 file = "mods/dungeons-and-taverns-ancient-city-overhaul.pw.toml"
 hash = "3f15fb2df4db2178eb1c112a0d1a9d807600bf9be2b4049b5eda8e58427f9389"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns-stronghold-overhaul.pw.toml"
+hash = "f72df43d1423803a7eaabe51bcab379074d75682d717ceb3e6d6c063869a564e"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns.pw.toml"
+hash = "0bcc0df994ebbe98efc2f87c653cd0ae0a81bb0ca47b5adacba0974c5c6406c5"
 metafile = true
 
 [[files]]
@@ -638,6 +713,11 @@ metafile = true
 [[files]]
 file = "mods/no-chat-reports.pw.toml"
 hash = "9ce6efc7149cdae2deb751b4ebf2d220700cc1b204e7a1d026275203387f106b"
+metafile = true
+
+[[files]]
+file = "mods/obscure-api.pw.toml"
+hash = "8f6b83625e06798510048832addd6b1bf709b5d5e7dba438d002fe2dc110981b"
 metafile = true
 
 [[files]]
