@@ -9,14 +9,6 @@ file = "config/autohud.json5"
 hash = "64edc8dfcb92182dab60d64e09bc03863e64c36a1b8d0d3be6b5d00167323dd1"
 
 [[files]]
-file = "config/bluemap/core.conf"
-hash = "ee0a65c8c75cd4ffbe3b410c9b979ffc292c9bc7ad3c3d383648897f4e6cbe7e"
-
-[[files]]
-file = "config/bluemap/webapp.conf"
-hash = "ada8a6b9d4d32d3683ef6ea18650f8639598104c9d92305b279a694429c52d08"
-
-[[files]]
 file = "config/carryon-client.json"
 hash = "b66da6824b6141acca353406c20654ebf599c814d50da37006b2bf51009b4f2a"
 
@@ -178,11 +170,6 @@ metafile = true
 [[files]]
 file = "mods/bewitchment.pw.toml"
 hash = "1e77bb42d892684f7ccdccf6b82169d9bb0eb339f40bc7014ef871253a877815"
-metafile = true
-
-[[files]]
-file = "mods/bluemap.pw.toml"
-hash = "f96656076717dcadf38073af32ce253b2cfd0f5ff1785c03450e146f06213ee3"
 metafile = true
 
 [[files]]
@@ -407,7 +394,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "f372120c483958cb4752a8dd72fd70bc937f8aa283af652fa65e24b62d768b6b"
+hash = "9c553500c771ace491481e52fb2a144e97ce332f03bc36155b62bcf5e64877ed"
 metafile = true
 
 [[files]]
