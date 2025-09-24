@@ -276,11 +276,6 @@ hash = "f460d01d0351226ce596672936cc09364028046e87fc357bd0218c6df3e89d83"
 metafile = true
 
 [[files]]
-file = "mods/create-deco.pw.toml"
-hash = "023532063fbf310dd047a33cf1afd06b0c4baf72da4dc23e78d1d599ad5dcccd"
-metafile = true
-
-[[files]]
 file = "mods/create-dreams-and-desires.pw.toml"
 hash = "fd2c9cdc0083b93038ce74132c66078e8e223722c4fae902ba4bfef28c37ed71"
 metafile = true
@@ -293,11 +288,6 @@ metafile = true
 [[files]]
 file = "mods/create-fabric.pw.toml"
 hash = "7d227ef90b1918ceb348ade235a5d17c7894acbf387575e96c08920a5bad1bbb"
-metafile = true
-
-[[files]]
-file = "mods/create-metalwork.pw.toml"
-hash = "1450dbde9f1edd0babec78b2240c0ade0e2971beddd58a7a9c1a5605637a4b89"
 metafile = true
 
 [[files]]
