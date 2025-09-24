@@ -296,38 +296,8 @@ hash = "7d227ef90b1918ceb348ade235a5d17c7894acbf387575e96c08920a5bad1bbb"
 metafile = true
 
 [[files]]
-file = "mods/create-mod-trims.pw.toml"
-hash = "598af112d247563245d5638a384c711eb8d6f19d2281da119aca3a82a313a609"
-metafile = true
-
-[[files]]
-file = "mods/create-new-age.pw.toml"
-hash = "2c65b7ed826a2d147f0eb4788152b9f1ae878e0df102af58a9ea23ebd1c48f04"
-metafile = true
-
-[[files]]
-file = "mods/create-power-loader-fabric.pw.toml"
-hash = "bf8514a56af755dd22d7ef3994e0c6e33d4db963eea2688fdbe466f998e123b2"
-metafile = true
-
-[[files]]
-file = "mods/create-railways-navigator.pw.toml"
-hash = "33da71242eed44ccd9e93b1d5c4d9a4dc15fb5e5ce44774468b0c8ee5c2b91b7"
-metafile = true
-
-[[files]]
 file = "mods/create-structures.pw.toml"
 hash = "916c17614ec51da73e173b7249118b473e479c370a48378bc7f91eb5e5abfa9d"
-metafile = true
-
-[[files]]
-file = "mods/create-universal-ores.pw.toml"
-hash = "77ba884b858fa83c97ae670855c17cf25257a259d7c88ed460d6b7dbc62b76a5"
-metafile = true
-
-[[files]]
-file = "mods/create-utilities.pw.toml"
-hash = "9ccef182f9ef60d4dd5e093430c372098b45809d0468aedda6e43011a9c89b87"
 metafile = true
 
 [[files]]
