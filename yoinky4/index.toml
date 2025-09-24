@@ -13,6 +13,10 @@ file = "config/bluemap/core.conf"
 hash = "ee0a65c8c75cd4ffbe3b410c9b979ffc292c9bc7ad3c3d383648897f4e6cbe7e"
 
 [[files]]
+file = "config/bluemap/webapp.conf"
+hash = "ada8a6b9d4d32d3683ef6ea18650f8639598104c9d92305b279a694429c52d08"
+
+[[files]]
 file = "config/carryon-client.json"
 hash = "b66da6824b6141acca353406c20654ebf599c814d50da37006b2bf51009b4f2a"
 
@@ -403,7 +407,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "d411107bbbf5d261d603c58cc9608af403aaae2715e96f24b350f504000b4387"
+hash = "f372120c483958cb4752a8dd72fd70bc937f8aa283af652fa65e24b62d768b6b"
 metafile = true
 
 [[files]]
