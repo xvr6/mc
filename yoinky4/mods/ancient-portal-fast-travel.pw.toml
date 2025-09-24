@@ -1,0 +1,13 @@
+name = "Ancient Portal Fast Travel"
+filename = "ancient-portal-fast-travel-0.1.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/XsmsLI9v/versions/zmSDWIZ8/ancient-portal-fast-travel-0.1.4.jar"
+hash-format = "sha512"
+hash = "8538411484e2b5c371c680800be253a2380bd719227a0b793892c167a25e98d7ccdf3f9f3fe8be26dfd4d8ee022745e05b121aab162d18c1010848445de9b166"
+
+[update]
+[update.modrinth]
+mod-id = "XsmsLI9v"
+version = "zmSDWIZ8"

@@ -97,8 +97,53 @@ file = "global_packs/required_data/HungryCroc.zip"
 hash = "a2c33bff08346b543af225cfc7fee45c2e29759f8bfada577a99d7053584c99d"
 
 [[files]]
+file = "mods/advanced-netherite.pw.toml"
+hash = "f61033f5acde76e2405e9549ff54ccdf4d3dc24a9caca015720523f02ee91033"
+metafile = true
+
+[[files]]
+file = "mods/amendments.pw.toml"
+hash = "69d8ee62dcee2d04a9fcee5f9931b8e5b44b0c445a00b917b30a9e683dd6a87c"
+metafile = true
+
+[[files]]
+file = "mods/amplified-nether.pw.toml"
+hash = "e63323ef22e8672030d1b6c4d10572b36c9684e76093d953f1ca4fa51d30c700"
+metafile = true
+
+[[files]]
+file = "mods/ancient-portal-fast-travel.pw.toml"
+hash = "0159f364d42f5ab1d21293336ae88943fe28824cec4bb58102215fdc11cf10f1"
+metafile = true
+
+[[files]]
+file = "mods/appleskin.pw.toml"
+hash = "7d44149b8b22e0b19b082f49809edfc1b5f170e5d1d297cd73ae88c0b432c3ab"
+metafile = true
+
+[[files]]
+file = "mods/apugli.pw.toml"
+hash = "71ee2c3e42554bd666679a6ec17305213bba097a864014ba03c83fdd77262555"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "3f9189fb90280a4286423a44a63f7b3a9e17d5e1ff058fb639a7794727f19f33"
+metafile = true
+
+[[files]]
+file = "mods/astrocraft-mod.pw.toml"
+hash = "780382ed4743c8894c82035fa4e23d5991f3f92665f464a0f44940e101b3a591"
+metafile = true
+
+[[files]]
+file = "mods/athena-ctm.pw.toml"
+hash = "db0cf0e8fa916c1f982e0e3b84f3bed423b7f68e24446508e6dd4374d578fdab"
+metafile = true
+
+[[files]]
+file = "mods/autohud.pw.toml"
+hash = "ef97bca7575e32ab9dcbe572e286749ddf562ff9c113c20663054e943618d131"
 metafile = true
 
 [[files]]
@@ -107,8 +152,33 @@ hash = "bf7fe8f45caecb5d45ac8cc9ddfde08a3a854e43f874a35b8c1090a0a2a6137e"
 metafile = true
 
 [[files]]
+file = "mods/beautify-refabricated.pw.toml"
+hash = "724353a7730f54b29378ba8e374c78372c8a8f072e578b5758b11fc150f470b7"
+metafile = true
+
+[[files]]
+file = "mods/bellsandwhistles.pw.toml"
+hash = "bee459c3b3739a46717f04675ba175d8a5d26fc00a8683acd4ef5bdfb73a9066"
+metafile = true
+
+[[files]]
+file = "mods/better-archeology.pw.toml"
+hash = "d7dcbb9489b17fbe221d3a59ab2503293b219cee29d07a08aefbe32c5f3bf160"
+metafile = true
+
+[[files]]
 file = "mods/better-ping-display-fabric.pw.toml"
 hash = "8f54b2270c2d87b56a73b4355305cc4a4dd277330cad97d137b98073ec0d8e83"
+metafile = true
+
+[[files]]
+file = "mods/bewitchment.pw.toml"
+hash = "1e77bb42d892684f7ccdccf6b82169d9bb0eb339f40bc7014ef871253a877815"
+metafile = true
+
+[[files]]
+file = "mods/bluemap.pw.toml"
+hash = "f96656076717dcadf38073af32ce253b2cfd0f5ff1785c03450e146f06213ee3"
 metafile = true
 
 [[files]]
@@ -117,8 +187,23 @@ hash = "0b5feeae74fe992084ec5cb12eab3404ddd5054e85c9006f7ba4d65f209de13f"
 metafile = true
 
 [[files]]
+file = "mods/botania.pw.toml"
+hash = "c325387d3cbdf2658de2a51ea6235b610505c6de8dc8be71799d050c713c88a2"
+metafile = true
+
+[[files]]
 file = "mods/botany-pots.pw.toml"
 hash = "48ef9e4284b44490f568508a5577023399ed6b95dba6a36f413e9b8eeeec2f40"
+metafile = true
+
+[[files]]
+file = "mods/botany-trees.pw.toml"
+hash = "1408ae4514817640988c90d8a96c872027132b93dda7872398949128b82fcdea"
+metafile = true
+
+[[files]]
+file = "mods/botarium.pw.toml"
+hash = "2f57caef93731338be19b1e14065978eb3e14dbfc0c1f9699dfcc2f201e2c23b"
 metafile = true
 
 [[files]]
@@ -233,7 +318,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "6fd888d1b4de5d7b4ceb3db0a7f8c353b8d6685e7b8a4386ad8ecde7e23256c4"
+hash = "21d2df923fa369d69a40d69f6466153146bf403367430eaeb2569c1554857df8"
 metafile = true
 
 [[files]]
@@ -308,7 +393,7 @@ metafile = true
 
 [[files]]
 file = "mods/macaws-paths-and-pavings.pw.toml"
-hash = "a21ed48b2fc7983115b1ec094e1ca6492bd2852bdbd79585b2be65c1a206a010"
+hash = "d89f851cbe644049a2bfc90405c6e6450011674be210912b69a80546bc418aaf"
 metafile = true
 
 [[files]]
@@ -328,7 +413,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "de9fdb9b07120d571ee5f88f4edf1c172817c43ac0282b1683bf88658ee71154"
+hash = "61f596086daa86fce3f57efb4174ed7623cfbc7c9ef2bc095f4f92e39327926d"
 metafile = true
 
 [[files]]
@@ -568,7 +653,7 @@ metafile = true
 
 [[files]]
 file = "mods/tectonic.pw.toml"
-hash = "e0d9b83b7f2e24520fae694ee47e977f4325e6555b94cc35fbda1f40eab40008"
+hash = "1296c625a8c2a157504ec559f6530c2961ab91cc87ee6896f7ca2c866c1164f8"
 metafile = true
 
 [[files]]

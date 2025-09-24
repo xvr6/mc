@@ -1,0 +1,13 @@
+name = "Astrocraft: Realistic Night Skies"
+filename = "astrocraft-1.5.1+1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "86acbacd6ac5c0690b8040e3fb657568d0cdf007cd3e82c3954afd9117fdc6fe5fefa10a719c40ae2067eff3cdf9187b1f55b4a43afec68e47a0dfc20ae4f696"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6514000
+project-id = 1010757
