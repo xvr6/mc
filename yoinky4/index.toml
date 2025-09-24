@@ -13,6 +13,10 @@ file = "config/bluemap/core.conf"
 hash = "ee0a65c8c75cd4ffbe3b410c9b979ffc292c9bc7ad3c3d383648897f4e6cbe7e"
 
 [[files]]
+file = "config/bluemap/webapp.conf"
+hash = "ada8a6b9d4d32d3683ef6ea18650f8639598104c9d92305b279a694429c52d08"
+
+[[files]]
 file = "config/carryon-client.json"
 hash = "b66da6824b6141acca353406c20654ebf599c814d50da37006b2bf51009b4f2a"
 
@@ -297,6 +301,21 @@ hash = "5c98012330282f45370e95f4206ccf214fb059b73a8b4ebe0aeb2ae57647d8d5"
 metafile = true
 
 [[files]]
+file = "mods/festive-delight.pw.toml"
+hash = "80a47171dcffc0762b7fe17d5b9cd2803bea8b75bb32bbb6b0bd263bf983fb3a"
+metafile = true
+
+[[files]]
+file = "mods/findme.pw.toml"
+hash = "915dd342659f472c1e26ad781831eea4b8b5c47d5d68c426432008ae361d325f"
+metafile = true
+
+[[files]]
+file = "mods/forge-config-api-port.pw.toml"
+hash = "4449401b59481016fa2a66d6e749795129160cb1ab3e7932e15033c6b5815455"
+metafile = true
+
+[[files]]
 file = "mods/framework-fabric.pw.toml"
 hash = "16609ac7ff66ed81e1a766b26abf130d7875a6e0603babd9bcc41137a6c03468"
 metafile = true
@@ -304,6 +323,31 @@ metafile = true
 [[files]]
 file = "mods/framework.pw.toml"
 hash = "eb8dd1e9d0a0a0ab8a7f215b835d9d25a008bfd6a94c26e2eb5badb82c07651d"
+metafile = true
+
+[[files]]
+file = "mods/freecam.pw.toml"
+hash = "858b7118ce19537e0833360fbb636ff070639799a0d14b471e05aa834a8673c7"
+metafile = true
+
+[[files]]
+file = "mods/friends-and-foes.pw.toml"
+hash = "2fcd17a965738c1649d434a0d5f8077321b4bb90a8c9d9d868d220d8bbd5abb3"
+metafile = true
+
+[[files]]
+file = "mods/frozenlib.pw.toml"
+hash = "41e364c29ac783e302b4dfd7e1832ca3d814870acdfc4591e4791eb80ce445f7"
+metafile = true
+
+[[files]]
+file = "mods/ftb-library-fabric.pw.toml"
+hash = "72ac79e10d11a53a79e15b90c1b0da12c702457360563e6c9c0918097c2bc4f6"
+metafile = true
+
+[[files]]
+file = "mods/ftb-ultimine-fabric.pw.toml"
+hash = "f1124faa851e10084ebdce07d182e6af634c2edd78298050fa2e133ff2bdc336"
 metafile = true
 
 [[files]]
@@ -319,6 +363,16 @@ metafile = true
 [[files]]
 file = "mods/geckolib.pw.toml"
 hash = "21d2df923fa369d69a40d69f6466153146bf403367430eaeb2569c1554857df8"
+metafile = true
+
+[[files]]
+file = "mods/goblintraders-fabric.pw.toml"
+hash = "fe45c366b407078b6e680f830e341240a85c975081baa74385e1c311d21c20ba"
+metafile = true
+
+[[files]]
+file = "mods/good-ending.pw.toml"
+hash = "4315bd28152610d64fdaecfebcb90fef34e7ebb103110055302383ffa617993a"
 metafile = true
 
 [[files]]
