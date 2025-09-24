@@ -231,8 +231,33 @@ hash = "f4fde077bf201fbc588de6ec081d10171101f3176ec9d85fa35b86aae42c241c"
 metafile = true
 
 [[files]]
+file = "mods/delightful-creators.pw.toml"
+hash = "541a5b9aa01cff808c7a3347abb51beccfecca2565626964074cc59b310c0c71"
+metafile = true
+
+[[files]]
 file = "mods/deltaboxlib.pw.toml"
 hash = "0c2fe6437fde3f70b333d4d3381a677c9803fbc1c78c2cc475ada606ab4e9e51"
+metafile = true
+
+[[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "958536b5d052057acccd532c12a79fc0a17c12548214b1d6265233faa0b0e5e3"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns-ancient-city-overhaul.pw.toml"
+hash = "3f15fb2df4db2178eb1c112a0d1a9d807600bf9be2b4049b5eda8e58427f9389"
+metafile = true
+
+[[files]]
+file = "mods/dye-depot.pw.toml"
+hash = "737ebb187660edb526394c55757fa977166d79defbc86e755b4be3c51d8ec24c"
+metafile = true
+
+[[files]]
+file = "mods/dynamicsurroundingsfabric.pw.toml"
+hash = "6bf279de64daa6f416d8e776c2f9ce4a36e52be22d4ef9e6a6380f0a0443f7cf"
 metafile = true
 
 [[files]]
@@ -273,6 +298,51 @@ metafile = true
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
 hash = "8ca413f9c2a155068d71e0057b23d8a199473fb78b37fe1ea864b5455e997a26"
+metafile = true
+
+[[files]]
+file = "mods/enderman-overhaul.pw.toml"
+hash = "fab5d7420de7216e160ad3c2ce7b3c06ae3008ddb432b564579d43a7f9130075"
+metafile = true
+
+[[files]]
+file = "mods/ends-delight.pw.toml"
+hash = "c169e427c31fb1a75e3b59681c5a42504859b6dc0cedf226868c28515f5bfe81"
+metafile = true
+
+[[files]]
+file = "mods/envisioner.pw.toml"
+hash = "d5a85bf8aea515cf8e08c95df9c843ec246a3c111d9b4deac8ce666879b8b9ef"
+metafile = true
+
+[[files]]
+file = "mods/estrogen.pw.toml"
+hash = "18b0d44213fd3c7e22748e4ad775e6ce5cf243f9b38294130a826c845ae913c4"
+metafile = true
+
+[[files]]
+file = "mods/expanded-ecosphere.pw.toml"
+hash = "128337df7163d3e27e28677aa9282422cfd4a0dee68542e545ac1ad2a34a9c69"
+metafile = true
+
+[[files]]
+file = "mods/explorify.pw.toml"
+hash = "a0b3f914a386d4236744bc749156bb7eca1014179a50e340af1ea4741198782f"
+metafile = true
+
+[[files]]
+file = "mods/explosive-enhancement.pw.toml"
+hash = "85e012f1e3fa929ed32f3ce347c9f26606e80393ed30988553a656fd8003900b"
+metafile = true
+
+[[files]]
+file = "mods/extended-drawers.pw.toml"
+hash = "21bdbce23d3cef1dca238e5797f4b87b1e3eb44c8c213e51cd73c51bf55cdced"
+metafile = true
+
+[[files]]
+file = "mods/extra-origins.pw.toml"
+hash = "1022783093409686e3f0387fe8a43982a0d61226878193654efead8563009d96"
 metafile = true
 
 [[files]]
