@@ -97,6 +97,11 @@ file = "global_packs/required_data/HungryCroc.zip"
 hash = "a2c33bff08346b543af225cfc7fee45c2e29759f8bfada577a99d7053584c99d"
 
 [[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "3f9189fb90280a4286423a44a63f7b3a9e17d5e1ff058fb639a7794727f19f33"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "bf7fe8f45caecb5d45ac8cc9ddfde08a3a854e43f874a35b8c1090a0a2a6137e"
 metafile = true
@@ -114,6 +119,11 @@ metafile = true
 [[files]]
 file = "mods/create-fabric.pw.toml"
 hash = "7d227ef90b1918ceb348ade235a5d17c7894acbf387575e96c08920a5bad1bbb"
+metafile = true
+
+[[files]]
+file = "mods/cristel-lib.pw.toml"
+hash = "1eb94c241ed2d519e5bde972b0a7966041684d75cbfc724c3ec55227830316a1"
 metafile = true
 
 [[files]]
@@ -518,7 +528,7 @@ metafile = true
 
 [[files]]
 file = "mods/towns-and-towers.pw.toml"
-hash = "72c0e1d4d8eb05e6c82c8959885ee5f08b8c7ede63b438e22a7422246679cc46"
+hash = "7b7108d879e1e1c141b24d0d8fa268a6bbcd5c227875d156fcc62c3beec55f63"
 metafile = true
 
 [[files]]
