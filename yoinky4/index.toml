@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "0018c4d6fa7fb17871fa9b010a9d8f2ff8718ca9e6ad98d262ea17f8f75ac044"
+hash = "dcb76330b8a47567060565b0171689d5fdd5eb19609680a54eecc43b9e40f103"
 
 [[files]]
 file = "config/autohud.json5"
