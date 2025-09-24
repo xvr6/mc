@@ -122,6 +122,11 @@ hash = "f4fde077bf201fbc588de6ec081d10171101f3176ec9d85fa35b86aae42c241c"
 metafile = true
 
 [[files]]
+file = "mods/deltaboxlib.pw.toml"
+hash = "0c2fe6437fde3f70b333d4d3381a677c9803fbc1c78c2cc475ada606ab4e9e51"
+metafile = true
+
+[[files]]
 file = "mods/emi-enchanting.pw.toml"
 hash = "aef45a1afd270204f96f05142cd1013146e87428e4ffaef3f54148d7f1836916"
 metafile = true
@@ -184,6 +189,11 @@ metafile = true
 [[files]]
 file = "mods/farmers-delight-refabricated.pw.toml"
 hash = "5c98012330282f45370e95f4206ccf214fb059b73a8b4ebe0aeb2ae57647d8d5"
+metafile = true
+
+[[files]]
+file = "mods/framework-fabric.pw.toml"
+hash = "16609ac7ff66ed81e1a766b26abf130d7875a6e0603babd9bcc41137a6c03468"
 metafile = true
 
 [[files]]
