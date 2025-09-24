@@ -97,6 +97,76 @@ file = "global_packs/required_data/HungryCroc.zip"
 hash = "a2c33bff08346b543af225cfc7fee45c2e29759f8bfada577a99d7053584c99d"
 
 [[files]]
+file = "mods/create-fabric.pw.toml"
+hash = "7d227ef90b1918ceb348ade235a5d17c7894acbf387575e96c08920a5bad1bbb"
+metafile = true
+
+[[files]]
+file = "mods/dawn.pw.toml"
+hash = "f4fde077bf201fbc588de6ec081d10171101f3176ec9d85fa35b86aae42c241c"
+metafile = true
+
+[[files]]
+file = "mods/emi-enchanting.pw.toml"
+hash = "aef45a1afd270204f96f05142cd1013146e87428e4ffaef3f54148d7f1836916"
+metafile = true
+
+[[files]]
+file = "mods/emi-loot.pw.toml"
+hash = "b4ab0cc9a2ddcc3753b6775a62092f90e8f41f47c58a8f4cfcb41001c404d490"
+metafile = true
+
+[[files]]
+file = "mods/emi-ores.pw.toml"
+hash = "f9109bb1aae21525af8da7ed9d062b5a9c3f32a520a4fb5816847e051b64dd34"
+metafile = true
+
+[[files]]
+file = "mods/emi.pw.toml"
+hash = "fec1ffa03b4d62e47be25512840490844fc383cf82d2ad35345b2f87a21e8228"
+metafile = true
+
+[[files]]
+file = "mods/emiffect.pw.toml"
+hash = "0fa3061d1035a2c2ca204b01df8b284e79c90e7bcfd1c1555b3058114a288447"
+metafile = true
+
+[[files]]
+file = "mods/emitrades.pw.toml"
+hash = "71d944c917bf1e4f0f6fac8c39f3b1038becaa039cdf3638982f4cdb58ef99b4"
+metafile = true
+
+[[files]]
+file = "mods/emized-botany-pots.pw.toml"
+hash = "9abf30d65d74e7aba054061b6f7e9e467f5e83ce05fdb8744df1283a40155cb9"
+metafile = true
+
+[[files]]
+file = "mods/enchantment-descriptions.pw.toml"
+hash = "8ca413f9c2a155068d71e0057b23d8a199473fb78b37fe1ea864b5455e997a26"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "2b7949e506ba69c57139127c0ccc6caf5a9ec5ec97788b81288118db3d7c2ad3"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "098d6976a738658ca490cc58e9fab19f06cd1a7b23199b6f1ee108d866333e22"
+metafile = true
+
+[[files]]
+file = "mods/fakerlib.pw.toml"
+hash = "650af6cf72d6fc89d1bd133106fc981cd77a5ea2986a32105bd400f8a160be7e"
+metafile = true
+
+[[files]]
+file = "mods/geckolib.pw.toml"
+hash = "6fd888d1b4de5d7b4ceb3db0a7f8c353b8d6685e7b8a4386ad8ecde7e23256c4"
+metafile = true
+
+[[files]]
 file = "mods/jade.pw.toml"
 hash = "d5faaf6d7e4be8bdf9b1b200edee175c2704ce13abad9d1951a4d4a45b432d4e"
 metafile = true
