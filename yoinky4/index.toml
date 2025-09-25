@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "dcb76330b8a47567060565b0171689d5fdd5eb19609680a54eecc43b9e40f103"
+hash = "162f2651f1edcafdb528f6d635d343be1e633f3b4f3de55f93aa986d18e7ab05"
 
 [[files]]
 file = "config/autohud.json5"
@@ -296,11 +296,6 @@ hash = "7d227ef90b1918ceb348ade235a5d17c7894acbf387575e96c08920a5bad1bbb"
 metafile = true
 
 [[files]]
-file = "mods/create-mod-trims.pw.toml"
-hash = "598af112d247563245d5638a384c711eb8d6f19d2281da119aca3a82a313a609"
-metafile = true
-
-[[files]]
 file = "mods/create-new-age.pw.toml"
 hash = "2c65b7ed826a2d147f0eb4788152b9f1ae878e0df102af58a9ea23ebd1c48f04"
 metafile = true
@@ -486,6 +481,11 @@ hash = "c169e427c31fb1a75e3b59681c5a42504859b6dc0cedf226868c28515f5bfe81"
 metafile = true
 
 [[files]]
+file = "mods/entityculling.pw.toml"
+hash = "5629568659cd84d843dc94850b34febe025c970f7236a5ee59a67ebb98269a7d"
+metafile = true
+
+[[files]]
 file = "mods/envisioner.pw.toml"
 hash = "d5a85bf8aea515cf8e08c95df9c843ec246a3c111d9b4deac8ce666879b8b9ef"
 metafile = true
@@ -538,6 +538,11 @@ metafile = true
 [[files]]
 file = "mods/farmers-delight-refabricated.pw.toml"
 hash = "5c98012330282f45370e95f4206ccf214fb059b73a8b4ebe0aeb2ae57647d8d5"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "86cbfa8adbbb8be527f95aca49b427f892aa780773df141dfd7f4ffd02740bbd"
 metafile = true
 
 [[files]]
@@ -698,6 +703,11 @@ metafile = true
 [[files]]
 file = "mods/mindful-darkness.pw.toml"
 hash = "5ef4415598aa0f1596686961bfcd3c65761129e7fc49ac8b82c6bd9001d8ed52"
+metafile = true
+
+[[files]]
+file = "mods/modernfix.pw.toml"
+hash = "25eaf217efd36d674b35fe2577c41736bcceb2961224ce9dd3e67be0bd483d1d"
 metafile = true
 
 [[files]]
@@ -878,6 +888,11 @@ metafile = true
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "3f9e020fb15e1c2ede36d50b40c72d536f6de3f817bd703d26805a747175c8bc"
+metafile = true
+
+[[files]]
+file = "mods/respawning-animals.pw.toml"
+hash = "d65dfa0f4c267e8af0a1b7ea18b01231299edfafe0a448debed8540de1f16ff5"
 metafile = true
 
 [[files]]
