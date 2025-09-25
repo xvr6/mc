@@ -137,7 +137,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "3f9189fb90280a4286423a44a63f7b3a9e17d5e1ff058fb639a7794727f19f33"
+hash = "e12dce3e543168379a2856c66064ee2001e6420a9dfc6163f37b78e518947456"
 metafile = true
 
 [[files]]
@@ -161,6 +161,11 @@ hash = "bf7fe8f45caecb5d45ac8cc9ddfde08a3a854e43f874a35b8c1090a0a2a6137e"
 metafile = true
 
 [[files]]
+file = "mods/bcbc.pw.toml"
+hash = "c52dc0be4a519e85f164efabbe7bdc99b55dd876bd4f0579bc5e4865e0a20004"
+metafile = true
+
+[[files]]
 file = "mods/beautify-refabricated.pw.toml"
 hash = "724353a7730f54b29378ba8e374c78372c8a8f072e578b5758b11fc150f470b7"
 metafile = true
@@ -173,6 +178,16 @@ metafile = true
 [[files]]
 file = "mods/better-archeology.pw.toml"
 hash = "d7dcbb9489b17fbe221d3a59ab2503293b219cee29d07a08aefbe32c5f3bf160"
+metafile = true
+
+[[files]]
+file = "mods/better-combat.pw.toml"
+hash = "9f92d063b29316733455bcf5ca2c0f77f31a479d9c0ceb8c3557da177691131c"
+metafile = true
+
+[[files]]
+file = "mods/better-mob-combat.pw.toml"
+hash = "ec5dae4378e97086d9e8fd3ee13c54a9ce3e8566d7e627693bbc5049bbced86c"
 metafile = true
 
 [[files]]
@@ -278,6 +293,11 @@ metafile = true
 [[files]]
 file = "mods/copycats.pw.toml"
 hash = "f460d01d0351226ce596672936cc09364028046e87fc357bd0218c6df3e89d83"
+metafile = true
+
+[[files]]
+file = "mods/coroutil.pw.toml"
+hash = "429284603e4c5ca44777cb4ce2455477fcc1eee4dc9a4ae2f759c4895bf332e7"
 metafile = true
 
 [[files]]
@@ -541,11 +561,6 @@ hash = "5c98012330282f45370e95f4206ccf214fb059b73a8b4ebe0aeb2ae57647d8d5"
 metafile = true
 
 [[files]]
-file = "mods/ferrite-core.pw.toml"
-hash = "86cbfa8adbbb8be527f95aca49b427f892aa780773df141dfd7f4ffd02740bbd"
-metafile = true
-
-[[files]]
 file = "mods/festive-delight.pw.toml"
 hash = "80a47171dcffc0762b7fe17d5b9cd2803bea8b75bb32bbb6b0bd263bf983fb3a"
 metafile = true
@@ -706,6 +721,11 @@ hash = "5ef4415598aa0f1596686961bfcd3c65761129e7fc49ac8b82c6bd9001d8ed52"
 metafile = true
 
 [[files]]
+file = "mods/mob-player-animator.pw.toml"
+hash = "3be353b92080eff330995040871e15bbd39d0a899f24046547d5f8c76bfec5c3"
+metafile = true
+
+[[files]]
 file = "mods/modernfix.pw.toml"
 hash = "25eaf217efd36d674b35fe2577c41736bcceb2961224ce9dd3e67be0bd483d1d"
 metafile = true
@@ -826,6 +846,11 @@ hash = "43b4a9ca9aaac5a16ed067aee92cafaf30d6166d62d7fa851179c6257ed75b59"
 metafile = true
 
 [[files]]
+file = "mods/playeranimator.pw.toml"
+hash = "7ad4ca488da13998ce660729167eef71ce1bdfb57ef1c5d593096fa459cec0f8"
+metafile = true
+
+[[files]]
 file = "mods/polymorph.pw.toml"
 hash = "8293786ca23e23e7dd04d60d666f34145a00229a5959f7a1962995654cacdf1f"
 metafile = true
@@ -911,6 +936,11 @@ hash = "9553d654195bca5662da654ed84b294a6ad61eac5e28b236c260e80f78efe3ef"
 metafile = true
 
 [[files]]
+file = "mods/simply-swords.pw.toml"
+hash = "53756963029d3281ce1001a6129367541d2e092b34a4bb1cafeff77f3ec28902"
+metafile = true
+
+[[files]]
 file = "mods/slice-and-dice.pw.toml"
 hash = "47493d398295964924d386d0fb866dac1a2d5e0cd4692b8436ea2552ce6c99f6"
 metafile = true
@@ -938,6 +968,11 @@ metafile = true
 [[files]]
 file = "mods/sparsestructures.pw.toml"
 hash = "58d7767ed9ce171b4a3afe10e5d945074bdf65458b09e7c8f98a229d28dd9439"
+metafile = true
+
+[[files]]
+file = "mods/spawn-animations.pw.toml"
+hash = "649ca0fb966ad785f535632f44c957471f9015d50c3bfc5c808758ed1243fdae"
 metafile = true
 
 [[files]]
@@ -1028,6 +1063,11 @@ metafile = true
 [[files]]
 file = "mods/warden-tools.pw.toml"
 hash = "f90a1267765144d33854016d79a7f33ed193d236ef5c924cade8a5ac91213498"
+metafile = true
+
+[[files]]
+file = "mods/what-are-they-up-to.pw.toml"
+hash = "c709708a11f117743c086f16de67701eb35bfad331826960398bb1e64ea4d35f"
 metafile = true
 
 [[files]]
