@@ -676,6 +676,11 @@ hash = "99efc9e805ce2888680d3cacb9be65733c6d4a8cfcb77e1976205f758db24346"
 metafile = true
 
 [[files]]
+file = "mods/ironchests.pw.toml"
+hash = "fc3a2ab77cbe31040c59d1ba8cbd5283a9e6d2603ccf64784bd33205d4da81f1"
+metafile = true
+
+[[files]]
 file = "mods/jade.pw.toml"
 hash = "d5faaf6d7e4be8bdf9b1b200edee175c2704ce13abad9d1951a4d4a45b432d4e"
 metafile = true
@@ -883,11 +888,6 @@ metafile = true
 [[files]]
 file = "mods/reinforced-barrels.pw.toml"
 hash = "8ecb26c89b55887a3403e0c739305d1aa3a65fa1979444ba5f56186dd74c3a1a"
-metafile = true
-
-[[files]]
-file = "mods/reinforced-chests.pw.toml"
-hash = "550a6cb51af93244b8acd44f56ce38bded8634d745d9b9699f8e33f0fbe324c1"
 metafile = true
 
 [[files]]
