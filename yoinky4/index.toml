@@ -14,7 +14,7 @@ hash = "ee0a65c8c75cd4ffbe3b410c9b979ffc292c9bc7ad3c3d383648897f4e6cbe7e"
 
 [[files]]
 file = "config/bluemap/webapp.conf"
-hash = "ada8a6b9d4d32d3683ef6ea18650f8639598104c9d92305b279a694429c52d08"
+hash = "eb7fbbf671c247286fd9d3c52a43142da7e65dfb53c08163e0742b2979f3ca24"
 
 [[files]]
 file = "config/carryon-client.json"
@@ -156,6 +156,11 @@ hash = "ef97bca7575e32ab9dcbe572e286749ddf562ff9c113c20663054e943618d131"
 metafile = true
 
 [[files]]
+file = "mods/badpackets.pw.toml"
+hash = "2b153d649184fcf793de475b3b3beaf238f7b558226ffc57896096a7ddcd99ad"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "bf7fe8f45caecb5d45ac8cc9ddfde08a3a854e43f874a35b8c1090a0a2a6137e"
 metafile = true
@@ -178,11 +183,6 @@ metafile = true
 [[files]]
 file = "mods/better-archeology.pw.toml"
 hash = "d7dcbb9489b17fbe221d3a59ab2503293b219cee29d07a08aefbe32c5f3bf160"
-metafile = true
-
-[[files]]
-file = "mods/better-combat.pw.toml"
-hash = "9f92d063b29316733455bcf5ca2c0f77f31a479d9c0ceb8c3557da177691131c"
 metafile = true
 
 [[files]]
