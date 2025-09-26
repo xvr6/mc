@@ -1,12 +1,12 @@
 name = "Yoinky 4"
 author = "Prectriv"
-version = "4.0.1a"
+version = "4.0.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "6cadb4d9ba70e040da17bcd5958c633171e64c46cd9aa3f75b1061363333b618"
+hash = "d06843807c9c06301761d4dc259b4f3d542a704f468c5634a833f77e599451ed"
 
 [versions]
 fabric = "0.17.2"

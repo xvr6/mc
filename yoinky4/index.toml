@@ -961,11 +961,6 @@ hash = "58d7767ed9ce171b4a3afe10e5d945074bdf65458b09e7c8f98a229d28dd9439"
 metafile = true
 
 [[files]]
-file = "mods/spawn-animations.pw.toml"
-hash = "649ca0fb966ad785f535632f44c957471f9015d50c3bfc5c808758ed1243fdae"
-metafile = true
-
-[[files]]
 file = "mods/spelunkery.pw.toml"
 hash = "5a955b4e4c847837490e430e4a586e6aa9692c32acad9321391881d2107058b4"
 metafile = true
