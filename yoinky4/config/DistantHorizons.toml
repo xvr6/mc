@@ -15,13 +15,13 @@ _version = 3
 	#
 	# Defines the distance allowed to be synchronized around the player. 
 	# Should be the same or larger than maxGenerationRequestDistance in most cases.
-	maxSyncOnLoadRequestDistance = 4096
+	maxSyncOnLoadRequestDistance = 2048
 	#
 	# If true, clients will receive updated LODs when joining or loading new LODs.
 	synchronizeOnLoad = true
 	#
 	# Defines the distance allowed to generate around the player.
-	maxGenerationRequestDistance = 8192
+	maxGenerationRequestDistance = 4096
 	#
 	# Defines the X-coordinate of the central point for generation boundaries, in blocks.
 	generationBoundsX = 0
@@ -40,7 +40,7 @@ _version = 3
 	#
 	# Defines the radius around the central point within which generation is allowed, in blocks. 
 	# If this value is set to 0, generation bounds are disabled.
-	generationBoundsRadius = 8192
+	generationBoundsRadius = 4096
 	#
 	# Maximum speed for uploading LODs to the clients, in KB/s.
 	# Value of 0 disables the limit.
@@ -140,7 +140,7 @@ _version = 3
 		# 
 		# Fastest: False
 		# Most Compatible: True
-		recalculateChunkHeightmaps = false
+		recalculateChunkHeightmaps = true
 
 		[common.lodBuilding.experimental]
 			#
