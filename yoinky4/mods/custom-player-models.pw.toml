@@ -1,6 +1,6 @@
 name = "Customizable Player Models"
 filename = "CustomPlayerModels-Fabric-1.20-0.6.24a.jar"
-side = "client"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/h1E7sQNL/versions/TH7HYEnP/CustomPlayerModels-Fabric-1.20-0.6.24a.jar"
