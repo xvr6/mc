@@ -120,7 +120,7 @@ _version = 3
 		# Expected Compression Ratio: 0.14
 		# Estimated average DTO read speed: 11.89 ms
 		# Estimated average DTO write speed: 192.01 ms
-		dataCompression = "LZMA2"
+		dataCompression = "LZ4"
 		#
 		# Enabling this will drastically increase chunk processing time
 		# and you may need to increase your CPU load to handle it.
@@ -140,7 +140,7 @@ _version = 3
 		# 
 		# Fastest: False
 		# Most Compatible: True
-		recalculateChunkHeightmaps = true
+		recalculateChunkHeightmaps = false
 
 		[common.lodBuilding.experimental]
 			#
