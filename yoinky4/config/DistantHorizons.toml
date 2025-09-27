@@ -48,18 +48,13 @@ _version = 3
 	#
 	# If true, clients will receive real-time LOD updates for chunks outside the client's render distance.
 	enableRealTimeUpdates = true
-	#
-	# Enables adaptive transfer speed based on client performance.
-	# If true, DH will automatically adjust transfer rate to minimize connection lag.
-	# If false, transfer speed will remain fixed.
-	enableAdaptiveTransferSpeed = false
 
 	[server.experimental]
 		#
 		# When enabled on the client, this allows loading lower detail levels as needed to speed up terrain generation.
 		# This must also be enabled on the server; otherwise, it will have no effect.
 		# For better performance when switching LOD detail levels, enabling [upsampleLowerDetailLodsToFillHoles] is recommended.
-		enableNSizedGeneration = false
+		enableNSizedGeneration = true
 
 [common]
 
@@ -111,20 +106,20 @@ _version = 3
 		# UNCOMPRESSED 
 		# Should only be used for testing, is worse in every way vs [LZ4].
 		# Expected Compression Ratio: 1.0
-		# Estimated average DTO read speed: 3.25 milliseconds
-		# Estimated average DTO write speed: 5.99 milliseconds
+		# Estimated average DTO read speed: 1.64 milliseconds
+		# Estimated average DTO write speed: 12.44 milliseconds
 		# 
 		# LZ4 
 		# A good option if you're CPU limited and have plenty of hard drive space.
-		# Expected Compression Ratio: 0.26
+		# Expected Compression Ratio: 0.36
 		# Estimated average DTO read speed: 1.85 ms
 		# Estimated average DTO write speed: 9.46 ms
 		# 
 		# LZMA2 
 		# Slow but very good compression.
-		# Expected Compression Ratio: 0.2
-		# Estimated average DTO read speed: 13.29 ms
-		# Estimated average DTO write speed: 70.95 ms
+		# Expected Compression Ratio: 0.14
+		# Estimated average DTO read speed: 11.89 ms
+		# Estimated average DTO write speed: 192.01 ms
 		dataCompression = "LZ4"
 		#
 		# Enabling this will drastically increase chunk processing time
@@ -145,7 +140,7 @@ _version = 3
 		# 
 		# Fastest: False
 		# Most Compatible: True
-		recalculateChunkHeightmaps = false
+		recalculateChunkHeightmaps = true
 
 		[common.lodBuilding.experimental]
 			#
@@ -164,7 +159,7 @@ _version = 3
 	[common.multiThreading]
 		#
 		# How many threads should be used by Distant Horizons?
-		numberOfThreads = 10
+		numberOfThreads = 8
 		#
 		# A value between 1.0 and 0.0 that represents the percentage 
 		# of time each thread can run before going idle. 
@@ -461,7 +456,7 @@ _version = 3
 				#  overhangs or walls for floating objects. 
 				#  Tweaking the caveCullingHeight, can resolve some 
 				#  of those issues.
-				enableCaveCulling = true
+				enableCaveCulling = false
 				#
 				# Identical to the other frustum culling option
 				# only used when a shader mod is present using the DH API
@@ -620,16 +615,16 @@ _version = 3
 				# 
 				# Lowest Quality: HEIGHT_MAP
 				# Highest Quality: EXTREME
-				verticalQuality = "PIXEL_ART"
+				verticalQuality = "MEDIUM"
 				#
 				# What blocks shouldn't be rendered as LODs? 
 				# 
 				# NONE: Represent all blocks in the LODs 
 				# NON_COLLIDING: Only represent solid blocks in the LODs (tall grass, torches, etc. won't count for a LOD's height)
-				blocksToIgnore = "NONE"
+				blocksToIgnore = "NON_COLLIDING"
 				#
 				# The radius of the mod's render distance. (measured in chunks)
-				lodChunkRenderDistanceRadius = 512
+				lodChunkRenderDistanceRadius = 256
 				#
 				# What the value should vanilla Minecraft's texture LodBias be? 
 				# If set to 0 the mod wont overwrite vanilla's default (which so happens to also be 0)
@@ -651,7 +646,7 @@ _version = 3
 				# This indicates how quickly LODs decrease in quality the further away they are. 
 				# Higher settings will render higher quality fake chunks farther away, 
 				# but will increase memory and GPU usage.
-				horizontalQuality = "EXTREME"
+				horizontalQuality = "MEDIUM"
 				#
 				# How should LOD transparency be handled. 
 				# 
