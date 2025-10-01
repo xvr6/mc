@@ -3,8 +3,8 @@ filename = "ftb-essentials-fabric-2001.2.3.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "cea593ae304a6741c6b63026e0433a2750ff2dd7"
+hash-format = "sha512"
+hash = "5354dc9d20948c251d8c36e2088192c7a6d033f884e398b51e426cbbf068ebcaac08344fbdcf55b734672633251b7990b4a3bb6ddb862e9d45c1ed0a2e03368e"
 mode = "metadata:curseforge"
 
 [update]

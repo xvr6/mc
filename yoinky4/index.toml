@@ -137,7 +137,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "2492a7266fab4c2ff411612180974b98510afb66a18e640f4de63ad615dd1e9e"
+hash = "e12dce3e543168379a2856c66064ee2001e6420a9dfc6163f37b78e518947456"
 metafile = true
 
 [[files]]
@@ -532,7 +532,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "c784cee4a8eed3f2b36172b8c5a119a62a28880d15e7f169947c935bf3bf4bb3"
+hash = "2b7949e506ba69c57139127c0ccc6caf5a9ec5ec97788b81288118db3d7c2ad3"
 metafile = true
 
 [[files]]
@@ -597,7 +597,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-essentials.pw.toml"
-hash = "8054860e94196bcc079fed630a3a3ecbd6e98aace7a8eac3026edcce5d740185"
+hash = "ab451bc1a887251a7023248ebfdb4aa3aaa57318af9418d9c93da026c41250da"
 metafile = true
 
 [[files]]
