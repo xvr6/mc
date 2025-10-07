@@ -141,6 +141,16 @@ hash = "e12dce3e543168379a2856c66064ee2001e6420a9dfc6163f37b78e518947456"
 metafile = true
 
 [[files]]
+file = "mods/armor-visibility.pw.toml"
+hash = "9a0d272e9ab03e5fd290e3fbad70b1a16cbbff14ac959cac992ab11d4f7ebad2"
+metafile = true
+
+[[files]]
+file = "mods/ash-api.pw.toml"
+hash = "83a72cf7d3ef3a91f2ad822b372b96d0b13b51889f3cf063dc38e7222d1c95e9"
+metafile = true
+
+[[files]]
 file = "mods/astrocraft-mod.pw.toml"
 hash = "780382ed4743c8894c82035fa4e23d5991f3f92665f464a0f44940e101b3a591"
 metafile = true
