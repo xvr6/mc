@@ -341,6 +341,11 @@ hash = "916c17614ec51da73e173b7249118b473e479c370a48378bc7f91eb5e5abfa9d"
 metafile = true
 
 [[files]]
+file = "mods/create-trading-floor.pw.toml"
+hash = "1b7e14317bc324ac08736eb154458a463715fdbc59bd556999893b58129eebf8"
+metafile = true
+
+[[files]]
 file = "mods/create-universal-ores.pw.toml"
 hash = "77ba884b858fa83c97ae670855c17cf25257a259d7c88ed460d6b7dbc62b76a5"
 metafile = true
