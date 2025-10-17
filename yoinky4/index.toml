@@ -321,6 +321,11 @@ hash = "7d227ef90b1918ceb348ade235a5d17c7894acbf387575e96c08920a5bad1bbb"
 metafile = true
 
 [[files]]
+file = "mods/create-mod-trims.pw.toml"
+hash = "598af112d247563245d5638a384c711eb8d6f19d2281da119aca3a82a313a609"
+metafile = true
+
+[[files]]
 file = "mods/create-new-age.pw.toml"
 hash = "2c65b7ed826a2d147f0eb4788152b9f1ae878e0df102af58a9ea23ebd1c48f04"
 metafile = true
