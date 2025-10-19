@@ -6,7 +6,7 @@ hash = "99fff02f51da33dfa1bf6cf7b819a0c1921be5ba00307aa8325ad0852505fcd7"
 
 [[files]]
 file = "config/autohud.json5"
-hash = "64edc8dfcb92182dab60d64e09bc03863e64c36a1b8d0d3be6b5d00167323dd1"
+hash = "599cf1a325c1c61afe9dc2c8b6123becaf22f7208e095b5e370e1e9479955df5"
 
 [[files]]
 file = "config/bluemap/core.conf"
