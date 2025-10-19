@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "ccf42baad42be810085f4552f57cb4f97aceb03e3043fecfff5cd4b84bcfb520"
+hash = "99fff02f51da33dfa1bf6cf7b819a0c1921be5ba00307aa8325ad0852505fcd7"
 
 [[files]]
 file = "config/autohud.json5"
@@ -437,7 +437,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "2f5a73e3de7b1393b6b0d99d96d66589a170bf3074e4022e58f66a82cca607c0"
+hash = "99e5d94ff380998e4d6155366647ef14b8fbfc8408102f675d9379bba24e3535"
 metafile = true
 
 [[files]]
