@@ -11,3 +11,8 @@ hash = "a858d77246f1da8ba4e32fa61cad935c5366f422db2a1fc6f07bbf1e3c4fb1a44839d240
 [update.modrinth]
 mod-id = "B1CcCd9h"
 version = "19UWxtiZ"
+
+[option]
+optional = true
+default = true
+description = "Visual mod. Disable if using water shaders as it can look quite out of place."
