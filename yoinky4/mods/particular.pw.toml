@@ -14,5 +14,5 @@ version = "19UWxtiZ"
 
 [option]
 optional = true
-default = true
 description = "Visual mod. Disable if using water shaders as it can look quite out of place."
+default = true
