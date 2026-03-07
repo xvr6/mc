@@ -1,0 +1,13 @@
+name = "Poinky"
+author = "prectriv"
+version = "0.0.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "5bdc5e527a85229005feb26222ac8b89330b64971cc77e13f75dd0a10d6ac273"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.219"
