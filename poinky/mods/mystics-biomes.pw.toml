@@ -1,0 +1,13 @@
+name = "Mystic's Biomes"
+filename = "mysticsbiomes-neoforge-1.21.1-3.5.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/kUpOjknA/versions/r9mraZeq/mysticsbiomes-neoforge-1.21.1-3.5.1.jar"
+hash-format = "sha512"
+hash = "f77dcfbdff4eaffa7a958e4c35f3143c83ade3b686c35dfca742bd41720f84bd4ad7ebc934d7919204e4b166244bcb797166cd350d5f66e40ce8f134c58dc19e"
+
+[update]
+[update.modrinth]
+mod-id = "kUpOjknA"
+version = "r9mraZeq"

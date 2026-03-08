@@ -1,0 +1,13 @@
+name = "LibJF"
+filename = "libjf-3.17.5+forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/WKwQAwke/versions/V5JCqigQ/libjf-3.17.5%2Bforge.jar"
+hash-format = "sha512"
+hash = "ca65be0d1b543b0f63bebbc65c213a3d6049fab44545c269a3ffd3fd52c4064ab653cdb464be576fa693c4c771e48b3206cccf9669fd80b10a49092e4ae175bc"
+
+[update]
+[update.modrinth]
+mod-id = "WKwQAwke"
+version = "V5JCqigQ"
