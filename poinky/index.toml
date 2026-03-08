@@ -66,6 +66,11 @@ hash = "3c2952381ff3885818e9892193b6adb7359d72582a832a0a55d9c225ffdef501"
 metafile = true
 
 [[files]]
+file = "mods/lithosphere.pw.toml"
+hash = "337093b94742d334ad349d4fbfe1b74a9b885784ac6d43432896b3dc527260a9"
+metafile = true
+
+[[files]]
 file = "mods/lithostitched.pw.toml"
 hash = "5da9cd2a23721bce6fa54f3c92236ed95c319e66f82eda3fc282e433b7a6b188"
 metafile = true
@@ -118,11 +123,6 @@ metafile = true
 [[files]]
 file = "mods/shoulder-surfing-reloaded.pw.toml"
 hash = "ac93c4b88f33a165e39b7214f3a4350950247128b5ce698bebe0d8d05a7fadc9"
-metafile = true
-
-[[files]]
-file = "mods/tectonic.pw.toml"
-hash = "63aea16cbf3e00874a05889f1553f3ef4640b04d10c370bba78eb2377f4fbf07"
 metafile = true
 
 [[files]]
