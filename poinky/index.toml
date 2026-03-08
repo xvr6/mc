@@ -246,6 +246,36 @@ hash = "61ce79aeecd3101399a33bbea16444736f2988b363a63c9f3b6a2c4fb0b3828a"
 metafile = true
 
 [[files]]
+file = "mods/dungeons-and-taverns-ancient-city-overhaul.pw.toml"
+hash = "d92fc8263e986d682e6a207e434cbffc2844ea180e916553b280033d560d7c89"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns-jungle-temple-overhaul.pw.toml"
+hash = "72724de3861b2f041eb0b430e2771c2f5287b3b85ba918562e050712b5571b81"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns-ocean-monument-overhaul.pw.toml"
+hash = "dc24e814f0794ed8cf8e16e6667736049e0763b4204369e07787559007cbcbbd"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns-pillager-outpost-overhaul.pw.toml"
+hash = "e73798f88e6e4fb817c102f64f57fcfd41f271aba703bed8e7b70759356cf246"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns-stronghold-overhaul.pw.toml"
+hash = "872ab8c78193dd775eb707793b8edc528323632a7fe2930223513635c2fddefa"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns.pw.toml"
+hash = "b9244dca740d333c22f3425991fdd2fd40d3ae12384079a40a6fb7d4bca18a18"
+metafile = true
+
+[[files]]
 file = "mods/dusty-decorations.pw.toml"
 hash = "786785f601a48f15d7f948562faaf8d7af8abcbdf2a48575878fbd67311d83d9"
 metafile = true
@@ -866,11 +896,6 @@ hash = "d9c0c9209bac0b693af2a7c1e47ffb28d366bad19c91df31dc6d345fa75250a1"
 metafile = true
 
 [[files]]
-file = "mods/yungs-better-desert-temples.pw.toml"
-hash = "c2cb28859e7bcc0eb4ce59c5792f90fa5f8ab8865f5867ba26a5a345ec60b498"
-metafile = true
-
-[[files]]
 file = "mods/yungs-better-dungeons.pw.toml"
 hash = "1496ffa30020676979e65921b91e583a2fdc77e50001e2ed55f99edf1a0ae880"
 metafile = true
@@ -893,16 +918,6 @@ metafile = true
 [[files]]
 file = "mods/yungs-better-nether-fortresses.pw.toml"
 hash = "50c1731148d91a4ef05cfc47f759ca8fb3dad254e15ce4ecc5732d6fbfa68637"
-metafile = true
-
-[[files]]
-file = "mods/yungs-better-ocean-monuments.pw.toml"
-hash = "a2d7176026abf4a68a663b375811a603c508f36062cc7fb5b45416e1462682a8"
-metafile = true
-
-[[files]]
-file = "mods/yungs-better-strongholds.pw.toml"
-hash = "03084966c05070b5c4b17cd89234f3c0d813940a2d76b405a6699deac10a0ab8"
 metafile = true
 
 [[files]]
