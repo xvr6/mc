@@ -3,8 +3,8 @@ filename = "goblintraders-neoforge-1.21.1-1.11.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "4507faefb977321b598daa3fb35d7e1a9a03eb80"
+hash-format = "sha512"
+hash = "020a4c812b83edf4c5bbd6cf1dee61ada945792632571e5814ad31f254e4fe1bd7e20e64c195d2997949711888f18f7ae96f0375a1e19262ec0284015ac27d83"
 mode = "metadata:curseforge"
 
 [update]

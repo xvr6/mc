@@ -3,8 +3,8 @@ filename = "ftb-ultimine-neoforge-2101.1.13.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "c6ca0360843e5dbac57f3c01aa80fba5a0518553"
+hash-format = "sha512"
+hash = "3d493d3f48f98a0973ff701e0d2e4ec85d5312b8f4273624dcef0475022bcc9b54d52876faaa6b4f2bb8699ea1da0f6f03716e865e89ea3813f88c16e5fbbe72"
 mode = "metadata:curseforge"
 
 [update]
