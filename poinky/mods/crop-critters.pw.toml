@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/5u8twXEK/versions/lIUc8D9X/cropcritters-neoforge-1.21.1-1.2.0.jar"
-hash-format = "sha512"
-hash = "4b8e480afa920073ef5aade586f21afafa2fbe7e456ff51901ad1c9e74a63718e714aa9766042bc5955c8a03069d92f04b5f5557eb3ae6c9a462de2acdb058cf"
+hash-format = "sha256"
+hash = "759ef4605165e9ae805738ff3b574a1b78e0d4107e6a85d98475e56ec0cc6d9e"
 
 [update]
 [update.modrinth]
