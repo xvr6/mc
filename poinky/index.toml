@@ -301,11 +301,6 @@ hash = "2d384086cf9ab631c760ef40718af9c9c877276fa98e8f99e273b7ed90059ecf"
 metafile = true
 
 [[files]]
-file = "mods/hold-my-items-reforged.pw.toml"
-hash = "6363d6bf7a1e0f798d6e316240f3e6695f95fafb31d195c56afa0dcc93e02510"
-metafile = true
-
-[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "3d47b1d933d04934a606be1cbb67481860c3d68c9ed4efc387c7745d23b732a7"
 metafile = true
@@ -373,11 +368,6 @@ metafile = true
 [[files]]
 file = "mods/lootr.pw.toml"
 hash = "33e1d182c5a166e070cc66157ec6f692ff08d8ddae975b564e69a37079b01950"
-metafile = true
-
-[[files]]
-file = "mods/make_bubbles_pop.pw.toml"
-hash = "a449aef5f6be6551710aa6ca5f79e66711c9c5a0e08679acf765cfda5147162e"
 metafile = true
 
 [[files]]
