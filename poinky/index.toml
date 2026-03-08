@@ -71,6 +71,11 @@ hash = "1045ba1bb46eb77e2fea9be04268c2c73c161b94f3bceddbd4c3dbff1c0bf555"
 metafile = true
 
 [[files]]
+file = "mods/endrem.pw.toml"
+hash = "db22718a1efaf2c691cf3bdddc61b0b06bedff7cb0722aa8b1bdf4f095d116cc"
+metafile = true
+
+[[files]]
 file = "mods/entity-model-features.pw.toml"
 hash = "68e0010a541dfab4ada1786114b5ac4cbd5b083519663757fcdad0a0fe186aab"
 metafile = true
@@ -166,11 +171,6 @@ hash = "4938df12efb521463114135f453e82eeca8469493b359f07414f51a78da20735"
 metafile = true
 
 [[files]]
-file = "mods/lookin-sharp.pw.toml"
-hash = "0266ab8a4bd3e09f0fdacf6fff7182bfd997dd9286bf0f6cdc2025069e23e93d"
-metafile = true
-
-[[files]]
 file = "mods/midnightlib.pw.toml"
 hash = "3382daf9b5fadbbef742b84fe5b09fa912cc75cd4234e0ba573b85a513354123"
 metafile = true
@@ -178,11 +178,6 @@ metafile = true
 [[files]]
 file = "mods/natures-delight.pw.toml"
 hash = "e43823fe1729cb9b95311d3b8cb7f1428e230ac957c73bbf2d239921f96a229d"
-metafile = true
-
-[[files]]
-file = "mods/natures-spirit.pw.toml"
-hash = "e5c9d8b97345998f99cf6da31b41c5cf4875361bc94c3354be2299730b7acb04"
 metafile = true
 
 [[files]]
@@ -248,6 +243,11 @@ metafile = true
 [[files]]
 file = "mods/shoulder-surfing-reloaded.pw.toml"
 hash = "ac93c4b88f33a165e39b7214f3a4350950247128b5ce698bebe0d8d05a7fadc9"
+metafile = true
+
+[[files]]
+file = "mods/simply-swords.pw.toml"
+hash = "af36cf0aa85c590f2f5720da468484ed1f7197c5f00391eff41e757b93b05bc5"
 metafile = true
 
 [[files]]
