@@ -116,6 +116,11 @@ hash = "df536f068808076c24dac917d86d581886ae5fb912672ec949d9c71a1a7a7fb7"
 metafile = true
 
 [[files]]
+file = "mods/create-dynamic-lights.pw.toml"
+hash = "56ff7fa56eb6ae7d32cdd1f7ce84022d1ed25b416dd9142572ef0d2360d49ec9"
+metafile = true
+
+[[files]]
 file = "mods/create-enchantment-industry.pw.toml"
 hash = "5b1281a4c0766f71f72db9721090403e47893d23d7f8c05907b522d6d9188542"
 metafile = true
@@ -168,6 +173,11 @@ metafile = true
 [[files]]
 file = "mods/cubes-without-borders.pw.toml"
 hash = "8e5f6550359e71ecbea95705ec61fb03313550e6f481cabf48043929909aabae"
+metafile = true
+
+[[files]]
+file = "mods/custom-player-models.pw.toml"
+hash = "d65a013fc6ad1b6e1470e05c9efe7825e988b47415a033fef6d9b91474b488cb"
 metafile = true
 
 [[files]]
@@ -298,6 +308,11 @@ metafile = true
 [[files]]
 file = "mods/good-ending.pw.toml"
 hash = "2d384086cf9ab631c760ef40718af9c9c877276fa98e8f99e273b7ed90059ecf"
+metafile = true
+
+[[files]]
+file = "mods/hypertube.pw.toml"
+hash = "590367627beaf24a765bac0b3970b278d242045ef095a848dfba0615ab449bae"
 metafile = true
 
 [[files]]
@@ -498,6 +513,11 @@ metafile = true
 [[files]]
 file = "mods/simply-swords.pw.toml"
 hash = "af36cf0aa85c590f2f5720da468484ed1f7197c5f00391eff41e757b93b05bc5"
+metafile = true
+
+[[files]]
+file = "mods/sodium-dynamic-lights.pw.toml"
+hash = "c1e526d3d17cb3563e596d45c7567ed1fe60c31bdc3457f7a747ef8150bd3c1b"
 metafile = true
 
 [[files]]
