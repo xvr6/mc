@@ -1,0 +1,13 @@
+name = "Dusty Decorations"
+filename = "DustyDecorations_1.21.1Neoforge_V1.12.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/KgFOuaiZ/versions/AH3ycpLZ/DustyDecorations_1.21.1Neoforge_V1.12.jar"
+hash-format = "sha512"
+hash = "12b22c4d79bce691fdad6a1fd783b1e6080118977f8901572aacd8076b2d6c9079f2e32ea26334fe98c95e654acf696e797770b5e2102e391b570a11476a05b6"
+
+[update]
+[update.modrinth]
+mod-id = "KgFOuaiZ"
+version = "AH3ycpLZ"
