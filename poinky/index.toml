@@ -126,6 +126,11 @@ hash = "ac93c4b88f33a165e39b7214f3a4350950247128b5ce698bebe0d8d05a7fadc9"
 metafile = true
 
 [[files]]
+file = "mods/sodium.pw.toml"
+hash = "0281ed9713f3141bdac363056a791845510e14761ea65b4b2813cf96d664b20a"
+metafile = true
+
+[[files]]
 file = "mods/terrablender.pw.toml"
 hash = "15962183bec2468058c70e87aa32e902a08489b0f86741088cdc9aa958ba4931"
 metafile = true
