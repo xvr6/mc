@@ -674,11 +674,6 @@ hash = "42805ef7e224873873d190b0363f2a53dae02530553574f29fab92e258bc0470"
 metafile = true
 
 [[files]]
-file = "mods/natures-compass.pw.toml"
-hash = "abfc8909de1c851ccf4ef296e05d1017332a21fef76fd1f938828fcff925115b"
-metafile = true
-
-[[files]]
 file = "mods/nightlights.pw.toml"
 hash = "9b56c2c17c00dd51fffcbc5e5a59d2c325ed656e768365ae1a36f7692ffcd01e"
 metafile = true
@@ -951,6 +946,11 @@ metafile = true
 [[files]]
 file = "mods/via-romana.pw.toml"
 hash = "d96fe12674f0a9d208ab683e0799542b03ddfd9b17bd89996f3fca73dd3df2dd"
+metafile = true
+
+[[files]]
+file = "mods/wayfinder.pw.toml"
+hash = "1abe6615262b444ff32d257bf4908bf5b5025e349c895bc1e512604a592b99af"
 metafile = true
 
 [[files]]

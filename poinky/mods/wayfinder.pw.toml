@@ -1,0 +1,13 @@
+name = "Wayfinder"
+filename = "Wayfinder-NeoForge-1.0.1-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/909sOSOR/versions/BJoxN6jL/Wayfinder-NeoForge-1.0.1-1.21.1.jar"
+hash-format = "sha512"
+hash = "c70e4a17980b403499eb110f4f05838c1723f6e283b5231eb6df5d713ea9d0e42e7637f067902badf25a5ce1027dcb96a5081d60a1681cbb30809b2d01130074"
+
+[update]
+[update.modrinth]
+mod-id = "909sOSOR"
+version = "BJoxN6jL"
