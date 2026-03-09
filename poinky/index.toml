@@ -41,12 +41,8 @@ file = "config/shouldersurfing-client.toml"
 hash = "5eded57444d1cb3e7923aabfa568d2561dacfee3734e6729d2a7598a137f4a36"
 
 [[files]]
-file = "config/sparsestructures.json5"
-hash = "75a830a8a005a44bbc21b51066d54558f6dd1fa61960e9fedd173ade24913725"
-
-[[files]]
 file = "config/tectonic.json"
-hash = "3b424afadb87416c7f926ecb4e652d44bba559a1f0b87d0097ae61bfd42d9cab"
+hash = "5c7ed7ffe7423ad0741513d15b754ca1a9dd9cc4ec6350e9d4192184803830e5"
 
 [[files]]
 file = "config/xaerominimap-common.txt"
@@ -204,7 +200,7 @@ metafile = true
 
 [[files]]
 file = "mods/cool-rain-reforged.pw.toml"
-hash = "751112791c982bad50a163b174d3be7933203a543e1a6f9723aeaa0cc28c2f65"
+hash = "e33ecc76027e68d811efd71733d12fd41aeaa7118f7adfecd707e36b5559bfb2"
 metafile = true
 
 [[files]]
@@ -564,17 +560,12 @@ metafile = true
 
 [[files]]
 file = "mods/jump-over-fences.pw.toml"
-hash = "3ee389e5b994aa1423e36140804840a6fe419dffd4798111c0624c2afebd95ab"
+hash = "e3c802556e3f8a52ac984bd08837442828f0af4756e2cf883e88da6f20452bc2"
 metafile = true
 
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "27302b0087cf53570cd7a3b4eb550a208cbb6f6ba07210c604176155f39e0078"
-metafile = true
-
-[[files]]
-file = "mods/labels.pw.toml"
-hash = "a4e09391cb50364b131f96b500eabd2f19c88bd5c175b8acd5c7ace5b7689723"
 metafile = true
 
 [[files]]
@@ -883,11 +874,6 @@ hash = "4063a3c0f2f9a6544a870f0b90679441d7333652875dafbe3db255fc67f72c82"
 metafile = true
 
 [[files]]
-file = "mods/sparsestructures.pw.toml"
-hash = "993b4e4970e1a5ef2fe7c6712212f57a84dcf8b31d4b6863540b6395c4f9ce09"
-metafile = true
-
-[[files]]
 file = "mods/subtle-effects.pw.toml"
 hash = "ebbb8c25c8741d0bbe4aa09c893e1f34228e4e50f92e7ae829a4dbbf621d9045"
 metafile = true
@@ -970,6 +956,16 @@ metafile = true
 [[files]]
 file = "mods/winter-overhaul.pw.toml"
 hash = "cef75a3276f7464779f2a293d508d1a5aa6c5504718d24977725a060397c5794"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "02e2acc15a8c1b7bbe44a64af68574d7e024f1c45504a6997568c9fcbab3846b"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "192a4685f8a182d1fa2fae67e2fad8b74ba547726beecfe8868174b4172d76a8"
 metafile = true
 
 [[files]]
