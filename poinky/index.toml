@@ -1,8 +1,81 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/DistantHorizons.toml"
+hash = "f608358a572a9d794f6cd91e48b0203332583c0fff8814de084ca7fd772894b0"
+
+[[files]]
+file = "config/autohud.json5"
+hash = "599cf1a325c1c61afe9dc2c8b6123becaf22f7208e095b5e370e1e9479955df5"
+
+[[files]]
+file = "config/biomeswevegone/world_generation.json5"
+hash = "fe036ce576f9550038d35afeb59a1a627ae81c04e27740410ae57f525efe64d9"
+
+[[files]]
+file = "config/bluemap/core.conf"
+hash = "ee0a65c8c75cd4ffbe3b410c9b979ffc292c9bc7ad3c3d383648897f4e6cbe7e"
+
+[[files]]
+file = "config/bluemap/webapp.conf"
+hash = "eb7fbbf671c247286fd9d3c52a43142da7e65dfb53c08163e0742b2979f3ca24"
+
+[[files]]
+file = "config/carryon-client.toml"
+hash = "8ef4b931dab1300df5d2d7ecd93c5f37da97f032f882d33b6b6c16ba84d3f97c"
+
+[[files]]
+file = "config/carryon-common.toml"
+hash = "6488cdeccad07ffd98c08bf07a8874b259e781119f727e224518a6e21c6c57eb"
+
+[[files]]
+file = "config/mindfuldarkness-client.toml"
+hash = "e3920628719c00d298b6979e8014b1d2693d7a057024f9593e70ad751fe9f9ad"
+
+[[files]]
+file = "config/regions_unexplored/regions_unexplored-common.toml"
+hash = "7fb5e25dabafb896192e1dbbe7418d5cf2abbdfdf8ac1252c643f4e637269194"
+
+[[files]]
+file = "config/shouldersurfing-client.toml"
+hash = "5eded57444d1cb3e7923aabfa568d2561dacfee3734e6729d2a7598a137f4a36"
+
+[[files]]
+file = "config/sparsestructures.json5"
+hash = "75a830a8a005a44bbc21b51066d54558f6dd1fa61960e9fedd173ade24913725"
+
+[[files]]
 file = "config/tectonic.json"
-hash = "09367b6ee997684e62e08a188ff1d3b55fb11156cc61795f74eb91c70a742bfc"
+hash = "3b424afadb87416c7f926ecb4e652d44bba559a1f0b87d0097ae61bfd42d9cab"
+
+[[files]]
+file = "config/xaerominimap-common.txt"
+hash = "771a844d13ab6c2ff99f14b8fd912d02c55a1a4104361692b740c3e596084f6f"
+
+[[files]]
+file = "config/xaerominimap.txt"
+hash = "fc53a7734ea58998ed4d899196932e9fa6a2a98d25f46b1bd07a16dbbffa6cc7"
+
+[[files]]
+file = "config/xaerominimap_entities.json"
+hash = "94fc0e69a1754ef80c54e1f3c9193526c620b0ac646f94a4a0f560bcc58826a8"
+
+[[files]]
+file = "config/xaeropatreon.txt"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/xaeroworldmap-common.txt"
+hash = "f02ca95d7246bd4b9c7de895c46108fff42fd5fcf9d56816b7bdba821597b58f"
+
+[[files]]
+file = "config/xaeroworldmap.txt"
+hash = "6a3ec46b651874c937238dd98ad2bf36a288d6e4a6c875dd37a0027adc48cb69"
+
+[[files]]
+file = "mods/3dskinlayers.pw.toml"
+hash = "d5c7247d9c30419e3bb652e1099864304af6c016196b6e07fb560e515fe6fe5b"
+metafile = true
 
 [[files]]
 file = "mods/advanced-netherite.pw.toml"
@@ -681,7 +754,7 @@ metafile = true
 
 [[files]]
 file = "mods/patchouli.pw.toml"
-hash = "3718e8a37d0dc2939cc350cce74bcb9c36b59f48baf4560e62804f7ca6478185"
+hash = "19d0e4103155f482d023fab7e52b14cf5fb8db16683c0f124b311528881f69b3"
 metafile = true
 
 [[files]]
