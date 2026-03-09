@@ -130,6 +130,4 @@ infoDisplay:highlights:true:15:-1
 infoDisplay:light_overlay_indicator:true:15:-1
 infoDisplay:manual_cave_mode_indicator:true:15:-1
 infoDisplay:custom_sub_world:true:15:-1
-seed:Multiplayer_yoinky.prectriv.cc/dim%0_mw$default:-1282041344
-seed:Multiplayer_mc.prectriv.cc/dim%0_mw0,0,0:434637455
 module;id=xaerominimap:minimap;active=true;x=0;y=0;centered=false;fromRight=false;fromBottom=false;flippedVer=false;flippedHor=false;
