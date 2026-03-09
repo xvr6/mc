@@ -1,6 +1,0 @@
-{
-  "keys": ["plump"],
-  "type": "flag",
-  "isAspect": true,
-  "default": false
-}

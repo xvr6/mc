@@ -1,7 +1,0 @@
-{
-  "type": "choice",
-  "keys": ["slinkycolor"],
-  "default": "blue",
-  "choices": ["blue", "pink", "white"],
-  "isAspect": true
-}

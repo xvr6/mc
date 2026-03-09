@@ -1,6 +1,0 @@
-{
-  "keys": ["nether"],
-  "type": "flag",
-  "isAspect": true,
-  "default": false
-}

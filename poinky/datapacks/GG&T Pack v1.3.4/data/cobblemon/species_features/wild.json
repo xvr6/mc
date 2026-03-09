@@ -1,6 +1,0 @@
-{
-  "keys": ["wild"],
-  "type": "flag",
-  "isAspect": true,
-  "default": false
-}

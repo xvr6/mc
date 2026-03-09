@@ -1,7 +1,0 @@
-{
-  "type": "choice",
-  "keys": ["puppet"],
-  "default": "random",
-  "choices": ["magi", "woop", "pyuku"],
-  "isAspect": true
-}
