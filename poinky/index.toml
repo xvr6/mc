@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/tectonic.json"
+hash = "09367b6ee997684e62e08a188ff1d3b55fb11156cc61795f74eb91c70a742bfc"
+
+[[files]]
 file = "mods/advanced-netherite.pw.toml"
 hash = "4a7568e25cac4f4bedba140135036d9481403069a6d9513a922e9901661c05ca"
 metafile = true
