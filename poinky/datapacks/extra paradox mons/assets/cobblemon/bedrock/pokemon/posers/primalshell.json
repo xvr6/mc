@@ -1,0 +1,64 @@
+{
+  "portraitScale": 1.2,
+  "portraitTranslation": [-1.4, 1.5, 0],
+  "profileScale": 0.4,
+  "profileTranslation": [0, 1.3, 0],
+  "rootBone": "primalshell",
+  "animations": {
+    "cry": "q.bedrock_stateful('primalshell', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.bedrock('primalshell', 'ground_idle')"
+      ],
+      "transformedParts": [
+         {
+           "part": "snakes",
+           "isVisible": false
+         }
+         ],
+      "quirks": []
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.bedrock('primalshell', 'ground_walk')"
+      ],
+      "transformedParts": [
+         {
+           "part": "snakes",
+           "isVisible": false
+         }
+         ],
+      "quirks": []
+    },
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('primalshell', 'battle_idle')"
+      ],
+      "transformedParts": [
+         {
+           "part": "snakes",
+           "isVisible": true
+         }
+        ],
+      "quirks": []
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('primalshell', 'sleep')"],
+      "transformedParts": [
+         {
+           "part": "snakes",
+           "isVisible": false
+         }
+        ],
+      "quirks": []
+    }
+    }
+  }

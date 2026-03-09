@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:nephigan",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:nephigan",
+      "model": "cobblemon:nephigan.geo",
+      "texture": "cobblemon:textures/pokemon/nephigan/nephigan.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/nephigan/nephigan_shiny.png"
+    }
+  ]
+}

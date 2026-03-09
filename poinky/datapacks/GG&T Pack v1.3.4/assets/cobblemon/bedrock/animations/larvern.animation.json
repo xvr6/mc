@@ -1,0 +1,58 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.larvern.ground_walk": {
+			"loop": true,
+			"bones": {
+				"tail": {
+					"rotation": ["-20+Math.cos((query.anim_time + 0.1) * 90*4) * 4", 0, "-2.5+Math.cos((query.anim_time - 0.3) * 90*8) * 4"]
+				},
+				"body": {
+					"rotation": [0, "Math.cos((query.anim_time + 0.1) * 90*8) * 2", 0],
+					"position": [0, "-0.2+Math.cos((query.anim_time + 0.1) * 90*8) * 0.2", 0]
+				},
+				"head": {
+					"rotation": [0, "Math.cos((query.anim_time + 0.0) * 90*8) * -4", 0]
+				},
+				"body2": {
+					"rotation": [0, "Math.cos((query.anim_time) * 90*8) * 4", 0]
+				},
+				"body3": {
+					"rotation": [0, "Math.cos((query.anim_time - 0.1) * 90*8) * -8", 0]
+				},
+				"body4": {
+					"rotation": [0, "Math.cos((query.anim_time - 0.2) * 90*8) * 4", 0]
+				},
+				"body5": {
+					"rotation": [0, "Math.cos((query.anim_time - 0.3) * 90*8) * -4", 0]
+				}
+			}
+		},
+		"animation.larvern.ground_idle": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [0, 15, "Math.cos((query.anim_time - 0.0) * 90*4) * 2"]
+				},
+				"head": {
+					"rotation": ["Math.cos((query.anim_time - 0.0) * 90*4) * 2", -12.5, "Math.cos((query.anim_time - 0.0) * 90*4) * -2"]
+				},
+				"body2": {
+					"rotation": [0, 7.5, "Math.cos((query.anim_time - 0.1) * 90*4) * -4"]
+				},
+				"body3": {
+					"rotation": [0, 10, "Math.cos((query.anim_time - 0.2) * 90*4) * 4"]
+				},
+				"body4": {
+					"rotation": [0, 20, "Math.cos((query.anim_time - 0.3) * 90*4) * -4"]
+				},
+				"body5": {
+					"rotation": [0, 10, "Math.cos((query.anim_time - 0.2) * 90*4) * 4"]
+				},
+				"tail": {
+					"rotation": ["Math.cos((query.anim_time - 0.3) * 90*4) * 4", 0, 0]
+				}
+			}
+		}
+	}
+}

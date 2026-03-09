@@ -1,0 +1,13 @@
+name = "Cobblemarks+ (Cobblemon)"
+filename = "cobblemarks+-1.1-release.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7WGFjJcv/versions/gLEDosXM/cobblemarks%2B-1.1-release.jar"
+hash-format = "sha512"
+hash = "2320a182be074c74f1fc17bfd6e7c1d1253d8eb7f514c4d304ea13e59bc058d23d3b682f54d714b0d1dadb97623ea06b36c1a7ee77281b3833eb082a7fe5c2de"
+
+[update]
+[update.modrinth]
+mod-id = "7WGFjJcv"
+version = "gLEDosXM"

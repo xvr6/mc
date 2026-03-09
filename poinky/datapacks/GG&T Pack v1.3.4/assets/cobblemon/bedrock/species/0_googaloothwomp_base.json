@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:googaloothwomp",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:googaloothwomp",
+      "model": "cobblemon:googaloothwomp.geo",
+      "texture": "cobblemon:textures/pokemon/googaloothwomp/googaloothwomp.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/googaloothwomp/googaloothwomp_shiny.png"
+    }
+  ]
+}

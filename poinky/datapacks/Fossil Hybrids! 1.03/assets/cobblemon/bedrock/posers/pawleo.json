@@ -1,0 +1,90 @@
+{
+ "portraitScale": 2.3,
+ "portraitTranslation": [-0.1, 0.58, 0],
+ "profileScale": 0.75,
+ "profileTranslation": [0, 0.68, 0],
+ "animations": {
+ },
+ "poses": {
+   "battle-standing": {
+     "poseTypes": ["STAND"],
+     "isBattle": true,
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('pawleo', 'battle_idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('pawleo', 'blink')"]
+   },
+   "standing": {
+     "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+     "isBattle": false,
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('pawleo', 'ground_idle')"
+     ],
+     "quirks": [
+       "q.bedrock_quirk('pawleo', 'blink')"
+     ]
+   },
+   "walking": {
+     "poseTypes": ["WALK"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('pawleo', 'ground_walk')"
+     ],
+     "quirks": ["q.bedrock_quirk('pawleo', 'blink')"]
+   },
+   "hover": {
+     "poseTypes": ["HOVER"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('pawleo', 'ground_idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('pawleo', 'blink')"]
+   },
+   "fly": {
+     "poseTypes": ["FLY"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('pawleo', 'ground_idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('pawleo', 'blink')"]
+   },
+   "float": {
+     "poseTypes": ["FLOAT"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('pawleo', 'ground_idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('pawleo', 'blink')"]
+   },
+   "swim": {
+     "poseTypes": ["SWIM"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('pawleo', 'ground_walk')"
+     ],
+     "quirks": ["q.bedrock_quirk('pawleo', 'blink')"]
+   },
+   "sleep": {
+     "poseTypes": ["SLEEP"],
+     "animations": ["q.bedrock('pawleo', 'sleep')"]
+   },
+   "shoulder_left": {
+     "poseTypes": ["SHOULDER_LEFT"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('pawleo', 'ground_idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('pawleo', 'blink')"]
+   },
+   "shoulder_right": {
+     "poseTypes": ["SHOULDER_RIGHT"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('pawleo', 'ground_idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('pawleo', 'blink')"]
+   }
+ }
+}

@@ -1,0 +1,22 @@
+{
+  "species": "cobblemon:drosphilia",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [
+          "female"
+          ],
+      "poser": "cobblemon:drosphilia_female",
+      "model": "cobblemon:drosphilia_female.geo",
+      "texture": "cobblemon:textures/pokemon/drosphilia/drosphilia_female.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "female",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/drosphilia/drosphilia_female_shiny.png"
+    }
+  ]
+}

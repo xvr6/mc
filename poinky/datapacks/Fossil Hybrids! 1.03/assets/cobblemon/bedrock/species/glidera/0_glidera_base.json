@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:glidera",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:glidera",
+      "model": "cobblemon:glidera.geo",
+      "texture": "cobblemon:textures/pokemon/glidera/glidera.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/glidera/glidera_shiny.png"
+    }
+  ]
+}

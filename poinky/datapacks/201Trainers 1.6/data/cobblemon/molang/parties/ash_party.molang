@@ -1,0 +1,45 @@
+t.player_highest_level = q.player.party.highest_level;
+t.player_average_level = q.player.party.average_level;
+t.party_count = math.random_integer(3,4);
+t.pokemon_level = ((t.player_highest_level + t.player_average_level) / 2);
+
+t.1 = 'pikachu level=' + (t.pokemon_level);
+t.2 = 'charizard level=' + (t.pokemon_level);
+t.3 = 'bulbasaur level=' + (t.pokemon_level);
+t.4 = 'squirtle level=' + (t.pokemon_level);
+t.5 = 'kingler level=' + (t.pokemon_level);
+t.6 = 'muk level=' + (t.pokemon_level);
+t.7 = 'snorlax level=' + (t.pokemon_level);
+t.8 = 'heracross level=' + (t.pokemon_level);
+t.9 = 'bayleef level=' + (t.pokemon_level);
+t.10 = 'cyndaquil level=' + (t.pokemon_level);
+t.11 = 'totodile level=' + (t.pokemon_level);
+t.12 = 'noctowl level=' + (t.pokemon_level);
+t.13 = 'donphan level=' + (t.pokemon_level);
+t.14 = 'sceptile level=' + (t.pokemon_level);
+t.15 = 'swellow level=' + (t.pokemon_level);
+t.16 = 'corphish level=' + (t.pokemon_level);
+t.17 = 'glalie level=' + (t.pokemon_level);
+t.18 = 'infernape level=' + (t.pokemon_level);
+t.19 = 'staraptor level=' + (t.pokemon_level);
+t.20 = 'torterra level=' + (t.pokemon_level);
+t.21 = 'buizel level=' + (t.pokemon_level);
+t.22 = 'gliscor level=' + (t.pokemon_level);
+t.23 = 'gible level=' + (t.pokemon_level);
+t.24 = 'unfezant level=' + (t.pokemon_level);
+t.25 = 'oshawott level=' + (t.pokemon_level);
+t.26 = 'pignite level=' + (t.pokemon_level);
+t.27 = 'snivy level=' + (t.pokemon_level);
+t.28 = 'scraggy level=' + (t.pokemon_level);
+t.29 = 'leavanny level=' + (t.pokemon_level);
+t.30 = 'boldore level=' + (t.pokemon_level);
+t.31 = 'krookodile level=' + (t.pokemon_level);
+t.32 = 'greninja level=' + (t.pokemon_level);
+t.33 = 'talonflame level=' + (t.pokemon_level);
+t.34 = 'hawlucha level=' + (t.pokemon_level);
+
+loop(t.party_count, {
+  t.result = q.random(t.1, t.2, t.3, t.4, t.5, t.6, t.7, t.8, t.9, t.10, t.11, t.12, t.13, t.14, t.15, t.16, t.17, t.18, t.19, t.20, t.21, t.22, t.23, t.24, t.25, t.26, t.27, t.28, t.29, t.30, t.31, t.32, t.33, t.34);
+  q.party.add_by_properties(t.result)
+});
+return true;

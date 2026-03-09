@@ -1,0 +1,53 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.slinkalink.ground_idle": {
+			"loop": true,
+			"bones": {
+				"spring3": {
+					"rotation": [0, 0, "Math.cos((query.anim_time) * 90*0.5) * 15"],
+					"position": [0, "-4+Math.cos((query.anim_time + 0.2) * 90*1) * 4", 0]
+				},
+				"spring4": {
+					"rotation": [0, 0, "Math.cos((query.anim_time-0.2) * 90*0.5) * 15"]
+				},
+				"sucker2": {
+					"position": [0, "-2+Math.cos((query.anim_time) * 90*1) * 1", 0]
+				},
+				"spring1": {
+					"position": [0, "-4+Math.cos((query.anim_time + 0.4) * 90*1) * 4", 0]
+				},
+				"spring2": {
+					"position": [0, "4+Math.cos((query.anim_time + 0.4) * 90*1) * -4", 0]
+				}
+			}
+		},
+		"animation.slinkalink.ground_walk": {
+			"loop": true,
+			"bones": {
+				"middle": {
+					"rotation": [0, 0, 90],
+					"position": [0, "-3+Math.cos((query.anim_time + 0.2) * 90*8) * 0.4", 0]
+				},
+				"spring3": {
+					"rotation": ["Math.cos((query.anim_time + 0.2) * 90*2) * 15", 0, "30+Math.cos((query.anim_time + 0.2) * 90*4) * 15"]
+				},
+				"spring4": {
+					"rotation": [0, 0, "30+Math.cos((query.anim_time + 0.2) * 90*4) * -15"]
+				},
+				"sucker2": {
+					"rotation": [0, 0, 30]
+				},
+				"spring1": {
+					"rotation": ["Math.cos((query.anim_time + 0.2) * 90*2) * 15", 0, "-30+Math.cos((query.anim_time + 0.2) * 90*4) * -15"]
+				},
+				"spring2": {
+					"rotation": [0, 0, "-30+Math.cos((query.anim_time + 0.2) * 90*4) * 15"]
+				},
+				"sucker1": {
+					"rotation": [0, 0, -30]
+				}
+			}
+		}
+	}
+}

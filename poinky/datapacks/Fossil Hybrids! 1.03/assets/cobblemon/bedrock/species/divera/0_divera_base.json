@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:divera",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:divera",
+      "model": "cobblemon:divera.geo",
+      "texture": "cobblemon:textures/pokemon/divera/divera.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/divera/divera_shiny.png"
+    }
+  ]
+}

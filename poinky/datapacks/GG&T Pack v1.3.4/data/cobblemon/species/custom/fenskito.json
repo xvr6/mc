@@ -1,0 +1,135 @@
+{
+    "implemented": true,
+    "name": "fenskito",
+    "nationalPokedexNumber": 2110,
+    "primaryType": "bug",
+    "secondaryType": "dark",
+    "abilities": [
+        "insomnia",
+        "rivalry",
+        "h:dryskin"
+    ],
+    "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:charti_berry",
+        "percentage": 2.5
+            }
+        ]
+    },
+    "baseStats": {
+        "hp": 50,
+        "attack": 60,
+        "defence": 50,
+        "special_attack": 35,
+        "special_defence": 35,
+        "speed": 60
+    },
+    "catchRate": 120,
+    "maleRatio": 0.0,
+    "shoulderMountable": false,
+    "forms": [],
+    "baseExperienceYield": 102,
+    "experienceGroup": "medium_slow",
+    "eggCycles": 20,
+    "eggGroups": [
+        "bug",
+        "water_3"
+    ],
+    "behaviour": {
+        "moving": {
+            "swim": {
+                "canSwimInWater": true
+            }
+        }
+    },
+    "moves": [
+        "1:absorb",
+        "1:watergun",
+        "1:tackle",
+        "4:strugglebug",
+        "8:poisonsting",
+        "12:bugbite",
+        "16:infestation",
+        "20:screech",
+        "24:bite",
+        "26:scaryface",
+        "28:fellstinger",
+        "32:leechlife",
+        "34:pinmissile",
+        "36:bite",
+        "40:pursuit",
+        "42:assurance",
+        "egg:waterpulse",
+        "egg:watersport",
+        "tm:protect",
+        "tm:strugglebug",
+        "tm:endure",
+        "tm:raindance",
+        "tm:uturn",
+        "tm:rest",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:leechlife",
+        "tm:substitute",
+        "tm:bugbuzz",
+        "tm:dive",
+        "tm:waterpulse",
+        "tm:waterfall",
+        "tm:surf",
+        "tm:infestation",
+        "tm:cut",
+        "tm:thief",
+        "tm:agility",
+        "tm:facade",
+        "tm:fling",
+        "tm:gigadrain",
+        "tm:poisonjab",
+        "tm:lunge",
+        "tm:throatchop",
+        "tm:foulplay",
+        "tm:swagger",
+        "tm:taunt",
+        "tutor:skittersmack",
+        "tutor:snatch",
+        "tutor:afteryou",
+        "tutor:uproar"
+    ],
+    "labels": [
+        "gen8"
+    ],
+    "pokedex": [
+        "cobblemon.species.fenskito.desc1",
+        "cobblemon.species.fenskito.desc2"
+    ],
+    "preEvolution": "babito",
+    "evolutions": [
+        {
+            "id": "fenskito_skeetobelle",
+            "variant": "level_up",
+            "result": "skeetobelle",
+            "consumeHeldItem": false,
+            "learnableMoves": [ "wingattack" ],
+            "requirements": [
+                {
+                    "variant": "level",
+                    "minLevel": 36
+                }
+            ]
+        }
+    ],
+    "baseScale": 1.1,
+    "hitbox": {
+        "width": 0.65,
+        "height": 1.2,
+        "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+        "speed": 1,
+        "attack": 1
+    },
+    "height": 10,
+    "weight": 350
+}

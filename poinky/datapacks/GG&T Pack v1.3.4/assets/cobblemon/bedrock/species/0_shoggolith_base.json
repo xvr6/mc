@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:shoggolith",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:shoggolith",
+      "model": "cobblemon:shoggolith.geo",
+      "texture": "cobblemon:textures/pokemon/shoggolith/shoggolith.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/shoggolith/shoggolith_shiny.png"
+    }
+  ]
+}

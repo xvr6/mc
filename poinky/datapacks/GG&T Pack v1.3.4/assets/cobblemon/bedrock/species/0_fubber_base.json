@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:fubber",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:fubber",
+      "model": "cobblemon:fubber.geo",
+      "texture": "cobblemon:textures/pokemon/fubber/fubber.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fubber/fubber_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ancientgale",
+  "speciesId": "cobblemon:ancientgale",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "normal",
+      "unlockForms": [
+        "normal"
+      ]
+    }
+  ],
+  "variations": []
+}

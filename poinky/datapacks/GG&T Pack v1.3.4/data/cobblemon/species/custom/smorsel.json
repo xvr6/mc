@@ -1,0 +1,111 @@
+{
+    "implemented": true,
+    "name": "smorsel",
+    "nationalPokedexNumber": 2175,
+    "primaryType": "fairy",
+    "secondaryType": "fire",
+    "abilities": [
+        "gooey",
+        "h:fluffy"
+    ],
+    "baseStats": {
+        "hp": 55,
+        "attack": 35,
+        "defence": 55,
+        "special_attack": 35,
+        "special_defence": 55,
+        "speed": 55
+    },
+    "catchRate": 120,
+    "maleRatio": 0,
+    "shoulderMountable": false,
+    "forms": [],
+    "baseExperienceYield": 49,
+    "experienceGroup": "medium_slow",
+    "eggCycles": 15,
+    "eggGroups": [
+        "fairy"
+    ],
+    "behaviour": {},
+    "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:sugar",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "cobblemon:kings_rock",
+        "percentage": 5.0
+      }
+    ]
+    },
+    "moves": [
+        "1:sweetscent",
+        "1:tackle",
+        "5:defensecurl",
+        "5:rollout",
+        "9:ember",
+        "12:disarmingvoice",
+        "15:helpinghand",
+        "17:drainingkiss",
+        "21:aromaticmist",
+        "23:sweetkiss",
+        "27:incinerate",
+        "30:charm",
+        "35:aromatherapy",
+        "40:burnup",
+        "tm:takedown",
+        "tm:protect",
+        "tm:firespin",
+        "tm:facade",
+        "tm:flamecharge",
+        "tm:endure",
+        "tm:sunnyday",
+        "tm:sleeptalk",
+        "tm:rest",
+        "tm:substitute",
+        "tm:willowisp",
+        "tm:flamethrower",
+        "tm:heatwave",
+        "tm:helpinghand",
+        "tm:fireblast",
+        "tm:overheat",
+        "tm:flareblitz",
+        "tm:charm",
+        "tm:drainingkiss",
+        "tm:storedpower",
+        "tm:dazzlinggleam",
+        "tm:mistyterrain",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "egg:beatup",
+        "egg:afteryou",
+        "egg:metronome",
+        "egg:swagger",
+        "egg:healbell",
+        "egg:clearsmog",
+        "tutor:disable",
+        "tutor:quash"
+    ],
+    "labels": [
+        "custom"
+    ],
+    "pokedex": [
+        "cobblemon.species.smorsel.desc1",
+        "cobblemon.species.smorsel.desc2"
+    ],
+    "evolutions": [],
+    "baseScale": 0.9,
+    "hitbox": {
+        "width": 1,
+        "height": 1,
+        "fixed": false
+    },
+    "baseFriendship": 70,
+    "evYield": {
+        "special_defence": 1
+    },
+    "height": 5,
+    "weight": 85
+}

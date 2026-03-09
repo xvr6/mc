@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:nephigan",
+  "speciesId": "cobblemon:nephigan",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

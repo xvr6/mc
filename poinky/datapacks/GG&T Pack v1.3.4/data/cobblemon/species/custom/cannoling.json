@@ -1,0 +1,118 @@
+{
+    "implemented": true,
+    "name": "cannoling",
+    "nationalPokedexNumber": 2125,
+    "primaryType": "fairy",
+    "abilities": [
+        "sweetveil",
+        "klutz",
+        "h:regenerator"
+    ],
+    "baseStats": {
+        "hp": 70,
+        "attack": 35,
+        "defence": 60,
+        "special_attack": 50,
+        "special_defence": 60,
+        "speed": 20
+    },
+    "catchRate": 155,
+    "maleRatio": 0.5,
+    "shoulderMountable": true,
+    "forms": [],
+    "baseExperienceYield": 60,
+    "experienceGroup": "fast",
+    "eggCycles": 20,
+    "eggGroups": [
+        "fairy",
+        "dragon"
+    ],
+    "drops": {
+        "amount": "1",
+        "entries": [
+            {
+                "item": "minecraft:cookie",
+                "quantityRange": "1",
+                "percentage": 80
+            }
+        ]
+    },
+    "moves": [
+        "1:fairywind",
+        "1:growl",
+        "1:flail",
+        "4:aromaticmist",
+        "6:sweetscent",
+        "8:recycle",
+        "10:drainingkiss",
+        "14:aromatherapy",
+        "18:acidarmor",
+        "24:yawn",
+        "28:glare",
+        "30:dragonbreath",
+        "32:dazzlinggleam",
+        "36:coil",
+        "40:recover",
+        "45:entrainment",
+        "50:wish",
+        "tm:dragonpulse",
+        "tm:solarbeam",
+        "tm:thunderwave",
+        "tm:lightscreen",
+        "tm:reflect",
+        "tm:safeguard",
+        "tm:rest",
+        "tm:snore",
+        "tm:protect",
+        "tm:charm",
+        "tm:attract",
+        "tm:raindance",
+        "tm:sunnyday",
+        "tm:facade",
+        "tm:swift",
+        "tm:helpinghand",
+        "tm:round",
+        "tm:drainingkiss",
+        "tm:mysticalfire",
+        "tm:bodyslam",
+        "tm:flamethrower",
+        "tm:dazzlinggleam",
+        "tm:playrough",
+        "tm:zenheadbutt",
+        "tutor:mistyexplosion"
+    ],
+    "labels": [
+        "custom"
+    ],
+    "pokedex": [
+        "cobblemon.species.cannoling.desc1",
+        "cobblemon.species.cannoling.desc2"
+    ],
+    "evolutions": [
+        {
+            "id": "cannoling_holinoli_lvl",
+            "variant": "level_up",
+            "result": "holinoli",
+            "consumeHeldItem": false,
+            "learnableMoves": [],
+            "requirements": [
+                {
+                    "variant": "level",
+                    "minLevel": 28
+                }
+            ]
+        }
+    ],
+    "baseScale": 0.9,
+    "hitbox": {
+        "width": 0.7,
+        "height": 0.7,
+        "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+        "hp": 1
+    },
+    "height": 9,
+    "weight": 34
+}

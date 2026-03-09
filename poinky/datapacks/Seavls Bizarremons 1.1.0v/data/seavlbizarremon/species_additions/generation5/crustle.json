@@ -1,0 +1,13 @@
+{
+  "target": "cobblemon:crustle",
+  "evolutions": [
+    {
+      "id": "crustle_mortarb",
+      "variant": "item_interact",
+      "result": "mortarb",
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:copper_block"
+    }
+  ]
+}

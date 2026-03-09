@@ -1,0 +1,27 @@
+{
+  "id": "cobblemon:slinkalink",
+  "speciesId": "cobblemon:slinkalink",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "blue",
+      "unlockForms": [
+        "blue",
+        "pink",
+        "white"
+      ]
+    }
+  ],
+  "variations": [
+      {
+      "displayName": "cobblemon.pokedex.variation.slinky_color",
+      "icon": "cobblemon:textures/gui/pokedex/variation/pattern.png",
+      "aspects": [
+        "blue",
+        "pink",
+        "white"
+      ]
+    }
+  ]
+}

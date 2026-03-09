@@ -1,0 +1,35 @@
+{
+    "species": "cobblemon:leafeon",
+    "order": 1,
+    "variations": [
+      {
+        "aspects": ["alolan", "male"],
+        "poser": "seavlbizarremon:leafeon_alolan",
+        "model": "seavlbizarremon:leafeon_alolan_male.geo",
+        "texture": "seavlbizarremon:textures/pokemon/0470_leafeon/leafeon_alolan.png",
+        "layers": []
+      },
+      {
+        "aspects": ["alolan", "female"],
+        "poser": "seavlbizarremon:leafeon_alolan",
+        "model": "seavlbizarremon:leafeon_alolan_female.geo",
+        "texture": "seavlbizarremon:textures/pokemon/0470_leafeon/leafeon_alolan.png",
+        "layers": []
+      },
+      {
+        "aspects": ["alolan", "male", "shiny"],
+        "poser": "seavlbizarremon:leafeon_alolan",
+        "model": "seavlbizarremon:leafeon_alolan_male.geo",
+        "texture": "seavlbizarremon:textures/pokemon/0470_leafeon/leafeon_alolan_shiny.png",
+        "layers": []
+      },
+      {
+        "aspects": ["alolan", "female", "shiny"],
+        "poser": "seavlbizarremon:leafeon_alolan",
+        "model": "seavlbizarremon:leafeon_alolan_female.geo",
+        "texture": "seavlbizarremon:textures/pokemon/0470_leafeon/leafeon_alolan_shiny.png",
+        "layers": []
+      }
+    ]
+  }
+  

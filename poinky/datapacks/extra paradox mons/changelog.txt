@@ -1,0 +1,92 @@
+version 16
+-iron virus special atk -10, special def +10
+-tempest fang battle_idle fix
+-tempest fang profile/portrait fixes
+-iron victory remodeled/texture/anims
+
+version 17
+-iron mirage stat changes -20 special atk, +10 def, +10 atk
+-iron might stat changes -10 atk, -10 spe, +10 hp, +10 def
+-iron virus stat changes -6 atk, -4 special atk, +10 hp
+-iron justice stat changes -20 atk, -10 special atk, -10 spe, +20 special def, +20 def
+-iron drone stat changes -10 spe, -10 def, -10 special def, +10 hp, +20 atk
+-iron core stat changes -30 def, -10 hp, -10 spe, +30 atk, +20 special def
+-tempest fang stat changes -10 atk, -4 spe, -10 special atk, +4 def, +10 hp, +10 special def
+-ancient gale stat changes -10 atk, +10 def
+-crimson veil stat changes -10 atk, -10 hp, -10 def, -10 spe, +10 special def, +40 special atk
+-lumin tail stat changes -10 speed, -10 special atk, +20 atk
+-feral wish stat changes -30 special atk, +10 spe, +10 atk, +10 def
+-toxic melody stat changes -20 special def, -20 spe, +40 atk
+-iron victory stat changes -20 spe, -20 special atk, +20 atk, +20 special def
+-wild gene shiny fix
+-toxic melody remodeled/texture/anims
+-toxic melody move pool revamp
+-crimson veil move pool revamp
+-lumin tail move pool revamp
+-feral wish move pool revamp
+-wild gene move pool revamp
+-ancient gale move pool revamp
+-tempest fang move pool revamp
+-iron victory move pool revamp
+-iron core move pool revamp
+-iron drone move pool revamp
+-iron virus move pool revamp
+-iron justice move pool revamp
+-iron might move pool revamp
+-iron mirage move pool revamp
+
+version 18
+-iron might dex entry fix
+-move name fixes
+-wild gene pivot fixes
+-wild gene shiny fix again (some reason it didn't save last time)
+-lumin tail tweaked/textures/anims
+-iron drone texture tweaks
+-tempest fang revamped texture/model/anims (locators will be done with the other therians)
+-ancient gale revamped texture/model/anims (locators will be done with the other therians)
+-iron virus revamped texture/model/anims
+-iron core revamped texture/model/anims
+-minor crimson veil texture changes (4 pixels, considering more at some point)
+-feral wish anim fix
+-french wild gene lang fix
+-iron victory shiny fix
+-crimson veil stat changes +10 atk
+-toxic melody locators
+-feral wish locators
+-crimson veil locators
+-lumin tail locators
+-wild gene locators
+-iron victory locators
+-iron core locators
+-iron drone locators
+-iron virus  locators
+-iron justice locators
+
+Version 19
+-wild gene profile/portrait fix
+-iron mirage -> primal shell
+-iron might -> saber jaw
+-iron core cry changes
+-iron virus profile fix
+-iron justice profile fix
+-iron core profile fix
+-iron victory profile fix
+-feral wish profile fix
+-toxic melody profile fix
+-ancient gale profile fix
+-universal sleep species addition
+-saber jaw spawn location mountain->jungle
+-iron victory stat change
+-iron core stat change
+-iron drone stat change
+-iron justice stat change
+-iron virus stat change
+-toxic melody stat change
+-crimson veil stat change
+-lumin tail stat change
+-feral wish stat change
+-wild gene stat change
+-ancient gale stat change
+-tempest fang stat change
+-primal shell move/stat full change from previous form
+-saber jaw move/stat full change from previous form

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:taytohtot",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:taytohtot",
+      "model": "cobblemon:taytohtot.geo",
+      "texture": "cobblemon:textures/pokemon/taytohtot/taytohtot.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/taytohtot/taytohtot_shiny.png"
+    }
+  ]
+}

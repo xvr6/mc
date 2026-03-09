@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:ironjustice",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ironjustice",
+      "model": "cobblemon:ironjustice.geo",
+      "texture": "cobblemon:textures/pokemon/ironjustice/ironjustice.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/ironjustice/ironjustice_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/ironjustice/ironjustice_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/ironjustice/ironjustice_shiny_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    }
+  ]
+}

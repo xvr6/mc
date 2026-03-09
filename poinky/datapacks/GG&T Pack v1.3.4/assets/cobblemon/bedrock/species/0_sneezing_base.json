@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:sneezing",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:sneezing",
+      "model": "cobblemon:sneezing.geo",
+      "texture": "cobblemon:textures/pokemon/sneezing/sneezing.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/sneezing/sneezing_shiny.png"
+    }
+  ]
+}

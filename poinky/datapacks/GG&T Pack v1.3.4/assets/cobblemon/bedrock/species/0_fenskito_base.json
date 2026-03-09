@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:fenskito",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:fenskito",
+      "model": "cobblemon:fenskito.geo",
+      "texture": "cobblemon:textures/pokemon/fenskito/fenskito.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fenskito/fenskito_shiny.png"
+    }
+  ]
+}

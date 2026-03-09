@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:ironvictory",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ironvictory",
+      "model": "cobblemon:ironvictory.geo",
+      "texture": "cobblemon:textures/pokemon/ironvictory/ironvictory.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/ironvictory/ironvictory_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/ironvictory/ironvictory_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/ironvictory/ironvictory_shiny_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    }
+  ]
+}

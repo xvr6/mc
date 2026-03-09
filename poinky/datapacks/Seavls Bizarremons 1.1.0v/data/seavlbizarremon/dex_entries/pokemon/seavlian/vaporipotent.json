@@ -1,0 +1,15 @@
+{
+  "id": "seavlbizarremon:vaporipotent",
+  "speciesId": "cobblemon:vaporipotent",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

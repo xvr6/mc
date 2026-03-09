@@ -1,0 +1,57 @@
+{
+  "portraitScale": 1,
+  "portraitTranslation": [ 0, 2.25, 0 ],
+  "profileScale": 0.4,
+  "profileTranslation": [ 0, 1.1, 0 ],
+  "rootBone": "espilevi",
+  "animations": {
+    "cry":  "q.bedrock_stateful('espilevi', 'cry')",
+    "special": "q.bedrock_primary('espilevi', 'special', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "q.look('head')",
+        "q.look('head2', 1, 1, 10, -10, 45, -45)",
+        "q.bedrock('espilevi', 'ground_idle')"
+      ],
+      "quirks": [
+      "q.bedrock_quirk('espilevi', 'espeon_blink')",
+      "q.bedrock_quirk('espilevi', 'levi_blink')"
+    ]
+    },
+    "walking": {
+      "poseTypes": [ "WALK" ],
+      "animations": [ 
+        "q.bedrock('espilevi', 'ground_run')" 
+      ],
+      "quirks": [
+      "q.bedrock_quirk('espilevi', 'espeon_blink')",
+      "q.bedrock_quirk('espilevi', 'levi_blink')"
+    ]
+    },
+    "float": {
+      "poseTypes": [ "FLOAT" ],
+      "animations": [ 
+        "q.look('head')",
+        "q.look('head2', 1, 1, 10, -10, 45, -45)",
+        "q.bedrock('espilevi', 'water_float')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('espilevi', 'espeon_blink')",
+        "q.bedrock_quirk('espilevi', 'levi_blink')"
+      ]
+    },
+    "swim": {
+      "poseTypes": [ "SWIM" ],
+      "animations": [
+        "q.bedrock('espilevi', 'water_swim')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('espilevi', 'espeon_blink')",
+        "q.bedrock_quirk('espilevi', 'levi_blink')"
+      ]
+    }
+  }
+}

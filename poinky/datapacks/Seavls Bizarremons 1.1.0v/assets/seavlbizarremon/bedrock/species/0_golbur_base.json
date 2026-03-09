@@ -1,0 +1,33 @@
+{
+    "species": "cobblemon:golbur",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "seavlbizarremon:golbur",
+        "model": "seavlbizarremon:golbur.geo",
+        "texture": "seavlbizarremon:textures/pokemon/golbur/golbur.png",
+        "layers": [
+          {
+            "name": "translucent",
+            "texture": "seavlbizarremon:textures/pokemon/golbur/golbur_emissive.png",
+            "emissive": true,
+            "translucent": true
+          }
+        ]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "seavlbizarremon:textures/pokemon/golbur/golbur_shiny.png",
+        "layers": [
+          {
+            "name": "translucent",
+            "texture": "seavlbizarremon:textures/pokemon/golbur/golbur_shiny_emissive.png",
+            "emissive": true,
+            "translucent": true
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,43 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "vaalzebub-1",
+            "pokemon": "vaalzebub",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "55-60",
+            "weight": 0.05,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_floral"
+                    ]
+            }
+        },
+        {
+            "id": "vaalzebub-2",
+            "pokemon": "vaalzebub",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "40-50",
+            "weight": 0.075,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_nether"
+                    ]
+            }
+        }
+        
+    ]
+}

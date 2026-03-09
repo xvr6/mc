@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:archerantrum",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["ore-copper"],
+      "poser": "cobblemon:archerantrum",
+      "model": "cobblemon:archerantrum.geo",
+      "texture": "cobblemon:textures/pokemon/archerantrum/archerantrum_copper.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny","ore-copper" ],
+      "texture": "cobblemon:textures/pokemon/archerantrum/archerantrum_copper_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "seavlbizarremon:dragash",
+  "speciesId": "cobblemon:dragash",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

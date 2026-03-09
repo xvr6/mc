@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:crypalis",
+  "speciesId": "cobblemon:crypalis",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

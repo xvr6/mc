@@ -1,0 +1,31 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "fenskito-1",
+            "pokemon": "fenskito",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-35",
+            "weight": 0.12,
+            "weightMultiplier": {
+                "multiplier": 2.0,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "biomes":  [
+                    "#cobblemon:is_swamp"
+                ],
+                "canSeeSky": true
+            }
+        }
+    ]
+}

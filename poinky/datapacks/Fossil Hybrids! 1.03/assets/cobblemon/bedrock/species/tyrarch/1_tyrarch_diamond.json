@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:tyrarch",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["ore-diamond"],
+      "poser": "cobblemon:tyrarch",
+      "model": "cobblemon:tyrarch.geo",
+      "texture": "cobblemon:textures/pokemon/tyrarch/tyrarch_diamond.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny","ore-diamond" ],
+      "texture": "cobblemon:textures/pokemon/tyrarch/tyrarch_diamond_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:hallucerebra",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:hallucerebra",
+      "model": "cobblemon:hallucerebra.geo",
+      "texture": "cobblemon:textures/pokemon/hallucerebra/hallucerebra.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/hallucerebra/hallucerebra_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/hallucerebra/hallucerebra_shiny.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/hallucerebra/hallucerebra_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

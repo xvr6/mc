@@ -1,0 +1,138 @@
+{
+    "implemented": true,
+    "name": "reita",
+    "nationalPokedexNumber": 2216,
+    "primaryType": "psychic",
+    "secondaryType": "normal",
+    "abilities": [
+        "magicbounce",
+        "h:cutecharm"
+    ],
+    "baseStats": {
+        "hp": 50,
+        "attack": 50,
+        "defence": 60,
+        "special_attack": 95,
+        "special_defence": 175,
+        "speed": 95
+    },
+    "catchRate": 10,
+    "maleRatio": -1,
+    "shoulderMountable": true,
+    "forms": [],
+    "baseExperienceYield": 248,
+    "experienceGroup": "slow",
+    "eggCycles": 40,
+    "eggGroups": [
+        "human_like"
+    ],
+    "behaviour": {
+        "moving": {
+            "fly": {
+                "canFly": true
+            },
+            "walk": {
+                "canWalk": false
+            }
+        }
+    },
+    "drops": {
+        "amount": "1",
+        "entries": [
+            {
+                "item": "minecraft:totem_of_undying",
+                "percentage": 9
+            }
+        ]
+    },
+    "moves": [
+        "1:babydolleyes",
+        "1:protect",
+        "1:disarmingvoice",
+        "6:confusion",
+        "9:helpinghand",
+        "13:disable",
+        "15:safeguard",
+        "18:telekinesis",
+        "18:teleport",
+        "21:psybeam",
+        "24:charm",
+        "27:reflect",
+        "27:lightscreen",
+        "30:quickguard",
+        "30:wideguard",
+        "30:craftyshield",
+        "34:simplebeam",
+        "36:barrier",
+        "36:mirrorcoat",
+        "40:psychic",
+        "43:hypervoice",
+        "45:powerswap",
+        "45:guardswap",
+        "45:speedswap",
+        "45:skillswap",
+        "48:storedpower",
+        "50:synchronoise",
+        "54:moonlight",
+        "58:moonblast",
+        "60:perishsong",
+        "tm:protect",
+        "tm:helpinghand",
+        "tm:safeguard",
+        "tm:charm",
+        "tm:reflect",
+        "tm:lightscreen",
+        "tm:psychic",
+        "tm:rest",
+        "tm:substitute",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:endure",
+        "tm:endeavor",
+        "tm:hyperbeam",
+        "tm:attract",
+        "tm:facade",
+        "tm:swift",
+        "tm:trickroom",
+        "tm:magicroom",
+        "tm:wonderroom",
+        "tm:psychicterrain",
+        "tm:round",
+        "tm:psyshock",
+        "tm:trickroom",
+        "tm:calmmind",
+        "tm:allyswitch",
+        "tm:disarmingvoice",
+        "tm:drainingkiss",
+        "tm:imprison",
+        "tm:zenheadbutt",
+        "egg:auroraveil",
+        "egg:afteryou",
+        "egg:block",
+        "egg:gravity",
+        "egg:healbell",
+        "tutor:roleplay",
+        "tutor:allyswitch",
+        "tutor:painsplit"
+    ],
+    "labels": [
+        "gen8"
+    ],
+    "pokedex": [
+        "cobblemon.species.reita.desc1",
+        "cobblemon.species.reita.desc2"
+    ],
+    "evolutions": [],
+    "baseScale": 0.8,
+    "hitbox": {
+        "width": 0.6,
+        "height": 1,
+        "fixed": false
+    },
+    "baseFriendship": 70,
+    "evYield": {
+        "special_defence": 3
+    },
+    "height": 2,
+    "weight": 1
+}

@@ -1,0 +1,140 @@
+{
+    "implemented": true,
+    "name": "potatinator",
+    "nationalPokedexNumber": 2129,
+    "primaryType": "ground",
+    "secondaryType": "electric",
+    "abilities": [
+        "lightningrod",
+        "static",
+        "h:dryskin"
+    ],
+    "baseStats": {
+        "hp": 120,
+        "attack": 90,
+        "defence": 75,
+        "special_attack": 90,
+        "special_defence": 80,
+        "speed": 40
+    },
+    "catchRate": 75,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "forms": [],
+    "baseExperienceYield": 178,
+    "experienceGroup": "medium_slow",
+    "eggCycles": 20,
+    "eggGroups": [
+        "grass",
+        "mineral"
+    ],
+    "drops": {
+        "amount": "2",
+        "entries": [
+            {
+                "item": "minecraft:potato",
+                "quantityRange": "2-5",
+                "percentage": 80
+            },
+            {
+                "item": "minecraft:redstone",
+                "quantityRange": "1-4",
+                "percentage": 50
+            }
+        ]
+    },    
+    "moves": [
+        "1:thundershock",
+        "1:growth",
+        "4:absorb",
+        "7:armthrust",
+        "11:bulldoze",
+        "14:charge",
+        "18:megadrain",
+        "20:spark",
+        "24:teeterdance",
+        "26:dig",
+        "29:ingrain",
+        "31:discharge",
+        "34:electricterrain",
+        "38:earthpower",
+        "41:bulletseed",
+        "44:wildcharge",
+        "47:gigadrain",
+        "51:bellydrum",
+        "55:earthquake",
+        "59:zapcannon",
+        "63:thunder",
+        "tm:rest",
+        "tm:snore",
+        "tm:substitute",
+        "tm:endure",
+        "tm:protect",
+        "tm:taunt",
+        "tm:encore",
+        "tm:dig",
+        "tm:bodyslam",
+        "tm:earthquake",
+        "tm:thunder",
+        "tm:wildcharge",
+        "tm:electricterrain",
+        "tm:earthpower",
+        "tm:takedown",
+        "tm:mudslap",
+        "tm:scaryface",
+        "tm:confuseray",
+        "tm:thief",
+        "tm:trailblaze",
+        "tm:chargebeam",
+        "tm:facade",
+        "tm:bulldoze",
+        "tm:metalclaw",
+        "tm:mudshot",
+        "tm:magicalleaf",
+        "tm:fling",
+        "tm:sandstorm",
+        "tm:smartstrike",
+        "tm:bulletseed",
+        "tm:gigadrain",
+        "tm:brickbreak",
+        "tm:firepunch",
+        "tm:thunderpunch",
+        "tm:icepunch",
+        "tm:sleeptalk",
+        "tm:seedbomb",
+        "tm:electroball",
+        "tm:thunderwave",
+        "tm:stompingtantrum",
+        "tm:flashcannon",
+        "tm:eerieimpulse",
+        "tm:drillrun",
+        "tm:heavyslam",
+        "tm:thunderbolt",
+        "tm:amnesia",
+        "tm:hyperbeam",
+        "tutor:grassyglide",
+        "tutor:worryseed",
+        "tutor:woodhammer"
+    ],
+    "labels": [
+        "custom"
+    ],
+    "pokedex": [
+        "cobblemon.species.potatinator.desc1",
+        "cobblemon.species.potatinator.desc2"
+    ],
+    "preEvolution": "taytohtot",
+    "evolutions": [],
+    "baseScale": 1.1,
+    "hitbox": {
+        "width": 1.5,
+        "height": 1.5,
+        "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+        "hp": 2
+    },
+    "height": 2,
+    "weight": 950
+}

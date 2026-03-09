@@ -1,0 +1,13 @@
+{
+  "target": "cobblemon:flareon",
+  "evolutions": [
+    {
+      "id": "flareon_flarichi",
+      "variant": "item_interact",
+      "result": "flarichi",
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:netherite_ingot"
+    }
+  ]
+}

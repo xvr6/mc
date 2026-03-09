@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:potatinator",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:potatinator",
+      "model": "cobblemon:potatinator.geo",
+      "texture": "cobblemon:textures/pokemon/potatinator/potatinator.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/potatinator/potatinator_shiny.png"
+    }
+  ]
+}

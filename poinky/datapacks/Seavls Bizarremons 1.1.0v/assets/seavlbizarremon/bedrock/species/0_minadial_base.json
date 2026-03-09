@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:minadial",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "seavlbizarremon:minadial",
+        "model": "seavlbizarremon:minadial.geo",
+        "texture": "seavlbizarremon:textures/pokemon/minadial/minadial.png"
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "seavlbizarremon:textures/pokemon/minadial/minadial_shiny.png"
+      }
+    ]
+  }
+  

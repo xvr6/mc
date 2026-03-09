@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:kringwar",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "seavlbizarremon:kringwar",
+        "model": "seavlbizarremon:kringwar.geo",
+        "texture": "seavlbizarremon:textures/pokemon/kringwar/kringwar.png"
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "seavlbizarremon:textures/pokemon/kringwar/kringwar_shiny.png",
+        "layers": []
+      }
+    ]
+  }
+  

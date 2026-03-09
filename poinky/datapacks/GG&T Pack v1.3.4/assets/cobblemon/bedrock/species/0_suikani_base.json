@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:suikani",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:suikani",
+      "model": "cobblemon:suikani.geo",
+      "texture": "cobblemon:textures/pokemon/suikani/suikani.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/suikani/suikani_shiny.png"
+    }
+  ]
+}

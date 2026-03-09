@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:cannoling",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:cannoling",
+      "model": "cobblemon:cannoling.geo",
+      "texture": "cobblemon:textures/pokemon/cannoling/cannoling.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/cannoling/cannoling_shiny.png"
+    }
+  ]
+}

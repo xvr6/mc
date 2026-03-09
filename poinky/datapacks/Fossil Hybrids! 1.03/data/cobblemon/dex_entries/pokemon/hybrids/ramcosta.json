@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ramcosta",
+  "speciesId": "cobblemon:ramcosta",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

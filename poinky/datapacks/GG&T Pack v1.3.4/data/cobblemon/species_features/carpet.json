@@ -1,0 +1,13 @@
+{
+  "type": "choice",
+  "keys": ["carpet"],
+  "default": "random",
+  "choices": [
+    "turtle",
+    "passion",
+    "mummy",
+    "ripple"
+  ],
+  "isAspect": true,
+  "aspectFormat": "carpet-{{choice}}"
+}

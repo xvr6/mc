@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:terrasilisk",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:terrasilisk",
+      "model": "cobblemon:terrasilisk.geo",
+      "texture": "cobblemon:textures/pokemon/terrasilisk/terrasilisk.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/terrasilisk/terrasilisk_shiny.png"
+    }
+  ]
+}

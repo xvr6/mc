@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:debugs",
+  "speciesId": "cobblemon:debugs",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

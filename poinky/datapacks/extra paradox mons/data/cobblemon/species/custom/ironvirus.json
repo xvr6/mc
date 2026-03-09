@@ -1,0 +1,155 @@
+{
+  "implemented": true,
+  "name": "ironvirus",
+  "nationalPokedexNumber": 9906,
+  "primaryType": "psychic",
+  "secondaryType": "bug",
+  "abilities": [
+    "quarkdrive"
+  ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:ender_pearl",
+        "quantityRange": "2"
+      },
+      {
+        "item": "cobblemon:starf_berry",
+        "percentage": 10
+      }
+    ]
+  },
+  "baseStats": {
+    "hp": 92,
+    "attack": 94,
+    "defence": 56,
+    "special_attack": 126,
+    "special_defence": 102,
+    "speed": 120
+  },
+"behaviour": {
+   "resting": {
+     "canSleep": true,
+     "willSleepOnBed": false,
+     "depth": "normal",
+     "light": "0-4"
+    }
+   },
+  "catchRate": 10,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 169,
+  "experienceGroup": "slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:calmmind",
+    "1:firstimpression",
+    "1:psychoboost",
+    "1:healpulse",
+    "1:agility",
+    "1:infestation",
+    "21:bugbuzz",
+    "26:amnesia",
+    "31:nightshade",
+    "36:psyshock",
+    "43:darkpulse",
+    "50:psychic",
+    "51:bittermalice",
+    "57:xscissor",
+    "64:storedpower",
+    "71:recover",
+    "78:psychicterrain",
+    "85:expandingforce",
+    "tm:dracometeor",
+    "tm:icebeam",
+    "tm:magnetbomb",
+    "tm:dragonclaw",
+    "tm:leechlife",
+    "tm:thunderwave",
+    "tm:electroball",
+    "tm:bugbuzz",
+    "tm:xscissor",
+    "tm:surf",
+    "tm:phantomforce",
+    "tm:dazzlinggleam",
+    "tm:hex",
+    "tm:confuseray",
+    "tm:icepunch",
+    "tm:aurasphere",
+    "tm:tripleaxel",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:powergem",
+    "tm:stealthrock",
+    "tm:thunder",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:laserfocus",
+    "tm:closecombat",
+    "tm:gravity",
+    "tm:futuresight",
+    "tm:helpinghand",
+    "tm:thunderbolt",
+    "tm:reflect",
+    "tm:shockwave",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:lightscreen",
+    "tm:knockoff",
+    "tm:workup",
+    "tm:protect",
+    "tm:theif",
+    "tm:electricterrain",
+    "tm:hyperbeam",
+    "tm:endeavor",
+    "tm:rest",
+    "tm:gigaimpact",
+    "tm:smartstrike",
+    "tm:flashcannon",
+    "tm:airslash",
+    "tm:aerialace",
+    "tm:acrobatics",
+    "tm:takedown",
+    "tm:sleeptalk",
+    "tm:doubleedge",
+    "tm:doubleteam",
+    "tm:substitute",
+    "tm:thundershock",
+    "tm:terablast",
+    "tm:taunt",
+    "tm:throatchop",
+    "tm:uturn",
+    "tm:psychic",
+    "tm:zenheadbutt"
+  ],
+  "labels": [
+    "gen9",
+    "paradox"
+  ],
+  "pokedex": [
+    "This Pokémon hates Deoxys and will go out of its way to defeat any and all Deoxys, it is the ultimate antivirus."
+  ],
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 2,
+  "weight": 452,
+  "aspects": [],
+  "cannotDynamax": false,
+  "hitbox": {
+    "width": 1.3,
+    "height": 3.3,
+    "fixed": false
+  }
+}

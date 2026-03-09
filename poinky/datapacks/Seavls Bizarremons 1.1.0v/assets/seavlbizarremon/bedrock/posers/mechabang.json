@@ -1,0 +1,31 @@
+{
+  "portraitScale": 1,
+  "portraitTranslation": [ -0.4, 0.8, 0 ],
+  "profileScale": 0.4,
+  "profileTranslation": [ 0, 1.1, 0 ],
+  "rootBone": "mechabang",
+  "animations": {
+    "cry":  "q.bedrock_stateful('mechabang', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.bedrock('mechabang', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('mechabang', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": [ "WALK" ],
+      "animations": [ 
+        "q.bedrock('mechabang', 'ground_walk')" 
+      ],
+      "quirks": ["q.bedrock_quirk('mechabang', 'blink')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('mechabang', 'sleep')"]
+    }
+  }
+}

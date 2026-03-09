@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:super_nerd",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:standard",
+      "model": "cobblemon:alex.geo",
+      "texture": "cobblemon:textures/npcs/trainers/super_nerd.png",
+      "layers": []
+    }
+  ]
+}

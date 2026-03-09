@@ -1,0 +1,32 @@
+t.player_highest_level = q.player.party.highest_level;
+t.player_average_level = q.player.party.average_level;
+t.party_count = math.random_integer(2,3);
+t.pokemon_level = ((t.player_highest_level + t.player_average_level) / 2);
+
+t.1 = 'pidgey level=' + (t.pokemon_level);
+t.2 = 'pidgeotto level=' + (t.pokemon_level);
+t.3 = 'pidgeot level=' + (t.pokemon_level);
+t.4 = 'spearow level=' + (t.pokemon_level);
+t.5 = 'fearow level=' + (t.pokemon_level);
+t.6 = 'hoothoot level=' + (t.pokemon_level);
+t.7 = 'noctowl level=' + (t.pokemon_level);
+t.8 = 'taillow level=' + (t.pokemon_level);
+t.9 = 'swellow level=' + (t.pokemon_level);
+t.10 = 'starly level=' + (t.pokemon_level);
+t.11 = 'staravia level=' + (t.pokemon_level);
+t.12 = 'staraptor level=' + (t.pokemon_level);
+t.13 = 'rowlet level=' + (t.pokemon_level);
+t.14 = 'fletchinder level=' + (t.pokemon_level);
+t.15 = 'talonflame level=' + (t.pokemon_level);
+t.16 = 'rufflet level=' + (t.pokemon_level);
+t.17 = 'braviary level=' + (t.pokemon_level);
+t.18 = 'pidove level=' + (t.pokemon_level);
+t.19 = 'tranquill level=' + (t.pokemon_level);
+t.20 = 'unfezant level=' + (t.pokemon_level);
+t.21 = 'fletchling level=' + (t.pokemon_level);
+
+loop(t.party_count, {
+  t.result = q.random(t.1, t.2, t.3, t.4, t.5, t.6, t.7, t.8, t.9, t.10, t.11, t.12, t.13, t.14, t.15, t.16, t.17, t.18, t.19, t.20, t.21);
+  q.party.add_by_properties(t.result)
+});
+return true;

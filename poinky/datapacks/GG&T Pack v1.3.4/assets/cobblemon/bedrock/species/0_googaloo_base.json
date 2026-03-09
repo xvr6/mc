@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:googaloo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:googaloo",
+      "model": "cobblemon:googaloo.geo",
+      "texture": "cobblemon:textures/pokemon/googaloo/googaloo.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/googaloo/googaloo_shiny.png"
+    }
+  ]
+}

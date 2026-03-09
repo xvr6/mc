@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:crimsonveil",
+  "speciesId": "cobblemon:crimsonveil",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "normal",
+      "unlockForms": [
+        "normal"
+      ]
+    }
+  ],
+  "variations": []
+}

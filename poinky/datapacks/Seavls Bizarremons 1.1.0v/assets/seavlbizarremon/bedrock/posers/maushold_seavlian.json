@@ -1,0 +1,69 @@
+{
+  "portraitScale": 1.26,
+  "portraitTranslation": [ -0.54, 1.32, 0 ],
+  "profileScale": 0.4,
+  "profileTranslation": [ 0, 0.95, 0 ],
+  "rootBone": "maushold_seavlian",
+  "animations": {
+    "cry":  "q.bedrock_stateful('maushold_seavlian', 'cry')",
+    "physical": "q.bedrock_primary('maushold_seavlian', 'physical', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isTouchingWater": false,
+      "animations": [
+        "q.look('head1')",
+        "q.look('head2')",
+        "q.bedrock('maushold_seavlian', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('maushold_seavlian', 'blink1')",
+        "q.bedrock_quirk('maushold_seavlian', 'blink2')"
+    ]
+    },
+    "walking": {
+      "poseTypes": [ "WALK" ],
+      "isTouchingWater": false,
+      "animations": [
+        "q.bedrock('maushold_seavlian', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('maushold_seavlian', 'blink1')",
+        "q.bedrock_quirk('maushold_seavlian', 'blink2')"
+    ]
+    },
+    "surface_float": {
+      "poseTypes": [ "STAND" ],
+      "isTouchingWater": true,
+      "animations": [ 
+        "q.look('head1')",
+        "q.look('head2')",
+        "q.bedrock('maushold_seavlian', 'surfacewater_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('maushold_seavlian', 'blink1')",
+        "q.bedrock_quirk('maushold_seavlian', 'blink2')"
+    ],
+    "namedAnimations": {
+      "cry": "q.bedrock_stateful('maushold_seavlian', 'surfacewater_cry')",
+      "physical": "q.bedrock_primary('maushold_seavlian', 'surfacewater_physical', q.curve('symmetrical'))"
+    }
+    },
+    "surface_swim": {
+      "poseTypes": [ "WALK" ],
+      "isTouchingWater": true,
+      "animations": [
+        "q.bedrock('maushold_seavlian', 'surfacewater_swim')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('maushold_seavlian', 'blink1')",
+        "q.bedrock_quirk('maushold_seavlian', 'blink2')"
+    ],
+    "namedAnimations": {
+      "cry": "q.bedrock_stateful('maushold_seavlian', 'surfacewater_cry')",
+      "physical": "q.bedrock_primary('maushold_seavlian', 'surfacewater_physical', q.curve('symmetrical'))"
+    }
+    }
+  }
+}

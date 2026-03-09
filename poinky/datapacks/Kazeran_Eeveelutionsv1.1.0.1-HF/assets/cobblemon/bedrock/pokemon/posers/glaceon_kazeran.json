@@ -1,0 +1,56 @@
+{
+  "portraitScale": 2.06,
+  "portraitTranslation": [-0.69, 0.2, 0],
+  "profileScale": 0.77,
+  "profileTranslation": [0, 0.58, 0],
+  "rootBone": "glaceon_kazeran",
+  "animations": {
+    "cry": "q.bedrock_stateful('glaceon_kazeran', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+        "poseTypes": ["STAND"],
+        "isBattle": true,
+        "animations": ["q.look('neck')", "q.bedrock('glaceon_kazeran', 'battle_idle')"],
+        "quirks": ["q.bedrock_quirk('glaceon_kazeran', 'blink')"]
+      },
+    "standing": {
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE",
+        "FLOAT"
+      ],
+      "isBattle": false,
+      "animations": [
+        "q.look('head', 1, 1, 70, -45, 45, -45)",
+        "q.bedrock('glaceon_kazeran', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('glaceon_kazeran', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "WALK",
+        "SWIM"
+      ],
+      "animations": [
+        "q.look('head', 1, 1, 70, -45, 45, -45)",
+        "q.bedrock('glaceon_kazeran', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('glaceon_kazeran', 'blink')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "isTouchingWater": false,
+      "animations": ["q.bedrock('glaceon_kazeran', 'sleep')"]
+    }
+  }
+}
+   
+   
+   

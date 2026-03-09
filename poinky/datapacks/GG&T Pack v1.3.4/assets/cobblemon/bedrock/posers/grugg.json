@@ -1,0 +1,57 @@
+{
+  "head": "head",
+  "portraitScale": 2.6,
+  "portraitTranslation": [ -0.2, -0.2, 0 ],
+  "profileScale": 0.75,
+  "profileTranslation": [ 0, 0.7, 0 ],
+  "animations":{
+	"physical": "q.bedrock_primary('grugg', 'physical', q.curve('symmetrical'))"
+ },
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": [
+        "STAND",
+        "FLOAT",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "isBattle": false,
+      "animations": [ "bedrock(grugg, ground_idle)", "look" ],
+      "quirks": [
+       {
+         "name": "blink",
+         "animations": ["bedrock(grugg, blink)"]
+       }
+     ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [ "WALK", "SWIM" ],
+      "isBattle": false,
+      "animations": [ "bedrock(grugg, ground_walk)" ],
+      "quirks": [
+       {
+         "name": "blink",
+         "animations": ["bedrock(grugg, blink)"]
+       }
+     ]
+    },
+    "battle-idle": {
+      "poseName": "battle-idle",
+      "transformTicks": 10,
+      "poseTypes": [ "STAND", "FLOAT" ],
+      "isBattle": true,
+      "animations": [ "bedrock(grugg, battle_idle)" ],
+      "quirks": [
+       {
+         "name": "blink",
+         "animations": ["bedrock(grugg, blink)"]
+       }
+     ]
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "target": "cobblemon:koffing",
+  "features": ["goombian"],
+  "forms": [
+		{
+			"name": "goombia",
+			"aspects": ["goombian"],
+			"primaryType": "ice",
+			"secondaryType": "poison",
+			"abilities": [
+				"levitate",
+				"liquidooze",
+				"h:gooey"
+			],
+			"baseStats": {
+			    "hp": 40,
+			    "attack": 35,
+                "defence": 45,
+                "special_attack": 95,
+                "special_defence": 65,
+                "speed": 60
+			},
+			"moves": [
+                "1:icywind",
+                "1:poisonpowder",
+                "1:tackle",
+                "5:powdersnow",
+                "9:gust",
+                "12:clearsmog",
+                "16:assurance",
+                "20:sludge",
+                "24:mist",
+                "28:selfdestruct",
+                "32:frostbreath",
+                "38:toxic",
+                "44:belch",
+                "50:explosion",
+                "56:whirlwind",
+                "62:sheercold",
+                "tm:protect",
+                "tm:rest",
+                "tm:snore",
+                "tm:taunt",
+                "tm:endure",
+                "tm:sleeptalk",
+                "tm:venoshock",
+                "tm:sludgebomb",
+                "tm:sludgewave",
+                "tm:blizzard",
+                "tm:hail",
+                "tm:icebeam",
+                "tm:nastyplot",
+                "tm:aircutter",
+                "tm:hurricane",
+                "tm:toxicspikes",
+                "tm:acidspray",
+                "tm:gunkshot",
+                "tm:amnesia",
+                "tm:raindance",
+                "tm:assurance",
+                "tm:payback",
+                "tm:round",
+                "tm:attract",
+                "tm:selfdestruct",
+                "tm:hyperbeam",
+                "tm:substitute",
+                "tm:gyroball",
+                "tm:shadowball",
+                "tm:uproar",
+                "tm:darkpulse",
+                "tm:venomdrench",
+                "tutor:venomdrench",
+                "tutor:gigadrain",
+                "tutor:defog"
+			],
+			"pokedex": [
+				"cobblemon.form.koffing-goombian.desc1",
+				"cobblemon.form.koffing-goombian.desc2"
+			],
+			"labels": [
+				"gen1",
+				"goombia_regional"
+			],
+			"evolutions": [
+            {
+              "id": "koffing_sneezing",
+              "variant": "level_up",
+              "result": "sneezing",
+              "consumeHeldItem": false,
+              "learnableMoves": [],
+              "requirements": [
+                {
+                  "variant": "level",
+                  "minLevel": 35
+                }
+              ]
+            }
+          ]
+		}
+	]
+}

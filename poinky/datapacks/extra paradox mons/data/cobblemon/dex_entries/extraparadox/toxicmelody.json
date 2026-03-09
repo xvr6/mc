@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:toxicmelody",
+  "speciesId": "cobblemon:toxicmelody",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "normal",
+      "unlockForms": [
+        "normal"
+      ]
+    }
+  ],
+  "variations": []
+}

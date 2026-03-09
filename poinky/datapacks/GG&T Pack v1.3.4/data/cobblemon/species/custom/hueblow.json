@@ -1,0 +1,152 @@
+{
+    "implemented": true,
+    "name": "hueblow",
+    "nationalPokedexNumber": 2155,
+    "primaryType": "fairy",
+    "secondaryType": "fighting",
+    "abilities": [
+        "prankster",
+        "h:illuminate"
+    ],
+    "baseStats": {
+        "hp": 20,
+        "attack": 120,
+        "defence": 20,
+        "special_attack": 70,
+        "special_defence": 40,
+        "speed": 155
+    },
+    "catchRate": 45,
+    "maleRatio": 1,
+    "shoulderMountable": false,
+    "forms": [],
+    "baseExperienceYield": 208,
+    "experienceGroup": "medium_fast",
+    "eggCycles": 20,
+    "eggGroups": [
+        "fairy"
+    ],
+    "behaviour": {
+        "moving": {
+            "fly": {
+                "canFly": true
+            },
+            "walk": {
+                "canWalk": false
+            }
+        }
+    },
+    "drops": {
+        "amount": "1",
+        "entries": [
+            {
+                "item": "minecraft:glow_ink_sac",
+                "quantityRange": "1-2",
+                "percentage": 100
+            }
+        ]
+    },
+    "moves": [
+        "1:pound",
+        "1:flash",
+        "1:doubleteam",
+        "3:karatechop",
+        "7:fairywind",
+        "11:detect",
+        "15:confuseray",
+        "17:machpunch",
+        "21:quickguard",
+        "24:mefirst",
+        "26:swagger",
+        "28:bulletpunch",
+        "30:dazzlinggleam",
+        "33:quiverdance",
+        "36:poweruppunch",
+        "38:willowisp",
+        "41:quash",
+        "42:batonpass",
+        "45:playrough",
+        "48:spotlight",
+        "51:tailwind",
+        "54:signalbeam",
+        "57:crosschop",
+        "60:afteryou",
+        "62:closecombat",
+        "64:tailglow",
+        "66:extremespeed",
+        "tm:takedown",
+        "tm:faketears",
+        "tm:scaryface",
+        "tm:protect",
+        "tm:acrobatics",
+        "tm:strugglebug",
+        "tm:confuseray",
+        "tm:thief",
+        "tm:pounce",
+        "tm:facade",
+        "tm:aerialace",
+        "tm:hex",
+        "tm:swift",
+        "tm:magicalleaf",
+        "tm:aircutter",
+        "tm:fling",
+        "tm:endure",
+        "tm:brickbreak",
+        "tm:zenheadbutt",
+        "tm:uturn",
+        "tm:airslash",
+        "tm:firepunch",
+        "tm:thunderpunch",
+        "tm:icepunch",
+        "tm:sleeptalk",
+        "tm:electroball",
+        "tm:drainpunch",
+        "tm:reflect",
+        "tm:lightscreen",
+        "tm:dazzlinggleam",
+        "tm:metronome",
+        "tm:thunderwave",
+        "tm:poisonjab",
+        "tm:rest",
+        "tm:taunt",
+        "tm:swordsdance",
+        "tm:eerieimpulse",
+        "tm:fly",
+        "tm:ironhead",
+        "tm:substitute",
+        "tm:willowisp",
+        "tm:trick",
+        "tm:tailwind",
+        "tm:encore",
+        "tm:playrough",
+        "tm:mistyterrain",
+        "tm:nastyplot",
+        "tm:focusblast",
+        "tm:hurricane",
+        "tm:hyperbeam",
+        "tm:batonpass",
+        "tm:closecombat",
+        "tutor:allyswitch",
+        "tutor:roost"
+    ],
+    "labels": [
+        "custom"
+    ],
+    "pokedex": [
+        "cobblemon.species.hueblow.desc1",
+        "cobblemon.species.hueblow.desc2"
+    ],
+    "evolutions": [],
+    "baseScale": 1,
+    "hitbox": {
+        "width": 1.2,
+        "height": 1.6,
+        "fixed": false
+    },
+    "baseFriendship": 20,
+    "evYield": {
+        "speed": 2
+    },
+    "height": 2,
+    "weight": 1
+}

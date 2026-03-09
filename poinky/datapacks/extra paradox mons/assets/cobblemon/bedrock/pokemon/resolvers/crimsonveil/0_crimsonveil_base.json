@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:crimsonveil",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:crimsonveil",
+      "model": "cobblemon:crimsonveil.geo",
+      "texture": "cobblemon:textures/pokemon/crimsonveil/crimsonveil.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/crimsonveil/crimsonveil_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/crimsonveil/crimsonveil_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/crimsonveil/crimsonveil_shiny_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    }
+  ]
+}

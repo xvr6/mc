@@ -1,0 +1,17 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.terrasilisk.ground_idle": {
+			"loop": true,
+			"animation_length": 1.16667,
+			"bones": {
+				"leg_left_back": {
+					"rotation": [0, -2.5, 0]
+				},
+				"leg_right_back": {
+					"rotation": [0, 2.5, 0]
+				}
+			}
+		}
+	}
+}

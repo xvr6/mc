@@ -1,0 +1,33 @@
+{
+    "species": "cobblemon:hyburst",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "seavlbizarremon:hyburst",
+        "model": "seavlbizarremon:hyburst.geo",
+        "texture": "seavlbizarremon:textures/pokemon/hyburst/hyburst.png",
+        "layers": [
+          {
+            "name": "translucent",
+            "texture": "seavlbizarremon:textures/pokemon/hyburst/hyburst_emissive.png",
+            "emissive": true,
+            "translucent": true
+          }
+        ]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "seavlbizarremon:textures/pokemon/hyburst/hyburst_shiny.png",
+        "layers": [
+          {
+            "name": "translucent",
+            "texture": "seavlbizarremon:textures/pokemon/hyburst/hyburst_shiny_emissive.png",
+            "emissive": true,
+            "translucent": true
+          }
+        ]
+      }
+    ]
+  }
+  

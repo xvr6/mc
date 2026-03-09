@@ -1,0 +1,58 @@
+{
+  "head": "head",
+  "portraitScale": 1.8,
+  "portraitTranslation": [-1.4, -0.1, 0],
+  "profileScale": 0.6,
+  "profileTranslation": [-0.2, 0.7, 0],
+  "faint": "bedrock(hallucerebra, faint)",
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "FLOAT"],
+      "condition": "q.has_entity ? !q.in_air : 1.0",
+      "animations": [
+        "bedrock(hallucerebra, ground_idle)",
+        "look"
+      ]
+    },
+      "in-air": {
+        "poseTypes": ["STAND", "WALK", "NONE"],
+        "condition": "q.has_entity ? q.in_air && q.is_ridden : 0.0",
+        "isBattle": false,
+        "animations": [
+          "q.bedrock('hallucerebra', 'ride_jump')",
+          "q.bedrock('hallucerebra', 'ride_ground_run')"
+        ],
+        "transformTicks": 5,
+        "transformToTicks": 5
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": ["WALK", "SWIM"],
+      "condition": "q.has_entity ? !q.in_air && !q.is_sprinting : 1.0",
+      "animations": [
+        "bedrock(hallucerebra, ground_walk)",
+        "look",
+          {
+            "condition": "q.is_ridden && q.has_entity && !q.in_air",
+            "animation": "q.bedrock('hallucerebra', 'ride_ground_run')"
+          }
+      ]
+    },
+    "run": {
+        "poseTypes": ["WALK", "SWIM"],
+        "condition": "q.has_entity ? !q.in_air && q.is_sprinting : 0.0",
+        "animations": [
+          "look",
+          "q.bedrock('hallucerebra', 'ground_run')",
+          {
+            "condition": "q.is_ridden && q.has_entity && !q.in_air",
+            "animation": "q.bedrock('hallucerebra', 'ride_ground_run')"
+          }
+        ],
+        "transformTicks": 10
+    }
+  }
+}

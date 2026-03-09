@@ -1,0 +1,171 @@
+{
+ "head": "head",
+ "portraitScale": 1.2,
+ "portraitTranslation": [ 0.1, 3, 0 ],
+ "profileScale": 0.35,
+ "profileTranslation": [ -0.05, 1.2, 0 ],
+ "poses": {
+   "standing": {
+     "poseName": "standing",
+	 "isTouchingWater": false,
+     "condition": "!q.is_ridden",
+     "transformTicks": 10,
+     "poseTypes": [
+       "STAND",
+       "HOVER",
+       "NONE",
+       "PORTRAIT",
+       "PROFILE"
+     ],
+     "isBattle": false,
+     "animations": [
+       "bedrock(brunatee, mount_idle)",
+       "bedrock(brunatee, skirt_overlay)",
+       "bedrock(brunatee, hair_overlay)"
+     ],
+     "quirks": [
+       {
+         "name": "blink",
+         "animations": [
+           "bedrock(brunatee, blink)"
+         ]
+       }
+     ]
+   },
+   "standing-mount": {
+     "poseName": "standing-mount",
+	 "isTouchingWater": false,
+     "condition": "q.is_ridden",
+     "transformTicks": 10,
+     "poseTypes": [
+       "STAND",
+       "HOVER"
+     ],
+     "isBattle": false,
+     "animations": [
+       "bedrock(brunatee, mount_idle)",
+       "bedrock(brunatee, skirt_overlay)",
+       "bedrock(brunatee, hair_overlay)"
+     ],
+     "quirks": [
+       {
+         "name": "blink",
+         "animations": [
+           "bedrock(brunatee, blink)"
+         ]
+       }
+     ]
+   },
+   "walking": {
+     "poseName": "walking",
+	 "isTouchingWater": false,
+     "condition": "!q.is_ridden",
+     "transformTicks": 10,
+     "poseTypes": [
+       "WALK",
+       "FLY"
+     ],
+     "animations": [
+       "bedrock(brunatee, mount_walk)",
+       "bedrock(brunatee, skirt_overlay)",
+       "bedrock(brunatee, hair_overlay)"
+     ],
+     "quirks": [
+       {
+         "name": "blink",
+         "animations": [
+           "bedrock(brunatee, blink)"
+         ]
+       }
+     ]
+   },
+   "walking-mount": {
+     "poseName": "walking-mount",
+     "condition": "q.is_ridden",
+     "transformTicks": 10,
+     "poseTypes": [
+       "WALK",
+       "FLY"
+     ],
+     "animations": [
+       "bedrock(brunatee, mount_walk)",
+       "bedrock(brunatee, skirt_overlay)",
+       "bedrock(brunatee, hair_overlay)",
+       "bedrock(brunatee, ride_mount_walk)"
+     ],
+     "quirks": [
+       {
+         "name": "blink",
+         "animations": [
+           "bedrock(brunatee, blink)"
+         ]
+       }
+     ]
+   },
+   "floating": {
+     "poseName": "floating",
+     "isTouchingWater": true,
+     "transformTicks": 10,
+     "poseTypes": [
+       "FLOAT",
+       "STAND"
+     ],
+     "animations": [
+       "bedrock(brunatee, water_idle)",
+       "bedrock(brunatee, skirt_overlay)",
+       "bedrock(brunatee, hair_overlay)"
+     ],
+     "quirks": [
+       {
+         "name": "blink",
+         "animations": [
+           "bedrock(brunatee, blink)"
+         ]
+       }
+     ]
+   },
+   "swimming": {
+     "poseName": "swimming",
+     "isTouchingWater": true,
+     "transformTicks": 10,
+     "poseTypes": [
+       "SWIM",
+       "WALK"
+     ],
+     "animations": [
+       "bedrock(brunatee, water_swim)",
+       "bedrock(brunatee, skirt_overlay)",
+       "bedrock(brunatee, hair_overlay)",
+       {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('brunatee', 'ride_water_swim')"
+       }
+     ],
+     "quirks": [
+       {
+         "name": "blink",
+         "animations": [
+           "bedrock(brunatee, blink)"
+         ]
+       }
+     ]
+   },
+   "battle-idle": {
+     "poseName": "battle-idle",
+     "transformTicks": 10,
+     "poseTypes": ["STAND"],
+     "isBattle": true,
+     "animations": [
+         "bedrock(brunatee, battle_idle)",
+         "bedrock(brunatee, skirt_overlay)",
+         "bedrock(brunatee, hair_overlay)"
+         ],
+     "quirks": [
+       {
+         "name": "blink",
+         "animations": ["bedrock(brunatee, blink)"]
+       }
+     ]
+   }
+ }
+}

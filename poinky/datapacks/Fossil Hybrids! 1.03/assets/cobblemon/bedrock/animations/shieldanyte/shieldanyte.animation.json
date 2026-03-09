@@ -1,0 +1,129 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.shieldanyte.ground_idle": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"omanyte": {
+					"position": [0, 0, 0],
+					"scale": 1
+				},
+				"body": {
+					"scale": 1
+				},
+				"arm": {
+					"rotation": [0, 0, 0]
+				},
+				"tail": {
+					"rotation": ["0+math.sin(query.anim_time*90*4-60)*5", "0+math.sin(query.anim_time*90*8)*8", 0]
+				},
+				"torso": {
+					"rotation": ["0+math.sin(query.anim_time*90*4-60)", 0, 0],
+					"position": [0, "-0.3+math.sin(query.anim_time*90*4)*0.1", 0]
+				}
+			}
+		},
+		"animation.shieldanyte.ground_walk": {
+			"loop": true,
+			"animation_length": 0.5,
+			"bones": {
+				"body": {
+					"rotation": ["0-math.sin(query.anim_time*90*8)*5", 0, 0],
+					"position": {
+						"0.0": [0, -1, 0],
+						"0.25": [0, 0.2, 0],
+						"0.5": [0, -1, 0]
+					}
+				},
+				"tail": {
+					"rotation": ["0-math.sin(query.anim_time*90*8-60)*5", 0, 0]
+				},
+				"leg": {
+					"rotation": {
+						"0.0": [30, 0, 0],
+						"0.25": [-60, 0, 0],
+						"0.3333": [-35, 0, 0],
+						"0.5": [30, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0.9, 0],
+						"0.25": [0, 0.8, 0],
+						"0.3333": [0, 0.9, 0],
+						"0.5": [0, 0.9, 0]
+					}
+				},
+				"leg2": {
+					"rotation": {
+						"0.0": [17.5, 0, 0],
+						"0.25": [-57.5, 0, 0],
+						"0.3333": [-30, 0, 0],
+						"0.5": [17.5, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 1, 0],
+						"0.25": [0, 0.6, 0],
+						"0.3333": [0, 1, 0]
+					}
+				},
+				"leg4": {
+					"rotation": {
+						"0.0": [-27.5, 0, 0],
+						"0.25": [32.5, 0, 0],
+						"0.5": [-27.5, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 1.2, 0],
+						"0.25": [0, 1, 0],
+						"0.5": [0, 1.2, 0]
+					}
+				},
+				"leg3": {
+					"rotation": {
+						"0.0": [-42.5, 0, 0],
+						"0.25": [37.5, 0, 0],
+						"0.5": [-42.5, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 1, 0],
+						"0.25": [0, 1, 0],
+						"0.5": [0, 1, 0]
+					}
+				}
+			}
+		},
+		"animation.shieldanyte.sleep": {
+			"loop": true,
+			"animation_length": 0.5,
+			"bones": {
+				"omanyte": {
+					"scale": 0
+				},
+				"mask": {
+					"rotation": [-20, 0, 0],
+					"position": [0, -3, 0]
+				},
+				"leg": {
+					"position": [0, 5, 0]
+				},
+				"leg2": {
+					"position": [0, 7, 0]
+				},
+				"leg4": {
+					"position": [0, 4, 0]
+				},
+				"leg3": {
+					"position": [0, 4, 0]
+				}
+			}
+		},
+		"animation.shieldanyte.run": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"position": [0, 0, "0-query.anim_time*90*0.2"]
+				}
+			}
+		}
+	}
+}

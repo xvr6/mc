@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:tempestfang",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:tempestfang",
+      "model": "cobblemon:tempestfang.geo",
+      "texture": "cobblemon:textures/pokemon/tempestfang/tempestfang.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/tempestfang/tempestfang_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/tempestfang/tempestfang_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/tempestfang/tempestfang_shiny_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    }
+  ]
+}

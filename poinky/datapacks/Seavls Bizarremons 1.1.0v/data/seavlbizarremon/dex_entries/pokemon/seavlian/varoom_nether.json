@@ -1,0 +1,15 @@
+{
+  "id": "seavlbizarremon:varoom_nether",
+  "speciesId": "cobblemon:varoom",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "nether",
+      "unlockForms": [
+        "nether"
+      ]
+    }
+  ],
+  "variations": []
+}

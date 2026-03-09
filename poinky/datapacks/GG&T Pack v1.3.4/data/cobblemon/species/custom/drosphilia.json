@@ -1,0 +1,143 @@
+{
+    "implemented": true,
+    "name": "drosphilia",
+    "nationalPokedexNumber": 2139,
+    "primaryType": "bug",
+    "secondaryType": "fairy",
+    "abilities": [
+        "cutecharm",
+        "h:rivalry"
+    ],
+    "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:babiri_berry",
+        "percentage": 5.0
+      }
+        ]
+    },
+    "baseStats": {
+        "hp": 60,
+        "attack": 40,
+        "defence": 50,
+        "special_attack": 60,
+        "special_defence": 50,
+        "speed": 66
+    },
+    "catchRate": 150,
+    "maleRatio": 0.5,
+    "shoulderMountable": true,
+    "forms": [],
+    "baseExperienceYield": 140,
+    "experienceGroup": "medium_slow",
+    "eggCycles": 15,
+    "eggGroups": [
+        "bug"
+    ],
+    "behaviour": {
+        "moving": {
+            "fly": {
+                "canFly": true
+            },
+            "walk": {
+                "canWalk": false
+            }
+        }
+    },
+    "drops": {},
+    "moves": [
+        "1:fairywind",
+        "1:strugglebug",
+        "1:attract",
+        "1:playnice",
+        "6:captivate",
+        "10:sweetkiss",
+        "15:drainingkiss",
+        "18:encore",
+        "20:bugbite",
+        "23:silverwind",
+        "26:charm",
+        "30:aromaticmist",
+        "32:helpinghand",
+        "35:covet",
+        "38:leechlife",
+        "41:playrough",
+        "44:bugbuzz",
+        "45:flatter",
+        "47:lunge",
+        "50:bestow",
+        "tm:safeguard",
+        "tm:rest",
+        "tm:thief",
+        "tm:snore",
+        "tm:protect",
+        "tm:charm",
+        "tm:attract",
+        "tm:facade",
+        "tm:swift",
+        "tm:helpinghand",
+        "tm:imprison",
+        "tm:faketears",
+        "tm:uturn",
+        "tm:round",
+        "tm:acrobatics",
+        "tm:drainingkiss",
+        "tm:leechlife",
+        "tm:substitute",
+        "tm:endure",
+        "tm:sleeptalk",
+        "tm:trick",
+        "tm:bugbuzz",
+        "tm:playrough",
+        "tm:dazzlinggleam",
+        "tm:psychup",
+        "tm:sludgebomb",
+        "tm:payback",
+        "egg:auroraveil",
+        "egg:gunkshot",
+        "egg:sweetscent",
+        "egg:healbell",
+        "tutor:present",
+        "tutor:aromatherapy",
+        "tutor:batonpass"
+    ],
+    "labels": [
+        "custom"
+    ],
+    "pokedex": [
+        "cobblemon.species.drosphilia.desc1",
+        "cobblemon.species.drosphilia.desc2"
+    ],
+    "evolutions": [
+                {
+            "id": "drosphilia_vaalzebub",
+            "variant": "level_up",
+            "result": "vaalzebub",
+            "consumeHeldItem": false,
+            "learnableMoves": [],
+            "requirements": [
+                {
+                    "variant": "friendship",
+                    "amount": 160
+                },
+                {
+                    "variant": "biome",
+                    "biomeCondition": "#minecraft:is_nether"
+                }
+            ]
+        }
+    ],
+    "baseScale": 0.8,
+    "hitbox": {
+        "width": 0.6,
+        "height": 1.05,
+        "fixed": false
+    },
+    "baseFriendship": 70,
+    "evYield": {
+        "speed": 1
+    },
+    "height": 2,
+    "weight": 12
+}

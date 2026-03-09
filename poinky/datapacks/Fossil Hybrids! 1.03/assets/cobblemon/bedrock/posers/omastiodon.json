@@ -1,0 +1,49 @@
+{
+ "portraitScale": 2.3,
+ "portraitTranslation": [-0.1, 0.58, 0],
+ "profileScale": 0.75,
+ "profileTranslation": [0, 0.68, 0],
+ "animations": {
+ 
+ },
+ "poses": {
+
+   "battle-standing": {
+     "poseTypes": ["STAND"],
+     "isBattle": true,
+     "animations": [
+       "q.bedrock('omastiodon', 'battle_idle')"
+     ]
+},
+   "standing": {
+     "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+     "isBattle": false,
+     "animations": [
+       "q.bedrock('omastiodon', 'ground_idle')"
+     ]
+   },
+   "walking": {
+     "poseTypes": ["WALK"],
+     "animations": [
+       "q.bedrock('omastiodon', 'ground_walk')"
+     ]
+   },
+ 
+   "float": {
+     "poseTypes": ["FLOAT"],
+     "animations": [
+       "q.bedrock('omastiodon', 'ground_idle')"
+     ]
+   },
+   "swim": {
+     "poseTypes": ["SWIM"],
+     "animations": [
+       "q.bedrock('omastiodon', 'ground_walk')"
+     ]
+   },
+   "sleep": {
+     "poseTypes": ["SLEEP"],
+     "animations": ["q.bedrock('somastiodon', 'sleep')"]
+}
+}
+}

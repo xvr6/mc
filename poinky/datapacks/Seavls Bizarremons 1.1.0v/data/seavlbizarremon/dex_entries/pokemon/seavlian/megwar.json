@@ -1,0 +1,15 @@
+{
+  "id": "seavlbizarremon:megwar",
+  "speciesId": "cobblemon:megwar",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

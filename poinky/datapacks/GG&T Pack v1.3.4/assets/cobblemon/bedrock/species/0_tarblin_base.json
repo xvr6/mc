@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:tarblin",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:tarblin",
+      "model": "cobblemon:tarblin.geo",
+      "texture": "cobblemon:textures/pokemon/tarblin/tarblin.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/tarblin/tarblin_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/tarblin/tarblin_shiny.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/tarblin/tarblin_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "cobblemon.behaviour.battle_reward_pokedollars3_npcs.name",
+  "description": "cobblemon.behaviour.battle_reward_pokedollars3_npcs.desc",
+  "entityType": "cobblemon:npc",
+  "configurations": [
+    {
+      "type": "cobblemon:add_variables",
+      "variables": [
+        {
+          "variableName": "toggle_battle_reward_p3",
+          "displayName": "Toggle Battle Pokedollar Reward",
+          "description": "Determines if this trainer should give a reward to the player after the battle.",
+          "type": "BOOLEAN",
+          "defaultValue": "0"
+        },
+        {
+          "variableName": "battle_reward_amount_p3_1",
+          "displayName": "Min Battle Pokedollar Payout",
+          "description": "Determines the min payout for the player.",
+          "type": "NUMBER",
+          "defaultValue": "500.0"
+        },
+        {
+          "variableName": "battle_reward_amount_p3_2",
+          "displayName": "Max Battle Pokedollar Payout",
+          "description": "Determines the max payout for the player.",
+          "type": "NUMBER",
+          "defaultValue": "1000.0"
+        }
+      ]
+    }
+  ]
+}

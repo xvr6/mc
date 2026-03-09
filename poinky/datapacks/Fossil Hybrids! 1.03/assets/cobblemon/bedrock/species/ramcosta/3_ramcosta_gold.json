@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:ramcosta",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": ["ore-gold"],
+      "poser": "cobblemon:ramcosta",
+      "model": "cobblemon:ramcosta.geo",
+      "texture": "cobblemon:textures/pokemon/ramcosta/ramcosta_gold.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/ramcosta/ramcosta_gold_shiny.png"
+    }
+  ]
+}

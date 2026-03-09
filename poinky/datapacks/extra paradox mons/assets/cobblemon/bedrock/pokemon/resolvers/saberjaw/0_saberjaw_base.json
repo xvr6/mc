@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:saberjaw",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:saberjaw",
+      "model": "cobblemon:saberjaw.geo",
+      "texture": "cobblemon:textures/pokemon/saberjaw/saberjaw.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/saberjaw/saberjaw_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/saberjaw/saberjaw_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/saberjaw/saberjaw_shiny_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    }
+  ]
+}

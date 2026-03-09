@@ -1,0 +1,72 @@
+{
+  "cobblemon.ui.pokedex.region.kazeran":"Kazeran",
+  "cobblemon.ui.pokedex.info.form.kazeran": "Kazeran",
+  "cobblemon.ui.pokedex.info.form.glaceon": "",
+  "cobblemon.ui.pokedex.info.form.sylveon": "",
+  "cobblemon.ui.pokedex.info.form.leafeon": "",
+  "cobblemon.ui.pokedex.info.form.umbreon": "",
+  "cobblemon.ui.pokedex.info.form.espeon": "",
+  "cobblemon.ui.pokedex.info.form.vaporeon": "",
+  "cobblemon.ui.pokedex.info.form.flareon": "",
+  "cobblemon.ui.pokedex.info.form.jolteon": "",
+  "cobblemon.ui.pokedex.info.form.glaceon-kazeran": "Kazeran",
+  "cobblemon.ui.pokedex.info.form.sylveon-kazeran": "Kazeran",
+  "cobblemon.ui.pokedex.info.form.leafeon-kazeran": "Kazeran",
+  "cobblemon.ui.pokedex.info.form.umbreon-kazeran": "Kazeran",
+  "cobblemon.ui.pokedex.info.form.espeon-kazeran": "Kazeran",
+  "cobblemon.ui.pokedex.info.form.vaporeon-kazeran": "Kazeran",
+  "cobblemon.ui.pokedex.info.form.flareon-kazeran": "Kazeran",
+  "cobblemon.ui.pokedex.info.form.jolteon-kazeran": "Kazeran",
+
+  "cobblemon.species.glaceon-kazeran.desc": "After given a gem made of ice to evolve an eevee to Glaceon in the extreme heat, Glaceon has become an adaptation of both hot and cold. Its body constantly sizzles and steams, barely holding the two elements together in harmony.",
+  "cobblemon.species.sylveon-kazeran.desc": "As Eevee absorbed the toxins around it, a failed attempt at evolving into Sylveon has corrupted into this more sinister form. Sylveon strikes with its ribbons, poisoning prey just from a single touch.",
+  "cobblemon.species.leafeon-kazeran.desc": "Given a second chance at life through a stone of dusk. This Leafeon lurks in the deep woods, guiding lost pokémon only to lure them and devour their souls.",
+  "cobblemon.species.umbreon-kazeran.desc": "Bathed in the light of a forbidden sky, when Eevee soared too close to the sun and fell to the moon, it evolved into this Umbreon. Its wings shimmer with radiant darkness, embodying both ambition and perseverance.",
+  "cobblemon.species.espeon-kazeran.desc": "Eevee's evolution into Espeon was altered by the Kazeran region's unique energy coming from underground, giving it a more robotic appearance. It draws power from the gem above its head, said to be a fragment of a fallen star.",
+  "cobblemon.species.vaporeon-kazeran.desc": "This version of Vaporeon loves to lure unsuspecting Clamperl with its songs, only to capture them and steal their pearl. It wears the pearl around its neck as a trophy, a symbol of its majesty over the sea.",
+  "cobblemon.species.flareon-kazeran.desc": "Legends of a draconic Flareon have been passed down through generations, found slumbering in the depths of the deadliest volcanoes of the Kazeran region. Legends say its full form power has never been revealed.",
+  "cobblemon.species.jolteon-kazeran.desc": "Adapted to the thunderous deserts of the Kazeran region, it has the ability to manipulate the iron found in small grains of sand to use as versatile weaponry, also making use of the magnetic fields in the area to levitate itself.",
+
+  "cobblemon.move.phantombloom": "Phantom Bloom",
+  "cobblemon.move.phantombloom.desc": "The user haunts the livestock around the opponent, damaging and cursing the target while also taking recoil damage. This move is super effective against Ghost types, but Ghost types are immune to the curse effect.",
+  "cobblemon.move.flashfreezeheatwave": "Flashfreeze Heatwave",
+  "cobblemon.move.flashfreezeheatwave.desc": "The user erupts in an explosion of heat and cold with 30% chance to burn or freeze the target. This move counts as both a Fire and Ice type move.",
+  "cobblemon.move.venomousembrace": "Venomous Embrace",
+  "cobblemon.move.venomousembrace.desc": "The user ensnares the target with toxic ribbons, poisoning the defender and trapping them until the user is taken down or switches out.",
+  "cobblemon.move.radiantdescent": "Radiant Descent",
+  "cobblemon.move.radiantdescent.desc": "User calls upon dark energy to descend from the skies, striking the foe, lowering its Defense and Special Defense.",
+  "cobblemon.move.metalstorm": "Metal Storm",
+  "cobblemon.move.metalstorm.desc": "The user unleashes a storm of metallic shards, striking the target 2-5 times. This move has a chance to lower the target's Special Defense with each hit.",
+  "cobblemon.move.sirenssong": "Siren's Song",
+  "cobblemon.move.sirenssong.desc": "The user sings an enchanting melody, dealing damage and causing the target to fall asleep on the next turn. This move is both a Water and Fairy type move.",
+  "cobblemon.move.dracoblazerush": "Dracoblaze Rush",
+  "cobblemon.move.dracoblazerush.desc": "The user lunges at the target with a blazing speed, dealing damage and recoil, raising speed by 2 stages in the sun and 1 without it. This move is both a Fire and Dragon type move.",
+  "cobblemon.move.shockwaveslam": "Shockwave Slam",
+  "cobblemon.move.shockwaveslam.desc": "The user unleashes a thundering shockwave through the ground, dealing damage and lowering the target's Speed. This move is also a ground type move that hits all adjacent foes.",
+
+  "cobblemon.ability.thermalbloom": "Thermal Bloom",
+  "cobblemon.ability.thermalbloom.desc": "In sun or snow, heal a small amount of hp per turn. Ice moves in Sun and Fire moves in Snow deal 25% more damage.",
+  "cobblemon.battle.heal.thermalbloom": "Glaceon recovered a bit of health!",
+
+  "cobblemon.ability.prismcapacitor": "Prism Capacitor",
+  "cobblemon.ability.prismcapacitor.desc": "After being hit by a special move, your next Psychic move deals 50% increased damage.",
+  "cobblemon.battle.end.prismcapacitor": "Espeon's Prism Capacitor amplified this move!",
+
+  "cobblemon.ability.witheringaura": "Withering Aura",
+  "cobblemon.ability.witheringaura.desc": "When hit by a contact move, the attacker loses 1/8 max HP and the user heals 1/8 max HP.",
+
+  "cobblemon.ability.magneticflux": "Magnetic Flux",
+  "cobblemon.ability.magneticflux.desc": "Electric moves have a 50% chance to lower the target's Speed by 1 stage.",
+  
+  "cobblemon.ability.dragonsrage": "Dragon's Rage",
+  "cobblemon.ability.dragonsrage.desc": "Fire moves are 30% stronger above half HP; Dragon moves are 30% stronger below half HP.",
+
+  "cobblemon.ability.toxicribbons": "Toxic Ribbons",
+  "cobblemon.ability.toxicribbons.desc": "Contact with the user's venomous ribbons has a 20% chance to badly poison the attacker.",
+  
+  "cobblemon.ability.shadowstriker": "Shadow Striker",
+  "cobblemon.ability.shadowstriker.desc": "Dark-type moves have a 25% chance to make the target flinch.",
+
+  "cobblemon.ability.sonicresonance": "Sonic Resonance",
+  "cobblemon.ability.sonicresonance.desc": "Sound-based moves deal 25% more damage and have a 30% chance to lower the target's Speed."
+}

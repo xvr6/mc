@@ -1,0 +1,130 @@
+{
+    "implemented": true,
+    "name": "holinoli",
+    "nationalPokedexNumber": 2126,
+    "primaryType": "fairy",
+    "secondaryType": "flying",
+    "abilities": [
+        "sweetveil",
+        "klutz",
+        "h:regenerator"
+    ],
+    "baseStats": {
+        "hp": 100,
+        "attack": 50,
+        "defence": 90,
+        "special_attack": 85,
+        "special_defence": 90,
+        "speed": 55
+    },
+    "catchRate": 65,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "forms": [],
+    "baseExperienceYield": 178,
+    "experienceGroup": "medium_slow",
+    "eggCycles": 20,
+    "eggGroups": [
+        "fairy",
+        "dragon"
+    ],
+    "behaviour": {
+        "moving": {
+            "fly": {
+                "canFly": true
+            },
+            "walk": {
+                "canWalk": false
+            }
+        }
+    },
+    "drops": {
+        "amount": "1",
+        "entries": [
+            {
+                "item": "minecraft:cookie",
+                "quantityRange": "1-2",
+                "percentage": 80
+            }
+        ]
+    },    
+    "moves": [
+        "1:fairywind",
+        "1:growl",
+        "1:tailwhip",
+        "1:flail",
+        "1:aromaticmist",
+        "1:gust",
+        "1:sweetscent",
+        "1:recycle",
+        "10:drainingkiss",
+        "13:airslash",
+        "18:defog",
+        "20:twister",
+        "23:aromatherapy",
+        "25:acidarmor",
+        "27:yawn",
+        "30:glare",
+        "32:dragonbreath",
+        "34:dazzlinggleam",
+        "36:tailwind",
+        "40:coil",
+        "44:recover",
+        "50:hurricane",
+        "55:whirlwind",
+        "60:entrainment",
+        "65:wish",
+        "tm:fly",
+        "tm:dragonpulse",
+        "tm:hyperbeam",
+        "tm:gigaimpact",
+        "tm:solarbeam",
+        "tm:thunderwave",
+        "tm:lightscreen",
+        "tm:reflect",
+        "tm:safeguard",
+        "tm:rest",
+        "tm:snore",
+        "tm:protect",
+        "tm:charm",
+        "tm:steelwing",
+        "tm:attract",
+        "tm:raindance",
+        "tm:sunnyday",
+        "tm:facade",
+        "tm:swift",
+        "tm:helpinghand",
+        "tm:round",
+        "tm:drainingkiss",
+        "tm:mysticalfire",
+        "tm:airslash",
+        "tm:bodyslam",
+        "tm:flamethrower",
+        "tm:dazzlinggleam",
+        "tm:playrough",
+        "tm:zenheadbutt",
+        "tutor:mistyexplosion",
+        "tutor:dualwingbeat"
+    ],
+    "labels": [
+        "custom"
+    ],
+    "pokedex": [
+        "cobblemon.species.holinoli.desc1",
+        "cobblemon.species.holinoli.desc2"
+    ],
+    "preEvolution": "cannoling",
+    "evolutions": [],
+    "baseScale": 1,
+    "hitbox": {
+        "width": 1.5,
+        "height": 1.5,
+        "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+        "hp": 2
+    },
+    "height": 18,
+    "weight": 152
+}

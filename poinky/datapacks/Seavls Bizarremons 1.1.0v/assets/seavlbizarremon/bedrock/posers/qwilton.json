@@ -1,0 +1,50 @@
+{
+  "portraitScale": 1,
+  "portraitTranslation": [ -0.42, 1.13, 0 ],
+  "profileScale": 0.4,
+  "profileTranslation": [ 0, 1.1, 0 ],
+  "rootBone": "qwilton",
+  "animations": {
+    "recoil": "q.bedrock_stateful('qwilton', 'recoil_ground')",
+    "special": "q.bedrock_primary('qwilton', 'special', q.curve('symmetrical_wide'))",
+    "physical": "q.bedrock_primary('qwilton', 'physical', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "q.bedrock('qwilton', 'ground_idle')"
+      ],
+      "quirks": [
+      "q.bedrock_quirk('qwilton', 'blink')"
+    ]
+    },
+    "walking": {
+      "poseTypes": [ "WALK" ],
+      "animations": [ 
+        "q.bedrock('qwilton', 'ground_run')" 
+      ],
+      "quirks": [
+        "q.bedrock_quirk('qwilton', 'blink')"
+      ]
+    },
+    "float": {
+      "poseTypes": [ "FLOAT" ],
+      "animations": [ 
+        "q.bedrock('qwilton', 'water_float')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('qwilton', 'blink')"
+      ]
+    },
+    "swim": {
+      "poseTypes": [ "SWIM" ],
+      "animations": [
+        "q.bedrock('qwilton', 'water_swim')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('qwilton', 'blink')"
+      ]
+    }
+  }
+}

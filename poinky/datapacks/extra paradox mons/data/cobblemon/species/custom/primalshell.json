@@ -1,0 +1,148 @@
+{
+  "implemented": true,
+  "name": "primalshell",
+  "nationalPokedexNumber": 9910,
+  "primaryType": "fairy",
+  "secondaryType": "dragon",
+  "abilities": [
+    "protosynthesis"
+  ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:emerald",
+        "quantityRange": "2"
+      },
+      {
+        "item": "cobblemon:starf_berry",
+        "percentage": 10
+      }
+    ]
+  },
+  "baseStats": {
+    "hp": 91,
+    "attack": 77,
+    "defence": 127,
+    "special_attack": 115,
+    "special_defence": 131,
+    "speed": 49
+  },
+"behaviour": {
+   "resting": {
+     "canSleep": true,
+     "willSleepOnBed": false,
+     "depth": "normal",
+     "light": "0-4"
+    }
+   },
+  "catchRate": 10,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 169,
+  "experienceGroup": "slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:glare",
+    "1:nastyplot",
+    "1:shelter",
+    "1:toxicspikes",
+    "1:fairywind",
+    "1:irondefense",
+    "1:playrough",
+    "21:wrap",
+    "23:bodypress",
+    "26:moonlight",
+    "31:moonblast",
+    "36:dragonclaw",
+    "43:dazzlinggleam",
+    "50:freezingglare",
+    "57:mistyterrain",
+    "64:shellsmash",
+    "71:hurricane",
+    "78:fairylock",
+    "85:springtidestorm",
+    "tm:dracometeor",
+    "tm:disarmingvoice",
+    "tm:dragonclaw",
+    "tm:spikes",
+    "tm:thunderwave",
+    "tm:electroball",
+    "tm:bugbuzz",
+    "tm:bodypress",
+    "tm:aurasphere",
+    "tm:drainpunch",
+    "tm:mistyterrain",
+    "tm:flamethrower",
+    "tm:confuseray",
+    "tm:icebeam",
+    "tm:aurasphere",
+    "tm:dragontail",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:powergem",
+    "tm:stealthrock",
+    "tm:thunder",
+    "tm:focusblast",
+    "tm:laserfocus",
+    "tm:earthquake",
+    "tm:futuresight",
+    "tm:helpinghand",
+    "tm:thunderbolt",
+    "tm:reflect",
+    "tm:shockwave",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:lightscreen",
+    "tm:knockoff",
+    "tm:workup",
+    "tm:protect",
+    "tm:playrough",
+    "tm:hyperbeam",
+    "tm:endeavor",
+    "tm:rest",
+    "tm:gigaimpact",
+    "tm:dragonpulse",
+    "tm:dragoncheer",
+    "tm:takedown",
+    "tm:sleeptalk",
+    "tm:doubleedge",
+    "tm:doubleteam",
+    "tm:substitute",
+    "tm:thundershock",
+    "tm:terablast",
+    "tm:taunt",
+    "tm:throatchop",
+    "tm:uturn",
+    "tm:psychic",
+    "tm:zenheadbutt"
+  ],
+  "labels": [
+    "gen9"
+  ],
+  "pokedex": [
+    "This turtle-like pokemon has been observed moving towards to Hoenn region and have been proven to hang around the Mirage Islands."
+  ],
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 3.5,
+  "weight": 172,
+  "aspects": [],
+  "cannotDynamax": false,
+  "hitbox": {
+    "width": 1.6,
+    "height": 3,
+    "fixed": false
+  }
+}

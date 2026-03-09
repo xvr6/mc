@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:fossie",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:fossie",
+      "model": "cobblemon:fossie.geo",
+      "texture": "cobblemon:textures/pokemon/fossie/fossie.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fossie/fossie_shiny.png"
+    }
+  ]
+}

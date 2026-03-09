@@ -1,0 +1,52 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "salamarine-1",
+            "pokemon": "salamarine",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "rare",
+            "level": "45-68",
+            "weight": 6.7,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "minecraft:frozen_ocean",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:ocean"
+                ]
+            }
+        },
+        {
+            "id": "salamarine-2",
+            "pokemon": "salamarine",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "40-72",
+            "weight": 2.8,
+            "weightMultiplier": {
+                "multiplier": 3.0,
+                "condition": {
+                    "minLureLevel": "3"
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_cold_ocean",
+                    "#cobblemon:is_frozen_ocean"
+                ],
+                "minLureLevel": 1
+            }
+        }
+    ]
+}

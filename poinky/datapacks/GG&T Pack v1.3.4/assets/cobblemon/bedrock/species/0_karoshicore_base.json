@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:karoshicore",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:karoshicore",
+      "model": "cobblemon:karoshicore.geo",
+      "texture": "cobblemon:textures/pokemon/karoshicore/karoshicore.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/karoshicore/karoshicore_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/karoshicore/karoshicore_shiny.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/karoshicore/karoshicore_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tempestfang",
+  "speciesId": "cobblemon:tempestfang",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "normal",
+      "unlockForms": [
+        "normal"
+      ]
+    }
+  ],
+  "variations": []
+}

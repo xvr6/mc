@@ -1,0 +1,56 @@
+{
+    "cobblemon.species.toxicmelody.name": "Chant-Toxique",
+    "cobblemon.species.toxicmelody.desc1": "Des rapports fragmentaires évoquent une créature insaisissable, souvent réduite à des croquis ou à des images floues.",
+    "cobblemon.species.toxicmelody.desc2": "Il est dit que ceux qui croisent sa route disparaissent, ne laissant derrière eux que leur matériel d'enregistrement. Les témoignages fiables sont extrêmement rares.",
+  
+    "cobblemon.species.ironvictory.name": "Triomphe-de-Fer",
+    "cobblemon.species.ironvictory.desc1": "Bien que son apparence soit métallique, cette entité présente un comportement étonnamment docile selon les témoins.",
+    "cobblemon.species.ironvictory.desc2": "Des récits évoquent des individus entraînés à vivre parmi ces formes de vie. Malgré leur nature mécanique, elles seraient proches des Pokémon ordinaires.",
+  
+    "cobblemon.species.ironcore.name": "Cœur-de-Fer",
+    "cobblemon.species.ironcore.desc1": "Elle semble paisible de loin, mais une trop grande proximité déclencherait l’émission de toxines provoquant paralysie et sommeil profond.",
+    "cobblemon.species.ironcore.desc2": "Ceux qui la sous-estiment disparaissent sans laisser de traces. Aucune donnée fiable n'existe sur leur sort.",
+  
+    "cobblemon.species.crimsonveil.name": "Voile-Cendré",
+    "cobblemon.species.crimsonveil.desc1": "Selon certaines légendes, cette entité hanterait même les Pokémon légendaires. Les observations physiques sont quasi inexistantes.",
+    "cobblemon.species.crimsonveil.desc2": "Les rares récits évoquent une présence dans les cauchemars. Aucune preuve tangible n'a pu être collectée.",
+
+  "cobblemon.species.irondrone.name": "Drone-de-fer",
+ "cobblemon.species.irondrone.desc1": "Incroyablement amical mais plutôt prudent, ce pokémon est souvent signalé comme livrant de vieilles reliques des fonds marins à des plongeurs sans méfiance.",
+ "cobblemon.species.irondrone.desc2": "Les plongeurs qui traquent Drone-de-fer pour trouver d'anciennes reliques reviennent souvent meurtris et plutôt secoués. On pense, grâce aux études réalisées, qu'Iron Drone peut identifier les intentions en se basant sur les émotions..",
+
+"cobblemon.species.lumintail.name": "Queue-Lumin",
+ "cobblemon.species.lumintail.desc1": "Plutôt hostile malgré ses similitudes avec Manaphy, il a été rapporté qu'il attaque souvent Drone-de-fer s'il croise son chemin car Iron Drone vole les reliques de Queue-Lumin.",
+ "cobblemon.species.lumintail.desc2": "Les Queue-Lumin sont très amicaux avec les autres pokémons, ils ont tendance à cibler Drone-de-fer à cause de ses habitudes de vol.",
+
+"cobblemon.species.ironvirus.name": "Virus-du-fer",
+ "cobblemon.species.ironvirus.desc1": "Ce pokémon déteste les Deoxys et fera tout pour les vaincre. C'est l'antivirus par excellence.",
+ "cobblemon.species.ironvirus.desc2": "Des tests sur les fluides qu'il stocke dans ses bras et son corps ont montré qu'il s'agissait d'un médicament extrêmement efficace pour les pokémons.",
+
+"cobblemon.species.feralwish.name": "Féral-souhait",
+ "cobblemon.species.feralwish.desc1": "Ce pokémon sauvage aime exaucer les souhaits, mais il a l'habitude de déformer les mots pour former des souhaits complètement différents.",
+ "cobblemon.species.feralwish.desc2": "la plupart des gens qui rencontrent ce pokémon dangereux l'ignorent souvent à cause de son agacement.",
+
+"cobblemon.species.wildgene.name": "Gène-sauvage",
+ "cobblemon.species.wildgene.desc1": "Gène sauvage semble être un parent éloigné d'un Pokémon modifié par le plasma de l'équipe, appelé Genesect.",
+ "cobblemon.species.wildgene.desc2": "Le gène sauvage ont fait l'objet de nombreuses études car ils chassent en meute et sont assez faciles à collecter pour les étudier car ils refusent de reculer.",
+
+"cobblemon.species.ironjustice.name": "Justice-de-fer",
+ "cobblemon.species.ironjustice.desc1": "Justice-de-fer a pour mission de débarrasser la région de Paldea des pokémons qu'elle considère comme maléfiques. Depuis peu, il a été prouvé qu'elle ne se limitait pas aux pokémons.",
+ "cobblemon.species.ironjustice.desc2": "Ce pokémon est très facilement distrait, mais lorsqu'il est concentré, il faut se méfier de lui.",
+
+"cobblemon.species.fabledmirage.name": "Mirage-de-fer",
+ "cobblemon.species.fabledmirage.desc1": "Mirage de fer a été observé en train de se déplacer vers la région de Hoenn et il a été prouvé qu'il traînait autour des îles Mirage.",
+ "cobblemon.species.fabledmirage.desc2": "Mirage de fer semble venir d'un futur lointain et semble avoir un mystérieux brouillard autour de la taille..",
+
+"cobblemon.species.ironmight.name": "Puissance de fer",
+ "cobblemon.species.ironmight.desc1": "Puissance de fer, également connu sous le nom de fausse divinité de la terre. Il semble avoir imité les futurs enregistrements possibles du pokémon Landorus.",
+ "cobblemon.species.ironmight.desc2": "Bien qu'Iron Might ait un aspect plutôt rude ou effrayant, il est très doux et plutôt docile envers les pokémons et les humains.",
+
+"cobblemon.species.ancientgale.name": "Ancien Gale",
+ "cobblemon.species.ancientgale.desc1": "Ancien Gale, apparemment lié au pokémon Tornadus, on pense qu'il s'agit d'une ancienne divinité ou d'un gardien des forêts denses.",
+ "cobblemon.species.ancientgale.desc2": "Plutôt docile et calme, c'est un pokémon difficile à lire en raison de son expression et de son visage en grande partie couvert.",
+
+    "cobblemon.ui.pokedex.region.extraparadox": "ExtraParadoxe"
+  }
+  

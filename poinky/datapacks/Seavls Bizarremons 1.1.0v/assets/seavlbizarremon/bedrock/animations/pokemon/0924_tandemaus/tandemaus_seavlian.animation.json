@@ -1,0 +1,354 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.tandemaus_seavlian.ground_idle": {
+			"loop": true,
+			"bones": {
+				"water": {
+					"position": [0, "math.sin(q.anim_time*90*1-90)*0.25", 0],
+					"scale": ["0.9+math.sin(q.anim_time*90*1-45)*0.1", 1, "0.9+math.sin(q.anim_time*90*1)*0.1"]
+				},
+				"ship": {
+					"rotation": [0, 0, "2*math.sin(q.anim_time*90*1+180+50)"],
+					"position": [0, "0.5+0.5*math.sin(q.anim_time*90*1+180)", 0]
+				},
+				"sails_pole": {
+					"rotation": [0, "5+math.sin(q.anim_time*90*1-30)*5", 0]
+				},
+				"body_1": {
+					"position": [0, 0, -1]
+				},
+				"arm_right": {
+					"rotation": [-65, -27.5, 0],
+					"position": [0.75, 0, -1]
+				},
+				"head": {
+					"rotation": [-5, 0, "10+2*math.sin(q.anim_time*90*1+45)"]
+				},
+				"arm_left": {
+					"rotation": [-65, 27.5, 0],
+					"position": [-0.75, 0, -1]
+				},
+				"body_2": {
+					"position": [0, 0, -0.75]
+				},
+				"head2": {
+					"rotation": [-12.5, 0, -7.5],
+					"position": [0, "0.1*math.sin(q.anim_time*90*1+90)", 0]
+				},
+				"arm_left2": {
+					"rotation": [-75, -7.5, -10],
+					"position": [0, 0, -1]
+				},
+				"arm_right2": {
+					"rotation": [-75, 7.5, 10]
+				}
+			}
+		},
+		"animation.tandemaus_seavlian.ground_walk": {
+			"loop": true,
+			"bones": {
+				"water": {
+					"position": [0, "math.sin(q.anim_time*90*1-90)*0.25", 0.25],
+					"scale": ["0.9+math.sin(q.anim_time*90*1-45)*0.1", 1, "1.1+math.sin(q.anim_time*90*1)*0.1"]
+				},
+				"ship": {
+					"rotation": ["2*math.sin(q.anim_time*90*1+0+90)", 0, "2*math.sin(q.anim_time*90*1+180+50)"],
+					"position": [0, "0.5+0.5*math.sin(q.anim_time*90*1+180)", "0+0.5*math.sin(q.anim_time*90*1+180)"]
+				},
+				"sails_pole": {
+					"rotation": [0, "-5+math.sin(q.anim_time*90*1-30)*5", 0]
+				},
+				"body_1": {
+					"position": [0, 0, -1]
+				},
+				"arm_right": {
+					"rotation": [-65, -27.5, 0],
+					"position": [0.75, 0, -1]
+				},
+				"head": {
+					"rotation": [-5, 0, "10+2*math.sin(q.anim_time*90*1+45)"]
+				},
+				"arm_left": {
+					"rotation": [-65, 27.5, 0],
+					"position": [-0.75, 0, -1]
+				},
+				"body_2": {
+					"position": [0, 0, -0.75]
+				},
+				"head2": {
+					"rotation": [-12.5, 0, -7.5],
+					"position": [0, "0.1*math.sin(q.anim_time*90*1+90)", 0]
+				},
+				"arm_left2": {
+					"rotation": [-75, -7.5, -10],
+					"position": [0, 0, -1]
+				},
+				"arm_right2": {
+					"rotation": [-75, 7.5, 10]
+				}
+			}
+		},
+		"animation.tandemaus_seavlian.surfacewater_idle": {
+			"loop": true,
+			"bones": {
+				"water": {
+					"scale": 0
+				},
+				"ship": {
+					"rotation": [0, 0, "2*math.sin(q.anim_time*90*1+180+50)"],
+					"position": [0, "7+0.5*math.sin(q.anim_time*90*1+180)", 0]
+				},
+				"sails_pole": {
+					"rotation": [0, "5+math.sin(q.anim_time*90*1-30)*5", 0]
+				},
+				"body_1": {
+					"position": [0, 0, -1]
+				},
+				"arm_right": {
+					"rotation": [-65, -27.5, 0],
+					"position": [0.75, 0, -1]
+				},
+				"head": {
+					"rotation": [-5, 0, "10+2*math.sin(q.anim_time*90*1+45)"]
+				},
+				"arm_left": {
+					"rotation": [-65, 27.5, 0],
+					"position": [-0.75, 0, -1]
+				},
+				"body_2": {
+					"position": [0, 0, -0.75]
+				},
+				"head2": {
+					"rotation": [-12.5, 0, -7.5],
+					"position": [0, "0.1*math.sin(q.anim_time*90*1+90)", 0]
+				},
+				"arm_left2": {
+					"rotation": [-75, -7.5, -10],
+					"position": [0, 0, -1]
+				},
+				"arm_right2": {
+					"rotation": [-75, 7.5, 10]
+				}
+			}
+		},
+		"animation.tandemaus_seavlian.surfacewater_swim": {
+			"loop": true,
+			"bones": {
+				"water": {
+					"scale": 0
+				},
+				"ship": {
+					"rotation": ["2*math.sin(q.anim_time*90*1+0+90)", 0, "2*math.sin(q.anim_time*90*1+180+50)"],
+					"position": [0, "7+0.5*math.sin(q.anim_time*90*1+180)", "0+0.5*math.sin(q.anim_time*90*1+180)"]
+				},
+				"sails_pole": {
+					"rotation": [0, "-5+math.sin(q.anim_time*90*1-30)*5", 0]
+				},
+				"body_1": {
+					"position": [0, 0, -1]
+				},
+				"arm_right": {
+					"rotation": [-65, -27.5, 0],
+					"position": [0.75, 0, -1]
+				},
+				"head": {
+					"rotation": [-5, 0, "10+2*math.sin(q.anim_time*90*1+45)"]
+				},
+				"arm_left": {
+					"rotation": [-65, 27.5, 0],
+					"position": [-0.75, 0, -1]
+				},
+				"body_2": {
+					"position": [0, 0, -0.75]
+				},
+				"head2": {
+					"rotation": [-12.5, 0, -7.5],
+					"position": [0, "0.1*math.sin(q.anim_time*90*1+90)", 0]
+				},
+				"arm_left2": {
+					"rotation": [-75, -7.5, -10],
+					"position": [0, 0, -1]
+				},
+				"arm_right2": {
+					"rotation": [-75, 7.5, 10]
+				}
+			}
+		},
+		"animation.tandemaus_seavlian.cry": {
+			"animation_length": 1.25,
+			"bones": {
+				"head": {
+					"rotation": {
+						"0.4167": {
+							"pre": [0, 0, 0],
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.5": {
+							"post": [2.5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.5833": {
+							"post": [-10, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.9167": {
+							"post": [-10, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.1667": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"mouth": {
+					"position": {
+						"0.5": [0, 0, 0],
+						"0.5417": [0, -0.075, -0.15],
+						"0.9583": [0, -0.075, -0.15],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"head2": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.0833": {
+							"post": [2.5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.1667": {
+							"post": [-10, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.5": {
+							"post": [-10, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.75": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"mouth2": {
+					"position": {
+						"0.125": [0, 0, 0],
+						"0.1667": [0, -0.075, -0.15],
+						"0.5": [0, -0.075, -0.15],
+						"0.5417": [0, 0, 0]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "pokemon.tandemaus.cry"
+				}
+			}
+		},
+		"animation.tandemaus_seavlian.surfacewater_cry": {
+			"animation_length": 1.25,
+			"bones": {
+				"head": {
+					"rotation": {
+						"0.4167": {
+							"pre": [0, 0, 0],
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.5": {
+							"post": [2.5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.5833": {
+							"post": [-10, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.9167": {
+							"post": [-10, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.1667": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"mouth": {
+					"position": {
+						"0.5": [0, 0, 0],
+						"0.5417": [0, -0.075, -0.15],
+						"0.9583": [0, -0.075, -0.15],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"head2": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.0833": {
+							"post": [2.5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.1667": {
+							"post": [-10, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.5": {
+							"post": [-10, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.75": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"mouth2": {
+					"position": {
+						"0.125": [0, 0, 0],
+						"0.1667": [0, -0.075, -0.15],
+						"0.5": [0, -0.075, -0.15],
+						"0.5417": [0, 0, 0]
+					}
+				},
+				"water": {
+					"scale": 0
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "pokemon.tandemaus.cry"
+				}
+			}
+		},
+		"animation.tandemaus_seavlian.blink1": {
+			"animation_length": 0.1667,
+			"bones": {
+				"eyelids2": {
+					"position": {
+						"0.0": [0, 0, -0.1],
+						"0.1667": {"pre": [0, 0, -0.1], "post": [0, 0, 0]}
+					}
+				}
+			}
+		},
+		"animation.tandemaus_seavlian.blink2": {
+			"animation_length": 0.1667,
+			"bones": {
+				"eyelids": {
+					"position": {
+						"0.0": [0, 0, -0.1],
+						"0.1667": {"pre": [0, 0, -0.1], "post": [0, 0, 0]}
+					}
+				}
+			}
+		}
+	}
+}

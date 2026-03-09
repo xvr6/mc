@@ -1,0 +1,17 @@
+{
+  "target": "cobblemon:kingler",
+  "evolutions": [
+    {
+      "id": "kingler_kringwar",
+      "variant": "level_up",
+      "result": "kringwar",
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 45
+        }
+      ]
+    }
+  ]
+}

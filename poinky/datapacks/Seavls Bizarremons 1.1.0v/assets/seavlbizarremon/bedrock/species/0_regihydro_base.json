@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:regihydro",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "seavlbizarremon:regihydro",
+        "model": "seavlbizarremon:regihydro.geo",
+        "texture": "seavlbizarremon:textures/pokemon/regihydro/regihydro.png"
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "seavlbizarremon:textures/pokemon/regihydro/regihydro_shiny.png"
+      }
+    ]
+  }
+  

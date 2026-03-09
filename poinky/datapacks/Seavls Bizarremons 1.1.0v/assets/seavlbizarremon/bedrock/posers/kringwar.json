@@ -1,0 +1,27 @@
+{
+  "portraitScale": 1.2,
+  "portraitTranslation": [ 0, 0.25, 0 ],
+  "profileScale": 0.6,
+  "profileTranslation": [ 0, 0.8, 0 ],
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.bedrock('kringwar', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [ "WALK" ],
+      "animations": [ 
+        "q.bedrock('kringwar', 'ground_walk')" 
+      ]
+    },
+    "float": {
+      "poseTypes": [ "FLOAT" ],
+      "animations": [
+        "q.bedrock('kringwar', 'ground_idle')"
+      ]
+    }
+  }
+}

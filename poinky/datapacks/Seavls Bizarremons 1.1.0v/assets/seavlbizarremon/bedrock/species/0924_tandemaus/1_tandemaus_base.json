@@ -1,0 +1,19 @@
+{
+    "species": "cobblemon:tandemaus",
+    "order": 1,
+    "variations": [
+      {
+        "aspects": [ "seavlian" ],
+        "poser": "seavlbizarremon:tandemaus_seavlian",
+        "model": "seavlbizarremon:tandemaus_seavlian.geo",
+        "texture": "seavlbizarremon:textures/pokemon/0924_tandemaus/tandemaus_seavlian.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "seavlian", "shiny" ],
+        "texture": "seavlbizarremon:textures/pokemon/0924_tandemaus/tandemaus_seavlian_shiny.png",
+        "layers": []
+      }
+    ]
+  }
+  

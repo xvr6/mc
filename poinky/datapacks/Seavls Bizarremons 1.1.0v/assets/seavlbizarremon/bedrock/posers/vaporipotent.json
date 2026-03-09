@@ -1,0 +1,77 @@
+{
+  "portraitScale": 1.75,
+  "portraitTranslation": [ -0.6, 0.4, 0 ],
+  "profileScale": 0.9,
+  "profileTranslation": [ 0, 0.35, 0 ],
+  "rootBone": "vaporipotent",
+  "animations": {
+    "cry":  "q.bedrock_stateful('vaporipotent', 'cry')",
+    "recoil": "q.bedrock_stateful('vaporipotent', 'recoil')",
+    "special": "q.bedrock_primary('vaporipotent', 'special', q.curve('symmetrical_wide'))",
+    "physical": "q.bedrock_primary('vaporipotent', 'physical_tail', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('vaporipotent', 'status', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-idle": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head', 1, 1, 10, -10, 15, -15)",
+        "q.bedrock('vaporipotent', 'battle_idle')"
+    ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head', 1, 1, 10, -10, 15, -15)",
+        "q.bedrock('vaporipotent', 'air_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('vaporipotent', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": [ "WALK" ],
+      "animations": [ 
+        "q.bedrock('vaporipotent', 'air_fly')" 
+      ],
+      "quirks": ["q.bedrock_quirk('vaporipotent', 'blink')"]
+    },
+    "hover": {
+      "poseTypes": ["HOVER"],
+      "animations": [
+        "q.look('head', 1, 1, 10, -10, 15, -15)",
+        "q.bedrock('vaporipotent', 'air_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('vaporipotent', 'blink')"]
+    },
+    "fly": {
+      "poseTypes": ["FLY"],
+      "animations": [
+        "q.bedrock('vaporipotent', 'air_fly')"
+      ],
+      "quirks": ["q.bedrock_quirk('vaporipotent', 'blink')"]
+    },
+    "float": {
+      "poseTypes": [ "FLOAT" ],
+      "animations": [ 
+        "q.look('head', 1, 1, 10, -10, 15, -15)",
+        "q.bedrock('vaporipotent', 'air_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('vaporipotent', 'blink')"]
+    },
+    "swim": {
+      "poseTypes": [ "SWIM" ],
+      "animations": [
+        "q.bedrock('vaporipotent', 'air_fly')"
+      ],
+      "quirks": ["q.bedrock_quirk('vaporipotent', 'blink')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": [
+        "q.bedrock('vaporipotent', 'sleep')"
+      ],
+      "quirks": ["q.bedrock_quirk('vaporipotent', 'sleep_quirk')"]
+    }
+  }
+}

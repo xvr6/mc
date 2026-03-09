@@ -1,0 +1,210 @@
+{
+    "target": "cobblemon:maushold",
+    "features": ["seavlian"],
+    "forms": [
+      {
+  "name": "Seavlian",
+  "primaryType": "normal",
+  "secondaryType": "steel",
+  "maleRatio": -1,
+  "height": 16,
+  "weight": 2360,
+  "pokedex": [
+    "seavlbizarremon.species.maushold_seavlian.desc"
+  ],
+  "aspects": [
+    "seavlian"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "abilities": [
+    "filter",
+    "h:technician"
+  ],
+  "eggGroups": [
+    "field",
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 84,
+    "attack": 80,
+    "defence": 111,
+    "special_attack": 60,
+    "special_defence": 80,
+    "speed": 55
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 165,
+  "experienceGroup": "fast",
+  "catchRate": 75,
+  "eggCycles": 10,
+  "baseFriendship": 50,
+  "baseScale": 0.75,
+  "hitbox": {
+    "width": 2.5,
+    "height": 4,
+    "fixed": false
+  },
+  "riding": {
+    "behaviour": {
+      "key": "cobblemon:swim/generic"
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.2,
+          "z": 0.0
+        }
+      }
+    ],
+    "stats": {
+      "SPEED": {
+        "ranges": "35-60"
+      },
+      "ACCELERATION": {
+        "ranges": "25-50"
+      },
+      "SKILL": {
+        "ranges": "30-60"
+      },
+      "JUMP": {
+        "ranges": "5-10"
+      },
+      "STAMINA": {
+        "ranges": "45-100"
+      }
+    }
+  },
+  "behaviour": {
+    "moving": {
+      "swim": {
+        "canBreatheUnderwater": false,
+        "canWalkOnWater": true,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "swimSpeed": "0.45"
+      }
+    }
+  },
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:spruce_planks",
+        "quantityRange": "1-4"
+      },
+      {
+        "item": "minecraft:iron_ore",
+        "quantityRange": "1-2"
+      },
+      {
+        "item": "cobblemon:chilan_berry",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:shiftgear",
+    "1:followme",
+    "1:babydolleyes",
+    "1:tidyup",
+    "5:echoedvoice",
+    "8:helpinghand",
+    "11:superfang",
+    "14:doublehit",
+    "18:bulletseed",
+    "22:encore",
+    "25:mirrorshot",
+    "29:playrough",
+    "33:hypervoice",
+    "35:heavyslam",
+    "37:anchorshot",
+    "41:beatup",
+    "46:copycat",
+    "53:populationbomb",
+    "egg:afteryou",
+    "egg:batonpass",
+    "egg:bite",
+    "egg:feint",
+    "egg:switcheroo",
+    "egg:tickle",
+    "tm:aerialace",
+    "tm:afteryou",
+    "tm:agility",
+    "tm:babydolleyes",
+    "tm:batonpass",
+    "tm:beatup",
+    "tm:bulletseed",
+    "tm:charm",
+    "tm:chillingwater",
+    "tm:crunch",
+    "tm:dig",
+    "tm:doubleedge",
+    "tm:echoedvoice",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:flashcannon",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:irondefense",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:metalsound",
+    "tm:playrough",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:seedbomb",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:surf",
+    "tm:sunnyday",
+    "tm:superfang",
+    "tm:swift",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunderwave",
+    "tm:trailblaze",
+    "tm:uturn",
+    "tm:waterpulse",
+    "tutor:aerialace",
+    "tutor:afteryou",
+    "tutor:babydolleyes",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:hypervoice",
+    "tutor:lowkick",
+    "tutor:mudslap",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:seedbomb",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:superfang",
+    "tutor:swift",
+    "tutor:waterpulse"
+  ],
+  "preEvolution": "tandemaus seavlian",
+  "evolutions": [],
+  "forms": []
+      }
+    ]
+}

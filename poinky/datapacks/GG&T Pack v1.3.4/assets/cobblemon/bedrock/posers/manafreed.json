@@ -1,0 +1,82 @@
+{
+ "head": "head",
+ "portraitScale": 1.5,
+ "portraitTranslation": [ -1, -0.8, 0 ],
+ "profileScale": 0.45,
+ "profileTranslation": [ -0.05, 0.7, 0 ],
+ "poses": {
+   "standing": {
+     "poseName": "standing",
+     "transformTicks": 10,
+     "poseTypes": [
+       "STAND",
+       "NONE",
+       "PORTRAIT",
+       "PROFILE",
+       "HOVER"
+     ],
+     "isBattle": false,
+     "animations": [
+       "bedrock(manafreed, ground_idle)"
+     ]
+   },
+   "walking": {
+     "poseName": "walking",
+     "transformTicks": 10,
+     "poseTypes": [
+       "WALK",
+       "FLY"
+     ],
+     "animations": [
+       "bedrock(manafreed, ground_walk)",
+       {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('manafreed', 'ride_ground_walk')"
+       }
+     ]
+   },
+   "sleeping": {
+     "poseName": "sleeping",
+     "transformTicks": 10,
+     "poseTypes": [
+       "SLEEP"
+     ],
+     "animations": [
+       "bedrock(manafreed, sleep)"
+     ]
+   },
+   "swimming": {
+     "poseName": "swimming",
+     "transformTicks": 10,
+     "poseTypes": [
+       "SWIM",
+       "WALK"
+     ],
+     "animations": [
+       "bedrock(manafreed, water_swim)",
+       {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('manafreed', 'ride_water_swim')"
+       }
+     ]
+   },
+   "floating": {
+     "poseName": "floating",
+     "transformTicks": 10,
+     "poseTypes": [
+       "FLOAT",
+       "STAND"
+     ],
+     "animations": [
+       "bedrock(manafreed, water_idle)"
+     ]
+   },
+   "battle-idle": {
+     "poseName": "battle-idle",
+     "transformTicks": 10,
+     "poseTypes": ["STAND"],
+     "isBattle": true,
+     "animations": ["bedrock(manafreed, battle_idle)"]
+   }
+ }
+}

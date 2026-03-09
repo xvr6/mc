@@ -1,0 +1,28 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "tinkatink_nether-1",
+            "pokemon": "tinkatink nether",
+            "presets": [],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-30",
+            "weight": 54.0,
+            "condition": {
+                "structures": [
+                    "minecraft:bastion_remnant"
+                ],
+                "biomes": [
+                    "#minecraft:is_nether"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:gold_block"
+                ]
+            }
+        }
+    ]
+}

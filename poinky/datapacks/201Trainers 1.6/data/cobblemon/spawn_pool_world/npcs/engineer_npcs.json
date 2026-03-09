@@ -1,0 +1,31 @@
+{
+  "enabled": true,
+  "spawns": [
+    {
+      "id": "",
+      "npc": "engineer_npcs",
+      "presets": [
+        "natural"
+      ],
+      "type": "npc",
+      "context": "grounded",
+      "bucket": "common",
+      "weight": 0.2,
+      "level": "1",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_sandy",
+          "#cobblemon:is_plains"
+        ]
+      },
+      "anticondition": {
+        "neededNearbyBlocks": [
+          "minecraft:rail",
+          "minecraft:powered_rail",
+          "minecraft:detector_rail",
+          "minecraft:activator_rail"
+        ]
+      }
+    }
+  ]
+}

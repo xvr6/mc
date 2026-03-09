@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:maractaya",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:maractaya",
+      "model": "cobblemon:maractaya.geo",
+      "texture": "cobblemon:textures/pokemon/maractaya/maractaya.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/maractaya/maractaya_shiny.png"
+    }
+  ]
+}

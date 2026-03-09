@@ -1,0 +1,1 @@
+tellraw @a [{"text":"201 Trainers made by JoaquimPedro201 ","color":"#84dfc2"},{"text":"[","color":"#10d17e"},{"text": "🧍","color":"gold"},{"text":"]","color":"#10d17e"}]

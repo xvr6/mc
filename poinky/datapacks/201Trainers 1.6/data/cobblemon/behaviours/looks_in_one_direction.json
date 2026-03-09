@@ -1,0 +1,39 @@
+{
+  "name": "cobblemon.behaviour.looks_in_one_direction.name",
+  "description": "cobblemon.behaviour.looks_in_one_direction.desc",
+  "entityType": "cobblemon:npc",
+  "configurations": [
+    {
+      "type": "cobblemon:add_variables",
+      "variables": [
+        {
+          "variableName": "yaw",
+          "displayName": "npc.variable.yaw.name",
+          "description": "npc.variable.yaw.desc",
+          "type": "NUMBER",
+          "defaultValue": "0"
+        },
+        {
+          "variableName": "pitch",
+          "displayName": "npc.variable.pitch.name",
+          "description": "npc.variable.pitch.desc",
+          "type": "NUMBER",
+          "defaultValue": "0"
+        }
+      ]
+    },
+    {
+      "type": "add_tasks_to_activity",
+      "activity": "minecraft:idle",
+      "tasksByPriority": {
+        "1": [
+          {
+            "type": "look_in_direction",
+            "yaw": "q.entity.config.yaw",
+            "pitch": "q.entity.config.pitch"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "seavlbizarremon:scarablet",
+  "speciesId": "cobblemon:scarablet",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,212 @@
+{
+  "implemented": true,
+  "name": "tirtonidos",
+  "nationalPokedexNumber": 2005,
+  "primaryType": "water",
+  "secondaryType": "steel",
+  "abilities": [
+    "sturdy",
+    "reckless",
+    "h:angershell"
+  ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:scute",
+        "quantityRange": "0-2"
+      }
+    ]
+  },
+  "baseStats": {
+    "hp": 47,
+    "attack": 107,
+    "defence": 103,
+    "special_attack": 53,
+    "special_defence": 29,
+    "speed": 41
+  },
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "avoidsLand": false,
+        "walkSpeed": 0.12
+      },
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-4"
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 82,
+  "experienceGroup": "slow",
+  "eggCycles": 35,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:triattack",
+    "1:ancientpower",
+    "1:bide",
+    "1:tailwhip",
+    "1:metalclaw",
+    "1:watergun",
+    "7:rapidspin",
+    "14:aquajet",
+    "21:assurance",
+    "28:irondefense",
+    "33:razorshell",
+    "35:zenheadbutt",
+    "41:irontail",
+    "47:aquatail",
+    "51:heavyslam",
+    "52:wideguard",
+    "58:headsmash",
+    "64:hydropump",
+    "70:shellsmash",
+    "tm:takedown",
+    "tm:mudslap",
+    "tm:scaryface",
+    "tm:protect",
+    "tm:waterpulse",
+    "tm:lowkick",
+    "tm:thief",
+    "tm:trailblaze",
+    "tm:chillingwater",
+    "tm:facade",
+    "tm:bulldoze",
+    "tm:metalclaw",
+    "tm:icywind",
+    "tm:mudshot",
+    "tm:rocktomb",
+    "tm:fling",
+    "tm:dragontail",
+    "tm:avalanche",
+    "tm:endure",
+    "tm:raindance",
+    "tm:sandstorm",
+    "tm:dig",
+    "tm:brickbreak",
+    "tm:zenheadbutt",
+    "tm:bodyslam",
+    "tm:thunderpunch",
+    "tm:icepunch",
+    "tm:sleeptalk",
+    "tm:rockblast",
+    "tm:waterfall",
+    "tm:dragonclaw",
+    "tm:stompingtantrum",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:swordsdance",
+    "tm:flashcannon",
+    "tm:ironhead",
+    "tm:substitute",
+    "tm:irondefense",
+    "tm:crunch",
+    "tm:liquidation",
+    "tm:dragonpulse",
+    "tm:stealthrock",
+    "tm:surf",
+    "tm:flamethrower",
+    "tm:thunderbolt",
+    "tm:earthpower",
+    "tm:icebeam",
+    "tm:fireblast",
+    "tm:hydropump",
+    "tm:blizzard",
+    "tm:supercellslam",
+    "tm:stoneedge",
+    "tm:outrage",
+    "tm:focusblast",
+    "tm:earthquake",
+    "tm:thunder",
+    "tm:steelbeam",
+    "tm:terablast",
+    "tm:megapunch",
+    "tm:screech",
+    "tm:snore",
+    "tm:attract",
+    "tm:whirlpool",
+    "tm:dive",
+    "tm:brine",
+    "tm:payback",
+    "tm:assurance",
+    "tm:round",
+    "tm:razorshell",
+    "tm:roar",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:frustration",
+    "tm:smackdown",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:scald",
+    "tm:rockpolish",
+    "tm:gyroball",
+    "tm:swagger",
+    "tm:confide",
+    "tm:focusenergy",
+    "tm:triattack",
+    "tm:irontail",
+    "tm:superpower",
+    "tm:throatchop",
+    "tm:flipturn",
+    "tm:rocksmash",
+    "tm:meteorbeam",
+    "tm:knockoff",
+    "tm:doubleedge",
+    "tm:strength",
+    "tm:doubleedge"
+  ],
+  "labels": [
+    "gen5"
+  ],
+  "pokedex": [
+    "cobblemon.species.tirtonidos.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "tirtonidos_ramcosta",
+      "variant": "level_up",
+      "result": "ramcosta",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 45
+        }
+      ]
+    }
+  ],
+  "baseScale": 0.70,
+  "hitbox": {
+    "width": 1.1,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 415,
+  "aspects": [],
+  "cannotDynamax": false
+}

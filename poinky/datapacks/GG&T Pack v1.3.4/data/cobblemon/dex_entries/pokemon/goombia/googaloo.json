@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:googaloo",
+  "speciesId": "cobblemon:googaloo",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:ascrolyte",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ascrolyte",
+      "model": "cobblemon:ascrolyte.geo",
+      "texture": "cobblemon:textures/pokemon/ascrolyte/ascrolyte.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ascrolyte/ascrolyte_shiny.png"
+    }
+  ]
+}

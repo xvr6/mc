@@ -1,0 +1,15 @@
+{
+  "id": "seavlbizarremon:golbur",
+  "speciesId": "cobblemon:golbur",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

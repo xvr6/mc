@@ -1,0 +1,33 @@
+{
+    "species": "cobblemon:megwar",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "seavlbizarremon:megwar",
+        "model": "seavlbizarremon:megwar.geo",
+        "texture": "seavlbizarremon:textures/pokemon/megwar/megwar.png",
+        "layers": [
+          {
+            "name": "translucent",
+            "texture": "seavlbizarremon:textures/pokemon/megwar/megwar_emissive.png",
+            "emissive": true,
+            "translucent": true
+          }
+        ]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "seavlbizarremon:textures/pokemon/megwar/megwar_shiny.png",
+        "layers": [
+          {
+            "name": "translucent",
+            "texture": "seavlbizarremon:textures/pokemon/megwar/megwar_emissive.png",
+            "emissive": true,
+            "translucent": true
+          }
+        ]
+      }
+    ]
+  }
+  

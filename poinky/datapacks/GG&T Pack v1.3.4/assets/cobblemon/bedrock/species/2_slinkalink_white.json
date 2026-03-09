@@ -1,0 +1,31 @@
+{
+  "species": "cobblemon:slinkalink",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["white"],
+      "texture": "cobblemon:textures/pokemon/slinkalink/slinkalink_white.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/slinkalink/slinkalink_white_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "white"
+      ],
+      "texture": "cobblemon:textures/pokemon/slinkalink/slinkalink_white_shiny.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/slinkalink/slinkalink_white_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

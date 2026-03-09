@@ -1,0 +1,43 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cannoling.ground_idle": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": ["5+Math.cos((query.anim_time) * 90*1) * 7", 0, "Math.cos((query.anim_time + 1) * 90) * 12"]
+				},
+				"neck": {
+					"rotation": ["30+Math.cos((query.anim_time - 0.3) * 90*1) * 7", 0, "Math.cos((query.anim_time + 0.7) * 90) * 15"]
+				},
+				"head": {
+					"rotation": ["60+Math.cos((query.anim_time - 0.3) * 90*1) * -7", 0, "Math.cos((query.anim_time + 0.7) * 90) * -15"]
+				},
+				"jaw": {
+					"rotation": [-2.5, 0, 0]
+				},
+				"cannoli": {
+					"rotation": ["-2+Math.cos((query.anim_time - 0.3) * 90*1) * 2", 0, "Math.cos((query.anim_time + 0.7) * 90) * 4"]
+				}
+			}
+		},
+		"animation.cannoling.ground_walk": {
+			"loop": true,
+			"bones": {
+				"cannoli": {
+					"rotation": ["80+Math.cos((query.anim_time) * 90*2) * -10", 0, 0],
+					"position": [0, "3+Math.cos((query.anim_time) * 90*2) * -1.5", 8]
+				},
+				"body": {
+					"rotation": ["15+Math.cos((query.anim_time) * 90*2) * -10", 0, 0]
+				},
+				"neck": {
+					"rotation": ["Math.cos((query.anim_time) * 90*2) * 20", 0, 0]
+				},
+				"head": {
+					"rotation": ["Math.cos((query.anim_time) * 90*2) * 5", 0, 0]
+				}
+			}
+		}
+	}
+}

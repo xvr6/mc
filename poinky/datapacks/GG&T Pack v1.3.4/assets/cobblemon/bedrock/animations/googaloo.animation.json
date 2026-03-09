@@ -1,0 +1,22 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.googaloo.ground_idle": {
+			"loop": true,
+			"bones": {
+				"rightleg": {
+					"rotation": [0, 0, -11.25]
+				},
+				"leftleg": {
+					"rotation": [0, 0, 11.25]
+				},
+				"leftleg2": {
+					"rotation": [0, 3.5, 0]
+				},
+				"rightleg2": {
+					"rotation": [0, -3.5, 0]
+				}
+			}
+		}
+	}
+}

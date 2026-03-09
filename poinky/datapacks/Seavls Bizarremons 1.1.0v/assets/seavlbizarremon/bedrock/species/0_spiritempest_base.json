@@ -1,0 +1,33 @@
+{
+    "species": "cobblemon:spiritempest",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "seavlbizarremon:spiritempest",
+        "model": "seavlbizarremon:spiritempest.geo",
+        "texture": "seavlbizarremon:textures/pokemon/spiritempest/spiritempest.png",
+        "layers": [
+          {
+            "name": "translucent",
+            "texture": "seavlbizarremon:textures/pokemon/spiritempest/spiritempest_emissive.png",
+            "emissive": true,
+            "translucent": true
+          }
+        ]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "seavlbizarremon:textures/pokemon/spiritempest/spiritempest_shiny.png",
+        "layers": [
+          {
+            "name": "translucent",
+            "texture": "seavlbizarremon:textures/pokemon/spiritempest/spiritempest_shiny_emissive.png",
+            "emissive": true,
+            "translucent": true
+          }
+        ]
+      }
+    ]
+  }
+  

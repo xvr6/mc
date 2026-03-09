@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:ironcore",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ironcore",
+      "model": "cobblemon:ironcore.geo",
+      "texture": "cobblemon:textures/pokemon/ironcore/ironcore.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/ironcore/ironcore_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/ironcore/ironcore_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/ironcore/ironcore_shiny_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    }
+  ]
+}

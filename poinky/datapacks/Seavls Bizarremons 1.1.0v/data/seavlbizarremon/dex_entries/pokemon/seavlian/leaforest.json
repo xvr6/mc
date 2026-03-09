@@ -1,0 +1,15 @@
+{
+  "id": "seavlbizarremon:leaforest",
+  "speciesId": "cobblemon:leaforest",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

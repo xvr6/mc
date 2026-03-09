@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:taikoch",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:taikoch",
+      "model": "cobblemon:taikoch.geo",
+      "texture": "cobblemon:textures/pokemon/taikoch/taikoch.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/taikoch/taikoch_shiny.png"
+    }
+  ]
+}

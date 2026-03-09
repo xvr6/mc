@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:lymming",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:lymming",
+      "model": "cobblemon:lymming.geo",
+      "texture": "cobblemon:textures/pokemon/lymming/lymming.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lymming/lymming_shiny.png"
+    }
+  ]
+}

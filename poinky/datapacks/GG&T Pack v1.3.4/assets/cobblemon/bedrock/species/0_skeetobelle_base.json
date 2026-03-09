@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:skeetobelle",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:skeetobelle",
+      "model": "cobblemon:skeetobelle.geo",
+      "texture": "cobblemon:textures/pokemon/skeetobelle/skeetobelle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/skeetobelle/skeetobelle_shiny.png"
+    }
+  ]
+}

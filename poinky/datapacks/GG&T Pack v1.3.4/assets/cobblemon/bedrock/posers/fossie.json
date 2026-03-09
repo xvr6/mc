@@ -1,0 +1,26 @@
+{
+  "head": "head",
+  "portraitScale": 3,
+  "portraitTranslation": [-0.2, -2.35, 0],
+  "profileScale": 1.2,
+  "profileTranslation": [0, -0.1, 0],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "FLOAT"],
+      "animations": [
+        "bedrock(fossie, ground_idle)",
+        "look"
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": ["WALK"],
+      "animations": [
+        "bedrock(fossie, ground_walk)"
+      ]
+    }
+  }
+}

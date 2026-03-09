@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:ironvirus",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ironvirus",
+      "model": "cobblemon:ironvirus.geo",
+      "texture": "cobblemon:textures/pokemon/ironvirus/ironvirus.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/ironvirus/ironvirus_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/ironvirus/ironvirus_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/ironvirus/ironvirus_shiny_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    }
+  ]
+}

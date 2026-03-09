@@ -1,0 +1,15 @@
+{
+  "id": "seavlbizarremon:minadial",
+  "speciesId": "cobblemon:minadial",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

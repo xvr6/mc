@@ -1,0 +1,22 @@
+{
+  "species": "cobblemon:pikapod",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [
+          "wild"
+          ],
+      "poser": "cobblemon:pikapod",
+      "model": "cobblemon:pikapod.geo",
+      "texture": "cobblemon:textures/pokemon/pikapod/pikapod_wild.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "wild",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/pikapod/pikapod_wild_shiny.png"
+    }
+  ]
+}

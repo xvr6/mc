@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:karstory",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:karstory",
+      "model": "cobblemon:karstory.geo",
+      "texture": "cobblemon:textures/pokemon/karstory/karstory.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/karstory/karstory_shiny.png"
+    }
+  ]
+}

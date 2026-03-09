@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:crinaurus",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["ore-gold"],
+      "poser": "cobblemon:crinaurus",
+      "model": "cobblemon:crinaurus.geo",
+      "texture": "cobblemon:textures/pokemon/crinaurus/crinaurus_gold.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/crinaurus/crinaurus_gold_shiny.png"
+    }
+  ]
+}

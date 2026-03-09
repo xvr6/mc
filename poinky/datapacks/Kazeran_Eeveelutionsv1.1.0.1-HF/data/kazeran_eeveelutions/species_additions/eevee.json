@@ -1,0 +1,130 @@
+{
+    "target": "cobblemon:eevee",
+    "features": [],
+    "evolutions": [
+    {
+      "id": "eevee_glaceon_kazeran",
+      "variant": "item_interact",
+      "result": "glaceon kazeran",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "icywind",
+        "flashfreezeheatwave"
+      ],
+      "requirements": [
+        {
+          "variant": "biome",
+          "biomeCondition": "#minecraft:is_nether"
+        }
+      ],
+      "requiredContext": "cobblemon:ice_gem"
+    },
+    {
+      "id": "eevee_leafeon_kazeran",
+      "variant": "item_interact",
+      "result": "leafeon kazeran",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "phantombloom",
+        "razorleaf"
+      ],
+      "requirements": [
+        {
+          "variant": "biome",
+          "biomeCondition": "#minecraft:has_structure/woodland_mansion"
+        }
+      ],
+      "requiredContext": "cobblemon:dusk_stone"
+    },
+    {
+      "id": "eevee_sylveon_kazeran",
+      "variant": "level_up",
+      "result": "sylveon kazeran",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "venoshock",
+        "venomousembrace"
+      ],
+      "requirements": [
+        { "variant": "friendship", "amount": 160 },
+        { "variant": "held_item", "itemCondition": "cobblemon:toxic_orb" },
+        { "variant": "has_move_type", "type": "fairy" }
+      ]
+    },
+    {
+      "id": "eevee_umbreon_kazeran",
+      "variant": "item_interact",
+      "result": "umbreon kazeran",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "radiantdescent",
+        "gust"
+      ],
+      "requirements": [
+        { "variant": "time_range", "range": "night" },
+        { "variant": "friendship", "amount": 160 }
+      ],
+      "requiredContext": "cobblemon:sun_stone"
+    },
+    {
+      "id": "eevee_espeon_kazeran",
+      "variant": "item_interact",
+      "result": "espeon kazeran",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "confusion",
+        "metalstorm"
+      ],
+      "requirements": [
+        { "variant": "time_range", "range": "day" },
+        { "variant": "friendship", "amount": 160 }
+      ],
+      "requiredContext": "cobblemon:metal_coat"
+    },
+    {
+      "id": "eevee_vaporeon_kazeran",
+      "variant": "item_interact",
+      "result": "vaporeon kazeran",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "watergun",
+        "sirenssong"
+      ],
+      "requirements": [
+        { "variant": "held_item", "itemCondition": "cobblemon:fairy_feather" }
+      ],
+      "requiredContext": "cobblemon:water_gem"
+    },
+    {
+      "id": "eevee_flareon_kazeran",
+      "variant": "item_interact",
+      "result": "flareon kazeran",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "ember",
+        "dracoblazerush"
+      ],
+      "requirements": [
+        { "variant": "held_item", "itemCondition": "cobblemon:dragon_scale" }
+      ],
+      "requiredContext": "cobblemon:fire_gem"
+    },
+    {
+      "id": "eevee_jolteon_kazeran",
+      "variant": "item_interact",
+      "result": "jolteon kazeran",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "thundershock",
+        "shockwaveslam"
+      ],
+      "requirements": [
+        {
+          "variant": "biome",
+          "biomeCondition": "#minecraft:has_structure/desert_pyramid"
+        }
+      ],
+      "requiredContext": "cobblemon:electric_gem"
+    }
+  ]
+}

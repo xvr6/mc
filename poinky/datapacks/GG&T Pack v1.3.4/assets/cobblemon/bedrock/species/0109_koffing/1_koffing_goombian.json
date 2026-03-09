@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:koffing",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [
+        "goombian"
+      ],
+      "model": "cobblemon:koffing_goombian.geo",
+      "texture": "cobblemon:textures/pokemon/0109_koffing/koffing_goombian.png"
+    },
+    {
+      "aspects": [
+        "goombian",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0109_koffing/koffing_goombian_shiny.png"
+    }
+  ]
+}

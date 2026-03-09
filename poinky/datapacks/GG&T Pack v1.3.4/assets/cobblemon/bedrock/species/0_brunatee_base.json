@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:brunatee",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:brunatee",
+      "model": "cobblemon:brunatee.geo",
+      "texture": "cobblemon:textures/pokemon/brunatee/brunatee.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/brunatee/brunatee_shiny.png"
+    }
+  ]
+}

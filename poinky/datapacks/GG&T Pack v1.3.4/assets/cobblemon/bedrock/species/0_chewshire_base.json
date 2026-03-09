@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:chewshire",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:chewshire",
+      "model": "cobblemon:chewshire.geo",
+      "texture": "cobblemon:textures/pokemon/chewshire/chewshire.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/chewshire/chewshire_shiny.png"
+    }
+  ]
+}

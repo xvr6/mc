@@ -1,0 +1,145 @@
+{
+    "implemented": true,
+    "name": "thespatine",
+    "nationalPokedexNumber": 2166,
+    "primaryType": "bug",
+    "secondaryType": "ice",
+    "abilities": [
+        "slushrush",
+        "compoundeyes",
+        "h:technician"
+    ],
+    "baseStats": {
+        "hp": 60,
+        "attack": 110,
+        "defence": 45,
+        "special_attack": 80,
+        "special_defence": 60,
+        "speed": 110
+    },
+    "catchRate": 50,
+    "maleRatio": 0.875,
+    "shoulderMountable": false,
+    "forms": [],
+    "baseExperienceYield": 70,
+    "experienceGroup": "medium_fast",
+    "eggCycles": 30,
+    "eggGroups": [
+        "bug"
+    ],
+    "behaviour": {
+        "moving": {
+            "canLook": true,
+            "swim": {
+                "canSwimInWater": false,
+                "canBreatheUnderwater": false
+            },
+            "wanderChance": 40,
+            "walk": {
+                "walkSpeed": 0.4
+            }
+        }
+    },
+    "drops": {
+        "amount": "1",
+        "entries": [
+            {
+                "item": "minecraft:ice",
+                "quantityRange": "1-3",
+                "percentage": 40
+            }
+        ]
+    },
+    "moves": [
+        "1:batonpass",
+        "1:rapidspin",
+        "1:powdersnow",
+        "5:growl",
+        "9:helpinghand",
+        "13:pounce",
+        "18:sing",
+        "20:doublekick",
+        "24:iceshard",
+        "30:tripleaxel",
+        "33:slash",
+        "36:snowscape",
+        "40:lunge",
+        "44:bugbuzz",
+        "48:teeterdance",
+        "52:mist",
+        "55:icespinner",
+        "60:axekick",
+        "64:encore",
+        "tm:takedown",
+        "tm:protect",
+        "tm:strugglebug",
+        "tm:trailblaze",
+        "tm:pounce",
+        "tm:facade",
+        "tm:aerialace",
+        "tm:endure",
+        "tm:snowscape",
+        "tm:falseswipe",
+        "tm:brickbreak",
+        "tm:sleeptalk",
+        "tm:rest",
+        "tm:taunt",
+        "tm:swordsdance",
+        "tm:leechlife",
+        "tm:substitute",
+        "tm:xscissor",
+        "tm:hypervoice",
+        "tm:helpinghand",
+        "tm:batonpass",
+        "tm:gigaimpact",
+        "tm:bugbuzz",
+        "tm:hyperbeam",
+        "tm:knockoff",
+        "tm:bugbite",
+        "tm:lunge",
+        "tm:uproar",
+        "tm:endeavor",
+        "tm:skittersmack",
+        "tm:throatchop",
+        "tm:attract",
+        "tm:agility",
+        "tm:lowkick",
+        "tm:thief",
+        "tm:metalclaw",
+        "tm:icywind",
+        "tm:swift",
+        "tm:avalanche",
+        "tm:lowsweep",
+        "tm:icespinner",
+        "tm:icebeam",
+        "tm:blizzard",
+        "tm:iciclespear",
+        "tm:tripleaxel",
+        "tutor:feint",
+        "tutor:bounce",
+        "tutor:doublehit",
+        "tutor:nightslash",
+        "tutor:auroraveil",
+        "tutor:swagger"
+    ],
+    "labels": [
+        "custom"
+    ],
+    "pokedex": [
+        "cobblemon.species.thespatine.desc1",
+        "cobblemon.species.thespatine.desc2"
+    ],
+    "baseScale": 1,
+    "hitbox": {
+        "width": 0.5,
+        "height": 1.5,
+        "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+        "speed": 1,
+        "attack" : 1
+    },
+    "height": 15,
+    "weight": 181
+}

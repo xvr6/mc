@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:golfer",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:standard",
+      "model": "cobblemon:alex.geo",
+      "texture": "cobblemon:textures/npcs/trainers/golfer.png",
+      "layers": []
+    }
+  ]
+}

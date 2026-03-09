@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:willoch",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:willoch",
+      "model": "cobblemon:willoch.geo",
+      "texture": "cobblemon:textures/pokemon/willoch/willoch.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/willoch/willoch_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/willoch/willoch_shiny.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/willoch/willoch_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

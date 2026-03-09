@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:puffoon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:puffoon",
+      "model": "cobblemon:puffoon.geo",
+      "texture": "cobblemon:textures/pokemon/puffoon/puffoon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/puffoon/puffoon_shiny.png"
+    }
+  ]
+}

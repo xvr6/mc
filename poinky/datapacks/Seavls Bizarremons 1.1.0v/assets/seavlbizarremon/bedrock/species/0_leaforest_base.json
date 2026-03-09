@@ -1,0 +1,35 @@
+{
+    "species": "cobblemon:leaforest",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": ["male"],
+        "poser": "seavlbizarremon:leaforest",
+        "model": "seavlbizarremon:leaforest_male.geo",
+        "texture": "seavlbizarremon:textures/pokemon/leaforest/leaforest.png",
+        "layers": []
+      },
+      {
+        "aspects": ["female"],
+        "poser": "seavlbizarremon:leaforest_cherry",
+        "model": "seavlbizarremon:leaforest_female.geo",
+        "texture": "seavlbizarremon:textures/pokemon/leaforest/leaforest.png",
+        "layers": []
+      },
+      {
+        "aspects": ["male", "shiny"],
+        "poser": "seavlbizarremon:leaforest",
+        "model": "seavlbizarremon:leaforest_male.geo",
+        "texture": "seavlbizarremon:textures/pokemon/leaforest/leaforest_shiny.png",
+        "layers": []
+      },
+      {
+        "aspects": ["female", "shiny"],
+        "poser": "seavlbizarremon:leaforest_cherry",
+        "model": "seavlbizarremon:leaforest_female.geo",
+        "texture": "seavlbizarremon:textures/pokemon/leaforest/leaforest_shiny.png",
+        "layers": []
+      }
+    ]
+  }
+  

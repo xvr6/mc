@@ -1,0 +1,49 @@
+{
+  "portraitScale": 1.3,
+  "portraitTranslation": [-1.2, -0.5, 0],
+  "profileScale": 0.35,
+  "profileTranslation": [0, 1, 0],
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "isTouchingWater": false,
+      "animations": [
+        "q.bedrock('salamarine', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "isTouchingWater": false,
+      "animations": [
+        "q.bedrock('salamarine', 'ground_walk')"
+      ]
+    },
+    "floating": {
+        "poseName": "floating",
+        "transformTicks": 10,
+        "poseTypes": ["FLOAT", "STAND"],
+        "isTouchingWater": true,
+        "animations": [
+            "bedrock(salamarine, water_idle)",
+            {
+              "condition": "q.is_ridden",
+              "animation": "q.bedrock('salamarine', 'ride_water_swim')"
+            }
+        ]
+    },
+    "swimming": {
+        "poseName": "swimming",
+        "transformTicks": 10,
+        "poseTypes": ["SWIM", "WALK"],
+        "isTouchingWater": true,
+        "animations": [
+            "bedrock(salamarine, water_swim)",
+            {
+              "condition": "q.is_ridden",
+              "animation": "q.bedrock('salamarine', 'ride_water_swim')"
+            }
+        ]
+    }
+  }
+}

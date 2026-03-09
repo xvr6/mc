@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:leemaura",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": ["ore-gold"],
+      "poser": "cobblemon:leemaura",
+      "model": "cobblemon:leemaura.geo",
+      "texture": "cobblemon:textures/pokemon/leemaura/leemaura_gold.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/leemaura/leemaura_gold_shiny.png"
+    }
+  ]
+}

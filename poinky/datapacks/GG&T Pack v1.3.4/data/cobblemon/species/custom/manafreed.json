@@ -1,0 +1,199 @@
+{
+    "implemented": true,
+    "name": "manafreed",
+    "nationalPokedexNumber": 2170,
+    "primaryType": "ghost",
+    "secondaryType": "grass",
+    "abilities": [
+        "thickfat",
+        "h:perishbody"
+    ],
+    "baseStats": {
+        "hp": 110,
+        "attack": 125,
+        "defence": 65,
+        "special_attack": 65,
+        "special_defence": 125,
+        "speed": 40
+    },
+    "catchRate": 100,
+    "maleRatio": 1,
+    "shoulderMountable": false,
+    "forms": [],
+    "baseExperienceYield": 105,
+    "experienceGroup": "medium_slow",
+    "eggCycles": 20,
+    "eggGroups": [
+        "water_1",
+        "field"
+    ],
+    "riding": {
+        "behaviours": {
+          "AIR": {
+            "key": "cobblemon:air/hover",
+            "rideSounds": [],
+            "stats": {
+              "ACCELERATION": "20-35",
+              "JUMP": "5-10",
+              "SKILL": "15-55",
+              "SPEED": "5-15",
+              "STAMINA": "15-30"
+            }
+          },
+          "LIQUID": {
+            "key": "cobblemon:liquid/submarine",
+            "hitboxBreachPercentage": 0.75,
+            "stats": {
+              "ACCELERATION": "30-55",
+              "JUMP": "30-50",
+              "SKILL": "30-55",
+              "SPEED": "15-30",
+              "STAMINA": "30-50"
+            }
+          }
+        },
+        "seats": [
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          }
+        ]
+      },
+    "behaviour": {
+        "moving": {
+            "canLook": true,
+            "walk": {
+                "avoidsLand": false,
+                "canWalk": false
+            },
+            "fly": {
+                "canFly": true
+            },
+            "swim": {
+                "canSwimInWater": true,
+                "canBreatheUnderwater": true
+            },
+            "resting": {
+                "canSleep": true,
+                "times": "night",
+                "light": "0-7",
+                "depth": "comatose",
+                "willSleepOnBed": true
+            }
+        }
+    },
+    "drops": {
+        "amount": "2",
+        "entries": [
+        {
+            "item": "minecraft:iron_sword",
+            "quantityRange": "1",
+            "percentage": 10
+        },
+        {
+        "item": "cobblemon:coba_berry",
+        "percentage": 2.5
+        }
+      ]
+    },
+    "moves": [
+        "1:grudge",
+        "1:tackle",
+        "1:growl",
+        "4:growth",
+        "6:sing",
+        "10:vinewhip",
+        "12:leechseed",
+        "16:razorleaf",
+        "18:attract",
+        "21:headbutt",
+        "25:disable",
+        "28:synthesis",
+        "33:leafblade",
+        "36:bellydrum",
+        "40:shadowclaw",
+        "45:hornleech",
+        "50:painsplit",
+        "52:destinybond",
+        "tm:takedown",
+        "tm:mudslap",
+        "tm:protect",
+        "tm:trailblaze",
+        "tm:facade",
+        "tm:bulldoze",
+        "tm:magicalleaf",
+        "tm:endure",
+        "tm:raindance",
+        "tm:sunnyday",
+        "tm:bulletseed",
+        "tm:zenheadbutt",
+        "tm:bulkup",
+        "tm:bodyslam",
+        "tm:sleeptalk",
+        "tm:seedbomb",
+        "tm:grassknot",
+        "tm:rest",
+        "tm:swordsdance",
+        "tm:substitute",
+        "tm:gigadrain",
+        "tm:energyball",
+        "tm:surf",
+        "tm:playrough",
+        "tm:helpinghand",
+        "tm:grassyterrain",
+        "tm:earthquake",
+        "tm:gigaimpact",
+        "tm:leafstorm",
+        "tm:solarbeam",
+        "tm:hyperbeam",
+        "tm:grassyglide",
+        "tm:doubleedge",
+        "tm:endeavor",
+        "tm:poltergeist",
+        "tm:curse",
+        "tm:spite",
+        "tm:phantomforce",
+        "tm:shadowball",
+        "tm:shadowclaw",
+        "tm:hex",
+        "tm:nightshade",
+        "tm:painsplit",
+        "tm:haze",
+        "egg:defensecurl",
+        "egg:rollout",
+        "egg:avalanche",
+        "egg:aquatail",
+        "egg:sparklingaria",
+        "tutor:coaching",
+        "tutor:aquaring",
+        "tutor:lastresort"
+    ],
+    "labels": [
+        "custom"
+    ],
+    "pokedex": [
+        "cobblemon.species.manafreed.desc1",
+        "cobblemon.species.manafreed.desc2"
+    ],
+    "baseScale": 1.2,
+    "hitbox": {
+        "width": 2.1,
+        "height": 1.6,
+        "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+        "hp": 1,
+        "special_defence": 1
+    },
+    "height": 50,
+    "weight": 4000
+}

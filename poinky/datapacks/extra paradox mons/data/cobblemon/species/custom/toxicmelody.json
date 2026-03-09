@@ -1,0 +1,160 @@
+{
+  "implemented": true,
+  "name": "toxicmelody",
+  "nationalPokedexNumber": 9900,
+  "primaryType": "normal",
+  "secondaryType": "poison",
+  "abilities": [
+    "protosynthesis"
+  ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:slime_ball",
+        "quantityRange": "10-15"
+      },
+      {
+        "item": "cobblemon:starf_berry",
+        "percentage": 10
+      }
+    ]
+  },
+  "baseStats": {
+    "hp": 91,
+    "attack": 71,
+    "defence": 89,
+    "special_attack": 103,
+    "special_defence": 145,
+    "speed": 91
+  },
+"behaviour": {
+   "resting": {
+     "canSleep": true,
+     "willSleepOnBed": false,
+     "depth": "normal",
+     "light": "0-4"
+   }
+   },
+  "catchRate": 10,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 169,
+  "experienceGroup": "slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:freezingglare",
+    "1:toxic",
+    "1:wrap",
+    "1:bind",
+    "1:quickattack",
+    "1:confusion",
+    "1:sing",
+    "1:wakeupslap",
+    "21:toxicspikes",
+    "22:sludgebomb",
+    "26:nastyplot",
+    "31:psybeam",
+    "36:echoedvoice",
+    "43:uturn",
+    "43:calmmind",
+    "44:sludgewave",
+    "50:relicsong",
+    "57:dragondance",
+    "64:hypervoice",
+    "71:acidarmor",
+    "78:dracometeor",
+    "85:perishsong",
+    "form_change:relicsong",
+    "tm:sludgebomb",
+    "tm:alluringvoice",
+    "tm:allyswitch",
+    "tm:batonpass",
+    "tm:toxic",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:dragonpulse",
+    "tm:dragonclaw",
+    "tm:dragontail",
+    "tm:dazzlinggleam",
+    "tm:disarmingvoice",
+    "tm:drainpunch",
+    "tm:throatchop",
+    "tm:dualchop",
+    "tm:echoedvoice",
+    "tm:venoshock",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:faketears",
+    "tm:firepunch",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:sludgewave",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:dracometeor",
+    "tm:psychic",
+    "tm:helpinghand",
+    "tm:hypervoice",
+    "tm:icepunch",
+    "tm:knockoff",
+    "tm:laserfocus",
+    "tm:lowsweep",
+    "tm:payback",
+    "tm:playrough",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:rest",
+    "tm:rocksmash",
+    "tm:crosspoison",
+    "tm:round",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:signalbeam",
+    "tm:skillswap",
+    "tm:sleeptalk",
+    "tm:snatch",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:swift",
+    "tm:terablast",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:uturn",
+    "tm:wonderroom",
+    "tm:zenheadbutt"
+  ],
+  "labels": [
+    "gen9",
+    "paradox"
+  ],
+  "pokedex": [
+    "Although rare, few sightings have been reported of this pokemon. majority of sightings have resulted in only sketches or blurry photos."
+  ],
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 265,
+  "aspects": [],
+  "cannotDynamax": false,
+  "hitbox": {
+    "width": 1.3,
+    "height": 2.3,
+    "fixed": false
+  }
+}

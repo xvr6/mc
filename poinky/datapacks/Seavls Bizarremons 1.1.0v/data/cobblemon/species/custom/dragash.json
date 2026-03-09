@@ -1,0 +1,273 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 7732,
+  "name": "Dragash",
+  "primaryType": "dragon",
+  "secondaryType": "psychic",
+  "maleRatio": 0.5,
+  "height": 30,
+  "weight": 750,
+  "pokedex": [
+    "seavlbizarremon.species.dragash.desc"
+  ],
+  "labels": [
+    "custom",
+    "pseudo_legendary"
+  ],
+  "aspects": [],
+  "abilities": [
+    "clearbody",
+    "infiltrator",
+    "h:cursedbody"
+  ],
+  "eggGroups": [
+    "amorphous",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 88,
+    "attack": 100,
+    "defence": 75,
+    "special_attack": 120,
+    "special_defence": 75,
+    "speed": 142
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
+  },
+  "baseExperienceYield": 300,
+  "experienceGroup": "slow",
+  "catchRate": 45,
+  "eggCycles": 40,
+  "baseFriendship": 50,
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1.8,
+    "height": 2,
+    "fixed": false
+  },
+  "riding": {
+    "stats": {
+      "SPEED": {
+        "displayName": "Speed",
+        "description": "Its top speed",
+        "ranges": {
+          "LAND": "50-60",
+          "AIR": "50-100"
+        }
+      },
+      "ACCELERATION": {
+        "displayName": "Acceleration",
+        "description": "How fast it can speed up",
+        "ranges": {
+          "LAND": "90-100",
+          "AIR": "50-70"
+        }
+      },
+      "SKILL": {
+        "displayName": "Handling",
+        "description": "How fast it can turn",
+        "ranges": {
+          "LAND": "15-25",
+          "AIR": "40-90"
+        }
+      },
+      "JUMP": {
+        "displayName": "Altitude",
+        "description": "How high it can fly",
+        "ranges": {
+          "LAND": "15-25",
+          "AIR": "25-50"
+        }
+      },
+      "STAMINA": {
+        "displayName": "Fuel/Stamina",
+        "description": "How long it can stay off the ground",
+        "ranges": {
+          "LAND": "15-30",
+          "AIR": "35-70"
+        }
+      }
+    },
+    "behaviour": {
+      "key": "cobblemon:composite",
+      "transitionStrategy": "cobblemon:strategy/jump",
+      "defaultBehaviour": {
+        "key": "cobblemon:land/generic"
+      },
+      "alternateBehaviour": {
+        "key": "cobblemon:air/bird"
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0,
+          "y": 1.5,
+          "z": -0.5
+        },
+        "poseOffsets": [
+          {
+            "poseTypes": [
+              "HOVER"
+            ],
+            "offset": {
+              "x": 0,
+              "y": 0.5,
+              "z": -1
+            }
+          },
+          {
+            "poseTypes": [
+              "FLY"
+            ],
+            "offset": {
+              "x": 0,
+              "y": 0.1,
+              "z": -1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "behaviour": {
+    "moving": {
+      "swim": {
+        "swimSpeed": 0.3,
+        "canBreatheUnderwater": true,
+        "canWalkOnWater": true
+      },
+      "fly": {
+        "canFly": true
+      }
+    },
+    "resting": {
+      "canSleep": false,
+      "light": "0-4"
+    }
+  },
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:phantom_membrane",
+        "percentage": 10.0
+      },
+      {
+        "item": "cobblemon:haban_berry",
+        "percentage": 10.0
+      }
+    ]
+  },
+  "moves": [
+    "1:esperwing",
+    "1:dragonpulse",
+    "1:confusion",
+    "1:infestation",
+    "1:quickattack",
+    "1:bite",
+    "6:lockon",
+    "12:assurance",
+    "18:zenheadbutt",
+    "24:agility",
+    "30:doublehit",
+    "36:uturn",
+    "42:dragondance",
+    "48:psychocut",
+    "54:takedown",
+    "63:dragonrush",
+    "70:doubleedge",
+    "78:lastresort",
+    "egg:confuseray",
+    "egg:curse",
+    "egg:disable",
+    "egg:doubleteam",
+    "egg:dragontail",
+    "egg:grudge",
+    "egg:suckerpunch",
+    "tm:acrobatics",
+    "tm:agility",
+    "tm:allyswitch",
+    "tm:assurance",
+    "tm:batonpass",
+    "tm:beatup",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:brine",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:dive",
+    "tm:doubleedge",
+    "tm:doubleteam",
+    "tm:dracometeor",
+    "tm:dragoncheer",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:flamethrower",
+    "tm:fly",
+    "tm:gigaimpact",
+    "tm:helpinghand",
+    "tm:hex",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:infestation",
+    "tm:lastresort",
+    "tm:lightscreen",
+    "tm:nightshade",
+    "tm:outrage",
+    "tm:psychic",
+    "tm:pounce",
+    "tm:protect",
+    "tm:psychicfangs",
+    "tm:reflect",
+    "tm:rest",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:surf",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:triattack",
+    "tm:uturn",
+    "tm:willowisp",
+    "tutor:allyswitch",
+    "tutor:dive",
+    "tutor:dracometeor",
+    "tutor:dragonpulse",
+    "tutor:flamethrower",
+    "tutor:gigaimpact",
+    "tutor:helpinghand",
+    "tutor:hyperbeam",
+    "tutor:lastresort",
+    "tutor:outrage",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:sleeptalk",
+    "tutor:suckerpunch",
+    "tutor:swift",
+    "tutor:thunderbolt"
+  ],
+  "preEvolution": "dralily",
+  "evolutions": []
+}

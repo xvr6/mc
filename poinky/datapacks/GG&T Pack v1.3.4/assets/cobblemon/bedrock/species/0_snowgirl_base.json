@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:snowgirl",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:snowgirl",
+      "model": "cobblemon:snowgirl.geo",
+      "texture": "cobblemon:textures/pokemon/snowgirl/snowgirl.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/snowgirl/snowgirl_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:drimid",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "seavlbizarremon:drimid",
+        "model": "seavlbizarremon:drimid.geo",
+        "texture": "seavlbizarremon:textures/pokemon/drimid/drimid.png"
+      },
+      {
+        "aspects": ["shiny"],
+        "texture": "seavlbizarremon:textures/pokemon/drimid/drimid_shiny.png"
+      }
+    ]
+  }
+  

@@ -1,0 +1,15 @@
+{
+  "id": "seavlbizarremon:revavroom_nether",
+  "speciesId": "cobblemon:revavroom",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "nether",
+      "unlockForms": [
+        "nether"
+      ]
+    }
+  ],
+  "variations": []
+}

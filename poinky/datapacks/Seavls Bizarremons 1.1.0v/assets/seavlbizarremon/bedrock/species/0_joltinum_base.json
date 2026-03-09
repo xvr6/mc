@@ -1,0 +1,33 @@
+{
+    "species": "cobblemon:joltinum",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "seavlbizarremon:joltinum",
+        "model": "seavlbizarremon:joltinum.geo",
+        "texture": "seavlbizarremon:textures/pokemon/joltinum/joltinum.png",
+        "layers": [
+          {
+            "name": "translucent",
+            "texture": "seavlbizarremon:textures/pokemon/joltinum/joltinum_translucent.png",
+            "emissive": true,
+            "translucent": true
+          }
+        ]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "seavlbizarremon:textures/pokemon/joltinum/joltinum_shiny.png",
+        "layers": [
+          {
+            "name": "translucent",
+            "texture": "seavlbizarremon:textures/pokemon/joltinum/joltinum_shiny_translucent.png",
+            "emissive": true,
+            "translucent": true
+          }
+        ]
+      }
+    ]
+  }
+  

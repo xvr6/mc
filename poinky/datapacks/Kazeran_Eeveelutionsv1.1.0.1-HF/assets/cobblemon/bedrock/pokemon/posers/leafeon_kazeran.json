@@ -1,0 +1,56 @@
+{
+  "portraitScale": 1.94,
+  "portraitTranslation": [-0.62, 0.3, 0],
+  "profileScale": 0.77,
+  "profileTranslation": [0, 0.59, 0],
+  "rootBone": "leafeon_kazeran",
+  "animations": {
+    "cry": "q.bedrock_stateful('leafeon_kazeran', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+        "poseTypes": ["STAND"],
+        "isBattle": true,
+        "animations": ["q.look('neck')", "q.bedrock('leafeon_kazeran', 'battle_idle')"],
+        "quirks": ["q.bedrock_quirk('leafeon_kazeran', 'blink')"]
+      },
+    "standing": {
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE",
+        "FLOAT"
+      ],
+      "isBattle": false,
+      "animations": [
+        "q.look('head', 1, 1, 70, -45, 45, -45)",
+        "q.bedrock('leafeon_kazeran', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('leafeon_kazeran', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "WALK",
+        "SWIM"
+      ],
+      "animations": [
+        "q.look('head', 1, 1, 70, -45, 45, -45)",
+        "q.bedrock('leafeon_kazeran', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('leafeon_kazeran', 'blink')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "isTouchingWater": false,
+      "animations": ["q.bedrock('leafeon_kazeran', 'sleep')"]
+    }
+  }
+}
+   
+   
+   

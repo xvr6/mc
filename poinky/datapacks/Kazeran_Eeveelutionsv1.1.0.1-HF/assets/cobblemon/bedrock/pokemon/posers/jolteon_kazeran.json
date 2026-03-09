@@ -1,0 +1,54 @@
+{
+    "portraitScale": 1.5,
+    "portraitTranslation": [-0.3, 0.25, 0],
+    "profileScale": 0.9,
+    "profileTranslation": [0, 0.45, 0],
+    "rootBone": "jolteon_kazeran",
+    "animations": {
+      "cry": "q.bedrock_stateful('jolteon_kazeran', 'cry')"
+    },
+    "poses": {
+    "battle-standing": {
+        "poseTypes": ["STAND"],
+        "isBattle": true,
+        "animations": ["q.look('neck')", "q.bedrock('jolteon_kazeran', 'battle_idle')"],
+        "quirks": ["q.bedrock_quirk('jolteon_kazeran', 'blink')"]
+      },
+    "standing": {
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE",
+        "FLOAT"
+      ],
+      "isBattle": false,
+      "animations": [
+        "q.look('head', 1, 1, 70, -45, 45, -45)",
+        "q.bedrock('jolteon_kazeran', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('jolteon_kazeran', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "WALK",
+        "SWIM"
+      ],
+      "animations": [
+        "q.look('head', 1, 1, 70, -45, 45, -45)",
+        "q.bedrock('jolteon_kazeran', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('jolteon_kazeran', 'blink')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "isTouchingWater": false,
+      "animations": ["q.bedrock('jolteon_kazeran', 'sleep')"]
+    }
+  }
+  }
+  

@@ -1,0 +1,15 @@
+{
+  "id": "seavlbizarremon:qwilton",
+  "speciesId": "cobblemon:qwilton",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

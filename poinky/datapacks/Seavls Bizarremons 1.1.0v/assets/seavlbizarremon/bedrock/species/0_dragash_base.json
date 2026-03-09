@@ -1,0 +1,34 @@
+{
+    "species": "cobblemon:dragash",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "seavlbizarremon:dragash",
+        "model": "seavlbizarremon:dragash.geo",
+        "texture": "seavlbizarremon:textures/pokemon/dragash/dragash.png",
+        "layers": [
+          {
+            "name": "emissive",
+            "texture": "seavlbizarremon:textures/pokemon/dragash/dragash_emissive.png",
+            "emissive": true,
+            "translucent": true
+          }
+        ]
+      },
+      {
+        "aspects": ["shiny"],
+        "poser": "seavlbizarremon:dragash_shiny",
+        "texture": "seavlbizarremon:textures/pokemon/dragash/dragash_shiny.png",
+        "layers": [
+          {
+            "name": "emissive",
+            "texture": "seavlbizarremon:textures/pokemon/dragash/dragash_shiny_emissive.png",
+            "emissive": true,
+            "translucent": true
+          }
+        ]
+      }
+    ]
+  }
+  

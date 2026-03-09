@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:oremand",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:oremand",
+      "model": "cobblemon:oremand.geo",
+      "texture": "cobblemon:textures/pokemon/oremand/oremand.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/oremand/oremand_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/oremand/oremand_shiny.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/oremand/oremand_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "species": "cobblemon:fanatee",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [
+          "female"
+          ],
+      "poser": "cobblemon:fanatee",
+      "model": "cobblemon:fanatee.geo",
+      "texture": "cobblemon:textures/pokemon/fanatee/fanatee_female.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "female",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fanatee/fanatee_female_shiny.png"
+    }
+  ]
+}

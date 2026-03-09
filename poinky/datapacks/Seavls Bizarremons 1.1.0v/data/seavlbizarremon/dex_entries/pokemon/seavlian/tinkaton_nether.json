@@ -1,0 +1,15 @@
+{
+  "id": "seavlbizarremon:tinkaton_nether",
+  "speciesId": "cobblemon:tinkaton",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "nether",
+      "unlockForms": [
+        "nether"
+      ]
+    }
+  ],
+  "variations": []
+}

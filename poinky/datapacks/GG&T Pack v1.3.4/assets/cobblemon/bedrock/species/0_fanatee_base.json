@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:fanatee",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:fanatee",
+      "model": "cobblemon:fanatee.geo",
+      "texture": "cobblemon:textures/pokemon/fanatee/fanatee_male.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fanatee/fanatee_male_shiny.png"
+    }
+  ]
+}

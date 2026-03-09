@@ -1,0 +1,68 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.debugs_shiny.ground_idle": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"position": [0, "0+Math.cos((query.anim_time) * 90 * 1) * 1.5", 0]
+				}
+			}
+		},
+		"animation.debugs_shiny.ground_walk": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"position": [0, "0+Math.cos((query.anim_time) * 90 * 1) * 1.5", 0]
+				}
+			}
+		},
+		"animation.debugs_shiny.sleep": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [0, 17.5, 0],
+					"position": [0, -6, 0]
+				}
+			}
+		},
+		"animation.debugs_shiny.spin_overlay": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [0, "0+query.anim_time * 90 * 0.1", 0]
+				},
+				"bulb1": {
+					"rotation": [0, "0+query.anim_time * 90 * 0.4", 0]
+				},
+				"bulb2": {
+					"rotation": [0, "0+query.anim_time * 90 * 0.4", 0]
+				},
+				"bulb3": {
+					"rotation": [0, "0+query.anim_time * 90 * 0.4", 0]
+				},
+				"bulb4": {
+					"rotation": [0, "0+query.anim_time * 90 * 0.4", 0]
+				},
+				"bulb5": {
+					"rotation": [0, "0+query.anim_time * 90 * 0.4", 0]
+				},
+				"bulb6": {
+					"rotation": [0, "0+query.anim_time * 90 * 0.4", 0]
+				},
+				"bulb7": {
+					"rotation": [0, "0+query.anim_time * 90 * 0.4", 0]
+				},
+				"bulb8": {
+					"rotation": [0, "0+query.anim_time * 90 * 0.4", 0]
+				}
+			},
+			"particle_effects": {
+				"0.0": {
+					"effect": "debugs_swarm_shiny",
+					"locator": "debugs_particle"
+				}
+			}
+		}
+	}
+}

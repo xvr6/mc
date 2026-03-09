@@ -1,0 +1,24 @@
+{
+  "portraitScale": 1.5,
+  "portraitTranslation": [ -0.3, 1.1, 0 ],
+  "profileScale": 0.6,
+  "profileTranslation": [ 0, 0.8, 0 ],
+  "animations": {
+    "cry":  "q.bedrock_stateful('spiritempest', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "q.look('stem_head')",
+        "q.bedrock('spiritempest', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [ "WALK" ],
+      "animations": [
+        "q.bedrock('spiritempest', 'ground_idle')"
+      ]
+    }
+  }
+}

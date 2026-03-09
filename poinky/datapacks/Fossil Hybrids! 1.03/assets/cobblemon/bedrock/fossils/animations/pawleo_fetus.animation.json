@@ -1,0 +1,42 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.pawleo_fetus.swim": {
+			"loop": true,
+			"animation_length": 4,
+			"bones": {
+				"body": {
+					"rotation": ["14.5108+math.sin(query.anim_time*90*1-60)*2", 3.84097, -14.51082],
+					"position": [0, "3+math.sin(query.anim_time*90*1)", 0]
+				},
+				"tail": {
+					"rotation": ["-32.5+math.sin(query.anim_time*90*1-180)*10", 0, 0]
+				},
+				"tail2": {
+					"rotation": [-25, 0, 0]
+				},
+				"neck": {
+					"rotation": [0, 0, 10]
+				},
+				"head": {
+					"rotation": ["-10.0093+math.sin(query.anim_time*90*1-120)*5", -0.43399, 2.46207]
+				},
+				"jaw": {
+					"rotation": [25, 0, 0]
+				},
+				"leg_right": {
+					"rotation": ["-65-math.sin(query.anim_time*90*1-180)*5", 0, 0]
+				},
+				"foot_right": {
+					"rotation": [-45, 0, 0]
+				},
+				"leg_left": {
+					"rotation": ["-60+math.sin(query.anim_time*90*1)*5", 0, 0]
+				},
+				"foot_left": {
+					"rotation": [27.5, 0, 0]
+				}
+			}
+		}
+	}
+}

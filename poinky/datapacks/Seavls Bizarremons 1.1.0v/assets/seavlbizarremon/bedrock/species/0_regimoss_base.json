@@ -1,0 +1,25 @@
+{
+    "species": "cobblemon:regimoss",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "seavlbizarremon:regimoss",
+        "model": "seavlbizarremon:regimoss.geo",
+        "texture": "seavlbizarremon:textures/pokemon/regimoss/regimoss.png",
+        "layers": [
+          {
+            "name": "emissive",
+            "texture": "seavlbizarremon:textures/pokemon/regimoss/regimoss_emissive.png",
+            "emissive": true,
+            "translucent": true
+          }
+        ]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "seavlbizarremon:textures/pokemon/regimoss/regimoss_shiny.png"
+      }
+    ]
+  }
+  

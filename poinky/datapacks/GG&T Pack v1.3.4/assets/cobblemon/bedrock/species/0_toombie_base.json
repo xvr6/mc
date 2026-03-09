@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:toombie",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:toombie",
+      "model": "cobblemon:toombie.geo",
+      "texture": "cobblemon:textures/pokemon/toombie/toombie.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/toombie/toombie_shiny.png"
+    }
+  ]
+}

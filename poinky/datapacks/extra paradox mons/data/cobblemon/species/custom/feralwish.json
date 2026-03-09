@@ -1,0 +1,155 @@
+{
+  "implemented": true,
+  "name": "feralwish",
+  "nationalPokedexNumber": 9907,
+  "primaryType": "steel",
+  "secondaryType": "dark",
+  "abilities": [
+    "protosynthesis"
+  ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:star_sweet",
+        "quantityRange": "1-3"
+      },
+      {
+        "item": "cobblemon:starf_berry",
+        "percentage": 10
+      }
+    ]
+  },
+  "baseStats": {
+    "hp": 75,
+    "attack": 73,
+    "defence": 113,
+    "special_attack": 127,
+    "special_defence": 71,
+    "speed": 131
+  },
+"behaviour": {
+   "resting": {
+     "canSleep": true,
+     "willSleepOnBed": true,
+     "depth": "normal",
+     "light": "0-4"
+    }
+   },
+  "catchRate": 10,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 169,
+  "experienceGroup": "slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:wish",
+    "1:stealbeam",
+    "1:switcheroo",
+    "1:nightslash",
+    "1:lifedew",
+    "1:faketears",
+    "1:nastyplot",
+    "21:baddybad",
+    "21:shadowclaw",
+    "26:knockoff",
+    "31:psychocut",
+    "36:honeclaws",
+    "43:darkpulse",
+    "50:metalclaw",
+    "57:fierywrath",
+    "64:meteormash",
+    "71:foulplay",
+    "78:wickedblow",
+    "85:doomdesire",
+    "tm:metronome",
+    "tm:swift",
+    "tm:allyswitch",
+    "tm:batonpass",
+    "tm:expandingforce",
+    "tm:calmmind",
+    "tm:futuresight",
+    "tm:steelbeam",
+    "tm:dragonclaw",
+    "tm:irontail",
+    "tm:dazzlinggleam",
+    "tm:psychic",
+    "tm:drainpunch",
+    "tm:throatchop",
+    "tm:dualchop",
+    "tm:aurasphere",
+    "tm:dragonpulse",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:faketears",
+    "tm:firepunch",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:ironhead",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:dracometeor",
+    "tm:psychic",
+    "tm:helpinghand",
+    "tm:dragontail",
+    "tm:icepunch",
+    "tm:knockoff",
+    "tm:laserfocus",
+    "tm:lowsweep",
+    "tm:payback",
+    "tm:playrough",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:rest",
+    "tm:snarl",
+    "tm:round",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:signalbeam",
+    "tm:flashcannon",
+    "tm:sleeptalk",
+    "tm:skillswap",
+    "tm:xscissor",
+    "tm:substitute",
+    "tm:swift",
+    "tm:terablast",
+    "tm:trick",
+    "tm:signalbeam",
+    "tm:uturn",
+    "tm:wonderroom",
+    "tm:zenheadbutt"
+ ],
+  "labels": [
+    "gen9",
+    "paradox"
+  ],
+  "pokedex": [
+    "This feral pokemon likes to grant wishes but it has a habit of twisting words to form completely different wishes."
+  ],
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 2,
+  "weight": 42,
+  "aspects": [],
+  "cannotDynamax": false,
+  "hitbox": {
+    "width": 1,
+    "height": 1.3,
+    "fixed": false
+   }
+  }

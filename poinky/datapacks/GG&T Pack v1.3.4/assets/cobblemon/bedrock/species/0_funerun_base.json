@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:funerun",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:funerun",
+      "model": "cobblemon:funerun.geo",
+      "texture": "cobblemon:textures/pokemon/funerun/funerun.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/funerun/funerun_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "implemented": true,
+  "name": "lumintail",
+  "nationalPokedexNumber": 9905,
+  "primaryType": "water",
+  "secondaryType": "electric",
+  "abilities": [
+    "protosynthesis"
+  ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:prism_scale",
+        "quantityRange": "1-3"
+      },
+      {
+        "item": "cobblemon:starf_berry",
+        "percentage": 10
+      }
+    ]
+  },
+  "baseStats": {
+    "hp": 91,
+    "attack": 61,
+    "defence": 97,
+    "special_attack": 137,
+    "special_defence": 95,
+    "speed": 109
+  },
+"behaviour": {
+   "resting": {
+     "canSleep": true,
+     "willSleepOnBed": true,
+     "depth": "normal",
+     "light": "0-4"
+  },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "avoidsLand": false,
+        "walkSpeed": 0.25
+      },
+      "swim": {
+        "swimSpeed": 0.25,
+        "canBreatheUnderwater": true,
+        "canSwimInWater": true,
+        "canSwimInLava": false
+      }
+    }
+  },
+  "catchRate": 10,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 169,
+  "experienceGroup": "slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:tailglow",
+    "1:soak",
+    "1:heartswap",
+    "1:raindance",
+    "1:weatherball",
+    "1:electroweb",
+    "21:lifedew",
+    "26:batonpass",
+    "29:bouncybubble",
+    "31:sunnyday",
+    "36:snowscape",
+    "43:thundercage",
+    "50:discharge",
+    "57:moonblast",
+    "64:moonlight",
+    "71:sparklingaria",
+    "78:takeheart",
+    "85:aquaring",
+    "tm:blizzard",
+    "tm:hydrocannon",
+    "tm:spark",
+    "tm:chillingwater",
+    "tm:faketears",
+    "tm:charm",
+    "tm:batonpass",
+    "tm:uturn",
+    "tm:endure",
+    "tm:dragontail",
+    "tm:dazzlinggleam",
+    "tm:shockwave",
+    "tm:chargebeam",
+    "tm:charge",
+    "tm:voltswitch",
+    "tm:aurasphere",
+    "tm:dragonpulse",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:psychup",
+    "tm:discharge",
+    "tm:waterfall",
+    "tm:focusblast",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:grassknot",
+    "tm:storedpower",
+    "tm:psychic",
+    "tm:helpinghand",
+    "tm:psybeam",
+    "tm:icepunch",
+    "tm:swift",
+    "tm:flipturn",
+    "tm:lowsweep",
+    "tm:payback",
+    "tm:playrough",
+    "tm:moonblast",
+    "tm:protect",
+    "tm:scald",
+    "tm:knockoff",
+    "tm:thunderpunch",
+    "tm:firepunch",
+    "tm:rest",
+    "tm:irontail",
+    "tm:icepunch",
+    "tm:icebeam",
+    "tm:shadowball",
+    "tm:liquidation",
+    "tm:signalbeam",
+    "tm:surf",
+    "tm:sleeptalk",
+    "tm:thunderwave",
+    "tm:xscissor",
+    "tm:substitute",
+    "tm:thunderbolt",
+    "tm:terablast",
+    "tm:thunder",
+    "tm:signalbeam",
+    "tm:uturn",
+    "tm:calmmind",
+    "tm:zenheadbutt"
+ ],
+  "labels": [
+    "gen9",
+    "paradox"
+  ],
+  "pokedex": [
+    "Rather Hostile despite its similarities with Manaphy, it's been reported that they often attack Iron Drone if they cross pathes because Iron Drone steals Lumin Tail's relics."
+  ],
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 2,
+  "weight": 72,
+  "aspects": [],
+  "cannotDynamax": false,
+  "hitbox": {
+    "width": 1,
+    "height": 1.3,
+    "fixed": false
+  }
+}

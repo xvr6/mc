@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:misteamie",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:misteamie",
+      "model": "cobblemon:misteamie.geo",
+      "texture": "cobblemon:textures/pokemon/misteamie/misteamie.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/misteamie/misteamie_shiny.png"
+    }
+  ]
+}

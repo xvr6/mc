@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:crypalis",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:crypalis",
+      "model": "cobblemon:crypalis.geo",
+      "texture": "cobblemon:textures/pokemon/crypalis/crypalis.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/crypalis/crypalis_shiny.png"
+    }
+  ]
+}

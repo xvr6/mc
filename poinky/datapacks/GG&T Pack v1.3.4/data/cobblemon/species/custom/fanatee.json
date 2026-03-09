@@ -1,0 +1,162 @@
+{
+    "implemented": true,
+    "name": "fanatee",
+    "nationalPokedexNumber": 2168,
+    "primaryType": "normal",
+    "secondaryType": "grass",
+    "abilities": [
+        "thickfat",
+        "h:oblivious"
+    ],
+    "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:coba_berry",
+        "percentage": 2.5
+            }
+        ]
+    },
+    "baseStats": {
+        "hp": 85,
+        "attack": 65,
+        "defence": 45,
+        "special_attack": 45,
+        "special_defence": 45,
+        "speed": 40
+    },
+    "catchRate": 255,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "forms": [],
+    "baseExperienceYield": 50,
+    "experienceGroup": "medium_fast",
+    "eggCycles": 20,
+    "eggGroups": [
+        "water_1",
+        "field"
+    ],
+    "behaviour": {
+        "moving": {
+            "canLook": true,
+            "walk": {
+                "avoidsLand": false,
+                "walkSpeed": 0.3
+            },
+            "swim": {
+                "canSwimInWater": true,
+                "canBreatheUnderwater": true
+            },
+            "resting": {
+                "canSleep": true,
+                "times": "night",
+                "light": "0-7",
+                "depth": "comatose",
+                "willSleepOnBed": true
+            }
+        }
+    },
+    "moves": [
+        "1:tackle",
+        "1:growl",
+        "4:growth",
+        "5:sing",
+        "9:vinewhip",
+        "11:leechseed",
+        "14:razorleaf",
+        "16:attract",
+        "20:headbutt",
+        "23:disable",
+        "26:synthesis",
+        "tm:takedown",
+        "tm:mudslap",
+        "tm:protect",
+        "tm:trailblaze",
+        "tm:facade",
+        "tm:magicalleaf",
+        "tm:endure",
+        "tm:raindance",
+        "tm:sunnyday",
+        "tm:bulletseed",
+        "tm:zenheadbutt",
+        "tm:bulkup",
+        "tm:bodyslam",
+        "tm:sleeptalk",
+        "tm:seedbomb",
+        "tm:grassknot",
+        "tm:rest",
+        "tm:substitute",
+        "tm:gigadrain",
+        "tm:energyball",
+        "tm:surf",
+        "tm:helpinghand",
+        "tm:grassyterrain",
+        "tm:gigaimpact",
+        "tm:leafstorm",
+        "tm:solarbeam",
+        "tm:hyperbeam",
+        "tm:grassyglide",
+        "tm:doubleedge",
+        "tm:endeavor",
+        "egg:defensecurl",
+        "egg:rollout",
+        "egg:avalanche",
+        "egg:aquatail",
+        "egg:sparklingaria"
+    ],
+    "labels": [
+        "custom"
+    ],
+    "evolutions": [
+    {
+     "id": "fanatee_brunatee",
+     "variant": "level_up",
+     "result": "brunatee",
+     "consumeHeldItem": false,
+     "learnableMoves": [],
+     "requirements": [
+       {
+           "variant": "properties",
+           "target": "gender=female"
+       },
+       {
+           "variant": "level",
+           "minLevel": "32"
+       }
+     ]
+    },
+    {
+     "id": "fanatee_manafreed",
+     "variant": "level_up",
+     "result": "manafreed",
+     "consumeHeldItem": false,
+     "learnableMoves": [],
+     "requirements": [
+       {
+           "variant": "properties",
+           "target": "gender=male"
+       },
+       {
+           "variant": "level",
+           "minLevel": "32"
+       }
+     ]
+    }
+    ],
+    "pokedex": [
+        "cobblemon.species.fanatee.desc1",
+        "cobblemon.species.fanatee.desc2"
+    ],
+    "baseScale": 1,
+    "hitbox": {
+        "width": 1.3,
+        "height": 0.9,
+        "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+        "hp": 1
+    },
+    "height": 22,
+    "weight": 322
+}

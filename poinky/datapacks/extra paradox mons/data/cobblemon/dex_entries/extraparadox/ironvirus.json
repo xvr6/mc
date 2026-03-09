@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ironvirus",
+  "speciesId": "cobblemon:ironvirus",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "normal",
+      "unlockForms": [
+        "normal"
+      ]
+    }
+  ],
+  "variations": []
+}

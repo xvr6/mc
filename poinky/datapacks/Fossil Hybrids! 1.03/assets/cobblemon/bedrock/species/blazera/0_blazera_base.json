@@ -1,0 +1,48 @@
+{
+  "species": "cobblemon:blazera",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:blazera",
+      "model": "cobblemon:blazera.geo",
+      "texture": "cobblemon:textures/pokemon/blazera/blazera.png",
+      "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/blazera/blazera_emissive_1.png",
+              "cobblemon:textures/pokemon/blazera/blazera_emissive_2.png",
+              "cobblemon:textures/pokemon/blazera/blazera_emissive_3.png"
+            ],
+            "fps": 15,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/blazera/blazera_shiny.png",
+      "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/blazera/blazera_emissive_1.png",
+              "cobblemon:textures/pokemon/blazera/blazera_emissive_2.png",
+              "cobblemon:textures/pokemon/blazera/blazera_emissive_3.png"
+            ],
+            "fps": 15,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": false
+        }
+      ]
+    }
+  ]
+}

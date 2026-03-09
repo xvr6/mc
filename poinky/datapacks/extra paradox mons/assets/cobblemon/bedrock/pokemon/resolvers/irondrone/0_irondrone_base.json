@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:irondrone",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:irondrone",
+      "model": "cobblemon:irondrone.geo",
+      "texture": "cobblemon:textures/pokemon/irondrone/irondrone.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/irondrone/irondrone_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/irondrone/irondrone_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/irondrone/irondrone_shiny_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    }
+  ]
+}

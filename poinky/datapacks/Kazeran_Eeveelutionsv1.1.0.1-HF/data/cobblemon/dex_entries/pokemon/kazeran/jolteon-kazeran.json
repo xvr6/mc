@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:jolteon-kazeran",
+  "speciesId": "cobblemon:jolteon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Kazeran",
+      "unlockForms": [
+        "Kazeran"
+      ]
+    }
+  ],
+  "variations": []
+}

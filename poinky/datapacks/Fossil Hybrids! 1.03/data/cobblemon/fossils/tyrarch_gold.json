@@ -1,0 +1,8 @@
+{
+   "result": "tyrarch ore=gold level=1",
+   "fossils": [
+       "cobblemon:plume_fossil",
+         "cobblemon:jaw_fossil",
+		 "minecraft:gold_ingot"
+   ]
+}

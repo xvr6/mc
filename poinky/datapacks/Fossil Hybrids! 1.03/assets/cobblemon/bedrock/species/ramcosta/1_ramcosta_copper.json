@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:ramcosta",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["ore-copper"],
+      "poser": "cobblemon:ramcosta",
+      "model": "cobblemon:ramcosta.geo",
+      "texture": "cobblemon:textures/pokemon/ramcosta/ramcosta_copper.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/ramcosta/ramcosta_copper_shiny.png"
+    }
+  ]
+}

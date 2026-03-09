@@ -1,0 +1,60 @@
+{
+  "portraitScale": 2,
+  "portraitTranslation": [0, 0.1, 0],
+  "profileScale": 0.7,
+  "profileTranslation": [0, 0.5, 0],
+  "poses": {
+    "floating": {
+        "poseName": "floating",
+		"isTouchingWater": true,
+        "transformTicks": 10,
+        "poseTypes": ["FLOAT"],
+        "animations": [
+            "bedrock(puffoon, air_idle)"
+        ]
+    },
+    "swimming": {
+        "poseName": "swimming",
+		"isTouchingWater": true,
+        "transformTicks": 10,
+        "poseTypes": ["SWIM", "WALK"],
+        "animations": [
+            "bedrock(puffoon, air_fly)",
+            {
+              "condition": "q.is_ridden",
+              "animation": "q.bedrock('puffoon', 'ride_air_fly')"
+            }
+        ]
+    },
+    "hovering": {
+      "poseName": "hovering",
+	  "isTouchingWater": false,
+      "transformTicks": 10,
+      "poseTypes": ["HOVER", "STAND"],
+      "animations": [
+            "bedrock(puffoon, air_idle)"
+      ]
+    },
+	"flying": {
+        "poseName": "flying",
+		"isTouchingWater": false,
+        "transformTicks": 10,
+        "poseTypes": ["FLY", "WALK"],
+        "animations": [
+            "bedrock(puffoon, air_idle)",
+            {
+              "condition": "q.is_ridden",
+              "animation": "q.bedrock('puffoon', 'ride_air_idle')"
+            }
+        ]
+    },
+	"standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": ["NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "bedrock(puffoon, air_idle)"
+      ]
+    }
+  }
+}

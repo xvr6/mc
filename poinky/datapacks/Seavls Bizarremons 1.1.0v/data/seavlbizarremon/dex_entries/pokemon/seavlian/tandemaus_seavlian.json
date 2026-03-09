@@ -1,0 +1,15 @@
+{
+  "id": "seavlbizarremon:tandemaus_seavlian",
+  "speciesId": "cobblemon:tandemaus",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "seavlian",
+      "unlockForms": [
+        "seavlian"
+      ]
+    }
+  ],
+  "variations": []
+}

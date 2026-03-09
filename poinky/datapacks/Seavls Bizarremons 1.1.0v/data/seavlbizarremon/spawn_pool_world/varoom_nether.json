@@ -1,0 +1,26 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "varoom_nether-1",
+            "pokemon": "varoom nether",
+            "presets": [],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "5-30",
+            "weight": 5.04,
+            "condition": {
+                "structures": [
+                    "minecraft:bastion_remnant",
+                    "minecraft:fortress"
+                ],
+                "biomes": [
+                    "#minecraft:is_nether"
+                ]
+            }
+        }
+    ]
+}

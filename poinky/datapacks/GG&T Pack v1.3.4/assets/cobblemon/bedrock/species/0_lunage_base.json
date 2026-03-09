@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:lunage",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:lunage",
+      "model": "cobblemon:lunage.geo",
+      "texture": "cobblemon:textures/pokemon/lunage/lunage.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/lunage/lunage_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lunage/lunage_shiny.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/lunage/lunage_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

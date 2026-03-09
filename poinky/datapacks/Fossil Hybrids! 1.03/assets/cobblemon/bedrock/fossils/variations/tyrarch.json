@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:tyrarch",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:tyrarch",
+      "model": "cobblemon:tyrarch_fetus.geo",
+      "texture": "cobblemon:textures/fossils/tyrarch.png",
+      "layers": []
+    }
+  ]
+}

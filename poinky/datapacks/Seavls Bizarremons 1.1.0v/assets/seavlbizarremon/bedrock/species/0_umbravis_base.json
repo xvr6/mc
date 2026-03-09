@@ -1,0 +1,33 @@
+{
+    "species": "cobblemon:umbravis",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "seavlbizarremon:umbravis",
+        "model": "seavlbizarremon:umbravis.geo",
+        "texture": "seavlbizarremon:textures/pokemon/umbravis/umbravis.png",
+        "layers": [
+          {
+            "name": "translucent",
+            "texture": "seavlbizarremon:textures/pokemon/umbravis/umbravis_emissive.png",
+            "emissive": true,
+            "translucent": true
+          }
+        ]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "seavlbizarremon:textures/pokemon/umbravis/umbravis_shiny.png",
+        "layers": [
+          {
+            "name": "translucent",
+            "texture": "seavlbizarremon:textures/pokemon/umbravis/umbravis_shiny_emissive.png",
+            "emissive": true,
+            "translucent": true
+          }
+        ]
+      }
+    ]
+  }
+  

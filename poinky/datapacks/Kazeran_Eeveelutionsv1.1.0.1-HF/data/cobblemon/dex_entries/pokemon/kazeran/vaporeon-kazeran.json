@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:vaporeon-kazeran",
+  "speciesId": "cobblemon:vaporeon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Kazeran",
+      "unlockForms": [
+        "Kazeran"
+      ]
+    }
+  ],
+  "variations": []
+}

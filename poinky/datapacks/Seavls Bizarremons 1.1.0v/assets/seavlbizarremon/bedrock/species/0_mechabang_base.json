@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:mechabang",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "seavlbizarremon:mechabang",
+        "model": "seavlbizarremon:mechabang.geo",
+        "texture": "seavlbizarremon:textures/pokemon/mechabang/mechabang.png"
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "seavlbizarremon:textures/pokemon/mechabang/mechabang_shiny.png"
+      }
+    ]
+  }
+  

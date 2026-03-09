@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:lumintail",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:lumintail",
+      "model": "cobblemon:lumintail.geo",
+      "texture": "cobblemon:textures/pokemon/lumintail/lumintail.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/lumintail/lumintail_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/lumintail/lumintail_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/lumintail/lumintail_shiny_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    }
+  ]
+}

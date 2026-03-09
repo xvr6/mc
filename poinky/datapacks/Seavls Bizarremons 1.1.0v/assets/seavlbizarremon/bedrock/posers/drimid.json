@@ -1,0 +1,28 @@
+{
+  "portraitScale": 2.6,
+  "portraitTranslation": [ -0.4, -1.65, 0 ],
+  "profileScale": 1,
+  "profileTranslation": [ 0, 0.2, 0 ],
+  "rootBone": "drimid",
+  "animations": {
+
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('drimid', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('drimid', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": [ "WALK" ],
+      "animations": [
+        "q.bedrock('dralily', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('dralily', 'blink')"]
+    }
+  }
+}

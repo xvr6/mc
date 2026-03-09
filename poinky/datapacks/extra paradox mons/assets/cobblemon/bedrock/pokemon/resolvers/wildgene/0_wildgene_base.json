@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:wildgene",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:wildgene",
+      "model": "cobblemon:wildgene.geo",
+      "texture": "cobblemon:textures/pokemon/wildgene/wildgene.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/wildgene/wildgene_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/wildgene/wildgene_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/wildgene/wildgene_shiny_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    }
+  ]
+}

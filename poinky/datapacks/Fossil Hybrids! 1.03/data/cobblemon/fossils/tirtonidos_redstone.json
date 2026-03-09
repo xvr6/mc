@@ -1,0 +1,8 @@
+{
+   "result": "tirtonidos ore=redstone level=1",
+   "fossils": [
+       "cobblemon:skull_fossil",
+         "cobblemon:cover_fossil",
+		          "minecraft:redstone_block"
+   ]
+}

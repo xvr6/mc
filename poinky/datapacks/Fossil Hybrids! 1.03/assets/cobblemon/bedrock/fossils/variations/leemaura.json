@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:leemaura",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:leemaura",
+      "model": "cobblemon:leemaura_fetus.geo",
+      "texture": "cobblemon:textures/fossils/leemaura.png",
+      "layers": []
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+    "species": "cobblemon:dralily",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "seavlbizarremon:dralily",
+        "model": "seavlbizarremon:dralily.geo",
+        "texture": "seavlbizarremon:textures/pokemon/dralily/dralily.png",
+        "layers": [
+          {
+            "name": "emissive",
+            "texture": "seavlbizarremon:textures/pokemon/dralily/dralily_emissive.png",
+            "emissive": true,
+            "translucent": true
+          }
+        ]
+      },
+      {
+        "aspects": ["shiny"],
+        "texture": "seavlbizarremon:textures/pokemon/dralily/dralily_shiny.png",
+        "layers": [
+          {
+            "name": "emissive",
+            "texture": "seavlbizarremon:textures/pokemon/dralily/dralily_shiny_emissive.png",
+            "emissive": true,
+            "translucent": true
+          }
+        ]
+      }
+    ]
+  }
+  

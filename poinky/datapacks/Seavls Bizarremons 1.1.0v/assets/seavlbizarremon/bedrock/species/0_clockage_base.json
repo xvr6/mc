@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:clockage",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "seavlbizarremon:clockage",
+        "model": "seavlbizarremon:clockage.geo",
+        "texture": "seavlbizarremon:textures/pokemon/clockage/clockage.png"
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "seavlbizarremon:textures/pokemon/clockage/clockage_shiny.png"
+      }
+    ]
+  }
+  

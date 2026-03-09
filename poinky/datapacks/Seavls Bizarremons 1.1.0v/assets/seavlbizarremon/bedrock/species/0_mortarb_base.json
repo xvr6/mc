@@ -1,0 +1,19 @@
+{
+    "species": "cobblemon:mortarb",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "seavlbizarremon:mortarb",
+        "model": "seavlbizarremon:mortarb.geo",
+        "texture": "seavlbizarremon:textures/pokemon/mortarb/mortarb.png"
+
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "seavlbizarremon:textures/pokemon/mortarb/mortarb_shiny.png",
+        "layers": []
+      }
+    ]
+  }
+  

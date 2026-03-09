@@ -1,0 +1,28 @@
+t.player_highest_level = q.player.party.highest_level;
+t.player_average_level = q.player.party.average_level;
+t.party_count = math.random_integer(2,4);
+t.pokemon_level = ((t.player_highest_level + t.player_average_level) / 2);
+
+t.1 = 'koffing level=' + (t.pokemon_level);
+t.2 = 'weezing level=' + (t.pokemon_level);
+t.3 = 'grimer level=' + (t.pokemon_level);
+t.4 = 'muk level=' + (t.pokemon_level);
+t.5 = 'zubat level=' + (t.pokemon_level);
+t.6 = 'golbat level=' + (t.pokemon_level);
+t.7 = 'crobat level=' + (t.pokemon_level);
+t.8 = 'ekans level=' + (t.pokemon_level);
+t.9 = 'arbok level=' + (t.pokemon_level);
+t.10 = 'machop level=' + (t.pokemon_level);
+t.11 = 'machoke level=' + (t.pokemon_level);
+t.12 = 'machamp level=' + (t.pokemon_level);
+t.13 = 'magnemite level=' + (t.pokemon_level);
+t.14 = 'magneton level=' + (t.pokemon_level);
+t.15 = 'toxicroak level=' + (t.pokemon_level);
+t.16 = 'sneasel level=' + (t.pokemon_level);
+t.17 = 'weavile level=' + (t.pokemon_level);
+
+loop(t.party_count, {
+  t.result = q.random(t.1, t.2, t.3, t.4, t.5, t.6, t.7, t.8, t.9, t.10, t.11, t.12, t.13, t.14, t.15, t.16, t.17);
+  q.party.add_by_properties(t.result)
+});
+return true;

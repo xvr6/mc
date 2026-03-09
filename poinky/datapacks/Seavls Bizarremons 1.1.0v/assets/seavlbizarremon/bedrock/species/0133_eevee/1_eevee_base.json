@@ -1,0 +1,35 @@
+{
+    "species": "cobblemon:eevee",
+    "order": 1,
+    "variations": [
+      {
+        "aspects": ["alolan", "male"],
+        "poser": "seavlbizarremon:eevee_alolan",
+        "model": "seavlbizarremon:eevee_alolan_male.geo",
+        "texture": "seavlbizarremon:textures/pokemon/0133_eevee/eevee_alolan.png",
+        "layers": []
+      },
+      {
+        "aspects": ["alolan", "female"],
+        "poser": "seavlbizarremon:eevee_alolan",
+        "model": "seavlbizarremon:eevee_alolan_female.geo",
+        "texture": "seavlbizarremon:textures/pokemon/0133_eevee/eevee_alolan.png",
+        "layers": []
+      },
+      {
+        "aspects": ["alolan", "male", "shiny"],
+        "poser": "seavlbizarremon:eevee_alolan",
+        "model": "seavlbizarremon:eevee_alolan_male.geo",
+        "texture": "seavlbizarremon:textures/pokemon/0133_eevee/eevee_alolan_shiny.png",
+        "layers": []
+      },
+      {
+        "aspects": ["alolan", "female", "shiny"],
+        "poser": "seavlbizarremon:eevee_alolan",
+        "model": "seavlbizarremon:eevee_alolan_female.geo",
+        "texture": "seavlbizarremon:textures/pokemon/0133_eevee/eevee_alolan_shiny.png",
+        "layers": []
+      }
+    ]
+  }
+  

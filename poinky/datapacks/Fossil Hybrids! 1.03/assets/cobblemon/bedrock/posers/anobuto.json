@@ -1,0 +1,73 @@
+{
+ "portraitScale": 2.3,
+ "portraitTranslation": [-0.1, 0.58, 0],
+ "profileScale": 0.75,
+ "profileTranslation": [0, 0.68, 0],
+ "animations": {
+ },
+ "poses": {
+   "standing": {
+     "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+     "isBattle": false,
+     "animations": [
+       "q.bedrock('anobuto', 'ground_idle')"
+     ],
+     "quirks": [
+       "q.bedrock_quirk('anobuto', 'blink')"
+     ]
+   },
+   "walking": {
+     "poseTypes": ["WALK"],
+     "animations": [
+       "q.bedrock('anobuto', 'ground_walk')"
+     ],
+     "quirks": ["q.bedrock_quirk('anobuto', 'blink')"]
+   },
+   "hover": {
+     "poseTypes": ["HOVER"],
+     "animations": [
+       "q.bedrock('anobuto', 'ground_idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('anobuto', 'blink')"]
+   },
+   "fly": {
+     "poseTypes": ["FLY"],
+     "animations": [
+       "q.bedrock('anobuto', 'ground_idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('anobuto', 'blink')"]
+   },
+   "float": {
+     "poseTypes": ["FLOAT"],
+     "animations": [
+       "q.bedrock('anobuto', 'ground_idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('anobuto', 'blink')"]
+   },
+   "swim": {
+     "poseTypes": ["SWIM"],
+     "animations": [
+       "q.bedrock('anobuto', 'ground_walk')"
+     ],
+     "quirks": ["q.bedrock_quirk('anobuto', 'blink')"]
+   },
+   "sleep": {
+     "poseTypes": ["SLEEP"],
+     "animations": ["q.bedrock('anobuto', 'sleep')"]
+   },
+   "shoulder_left": {
+     "poseTypes": ["SHOULDER_LEFT"],
+     "animations": [
+       "q.bedrock('anobuto', 'ground_idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('anobuto', 'blink')"]
+   },
+   "shoulder_right": {
+     "poseTypes": ["SHOULDER_RIGHT"],
+     "animations": [
+       "q.bedrock('anobuto', 'ground_idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('anobuto', 'blink')"]
+   }
+ }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "seavlbizarremon:glacida",
+  "speciesId": "cobblemon:glacida",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

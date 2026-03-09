@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:airpy",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:airpy",
+      "model": "cobblemon:airpy.geo",
+      "texture": "cobblemon:textures/pokemon/airpy/airpy.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/airpy/airpy_shiny.png"
+    }
+  ]
+}

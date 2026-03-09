@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:krokellang",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "seavlbizarremon:krokellang",
+        "model": "seavlbizarremon:krokellang.geo",
+        "texture": "seavlbizarremon:textures/pokemon/krokellang/krokellang.png"
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "seavlbizarremon:textures/pokemon/krokellang/krokellang_shiny.png",
+        "layers": []
+      }
+    ]
+  }
+  

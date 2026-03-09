@@ -1,0 +1,33 @@
+{
+    "species": "cobblemon:vaporipotent",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "seavlbizarremon:vaporipotent",
+        "model": "seavlbizarremon:vaporipotent.geo",
+        "texture": "seavlbizarremon:textures/pokemon/vaporipotent/vaporipotent.png",
+        "layers": [
+          {
+            "name": "emissive",
+            "texture": "seavlbizarremon:textures/pokemon/vaporipotent/vaporipotent_emissive.png",
+            "emissive": true,
+            "translucent": true
+          }
+        ]
+      },
+      {
+        "aspects": ["shiny"],
+        "texture": "seavlbizarremon:textures/pokemon/vaporipotent/vaporipotent_shiny.png",
+        "layers": [
+          {
+            "name": "emissive",
+            "texture": "seavlbizarremon:textures/pokemon/vaporipotent/vaporipotent_shiny_emissive.png",
+            "emissive": true,
+            "translucent": true
+          }
+        ]
+      }
+    ]
+  }
+  

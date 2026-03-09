@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:drakoon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:drakoon",
+      "model": "cobblemon:drakoon.geo",
+      "texture": "cobblemon:textures/pokemon/drakoon/drakoon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/drakoon/drakoon_shiny.png"
+    }
+  ]
+}

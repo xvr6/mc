@@ -1,0 +1,15 @@
+{
+  "id": "seavlbizarremon:krokellang",
+  "speciesId": "cobblemon:krokellang",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

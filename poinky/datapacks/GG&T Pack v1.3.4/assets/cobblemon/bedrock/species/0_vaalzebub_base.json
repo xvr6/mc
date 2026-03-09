@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:vaalzebub",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:vaalzebub",
+      "model": "cobblemon:vaalzebub_male.geo",
+      "texture": "cobblemon:textures/pokemon/vaalzebub/vaalzebub_male.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/vaalzebub/vaalzebub_male_shiny.png"
+    }
+  ]
+}

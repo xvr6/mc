@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:protoffin",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:protoffin",
+      "model": "cobblemon:protoffin.geo",
+      "texture": "cobblemon:textures/pokemon/protoffin/protoffin.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/protoffin/protoffin_shiny.png"
+    }
+  ]
+}

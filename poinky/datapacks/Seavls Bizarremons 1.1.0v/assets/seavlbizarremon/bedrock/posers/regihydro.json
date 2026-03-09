@@ -1,0 +1,33 @@
+{
+  "portraitScale": 0.7,
+  "portraitTranslation": [ -0.13, 0.65, 0 ],
+  "profileScale": 0.5,
+  "profileTranslation": [ 0, 1, 0 ],
+  "rootBone": "regihydro",
+  "animations": {
+    "physical": "q.bedrock_primary('regihydro', 'physical', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('regihydro', 'special', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('regihydro', 'battle_idle')"
+      ]
+    },
+    "standing": {
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "q.bedrock('regihydro', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [ "WALK" ],
+      "animations": [
+        "q.bedrock('regihydro', 'ground_walk')"
+      ]
+    }
+  }
+}

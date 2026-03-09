@@ -1,0 +1,213 @@
+{
+  "implemented": true,
+  "name": "anobuto",
+  "nationalPokedexNumber": 20012,
+  "primaryType": "bug",
+  "secondaryType": "ground",
+  "abilities": [
+    "battlearmor",
+    "h:sandrush"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 90,
+    "defence": 75,
+    "special_attack": 20,
+    "special_defence": 32,
+    "speed": 28
+  },
+  "catchRate": 45,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 82,
+  "experienceGroup": "slow",
+  "eggCycles": 35,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4"
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.24
+      }
+    }
+  },
+  "moves": [
+    "1:scratch",
+    "1:quickattack",
+    "1:harden",
+    "1:leer",
+    "1:protect",
+    "1:furycutter",
+    "7:dig",
+    "14:rapidspin",
+    "21:irondefense",
+    "28:crushclaw",
+    "33:spikes",
+    "35:drillrun",
+    "41:uturn",
+    "47:fissure",
+    "51:screech",
+    "52:firstimpression",
+    "58:earthquake",
+    "64:rockslide",
+    "70:knockoff",
+    "tm:charm",
+    "tm:agility",
+    "tm:scaryface",
+    "tm:protect",
+    "tm:firefang",
+    "tm:thunderfang",
+    "tm:icefang",
+    "tm:acrobatics",
+    "tm:trailblaze",
+    "tm:facade",
+    "tm:aerialace",
+    "tm:bulldoze",
+    "tm:rocktomb",
+    "tm:lowsweep",
+    "tm:dragontail",
+    "tm:endure",
+    "tm:sunnyday",
+    "tm:dig",
+    "tm:brickbreak",
+    "tm:zenheadbutt",
+    "tm:uturn",
+    "tm:shadowclaw",
+    "tm:psychicfangs",
+    "tm:bulkup",
+    "tm:airslash",
+    "tm:bodyslam",
+    "tm:sleeptalk",
+    "tm:drainpunch",
+    "tm:rockblast",
+    "tm:dragonclaw",
+    "tm:stompingtantrum",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:taunt",
+    "tm:bodypress",
+    "tm:darkpulse",
+    "tm:fly",
+    "tm:ironhead",
+    "tm:dragondance",
+    "tm:substitute",
+    "tm:crunch",
+    "tm:tailwind",
+    "tm:dragonpulse",
+    "tm:stealthrock",
+    "tm:hypervoice",
+    "tm:heatwave",
+    "tm:playrough",
+    "tm:earthpower",
+    "tm:reversal",
+    "tm:earthquake",
+    "tm:stoneedge",
+    "tm:outrage",
+    "tm:bravebird",
+    "tm:closecombat",
+    "tm:dracometeor",
+    "tm:terablast",
+    "tm:megapunch",
+    "tm:megakick",
+    "tm:snore",
+    "tm:steelwing",
+    "tm:attract",
+    "tm:revenge",
+    "tm:assurance",
+    "tm:round",
+    "tm:brutalswing",
+    "tm:breakingswipe",
+    "tm:roar",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:roost",
+    "tm:frustration",
+    "tm:smackdown",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:torment",
+    "tm:skydrop",
+    "tm:swagger",
+    "tm:confide",
+    "tm:triattack",
+    "tm:irontail",
+    "tm:uproar",
+    "tm:superpower",
+    "tm:allyswitch",
+    "tm:highhorsepower",
+    "tm:lashout",
+    "tm:dualwingbeat",
+    "tm:scaleshot",
+    "tm:poweruppunch",
+    "tm:honeclaws",
+    "tm:rocksmash",
+    "tm:defog",
+    "tm:meteorbeam",
+    "tm:knockoff",
+    "tm:strength"
+
+  ],
+  "labels": [
+    "gen6"
+  ],
+  "pokedex": [
+    "cobblemon.species.anobuto.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "anobuto_kabumaldo",
+      "variant": "level_up",
+      "result": "kabumaldo",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 45
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ]
+    }
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 0.7,
+    "height": 1.3,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 260,
+  "aspects": [],
+  "cannotDynamax": false,
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:razoe_claw",
+        "percentage": 5.0
+      },
+      {
+        "item": "minecraft:bone_meal",
+        "quantityRange": "0-2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "seavlbizarremon:dralily",
+  "speciesId": "cobblemon:dralily",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

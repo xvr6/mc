@@ -1,0 +1,22 @@
+{
+  "species": "cobblemon:airpy",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [
+          "plump"
+          ],
+      "poser": "cobblemon:airpy",
+      "model": "cobblemon:airpy_plump.geo",
+      "texture": "cobblemon:textures/pokemon/airpy/airpy.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "plump",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/airpy/airpy_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "portraitScale": 1.25,
+  "portraitTranslation": [ 0, 0.5, 0 ],
+  "profileScale": 0.8,
+  "profileTranslation": [ 0, 0.5, 0 ],
+  "rootBone": "joltinum",
+  "animations": {
+    "cry":  "q.bedrock_stateful('joltinum', 'cry')",
+    "pinmissile": "q.bedrock_primary('joltinum', 'physicalmortar', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('joltinum', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('joltinum', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": [ "WALK" ],
+      "animations": [
+        "q.bedrock('joltinum', 'ground_run')"
+      ],
+      "quirks": ["q.bedrock_quirk('joltinum', 'blink')"]
+    }
+  }
+}

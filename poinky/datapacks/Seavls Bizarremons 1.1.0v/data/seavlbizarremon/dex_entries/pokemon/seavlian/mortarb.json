@@ -1,0 +1,15 @@
+{
+  "id": "seavlbizarremon:mortarb",
+  "speciesId": "cobblemon:mortarb",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

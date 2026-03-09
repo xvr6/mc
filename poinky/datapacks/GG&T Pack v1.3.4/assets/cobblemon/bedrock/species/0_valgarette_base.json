@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:valgarette",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:valgarette",
+      "model": "cobblemon:valgarette.geo",
+      "texture": "cobblemon:textures/pokemon/valgarette/valgarette.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/valgarette/valgarette_shiny.png"
+    }
+  ]
+}

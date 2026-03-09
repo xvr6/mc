@@ -1,0 +1,31 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "misteamie-1",
+            "pokemon": "misteamie",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "32-61",
+            "weight": 2.0,
+            "condition": {
+                "neededNearbyBlocks": [ "create:track" ]
+            }
+        },
+        {
+            "id": "misteamie-2",
+            "pokemon": "misteamie",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-61",
+            "weight": 0.05,
+            "condition": {
+                "neededNearbyBlocks": [ "minecraft:rail" ]
+            }
+        }
+    ]
+}

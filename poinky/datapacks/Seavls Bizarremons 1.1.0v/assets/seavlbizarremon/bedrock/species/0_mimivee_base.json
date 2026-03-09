@@ -1,0 +1,35 @@
+{
+    "species": "cobblemon:mimivee",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": ["male"],
+        "poser": "seavlbizarremon:mimivee",
+        "model": "seavlbizarremon:mimivee_male.geo",
+        "texture": "seavlbizarremon:textures/pokemon/mimivee/mimivee.png",
+        "layers": []
+      },
+      {
+        "aspects": ["female"],
+        "poser": "seavlbizarremon:mimivee",
+        "model": "seavlbizarremon:mimivee_female.geo",
+        "texture": "seavlbizarremon:textures/pokemon/mimivee/mimivee.png",
+        "layers": []
+      },
+      {
+        "aspects": ["male", "shiny"],
+        "poser": "seavlbizarremon:mimivee",
+        "model": "seavlbizarremon:mimivee_male.geo",
+        "texture": "seavlbizarremon:textures/pokemon/mimivee/mimivee_shiny.png",
+        "layers": []
+      },
+      {
+        "aspects": ["female", "shiny"],
+        "poser": "seavlbizarremon:mimivee",
+        "model": "seavlbizarremon:mimivee_female.geo",
+        "texture": "seavlbizarremon:textures/pokemon/mimivee/mimivee_shiny.png",
+        "layers": []
+      }
+    ]
+  }
+  

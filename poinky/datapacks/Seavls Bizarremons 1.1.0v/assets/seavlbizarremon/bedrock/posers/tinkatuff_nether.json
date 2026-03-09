@@ -1,0 +1,35 @@
+{
+  "portraitScale": 1.7,
+  "portraitTranslation": [ 0.2, -0.2, 0 ],
+  "profileScale": 0.9,
+  "profileTranslation": [ 0, 0.35, 0 ],
+
+  "poses": {
+    "battle-idle": {
+     "poseTypes": ["STAND", "PORTRAIT", "PROFILE"],
+      "isBattle": true,
+      "isTouchingWater": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tinkatuff_nether', 'battle_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('tinkatuff_nether', 'blink')"]
+     },
+    "standing": {
+      "poseTypes": ["STAND", "NONE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tinkatuff_nether', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('tinkatuff_nether', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": [ "WALK" ],
+      "animations": [
+        "q.bedrock('tinkatuff_nether', 'ground_run')"
+      ],
+      "quirks": ["q.bedrock_quirk('tinkatuff_nether', 'blink')"]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:karstory",
+  "speciesId": "cobblemon:karstory",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

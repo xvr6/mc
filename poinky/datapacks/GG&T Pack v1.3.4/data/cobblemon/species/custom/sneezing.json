@@ -1,0 +1,119 @@
+{
+    "implemented": true,
+    "name": "sneezing",
+    "nationalPokedexNumber": 2198,
+    "primaryType": "ice",
+    "secondaryType": "poison",
+    "abilities": ["levitate", "liquidooze", "h:gooey"],
+    "baseStats": {
+        "hp": 65,
+        "attack": 70,
+        "defence": 55,
+        "special_attack": 130,
+        "special_defence": 80,
+        "speed": 90
+     },
+    "catchRate": 90,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "forms": [],
+    "baseExperienceYield": 195,
+    "experienceGroup": "medium_slow",
+    "eggCycles": 20,
+    "eggGroups": [
+        "amorphous"
+    ],
+    "behaviour": {
+        "moving": {
+            "fly": {
+                "canFly": true
+            },
+            "walk": {
+                "canWalk": false
+            }
+        }
+    },
+    "drops": {
+        "amount": "1",
+        "entries": [
+            {
+                "item": "minecraft:spider_eye",
+                "percentage": 90
+            }
+        ]
+    },
+    "moves": [
+        "1:icywind",
+        "1:poisonpowder",
+        "1:tackle",
+        "1:powdersnow",
+        "1:gust",
+        "12:clearsmog",
+        "16:assurance",
+        "20:sludge",
+        "24:mist",
+        "28:selfdestruct",
+        "32:frostbreath",
+        "38:toxic",
+        "44:belch",
+        "50:explosion",
+        "56:whirlwind",
+        "62:sheercold",
+        "tm:protect",
+        "tm:rest",
+        "tm:snore",
+        "tm:taunt",
+        "tm:endure",
+        "tm:sleeptalk",
+        "tm:venoshock",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:blizzard",
+        "tm:hail",
+        "tm:icebeam",
+        "tm:nastyplot",
+        "tm:aircutter",
+        "tm:hurricane",
+        "tm:toxicspikes",
+        "tm:acidspray",
+        "tm:gunkshot",
+        "tm:amnesia",
+        "tm:raindance",
+        "tm:assurance",
+        "tm:payback",
+        "tm:round",
+        "tm:attract",
+        "tm:selfdestruct",
+        "tm:hyperbeam",
+        "tm:substitute",
+        "tm:gyroball",
+        "tm:shadowball",
+        "tm:uproar",
+        "tm:darkpulse",
+        "tm:venomdrench",
+        "tutor:venomdrench",
+        "tutor:gigadrain",
+        "tutor:defog"
+    ],
+    "labels": [
+        "custom"
+    ],
+    "pokedex": [
+        "cobblemon.species.sneezing.desc1",
+        "cobblemon.species.sneezing.desc2"
+    ],
+    "evolutions": [],
+    "baseScale": 1,
+    "hitbox": {
+        "width": 1,
+        "height": 1.5,
+        "fixed": false
+    },
+    "baseFriendship": 70,
+    "evYield": {
+        "special_attack": 1,
+        "speed": 1
+    },
+    "height": 13,
+    "weight": 85
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:amperox",
+  "speciesId": "cobblemon:amperox",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

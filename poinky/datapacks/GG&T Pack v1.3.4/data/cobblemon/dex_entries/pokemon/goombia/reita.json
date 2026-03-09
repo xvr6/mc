@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:reita",
+  "speciesId": "cobblemon:reita",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

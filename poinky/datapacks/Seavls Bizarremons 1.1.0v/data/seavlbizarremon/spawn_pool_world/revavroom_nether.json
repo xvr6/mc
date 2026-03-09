@@ -1,0 +1,26 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "revavroom_nether-1",
+            "pokemon": "revavroom nether",
+            "presets": [],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "40-50",
+            "weight": 0.96,
+            "condition": {
+                "structures": [
+                    "minecraft:bastion_remnant",
+                    "minecraft:fortress"
+                ],
+                "biomes": [
+                    "#minecraft:is_nether"
+                ]
+            }
+        }
+    ]
+}

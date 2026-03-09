@@ -1,0 +1,36 @@
+{
+  "portraitScale": 1.8,
+  "portraitTranslation": [ -0.74, -0.3, 0 ],
+  "profileScale": 0.9,
+  "profileTranslation": [ 0, 0.35, 0 ],
+  "rootBone": "vaporila",
+  "animations": {
+    "cry":  "q.bedrock_stateful('vaporila', 'cry')"
+  },
+  "poses": {
+    "battle-idle": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head', 1, 1, 10, -10, 15, -15)",
+        "q.bedrock('vaporila', 'battle_idle')"
+    ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('vaporila', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('vaporila', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": [ "WALK" ],
+      "animations": [
+        "q.bedrock('vaporila', 'ground_run')"
+      ],
+      "quirks": ["q.bedrock_quirk('vaporila', 'blink')"]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:kamerog",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:kamerog",
+      "model": "cobblemon:kamerog.geo",
+      "texture": "cobblemon:textures/pokemon/kamerog/kamerog.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/kamerog/kamerog_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kamerog/kamerog_shiny.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/kamerog/kamerog_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

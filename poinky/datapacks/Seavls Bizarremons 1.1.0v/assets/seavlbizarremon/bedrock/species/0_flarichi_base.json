@@ -1,0 +1,51 @@
+{
+    "species": "cobblemon:flarichi",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "seavlbizarremon:flarichi",
+        "model": "seavlbizarremon:flarichi.geo",
+        "texture": "seavlbizarremon:textures/pokemon/flarichi/flarichi.png",
+        "layers": [
+          {
+            "name": "emissive",
+            "texture": {
+              "frames": [
+              "seavlbizarremon:textures/pokemon/flarichi/flarichi_emissive1.png",
+              "seavlbizarremon:textures/pokemon/flarichi/flarichi_emissive2.png",
+              "seavlbizarremon:textures/pokemon/flarichi/flarichi_emissive3.png",
+              "seavlbizarremon:textures/pokemon/flarichi/flarichi_emissive4.png"
+              ],
+              "fps": 5,
+              "loop": true
+          },
+            "emissive": true,
+            "translucent": true
+          }
+        ]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "seavlbizarremon:textures/pokemon/flarichi/flarichi_shiny.png",
+        "layers": [
+          {
+            "name": "emissive",
+            "texture": {
+              "frames": [
+              "seavlbizarremon:textures/pokemon/flarichi/flarichi_emissive1.png",
+              "seavlbizarremon:textures/pokemon/flarichi/flarichi_emissive2.png",
+              "seavlbizarremon:textures/pokemon/flarichi/flarichi_emissive3.png",
+              "seavlbizarremon:textures/pokemon/flarichi/flarichi_emissive4.png"
+              ],
+              "fps": 5,
+              "loop": true
+          },
+            "emissive": true,
+            "translucent": true
+          }
+        ]
+      }
+    ]
+  }
+  

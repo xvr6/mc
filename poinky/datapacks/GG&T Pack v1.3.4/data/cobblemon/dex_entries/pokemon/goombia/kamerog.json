@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:kamerog",
+  "speciesId": "cobblemon:kamerog",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

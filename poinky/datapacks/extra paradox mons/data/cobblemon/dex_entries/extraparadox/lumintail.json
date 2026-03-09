@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lumintail",
+  "speciesId": "cobblemon:lumintail",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "normal",
+      "unlockForms": [
+        "normal"
+      ]
+    }
+  ],
+  "variations": []
+}

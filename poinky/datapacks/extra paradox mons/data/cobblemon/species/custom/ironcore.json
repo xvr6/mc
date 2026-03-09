@@ -1,0 +1,158 @@
+{
+  "implemented": true,
+  "name": "ironcore",
+  "nationalPokedexNumber": 9902,
+  "primaryType": "poison",
+  "secondaryType": "psychic",
+  "abilities": [
+    "quarkdrive"
+  ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:ender_pearl",
+        "quantityRange": "2"
+      },
+      {
+        "item": "cobblemon:starf_berry",
+        "percentage": 10
+      }
+    ]
+  },
+  "baseStats": {
+    "hp": 88,
+    "attack": 66,
+    "defence": 158,
+    "special_attack": 98,
+    "special_defence": 128,
+    "speed": 52
+  },
+"behaviour": {
+   "resting": {
+     "canSleep": true,
+     "willSleepOnBed": false,
+     "depth": "normal",
+     "light": "0-4"
+    }
+   },
+  "catchRate": 10,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 169,
+  "experienceGroup": "slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:hypnosis",
+    "1:nastyplot",
+    "1:storedpower",
+    "1:hex",
+    "1:amnesia",
+    "1:willowisp",
+    "1:lightscreen",
+    "21:toxicspikes",
+    "23:trickroom",
+    "26:thunderwave",
+    "31:nightshade",
+    "36:acidarmor",
+    "39:psychicnoise",
+    "43:calmmind",
+    "48:expandingforce",
+    "50:recover",
+    "57:psychic",
+    "64:malignantchain",
+    "71:dreameater",
+    "78:destinybond",
+    "85:futuresight",
+    "tm:sludgebomb",
+    "tm:fireblast",
+    "tm:magnetbomb",
+    "tm:sunnyday",
+    "tm:gunkshot",
+    "tm:sludgewave",
+    "tm:shadowball",
+    "tm:nightshade",
+    "tm:smackdown",
+    "tm:poltergeist",
+    "tm:knockoff",
+    "tm:dazzlinggleam",
+    "tm:scald",
+    "tm:acidspray",
+    "tm:trickroom",
+    "tm:aurasphere",
+    "tm:dragonpulse",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:blastburn",
+    "tm:willowisp",
+    "tm:thunder",
+    "tm:focusblast",
+    "tm:fireblast",
+    "tm:psychicterrain",
+    "tm:mistyterrain",
+    "tm:overheat",
+    "tm:ironhead",
+    "tm:helpinghand",
+    "tm:thunderbolt",
+    "tm:icebeam",
+    "tm:irondefense",
+    "tm:toxic",
+    "tm:triattack",
+    "tm:payback",
+    "tm:darkpulse",
+    "tm:workup",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:electricterrain",
+    "tm:hyperbeam",
+    "tm:moonblast",
+    "tm:rest",
+    "tm:gigaimpact",
+    "tm:smartstrike",
+    "tm:flashcannon",
+    "tm:heatcrash",
+    "tm:heatwave",
+    "tm:psyshock",
+    "tm:takedown",
+    "tm:sleeptalk",
+    "tm:doubleedge",
+    "tm:doubleteam",
+    "tm:substitute",
+    "tm:psychic",
+    "tm:terablast",
+    "tm:signalbeam",
+    "tm:chargebeam",
+    "tm:uturn",
+    "tm:voltswitch",
+    "tm:zenheadbutt"
+  ],
+  "labels": [
+    "gen9",
+    "paradox"
+  ],
+  "pokedex": [
+    "They may seem docile or rather peaceful, but if you get too close, they'll poison and send you into a deep slumber with various toxins."
+  ],
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "height": 2,
+  "weight": 134,
+  "aspects": [],
+  "cannotDynamax": false,
+  "hitbox": {
+    "width": 1,
+    "height": 1.3,
+    "fixed": false
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "target": "cobblemon:vaporeon",
+  "evolutions": [
+    {
+      "id": "vaporeon_vaporila",
+      "variant": "item_interact",
+      "result": "vaporila",
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:netherite_ingot"
+    }
+  ]
+}

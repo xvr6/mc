@@ -1,0 +1,33 @@
+{
+    "species": "cobblemon:tinkaton",
+    "order": 1,
+    "variations": [
+      {
+        "aspects": [ "nether" ],
+        "poser": "seavlbizarremon:tinkaton_nether",
+        "model": "seavlbizarremon:tinkaton_nether.geo",
+        "texture": "seavlbizarremon:textures/pokemon/0959_tinkaton/tinkaton_nether.png",
+        "layers": [
+          {
+            "name": "emissive",
+            "texture": "seavlbizarremon:textures/pokemon/0959_tinkaton/tinkaton_nether_emissive.png",
+            "emissive": true,
+            "translucent": true
+          }
+        ]
+      },
+      {
+        "aspects": [ "nether", "shiny" ],
+        "texture": "seavlbizarremon:textures/pokemon/0959_tinkaton/tinkaton_nether_shiny.png",
+        "layers": [
+          {
+            "name": "emissive",
+            "texture": "seavlbizarremon:textures/pokemon/0959_tinkaton/tinkaton_nether_shiny_emissive.png",
+            "emissive": true,
+            "translucent": true
+          }
+        ]
+      }
+    ]
+  }
+  

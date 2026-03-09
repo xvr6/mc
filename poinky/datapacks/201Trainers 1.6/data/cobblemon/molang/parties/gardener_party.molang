@@ -1,0 +1,12 @@
+t.player_highest_level = q.player.party.highest_level;
+t.player_average_level = q.player.party.average_level;
+t.party_count = math.random_integer(1,1);
+t.pokemon_level = ((t.player_highest_level + t.player_average_level) / 2);
+
+t.1 = 'corphish level=' + (t.pokemon_level);
+
+loop(t.party_count, {
+  t.result = q.random(t.1);
+  q.party.add_by_properties(t.result)
+});
+return true;

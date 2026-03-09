@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:snowkie",
+  "speciesId": "cobblemon:snowkie",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

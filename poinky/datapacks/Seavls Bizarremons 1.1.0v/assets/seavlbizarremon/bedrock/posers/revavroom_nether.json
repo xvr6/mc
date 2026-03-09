@@ -1,0 +1,21 @@
+{
+  "portraitScale": 1.7,
+  "portraitTranslation": [ -0.78, -0.8, 0 ],
+  "profileScale": 0.65,
+  "profileTranslation": [ 0, 0.7, 0 ],
+  "rootBone": "revavroom",
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "q.bedrock('revavroom_nether', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [ "WALK" ],
+      "animations": [
+        "q.bedrock('revavroom_nether', 'ground_walk')"
+      ]
+    }
+  }
+}

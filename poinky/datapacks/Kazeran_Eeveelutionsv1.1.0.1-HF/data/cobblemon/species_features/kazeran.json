@@ -1,0 +1,6 @@
+{
+  "keys": [ "kazeran" ],
+  "type": "flag",
+  "isAspect": true,
+  "default": false
+}

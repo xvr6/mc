@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:tourist",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:standard",
+      "model": "cobblemon:alex.geo",
+      "texture": "cobblemon:textures/npcs/trainers/tourist.png",
+      "layers": []
+    }
+  ]
+}

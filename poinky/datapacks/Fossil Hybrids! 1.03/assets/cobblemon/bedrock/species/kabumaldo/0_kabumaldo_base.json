@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:kabumaldo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:kabumaldo",
+      "model": "cobblemon:kabumaldo.geo",
+      "texture": "cobblemon:textures/pokemon/kabumaldo/kabumaldo.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/kabumaldo/kabumaldo_shiny.png"
+    }
+  ]
+}

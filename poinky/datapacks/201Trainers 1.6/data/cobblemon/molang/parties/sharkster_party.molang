@@ -1,0 +1,22 @@
+t.player_highest_level = q.player.party.highest_level;
+t.player_average_level = q.player.party.average_level;
+t.party_count = math.random_integer(4,5);
+t.pokemon_level = ((t.player_highest_level + t.player_average_level) / 2);
+
+t.1 = 'garchomp level=' + (t.pokemon_level);
+t.2 = 'aggron level=' + (t.pokemon_level);
+t.3 = 'trevenant level=' + (t.pokemon_level);
+t.4 = 'scolipede level=' + (t.pokemon_level);
+t.5 = 'noivern level=' + (t.pokemon_level);
+t.6 = 'tyranitar level=' + (t.pokemon_level);
+t.7 = 'krookodile level=' + (t.pokemon_level);
+t.8 = 'kingambit level=' + (t.pokemon_level);
+t.9 = 'hydreigon level=' + (t.pokemon_level);
+
+
+
+loop(t.party_count, {
+  t.result = q.random(t.1, t.2, t.3, t.4, t.5,t.6,t.7,t.8,t.9);
+  q.party.add_by_properties(t.result)
+});
+return true;

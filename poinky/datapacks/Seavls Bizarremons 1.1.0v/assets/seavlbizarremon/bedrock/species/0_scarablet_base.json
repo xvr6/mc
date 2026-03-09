@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:scarablet",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "seavlbizarremon:scarablet",
+        "model": "seavlbizarremon:scarablet.geo",
+        "texture": "seavlbizarremon:textures/pokemon/scarablet/scarablet.png"
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "seavlbizarremon:textures/pokemon/scarablet/scarablet_shiny.png",
+        "layers": []
+      }
+    ]
+  }
+  

@@ -1,0 +1,15 @@
+{
+  "id": "seavlbizarremon:joltinum",
+  "speciesId": "cobblemon:joltinum",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

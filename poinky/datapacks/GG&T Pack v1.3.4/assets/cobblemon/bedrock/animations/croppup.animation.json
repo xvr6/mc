@@ -1,0 +1,156 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.croppup.ground_idle": {
+			"loop": true,
+			"bones": {
+				"arm_left": {
+					"rotation": [-242.74507, "74.3371+Math.cos((query.anim_time) * 90 * 2 - 90) * 2", -221.4719]
+				},
+				"arm_left2": {
+					"rotation": [2.47909, 21.70403, -2.96015]
+				},
+				"finger_left1": {
+					"rotation": [7.85952, 17.34551, 2.35666]
+				},
+				"finger_left2": {
+					"rotation": [3.13388, 17.22575, 10.47479]
+				},
+				"arm_right": {
+					"rotation": [0, 0, -100],
+					"position": [0.125, 0, 0]
+				},
+				"torso": {
+					"rotation": ["0+Math.cos((query.anim_time) * 90 * 2 - 90) * 1", 0, 0],
+					"position": [0, "0+Math.cos((query.anim_time) * 90 * 2) * 0.1", 0]
+				},
+				"head": {
+					"rotation": ["8.1567+Math.cos((query.anim_time) * 90 * 2 - 120) * -2", 7.54677, -4.88084]
+				},
+				"ear_right": {
+					"rotation": [0, 0, "0+Math.cos((query.anim_time) * 90 * 2 - 120) * 5"]
+				},
+				"ear_left": {
+					"rotation": [0, 0, "0+Math.cos((query.anim_time) * 90 * 2 - 120) * -5"]
+				},
+				"leaf_front": {
+					"rotation": ["0+Math.cos((query.anim_time) * 90 * 2 - 90) * 2", 0, 0]
+				},
+				"leaf_front2": {
+					"rotation": ["0+Math.cos((query.anim_time) * 90 * 2 - 140) * 5", 0, 0]
+				},
+				"leaf_front3": {
+					"rotation": ["0+Math.cos((query.anim_time) * 90 * 2 - 220) * 7", 0, 0]
+				},
+				"leaf_back": {
+					"rotation": ["0+Math.cos((query.anim_time) * 90 * 2 - 150) * -2", 0, 0]
+				},
+				"leaf_back2": {
+					"rotation": ["0+Math.cos((query.anim_time) * 90 * 2 - 260) * -5", 0, 0]
+				},
+				"leaf_right": {
+					"rotation": ["0+Math.cos((query.anim_time) * 90 * 2 - 180) * -2", 0, 0]
+				},
+				"leaf_right2": {
+					"rotation": ["0+Math.cos((query.anim_time) * 90 * 2 - 320) * -5", 0, 0]
+				},
+				"leaf_right3": {
+					"rotation": ["0+Math.cos((query.anim_time) * 90 * 2 - 320) * -5", 0, 0]
+				},
+				"leaf_left": {
+					"rotation": ["0+Math.cos((query.anim_time) * 90 * 2 - 120) * -2", 0, 0]
+				},
+				"leaf_left2": {
+					"rotation": ["0+Math.cos((query.anim_time) * 90 * 2 - 170) * -5", 0, 0]
+				},
+				"leaf_left3": {
+					"rotation": ["0+Math.cos((query.anim_time) * 90 * 2 - 220) * -5", 0, 0]
+				}
+			}
+		},
+		"animation.croppup.ground_walk": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [0, "0+Math.cos((query.anim_time) * 90 * 4) * 12", "0+Math.cos((query.anim_time) * 90 * 4 - 90) * 5"],
+					"position": [0, "0+Math.cos((query.anim_time) * 90 * 8) * -0.2", 0]
+				},
+				"arm_left": {
+					"rotation": ["0+Math.cos((query.anim_time) * 90 * 8 - 100) * 6", 70, 25],
+					"position": [-0.5, 0, 0]
+				},
+				"arm_left2": {
+					"rotation": [0, 35, 0]
+				},
+				"finger_left1": {
+					"rotation": [0, 10, 0]
+				},
+				"finger_left2": {
+					"rotation": [0, 20, 12.5]
+				},
+				"finger_left3": {
+					"rotation": [0, 0, -22.5]
+				},
+				"arm_right": {
+					"rotation": [0, 0, -90],
+					"position": [1, 0, 0]
+				},
+				"head": {
+					"rotation": ["0+Math.cos((query.anim_time) * 90 * 8 - 100) * 3", "0+Math.cos((query.anim_time) * 90 * 4 + 10) * -12", 0]
+				},
+				"leaf_front": {
+					"rotation": ["0+Math.cos((query.anim_time) * 90 * 8 - 120) * -1", 0, 0]
+				},
+				"leaf_front2": {
+					"rotation": ["0+Math.cos((query.anim_time) * 90 * 8 - 160) * -8", 0, 0]
+				},
+				"leaf_back": {
+					"rotation": ["0+Math.cos((query.anim_time) * 90 * 8 - 120) * 3", 0, 0]
+				},
+				"leaf_back2": {
+					"rotation": ["0+Math.cos((query.anim_time) * 90 * 8 - 160) * 3", 0, 0]
+				},
+				"leaf_back3": {
+					"rotation": ["0+Math.cos((query.anim_time) * 90 * 8 - 240) * 12", 0, 0]
+				},
+				"leaf_right": {
+					"rotation": ["0+Math.cos((query.anim_time) * 90 * 8 - 120) * 3", 0, 0]
+				},
+				"leaf_right2": {
+					"rotation": ["0+Math.cos((query.anim_time) * 90 * 8 - 160) * 3", 0, 0]
+				},
+				"leaf_right3": {
+					"rotation": ["0+Math.cos((query.anim_time) * 90 * 8 - 240) * 12", 0, 0]
+				},
+				"leaf_left": {
+					"rotation": ["0+Math.cos((query.anim_time) * 90 * 8 - 120) * 3", 0, 0]
+				},
+				"leaf_left2": {
+					"rotation": ["0+Math.cos((query.anim_time) * 90 * 8 - 160) * 3", 0, 0]
+				},
+				"leaf_left3": {
+					"rotation": ["0+Math.cos((query.anim_time) * 90 * 8 - 240) * 12", 0, 0]
+				}
+			}
+		},
+		"animation.croppup.blink": {
+			"animation_length": 0.16667,
+			"bones": {
+				"eyelid_left": {
+					"position": {
+						"0.0": [0, 0, -0.1],
+						"0.125": [0, 0, -0.1],
+						"0.1667": [0, 0, 0]
+					}
+				},
+				"eyelid_right": {
+					"position": {
+						"0.0": [0, 0, -0.1],
+						"0.125": [0, 0, -0.1],
+						"0.1667": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:anemini",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:anemini",
+      "model": "cobblemon:anemini.geo",
+      "texture": "cobblemon:textures/pokemon/anemini/anemini.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/anemini/anemini_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+ "portraitScale": 2.3,
+ "portraitTranslation": [-0.1, 0.58, 0],
+ "profileScale": 0.75,
+ "profileTranslation": [0, 0.68, 0],
+ "animations": {
+ },
+ "poses": {
+   "battle-standing": {
+     "poseTypes": ["STAND"],
+     "isBattle": true,
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('glidera', 'battle_idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('glidera', 'blink')"]
+   },
+   "standing": {
+     "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+     "isBattle": false,
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('glidera', 'ground_idle')"
+     ],
+     "quirks": [
+       "q.bedrock_quirk('glidera', 'blink')"
+     ]
+   },
+   "walking": {
+     "poseTypes": ["WALK"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('glidera', 'ground_walk')"
+     ],
+     "quirks": ["q.bedrock_quirk('glidera', 'blink')"]
+   },
+   "hover": {
+     "poseTypes": ["HOVER"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('glidera', 'air_idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('glidera', 'blink')"]
+   },
+   "fly": {
+     "poseTypes": ["FLY"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('glidera', 'air_fly')"
+     ],
+     "quirks": ["q.bedrock_quirk('glidera', 'blink')"]
+   },
+   "float": {
+     "poseTypes": ["FLOAT"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('glidera', 'ground_idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('glidera', 'blink')"]
+   },
+   "swim": {
+     "poseTypes": ["SWIM"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('glidera', 'ground_walk')"
+     ],
+     "quirks": ["q.bedrock_quirk('glidera', 'blink')"]
+   },
+   "sleep": {
+     "poseTypes": ["SLEEP"],
+     "animations": ["q.bedrock('glidera', 'sleep')"]
+   },
+   "shoulder_left": {
+     "poseTypes": ["SHOULDER_LEFT"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('glidera', 'ground_idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('glidera', 'blink')"]
+   },
+   "shoulder_right": {
+     "poseTypes": ["SHOULDER_RIGHT"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('glidera', 'ground_idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('glidera', 'blink')"]
+   }
+ }
+}

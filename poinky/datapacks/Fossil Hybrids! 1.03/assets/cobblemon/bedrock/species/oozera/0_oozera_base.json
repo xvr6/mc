@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:oozera",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:oozera",
+      "model": "cobblemon:oozera.geo",
+      "texture": "cobblemon:textures/pokemon/oozera/oozera.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/oozera/oozera_shiny.png"
+    }
+  ]
+}

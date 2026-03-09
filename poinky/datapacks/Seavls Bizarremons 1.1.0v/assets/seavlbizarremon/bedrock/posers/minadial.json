@@ -1,0 +1,23 @@
+{
+  "portraitScale": 1.75,
+  "portraitTranslation": [ -0.1, -0.6, 0 ],
+  "profileScale": 0.85,
+  "profileTranslation": [ 0, 0.45, 0 ],
+  "rootBone": "minadial",
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "q.bedrock('minadial', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('minadial', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": [ "WALK" ],
+      "animations": [
+        "q.bedrock('minadial', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('minadial', 'blink')"]
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "portraitScale": 1.2,
+  "portraitTranslation": [0, 0.5, 0],
+  "profileScale": 0.6,
+  "profileTranslation": [0, 0.7, 0],
+  "rootBone": "ironcore",
+  "animations": {
+    "cry": "q.bedrock_stateful('ironcore', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.bedrock('ironcore', 'ground_idle')"
+      ],
+      "transformedParts": [
+         {
+           "part": "chain_left",
+           "isVisible": false
+         },
+         {
+           "part": "chain_right",
+           "isVisible": false
+         }
+        ],
+      "quirks": []
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.bedrock('ironcore', 'ground_walk')"
+      ],
+      "transformedParts": [
+         {
+           "part": "chain_left",
+           "isVisible": false
+         },
+         {
+           "part": "chain_right",
+           "isVisible": false
+         }
+        ],
+      "quirks": []
+    },
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('ironcore', 'battle_idle')"
+      ],
+      "transformedParts": [
+         {
+           "part": "chain_left",
+           "isVisible": true
+         },
+         {
+           "part": "chain_right",
+           "isVisible": true
+         }
+        ],
+      "quirks": []
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('ironcore', 'sleep')"],
+      "transformedParts": [
+         {
+           "part": "chain_left",
+           "isVisible": false
+         },
+         {
+           "part": "chain_right",
+           "isVisible": false
+         }
+        ],
+      "quirks": []
+    }
+    }
+  }

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:irondrone",
+  "speciesId": "cobblemon:irondrone",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "normal",
+      "unlockForms": [
+        "normal"
+      ]
+    }
+  ],
+  "variations": []
+}

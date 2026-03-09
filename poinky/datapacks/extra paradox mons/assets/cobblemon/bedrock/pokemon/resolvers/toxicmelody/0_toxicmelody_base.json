@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:toxicmelody",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:toxicmelody",
+      "model": "cobblemon:toxicmelody.geo",
+      "texture": "cobblemon:textures/pokemon/toxicmelody/toxicmelody.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/toxicmelody/toxicmelody_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/toxicmelody/toxicmelody_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/toxicmelody/toxicmelody_shiny_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    }
+  ]
+}

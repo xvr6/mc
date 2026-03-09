@@ -1,0 +1,60 @@
+{
+    "enabled": false,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+		{
+            "id": "goom-1",
+            "pokemon": "goom",
+            "presets": [
+                "natural",
+                "derelict"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "3-20",
+            "weight":1.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        },
+        {
+            "id": "goom-2",
+            "pokemon": "goom",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "5-30",
+            "weight":2.5,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_mushroom"
+                ]
+            }
+        },
+        {
+            "id": "goom-3",
+            "pokemon": "goom",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "3-25",
+            "weight":10.0,
+            "condition": {
+                "biomes": [
+                    "minecraft:mushroom_fields"
+                ]
+            }
+        }
+    ]
+}

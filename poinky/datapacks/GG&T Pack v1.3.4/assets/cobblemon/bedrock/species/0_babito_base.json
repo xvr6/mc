@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:babito",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:babito",
+      "model": "cobblemon:babito.geo",
+      "texture": "cobblemon:textures/pokemon/babito/babito.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/babito/babito_shiny.png"
+    }
+  ]
+}

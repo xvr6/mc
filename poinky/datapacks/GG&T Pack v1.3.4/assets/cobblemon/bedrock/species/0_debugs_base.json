@@ -1,0 +1,33 @@
+{
+  "species": "cobblemon:debugs",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:debugs",
+      "model": "cobblemon:debugs.geo",
+      "texture": "cobblemon:textures/pokemon/debugs/debugs.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/debugs/debugs_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+	  "poser": "cobblemon:debugs_shiny",
+      "texture": "cobblemon:textures/pokemon/debugs/debugs_shiny.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/debugs/debugs_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

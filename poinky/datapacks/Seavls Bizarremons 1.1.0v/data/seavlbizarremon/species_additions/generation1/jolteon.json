@@ -1,0 +1,13 @@
+{
+  "target": "cobblemon:jolteon",
+  "evolutions": [
+    {
+      "id": "jolteon_joltinum",
+      "variant": "item_interact",
+      "result": "joltinum",
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:netherite_ingot"
+    }
+  ]
+}

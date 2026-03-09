@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:crinaurus",
+  "speciesId": "cobblemon:crinaurus",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

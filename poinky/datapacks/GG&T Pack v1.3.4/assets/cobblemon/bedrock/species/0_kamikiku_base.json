@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:kamikiku",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:kamikiku",
+      "model": "cobblemon:kamikiku.geo",
+      "texture": "cobblemon:textures/pokemon/kamikiku/kamikiku.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kamikiku/kamikiku_shiny.png"
+    }
+  ]
+}

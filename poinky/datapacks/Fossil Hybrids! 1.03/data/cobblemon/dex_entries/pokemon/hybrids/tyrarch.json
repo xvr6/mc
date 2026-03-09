@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tyrarch",
+  "speciesId": "cobblemon:tyrarch",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

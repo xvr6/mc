@@ -1,0 +1,13 @@
+name = "Dye Depot"
+filename = "dye_depot-2.0.2-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/dl88rsIq/versions/LcGfPPua/dye_depot-2.0.2-neoforge.jar"
+hash-format = "sha512"
+hash = "d25286514154adab80980e3c0c8fcac52aeffc911207f29ac970ee1195db1a249ffb2ba6fd1fe2886aeb9f202beffdb2638e8ac3d46d975199f40e057b7479b5"
+
+[update]
+[update.modrinth]
+mod-id = "dl88rsIq"
+version = "LcGfPPua"

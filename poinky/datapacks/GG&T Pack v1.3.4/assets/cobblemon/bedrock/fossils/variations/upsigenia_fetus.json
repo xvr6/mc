@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:upsigenia_fetus",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:upsigenia_fetus",
+      "model": "cobblemon:upsigenia_fetus.geo",
+      "texture": "cobblemon:textures/fossils/upsigenia.png",
+      "layers": []
+    }
+  ]
+}

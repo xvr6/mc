@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:shieldanyte",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:shieldanyte",
+      "model": "cobblemon:shieldanyte_fetus.geo",
+      "texture": "cobblemon:textures/fossils/shieldanyte_fetus.png",
+      "layers": []
+    }
+  ]
+}

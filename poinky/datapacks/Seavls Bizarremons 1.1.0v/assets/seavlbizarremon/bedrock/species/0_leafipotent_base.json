@@ -1,0 +1,33 @@
+{
+    "species": "cobblemon:leafipotent",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "seavlbizarremon:leafipotent",
+        "model": "seavlbizarremon:leafipotent.geo",
+        "texture": "seavlbizarremon:textures/pokemon/leafipotent/leafipotent.png",
+        "layers": [
+          {
+            "name": "emissive",
+            "texture": "seavlbizarremon:textures/pokemon/leafipotent/leafipotent_emissive.png",
+            "emissive": true,
+            "translucent": true
+          }
+        ]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "seavlbizarremon:textures/pokemon/leafipotent/leafipotent_shiny.png",
+        "layers": [
+          {
+            "name": "emissive",
+            "texture": "seavlbizarremon:textures/pokemon/leafipotent/leafipotent_shiny_emissive.png",
+            "emissive": true,
+            "translucent": true
+          }
+        ]
+      }
+    ]
+  }
+  

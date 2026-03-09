@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:tyrarch",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": ["ore-copper"],
+      "poser": "cobblemon:tyrarch",
+      "model": "cobblemon:tyrarch.geo",
+      "texture": "cobblemon:textures/pokemon/tyrarch/tyrarch_copper.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/tyrarch/tyrarch_copper_shiny.png"
+    }
+  ]
+}

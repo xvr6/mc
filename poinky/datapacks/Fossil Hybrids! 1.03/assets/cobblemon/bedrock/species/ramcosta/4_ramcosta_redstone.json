@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:ramcosta",
+  "order": 4,
+  "variations": [
+    {
+      "aspects": ["ore-redstone"],
+      "poser": "cobblemon:ramcosta",
+      "model": "cobblemon:ramcosta.geo",
+      "texture": "cobblemon:textures/pokemon/ramcosta/ramcosta_redstone.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/ramcosta/ramcosta_redstone_shiny.png"
+    }
+  ]
+}

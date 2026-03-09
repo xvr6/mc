@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ironjustice",
+  "speciesId": "cobblemon:ironjustice",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "normal",
+      "unlockForms": [
+        "normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "seavlbizarremon:leafipotent",
+  "speciesId": "cobblemon:leafipotent",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

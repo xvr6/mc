@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:feralwish",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:feralwish",
+      "model": "cobblemon:feralwish.geo",
+      "texture": "cobblemon:textures/pokemon/feralwish/feralwish.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/feralwish/feralwish_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/feralwish/feralwish_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/feralwish/feralwish_shiny_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    }
+  ]
+}

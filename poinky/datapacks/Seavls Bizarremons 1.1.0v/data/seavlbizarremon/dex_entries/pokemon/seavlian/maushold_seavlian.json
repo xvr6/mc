@@ -1,0 +1,15 @@
+{
+  "id": "seavlbizarremon:maushold_seavlian",
+  "speciesId": "cobblemon:maushold",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "seavlian",
+      "unlockForms": [
+        "seavlian"
+      ]
+    }
+  ],
+  "variations": []
+}

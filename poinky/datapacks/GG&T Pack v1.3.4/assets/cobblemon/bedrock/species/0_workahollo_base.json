@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:workahollo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:workahollo",
+      "model": "cobblemon:workahollo.geo",
+      "texture": "cobblemon:textures/pokemon/workahollo/workahollo.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/workahollo/workahollo_shiny.png"
+    }
+  ]
+}

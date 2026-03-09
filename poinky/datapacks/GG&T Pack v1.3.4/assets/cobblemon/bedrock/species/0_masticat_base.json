@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:masticat",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:masticat",
+      "model": "cobblemon:masticat.geo",
+      "texture": "cobblemon:textures/pokemon/masticat/masticat.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/masticat/masticat_shiny.png"
+    }
+  ]
+}

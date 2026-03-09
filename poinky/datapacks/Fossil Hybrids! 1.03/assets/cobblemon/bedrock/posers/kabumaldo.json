@@ -1,0 +1,90 @@
+{
+ "portraitScale": 2.3,
+ "portraitTranslation": [-0.1, 0.58, 0],
+ "profileScale": 0.75,
+ "profileTranslation": [0, 0.68, 0],
+ "animations": {
+ },
+ "poses": {
+   "battle-standing": {
+     "poseTypes": ["STAND"],
+     "isBattle": true,
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('kabumaldo', 'battle_idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('kabumaldo', 'blink')"]
+   },
+   "standing": {
+     "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+     "isBattle": false,
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('kabumaldo', 'ground_idle')"
+     ],
+     "quirks": [
+       "q.bedrock_quirk('kabumaldo', 'blink')"
+     ]
+   },
+   "walking": {
+     "poseTypes": ["WALK"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('kabumaldo', 'ground_walk')"
+     ],
+     "quirks": ["q.bedrock_quirk('kabumaldo', 'blink')"]
+   },
+   "hover": {
+     "poseTypes": ["HOVER"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('kabumaldo', 'ground_idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('kabumaldo', 'blink')"]
+   },
+   "fly": {
+     "poseTypes": ["FLY"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('kabumaldo', 'ground_idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('kabumaldo', 'blink')"]
+   },
+   "float": {
+     "poseTypes": ["FLOAT"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('kabumaldo', 'ground_idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('kabumaldo', 'blink')"]
+   },
+   "swim": {
+     "poseTypes": ["SWIM"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('kabumaldo', 'ground_walk')"
+     ],
+     "quirks": ["q.bedrock_quirk('kabumaldo', 'blink')"]
+   },
+   "sleep": {
+     "poseTypes": ["SLEEP"],
+     "animations": ["q.bedrock('kabumaldo', 'sleep')"]
+   },
+   "shoulder_left": {
+     "poseTypes": ["SHOULDER_LEFT"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('kabumaldo', 'ground_idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('kabumaldo', 'blink')"]
+   },
+   "shoulder_right": {
+     "poseTypes": ["SHOULDER_RIGHT"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('kabumaldo', 'ground_idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('kabumaldo', 'blink')"]
+   }
+ }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "seavlbizarremon:mechabang",
+  "speciesId": "cobblemon:mechabang",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

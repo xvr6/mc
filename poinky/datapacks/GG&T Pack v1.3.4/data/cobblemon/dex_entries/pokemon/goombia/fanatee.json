@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:fanatee",
+  "speciesId": "cobblemon:fanatee",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lymming",
+  "speciesId": "cobblemon:lymming",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

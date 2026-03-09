@@ -1,0 +1,13 @@
+{
+  "target": "cobblemon:sharpedo",
+  "evolutions": [
+    {
+      "id": "sharpedo_megwar",
+      "variant": "item_interact",
+      "result": "megwar",
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:netherite_ingot"
+    }
+  ]
+}

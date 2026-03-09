@@ -1,0 +1,32 @@
+{
+  "baseScale": 1,
+  "resourceIdentifier": "cobblemon:jessie",
+  "names": [
+    "Jessie"
+  ],
+  "presets": [
+    "cobblemon:base_npc_npcs"
+  ],
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobblemon:base_npc_npcs"
+  },
+  "skill": 5,
+  "party": {
+    "type": "script",
+    "script": "cobblemon:jessie_party",
+    "isStatic": false
+  },
+  "ai": [
+    {
+      "type": "cobblemon:apply_behaviours",
+      "behaviours": [
+        "cobblemon:looks_around",
+        "cobblemon:battle_reward_pokedollars4_npcs",
+        "cobblemon:battle_reward_npcs",
+        "cobblemon:battle_cooldown_npcs",
+        "cobblemon:wanders"
+      ]
+    }
+  ]
+}

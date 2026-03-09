@@ -1,0 +1,15 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.shieldanyte_fetus.sleep": {
+			"loop": true,
+			"animation_length": 4,
+			"bones": {
+				"body": {
+					"rotation": ["20+math.sin(query.anim_time*90*1-60)*5", 0, 0],
+					"position": [0, "2+math.sin(query.anim_time*90*1)", 0]
+				}
+			}
+		}
+	}
+}

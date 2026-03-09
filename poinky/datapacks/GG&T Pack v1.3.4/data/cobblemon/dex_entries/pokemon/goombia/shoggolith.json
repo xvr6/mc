@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:shoggolith",
+  "speciesId": "cobblemon:shoggolith",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

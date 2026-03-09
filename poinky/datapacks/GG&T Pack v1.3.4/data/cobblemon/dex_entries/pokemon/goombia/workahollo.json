@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:workahollo",
+  "speciesId": "cobblemon:workahollo",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

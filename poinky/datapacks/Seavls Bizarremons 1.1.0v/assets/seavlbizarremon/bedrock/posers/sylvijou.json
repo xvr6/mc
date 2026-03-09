@@ -1,0 +1,41 @@
+{
+  "portraitScale": 1.7,
+  "portraitTranslation": [ -0.36, 0.3, 0 ],
+  "profileScale": 0.8,
+  "profileTranslation": [ 0, 0.5, 0 ],
+  "rootBone": "sylvijou",
+  "animations": {
+    "cry":  "q.bedrock_stateful('sylvijou', 'cry')",
+    "physical": "q.bedrock_primary('sylvijou', 'physical', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-idle": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('sylvijou', 'ground_idle')"
+    ],
+    "quirks": [
+      "q.bedrock_quirk('sylvijou', 'quirk1')",
+      "q.bedrock_quirk('sylvijou', 'blink')"
+    ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('sylvijou', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('sylvijou', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": [ "WALK" ],
+      "animations": [
+        "q.bedrock('sylvijou', 'ground_run')"
+      ],
+      "quirks": ["q.bedrock_quirk('sylvijou', 'blink')"]
+    }
+  }
+}

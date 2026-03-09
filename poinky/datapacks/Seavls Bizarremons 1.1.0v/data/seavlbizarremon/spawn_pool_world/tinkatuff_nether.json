@@ -1,0 +1,29 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "tinkatuff_nether-1",
+            "pokemon": "tinkatuff nether",
+            "presets": [],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "24-38",
+            "weight": 5.4,
+            "condition": {
+                "structures": [
+                    "minecraft:bastion_remnant",
+                    "minecraft:fortress"
+                ],
+                "biomes": [
+                    "#minecraft:is_nether"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:gold_block"
+                ]
+            }
+        }
+    ]
+}

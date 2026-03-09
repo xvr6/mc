@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:anobuto",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:anobuto",
+      "model": "cobblemon:anobuto.geo",
+      "texture": "cobblemon:textures/pokemon/anobuto/anobuto.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/anobuto/anobuto_shiny.png"
+    }
+  ]
+}

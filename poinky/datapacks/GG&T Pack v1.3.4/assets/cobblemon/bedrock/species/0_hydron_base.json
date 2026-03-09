@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:hydron",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:hydron",
+      "model": "cobblemon:hydron.geo",
+      "texture": "cobblemon:textures/pokemon/hydron/hydron.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/hydron/hydron_shiny.png"
+    }
+  ]
+}

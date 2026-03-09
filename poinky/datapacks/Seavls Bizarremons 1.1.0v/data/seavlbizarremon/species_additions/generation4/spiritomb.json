@@ -1,0 +1,18 @@
+{
+  "target": "cobblemon:spiritomb",
+  "evolutions": [
+    {
+      "id": "spiritomb_spiritempest",
+      "variant": "item_interact",
+      "result": "spiritempest",
+      "learnableMoves": [],
+      "requirements": [
+       {
+         "variant": "biome",
+         "biomeCondition": "minecraft:soul_sand_valley"
+       }
+      ],
+      "requiredContext": "minecraft:ender_eye"
+    }
+   ]
+}

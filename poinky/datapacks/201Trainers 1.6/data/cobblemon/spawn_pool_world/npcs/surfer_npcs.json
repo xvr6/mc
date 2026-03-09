@@ -1,0 +1,31 @@
+{
+  "enabled": true,
+  "spawns": [
+    {
+      "id": "",
+      "npc": "surfer_npcs",
+      "presets": [
+        "natural"
+      ],
+      "type": "npc",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "weight": 0.2,
+      "level": "1",
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_coast",
+          "#cobblemon:is_ocean"
+        ]
+      },
+      "anticondition": {
+        "neededNearbyBlocks": [
+          "minecraft:rail",
+          "minecraft:powered_rail",
+          "minecraft:detector_rail",
+          "minecraft:activator_rail"
+        ]
+      }
+    }
+  ]
+}

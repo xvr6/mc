@@ -1,0 +1,54 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.nephigan.ground_idle": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"rotation": [0, "Math.cos((query.anim_time + 0.1) * 90*1) * -10", 0],
+					"position": [0, "Math.cos((query.anim_time + 0.0) * 90*2) * -0.2", 0]
+				},
+				"arm_left": {
+					"rotation": [0, "Math.cos((query.anim_time) * 90*1) * -10", "55+Math.cos((query.anim_time) * 90*2) * 10"],
+					"position": [0, "Math.cos((query.anim_time) * 90*2) * -0.2", 0]
+				},
+				"arm_right": {
+					"rotation": [0, "-(Math.cos((query.anim_time) * 90*1) * 10)", "-55+Math.cos((query.anim_time) * 90*2) * -10"],
+					"position": [0, "Math.cos((query.anim_time) * 90*2) * -0.2", 0]
+				},
+				"torso": {
+					"rotation": [0, "Math.cos((query.anim_time + 0.0) * 90*1) * 10", 0],
+					"position": [0, "Math.cos((query.anim_time + 0.3) * 90*2) * -0.2", 0]
+				}
+			}
+		},
+		"animation.nephigan.ground_walk": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"position": [0, "Math.cos((query.anim_time + 0.4) * 90*8) * -0.1", 0]
+				},
+				"leg_left": {
+					"rotation": ["Math.cos((query.anim_time + 0.0) * 90*4) * 12", 0, 0],
+					"position": [0, "Math.cos((query.anim_time + 0.2) * 90*8) * 0.2", 0]
+				},
+				"arm_left": {
+					"rotation": [0, "-(Math.cos((query.anim_time + 0.0) * 90*4) * -12)", 65],
+					"position": [0, "Math.cos((query.anim_time + 0.1) * 90*8) * 0.2", 0]
+				},
+				"leg_right": {
+					"rotation": ["Math.cos((query.anim_time + 0.0) * 90*4) * -12", 0, 0],
+					"position": [0, "Math.cos((query.anim_time + 0.2) * 90*8) * 0.2", 0]
+				},
+				"arm_right": {
+					"rotation": [0, "Math.cos((query.anim_time + 0.0) * 90*4) * 12", -65],
+					"position": [0, "Math.cos((query.anim_time + 0.1) * 90*8) * 0.2", 0]
+				},
+				"torso": {
+					"rotation": [0, 0, "Math.cos((query.anim_time + 0.4) * 90*4) * -0.8"],
+					"position": [0, "Math.cos((query.anim_time + 0.5) * 90*8) * -0.2", 0]
+				}
+			}
+		}
+	}
+}

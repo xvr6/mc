@@ -1,0 +1,50 @@
+{
+  "portraitScale": 1.79,
+  "portraitTranslation": [ -1.9, -0.87, 0 ],
+  "profileScale": 0.45,
+  "profileTranslation": [ 0, 0.8, 0 ],
+  "rootBone": "dragash",
+  "animations": {
+    "physical": "q.bedrock_primary('dragash', 'physical', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-idle": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "isTouchingWater": false,
+      "animations": ["q.bedrock('dragash', 'battle_idle')"]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('dragash', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('dragash', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": [ "WALK" ],
+      "animations": [
+        "q.bedrock('dragash', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('dragash', 'blink')"]
+    },
+    "hover": {
+      "poseTypes": ["HOVER"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('dragash', 'air_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('dragash', 'blink')"]
+    },
+    "fly": {
+      "poseTypes": ["FLY"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('dragash', 'air_fly')"
+      ],
+      "quirks": ["q.bedrock_quirk('dragash', 'blink')"]
+    }
+  }
+}

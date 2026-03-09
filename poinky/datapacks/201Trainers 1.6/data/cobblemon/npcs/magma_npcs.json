@@ -1,0 +1,32 @@
+{
+  "baseScale": 0.85,
+  "resourceIdentifier": "cobblemon:magma",
+  "names": [
+    "Team Magma Grunt"
+  ],
+  "presets": [
+    "cobblemon:base_npc_npcs"
+  ],
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobblemon:base_npc_npcs"
+  },
+  "skill": 5,
+  "party": {
+    "type": "script",
+    "script": "cobblemon:magma_party",
+    "isStatic": false
+  },
+  "ai": [
+    {
+      "type": "cobblemon:apply_behaviours",
+      "behaviours": [
+        "cobblemon:looks_around",
+        "cobblemon:battle_reward_pokedollars_npcs",
+        "cobblemon:battle_reward_npcs",
+        "cobblemon:battle_cooldown_npcs",
+        "cobblemon:wanders"
+      ]
+    }
+  ]
+}

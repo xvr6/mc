@@ -1,0 +1,33 @@
+{
+    "species": "cobblemon:sylvijou",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "seavlbizarremon:sylvijou",
+        "model": "seavlbizarremon:sylvijou.geo",
+        "texture": "seavlbizarremon:textures/pokemon/sylvijou/sylvijou.png",
+        "layers": [
+          {
+            "name": "emissive",
+            "texture": "seavlbizarremon:textures/pokemon/sylvijou/sylvijou_emissive.png",
+            "emissive": true,
+            "translucent": true
+          }
+        ]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "seavlbizarremon:textures/pokemon/sylvijou/sylvijou_shiny.png",
+        "layers": [
+          {
+            "name": "emissive",
+            "texture": "seavlbizarremon:textures/pokemon/sylvijou/sylvijou_emissive.png",
+            "emissive": true,
+            "translucent": true
+          }
+        ]
+      }
+    ]
+  }
+  

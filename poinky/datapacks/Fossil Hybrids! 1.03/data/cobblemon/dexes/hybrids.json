@@ -1,0 +1,23 @@
+{
+  "type": "cobblemon:simple_pokedex_def",
+  "id": "cobblemon:simple",
+  "sortOrder": 12,
+  "entries": [
+    "cobblemon:tyrarch",
+    "cobblemon:archerantrum",
+    "cobblemon:leemaura",
+    "cobblemon:crinaurus",
+    "cobblemon:tirtonidos",
+    "cobblemon:ramcosta",
+    "cobblemon:pawleo",
+    "cobblemon:blazera",
+    "cobblemon:oozera",
+    "cobblemon:glidera",
+    "cobblemon:divera",
+    "cobblemon:anobuto",
+    "cobblemon:kabumaldo",
+    "cobblemon:shieldanyte",
+    "cobblemon:omastiodon"
+
+  ]
+}

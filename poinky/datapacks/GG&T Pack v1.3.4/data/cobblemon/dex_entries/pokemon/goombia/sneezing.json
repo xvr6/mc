@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:sneezing",
+  "speciesId": "cobblemon:sneezing",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

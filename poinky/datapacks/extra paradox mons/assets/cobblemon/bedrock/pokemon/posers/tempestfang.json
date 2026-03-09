@@ -1,0 +1,53 @@
+{
+  "portraitScale": 0.7,
+  "portraitTranslation": [0, 3, 0],
+  "profileScale": 0.3,
+  "profileTranslation": [0, 1.4, 0],
+  "animations": {
+    "cry": "q.bedrock_stateful('tempestfang', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('tempestfang', 'ground_idle')"
+      ],
+      "quirks": []
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.bedrock('tempestfang', 'ground_idle')"
+      ],
+      "quirks": []
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.bedrock('tempestfang', 'ground_walk')"
+      ],
+      "quirks": []
+    },
+    "hover": {
+      "poseTypes": ["HOVER"],
+      "animations": [
+        "q.bedrock('tempestfang', 'air_idle')"
+      ],
+      "quirks": []
+    },
+    "fly": {
+      "poseTypes": ["FLY"],
+      "animations": [
+        "q.bedrock('tempestfang', 'air_fly')"
+      ],
+      "quirks": []
+    }
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('tempestfang', 'sleep')"]
+    }
+}
+ 

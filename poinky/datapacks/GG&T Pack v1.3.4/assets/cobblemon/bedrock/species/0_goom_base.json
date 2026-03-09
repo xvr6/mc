@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:goom",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:goom",
+      "model": "cobblemon:goom.geo",
+      "texture": "cobblemon:textures/pokemon/goom/goom.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goom/goom_shiny.png"
+    }
+  ]
+}

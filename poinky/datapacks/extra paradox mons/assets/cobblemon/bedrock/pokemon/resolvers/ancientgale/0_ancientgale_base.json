@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:ancientgale",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ancientgale",
+      "model": "cobblemon:ancientgale.geo",
+      "texture": "cobblemon:textures/pokemon/ancientgale/ancientgale.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/ancientgale/ancientgale_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/ancientgale/ancientgale_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/ancientgale/ancientgale_shiny_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    }
+  ]
+}

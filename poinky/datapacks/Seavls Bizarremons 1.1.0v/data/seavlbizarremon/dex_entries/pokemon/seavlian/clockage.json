@@ -1,0 +1,15 @@
+{
+  "id": "seavlbizarremon:clockage",
+  "speciesId": "cobblemon:clockage",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

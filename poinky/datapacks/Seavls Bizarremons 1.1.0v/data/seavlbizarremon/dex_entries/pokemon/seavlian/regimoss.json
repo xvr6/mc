@@ -1,0 +1,15 @@
+{
+  "id": "seavlbizarremon:regimoss",
+  "speciesId": "cobblemon:regimoss",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

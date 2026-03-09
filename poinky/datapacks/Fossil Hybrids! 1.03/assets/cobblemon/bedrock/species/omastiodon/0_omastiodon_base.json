@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:omastiodon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:omastiodon",
+      "model": "cobblemon:omastiodon.geo",
+      "texture": "cobblemon:textures/pokemon/omastiodon/omastiodon.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/omastiodon/omastiodon_shiny.png"
+    }
+  ]
+}

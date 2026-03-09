@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:emposter",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:emposter",
+      "model": "cobblemon:emposter.geo",
+      "texture": "cobblemon:textures/pokemon/emposter/emposter.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/emposter/emposter_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/emposter/emposter_shiny.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/emposter/emposter_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

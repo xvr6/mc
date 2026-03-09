@@ -1,0 +1,15 @@
+{
+  "type": "cobblemon:simple_pokedex_def",
+  "id": "cobblemon:kazeran",
+  "sortOrder": 69,
+  "entries": [
+    "cobblemon:vaporeon-kazeran",
+    "cobblemon:flareon-kazeran",
+    "cobblemon:espeon-kazeran",
+    "cobblemon:umbreon-kazeran",
+    "cobblemon:leafeon-kazeran",
+    "cobblemon:glaceon-kazeran",
+    "cobblemon:sylveon-kazeran",
+    "cobblemon:jolteon-kazeran"
+  ]
+}

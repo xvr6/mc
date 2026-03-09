@@ -1,0 +1,27 @@
+{
+  "head": "head",
+  "portraitScale": 2.3,
+  "portraitTranslation": [ 0, 3.2, 0 ],
+  "profileScale": 0.5,
+  "profileTranslation": [ 0, 1, 0 ],
+  "faint": "bedrock(karstory, faint)",
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "animations": [ "bedrock(karstory, ground_idle)", "look" ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [ "WALK" ],
+      "animations": [ "bedrock(karstory, ground_walk)" ]
+    }
+  }
+}

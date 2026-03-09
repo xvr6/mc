@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:tyrarch",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:tyrarch",
+      "model": "cobblemon:tyrarch.geo",
+      "texture": "cobblemon:textures/pokemon/tyrarch/tyrarch.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/tyrarch/tyrarch_shiny.png"
+    }
+  ]
+}

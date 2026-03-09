@@ -1,0 +1,16 @@
+{
+  "type": "choice",
+  "keys": ["ore"],
+  "default": "false",
+  "choices": [
+    "copper",
+    "iron",
+    "gold",
+    "diamond",
+    "netherite",
+    "emerald",
+    "redstone"
+  ],
+  "isAspect": true,
+  "aspectFormat": "ore-{{choice}}"
+}

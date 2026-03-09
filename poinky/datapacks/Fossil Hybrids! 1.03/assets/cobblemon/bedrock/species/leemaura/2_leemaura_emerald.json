@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:leemaura",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["ore-emerald"],
+      "poser": "cobblemon:leemaura",
+      "model": "cobblemon:leemaura.geo",
+      "texture": "cobblemon:textures/pokemon/leemaura/leemaura_emerald.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/leemaura/leemaura_emerald_shiny.png"
+    }
+  ]
+}

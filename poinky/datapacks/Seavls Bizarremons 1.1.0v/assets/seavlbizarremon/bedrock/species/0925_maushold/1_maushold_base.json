@@ -1,0 +1,19 @@
+{
+    "species": "cobblemon:maushold",
+    "order": 1,
+    "variations": [
+      {
+        "aspects": [ "seavlian" ],
+        "poser": "seavlbizarremon:maushold_seavlian",
+        "model": "seavlbizarremon:maushold_seavlian.geo",
+        "texture": "seavlbizarremon:textures/pokemon/0925_maushold/maushold_seavlian.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "seavlian", "shiny" ],
+        "texture": "seavlbizarremon:textures/pokemon/0925_maushold/maushold_seavlian_shiny.png",
+        "layers": []
+      }
+    ]
+  }
+  

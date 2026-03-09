@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:holinoli",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:holinoli",
+      "model": "cobblemon:holinoli.geo",
+      "texture": "cobblemon:textures/pokemon/holinoli/holinoli.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/holinoli/holinoli_shiny.png"
+    }
+  ]
+}

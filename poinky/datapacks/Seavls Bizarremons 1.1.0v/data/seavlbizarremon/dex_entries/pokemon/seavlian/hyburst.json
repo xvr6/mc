@@ -1,0 +1,15 @@
+{
+  "id": "seavlbizarremon:hyburst",
+  "speciesId": "cobblemon:hyburst",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,32 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "thespatine-1",
+            "pokemon": "thespatine",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "25-45",
+            "weight": 2.5,
+            "weightMultiplier": {
+                "multiplier": 4.0,
+                "condition": {
+                    "timeRange": "twilight"
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "minecraft:frozen_river",
+                    "#byg:is_icy"
+                ]
+            }
+        }
+    ]
+}

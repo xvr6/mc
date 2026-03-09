@@ -1,0 +1,18 @@
+{
+  "target": "cobblemon:glaceon",
+  "evolutions": [
+    {
+      "id": "glaceon_glacida",
+      "variant": "item_interact",
+      "result": "glacida",
+      "learnableMoves": [],
+      "requirements": [
+       {
+         "variant": "biome",
+         "biomeCondition": "minecraft:ice_spikes"
+       }
+      ],
+      "requiredContext": "cobblemon:never_melt_ice"
+    }
+   ]
+}

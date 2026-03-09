@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:larvern",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:larvern",
+      "model": "cobblemon:larvern.geo",
+      "texture": "cobblemon:textures/pokemon/larvern/larvern.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/larvern/larvern_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+for_each(t.loser, c.npc_losers, {
+  !q.is_blank(t.loser.npc.config.quest_update_on_player_wins) ? {
+    for_each(t.player_winner, c.player_winners, {
+      v.player = t.player_winner.player;
+      v.npc = t.loser.npc;
+      q.set_query('player', t.player_winner.player);
+      q.set_query('npc', t.loser.npc);
+      q.run_molang(t.loser.npc.config.quest_update_on_player_wins);
+    });
+  };
+
+  t.loser.npc.config.toggle_battle_cooldown && !q.is_blank(t.loser.npc.config.battle_cooldown_time) ? {
+    for_each(t.player_winner, c.player_winners, {
+      v.player = t.player_winner.player;
+      v.npc = t.loser.npc;
+      q.set_query('player', t.player_winner.player);
+      q.set_query('npc', t.loser.npc);
+
+      t.cooldown = 3600000 * t.loser.npc.config.battle_cooldown_time;
+      t.cooldown_time = q.system_time_millis + t.cooldown;
+      
+      q.player.set_npc_variable(t.loser.npc, 'cooldown_time', t.cooldown_time);
+      q.player.save_data();
+    });
+  };
+
+  t.loser.npc.config.toggle_battle_reward ? {
+    for_each(t.player_winner, c.player_winners, {
+      v.player = t.player_winner.player;
+      v.npc = t.loser.npc;
+      q.set_query('player', t.player_winner.player);
+      q.set_query('npc', t.loser.npc);
+      q.run_command('loot give ' + q.player.username + ' loot 201:rewards');
+    });
+  };
+
+  t.loser.npc.config.toggle_battle_reward_p5 ? {
+    for_each(t.player_winner, c.player_winners, {
+      v.player = t.player_winner.player;
+      v.npc = t.loser.npc;
+      q.set_query('player', t.player_winner.player);
+      q.set_query('npc', t.loser.npc);
+      t.modifier = q.player.data.ng.modifier;
+      t.random_dollars5 = math.random_integer(q.npc.config.battle_reward_amount_p5_1 * (t.modifier != 0 ? t.modifier : 1), q.npc.config.battle_reward_amount_p5_2 * (t.modifier != 0 ? t.modifier : 1));
+      q.run_command('deposit ' + t.random_dollars5 + ' impactor:pokedollars ' + q.player.username);
+      q.player.tell('§aYou have received §l' + t.random_dollars5 + '$§r§a for winning!§r');
+    });
+  };
+
+  t.loser.npc.config.toggle_battle_reward_p4 ? {
+    for_each(t.player_winner, c.player_winners, {
+      v.player = t.player_winner.player;
+      v.npc = t.loser.npc;
+      q.set_query('player', t.player_winner.player);
+      q.set_query('npc', t.loser.npc);
+      t.modifier = q.player.data.ng.modifier;
+      t.random_dollars4 = math.random_integer(q.npc.config.battle_reward_amount_p4_1 * (t.modifier != 0 ? t.modifier : 1), q.npc.config.battle_reward_amount_p4_2 * (t.modifier != 0 ? t.modifier : 1));
+      q.run_command('deposit ' + t.random_dollars4 + ' impactor:pokedollars ' + q.player.username);
+      q.player.tell('§aYou have received §l' + t.random_dollars4 + '$§r§a for winning!§r');
+    });
+  };
+
+  t.loser.npc.config.toggle_battle_reward_p3 ? {
+    for_each(t.player_winner, c.player_winners, {
+      v.player = t.player_winner.player;
+      v.npc = t.loser.npc;
+      q.set_query('player', t.player_winner.player);
+      q.set_query('npc', t.loser.npc);
+      t.modifier = q.player.data.ng.modifier;
+      t.random_dollars3 = math.random_integer(q.npc.config.battle_reward_amount_p3_1 * (t.modifier != 0 ? t.modifier : 1), q.npc.config.battle_reward_amount_p3_2 * (t.modifier != 0 ? t.modifier : 1));
+      q.run_command('deposit ' + t.random_dollars3 + ' impactor:pokedollars ' + q.player.username);
+      q.player.tell('§aYou have received §l' + t.random_dollars3 + '$§r§a for winning!§r');
+    });
+  };
+
+  t.loser.npc.config.toggle_battle_reward_p2 ? {
+    for_each(t.player_winner, c.player_winners, {
+      v.player = t.player_winner.player;
+      v.npc = t.loser.npc;
+      q.set_query('player', t.player_winner.player);
+      q.set_query('npc', t.loser.npc);
+      t.modifier = q.player.data.ng.modifier;
+      t.random_dollars2 = math.random_integer(q.npc.config.battle_reward_amount_p2_1 * (t.modifier != 0 ? t.modifier : 1), q.npc.config.battle_reward_amount_p2_2 * (t.modifier != 0 ? t.modifier : 1));
+      q.run_command('deposit ' + t.random_dollars2 + ' impactor:pokedollars ' + q.player.username);
+      q.player.tell('§aYou have received §l' + t.random_dollars2 + '$§r§a for winning!§r');
+    });
+  };
+
+  t.loser.npc.config.toggle_battle_reward_p ? {
+    for_each(t.player_winner, c.player_winners, {
+      v.player = t.player_winner.player;
+      v.npc = t.loser.npc;
+      q.set_query('player', t.player_winner.player);
+      q.set_query('npc', t.loser.npc);
+      t.modifier = q.player.data.ng.modifier;
+      t.random_dollars = math.random_integer(q.npc.config.battle_reward_amount_p_1 * (t.modifier != 0 ? t.modifier : 1), q.npc.config.battle_reward_amount_p_2 * (t.modifier != 0 ? t.modifier : 1));
+      q.run_command('deposit ' + t.random_dollars + ' impactor:pokedollars ' + q.player.username);
+      q.player.tell('§aYou have received §l' + t.random_dollars + '$§r§a for winning!§r');
+    });
+  };
+
+  t.loser.npc.config.toggle_battle_reward_b ? {
+    for_each(t.player_winner, c.player_winners, {
+      v.player = t.player_winner.player;
+      v.npc = t.loser.npc;
+      q.set_query('player', t.player_winner.player);
+      q.set_query('npc', t.loser.npc);
+      q.run_command('deposit ' + q.npc.config.battle_reward_amount_b + ' impactor:battlepoints ' + q.player.username);
+      q.player.tell('§b§lYou have received ' + t.loser.npc.config.battle_reward_amount_b + ' BP for winning!§r');
+    });
+  };
+});

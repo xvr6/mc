@@ -1,0 +1,22 @@
+{
+  "species": "cobblemon:vaalzebub",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [
+          "female"
+          ],
+      "poser": "cobblemon:vaalzebub",
+      "model": "cobblemon:vaalzebub_female.geo",
+      "texture": "cobblemon:textures/pokemon/vaalzebub/vaalzebub_female.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "female",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/vaalzebub/vaalzebub_female_shiny.png"
+    }
+  ]
+}

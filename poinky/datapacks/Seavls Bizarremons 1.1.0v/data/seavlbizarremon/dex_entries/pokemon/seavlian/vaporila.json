@@ -1,0 +1,15 @@
+{
+  "id": "seavlbizarremon:vaporila",
+  "speciesId": "cobblemon:vaporila",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:crinaurus",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": ["ore-iron"],
+      "poser": "cobblemon:crinaurus",
+      "model": "cobblemon:crinaurus.geo",
+      "texture": "cobblemon:textures/pokemon/crinaurus/crinaurus_iron.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/crinaurus/crinaurus_iron_shiny.png"
+    }
+  ]
+}

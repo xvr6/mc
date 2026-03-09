@@ -1,0 +1,120 @@
+{
+    "implemented": true,
+    "name": "isuckle",
+    "nationalPokedexNumber": 2150,
+    "primaryType": "ice",
+    "abilities": [
+        "sharpness",
+        "h:innerfocus"
+    ],
+    "baseStats": {
+        "hp": 45,
+        "attack": 80,
+        "defence": 40,
+        "special_attack": 35,
+        "special_defence": 55,
+        "speed": 65
+    },
+    "catchRate": 195,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "forms": [],
+    "baseExperienceYield": 70,
+    "experienceGroup": "fast",
+    "eggCycles": 30,
+    "eggGroups": [
+        "flying"
+    ],
+    "drops": {
+        "amount": "2",
+        "entries": [
+            {
+                "item": "minecraft:blue_ice",
+                "quantityRange": "1-4",
+                "percentage": 80
+            },
+            {
+                "item": "cobblemon:never_melt_ice",
+                "percentage": 2.5
+            }
+        ]
+    },
+    "moves": [
+        "1:scratch",
+        "1:growl",
+        "5:absorb",
+        "8:astonish",
+        "10:supersonic",
+        "16:iceshard",
+        "20:icefang",
+        "23:mist",
+        "30:slash",
+        "37:frostbreath",
+        "40:nightslash",
+        "42:icespinner",
+        "tm:takedown",
+        "tm:protect",
+        "tm:lowkick",
+        "tm:thief",
+        "tm:facade",
+        "tm:aerialace",
+        "tm:snarl",
+        "tm:metalclaw",
+        "tm:icywind",
+        "tm:lowsweep",
+        "tm:fling",
+        "tm:avalanche",
+        "tm:endure",
+        "tm:snowscape",
+        "tm:dig",
+        "tm:falseswipe",
+        "tm:icepunch",
+        "tm:sleeptalk",
+        "tm:taunt",
+        "tm:rest",
+        "tm:swordsdance",
+        "tm:substitute",
+        "tm:icespinner",
+        "tutor:gigadrain",
+        "eggmove:acrobatics",
+        "eggmove:quickguard",
+        "eggmove:crosschop"
+    ],
+    "labels": [
+        "custom"
+    ],
+    "pokedex": [
+        "cobblemon.species.isuckle.desc1",
+        "cobblemon.species.isuckle.desc2"
+    ],
+    "evolutions": [
+        {
+            "id": "isuckle_desmotel_lvl",
+            "variant": "level_up",
+            "result": "desmotel",
+            "consumeHeldItem": false,
+            "requirements": [
+                {
+                    "variant": "level",
+                    "minLevel": 30
+                },
+                {
+                    "variant": "time_range",
+                    "range": "night"
+                }
+            ]
+        }
+    ],
+    "baseScale": 0.9,
+    "hitbox": {
+        "width": 0.7,
+        "height": 0.9,
+        "fixed": false
+    },
+    "baseFriendship": 70,
+    "evYield": {
+        "attack": 1
+    },
+    "height": 5,
+    "weight": 90
+}

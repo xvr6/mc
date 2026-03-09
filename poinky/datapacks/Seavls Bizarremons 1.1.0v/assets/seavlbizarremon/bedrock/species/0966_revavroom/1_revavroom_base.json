@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:revavroom",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [ "nether" ],
+      "poser": "seavlbizarremon:revavroom_nether",
+      "model": "seavlbizarremon:revavroom_nether.geo",
+      "texture": "seavlbizarremon:textures/pokemon/0966_revavroom/revavroom_nether.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "seavlbizarremon:textures/pokemon/0966_revavroom/revavroom_nether_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [ "nether", "shiny" ],
+      "texture": "seavlbizarremon:textures/pokemon/0966_revavroom/revavroom_nether_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "seavlbizarremon:textures/pokemon/0966_revavroom/revavroom_nether_shiny_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

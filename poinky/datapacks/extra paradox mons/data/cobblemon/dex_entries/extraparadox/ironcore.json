@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ironcore",
+  "speciesId": "cobblemon:ironcore",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "normal",
+      "unlockForms": [
+        "normal"
+      ]
+    }
+  ],
+  "variations": []
+}

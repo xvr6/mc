@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:archerantrum",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["ore-diamond"],
+      "poser": "cobblemon:archerantrum",
+      "model": "cobblemon:archerantrum.geo",
+      "texture": "cobblemon:textures/pokemon/archerantrum/archerantrum_diamond.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny","ore-diamond" ],
+      "texture": "cobblemon:textures/pokemon/archerantrum/archerantrum_diamond_shiny.png"
+    }
+  ]
+}

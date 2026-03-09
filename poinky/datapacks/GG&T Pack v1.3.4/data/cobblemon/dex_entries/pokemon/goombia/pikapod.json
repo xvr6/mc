@@ -1,0 +1,16 @@
+{
+  "id": "cobblemon:pikapod",
+  "speciesId": "cobblemon:pikapod",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+      "Normal"
+      ]
+    }
+  ],
+  "variations": [
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:cigarat",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:cigarat",
+      "model": "cobblemon:cigarat.geo",
+      "texture": "cobblemon:textures/pokemon/cigarat/cigarat.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/cigarat/cigarat_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/cigarat/cigarat_shiny.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/cigarat/cigarat_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "maxScale": 0.5,
+  "yTranslation": 0.1,
+  "yGrowthPoint": 0.5625,
+  "poses": {
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('leemaura_fetus', 'sleep')"]
+    }
+  }
+}

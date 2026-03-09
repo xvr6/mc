@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:drosphilia",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:drosphilia_male",
+      "model": "cobblemon:drosphilia_male.geo",
+      "texture": "cobblemon:textures/pokemon/drosphilia/drosphilia_male.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/drosphilia/drosphilia_male_shiny.png"
+    }
+  ]
+}

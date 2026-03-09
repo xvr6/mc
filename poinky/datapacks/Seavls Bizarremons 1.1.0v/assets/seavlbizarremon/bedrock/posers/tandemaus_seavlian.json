@@ -1,0 +1,70 @@
+{
+  "portraitScale": 1.55,
+  "portraitTranslation": [ -0.15, 0.13, 0 ],
+  "profileScale": 0.5,
+  "profileTranslation": [ 0, 0.9, 0 ],
+  "rootBone": "tandemaus_seavlian",
+  "animations": {
+    "cry":  "q.bedrock_stateful('tandemaus_seavlian', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isTouchingWater": false,
+      "animations": [
+        "q.look('head1')",
+        "q.look('head2')",
+        "q.bedrock('tandemaus_seavlian', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tandemaus_seavlian', 'blink1')",
+        "q.bedrock_quirk('tandemaus_seavlian', 'blink2')"
+    ]
+    },
+    "walking": {
+      "poseTypes": [ "WALK" ],
+      "isTouchingWater": false,
+      "animations": [
+        "q.look('head1')",
+        "q.look('head2')",
+        "q.bedrock('tandemaus_seavlian', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tandemaus_seavlian', 'blink1')",
+        "q.bedrock_quirk('tandemaus_seavlian', 'blink2')"
+    ]
+    },
+    "surface_float": {
+      "poseTypes": [ "STAND" ],
+      "isTouchingWater": true,
+      "animations": [ 
+        "q.look('head1')",
+        "q.look('head2')",
+        "q.bedrock('tandemaus_seavlian', 'surfacewater_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tandemaus_seavlian', 'blink1')",
+        "q.bedrock_quirk('tandemaus_seavlian', 'blink2')"
+    ],
+    "namedAnimations": {
+      "cry": "q.bedrock_stateful('tandemaus_seavlian', 'surfacewater_cry')"
+    }
+    },
+    "surface_swim": {
+      "poseTypes": [ "WALK" ],
+      "isTouchingWater": true,
+      "animations": [
+        "q.look('head1')",
+        "q.look('head2')",
+        "q.bedrock('tandemaus_seavlian', 'surfacewater_swim')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tandemaus_seavlian', 'blink1')",
+        "q.bedrock_quirk('tandemaus_seavlian', 'blink2')"
+    ],
+    "namedAnimations": {
+      "cry": "q.bedrock_stateful('tandemaus_seavlian', 'surfacewater_cry')"
+    }
+    }
+  }
+}

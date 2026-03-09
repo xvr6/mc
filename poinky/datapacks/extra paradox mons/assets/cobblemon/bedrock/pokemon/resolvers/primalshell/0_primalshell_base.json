@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:primalshell",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:primalshell",
+      "model": "cobblemon:primalshell.geo",
+      "texture": "cobblemon:textures/pokemon/primalshell/primalshell.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/primalshell/primalshell_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/primalshell/primalshell_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/primalshell/primalshell_shiny_emissive.png",
+          "emissive": "true"
+        }
+      ]
+    }
+  ]
+}

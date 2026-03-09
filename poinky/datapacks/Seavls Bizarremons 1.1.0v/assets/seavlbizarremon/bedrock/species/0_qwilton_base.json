@@ -1,0 +1,18 @@
+{
+    "species": "cobblemon:qwilton",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "seavlbizarremon:qwilton",
+        "model": "seavlbizarremon:qwilton.geo",
+        "texture": "seavlbizarremon:textures/pokemon/qwilton/qwilton.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "seavlbizarremon:textures/pokemon/qwilton/qwilton_shiny.png"
+      }
+    ]
+  }
+  

@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:leemaura",
+  "order": 4,
+  "variations": [
+    {
+      "aspects": ["ore-netherite"],
+      "poser": "cobblemon:leemaura",
+      "model": "cobblemon:leemaura.geo",
+      "texture": "cobblemon:textures/pokemon/leemaura/leemaura_netherite.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/leemaura/leemaura_netherite_shiny.png"
+    }
+  ]
+}

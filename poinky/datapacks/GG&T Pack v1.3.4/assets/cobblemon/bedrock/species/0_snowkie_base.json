@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:snowkie",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:snowkie",
+      "model": "cobblemon:snowkie.geo",
+      "texture": "cobblemon:textures/pokemon/snowkie/snowkie.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/snowkie/snowkie_shiny.png"
+    }
+  ]
+}

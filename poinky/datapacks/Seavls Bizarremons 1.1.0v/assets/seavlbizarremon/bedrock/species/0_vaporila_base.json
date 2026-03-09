@@ -1,0 +1,33 @@
+{
+    "species": "cobblemon:vaporila",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "seavlbizarremon:vaporila",
+        "model": "seavlbizarremon:vaporila.geo",
+        "texture": "seavlbizarremon:textures/pokemon/vaporila/vaporila.png",
+        "layers": [
+          {
+            "name": "translucent",
+            "texture": "seavlbizarremon:textures/pokemon/vaporila/vaporila_translucent.png",
+            "emissive": true,
+            "translucent": true
+          }
+        ]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "seavlbizarremon:textures/pokemon/vaporila/vaporila_shiny.png",
+        "layers": [
+          {
+            "name": "translucent",
+            "texture": "seavlbizarremon:textures/pokemon/vaporila/vaporila_translucent_shiny.png",
+            "emissive": true,
+            "translucent": true
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,130 @@
+{
+    "implemented": true,
+    "name": "desmotel",
+    "nationalPokedexNumber": 2151,
+    "primaryType": "ice",
+    "secondaryType": "fighting",
+    "abilities": [
+        "sharpness",
+        "h:innerfocus"
+    ],
+    "baseStats": {
+        "hp": 75,
+        "attack": 125,
+        "defence": 70,
+        "special_attack": 70,
+        "special_defence": 55,
+        "speed": 115
+    },
+    "catchRate": 65,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "forms": [],
+    "baseExperienceYield": 70,
+    "experienceGroup": "medium_slow",
+    "eggCycles": 30,
+    "eggGroups": [
+        "flying"
+    ],
+    "drops": {
+        "amount": "2",
+        "entries": [
+            {
+                "item": "minecraft:blue_ice",
+                "quantityRange": "1-4",
+                "percentage": 80
+            },
+            {
+                "item": "cobblemon:never_melt_ice",
+                "percentage": 2.5
+            }
+        ]
+    },
+    "moves": [
+        "1:scratch",
+        "1:growl",
+        "5:absorb",
+        "8:astonish",
+        "10:supersonic",
+        "13:meanlook",
+        "16:iceshard",
+        "20:icefang",
+        "23:mist",
+        "27:detect",
+        "30:slash",
+        "33:brickbreak",
+        "34:honeclaws",
+        "35:revenge",
+        "37:frostbreath",
+        "40:nightslash",
+        "42:icespinner",
+        "45:sacredsword",
+        "50:airslash",
+        "53:leechlife",
+        "55:taunt",
+        "60:swordsdance",
+        "tm:takedown",
+        "tm:agility",
+        "tm:scaryface",
+        "tm:protect",
+        "tm:lowkick",
+        "tm:thief",
+        "tm:facade",
+        "tm:aerialace",
+        "tm:snarl",
+        "tm:metalclaw",
+        "tm:icywind",
+        "tm:lowsweep",
+        "tm:fling",
+        "tm:avalanche",
+        "tm:endure",
+        "tm:snowscape",
+        "tm:dig",
+        "tm:falseswipe",
+        "tm:brickbreak",
+        "tm:shadowclaw",
+        "tm:icepunch",
+        "tm:foulplay",
+        "tm:sleeptalk",
+        "tm:taunt",
+        "tm:rest",
+        "tm:swordsdance",
+        "tm:substitute",
+        "tm:xscissor",
+        "tm:icespinner",
+        "tm:nastyplot",
+        "tm:blizzard",
+        "tm:icebeam",
+        "tm:gigaimpact",
+        "tm:hyperbeam",
+        "tm:revenge",
+        "tm:reversal",
+        "tm:closecombat",
+        "tm:leechlife",
+        "tm:gigadrain",
+        "tutor:gigadrain",
+        "eggmove:acrobatics",
+        "eggmove:quickguard",
+        "eggmove:crosschop"
+    ],
+    "labels": [
+        "custom"
+    ],
+    "pokedex": [
+        "cobblemon.species.desmotel.desc1",
+        "cobblemon.species.desmotel.desc2"
+    ],
+    "evolutions": [],
+    "baseScale": 0.85,
+    "hitbox": {
+        "width": 1.1,
+        "height": 1.4,
+        "fixed": false
+    },
+    "baseFriendship": 70,
+    "evYield": {
+        "attack": 2
+    },
+    "height": 11,
+    "weight": 300
+}

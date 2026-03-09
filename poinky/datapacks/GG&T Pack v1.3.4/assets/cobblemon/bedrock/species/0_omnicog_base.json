@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:omnicog",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:omnicog",
+      "model": "cobblemon:omnicog.geo",
+      "texture": "cobblemon:textures/pokemon/omnicog/omnicog.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/omnicog/omnicog_shiny.png"
+    }
+  ]
+}

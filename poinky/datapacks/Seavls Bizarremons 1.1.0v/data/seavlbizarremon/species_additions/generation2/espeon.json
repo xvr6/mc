@@ -1,0 +1,13 @@
+{
+  "target": "cobblemon:espeon",
+  "evolutions": [
+    {
+      "id": "espeon_espilevi",
+      "variant": "item_interact",
+      "result": "espilevi",
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:netherite_ingot"
+    }
+  ]
+}
