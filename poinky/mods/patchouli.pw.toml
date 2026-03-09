@@ -1,13 +1,13 @@
 name = "Patchouli"
-filename = "Patchouli-1.21.1-92-NEOFORGE.jar"
+filename = "Patchouli-1.21.1-93-NEOFORGE.jar"
 side = "both"
 
 [download]
-hash-format = "sha512"
-hash = "36cad2a2e5839fd4ee99165c4f275d1c3c0c71ed130413485e43f8506e7d2c3de2e2dbad40f90262378c6c6c5148140a473b0f7acd806e1a4bfede9c9a04600f"
+hash-format = "sha1"
+hash = "5413bb9b8fc35ebe46b06b48bf9afafbd8471140"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6842247
+file-id = 7730942
 project-id = 306770
