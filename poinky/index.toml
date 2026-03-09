@@ -69,16 +69,16 @@ file = "config/xaeroworldmap.txt"
 hash = "6a3ec46b651874c937238dd98ad2bf36a288d6e4a6c875dd37a0027adc48cb69"
 
 [[files]]
-file = "datapacks/201Trainers_1.6.zip"
-hash = "b923fb8906a0e4e848406631dd1803d19d2a94e72941e27e83ff3a057293752b"
+file = "datapacks/201Trainers 1.6.zip"
+hash = "7bb450936092958614c449ea7925d25528bb4129101fc84d7ae8eedea1dc486c"
 
 [[files]]
-file = "datapacks/GG&T_Pack_v1.3.4.zip"
-hash = "7f3e84d23f1966f7381159ca497892cdeafb3c49abb801cfec9f6c74582a632e"
+file = "datapacks/GG&T Pack v1.3.4.zip"
+hash = "086ab37d6377bc038b8d77978ca1c1b620b902924976a3d79451d22efbedb47e"
 
 [[files]]
 file = "datapacks/Kazeran_Eeveelutionsv1.1.0.1-HF.zip"
-hash = "7e3c0af0e1b42b357a400331c4e049ff7fa884871a850015e74ac05d1427b221"
+hash = "2234a0042083350c852f2db1f6f9ab0523b749fe5dd03b3ebf9990a36e10254c"
 
 [[files]]
 file = "datapacks/Laser's Additions v1.0.zip"
@@ -101,8 +101,8 @@ file = "datapacks/MundialMons.V1.3.2(Galarmons 2.0 part2).zip"
 hash = "5fa1a0ed27f4a875ba85257af11e712384807c3f4950e97927f8cafacc6b8418"
 
 [[files]]
-file = "datapacks/Seavls_Bizarremons_1.1.0v.zip"
-hash = "7046a1dc3f67b1a0b9e999257ad2bd42a6295ed082c85501d1b305360dd0dd12"
+file = "datapacks/Seavls Bizarremons 1.1.0v.zip"
+hash = "e9e2b20a01295bff4e6e2bdcc72a05877a39df81c48e609e666fc93dbfa0674a"
 
 [[files]]
 file = "datapacks/[V.1.4.1] Cobblemon Stellar Blue.zip"
@@ -110,11 +110,11 @@ hash = "86cccee53d3b692b2f0e2f1dc907ec19b3c26bfe16cbbe65b4fdcebd183c0195"
 
 [[files]]
 file = "datapacks/extra paradox mons.zip"
-hash = "f5fa4aff4b88c1a85aa77809b95d5318164a0d5850655f7127e788e1c0ad32ac"
+hash = "01445487c3f7834622b1b6a7fa37c3aed0fa0546f44b9f429546efbd49849c73"
 
 [[files]]
 file = "datapacks/pokemans_v15_toxicCloud.zip"
-hash = "c2cf5eeae678dd8bfdd45d4bbcc4ed4b49dbdbb2d28fde6e2174004c6aafc362"
+hash = "a3d9406a3238c54e403ac57e42c0f271b03a3cb2f46f1da5abcf787ea6504c46"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
