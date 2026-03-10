@@ -1142,3 +1142,8 @@ metafile = true
 file = "resourcepacks/invisible_item_frame.pw.toml"
 hash = "725da1fa86bd70fe0d0ac8c32ad6332cc015e38a21b21f4965ee0012743e3140"
 metafile = true
+
+[[files]]
+file = "resourcepacks/xaeroscobblemon.pw.toml"
+hash = "8d00514cbd63c8a83fe13119bf36776e30a195de5c47205ea664e57ce1351110"
+metafile = true
