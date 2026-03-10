@@ -37,6 +37,10 @@ file = "config/curios-client.toml"
 hash = "dcc28aa80e16236eb44c69c589d41a2ca663782a9c2d874c14cf55959499a50c"
 
 [[files]]
+file = "config/global_packs.toml"
+hash = "2eae6499a447214224cebf691b8ea4238906d72968b676c538c88edb156b74e6"
+
+[[files]]
 file = "config/mindfuldarkness-client.toml"
 hash = "e3920628719c00d298b6979e8014b1d2693d7a057024f9593e70ad751fe9f9ad"
 
