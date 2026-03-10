@@ -1,7 +1,7 @@
 services:
   mc:
     container_name: poinky_server
-    image: itzg/minecraft-server:latest
+    image: itzg/minecraft-server:stable
     ports:
       - 3623:25565
       - 8101:8100
@@ -11,9 +11,9 @@ services:
       MOTD: "poinky"
       ENABLE_WHITELIST: "TRUE"
       PACKWIZ_URL: "https://raw.githubusercontent.com/xvr6/mc/refs/heads/main/packs/poinky/pack.toml"
-      MEMORY: "20G"
-      USE_AIKAR_FLAGS: "true"
-      # USE_MEOWICE_FLAGS: "TRUE"
+      MEMORY: "16G"
+      # USE_AIKAR_FLAGS: "true"
+      USE_MEOWICE_FLAGS: "true"
       ENABLE_ROLLING_LOGS: "true"
       TYPE: "NEOFORGE"
       VERSION: "1.21.1"
