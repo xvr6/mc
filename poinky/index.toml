@@ -72,26 +72,6 @@ hash = "6d6da271a568782d91d8580d496d3ea1901c532216de2a6c60834b338328f563"
 metafile = true
 
 [[files]]
-file = "datapacks/cobblemon-stellar-blue.pw.toml"
-hash = "1481a1862f49c878ae610cfe959baa0c53fbcba6b0186ccae3668fcec59be4ba"
-metafile = true
-
-[[files]]
-file = "datapacks/extra-paradox-mons.pw.toml"
-hash = "419055b26fb505ae3b59fb200d576a52e72e428b9d399cb9c2ae1eacba0074f4"
-metafile = true
-
-[[files]]
-file = "datapacks/ggt-pack.pw.toml"
-hash = "6fedb1d77fb784a39cbbc24abe44be6e4ed525a964164f69be2e44c93b2764a8"
-metafile = true
-
-[[files]]
-file = "datapacks/mundialmons.pw.toml"
-hash = "8703040e7ee5596f96c86792440c8d793006e3dabe191857c0c587044c7612b9"
-metafile = true
-
-[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "d5c7247d9c30419e3bb652e1099864304af6c016196b6e07fb560e515fe6fe5b"
 metafile = true
