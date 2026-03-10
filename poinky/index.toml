@@ -132,11 +132,6 @@ hash = "4a7568e25cac4f4bedba140135036d9481403069a6d9513a922e9901661c05ca"
 metafile = true
 
 [[files]]
-file = "mods/alcocraft.pw.toml"
-hash = "6c42d6075c14e56f857738e87425b2d35126ca443f2438670f3e6cdc9b97e9eb"
-metafile = true
-
-[[files]]
 file = "mods/ambientsounds.pw.toml"
 hash = "45319301cd9d195e7b6d9e5cb295a88bede26266133a4dd8e51611353cacb1e8"
 metafile = true
@@ -417,11 +412,6 @@ hash = "8e5f6550359e71ecbea95705ec61fb03313550e6f481cabf48043929909aabae"
 metafile = true
 
 [[files]]
-file = "mods/curios.pw.toml"
-hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
-metafile = true
-
-[[files]]
 file = "mods/custom-player-models.pw.toml"
 hash = "d65a013fc6ad1b6e1470e05c9efe7825e988b47415a033fef6d9b91474b488cb"
 metafile = true
@@ -527,11 +517,6 @@ hash = "c6d69011793e9278c65ba14423fccdbc2421f62676bad2663ba85ad9c386ae28"
 metafile = true
 
 [[files]]
-file = "mods/enderman-overhaul.pw.toml"
-hash = "1045ba1bb46eb77e2fea9be04268c2c73c161b94f3bceddbd4c3dbff1c0bf555"
-metafile = true
-
-[[files]]
 file = "mods/endrem.pw.toml"
 hash = "db22718a1efaf2c691cf3bdddc61b0b06bedff7cb0722aa8b1bdf4f095d116cc"
 metafile = true
@@ -549,11 +534,6 @@ metafile = true
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
 hash = "11e43d47773d438897c9e445a1231ab2158b99ba24c7e59a6d69e62c1349b4b2"
-metafile = true
-
-[[files]]
-file = "mods/explorers-compass.pw.toml"
-hash = "de5ea0b6d6c303af3788a178996c39f46d260cd15a86121b1246b3591913d256"
 metafile = true
 
 [[files]]
@@ -617,16 +597,6 @@ hash = "781eba185ba5ceaf76feebbf210459d88cfda2b6864fd7d1365bf114ce9f0ce2"
 metafile = true
 
 [[files]]
-file = "mods/goblin-traders.pw.toml"
-hash = "304c18a9bdb2467463e3c9e2d728395164d7d326e86495af74d1676a61ef6096"
-metafile = true
-
-[[files]]
-file = "mods/golem-overhaul.pw.toml"
-hash = "13e3a41ddb14bb60ba1b0ad687df8cd2b6d0f801f304eb5306e1e0d2d6482468"
-metafile = true
-
-[[files]]
 file = "mods/good-ending.pw.toml"
 hash = "2d384086cf9ab631c760ef40718af9c9c877276fa98e8f99e273b7ed90059ecf"
 metafile = true
@@ -639,11 +609,6 @@ metafile = true
 [[files]]
 file = "mods/handcrafted.pw.toml"
 hash = "0004feab868f7b873c12db05aae0d0dac6c87b497490b48bb66480e7c8d0f340"
-metafile = true
-
-[[files]]
-file = "mods/hexalia.pw.toml"
-hash = "f17a1685b4c0c876f4e59984badc4e8a893308f66fc40602590c36234a1638e4"
 metafile = true
 
 [[files]]
@@ -777,11 +742,6 @@ hash = "33e1d182c5a166e070cc66157ec6f692ff08d8ddae975b564e69a37079b01950"
 metafile = true
 
 [[files]]
-file = "mods/macaws-holidays.pw.toml"
-hash = "b9c4ccbf05a9002ebdb8981caad8b2442fa851f9cea33699d41ea334938c8df0"
-metafile = true
-
-[[files]]
 file = "mods/macaws-paths-and-pavings.pw.toml"
 hash = "e04b1ac906167721ae2696ec837be362e6d6da252e8bc5c0bac29974fbae0461"
 metafile = true
@@ -827,18 +787,8 @@ hash = "5da18814472be5dc93a21886983646da3a7236413800075ac75229be82d114fa"
 metafile = true
 
 [[files]]
-file = "mods/noisium.pw.toml"
-hash = "b3e831b3e4d6ddbf23806b0fec6087eca264af1ebc04e747c89024972aaa8607"
-metafile = true
-
-[[files]]
 file = "mods/now-playing.pw.toml"
 hash = "700d7eec503d4cca8287a26354699301c0087b387598695d240bece175a3637b"
-metafile = true
-
-[[files]]
-file = "mods/obsidian-equipment!.pw.toml"
-hash = "6878f31155ad50e13c2fbc6d8b5b0314936f555b29a048e2368a545c9c6da387"
 metafile = true
 
 [[files]]
@@ -964,11 +914,6 @@ metafile = true
 [[files]]
 file = "mods/simpletms-tms-and-trs-for-cobblemon.pw.toml"
 hash = "307a39080394cbe930be57e67fb8dae37601e8f0842da10da10977d261dac07d"
-metafile = true
-
-[[files]]
-file = "mods/simply-swords.pw.toml"
-hash = "af36cf0aa85c590f2f5720da468484ed1f7197c5f00391eff41e757b93b05bc5"
 metafile = true
 
 [[files]]
@@ -1099,11 +1044,6 @@ metafile = true
 [[files]]
 file = "mods/wayfinder.pw.toml"
 hash = "1abe6615262b444ff32d257bf4908bf5b5025e349c895bc1e512604a592b99af"
-metafile = true
-
-[[files]]
-file = "mods/winter-overhaul.pw.toml"
-hash = "cef75a3276f7464779f2a293d508d1a5aa6c5504718d24977725a060397c5794"
 metafile = true
 
 [[files]]
