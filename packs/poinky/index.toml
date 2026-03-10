@@ -61,41 +61,6 @@ file = "config/vanillabackport-common.toml"
 hash = "1833951804f7f915ac3f5ae95f3d8a188555790c60c76c36c6cae124cb76e3f3"
 
 [[files]]
-file = "datapacks/201-trainers-cobblemon.pw.toml"
-hash = "095183fff656f8269396b27475daed6e724b8d4558b99439d0034891048d227a"
-metafile = true
-
-[[files]]
-file = "datapacks/cobblemon-pokemans.pw.toml"
-hash = "17485135a9e9e995386854639e10b16ab816012d778f99500714b9a76e56f876"
-metafile = true
-
-[[files]]
-file = "datapacks/cobblemon-seavls-bizarremons.pw.toml"
-hash = "6d6da271a568782d91d8580d496d3ea1901c532216de2a6c60834b338328f563"
-metafile = true
-
-[[files]]
-file = "datapacks/cobblemon-stellar-blue.pw.toml"
-hash = "1481a1862f49c878ae610cfe959baa0c53fbcba6b0186ccae3668fcec59be4ba"
-metafile = true
-
-[[files]]
-file = "datapacks/extra-paradox-mons.pw.toml"
-hash = "419055b26fb505ae3b59fb200d576a52e72e428b9d399cb9c2ae1eacba0074f4"
-metafile = true
-
-[[files]]
-file = "datapacks/ggt-pack.pw.toml"
-hash = "6fedb1d77fb784a39cbbc24abe44be6e4ed525a964164f69be2e44c93b2764a8"
-metafile = true
-
-[[files]]
-file = "datapacks/mundialmons.pw.toml"
-hash = "8703040e7ee5596f96c86792440c8d793006e3dabe191857c0c587044c7612b9"
-metafile = true
-
-[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "d5c7247d9c30419e3bb652e1099864304af6c016196b6e07fb560e515fe6fe5b"
 metafile = true
@@ -218,81 +183,6 @@ metafile = true
 [[files]]
 file = "mods/cluttered.pw.toml"
 hash = "503569d1bccf50d580e517550e8f66574d881deac197f30fedb0a18ebb5d3ff4"
-metafile = true
-
-[[files]]
-file = "mods/cobbledex-rei-emi-jei.pw.toml"
-hash = "5e3183b48b635945b83dde46c3388acb2cd782d6a01d8c414e8699cbec59df92"
-metafile = true
-
-[[files]]
-file = "mods/cobblemarks+.pw.toml"
-hash = "fb704d01edfad9e761e47059bde5426be7c31513d3568a59f2eef2fc0e634c3c"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-alatias-fakemon-pack.pw.toml"
-hash = "a88bc4f42325323a40b61b16a6845355a7227a4520d1fcb7e3d5655dcda07517"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-capture-xp.pw.toml"
-hash = "418e00920f24ef960858eec94feaa9ea7361ca2b53dda230efee45c2fbd50576"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-cobble-it.pw.toml"
-hash = "dde95446670057e55490ad8dbabcd7b54b8b740bb52600636793208d307709d4"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-counter.pw.toml"
-hash = "5298e216aa91dc3463ddd92d31b3b9fd43ee47d2b1ffce486ae4c725bfeec9ce"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-mega-showdown.pw.toml"
-hash = "7f64ed4a0fafc2f78e947b3405a38e31938a5783c4aca5d3446f0930f70a6b5d"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-move-inspector.pw.toml"
-hash = "70b871c5449d012d5bf5cad3501443013c6ee3792f80ff2e1d15a996c19c19e3"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-myths-and-legends-sidemod.pw.toml"
-hash = "908805e81c181be33244a3594475ebb5d4e9d88fc8912024420ae621d2f51367"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-pokenav.pw.toml"
-hash = "132dbb456d882d92aa41556558e5a5c2ecdded4777390ddecf8f5678d804afb8"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-spawn-notification.pw.toml"
-hash = "1790ecbcf61b6e9b0ee322dc9b6a915f9e76e33cb2c94254120dc75ef05b7e57"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-tim-core.pw.toml"
-hash = "8c60fe098708b78c9d9152dac5800211e097c78b7c20e29b48fbdd391378bef6"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-unchained.pw.toml"
-hash = "ce3d77e626d315fae2c0c7347348a7d57c038b209a4a91fa62ccc77de3d8c742"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon.pw.toml"
-hash = "bd0dd7ceb00c37cfaa945dfba23b5b2406e12be20709df8d9f82ba12a5a3a2be"
-metafile = true
-
-[[files]]
-file = "mods/cobblepedia.pw.toml"
-hash = "1d976a52bf9bf8ae519fc5a75382de094d077002a63c73c78707c1e751d66e90"
 metafile = true
 
 [[files]]
@@ -521,11 +411,6 @@ hash = "11e43d47773d438897c9e445a1231ab2158b99ba24c7e59a6d69e62c1349b4b2"
 metafile = true
 
 [[files]]
-file = "mods/extra-eeveelutions.pw.toml"
-hash = "7764ac9b49a0400de01347f01dd4cb91549dd403adad8c881cad4d300f5eeb90"
-metafile = true
-
-[[files]]
 file = "mods/framedblocks.pw.toml"
 hash = "f9b1fbbb47ce9eb83e43037c6bce1a49167743094feeef1e4c941e9252a1131d"
 metafile = true
@@ -646,23 +531,8 @@ hash = "e3c802556e3f8a52ac984bd08837442828f0af4756e2cf883e88da6f20452bc2"
 metafile = true
 
 [[files]]
-file = "mods/kazeran-eeveelutions.pw.toml"
-hash = "89d7c23357049c166f80d342fc657512a77454612becc9a2759a88d53f875cb3"
-metafile = true
-
-[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "27302b0087cf53570cd7a3b4eb550a208cbb6f6ba07210c604176155f39e0078"
-metafile = true
-
-[[files]]
-file = "mods/lasers-additions.pw.toml"
-hash = "372132d3b47b4ce5ab4d28b4d02278e04b7be4179719e13c93a8b94bfe6e1389"
-metafile = true
-
-[[files]]
-file = "mods/lasers-fakemon-pack.pw.toml"
-hash = "2a5692ac291adfb1c4b7fbf9de3e768f935c6d15ed267f7a827e3c14a510f941"
 metafile = true
 
 [[files]]
@@ -726,11 +596,6 @@ hash = "efe57fac888f82b6be033ff5fed9b9a71095e1ee65da7e26d6081cba7174f617"
 metafile = true
 
 [[files]]
-file = "mods/lively-mons.pw.toml"
-hash = "5484eb478da0c24e4e3b0253061fcd60b463639b9db78deb5358712ce73bb3c8"
-metafile = true
-
-[[files]]
 file = "mods/lootr.pw.toml"
 hash = "33e1d182c5a166e070cc66157ec6f692ff08d8ddae975b564e69a37079b01950"
 metafile = true
@@ -753,11 +618,6 @@ metafile = true
 [[files]]
 file = "mods/mindful-darkness.pw.toml"
 hash = "5caec0b7a1e4e4caf887e321d86146269267763232722d71a5c5ba13c145ebee"
-metafile = true
-
-[[files]]
-file = "mods/missingmons-cobblemon.pw.toml"
-hash = "b5fd0f5908a1ba4703edae2e485553d0cdfacdaf95f8ba63f0849ea5035545c2"
 metafile = true
 
 [[files]]
@@ -798,11 +658,6 @@ metafile = true
 [[files]]
 file = "mods/mtr-moogs-temples-reimagined.pw.toml"
 hash = "8af373c3df0a5561e90a600a7f02ee682805a2528605997bd4cf085914ba900a"
-metafile = true
-
-[[files]]
-file = "mods/navas-zamega.pw.toml"
-hash = "27914b1d105a01cc3ed0d4afacd52376b75ed9352f376aa065ba76b261794024"
 metafile = true
 
 [[files]]
@@ -943,11 +798,6 @@ metafile = true
 [[files]]
 file = "mods/shoulder-surfing-reloaded.pw.toml"
 hash = "ac93c4b88f33a165e39b7214f3a4350950247128b5ce698bebe0d8d05a7fadc9"
-metafile = true
-
-[[files]]
-file = "mods/simpletms-tms-and-trs-for-cobblemon.pw.toml"
-hash = "307a39080394cbe930be57e67fb8dae37601e8f0842da10da10977d261dac07d"
 metafile = true
 
 [[files]]
@@ -1163,11 +1013,6 @@ metafile = true
 [[files]]
 file = "resourcepacks/invisible_item_frame.pw.toml"
 hash = "725da1fa86bd70fe0d0ac8c32ad6332cc015e38a21b21f4965ee0012743e3140"
-metafile = true
-
-[[files]]
-file = "resourcepacks/xaeroscobblemon.pw.toml"
-hash = "8d00514cbd63c8a83fe13119bf36776e30a195de5c47205ea664e57ce1351110"
 metafile = true
 
 [[files]]
