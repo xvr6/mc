@@ -304,16 +304,6 @@ hash = "1d976a52bf9bf8ae519fc5a75382de094d077002a63c73c78707c1e751d66e90"
 metafile = true
 
 [[files]]
-file = "mods/connector.pw.toml"
-hash = "e487d315e7a44f917cd1ddc2da1b26e65968bc19fe6c0ac868dab3d2bb97bbf1"
-metafile = true
-
-[[files]]
-file = "mods/continuity.pw.toml"
-hash = "2e082857985c7550efdad38a1997b9805051b07fb61b0cd30921e786a8521130"
-metafile = true
-
-[[files]]
 file = "mods/cool-rain-reforged.pw.toml"
 hash = "e33ecc76027e68d811efd71733d12fd41aeaa7118f7adfecd707e36b5559bfb2"
 metafile = true
@@ -421,11 +411,6 @@ metafile = true
 [[files]]
 file = "mods/data-anchor.pw.toml"
 hash = "bd6e5a7a9e97014a895f1b4c2c93f277bfe9dda92e3386483ab46a1bd739362d"
-metafile = true
-
-[[files]]
-file = "mods/decorative-lamps.pw.toml"
-hash = "bce8c167c6667ae6da9763618c56d9c4c763c94139327c5cf6aa7f97f73d72a6"
 metafile = true
 
 [[files]]
