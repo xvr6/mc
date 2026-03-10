@@ -731,6 +731,11 @@ hash = "b5fd0f5908a1ba4703edae2e485553d0cdfacdaf95f8ba63f0849ea5035545c2"
 metafile = true
 
 [[files]]
+file = "mods/mixintrace-reforged.pw.toml"
+hash = "238b4a0a76d7c739e757554d234c0df2388f30df31fcdf45a53c6006272b55be"
+metafile = true
+
+[[files]]
 file = "mods/mmmmmmmmmmmm.pw.toml"
 hash = "ad52f42cb5e9080cd493d1e7b2acfbc6c662ece8f094288604d54a224ce0e440"
 metafile = true
