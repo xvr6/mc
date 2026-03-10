@@ -1,7 +1,7 @@
 services:
   mc:
     container_name: poinky_server
-    image: itzg/minecraft-server:stable
+    image: itzg/minecraft-server:latest
     ports:
       - 3623:25565
       - 8101:8100
