@@ -537,7 +537,7 @@ metafile = true
 
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
-hash = "9342bd3338c6fbb80f84625e2715a6c443b54daff11826f0dfb9ebb6ab411fd2"
+hash = "d73f3dd3fec138539b2c819e6a73fbf768cb9d73ddd2fbffa2f8f1bed9126651"
 metafile = true
 
 [[files]]
@@ -587,7 +587,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "3d47b1d933d04934a606be1cbb67481860c3d68c9ed4efc387c7745d23b732a7"
+hash = "45ca6eb35710aebf2a811d64156c09c3be6212e62133822e62923db7c5cd5e61"
 metafile = true
 
 [[files]]
@@ -756,11 +756,6 @@ hash = "ad52f42cb5e9080cd493d1e7b2acfbc6c662ece8f094288604d54a224ce0e440"
 metafile = true
 
 [[files]]
-file = "mods/moogs-glow-up.pw.toml"
-hash = "d8945b1732272761cfc33dd5de7bcffb4b09cd4a4c7db8c35985a8864097edc9"
-metafile = true
-
-[[files]]
 file = "mods/moogs-structure-lib.pw.toml"
 hash = "44b52fc7e10142b0f514c66dbc0c74a0feae35ee329c37454e08aa1187d1d60e"
 metafile = true
@@ -787,7 +782,7 @@ metafile = true
 
 [[files]]
 file = "mods/mtr-moogs-temples-reimagined.pw.toml"
-hash = "b7d2538e280bf4f16c4a737722880a1adbdc345b1d9fe4b38fff9cfc34b55cac"
+hash = "8af373c3df0a5561e90a600a7f02ee682805a2528605997bd4cf085914ba900a"
 metafile = true
 
 [[files]]
