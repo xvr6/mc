@@ -230,7 +230,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobbledex-rei-emi-jei.pw.toml"
-hash = "ac0d113de4e5abc38c7c62aa5dc1461ab79ba9f4e91ffe5088e36ee1ae6f5198"
+hash = "6b4402c18aaecab781872c76dfb98b661d367de8229fcdfd336e01d67750b80c"
 metafile = true
 
 [[files]]
@@ -975,7 +975,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "94d918097e4d76c4f6693e4675c0a386069773f862a22f9b302a075ff1063ebb"
+hash = "547246eceda5547ba114b34601531d45165361980dfd0367933e3f7526c90348"
 metafile = true
 
 [[files]]
