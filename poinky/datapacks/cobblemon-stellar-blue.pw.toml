@@ -1,0 +1,13 @@
+name = "Cobblemon Stellar Blue"
+filename = "[V.1.4.1] Cobblemon Stellar Blue.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7Vcy2LJg/versions/LPHYF5CC/%5BV.1.4.1%5D%20Cobblemon%20Stellar%20Blue.zip"
+hash-format = "sha512"
+hash = "cf814fe19c2eddbba79ce397e5064cb36447b91cfa6b717a42bfacde02faf1998ce04769a644a67b53a84b1ba6319d7f40e056ef135674dc0db0b6345e1b738c"
+
+[update]
+[update.modrinth]
+mod-id = "7Vcy2LJg"
+version = "LPHYF5CC"

@@ -1,0 +1,13 @@
+name = "GG&T Fakemon Pack [Cobblemon]"
+filename = "GG&T Pack v1.3.4.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/57Aq2aBF/versions/1a1xbYF8/GG%26T%20Pack%20v1.3.4.zip"
+hash-format = "sha512"
+hash = "da79520c16dd99f1b4a8e23bbbd35b43a2dcfc24c909dd2da6c8f26a69f87d641060d4ca0c37aeb715e504ee9bb115d3aa2988b71cf3452b0b5778a6373434a3"
+
+[update]
+[update.modrinth]
+mod-id = "57Aq2aBF"
+version = "1a1xbYF8"

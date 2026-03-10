@@ -1,6 +1,6 @@
 name = "Cobblemon: Cobble it"
 filename = "cobbleit-1.0.0.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/HzO6N0jB/versions/GDUmwVRG/cobbleit-1.0.0.jar"

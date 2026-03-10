@@ -1,0 +1,13 @@
+name = "[Cobblemon] Kazeran Eeveelutions"
+filename = "kazeran-eeveelutions-1.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/l5mIjxVT/versions/doNRRdxc/kazeran-eeveelutions-1.2.0.jar"
+hash-format = "sha512"
+hash = "0f6971a1863e49bfaad99aced91aee91ff63aec3408f24217a16dfde8e255d91c4da71da25bea761532e2e0ff6eb7f6e24770d315439e2515c8e5cd560547df8"
+
+[update]
+[update.modrinth]
+mod-id = "l5mIjxVT"
+version = "doNRRdxc"

@@ -69,52 +69,39 @@ file = "config/xaeroworldmap.txt"
 hash = "6a3ec46b651874c937238dd98ad2bf36a288d6e4a6c875dd37a0027adc48cb69"
 
 [[files]]
-file = "datapacks/201Trainers 1.6.zip"
-hash = "7bb450936092958614c449ea7925d25528bb4129101fc84d7ae8eedea1dc486c"
+file = "datapacks/201-trainers-cobblemon.pw.toml"
+hash = "095183fff656f8269396b27475daed6e724b8d4558b99439d0034891048d227a"
+metafile = true
 
 [[files]]
-file = "datapacks/GG&T Pack v1.3.4.zip"
-hash = "086ab37d6377bc038b8d77978ca1c1b620b902924976a3d79451d22efbedb47e"
+file = "datapacks/cobblemon-pokemans.pw.toml"
+hash = "17485135a9e9e995386854639e10b16ab816012d778f99500714b9a76e56f876"
+metafile = true
 
 [[files]]
-file = "datapacks/Kazeran_Eeveelutionsv1.1.0.1-HF.zip"
-hash = "2234a0042083350c852f2db1f6f9ab0523b749fe5dd03b3ebf9990a36e10254c"
+file = "datapacks/cobblemon-seavls-bizarremons.pw.toml"
+hash = "6d6da271a568782d91d8580d496d3ea1901c532216de2a6c60834b338328f563"
+metafile = true
 
 [[files]]
-file = "datapacks/Laser's Additions v1.0.zip"
-hash = "c8659d6d5b0aad6a030868df52b986a0f21346f17777a2ba1083850961a6f425"
+file = "datapacks/cobblemon-stellar-blue.pw.toml"
+hash = "1481a1862f49c878ae610cfe959baa0c53fbcba6b0186ccae3668fcec59be4ba"
+metafile = true
 
 [[files]]
-file = "datapacks/Laser's Fakemon Pack v1.5.5.zip"
-hash = "292157fd18bb3bd289434a4cca11d802d90ade01e582c8f9ad6ecf14369e8c80"
+file = "datapacks/extra-paradox-mons.pw.toml"
+hash = "419055b26fb505ae3b59fb200d576a52e72e428b9d399cb9c2ae1eacba0074f4"
+metafile = true
 
 [[files]]
-file = "datapacks/Lively 'Mons 1.9.2.zip"
-hash = "f66816d08d1b7f71527d78cc8b27760c8aab1c719507b3e4244df27644e71a2e"
+file = "datapacks/ggt-pack.pw.toml"
+hash = "6fedb1d77fb784a39cbbc24abe44be6e4ed525a964164f69be2e44c93b2764a8"
+metafile = true
 
 [[files]]
-file = "datapacks/MissingMon_v3.6.1 [Floral Awakening ].zip"
-hash = "f101ec795ce2739e705e4aa8f00cde47ccdea103135d12425177afff27230db3"
-
-[[files]]
-file = "datapacks/MundialMons.V1.3.2(Galarmons 2.0 part2).zip"
-hash = "5fa1a0ed27f4a875ba85257af11e712384807c3f4950e97927f8cafacc6b8418"
-
-[[files]]
-file = "datapacks/Seavls Bizarremons 1.1.0v.zip"
-hash = "e9e2b20a01295bff4e6e2bdcc72a05877a39df81c48e609e666fc93dbfa0674a"
-
-[[files]]
-file = "datapacks/[V.1.4.1] Cobblemon Stellar Blue.zip"
-hash = "86cccee53d3b692b2f0e2f1dc907ec19b3c26bfe16cbbe65b4fdcebd183c0195"
-
-[[files]]
-file = "datapacks/extra paradox mons.zip"
-hash = "01445487c3f7834622b1b6a7fa37c3aed0fa0546f44b9f429546efbd49849c73"
-
-[[files]]
-file = "datapacks/pokemans_v15_toxicCloud.zip"
-hash = "a3d9406a3238c54e403ac57e42c0f271b03a3cb2f46f1da5abcf787ea6504c46"
+file = "datapacks/mundialmons.pw.toml"
+hash = "8703040e7ee5596f96c86792440c8d793006e3dabe191857c0c587044c7612b9"
+metafile = true
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -242,6 +229,11 @@ hash = "503569d1bccf50d580e517550e8f66574d881deac197f30fedb0a18ebb5d3ff4"
 metafile = true
 
 [[files]]
+file = "mods/cobbledex-rei-emi-jei.pw.toml"
+hash = "ac0d113de4e5abc38c7c62aa5dc1461ab79ba9f4e91ffe5088e36ee1ae6f5198"
+metafile = true
+
+[[files]]
 file = "mods/cobblemarks+.pw.toml"
 hash = "fb704d01edfad9e761e47059bde5426be7c31513d3568a59f2eef2fc0e634c3c"
 metafile = true
@@ -258,7 +250,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-cobble-it.pw.toml"
-hash = "ea0661720346b63319072869d85e132874a71eace2fbc59b800986e3f040f64b"
+hash = "dde95446670057e55490ad8dbabcd7b54b8b740bb52600636793208d307709d4"
 metafile = true
 
 [[files]]
@@ -293,7 +285,12 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-tim-core.pw.toml"
-hash = "f4a9d50719c9c95018140732ed7aae4f071dc3317e5c74d6d7b00d7809cbead9"
+hash = "1ff8c2512103d4d23b6537f8b6ff72c5433ad37022ba8f9af14ab903a8c83ad2"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-unchained.pw.toml"
+hash = "02abffe0573f313139ecb089e243fc2c2c1cb39008a382192bd16809c8ab36d1"
 metafile = true
 
 [[files]]
@@ -672,8 +669,18 @@ hash = "e3c802556e3f8a52ac984bd08837442828f0af4756e2cf883e88da6f20452bc2"
 metafile = true
 
 [[files]]
+file = "mods/kazeran-eeveelutions.pw.toml"
+hash = "89d7c23357049c166f80d342fc657512a77454612becc9a2759a88d53f875cb3"
+metafile = true
+
+[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "27302b0087cf53570cd7a3b4eb550a208cbb6f6ba07210c604176155f39e0078"
+metafile = true
+
+[[files]]
+file = "mods/lasers-additions.pw.toml"
+hash = "372132d3b47b4ce5ab4d28b4d02278e04b7be4179719e13c93a8b94bfe6e1389"
 metafile = true
 
 [[files]]
@@ -742,6 +749,11 @@ hash = "efe57fac888f82b6be033ff5fed9b9a71095e1ee65da7e26d6081cba7174f617"
 metafile = true
 
 [[files]]
+file = "mods/lively-mons.pw.toml"
+hash = "5484eb478da0c24e4e3b0253061fcd60b463639b9db78deb5358712ce73bb3c8"
+metafile = true
+
+[[files]]
 file = "mods/lootr.pw.toml"
 hash = "33e1d182c5a166e070cc66157ec6f692ff08d8ddae975b564e69a37079b01950"
 metafile = true
@@ -762,6 +774,11 @@ hash = "5caec0b7a1e4e4caf887e321d86146269267763232722d71a5c5ba13c145ebee"
 metafile = true
 
 [[files]]
+file = "mods/missingmons-cobblemon.pw.toml"
+hash = "b5fd0f5908a1ba4703edae2e485553d0cdfacdaf95f8ba63f0849ea5035545c2"
+metafile = true
+
+[[files]]
 file = "mods/mmmmmmmmmmmm.pw.toml"
 hash = "ad52f42cb5e9080cd493d1e7b2acfbc6c662ece8f094288604d54a224ce0e440"
 metafile = true
@@ -779,6 +796,11 @@ metafile = true
 [[files]]
 file = "mods/mru.pw.toml"
 hash = "42805ef7e224873873d190b0363f2a53dae02530553574f29fab92e258bc0470"
+metafile = true
+
+[[files]]
+file = "mods/navas-zamega.pw.toml"
+hash = "27914b1d105a01cc3ed0d4afacd52376b75ed9352f376aa065ba76b261794024"
 metafile = true
 
 [[files]]
