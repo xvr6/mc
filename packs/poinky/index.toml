@@ -61,21 +61,6 @@ file = "config/vanillabackport-common.toml"
 hash = "1833951804f7f915ac3f5ae95f3d8a188555790c60c76c36c6cae124cb76e3f3"
 
 [[files]]
-file = "datapacks/201-trainers-cobblemon.pw.toml"
-hash = "095183fff656f8269396b27475daed6e724b8d4558b99439d0034891048d227a"
-metafile = true
-
-[[files]]
-file = "datapacks/cobblemon-pokemans.pw.toml"
-hash = "17485135a9e9e995386854639e10b16ab816012d778f99500714b9a76e56f876"
-metafile = true
-
-[[files]]
-file = "datapacks/cobblemon-seavls-bizarremons.pw.toml"
-hash = "6d6da271a568782d91d8580d496d3ea1901c532216de2a6c60834b338328f563"
-metafile = true
-
-[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "d5c7247d9c30419e3bb652e1099864304af6c016196b6e07fb560e515fe6fe5b"
 metafile = true
