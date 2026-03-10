@@ -5,6 +5,10 @@ file = "config/DistantHorizons.toml"
 hash = "f608358a572a9d794f6cd91e48b0203332583c0fff8814de084ca7fd772894b0"
 
 [[files]]
+file = "config/accessories.json5"
+hash = "465473c92a403b3d179053fa94815040043acebd7e0b14122702e6dcb5cc37be"
+
+[[files]]
 file = "config/autohud.json5"
 hash = "599cf1a325c1c61afe9dc2c8b6123becaf22f7208e095b5e370e1e9479955df5"
 
@@ -27,6 +31,10 @@ hash = "8ef4b931dab1300df5d2d7ecd93c5f37da97f032f882d33b6b6c16ba84d3f97c"
 [[files]]
 file = "config/carryon-common.toml"
 hash = "6488cdeccad07ffd98c08bf07a8874b259e781119f727e224518a6e21c6c57eb"
+
+[[files]]
+file = "config/curios-client.toml"
+hash = "dcc28aa80e16236eb44c69c589d41a2ca663782a9c2d874c14cf55959499a50c"
 
 [[files]]
 file = "config/mindfuldarkness-client.toml"
@@ -846,6 +854,11 @@ metafile = true
 [[files]]
 file = "mods/patchouli.pw.toml"
 hash = "d7f360ebb9f009d6dc0b368cd8fa399bdff70c0f6ef931687b2a35137f72715d"
+metafile = true
+
+[[files]]
+file = "mods/paxi.pw.toml"
+hash = "215d597764d5c5db89e700fc3495b72dc0a7f09c975de19dc8c580bde3469a5e"
 metafile = true
 
 [[files]]
