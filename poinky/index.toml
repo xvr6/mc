@@ -1147,3 +1147,13 @@ metafile = true
 file = "resourcepacks/xaeroscobblemon.pw.toml"
 hash = "8d00514cbd63c8a83fe13119bf36776e30a195de5c47205ea664e57ce1351110"
 metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "5caf93fa1624aeb26d11cdbadcb0c03b2a92815c798a930014774c7d525baf28"
+metafile = true
+
+[[files]]
+file = "shaderpacks/photon-shader.pw.toml"
+hash = "3add1378e964947556ec43ebc86a431981cfa67c9b95353105d7f48deb58ff3d"
+metafile = true
