@@ -982,12 +982,12 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries-squared.pw.toml"
-hash = "91ebbd7b58f32ec3cf848d203b70ef193675585d6b761de912afdd977ed5f84b"
+hash = "1d51972f34b3efe747e54e59660a802f96fb6755deda1dcff6298a4a93b9da37"
 metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "4e45380047390a7981bad480189ac806694d244bb10138ede288fd2e4539dc1f"
+hash = "b447542d9983253bb1373fa90901f2fc4d67e51e7781bb2cddec566210eb1698"
 metafile = true
 
 [[files]]
