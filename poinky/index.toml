@@ -567,6 +567,11 @@ hash = "781eba185ba5ceaf76feebbf210459d88cfda2b6864fd7d1365bf114ce9f0ce2"
 metafile = true
 
 [[files]]
+file = "mods/globalpacks.pw.toml"
+hash = "a7f2ae8ea415e95ce1a3518b66edcaf124d8903ff9101d07331f7fec92b3400f"
+metafile = true
+
+[[files]]
 file = "mods/good-ending.pw.toml"
 hash = "2d384086cf9ab631c760ef40718af9c9c877276fa98e8f99e273b7ed90059ecf"
 metafile = true
