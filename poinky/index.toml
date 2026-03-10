@@ -57,58 +57,38 @@ file = "config/vanillabackport-common.toml"
 hash = "1833951804f7f915ac3f5ae95f3d8a188555790c60c76c36c6cae124cb76e3f3"
 
 [[files]]
-file = "global_packs/required_data/201-trainers-cobblemon.pw.toml"
+file = "datapacks/201-trainers-cobblemon.pw.toml"
 hash = "095183fff656f8269396b27475daed6e724b8d4558b99439d0034891048d227a"
 metafile = true
 
 [[files]]
-file = "global_packs/required_data/cobblemon-pokemans.pw.toml"
+file = "datapacks/cobblemon-pokemans.pw.toml"
 hash = "17485135a9e9e995386854639e10b16ab816012d778f99500714b9a76e56f876"
 metafile = true
 
 [[files]]
-file = "global_packs/required_data/cobblemon-seavls-bizarremons.pw.toml"
+file = "datapacks/cobblemon-seavls-bizarremons.pw.toml"
 hash = "6d6da271a568782d91d8580d496d3ea1901c532216de2a6c60834b338328f563"
 metafile = true
 
 [[files]]
-file = "global_packs/required_data/cobblemon-stellar-blue.pw.toml"
+file = "datapacks/cobblemon-stellar-blue.pw.toml"
 hash = "1481a1862f49c878ae610cfe959baa0c53fbcba6b0186ccae3668fcec59be4ba"
 metafile = true
 
 [[files]]
-file = "global_packs/required_data/extra-paradox-mons.pw.toml"
+file = "datapacks/extra-paradox-mons.pw.toml"
 hash = "419055b26fb505ae3b59fb200d576a52e72e428b9d399cb9c2ae1eacba0074f4"
 metafile = true
 
 [[files]]
-file = "global_packs/required_data/ggt-pack.pw.toml"
+file = "datapacks/ggt-pack.pw.toml"
 hash = "6fedb1d77fb784a39cbbc24abe44be6e4ed525a964164f69be2e44c93b2764a8"
 metafile = true
 
 [[files]]
-file = "global_packs/required_data/mundialmons.pw.toml"
+file = "datapacks/mundialmons.pw.toml"
 hash = "8703040e7ee5596f96c86792440c8d793006e3dabe191857c0c587044c7612b9"
-metafile = true
-
-[[files]]
-file = "global_packs/required_resources/fa-player-extension.pw.toml"
-hash = "ac7bbfdc56a8e16d5c900db5b94f41497526cd7546f4d751dd17aa604c064578"
-metafile = true
-
-[[files]]
-file = "global_packs/required_resources/fresh-animations.pw.toml"
-hash = "6a1556a0e4fcb411b33efafc3382b4abd9a6e671f140dc0d42e9aad2808e24f3"
-metafile = true
-
-[[files]]
-file = "global_packs/required_resources/invisible_item_frame.pw.toml"
-hash = "725da1fa86bd70fe0d0ac8c32ad6332cc015e38a21b21f4965ee0012743e3140"
-metafile = true
-
-[[files]]
-file = "global_packs/required_resources/xaeroscobblemon.pw.toml"
-hash = "8d00514cbd63c8a83fe13119bf36776e30a195de5c47205ea664e57ce1351110"
 metafile = true
 
 [[files]]
@@ -314,6 +294,11 @@ metafile = true
 [[files]]
 file = "mods/cobblepedia.pw.toml"
 hash = "1d976a52bf9bf8ae519fc5a75382de094d077002a63c73c78707c1e751d66e90"
+metafile = true
+
+[[files]]
+file = "mods/controlling.pw.toml"
+hash = "65c8086d2ec3d39acc7bd36c7a0306ccc43b602b38fa07d13291bc478ef7dfff"
 metafile = true
 
 [[files]]
@@ -957,6 +942,11 @@ hash = "9c0d37bfbfdda77af1946da1d80aa48e7dfea9611c43d5c81c70676b1d854af6"
 metafile = true
 
 [[files]]
+file = "mods/searchables.pw.toml"
+hash = "ce9ddada6ffd55a512149cc474c6a453281a997a5fdf1b7b4a2cc73f875e704a"
+metafile = true
+
+[[files]]
 file = "mods/shoulder-surfing-reloaded.pw.toml"
 hash = "ac93c4b88f33a165e39b7214f3a4350950247128b5ce698bebe0d8d05a7fadc9"
 metafile = true
@@ -1164,6 +1154,26 @@ metafile = true
 [[files]]
 file = "mods/yungs-extras.pw.toml"
 hash = "cfb7ce4c2b00cedd2e61f7d345b824d6bcc1471021668d2319ee2e4079108639"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fa-player-extension.pw.toml"
+hash = "ac7bbfdc56a8e16d5c900db5b94f41497526cd7546f4d751dd17aa604c064578"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-animations.pw.toml"
+hash = "6a1556a0e4fcb411b33efafc3382b4abd9a6e671f140dc0d42e9aad2808e24f3"
+metafile = true
+
+[[files]]
+file = "resourcepacks/invisible_item_frame.pw.toml"
+hash = "725da1fa86bd70fe0d0ac8c32ad6332cc015e38a21b21f4965ee0012743e3140"
+metafile = true
+
+[[files]]
+file = "resourcepacks/xaeroscobblemon.pw.toml"
+hash = "8d00514cbd63c8a83fe13119bf36776e30a195de5c47205ea664e57ce1351110"
 metafile = true
 
 [[files]]
