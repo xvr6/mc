@@ -1,0 +1,30 @@
+services:
+  mc:
+    container_name: poinky_server
+    image: itzg/minecraft-server:stable
+    ports:
+      - 3623:25565
+      - 8101:8100
+      - 25576:25575
+    environment:
+      EULA: "TRUE"
+      MOTD: "poinky"
+      ENABLE_WHITELIST: "TRUE"
+      PACKWIZ_URL: "https://raw.githubusercontent.com/xvr6/mc/refs/heads/main/packs/poinky/pack.toml"
+      MEMORY: "16G"
+      # USE_AIKAR_FLAGS: "true"
+      USE_MEOWICE_FLAGS: "true"
+      ENABLE_ROLLING_LOGS: "true"
+      TYPE: "NEOFORGE"
+      VERSION: "1.21.1"
+      RCON_PASSWORD: "522391a27f72ca3b06afa496"
+      SPAWN_PROTECTION: "0"
+      VIEW_DISTANCE: "12"
+      SEED: "-5498133067232517102"
+      DIFFICULTY: "2"
+      ALLOW_FLIGHT: "true"
+    tty: true
+    stdin_open: true
+    restart: unless-stopped
+    volumes:
+      - ./data:/data

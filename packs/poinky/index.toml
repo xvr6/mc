@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "f608358a572a9d794f6cd91e48b0203332583c0fff8814de084ca7fd772894b0"
+hash = "506fb32f9646fd685ac21b34cc65a3869709a523a2ea818bae20e1706f916064"
 
 [[files]]
 file = "config/accessories.json5"
@@ -37,6 +37,10 @@ file = "config/curios-client.toml"
 hash = "dcc28aa80e16236eb44c69c589d41a2ca663782a9c2d874c14cf55959499a50c"
 
 [[files]]
+file = "config/global_packs.toml"
+hash = "2eae6499a447214224cebf691b8ea4238906d72968b676c538c88edb156b74e6"
+
+[[files]]
 file = "config/mindfuldarkness-client.toml"
 hash = "e3920628719c00d298b6979e8014b1d2693d7a057024f9593e70ad751fe9f9ad"
 
@@ -55,21 +59,6 @@ hash = "5c7ed7ffe7423ad0741513d15b754ca1a9dd9cc4ec6350e9d4192184803830e5"
 [[files]]
 file = "config/vanillabackport-common.toml"
 hash = "1833951804f7f915ac3f5ae95f3d8a188555790c60c76c36c6cae124cb76e3f3"
-
-[[files]]
-file = "datapacks/201-trainers-cobblemon.pw.toml"
-hash = "095183fff656f8269396b27475daed6e724b8d4558b99439d0034891048d227a"
-metafile = true
-
-[[files]]
-file = "datapacks/cobblemon-pokemans.pw.toml"
-hash = "17485135a9e9e995386854639e10b16ab816012d778f99500714b9a76e56f876"
-metafile = true
-
-[[files]]
-file = "datapacks/cobblemon-seavls-bizarremons.pw.toml"
-hash = "6d6da271a568782d91d8580d496d3ea1901c532216de2a6c60834b338328f563"
-metafile = true
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -128,7 +117,7 @@ metafile = true
 
 [[files]]
 file = "mods/athena-ctm.pw.toml"
-hash = "9a9d6bf3715b20cbf83b967e4dd8b77972d1256e52a7b1c2bbfa4122f5acc931"
+hash = "19058318bf7997f3f0f75d77c0afeb9581665412fbc336abc89230725c005131"
 metafile = true
 
 [[files]]
@@ -157,11 +146,6 @@ hash = "2cfa9768cc635d7ec8cbc0172e62db5ad0fc79117b927344d7f2484b78ebd7b7"
 metafile = true
 
 [[files]]
-file = "mods/bluemap.pw.toml"
-hash = "f33a4720ef4f315b6d1f778039e9f7bdb8f5ef1b58a57d565c30fd1d8adee207"
-metafile = true
-
-[[files]]
 file = "mods/blueprint.pw.toml"
 hash = "a5122c5ecc0e36da4f60474cc8ecaff590aaeae8be545ffddfe2c25db89816e7"
 metafile = true
@@ -172,6 +156,11 @@ hash = "68d6016fa3707c434b3aca5db041c7518c70feb53d0183faa2502cc6efd4c827"
 metafile = true
 
 [[files]]
+file = "mods/c2me-neoforge.pw.toml"
+hash = "f773c1a9d14caa184e006fdd8896134123a3092f923780125041029744844678"
+metafile = true
+
+[[files]]
 file = "mods/carry-on.pw.toml"
 hash = "c5e47d922e39c1556dc2e8c94bfe852cf16de14f65b99eb3e054e41745dddad0"
 metafile = true
@@ -179,11 +168,6 @@ metafile = true
 [[files]]
 file = "mods/chimes.pw.toml"
 hash = "7c39ccee8a0d788d5b9d365d8d79a498a998038c5ded39eb7b07ce0e292489cb"
-metafile = true
-
-[[files]]
-file = "mods/chunky.pw.toml"
-hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
 metafile = true
 
 [[files]]
@@ -263,7 +247,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-unchained.pw.toml"
-hash = "02abffe0573f313139ecb089e243fc2c2c1cb39008a382192bd16809c8ab36d1"
+hash = "ce3d77e626d315fae2c0c7347348a7d57c038b209a4a91fa62ccc77de3d8c742"
 metafile = true
 
 [[files]]
@@ -533,7 +517,7 @@ metafile = true
 
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
-hash = "9342bd3338c6fbb80f84625e2715a6c443b54daff11826f0dfb9ebb6ab411fd2"
+hash = "d73f3dd3fec138539b2c819e6a73fbf768cb9d73ddd2fbffa2f8f1bed9126651"
 metafile = true
 
 [[files]]
@@ -583,7 +567,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "3d47b1d933d04934a606be1cbb67481860c3d68c9ed4efc387c7745d23b732a7"
+hash = "45ca6eb35710aebf2a811d64156c09c3be6212e62133822e62923db7c5cd5e61"
 metafile = true
 
 [[files]]
@@ -728,7 +712,7 @@ metafile = true
 
 [[files]]
 file = "mods/mes-moogs-end-structures.pw.toml"
-hash = "f4db358ab5081831cb84f4d81338b21f0600675ab25b13f8824deecc82d2acc8"
+hash = "2f8ee157d70214426a3a0ac25b0ffdd0a33c0ac148eaec2fccdf2ce90c226b54"
 metafile = true
 
 [[files]]
@@ -752,18 +736,13 @@ hash = "ad52f42cb5e9080cd493d1e7b2acfbc6c662ece8f094288604d54a224ce0e440"
 metafile = true
 
 [[files]]
-file = "mods/moogs-glow-up.pw.toml"
-hash = "d8945b1732272761cfc33dd5de7bcffb4b09cd4a4c7db8c35985a8864097edc9"
-metafile = true
-
-[[files]]
 file = "mods/moogs-structure-lib.pw.toml"
-hash = "44b52fc7e10142b0f514c66dbc0c74a0feae35ee329c37454e08aa1187d1d60e"
+hash = "9a95c07a28bda9b0374b4af72132e8405d4fbf574cbac3a3df5d2e3daefff951"
 metafile = true
 
 [[files]]
 file = "mods/moogs-voyager-structures.pw.toml"
-hash = "3e13948efc862367014e3fe4b7f3f21b0353af87e4d018dead3362d1b8d49477"
+hash = "b8eac8f96dd452576243d314a1a4fde218e438bf53cc662bf8f98b3d4dc0329e"
 metafile = true
 
 [[files]]
@@ -783,7 +762,7 @@ metafile = true
 
 [[files]]
 file = "mods/mtr-moogs-temples-reimagined.pw.toml"
-hash = "b7d2538e280bf4f16c4a737722880a1adbdc345b1d9fe4b38fff9cfc34b55cac"
+hash = "8af373c3df0a5561e90a600a7f02ee682805a2528605997bd4cf085914ba900a"
 metafile = true
 
 [[files]]
@@ -983,7 +962,7 @@ metafile = true
 
 [[files]]
 file = "mods/sparsestructures.pw.toml"
-hash = "8c71edbbb86e5d3e1c14ea6629382539d44e75b1061725df9c3abceb889a8591"
+hash = "993b4e4970e1a5ef2fe7c6712212f57a84dcf8b31d4b6863540b6395c4f9ce09"
 metafile = true
 
 [[files]]
