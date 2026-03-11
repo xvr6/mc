@@ -12,7 +12,6 @@ services:
       ENABLE_WHITELIST: "TRUE"
       PACKWIZ_URL: "https://raw.githubusercontent.com/xvr6/mc/refs/heads/main/packs/poinky/pack.toml"
       MEMORY: "16G"
-      # USE_AIKAR_FLAGS: "true"
       USE_MEOWICE_FLAGS: "true"
       ENABLE_ROLLING_LOGS: "true"
       TYPE: "NEOFORGE"
