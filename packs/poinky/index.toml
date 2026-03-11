@@ -181,6 +181,11 @@ hash = "2cfa9768cc635d7ec8cbc0172e62db5ad0fc79117b927344d7f2484b78ebd7b7"
 metafile = true
 
 [[files]]
+file = "mods/bluemap.pw.toml"
+hash = "f33a4720ef4f315b6d1f778039e9f7bdb8f5ef1b58a57d565c30fd1d8adee207"
+metafile = true
+
+[[files]]
 file = "mods/blueprint.pw.toml"
 hash = "a5122c5ecc0e36da4f60474cc8ecaff590aaeae8be545ffddfe2c25db89816e7"
 metafile = true
@@ -573,6 +578,11 @@ metafile = true
 [[files]]
 file = "mods/ghost.pw.toml"
 hash = "781eba185ba5ceaf76feebbf210459d88cfda2b6864fd7d1365bf114ce9f0ce2"
+metafile = true
+
+[[files]]
+file = "mods/globalpacks.pw.toml"
+hash = "a7f2ae8ea415e95ce1a3518b66edcaf124d8903ff9101d07331f7fec92b3400f"
 metafile = true
 
 [[files]]
@@ -1013,16 +1023,6 @@ metafile = true
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
 hash = "0b8161b7e8c71379084080673b304a090e187b1ad45ddc2bb90ebae11f401f6f"
-metafile = true
-
-[[files]]
-file = "mods/supplementaries-squared.pw.toml"
-hash = "1d51972f34b3efe747e54e59660a802f96fb6755deda1dcff6298a4a93b9da37"
-metafile = true
-
-[[files]]
-file = "mods/supplementaries.pw.toml"
-hash = "b447542d9983253bb1373fa90901f2fc4d67e51e7781bb2cddec566210eb1698"
 metafile = true
 
 [[files]]
