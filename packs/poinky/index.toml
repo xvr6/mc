@@ -842,7 +842,7 @@ metafile = true
 
 [[files]]
 file = "mods/sound-physics-remastered.pw.toml"
-hash = "258a77de0a6db4c9ab045cbb240bcf4eac0dbbca3f6bc981fb461e55c247f23f"
+hash = "09c393b303130cefffc1c376ddfdeb869b20db31d3d42d9fa155e13cfc628645"
 metafile = true
 
 [[files]]
@@ -857,7 +857,7 @@ metafile = true
 
 [[files]]
 file = "mods/subtle-effects.pw.toml"
-hash = "ebbb8c25c8741d0bbe4aa09c893e1f34228e4e50f92e7ae829a4dbbf621d9045"
+hash = "0e9840c892e4904744e3f3efcd2e17f675c005e372b01532203a25a7de2224de"
 metafile = true
 
 [[files]]
@@ -913,11 +913,6 @@ metafile = true
 [[files]]
 file = "mods/trash-cans.pw.toml"
 hash = "a43bccc1cdad8e0ce5167f379c98935f7ea8117ac0bda2218b372defbc9fc985"
-metafile = true
-
-[[files]]
-file = "mods/universal-bone-meal.pw.toml"
-hash = "36451170388b68c89ba69f5f2bd4fd283d1811a3d9b5e31281a424f9ca6f61a7"
 metafile = true
 
 [[files]]
