@@ -1,124 +1,155 @@
-#Config for Regions Unexplored!
-[region_configs]
-#Enable this before changing the other region config files. If disabled, RU will use builtin biome placement.
-toggle_custom_regions = false
-#Sets Terrablender region weight for the primary region.
-# Default: 11
-# Range: 0 ~ 2147483646
-primary_region_weight = 11
-#Sets Terrablender region weight for the secondary region.
-# Default: 8
-# Range: 0 ~ 2147483646
-secondary_region_weight = 8
-#Sets Terrablender region weight for the rare region.
-# Default: 1
-# Range: 0 ~ 2147483646
-rare_region_weight = 1
-#Sets Terrablender region weight for Nether region.
-# Default: 14
-# Range: 0 ~ 2147483646
-nether_region_weight = 14
+[features]
+#Default: false
+use_logs_for_branches = false
 
-[biome_toggles]
-#overworld_biomes
+[overworld_biome_toggles]
+#Default: true
 toggle_alpha_grove = true
+#Default: true
 toggle_arid_mountains = true
-toggle_smouldering_woodland = true
+#Default: true
+toggle_ashen_woodland = true
+#Default: true
 toggle_autumnal_maple_forest = true
+#Default: true
 toggle_bamboo_forest = true
+#Default: true
 toggle_baobab_savanna = false
+#Default: true
 toggle_barley_fields = true
+#Default: true
 toggle_bayou = true
+#Default: true
 toggle_blackwood_taiga = true
+#Default: true
 toggle_boreal_taiga = true
+#Default: true
 toggle_chalk_cliffs = true
+#Default: true
 toggle_clover_plains = true
+#Default: true
 toggle_cold_boreal_taiga = true
+#Default: true
 toggle_cold_deciduous_forest = true
+#Default: true
 toggle_cold_river = true
+#Default: true
 toggle_deciduous_forest = true
+#Default: true
 toggle_dry_bushland = true
+#Default: true
 toggle_eucalyptus_forest = true
+#Default: true
 toggle_fen = true
-toggle_flower_field = true
+#Default: true
+toggle_flower_fields = true
+#Default: true
 toggle_frozen_pine_taiga = true
+#Default: true
 toggle_frozen_tundra = true
+#Default: true
 toggle_fungal_fen = true
+#Default: true
 toggle_golden_boreal_taiga = true
+#Default: true
 toggle_grassland = true
+#Default: true
 toggle_grassy_beach = true
+#Default: true
 toggle_gravel_beach = true
+#Default: true
 toggle_highland_fields = true
+#Default: true
 toggle_hyacinth_deeps = true
-toggle_icy_desert = true
+#Default: true
 toggle_icy_heights = true
+#Default: true
 toggle_joshua_desert = true
+#Default: true
 toggle_magnolia_woodland = true
+#Default: true
 toggle_maple_forest = false
+#Default: true
 toggle_marsh = true
+#Default: true
 toggle_mauve_hills = true
-toggle_meadow = true
+#Default: true
+toggle_rocky_meadow = true
+#Default: true
 toggle_mountains = true
+#Default: true
 toggle_muddy_river = true
+#Default: true
 toggle_old_growth_bayou = true
+#Default: true
 toggle_orchard = false
+#Default: true
 toggle_outback = true
+#Default: true
 toggle_pine_slopes = true
+#Default: true
 toggle_pine_taiga = true
+#Default: true
 toggle_poppy_fields = true
+#Default: true
 toggle_prairie = true
+#Default: true
 toggle_pumpkin_fields = true
+#Default: true
 toggle_rainforest = true
+#Default: true
 toggle_rocky_reef = true
+#Default: true
 toggle_redwoods = true
+#Default: true
 toggle_saguaro_desert = true
+#Default: true
 toggle_shrubland = true
+#Default: true
 toggle_silver_birch_forest = true
+#Default: true
 toggle_sparse_rainforest = true
+#Default: true
 toggle_sparse_redwoods = true
+#Default: true
 toggle_spires = true
+#Default: true
 toggle_steppe = true
+#Default: true
 toggle_temperate_grove = true
+#Default: true
 toggle_towering_cliffs = true
+#Default: true
 toggle_tropical_river = true
+#Default: true
 toggle_tropics = true
+#Default: true
 toggle_willow_forest = true
-#cave_biomes
+
+[overworld_cave_biome_toggles]
+#Default: true
 toggle_ancient_delta = true
+#Default: true
 toggle_bioshroom_caves = true
+#Default: true
 toggle_prismachasm = true
+#Default: true
 toggle_redstone_caves = true
+#Default: true
 toggle_scorching_caves = true
-#nether_biomes
+
+[nether_biome_toggles]
+#Default: true
 toggle_blackstone_basin = true
+#Default: true
 toggle_glistering_meadow = true
+#Default: true
 toggle_infernal_holt = true
+#Default: true
 toggle_mycotoxic_undergrowth = true
-toggle_redstone_hell = true
+#Default: true
+toggle_redstone_abyss = true
 
-[worldgen_options]
-#surface_rules
-toggle_custom_dirt = true
-
-[client_options]
-toggle_mauve_leaves_particles = true
-toggle_blue_magnolia_leaves_particles = true
-toggle_pink_magnolia_leaves_particles = true
-toggle_white_magnolia_leaves_particles = true
-toggle_red_maple_leaves_particles = true
-toggle_orange_maple_leaves_particles = true
-toggle_silver_birch_leaves_particles = true
-toggle_enchanted_birch_leaves_particles = true
-#block_color_options
-#Sets Eucalyptus colour transition size. Bigger number = bigger distance between colours.
-# Default: 25.0
-# Range: 0.0 ~ 200.0
-eucalyptus_transition_size = 25.0
-#Sets Eucalyptus colour saturation.
-# Default: 0.5
-# Range: 0.0 ~ 1.0
-eucalyptus_saturation = 0.5
-#Sets Eucalyptus colour saturation.
-# Default: 0.8
-# Range: 0.0 ~ 1.0
-eucalyptus_brightness = 0.8
+[worldgen_surface_rules]
+#Default: true
+toggle_custom_dirts = true

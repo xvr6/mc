@@ -53,8 +53,8 @@ file = "config/mindfuldarkness-client.toml"
 hash = "e3920628719c00d298b6979e8014b1d2693d7a057024f9593e70ad751fe9f9ad"
 
 [[files]]
-file = "config/regions_unexplored/regions_unexplored-common.toml"
-hash = "7fb5e25dabafb896192e1dbbe7418d5cf2abbdfdf8ac1252c643f4e637269194"
+file = "config/regions_unexplored/common.toml"
+hash = "779649ccfb1e1b4f4054924188e88362ada82c6226e34c235c4142c12396dfe0"
 
 [[files]]
 file = "config/shouldersurfing-client.toml"
