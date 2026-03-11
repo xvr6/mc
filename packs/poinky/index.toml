@@ -242,7 +242,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-mega-showdown.pw.toml"
-hash = "7f64ed4a0fafc2f78e947b3405a38e31938a5783c4aca5d3446f0930f70a6b5d"
+hash = "2b126a6887fa2a2c6a935ec52b549c40b1d85593a1d6a71d501b8846dde043d4"
 metafile = true
 
 [[files]]
@@ -711,6 +711,11 @@ hash = "efe57fac888f82b6be033ff5fed9b9a71095e1ee65da7e26d6081cba7174f617"
 metafile = true
 
 [[files]]
+file = "mods/lively-mons.pw.toml"
+hash = "5484eb478da0c24e4e3b0253061fcd60b463639b9db78deb5358712ce73bb3c8"
+metafile = true
+
+[[files]]
 file = "mods/lootr.pw.toml"
 hash = "33e1d182c5a166e070cc66157ec6f692ff08d8ddae975b564e69a37079b01950"
 metafile = true
@@ -1138,9 +1143,4 @@ metafile = true
 [[files]]
 file = "shaderpacks/photon-shader.pw.toml"
 hash = "3add1378e964947556ec43ebc86a431981cfa67c9b95353105d7f48deb58ff3d"
-metafile = true
-
-[[files]]
-file = "tmp_move/supplementaries.pw.toml"
-hash = "b447542d9983253bb1373fa90901f2fc4d67e51e7781bb2cddec566210eb1698"
 metafile = true
