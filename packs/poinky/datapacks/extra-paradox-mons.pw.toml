@@ -1,0 +1,13 @@
+name = "Cobblemon: Extra Paradox Mons"
+filename = "Extra Paradox Mons 1.7.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/D95WJWgg/versions/GdVsT4N7/Extra%20Paradox%20Mons%201.7.zip"
+hash-format = "sha512"
+hash = "6404be51ca5eb5337bfc959ceb16652da1edfcdd08c86adcb40b99733213ab64e054564abab88fae3007d1d16d82f6152de8938a31472a9dd808564e925887e7"
+
+[update]
+[update.modrinth]
+mod-id = "D95WJWgg"
+version = "GdVsT4N7"

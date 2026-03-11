@@ -4,7 +4,7 @@ services:
     image: itzg/minecraft-server:latest
     ports:
       - 3623:25565
-      - 8101:8100
+      - 8100:8100
       - 25576:25575
     environment:
       EULA: "TRUE"

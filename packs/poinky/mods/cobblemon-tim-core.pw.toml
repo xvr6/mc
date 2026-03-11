@@ -1,0 +1,13 @@
+name = "Cobblemon Tim Core"
+filename = "timcore-neoforge-1.7.3-1.31.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "e92f511ebf988262759c5f52233711a2ee9247c123a57e020b1dae107907b2108a1ea20b334f630885bc51bf99538279f49faf3e8075934ae1d98cdaaeb78c03"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7567052
+project-id = 1295910
