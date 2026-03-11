@@ -17,14 +17,6 @@ file = "config/biomeswevegone/world_generation.json5"
 hash = "fe036ce576f9550038d35afeb59a1a627ae81c04e27740410ae57f525efe64d9"
 
 [[files]]
-file = "config/bluemap/core.conf"
-hash = "ee0a65c8c75cd4ffbe3b410c9b979ffc292c9bc7ad3c3d383648897f4e6cbe7e"
-
-[[files]]
-file = "config/bluemap/webapp.conf"
-hash = "eb7fbbf671c247286fd9d3c52a43142da7e65dfb53c08163e0742b2979f3ca24"
-
-[[files]]
 file = "config/carryon-client.toml"
 hash = "8ef4b931dab1300df5d2d7ecd93c5f37da97f032f882d33b6b6c16ba84d3f97c"
 
