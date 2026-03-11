@@ -826,6 +826,46 @@ hash = "0281ed9713f3141bdac363056a791845510e14761ea65b4b2813cf96d664b20a"
 metafile = true
 
 [[files]]
+file = "mods/sophisticated-backpacks.pw.toml"
+hash = "3cc8a6b4f0caa73eb00a018bd15f2359b1d801cf46d25c7654135c38c73ce009"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-core.pw.toml"
+hash = "81b72e93f7c7f2c5c80ee6b4a9d118a71c715054a79cba636412d789a77e7d1a"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-storage-create-integration.pw.toml"
+hash = "e6bb3eeda43411c95fa84549ba3281df62654e36140ec322190206fc8df512a4"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-storage.pw.toml"
+hash = "499e43d1d71100a437a4a79ee20ca20a61e06d49f3a8da79ea9318c381b1f657"
+metafile = true
+
+[[files]]
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "09c393b303130cefffc1c376ddfdeb869b20db31d3d42d9fa155e13cfc628645"
+metafile = true
+
+[[files]]
+file = "mods/sound.pw.toml"
+hash = "4063a3c0f2f9a6544a870f0b90679441d7333652875dafbe3db255fc67f72c82"
+metafile = true
+
+[[files]]
+file = "mods/sparsestructures.pw.toml"
+hash = "993b4e4970e1a5ef2fe7c6712212f57a84dcf8b31d4b6863540b6395c4f9ce09"
+metafile = true
+
+[[files]]
+file = "mods/subtle-effects.pw.toml"
+hash = "0e9840c892e4904744e3f3efcd2e17f675c005e372b01532203a25a7de2224de"
+metafile = true
+
+[[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
 hash = "62bd7012826fdcccf17a089055be67f87fb7335c88e73efc52bc9e51a1bf3188"
 metafile = true
@@ -833,6 +873,11 @@ metafile = true
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
 hash = "0b8161b7e8c71379084080673b304a090e187b1ad45ddc2bb90ebae11f401f6f"
+metafile = true
+
+[[files]]
+file = "mods/supplementaries-squared.pw.toml"
+hash = "1d51972f34b3efe747e54e59660a802f96fb6755deda1dcff6298a4a93b9da37"
 metafile = true
 
 [[files]]
@@ -978,51 +1023,6 @@ metafile = true
 [[files]]
 file = "shaderpacks/photon-shader.pw.toml"
 hash = "3add1378e964947556ec43ebc86a431981cfa67c9b95353105d7f48deb58ff3d"
-metafile = true
-
-[[files]]
-file = "tmp_move/sophisticated-backpacks.pw.toml"
-hash = "3cc8a6b4f0caa73eb00a018bd15f2359b1d801cf46d25c7654135c38c73ce009"
-metafile = true
-
-[[files]]
-file = "tmp_move/sophisticated-core.pw.toml"
-hash = "81b72e93f7c7f2c5c80ee6b4a9d118a71c715054a79cba636412d789a77e7d1a"
-metafile = true
-
-[[files]]
-file = "tmp_move/sophisticated-storage-create-integration.pw.toml"
-hash = "e6bb3eeda43411c95fa84549ba3281df62654e36140ec322190206fc8df512a4"
-metafile = true
-
-[[files]]
-file = "tmp_move/sophisticated-storage.pw.toml"
-hash = "499e43d1d71100a437a4a79ee20ca20a61e06d49f3a8da79ea9318c381b1f657"
-metafile = true
-
-[[files]]
-file = "tmp_move/sound-physics-remastered.pw.toml"
-hash = "09c393b303130cefffc1c376ddfdeb869b20db31d3d42d9fa155e13cfc628645"
-metafile = true
-
-[[files]]
-file = "tmp_move/sound.pw.toml"
-hash = "4063a3c0f2f9a6544a870f0b90679441d7333652875dafbe3db255fc67f72c82"
-metafile = true
-
-[[files]]
-file = "tmp_move/sparsestructures.pw.toml"
-hash = "993b4e4970e1a5ef2fe7c6712212f57a84dcf8b31d4b6863540b6395c4f9ce09"
-metafile = true
-
-[[files]]
-file = "tmp_move/subtle-effects.pw.toml"
-hash = "0e9840c892e4904744e3f3efcd2e17f675c005e372b01532203a25a7de2224de"
-metafile = true
-
-[[files]]
-file = "tmp_move/supplementaries-squared.pw.toml"
-hash = "1d51972f34b3efe747e54e59660a802f96fb6755deda1dcff6298a4a93b9da37"
 metafile = true
 
 [[files]]
