@@ -611,13 +611,78 @@ hash = "33e1d182c5a166e070cc66157ec6f692ff08d8ddae975b564e69a37079b01950"
 metafile = true
 
 [[files]]
+file = "mods/macaws-paths-and-pavings.pw.toml"
+hash = "e04b1ac906167721ae2696ec837be362e6d6da252e8bc5c0bac29974fbae0461"
+metafile = true
+
+[[files]]
+file = "mods/mes-moogs-end-structures.pw.toml"
+hash = "2f8ee157d70214426a3a0ac25b0ffdd0a33c0ac148eaec2fccdf2ce90c226b54"
+metafile = true
+
+[[files]]
 file = "mods/midnightlib.pw.toml"
 hash = "3382daf9b5fadbbef742b84fe5b09fa912cc75cd4234e0ba573b85a513354123"
 metafile = true
 
 [[files]]
+file = "mods/mindful-darkness.pw.toml"
+hash = "5caec0b7a1e4e4caf887e321d86146269267763232722d71a5c5ba13c145ebee"
+metafile = true
+
+[[files]]
+file = "mods/mixintrace-reforged.pw.toml"
+hash = "238b4a0a76d7c739e757554d234c0df2388f30df31fcdf45a53c6006272b55be"
+metafile = true
+
+[[files]]
+file = "mods/mmmmmmmmmmmm.pw.toml"
+hash = "ad52f42cb5e9080cd493d1e7b2acfbc6c662ece8f094288604d54a224ce0e440"
+metafile = true
+
+[[files]]
+file = "mods/moogs-structure-lib.pw.toml"
+hash = "9a95c07a28bda9b0374b4af72132e8405d4fbf574cbac3a3df5d2e3daefff951"
+metafile = true
+
+[[files]]
+file = "mods/moogs-voyager-structures.pw.toml"
+hash = "b8eac8f96dd452576243d314a1a4fde218e438bf53cc662bf8f98b3d4dc0329e"
+metafile = true
+
+[[files]]
 file = "mods/moonlight.pw.toml"
 hash = "1965658333e46f8a375d3efee20cbfc49400d576f7051e81da832a70da79e3c0"
+metafile = true
+
+[[files]]
+file = "mods/more-sniffer-flowers.pw.toml"
+hash = "232bb4e0850321d1c02e66c613972a1f41f235f7d748a0489779d534f5457549"
+metafile = true
+
+[[files]]
+file = "mods/mru.pw.toml"
+hash = "42805ef7e224873873d190b0363f2a53dae02530553574f29fab92e258bc0470"
+metafile = true
+
+[[files]]
+file = "mods/mtr-moogs-temples-reimagined.pw.toml"
+hash = "8af373c3df0a5561e90a600a7f02ee682805a2528605997bd4cf085914ba900a"
+metafile = true
+
+[[files]]
+file = "mods/nightlights.pw.toml"
+hash = "9b56c2c17c00dd51fffcbc5e5a59d2c325ed656e768365ae1a36f7692ffcd01e"
+metafile = true
+
+[[files]]
+file = "mods/no-chat-reports.pw.toml"
+hash = "5da18814472be5dc93a21886983646da3a7236413800075ac75229be82d114fa"
+metafile = true
+
+[[files]]
+file = "mods/now-playing.pw.toml"
+hash = "700d7eec503d4cca8287a26354699301c0087b387598695d240bece175a3637b"
 metafile = true
 
 [[files]]
@@ -838,71 +903,6 @@ metafile = true
 [[files]]
 file = "shaderpacks/photon-shader.pw.toml"
 hash = "3add1378e964947556ec43ebc86a431981cfa67c9b95353105d7f48deb58ff3d"
-metafile = true
-
-[[files]]
-file = "tmp_move/macaws-paths-and-pavings.pw.toml"
-hash = "e04b1ac906167721ae2696ec837be362e6d6da252e8bc5c0bac29974fbae0461"
-metafile = true
-
-[[files]]
-file = "tmp_move/mes-moogs-end-structures.pw.toml"
-hash = "2f8ee157d70214426a3a0ac25b0ffdd0a33c0ac148eaec2fccdf2ce90c226b54"
-metafile = true
-
-[[files]]
-file = "tmp_move/mindful-darkness.pw.toml"
-hash = "5caec0b7a1e4e4caf887e321d86146269267763232722d71a5c5ba13c145ebee"
-metafile = true
-
-[[files]]
-file = "tmp_move/mixintrace-reforged.pw.toml"
-hash = "238b4a0a76d7c739e757554d234c0df2388f30df31fcdf45a53c6006272b55be"
-metafile = true
-
-[[files]]
-file = "tmp_move/mmmmmmmmmmmm.pw.toml"
-hash = "ad52f42cb5e9080cd493d1e7b2acfbc6c662ece8f094288604d54a224ce0e440"
-metafile = true
-
-[[files]]
-file = "tmp_move/moogs-structure-lib.pw.toml"
-hash = "9a95c07a28bda9b0374b4af72132e8405d4fbf574cbac3a3df5d2e3daefff951"
-metafile = true
-
-[[files]]
-file = "tmp_move/moogs-voyager-structures.pw.toml"
-hash = "b8eac8f96dd452576243d314a1a4fde218e438bf53cc662bf8f98b3d4dc0329e"
-metafile = true
-
-[[files]]
-file = "tmp_move/more-sniffer-flowers.pw.toml"
-hash = "232bb4e0850321d1c02e66c613972a1f41f235f7d748a0489779d534f5457549"
-metafile = true
-
-[[files]]
-file = "tmp_move/mru.pw.toml"
-hash = "42805ef7e224873873d190b0363f2a53dae02530553574f29fab92e258bc0470"
-metafile = true
-
-[[files]]
-file = "tmp_move/mtr-moogs-temples-reimagined.pw.toml"
-hash = "8af373c3df0a5561e90a600a7f02ee682805a2528605997bd4cf085914ba900a"
-metafile = true
-
-[[files]]
-file = "tmp_move/nightlights.pw.toml"
-hash = "9b56c2c17c00dd51fffcbc5e5a59d2c325ed656e768365ae1a36f7692ffcd01e"
-metafile = true
-
-[[files]]
-file = "tmp_move/no-chat-reports.pw.toml"
-hash = "5da18814472be5dc93a21886983646da3a7236413800075ac75229be82d114fa"
-metafile = true
-
-[[files]]
-file = "tmp_move/now-playing.pw.toml"
-hash = "700d7eec503d4cca8287a26354699301c0087b387598695d240bece175a3637b"
 metafile = true
 
 [[files]]
