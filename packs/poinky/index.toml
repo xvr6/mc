@@ -53,6 +53,10 @@ file = "config/curios-client.toml"
 hash = "dcc28aa80e16236eb44c69c589d41a2ca663782a9c2d874c14cf55959499a50c"
 
 [[files]]
+file = "config/ftbessentials.snbt"
+hash = "37ab102ad2f9a54861cd728be1ad1dcb723ec0aa19433433634b747c0ac32973"
+
+[[files]]
 file = "config/global_packs.toml"
 hash = "2eae6499a447214224cebf691b8ea4238906d72968b676c538c88edb156b74e6"
 
@@ -162,7 +166,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
+hash = "6d3a1c92eee4dd671253c41ec000ae48064a33c45263d6adce5cad466395169d"
 metafile = true
 
 [[files]]
@@ -173,6 +177,11 @@ metafile = true
 [[files]]
 file = "mods/autohud.pw.toml"
 hash = "696af7653d1bb49da97a20b5d634b589d5dcdb98bca83d88e9d8fa05d0344e9e"
+metafile = true
+
+[[files]]
+file = "mods/balm.pw.toml"
+hash = "547660bb17452fae6e46504c87eea9e75eeb50de440495cadcee9ad49c6d131d"
 metafile = true
 
 [[files]]
@@ -263,6 +272,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-counter.pw.toml"
 hash = "5298e216aa91dc3463ddd92d31b3b9fd43ee47d2b1ffce486ae4c725bfeec9ce"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-emi.pw.toml"
+hash = "1d530d3cefe90b67c56aa9fe1759a96e89276cc9d5a9be033f8b1ef2abe9942f"
 metafile = true
 
 [[files]]
@@ -536,6 +550,11 @@ hash = "11e43d47773d438897c9e445a1231ab2158b99ba24c7e59a6d69e62c1349b4b2"
 metafile = true
 
 [[files]]
+file = "mods/findme.pw.toml"
+hash = "ef9b249b2052ef6cc08214e63debd2a9a71d60b7fe1353bbff41634c3d6408ca"
+metafile = true
+
+[[files]]
 file = "mods/framedblocks.pw.toml"
 hash = "f9b1fbbb47ce9eb83e43037c6bce1a49167743094feeef1e4c941e9252a1131d"
 metafile = true
@@ -548,6 +567,11 @@ metafile = true
 [[files]]
 file = "mods/friends-and-foes-forge.pw.toml"
 hash = "39cee78671fa19bc18675688bd5369afc39cdb9d20802d66455b6cdceaeaa6b0"
+metafile = true
+
+[[files]]
+file = "mods/ftb-essentials.pw.toml"
+hash = "aaa5d15a2ebf6ae368561fc49d7994ffa5084138942095cb4ded4c8921189437"
 metafile = true
 
 [[files]]
@@ -626,8 +650,23 @@ hash = "0eef279850c173527c29e0d550aa4a6a616caf031056ac85e69ced91e0cc8ce1"
 metafile = true
 
 [[files]]
+file = "mods/immersivethunder.pw.toml"
+hash = "ebf8d50e6f4302cef6addcded11b9d219e789663684235f3e8393c6b55596980"
+metafile = true
+
+[[files]]
 file = "mods/incendium.pw.toml"
 hash = "ef1faa467f5dfd37c40871575934dab645f15a70568e8268a9e477234bdd1c58"
+metafile = true
+
+[[files]]
+file = "mods/inventory-management-deluxe.pw.toml"
+hash = "235171ef8712f5a898363ae1939bf7269cd90c3faf6fcda39112b4f53403fb04"
+metafile = true
+
+[[files]]
+file = "mods/inventory-tweaks-refoxed.pw.toml"
+hash = "4fbe04bd9f15b5c0f861472a9be7d95ca743c7ed820119cfb7e3caed12e071fb"
 metafile = true
 
 [[files]]
@@ -871,6 +910,11 @@ hash = "1ef7ce6d5fe6e584914680f5463508996f0dd1c2bdbc051b8b3b050c85e134ff"
 metafile = true
 
 [[files]]
+file = "mods/ping-wheel.pw.toml"
+hash = "9263405332ca3b5da9de2f7e05b53c2544b8fcb5345e0d80b05f8b87f07d6b29"
+metafile = true
+
+[[files]]
 file = "mods/placebo.pw.toml"
 hash = "6ade0327d7103487f7ef0bec778ae3a12a4fe8c2d20ddb7c5aea9a191e3a2763"
 metafile = true
@@ -971,6 +1015,11 @@ hash = "0281ed9713f3141bdac363056a791845510e14761ea65b4b2813cf96d664b20a"
 metafile = true
 
 [[files]]
+file = "mods/sooty-chimneys.pw.toml"
+hash = "815a5c9b3e5f8abdd86fef0319809b10517bcda0fa369789d525765a61f3e068"
+metafile = true
+
+[[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
 hash = "3cc8a6b4f0caa73eb00a018bd15f2359b1d801cf46d25c7654135c38c73ce009"
 metafile = true
@@ -1053,6 +1102,11 @@ metafile = true
 [[files]]
 file = "mods/trash-cans.pw.toml"
 hash = "a43bccc1cdad8e0ce5167f379c98935f7ea8117ac0bda2218b372defbc9fc985"
+metafile = true
+
+[[files]]
+file = "mods/trashslot.pw.toml"
+hash = "b7edb8bf6ab6913509a777faa013241784c3a75a966a1c62e4ddd786ecd2392f"
 metafile = true
 
 [[files]]
