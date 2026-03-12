@@ -41,6 +41,14 @@ file = "config/carryon-common.toml"
 hash = "6488cdeccad07ffd98c08bf07a8874b259e781119f727e224518a6e21c6c57eb"
 
 [[files]]
+file = "config/cobblemon/main.json"
+hash = "61d1628138d1b7aaa3201ddc32521e3f52be4570a8625c1271fd7d0a26be9ce4"
+
+[[files]]
+file = "config/cobblemon/starters.json"
+hash = "e29a23b87536a010c1adb81e5cb5e52b5a3691e967dd16ee07ecddb123e81ce4"
+
+[[files]]
 file = "config/curios-client.toml"
 hash = "dcc28aa80e16236eb44c69c589d41a2ca663782a9c2d874c14cf55959499a50c"
 
@@ -69,6 +77,10 @@ file = "config/vanillabackport-common.toml"
 hash = "1833951804f7f915ac3f5ae95f3d8a188555790c60c76c36c6cae124cb76e3f3"
 
 [[files]]
+file = "config/xaero/minimap/profiles/default.cfg"
+hash = "042b6003f473686483ce694a8bc6c4a959ce9e1abf4d57ac720a52769ca9bede"
+
+[[files]]
 file = "datapacks/201-trainers-cobblemon.pw.toml"
 hash = "095183fff656f8269396b27475daed6e724b8d4558b99439d0034891048d227a"
 metafile = true
@@ -81,11 +93,6 @@ metafile = true
 [[files]]
 file = "datapacks/cobblemon-seavls-bizarremons.pw.toml"
 hash = "6d6da271a568782d91d8580d496d3ea1901c532216de2a6c60834b338328f563"
-metafile = true
-
-[[files]]
-file = "datapacks/cobblemon-stellar-blue.pw.toml"
-hash = "1481a1862f49c878ae610cfe959baa0c53fbcba6b0186ccae3668fcec59be4ba"
 metafile = true
 
 [[files]]
@@ -165,7 +172,7 @@ metafile = true
 
 [[files]]
 file = "mods/autohud.pw.toml"
-hash = "d05032ebf4a658ab7923ee3404c06a54527fbfda79c3edd032f9d233909a8184"
+hash = "696af7653d1bb49da97a20b5d634b589d5dcdb98bca83d88e9d8fa05d0344e9e"
 metafile = true
 
 [[files]]
@@ -216,6 +223,11 @@ metafile = true
 [[files]]
 file = "mods/chimes.pw.toml"
 hash = "7c39ccee8a0d788d5b9d365d8d79a498a998038c5ded39eb7b07ce0e292489cb"
+metafile = true
+
+[[files]]
+file = "mods/clayworks.pw.toml"
+hash = "055b1cba862cdddfce8466ce63b9cf1bf07541602069e80c6cf9f50d64ec8197"
 metafile = true
 
 [[files]]
@@ -270,17 +282,17 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-spawn-notification.pw.toml"
-hash = "5040157557e38512b64d13395c4550950ad00acb40183cb63a9a2daba85c1b8e"
+hash = "1790ecbcf61b6e9b0ee322dc9b6a915f9e76e33cb2c94254120dc75ef05b7e57"
 metafile = true
 
 [[files]]
 file = "mods/cobblemon-tim-core.pw.toml"
-hash = "8c60fe098708b78c9d9152dac5800211e097c78b7c20e29b48fbdd391378bef6"
+hash = "6f205d0c8313307cd975bea691cdca40fd93744e2eafed0b11e4e683a0aaacdf"
 metafile = true
 
 [[files]]
 file = "mods/cobblemon-unchained.pw.toml"
-hash = "ce3d77e626d315fae2c0c7347348a7d57c038b209a4a91fa62ccc77de3d8c742"
+hash = "02abffe0573f313139ecb089e243fc2c2c1cb39008a382192bd16809c8ab36d1"
 metafile = true
 
 [[files]]
@@ -420,7 +432,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "61ce79aeecd3101399a33bbea16444736f2988b363a63c9f3b6a2c4fb0b3828a"
+hash = "3a1946bb6c9016b88587e13d259746e211ae6d14a493a4d157d9d50c403302d8"
 metafile = true
 
 [[files]]
@@ -615,7 +627,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "f67aa60c765593a8c70f78296a460349c6aef5f4a16d173eae02e8803b545ad4"
+hash = "d34e98972c31bd153b91bf27d504e2c6738fa6000bdf52da13a5e0c5f8b63f13"
 metafile = true
 
 [[files]]
@@ -719,11 +731,6 @@ hash = "efe57fac888f82b6be033ff5fed9b9a71095e1ee65da7e26d6081cba7174f617"
 metafile = true
 
 [[files]]
-file = "mods/lively-mons.pw.toml"
-hash = "5484eb478da0c24e4e3b0253061fcd60b463639b9db78deb5358712ce73bb3c8"
-metafile = true
-
-[[files]]
 file = "mods/lootr.pw.toml"
 hash = "33e1d182c5a166e070cc66157ec6f692ff08d8ddae975b564e69a37079b01950"
 metafile = true
@@ -745,7 +752,7 @@ metafile = true
 
 [[files]]
 file = "mods/mindful-darkness.pw.toml"
-hash = "5caec0b7a1e4e4caf887e321d86146269267763232722d71a5c5ba13c145ebee"
+hash = "878095e9122c1fa6bacaea51cf4f12b39405f63a16321c9d6cddc074b3d567e7"
 metafile = true
 
 [[files]]
@@ -805,7 +812,7 @@ metafile = true
 
 [[files]]
 file = "mods/now-playing.pw.toml"
-hash = "700d7eec503d4cca8287a26354699301c0087b387598695d240bece175a3637b"
+hash = "37cb65510f08de773837e9f46d4fcf4aafb0875cc23ea0a64d929bd1d1d056a6"
 metafile = true
 
 [[files]]
@@ -911,6 +918,11 @@ metafile = true
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "c0b066684294c33972d562e0cb08ea17b2d31bcf86cd1d6c63b8e968f0eac7a2"
+metafile = true
+
+[[files]]
+file = "mods/respawning-animals.pw.toml"
+hash = "68294507359c310e2d25b4bccf160c173264c2301439be978242994c9fcb6cdc"
 metafile = true
 
 [[files]]

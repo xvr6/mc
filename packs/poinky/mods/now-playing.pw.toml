@@ -11,3 +11,8 @@ hash = "e2f6ee514f9c319d8198e8c0c461d2171402bd875adac2a79f548888bc5d62bf071a7b2d
 [update.modrinth]
 mod-id = "eNF4Bfla"
 version = "zocCsL7s"
+
+[option]
+optional = true
+description = "Displays song minecraft is currently playing as a toast,"
+default = true

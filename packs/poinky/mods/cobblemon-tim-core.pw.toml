@@ -3,8 +3,8 @@ filename = "timcore-neoforge-1.7.3-1.31.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha512"
-hash = "e92f511ebf988262759c5f52233711a2ee9247c123a57e020b1dae107907b2108a1ea20b334f630885bc51bf99538279f49faf3e8075934ae1d98cdaaeb78c03"
+hash-format = "sha1"
+hash = "0ee7e9c7fec9185d9ee6065582a59dce38d938ca"
 mode = "metadata:curseforge"
 
 [update]

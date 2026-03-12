@@ -11,3 +11,8 @@ hash = "619b5edd1e23fe772ecc467714333a61a37786e25218701ce2512a31e8b41f879ff37e4a
 [update.modrinth]
 mod-id = "pzCY6C3e"
 version = "sGVDl8zH"
+
+[option]
+optional = true
+description = "Turns on dark mode for all compatible menus. Toggle present in pause menu!"
+default = true
