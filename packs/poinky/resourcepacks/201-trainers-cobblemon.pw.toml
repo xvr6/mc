@@ -1,0 +1,13 @@
+name = "201 Trainers [Cobblemon]"
+filename = "201Trainers 1.6.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/OSuPu1jI/versions/P0tPdOjy/201Trainers%201.6.zip"
+hash-format = "sha512"
+hash = "1bd5167e4fbe895cde546478a85a1fca77d7b71b9c8b57dab304c8edefe3ccfa5aa33517c3f2c4ece53d10be33922193ad017313870f2f2e47bcc072630eb4a1"
+
+[update]
+[update.modrinth]
+mod-id = "OSuPu1jI"
+version = "P0tPdOjy"

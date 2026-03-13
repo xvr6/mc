@@ -3,8 +3,8 @@ filename = "Inventory Management Deluxe-1.21.1-NeoForge-1.0.3.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "da6b2b5b111fd752601a5ef19a489fcf42c7ff8f"
+hash-format = "sha512"
+hash = "1b9195249d4e3026f8bb4829399be7cbcb058c0b7de539eaea0e8401a2de80e2daa3c464af05acba85001af415bceeea53d2e508d09b53acda5c768af42830ec"
 mode = "metadata:curseforge"
 
 [update]

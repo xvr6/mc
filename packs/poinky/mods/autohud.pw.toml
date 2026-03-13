@@ -12,8 +12,6 @@ hash = "6d007ca6d35b751e0c9a079d00f4a816fd03d4d79aa23c09d80f453853f0b67a538bc311
 mod-id = "temczoTQ"
 version = "JlBOYx2k"
 
-
 [option]
 optional = true
 description = "Weaver likes this cause he's insane so its here lmfao. Automatically shows/hides unused UI components"
-default = false

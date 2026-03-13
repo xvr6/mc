@@ -12,14 +12,14 @@
 		"showUnusedSlots": false,
 		"allowSlotScrolling": true,
 		"inventoryButtonOffset": {
-			"x": 0,
-			"y": 0
+			"x": 28,
+			"y": 8
 		},
 		"creativeInventoryButtonOffset": {
 			"x": 0,
 			"y": 0
 		},
-		"isDarkMode": false,
+		"isDarkMode": true,
 		"showEquippedStackSlotType": true,
 		"entityLooksAtMouseCursor": false,
 		"allowSideBarCraftingGrid": true,
