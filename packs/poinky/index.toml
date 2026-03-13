@@ -53,12 +53,20 @@ file = "config/global_packs.toml"
 hash = "2eae6499a447214224cebf691b8ea4238906d72968b676c538c88edb156b74e6"
 
 [[files]]
+file = "config/harvest_with_ease-common.toml"
+hash = "ba9ae62262b22680817cf11417a663079a8339067f609d6e7b5e7a3fde75794c"
+
+[[files]]
 file = "config/mindfuldarkness-client.toml"
 hash = "e3920628719c00d298b6979e8014b1d2693d7a057024f9593e70ad751fe9f9ad"
 
 [[files]]
 file = "config/regions_unexplored/common.toml"
 hash = "779649ccfb1e1b4f4054924188e88362ada82c6226e34c235c4142c12396dfe0"
+
+[[files]]
+file = "config/rightclickharvest.json5"
+hash = "77f12df1ef63e7896490e97e106b11405f88630edf8e1195cece54fbab0b5c19"
 
 [[files]]
 file = "config/shouldersurfing-client.toml"
@@ -309,6 +317,11 @@ metafile = true
 [[files]]
 file = "mods/cobblepedia.pw.toml"
 hash = "1d976a52bf9bf8ae519fc5a75382de094d077002a63c73c78707c1e751d66e90"
+metafile = true
+
+[[files]]
+file = "mods/cobweb.pw.toml"
+hash = "23f681379a3e647a59f0749d25f2ce0725d4afafeed41871c5c87f2658d13a72"
 metafile = true
 
 [[files]]
@@ -614,6 +627,11 @@ metafile = true
 [[files]]
 file = "mods/handcrafted.pw.toml"
 hash = "0004feab868f7b873c12db05aae0d0dac6c87b497490b48bb66480e7c8d0f340"
+metafile = true
+
+[[files]]
+file = "mods/harvest-with-ease.pw.toml"
+hash = "1e5b320ad839b14df9754644d36a10bc745bf165da797b9b195136ee6b1f06a7"
 metafile = true
 
 [[files]]
@@ -974,11 +992,6 @@ metafile = true
 [[files]]
 file = "mods/ribbits.pw.toml"
 hash = "6a598c073aabc968d8ee736141d238c517e13662f3de0feb81796cb9c0d6f4f0"
-metafile = true
-
-[[files]]
-file = "mods/rightclickharvest.pw.toml"
-hash = "9c0d37bfbfdda77af1946da1d80aa48e7dfea9611c43d5c81c70676b1d854af6"
 metafile = true
 
 [[files]]
