@@ -78,7 +78,7 @@ hash = "5c7ed7ffe7423ad0741513d15b754ca1a9dd9cc4ec6350e9d4192184803830e5"
 
 [[files]]
 file = "config/vanillabackport-common.toml"
-hash = "1833951804f7f915ac3f5ae95f3d8a188555790c60c76c36c6cae124cb76e3f3"
+hash = "b59e01287215a8c97aeedb24d830dfdb64e526fca4519a0f8cb3c9523299d232"
 
 [[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
@@ -111,7 +111,7 @@ metafile = true
 
 [[files]]
 file = "datapacks/mundialmons.pw.toml"
-hash = "c22710abd1a346fc97d5dfd19a4f0b35eb2c450f3b59fb094e5e8c48ebd4f5cf"
+hash = "8703040e7ee5596f96c86792440c8d793006e3dabe191857c0c587044c7612b9"
 metafile = true
 
 [[files]]
@@ -276,12 +276,12 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-emi.pw.toml"
-hash = "1d530d3cefe90b67c56aa9fe1759a96e89276cc9d5a9be033f8b1ef2abe9942f"
+hash = "58cce7a5429652aa94efc57729940b29051be46567c99a3eb7478c1af644a2e9"
 metafile = true
 
 [[files]]
 file = "mods/cobblemon-mega-showdown.pw.toml"
-hash = "2b126a6887fa2a2c6a935ec52b549c40b1d85593a1d6a71d501b8846dde043d4"
+hash = "7f64ed4a0fafc2f78e947b3405a38e31938a5783c4aca5d3446f0930f70a6b5d"
 metafile = true
 
 [[files]]
@@ -506,7 +506,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi-enchanting.pw.toml"
-hash = "ff029ee6fc50f2696e96cdbcc696f42e75b483c9d7b83f2b1447dcf5c865e664"
+hash = "7c006fbe7ad47bcdd1715b25cdb08699acb512a8e331a2fe4f01d898f3bb5103"
 metafile = true
 
 [[files]]
@@ -651,7 +651,7 @@ metafile = true
 
 [[files]]
 file = "mods/immersivethunder.pw.toml"
-hash = "c0a07ef9b87a84ac2caaf6bb39b5cb203b32b430aad8f232b11b275aab6aadad"
+hash = "b217a615874e512a0e299d84273a9b373f4cfbe3b30f64b34970ceeb332c604a"
 metafile = true
 
 [[files]]
@@ -741,7 +741,7 @@ metafile = true
 
 [[files]]
 file = "mods/lets-do-emi-compat.pw.toml"
-hash = "d4ce41dd8d149e8a53317e26532bf542d82d33c6728d2e259b6155b5dc7f7aa7"
+hash = "2e4ca2afd57a1c7cf3b4c0f3ba905509ec3f5caf6ae3abf44955b32e3efc02ae"
 metafile = true
 
 [[files]]
@@ -1251,7 +1251,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/mundialmons.pw.toml"
-hash = "f0c2af336a5d0a7c532be32b0da2c4b55251f82691bedcd210fe592097c55369"
+hash = "8703040e7ee5596f96c86792440c8d793006e3dabe191857c0c587044c7612b9"
 metafile = true
 
 [[files]]

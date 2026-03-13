@@ -1,6 +1,6 @@
 name = "[Let's Do Addon] EMI Compat"
 filename = "emi-letsdo-compat-2.0.1+1.21.1+neoforge.jar"
-side = "client"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/k6hi4lMv/versions/sDXxwL9Z/emi-letsdo-compat-2.0.1%2B1.21.1%2Bneoforge.jar"

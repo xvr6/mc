@@ -1,13 +1,14 @@
 name = "MundialMons ReaniPack [CobbleMon]"
-filename = "MundialMons.1.3.2V.[BUGS AND FIX].zip"
-side = "client"
+filename = "MundialMons.V1.3.2(Galarmons 2.0 part2).zip"
+side = "both"
+pin = true
 
 [download]
-url = "https://cdn.modrinth.com/data/ubCG349l/versions/ObF5y08k/MundialMons.1.3.2V.%5BBUGS%20AND%20FIX%5D.zip"
+url = "https://cdn.modrinth.com/data/ubCG349l/versions/TZPmBSTW/MundialMons.V1.3.2%28Galarmons%202.0%20part2%29.zip"
 hash-format = "sha512"
-hash = "bd97da4bf60d6a6151e25e6a9097c0d1a9af759fe471f65934268b03f98a31f1ebae7126f5acfab20a6b819a03a29e4f496dc78155b8bfe1f5f55afbaf9b6de0"
+hash = "b678156aaaccfef87f0384302283c2df3e3d78b02bb189018603b6a0de6696eea92ed7fb45be2c9b8ddb022668b13d602160080befe3da2cef94ca8d53650f64"
 
 [update]
 [update.modrinth]
 mod-id = "ubCG349l"
-version = "ObF5y08k"
+version = "TZPmBSTW"
