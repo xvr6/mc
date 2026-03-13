@@ -33,14 +33,6 @@ file = "config/bluemap/webserver.conf"
 hash = "420b13227864623ff9e5f200ebba4c1a10f05a4ca40539dbefdfc9e23cdf78f2"
 
 [[files]]
-file = "config/carryon-client.toml"
-hash = "8ef4b931dab1300df5d2d7ecd93c5f37da97f032f882d33b6b6c16ba84d3f97c"
-
-[[files]]
-file = "config/carryon-common.toml"
-hash = "912b58b492a395a63d1007246b8a80c524694721ab1fd4f8b322a207b42c175f"
-
-[[files]]
 file = "config/cobblemon/main.json"
 hash = "61d1628138d1b7aaa3201ddc32521e3f52be4570a8625c1271fd7d0a26be9ce4"
 
@@ -227,11 +219,6 @@ metafile = true
 [[files]]
 file = "mods/c2me-neoforge.pw.toml"
 hash = "f773c1a9d14caa184e006fdd8896134123a3092f923780125041029744844678"
-metafile = true
-
-[[files]]
-file = "mods/carry-on.pw.toml"
-hash = "c5e47d922e39c1556dc2e8c94bfe852cf16de14f65b99eb3e054e41745dddad0"
 metafile = true
 
 [[files]]
