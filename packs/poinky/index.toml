@@ -38,7 +38,7 @@ hash = "8ef4b931dab1300df5d2d7ecd93c5f37da97f032f882d33b6b6c16ba84d3f97c"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "6488cdeccad07ffd98c08bf07a8874b259e781119f727e224518a6e21c6c57eb"
+hash = "912b58b492a395a63d1007246b8a80c524694721ab1fd4f8b322a207b42c175f"
 
 [[files]]
 file = "config/cobblemon/main.json"

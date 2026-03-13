@@ -220,6 +220,7 @@ forbiddenTiles = [
 	"modern_industrialization:fluid_pipe",
 	"modern_industrialization:*_fluid_pipe",
 	"snowrealmagic:*",
+	"vinery:*",
 ]
 #Entities that cannot be picked up
 forbiddenEntities = [
@@ -267,6 +268,7 @@ forbiddenEntities = [
 	"littletiles:*",
 	"create:*",
 	"create*:*",
+	"vinery:*",
 ]
 #Entities that cannot have other entities stacked on top of them
 forbiddenStacking = ["minecraft:horse"]
