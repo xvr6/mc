@@ -1,0 +1,13 @@
+name = "Cobbledex for REI / EMI / JEI"
+filename = "cobbledex-rei-emi-jei-neoforge-1.50.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qekxLrOP/versions/tK6oOxfR/cobbledex-rei-emi-jei-neoforge-1.50.3.jar"
+hash-format = "sha512"
+hash = "36aa647c4ffb5b1f32843e89806f9e2a2778e9960e2f4fb3e5b5b885c11262ede210b3bddc94920f36ad49b807eded5bf74472c01ccbd649b843918ce82630c8"
+
+[update]
+[update.modrinth]
+mod-id = "qekxLrOP"
+version = "tK6oOxfR"

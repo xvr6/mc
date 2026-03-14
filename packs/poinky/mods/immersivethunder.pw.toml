@@ -1,6 +1,6 @@
 name = "ImmersiveThunder"
 filename = "immersivethunder-neoforge-1.21.1-1.3.0.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha512"

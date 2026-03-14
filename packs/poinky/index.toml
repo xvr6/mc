@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "506fb32f9646fd685ac21b34cc65a3869709a523a2ea818bae20e1706f916064"
+hash = "e76f94e3fabe84a42bc2bece5fa67ee2849340ee3b25f849a27a7bad4bd99537"
 
 [[files]]
 file = "config/accessories.json5"
@@ -18,27 +18,19 @@ hash = "fe036ce576f9550038d35afeb59a1a627ae81c04e27740410ae57f525efe64d9"
 
 [[files]]
 file = "config/bluemap/core.conf"
-hash = "d48bbb609024692588ea79b4d0de2aceb93e0ec15448e8f5489b3b20e742007a"
-
-[[files]]
-file = "config/bluemap/plugin.conf"
-hash = "ed29fee7f96516015633a23af1d71e9c536b57d1fa39c6710eda501ea380ac91"
-
-[[files]]
-file = "config/bluemap/webapp.conf"
-hash = "01f06e0eff76f950e4152dedd36687b599777cb24a1ce4699137b1025c6288dc"
-
-[[files]]
-file = "config/bluemap/webserver.conf"
-hash = "420b13227864623ff9e5f200ebba4c1a10f05a4ca40539dbefdfc9e23cdf78f2"
+hash = "6af0a5e5b300a5f0922d6029520552fedcd79bf2628def25cc5ff79eecebbb81"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "61d1628138d1b7aaa3201ddc32521e3f52be4570a8625c1271fd7d0a26be9ce4"
+hash = "1bd8f9bc085b5b3d822eec47b2f641454d2902f779b3f5c5b87078453193e26e"
 
 [[files]]
 file = "config/cobblemon/starters.json"
-hash = "e29a23b87536a010c1adb81e5cb5e52b5a3691e967dd16ee07ecddb123e81ce4"
+hash = "8502ed660e79ca6e4e27c1f5f79e619684666f37cf0cd1c33d4b6087e459a1b5"
+
+[[files]]
+file = "config/crop-critters-config.toml"
+hash = "9c9daafb198b267914e7fc1a22cff8fcbb0bf218ed227df06805edcaace23dd3"
 
 [[files]]
 file = "config/curios-client.toml"
@@ -65,10 +57,6 @@ file = "config/regions_unexplored/common.toml"
 hash = "779649ccfb1e1b4f4054924188e88362ada82c6226e34c235c4142c12396dfe0"
 
 [[files]]
-file = "config/rightclickharvest.json5"
-hash = "77f12df1ef63e7896490e97e106b11405f88630edf8e1195cece54fbab0b5c19"
-
-[[files]]
 file = "config/shouldersurfing-client.toml"
 hash = "5eded57444d1cb3e7923aabfa568d2561dacfee3734e6729d2a7598a137f4a36"
 
@@ -78,7 +66,7 @@ hash = "5c7ed7ffe7423ad0741513d15b754ca1a9dd9cc4ec6350e9d4192184803830e5"
 
 [[files]]
 file = "config/vanillabackport-common.toml"
-hash = "b59e01287215a8c97aeedb24d830dfdb64e526fca4519a0f8cb3c9523299d232"
+hash = "1833951804f7f915ac3f5ae95f3d8a188555790c60c76c36c6cae124cb76e3f3"
 
 [[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
@@ -88,6 +76,10 @@ hash = "042b6003f473686483ce694a8bc6c4a959ce9e1abf4d57ac720a52769ca9bede"
 file = "datapacks/201-trainers-cobblemon.pw.toml"
 hash = "095183fff656f8269396b27475daed6e724b8d4558b99439d0034891048d227a"
 metafile = true
+
+[[files]]
+file = "datapacks/[V.1.4.1] Cobblemon Stellar Blue.zip"
+hash = "195bb662396d4bebce73d975f0f0007ae8d8ece065639173e28f5d88983014be"
 
 [[files]]
 file = "datapacks/cobblemon-pokemans.pw.toml"
@@ -255,8 +247,18 @@ hash = "503569d1bccf50d580e517550e8f66574d881deac197f30fedb0a18ebb5d3ff4"
 metafile = true
 
 [[files]]
+file = "mods/cobbledex-rei-emi-jei.pw.toml"
+hash = "5e3183b48b635945b83dde46c3388acb2cd782d6a01d8c414e8699cbec59df92"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-alatias-fakemon-pack.pw.toml"
 hash = "a88bc4f42325323a40b61b16a6845355a7227a4520d1fcb7e3d5655dcda07517"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-capture-xp.pw.toml"
+hash = "d3848b010ba3593e125aaa415ff786fd64dcb0d1726785c58176fdbd3b8bdb74"
 metafile = true
 
 [[files]]
@@ -267,11 +269,6 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-counter.pw.toml"
 hash = "5298e216aa91dc3463ddd92d31b3b9fd43ee47d2b1ffce486ae4c725bfeec9ce"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-emi.pw.toml"
-hash = "58cce7a5429652aa94efc57729940b29051be46567c99a3eb7478c1af644a2e9"
 metafile = true
 
 [[files]]
@@ -550,6 +547,11 @@ hash = "11e43d47773d438897c9e445a1231ab2158b99ba24c7e59a6d69e62c1349b4b2"
 metafile = true
 
 [[files]]
+file = "mods/extra-eeveelutions.pw.toml"
+hash = "7764ac9b49a0400de01347f01dd4cb91549dd403adad8c881cad4d300f5eeb90"
+metafile = true
+
+[[files]]
 file = "mods/findme.pw.toml"
 hash = "ef9b249b2052ef6cc08214e63debd2a9a71d60b7fe1353bbff41634c3d6408ca"
 metafile = true
@@ -562,6 +564,11 @@ metafile = true
 [[files]]
 file = "mods/framework.pw.toml"
 hash = "5b24721dc768cea7ddb91468092cb41f9893d13fcad29b1798fa791669480c31"
+metafile = true
+
+[[files]]
+file = "mods/freecam.pw.toml"
+hash = "184c6768f11e0c33c22c104397ad559c5b9337c709d1d05c8e9c93891dcddaee"
 metafile = true
 
 [[files]]
@@ -656,7 +663,7 @@ metafile = true
 
 [[files]]
 file = "mods/immersivethunder.pw.toml"
-hash = "b217a615874e512a0e299d84273a9b373f4cfbe3b30f64b34970ceeb332c604a"
+hash = "c0a07ef9b87a84ac2caaf6bb39b5cb203b32b430aad8f232b11b275aab6aadad"
 metafile = true
 
 [[files]]
@@ -705,8 +712,13 @@ hash = "e3c802556e3f8a52ac984bd08837442828f0af4756e2cf883e88da6f20452bc2"
 metafile = true
 
 [[files]]
+file = "mods/kazeran-eeveelutions.pw.toml"
+hash = "89d7c23357049c166f80d342fc657512a77454612becc9a2759a88d53f875cb3"
+metafile = true
+
+[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
-hash = "478d12a7ad70a9d6ffec2aa6d52b9897d91792a9f74e33bd1a832108901149f2"
+hash = "27302b0087cf53570cd7a3b4eb550a208cbb6f6ba07210c604176155f39e0078"
 metafile = true
 
 [[files]]
@@ -785,6 +797,11 @@ hash = "efe57fac888f82b6be033ff5fed9b9a71095e1ee65da7e26d6081cba7174f617"
 metafile = true
 
 [[files]]
+file = "mods/lively-mons.pw.toml"
+hash = "5484eb478da0c24e4e3b0253061fcd60b463639b9db78deb5358712ce73bb3c8"
+metafile = true
+
+[[files]]
 file = "mods/lootr.pw.toml"
 hash = "33e1d182c5a166e070cc66157ec6f692ff08d8ddae975b564e69a37079b01950"
 metafile = true
@@ -807,6 +824,11 @@ metafile = true
 [[files]]
 file = "mods/mindful-darkness.pw.toml"
 hash = "878095e9122c1fa6bacaea51cf4f12b39405f63a16321c9d6cddc074b3d567e7"
+metafile = true
+
+[[files]]
+file = "mods/missingmons-cobblemon.pw.toml"
+hash = "b5fd0f5908a1ba4703edae2e485553d0cdfacdaf95f8ba63f0849ea5035545c2"
 metafile = true
 
 [[files]]
@@ -902,6 +924,11 @@ metafile = true
 [[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "46831c04077a06df823bcd0f254833a90a9a9ccc78f5069f4b4c27fa301ac0cf"
+metafile = true
+
+[[files]]
+file = "mods/packet-fixer.pw.toml"
+hash = "84cb0dcad9ac46d22adba4fb7924951affa6ac5e46027a3b25fa9a0db8d91b2b"
 metafile = true
 
 [[files]]
@@ -1066,7 +1093,7 @@ metafile = true
 
 [[files]]
 file = "mods/subtle-effects.pw.toml"
-hash = "0e9840c892e4904744e3f3efcd2e17f675c005e372b01532203a25a7de2224de"
+hash = "ebbb8c25c8741d0bbe4aa09c893e1f34228e4e50f92e7ae829a4dbbf621d9045"
 metafile = true
 
 [[files]]
@@ -1213,6 +1240,10 @@ metafile = true
 file = "resourcepacks/201-trainers-cobblemon.pw.toml"
 hash = "995b0cf5d67b1ba7f815bced575873f6fc39b03978d4ecc8f1f6c51280ce81db"
 metafile = true
+
+[[files]]
+file = "resourcepacks/[V.1.4.1] Cobblemon Stellar Blue.zip"
+hash = "195bb662396d4bebce73d975f0f0007ae8d8ece065639173e28f5d88983014be"
 
 [[files]]
 file = "resourcepacks/cobblemon-pokemans.pw.toml"

@@ -91,6 +91,15 @@
         "Fuecoco level=10",
         "Quaxly level=10"
       ]
+    },
+    {
+      "name": "Lumora",
+      "displayName": "cobblemon.starterselection.category.lumora",
+      "pokemon": [
+        "Tigriff level=10",
+        "Emberam level=10",
+        "Equelpi level=10"
+      ]
     }
   ]
 }

@@ -231,7 +231,7 @@ distantGeneratorMode = "INTERNAL_SERVER"
 # CHAT 
 # LOG 
 # DISABLED
-showGenerationProgress = "DISABLED"
+showGenerationProgress = "OVERLAY"
 #
 # The max radius in chunks around the central point where world generation is allowed. 
 # If this value is set to 0, generation bounds are disabled and the render distance will be used. 
