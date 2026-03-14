@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "e76f94e3fabe84a42bc2bece5fa67ee2849340ee3b25f849a27a7bad4bd99537"
+hash = "6054cd0e9b71eb0aea415148943751c7153e92aab7c1f0b926c10f5a47e818f4"
 
 [[files]]
 file = "config/accessories.json5"
-hash = "3d038290a46f6fca2366076ae0e259c457c3c5bef3eab4ba9643ce0033f55dae"
+hash = "d8017acc5db66ce6d72ba3de64c60fc85844f0c29c37f1f59f99cf20df582fd8"
 
 [[files]]
 file = "config/autohud.json5"
@@ -41,6 +41,10 @@ file = "config/ftbessentials.snbt"
 hash = "37ab102ad2f9a54861cd728be1ad1dcb723ec0aa19433433634b747c0ac32973"
 
 [[files]]
+file = "config/ftbultimine-client.snbt"
+hash = "0da4304d378b6b703ebc6b9b1d859ce6f30f0b48543d2d58be2b7242f3341358"
+
+[[files]]
 file = "config/global_packs.toml"
 hash = "2eae6499a447214224cebf691b8ea4238906d72968b676c538c88edb156b74e6"
 
@@ -58,7 +62,7 @@ hash = "779649ccfb1e1b4f4054924188e88362ada82c6226e34c235c4142c12396dfe0"
 
 [[files]]
 file = "config/shouldersurfing-client.toml"
-hash = "5eded57444d1cb3e7923aabfa568d2561dacfee3734e6729d2a7598a137f4a36"
+hash = "bb247011c98bf9fd7203c37cb7e18bb5579cf1f9d41f165c7a9202da880d8501"
 
 [[files]]
 file = "config/tectonic.json"
@@ -69,8 +73,16 @@ file = "config/vanillabackport-common.toml"
 hash = "1833951804f7f915ac3f5ae95f3d8a188555790c60c76c36c6cae124cb76e3f3"
 
 [[files]]
+file = "config/via_romana.json"
+hash = "c0b578b7a5397fe4c205ac41faaa25d45ed2dd428f78a61d34a85c88b52f9744"
+
+[[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
-hash = "042b6003f473686483ce694a8bc6c4a959ce9e1abf4d57ac720a52769ca9bede"
+hash = "48804ed4ff09bdae9d94fe74f67c99ffa45423efcc1f9e395925f0a7d6f62c21"
+
+[[files]]
+file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
+hash = "e9434bf660bd7dd68f4e3e62f92487cf33363a9a6725d714acba77c2a9e6b53b"
 
 [[files]]
 file = "datapacks/201-trainers-cobblemon.pw.toml"
@@ -224,6 +236,11 @@ metafile = true
 [[files]]
 file = "mods/chimes.pw.toml"
 hash = "7c39ccee8a0d788d5b9d365d8d79a498a998038c5ded39eb7b07ce0e292489cb"
+metafile = true
+
+[[files]]
+file = "mods/chunky.pw.toml"
+hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
 metafile = true
 
 [[files]]
@@ -547,6 +564,11 @@ hash = "11e43d47773d438897c9e445a1231ab2158b99ba24c7e59a6d69e62c1349b4b2"
 metafile = true
 
 [[files]]
+file = "mods/extra-apoth-compat.pw.toml"
+hash = "db3e63b6fe740f2d89ce0ebc2616a16383ad0626875617a3760641e3342981e6"
+metafile = true
+
+[[files]]
 file = "mods/extra-eeveelutions.pw.toml"
 hash = "7764ac9b49a0400de01347f01dd4cb91549dd403adad8c881cad4d300f5eeb90"
 metafile = true
@@ -674,11 +696,6 @@ metafile = true
 [[files]]
 file = "mods/inventory-management-deluxe.pw.toml"
 hash = "a9cd43d74327042b2e408932915b2ed346ac05576de34d5360525fa664d22f39"
-metafile = true
-
-[[files]]
-file = "mods/inventory-tweaks-refoxed.pw.toml"
-hash = "4fbe04bd9f15b5c0f861472a9be7d95ca743c7ed820119cfb7e3caed12e071fb"
 metafile = true
 
 [[files]]
@@ -859,6 +876,11 @@ metafile = true
 [[files]]
 file = "mods/more-sniffer-flowers.pw.toml"
 hash = "232bb4e0850321d1c02e66c613972a1f41f235f7d748a0489779d534f5457549"
+metafile = true
+
+[[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "6bc414cc0f2d4c078fe83f384d786343f701f371d657c5279b5b0df1595804bd"
 metafile = true
 
 [[files]]
@@ -1124,6 +1146,11 @@ metafile = true
 [[files]]
 file = "mods/tidal-towns.pw.toml"
 hash = "0ccb1c696758d7935d02dd5160987cab8d3594ab24f89deb01c28f9e596094e7"
+metafile = true
+
+[[files]]
+file = "mods/toast-control.pw.toml"
+hash = "6ad4d5fdecd5a684ffc860e26f6a7efa918f7c4def42163174023531d3b6e643"
 metafile = true
 
 [[files]]

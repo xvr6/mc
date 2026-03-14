@@ -1,0 +1,13 @@
+name = "Extra Apoth Compat"
+filename = "extra_apoth_compat-1.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "326d8ab7116d79a12ce2bcd535574d22af723aa42b5995d99f4c4b23bc32fcc2f716831588b7b5edfa238f8ae11fa21a95944a1892b9441237755cd5538f1fc1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6370960
+project-id = 1193691
