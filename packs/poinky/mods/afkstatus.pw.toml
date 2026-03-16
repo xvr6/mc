@@ -1,0 +1,13 @@
+name = "AFKStatus"
+filename = "afkstatus-1.0.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d0440b1ddd0882665df308595ad28ce48ee0bb05"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7611964
+project-id = 1318335

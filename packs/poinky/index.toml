@@ -26,7 +26,7 @@ hash = "1bd8f9bc085b5b3d822eec47b2f641454d2902f779b3f5c5b87078453193e26e"
 
 [[files]]
 file = "config/cobblemon/starters.json"
-hash = "8502ed660e79ca6e4e27c1f5f79e619684666f37cf0cd1c33d4b6087e459a1b5"
+hash = "4cf2bfe2fbd3aeb559ac78690f7f6762594cc85f9334d7d2da818e83dead6c25"
 
 [[files]]
 file = "config/crop-critters-config.toml"
@@ -91,7 +91,7 @@ metafile = true
 
 [[files]]
 file = "datapacks/[V.1.4.1] Cobblemon Stellar Blue.zip"
-hash = "195bb662396d4bebce73d975f0f0007ae8d8ece065639173e28f5d88983014be"
+hash = "76b7f863833a4ac4cd1063c8d43218a9f489d3d36fde39bf7cfeb95dcaeeb0e4"
 
 [[files]]
 file = "datapacks/cobblemon-pokemans.pw.toml"
@@ -114,6 +114,10 @@ hash = "6fedb1d77fb784a39cbbc24abe44be6e4ed525a964164f69be2e44c93b2764a8"
 metafile = true
 
 [[files]]
+file = "datapacks/lively mons 1.9.2.zip"
+hash = "dfba46a181fba0a3c8e71f37535c3da07dc90bc37048b7afc52f54481c5036de"
+
+[[files]]
 file = "datapacks/mundialmons.pw.toml"
 hash = "8703040e7ee5596f96c86792440c8d793006e3dabe191857c0c587044c7612b9"
 metafile = true
@@ -131,6 +135,11 @@ metafile = true
 [[files]]
 file = "mods/advanced-netherite.pw.toml"
 hash = "4a7568e25cac4f4bedba140135036d9481403069a6d9513a922e9901661c05ca"
+metafile = true
+
+[[files]]
+file = "mods/afkstatus.pw.toml"
+hash = "4a6aa4b32232f32ec2df1846b164bc698a60a6c83f72d8c13c8a7894da4bd37d"
 metafile = true
 
 [[files]]
@@ -170,7 +179,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "0c8e84efffde0a6f647e6895173fe11163e34773f7458b7eecaeaa66be329399"
+hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
 metafile = true
 
 [[files]]
@@ -196,6 +205,11 @@ metafile = true
 [[files]]
 file = "mods/bellsandwhistles.pw.toml"
 hash = "e1f4a53e3e52b534add5dd018597fefd345d9bd6350b9c46ef0ec281fc62af8e"
+metafile = true
+
+[[files]]
+file = "mods/better-archeology.pw.toml"
+hash = "eca8266d3037451685da7d3aacc0fc4d17f9caafad60d7671fecf14880f46335"
 metafile = true
 
 [[files]]
@@ -819,11 +833,6 @@ hash = "efe57fac888f82b6be033ff5fed9b9a71095e1ee65da7e26d6081cba7174f617"
 metafile = true
 
 [[files]]
-file = "mods/lively-mons.pw.toml"
-hash = "5484eb478da0c24e4e3b0253061fcd60b463639b9db78deb5358712ce73bb3c8"
-metafile = true
-
-[[files]]
 file = "mods/lootr.pw.toml"
 hash = "33e1d182c5a166e070cc66157ec6f692ff08d8ddae975b564e69a37079b01950"
 metafile = true
@@ -1059,6 +1068,11 @@ hash = "ac93c4b88f33a165e39b7214f3a4350950247128b5ce698bebe0d8d05a7fadc9"
 metafile = true
 
 [[files]]
+file = "mods/simple-backups.pw.toml"
+hash = "2d25a6a82139c96256dbea98f947545315218d4597d19b369a6261761cde2153"
+metafile = true
+
+[[files]]
 file = "mods/simpletms-tms-and-trs-for-cobblemon.pw.toml"
 hash = "307a39080394cbe930be57e67fb8dae37601e8f0842da10da10977d261dac07d"
 metafile = true
@@ -1285,7 +1299,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/[V.1.4.1] Cobblemon Stellar Blue.zip"
-hash = "195bb662396d4bebce73d975f0f0007ae8d8ece065639173e28f5d88983014be"
+hash = "76b7f863833a4ac4cd1063c8d43218a9f489d3d36fde39bf7cfeb95dcaeeb0e4"
 
 [[files]]
 file = "resourcepacks/cobblemon-pokemans.pw.toml"
@@ -1321,6 +1335,10 @@ metafile = true
 file = "resourcepacks/invisible_item_frame.pw.toml"
 hash = "725da1fa86bd70fe0d0ac8c32ad6332cc015e38a21b21f4965ee0012743e3140"
 metafile = true
+
+[[files]]
+file = "resourcepacks/lively mons 1.9.2.zip"
+hash = "dfba46a181fba0a3c8e71f37535c3da07dc90bc37048b7afc52f54481c5036de"
 
 [[files]]
 file = "resourcepacks/mundialmons.pw.toml"

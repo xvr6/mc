@@ -94,11 +94,20 @@
     },
     {
       "name": "Lumora",
-      "displayName": "cobblemon.starterselection.category.lumora",
+      "displayName": "Lumora",
       "pokemon": [
         "Tigriff level=10",
         "Emberam level=10",
         "Equelpi level=10"
+      ]
+    },
+    {
+      "name": "Sanrosa",
+      "displayName": "Sanrosa",
+      "pokemon": [
+        "Citrillume level=10",
+        "Infernito level=10",
+        "Potdary level=10"
       ]
     }
   ]
