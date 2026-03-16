@@ -359,6 +359,11 @@ hash = "7cd10de618c7f46c1877d9d3e597699a7fcc02cf3982bba439ccbec95a37d0de"
 metafile = true
 
 [[files]]
+file = "mods/coroutil.pw.toml"
+hash = "d901f874a1e09747b8d0d072c38c426eceead1f29c8ba36680f8f0082996b152"
+metafile = true
+
+[[files]]
 file = "mods/create-dragons-plus.pw.toml"
 hash = "1363456107dacc8202a7bfcea93622fa81d04570f77d4075146b3b4bc9bbeac8"
 metafile = true
@@ -1030,7 +1035,7 @@ metafile = true
 
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
-hash = "c0b066684294c33972d562e0cb08ea17b2d31bcf86cd1d6c63b8e968f0eac7a2"
+hash = "dd8fcfdbdce26d0b720070e8fd98a0eafe977fec80a79a7a1d1b61e64dd3bbb3"
 metafile = true
 
 [[files]]
@@ -1144,6 +1149,11 @@ hash = "da7ee99189ad35aac094919fe33cac647d98533b23c228f10d4811f08989e2b8"
 metafile = true
 
 [[files]]
+file = "mods/the-bumblezone-forge.pw.toml"
+hash = "a193622fd3a653b495f183eb215e6460f405c9d67681b4e3ab295d3757c9b332"
+metafile = true
+
+[[files]]
 file = "mods/tidal-towns.pw.toml"
 hash = "0ccb1c696758d7935d02dd5160987cab8d3594ab24f89deb01c28f9e596094e7"
 metafile = true
@@ -1196,6 +1206,11 @@ metafile = true
 [[files]]
 file = "mods/wayfinder.pw.toml"
 hash = "1abe6615262b444ff32d257bf4908bf5b5025e349c895bc1e512604a592b99af"
+metafile = true
+
+[[files]]
+file = "mods/what-are-they-up-to.pw.toml"
+hash = "9ce52d07c0c3d146a2a44f8bc187138ce7a5558a4e3ab540c86234702b6de274"
 metafile = true
 
 [[files]]
