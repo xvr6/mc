@@ -30,7 +30,7 @@ hash = "4cf2bfe2fbd3aeb559ac78690f7f6762594cc85f9334d7d2da818e83dead6c25"
 
 [[files]]
 file = "config/crop-critters-config.toml"
-hash = "9c9daafb198b267914e7fc1a22cff8fcbb0bf218ed227df06805edcaace23dd3"
+hash = "1e9dccc8d1db598e4b7b70145f080c1ddb07321e77eb19037676dada6c10e010"
 
 [[files]]
 file = "config/curios-client.toml"
@@ -63,6 +63,18 @@ hash = "779649ccfb1e1b4f4054924188e88362ada82c6226e34c235c4142c12396dfe0"
 [[files]]
 file = "config/shouldersurfing-client.toml"
 hash = "bb247011c98bf9fd7203c37cb7e18bb5579cf1f9d41f165c7a9202da880d8501"
+
+[[files]]
+file = "config/simplebackups-common-experimental.toml"
+hash = "a1934a76de70de73fce91b89835ee6687110ae3898b3ba4850618094dfe300ca"
+
+[[files]]
+file = "config/simplebackups-common.toml"
+hash = "521ef606032e32aec944d5ae16279fe9ca55a0389e76304a7909922e86d26d6f"
+
+[[files]]
+file = "config/simplebackups-server.toml"
+hash = "bf73f138a476278c415bacc627026a81ddf7ebb4cb8e2613dc3bb2692c327922"
 
 [[files]]
 file = "config/tectonic.json"

@@ -2,14 +2,14 @@
 # Config changes only apply on restart
 # 
 # Weed percentage grow chances:
-regularWeedsGrowChance = 1
-netherWeedsGrowChance = 2
+regularWeedsGrowChance = 0
+netherWeedsGrowChance = 1
 # Should monocultures have increased weed chances:
 monoculturePenalize = false
 # 
 # How far should Mazewood spread (1-128):
 # (Be careful, spreads fast) 
-mazewoodSpread = 4
+mazewoodSpread = 1
 # 
 # Lost soul mob drop chance:
 lostSoulDropChance = 6
@@ -29,7 +29,7 @@ soulRoseHintGeneration = true
 thornweedGeneration = true
 waftgrassGeneration = true
 spiteweedGeneration = true
-strangleFernGeneration = true
+strangleFernGeneration = false
 puffbombGeneration = true
 liverwortGeneration = true
 # 
