@@ -29,10 +29,6 @@ file = "config/cobblemon/starters.json"
 hash = "4cf2bfe2fbd3aeb559ac78690f7f6762594cc85f9334d7d2da818e83dead6c25"
 
 [[files]]
-file = "config/crop-critters-config.toml"
-hash = "1e9dccc8d1db598e4b7b70145f080c1ddb07321e77eb19037676dada6c10e010"
-
-[[files]]
 file = "config/curios-client.toml"
 hash = "dcc28aa80e16236eb44c69c589d41a2ca663782a9c2d874c14cf55959499a50c"
 
@@ -151,7 +147,7 @@ metafile = true
 
 [[files]]
 file = "mods/afkstatus.pw.toml"
-hash = "4a6aa4b32232f32ec2df1846b164bc698a60a6c83f72d8c13c8a7894da4bd37d"
+hash = "af78c551c83198c04083dfe75e60931c02bc5bc37564cc0a987b407cedc5e225"
 metafile = true
 
 [[files]]
@@ -370,8 +366,8 @@ hash = "65c8086d2ec3d39acc7bd36c7a0306ccc43b602b38fa07d13291bc478ef7dfff"
 metafile = true
 
 [[files]]
-file = "mods/cool-rain-reforged.pw.toml"
-hash = "e33ecc76027e68d811efd71733d12fd41aeaa7118f7adfecd707e36b5559bfb2"
+file = "mods/cool-rain.pw.toml"
+hash = "1995860d422d211487415e4aea2ef2ca395050e5b424c540c3703054820acf88"
 metafile = true
 
 [[files]]
@@ -452,11 +448,6 @@ metafile = true
 [[files]]
 file = "mods/critters-and-companions.pw.toml"
 hash = "55a0ba4e06c9c4098eb04611b0cba005256c06db7421007fea1a7ddd36d7b375"
-metafile = true
-
-[[files]]
-file = "mods/crop-critters.pw.toml"
-hash = "4945840b27b27338c39b985d430aad2a17f4e5bd8710f83561cde785d479cdea"
 metafile = true
 
 [[files]]
@@ -752,6 +743,11 @@ metafile = true
 [[files]]
 file = "mods/jamlib.pw.toml"
 hash = "638709ccc805606ac9fa9bf2f135ae4dd79d299e5796dcac062d838cbdaf6642"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+hash = "5367193d3f87b7bc5a81bcd64a5b96a843e76d4df7a83c8bb7e1911aa82dd52e"
 metafile = true
 
 [[files]]

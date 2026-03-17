@@ -3,8 +3,8 @@ filename = "afkstatus-1.0.8.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "d0440b1ddd0882665df308595ad28ce48ee0bb05"
+hash-format = "sha512"
+hash = "fbe7cdd9d56c341a7b63e230d2c3a1e9972f5f93e7e5fed12e57448a5b5cf73d48859a07a8ec19f7b047a8e93ec74e721fecdad898dfa34f89bf6cf5c88528de"
 mode = "metadata:curseforge"
 
 [update]
