@@ -1,12 +1,12 @@
 name = "Poinky"
 author = "prectriv"
-version = "1.0.6"
+version = "1.0.7"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "bbe033e1f0f594e024e2c1cef7454cfac35bcdcd06657be43f6b6724b080e964"
+hash = "438a99628a1a03c89afaeb047bb64b2841154eee89f178957d4400e23a360061"
 
 [versions]
 minecraft = "1.21.1"

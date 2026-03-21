@@ -3,7 +3,7 @@ _version = 3
 [server]
 #
 # Defines the distance the player will receive updates around.
-realTimeUpdateDistanceRadiusInChunks = 128
+realTimeUpdateDistanceRadiusInChunks = 256
 #
 # Prefix of the level keys sent to the clients.
 # If the mod is running behind a proxy, each backend should use a unique value.
@@ -52,7 +52,7 @@ globalBandwidthLimit = 500000
 #
 # Maximum per-player speed for uploading LODs to the clients, in KB/s.
 # Value of 0 disables the limit.
-playerBandwidthLimit = 500
+playerBandwidthLimit = 500000
 #
 # Enables adaptive transfer speed based on client performance.
 # If true, DH will automatically adjust transfer rate to minimize connection lag.
@@ -568,7 +568,7 @@ ignoredDimensionCsv = ""
 # Note: Due to current limitations, the min value is [50] 
 # and the max value is 5000. Any values outside this range 
 # will be set to 0 (disabled).
-earthCurveRatio = 0
+earthCurveRatio = 125
 
 [client.advanced.graphics.genericRendering]
 #
@@ -650,7 +650,7 @@ verticalQuality = "MEDIUM"
 blocksToIgnore = "NON_COLLIDING"
 #
 # The radius of the mod's render distance. (measured in chunks)
-lodChunkRenderDistanceRadius = 256
+lodChunkRenderDistanceRadius = 512
 #
 # What value should vanilla Minecraft's texture LodBias be? 
 # If set to 0 the mod wont overwrite vanilla's default (which so happens to also be 0)

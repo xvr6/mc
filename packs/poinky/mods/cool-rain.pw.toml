@@ -1,18 +1,8 @@
 name = "Cool Rain"
-filename = "coolrain-1.1.0-1.21.1-neoforge.jar"
+filename = "coolrain-1.4.0-1.21.11.jar"
 side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "e7e59c06677651828af9298c09b27a8f72a4d2a0"
-mode = "metadata:curseforge"
-
-[update]
-[update.curseforge]
-file-id = 6196244
-project-id = 1196599
-
-[option]
-optional = true
-description = "Enables better rain sounds. Warning however! you must manually download this mod as API access is disabled."
-default = false
+url = "https://mediafilez.forgecdn.net/files/7599/522/coolrain-1.4.0-1.21.11.jar"
+hash-format = "sha512"
+hash = "573dfea3d51110bdeac447b4e246ec631e33c2c91a934e5f6e71bb8fa7c048b5514e08536109a0d9b8d31692fed05e76e9f28fe12b43723fccb94dcc6182fd7a"

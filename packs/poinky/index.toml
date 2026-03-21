@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "6054cd0e9b71eb0aea415148943751c7153e92aab7c1f0b926c10f5a47e818f4"
+hash = "ebb0fefd36f7054817c36f5b5c692f1fff8d2c7e48a5049d6dc24d60b7a6eff8"
 
 [[files]]
 file = "config/accessories.json5"
@@ -367,7 +367,7 @@ metafile = true
 
 [[files]]
 file = "mods/cool-rain.pw.toml"
-hash = "1995860d422d211487415e4aea2ef2ca395050e5b424c540c3703054820acf88"
+hash = "4c991c04370d1071ce4b0d1a65bc8a26813304a932b06919da15d6985dd2d36f"
 metafile = true
 
 [[files]]
@@ -647,7 +647,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "0521ed2becdf2b460511c92e80e2702a4b6e540c85c99fb571844e1c7c505724"
+hash = "4cfd427f53bcb9ee0450c22348d7a0b273c1bba01d7a6cd458f0e9e7b9407554"
 metafile = true
 
 [[files]]
@@ -986,6 +986,10 @@ hash = "9ab2df7457a28eb639e403fddae24c624d8c132547555bfa7d9adad57966fb5a"
 metafile = true
 
 [[files]]
+file = "mods/patched-figura.toml"
+hash = "a2580b32ed383c702f5e30a605dc66e9d2e5df9a4358680a7c5fcc604bcb825f"
+
+[[files]]
 file = "mods/patchouli.pw.toml"
 hash = "d7f360ebb9f009d6dc0b368cd8fa399bdff70c0f6ef931687b2a35137f72715d"
 metafile = true
@@ -1227,7 +1231,7 @@ metafile = true
 
 [[files]]
 file = "mods/wayfinder.pw.toml"
-hash = "1abe6615262b444ff32d257bf4908bf5b5025e349c895bc1e512604a592b99af"
+hash = "b50a23e7fad5310048362733ee729e4391de4347389907354646bcdfffecb024"
 metafile = true
 
 [[files]]

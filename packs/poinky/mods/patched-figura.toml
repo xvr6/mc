@@ -1,0 +1,8 @@
+name = "patched-figura"
+filename = "figura-0.1.5+1.21.1-neoforge-patched.jar"
+side = "client"
+
+[download]
+url = "https://github.com/penguinencounter/Figura/releases/download/sodium-patched-jars-placeholder/figura-0.1.5+1.21.1-neoforge-patched.jar"
+hash-format = "sha512"
+hash = "9136748c2addf55751d34faa89bca2d3ee40e26d9a2ef9743268920b91be5cb72e2aa58be9010b534d4b2f51ed8001e162f7df62039ad0c86d5c277079eb846f"
