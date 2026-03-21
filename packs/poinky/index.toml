@@ -366,8 +366,8 @@ hash = "65c8086d2ec3d39acc7bd36c7a0306ccc43b602b38fa07d13291bc478ef7dfff"
 metafile = true
 
 [[files]]
-file = "mods/cool-rain.pw.toml"
-hash = "4c991c04370d1071ce4b0d1a65bc8a26813304a932b06919da15d6985dd2d36f"
+file = "mods/cool-rain-reforged.pw.toml"
+hash = "558dc7ce93ddb5fe848d2d8a746174752c67f1f954d19e1030dce6a2a587c6b5"
 metafile = true
 
 [[files]]
@@ -487,7 +487,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "3a1946bb6c9016b88587e13d259746e211ae6d14a493a4d157d9d50c403302d8"
+hash = "d5da16ba7cd2b7362ef00f9c74e9da4c5b164c7f4765027b9aba4275dcb9dfa0"
 metafile = true
 
 [[files]]
@@ -987,7 +987,8 @@ metafile = true
 
 [[files]]
 file = "mods/patched-figura.toml"
-hash = "a2580b32ed383c702f5e30a605dc66e9d2e5df9a4358680a7c5fcc604bcb825f"
+hash = "537f233fde02f33217d97ed645cdbc12bf3a9c653397b1bff1dafa83a364391e"
+metafile = true
 
 [[files]]
 file = "mods/patchouli.pw.toml"
