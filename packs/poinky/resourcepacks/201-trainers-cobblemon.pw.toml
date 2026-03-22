@@ -1,6 +1,6 @@
 name = "201 Trainers [Cobblemon]"
 filename = "201Trainers 1.6.zip"
-side = "client"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/OSuPu1jI/versions/P0tPdOjy/201Trainers%201.6.zip"

@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "ebb0fefd36f7054817c36f5b5c692f1fff8d2c7e48a5049d6dc24d60b7a6eff8"
+hash = "4eb7852cb0c480b0233d4dabd589bbf52f035543a1ec4aa53cd7991a3c9e9e83"
 
 [[files]]
 file = "config/accessories.json5"
@@ -66,11 +66,15 @@ hash = "a1934a76de70de73fce91b89835ee6687110ae3898b3ba4850618094dfe300ca"
 
 [[files]]
 file = "config/simplebackups-common.toml"
-hash = "521ef606032e32aec944d5ae16279fe9ca55a0389e76304a7909922e86d26d6f"
+hash = "27287639f6b5e858350d7f21060c77a8b6a6dfe6baacfde85ae56fcdb1a7d038"
 
 [[files]]
 file = "config/simplebackups-server.toml"
 hash = "bf73f138a476278c415bacc627026a81ddf7ebb4cb8e2613dc3bb2692c327922"
+
+[[files]]
+file = "config/spawn_notification.json"
+hash = "51e1c52485994a1bf2edace388886872d926649dee07676264961bc3b01ad574"
 
 [[files]]
 file = "config/tectonic.json"
@@ -82,7 +86,7 @@ hash = "1833951804f7f915ac3f5ae95f3d8a188555790c60c76c36c6cae124cb76e3f3"
 
 [[files]]
 file = "config/via_romana.json"
-hash = "c0b578b7a5397fe4c205ac41faaa25d45ed2dd428f78a61d34a85c88b52f9744"
+hash = "35cc681d5a55beabfd70e726ef5cc584e0e5a52cb51e9aef1045bdcd5a9d5f06"
 
 [[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
@@ -100,6 +104,11 @@ metafile = true
 [[files]]
 file = "datapacks/[V.1.4.1] Cobblemon Stellar Blue.zip"
 hash = "76b7f863833a4ac4cd1063c8d43218a9f489d3d36fde39bf7cfeb95dcaeeb0e4"
+
+[[files]]
+file = "datapacks/allthemons.pw.toml"
+hash = "984f4355de95cc2ad3b65552b70e643d7ca127f04d3775eee1c209ba3ba991bd"
+metafile = true
 
 [[files]]
 file = "datapacks/cobblemon-pokemans.pw.toml"
@@ -128,6 +137,11 @@ hash = "dfba46a181fba0a3c8e71f37535c3da07dc90bc37048b7afc52f54481c5036de"
 [[files]]
 file = "datapacks/mundialmons.pw.toml"
 hash = "8703040e7ee5596f96c86792440c8d793006e3dabe191857c0c587044c7612b9"
+metafile = true
+
+[[files]]
+file = "datapacks/mysticmons.pw.toml"
+hash = "d7f25a2f2a827a5d295298b855409e06db860cac5146d037b716e3b79af1e48c"
 metafile = true
 
 [[files]]
@@ -936,6 +950,11 @@ hash = "5da18814472be5dc93a21886983646da3a7236413800075ac75229be82d114fa"
 metafile = true
 
 [[files]]
+file = "mods/noisiumforked.pw.toml"
+hash = "11835b8555c23090b12d6ca9be871a6b5bfcec5ff7f48e77ef09c784af40b69e"
+metafile = true
+
+[[files]]
 file = "mods/now-playing.pw.toml"
 hash = "37cb65510f08de773837e9f46d4fcf4aafb0875cc23ea0a64d929bd1d1d056a6"
 metafile = true
@@ -1307,12 +1326,17 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/201-trainers-cobblemon.pw.toml"
-hash = "995b0cf5d67b1ba7f815bced575873f6fc39b03978d4ecc8f1f6c51280ce81db"
+hash = "095183fff656f8269396b27475daed6e724b8d4558b99439d0034891048d227a"
 metafile = true
 
 [[files]]
 file = "resourcepacks/[V.1.4.1] Cobblemon Stellar Blue.zip"
 hash = "76b7f863833a4ac4cd1063c8d43218a9f489d3d36fde39bf7cfeb95dcaeeb0e4"
+
+[[files]]
+file = "resourcepacks/allthemons.pw.toml"
+hash = "984f4355de95cc2ad3b65552b70e643d7ca127f04d3775eee1c209ba3ba991bd"
+metafile = true
 
 [[files]]
 file = "resourcepacks/cobblemon-pokemans.pw.toml"
@@ -1356,6 +1380,11 @@ hash = "dfba46a181fba0a3c8e71f37535c3da07dc90bc37048b7afc52f54481c5036de"
 [[files]]
 file = "resourcepacks/mundialmons.pw.toml"
 hash = "8703040e7ee5596f96c86792440c8d793006e3dabe191857c0c587044c7612b9"
+metafile = true
+
+[[files]]
+file = "resourcepacks/mysticmons.pw.toml"
+hash = "d7f25a2f2a827a5d295298b855409e06db860cac5146d037b716e3b79af1e48c"
 metafile = true
 
 [[files]]
