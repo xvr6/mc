@@ -73,6 +73,10 @@ file = "config/simplebackups-server.toml"
 hash = "bf73f138a476278c415bacc627026a81ddf7ebb4cb8e2613dc3bb2692c327922"
 
 [[files]]
+file = "config/sophisticatedbackpacks-server.toml"
+hash = "214af285e7e20eb99c60eb8a8cd768dddf8a6804e0204a741b97ace70e10a243"
+
+[[files]]
 file = "config/spawn_notification.json"
 hash = "51e1c52485994a1bf2edace388886872d926649dee07676264961bc3b01ad574"
 
@@ -86,7 +90,7 @@ hash = "1833951804f7f915ac3f5ae95f3d8a188555790c60c76c36c6cae124cb76e3f3"
 
 [[files]]
 file = "config/via_romana.json"
-hash = "35cc681d5a55beabfd70e726ef5cc584e0e5a52cb51e9aef1045bdcd5a9d5f06"
+hash = "302e02f3f5e639e61d9ed383e7017e66af135eff4d650a8be389d0e90d7e7015"
 
 [[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
@@ -161,7 +165,7 @@ metafile = true
 
 [[files]]
 file = "mods/afkstatus.pw.toml"
-hash = "af78c551c83198c04083dfe75e60931c02bc5bc37564cc0a987b407cedc5e225"
+hash = "c3071804e0096b31a4091fae95ed10604ab9ca17441084509ea3095d21cf9b52"
 metafile = true
 
 [[files]]
@@ -272,6 +276,11 @@ metafile = true
 [[files]]
 file = "mods/chimes.pw.toml"
 hash = "7c39ccee8a0d788d5b9d365d8d79a498a998038c5ded39eb7b07ce0e292489cb"
+metafile = true
+
+[[files]]
+file = "mods/chipped.pw.toml"
+hash = "24c6c3fe917ffbcef04e788dec3e003d0ed03433bc00f9cf4f23fe9b85636aa7"
 metafile = true
 
 [[files]]
@@ -610,6 +619,11 @@ hash = "7764ac9b49a0400de01347f01dd4cb91549dd403adad8c881cad4d300f5eeb90"
 metafile = true
 
 [[files]]
+file = "mods/extreme_sound_muffler.pw.toml"
+hash = "a602a6c4a3f0e3fcab6dc28eb33aeef71e63d99ced162f0be165401b98563805"
+metafile = true
+
+[[files]]
 file = "mods/findme.pw.toml"
 hash = "ef9b249b2052ef6cc08214e63debd2a9a71d60b7fe1353bbff41634c3d6408ca"
 metafile = true
@@ -737,6 +751,11 @@ metafile = true
 [[files]]
 file = "mods/iris.pw.toml"
 hash = "d34e98972c31bd153b91bf27d504e2c6738fa6000bdf52da13a5e0c5f8b63f13"
+metafile = true
+
+[[files]]
+file = "mods/is-typing.pw.toml"
+hash = "23890e6a8135622267266134bf2239fe3b781bc8c55886fcb98d7bb0341b2146"
 metafile = true
 
 [[files]]
@@ -980,6 +999,11 @@ hash = "1121ffc2012bbbf0b619a16b953d5951c41a9ef545285d01f31995b3ba6b2b8c"
 metafile = true
 
 [[files]]
+file = "mods/oracle-index.pw.toml"
+hash = "6669208787e602470b78a125b753eb4f475d0612de2046ade88815ffca22e23c"
+metafile = true
+
+[[files]]
 file = "mods/oritech.pw.toml"
 hash = "d1bd21604945eb54d6394c8a77f4f28b83f5201e6d03c62c24382a1f98065f25"
 metafile = true
@@ -1055,11 +1079,6 @@ hash = "6812c3faa178cd48c65c5b8e7aeef50bc0b63d8e3b2117065d6179a43d8d3649"
 metafile = true
 
 [[files]]
-file = "mods/rechiseled.pw.toml"
-hash = "b4cb292255e46d058ef9c4a6bcdf562ae539489a31d0b4bea3718042d98e5c86"
-metafile = true
-
-[[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "09306b955060349986ccf6a6d2a67f1e019fa172a7dc690dd6007f81c966309a"
 metafile = true
@@ -1076,7 +1095,7 @@ metafile = true
 
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
-hash = "dd8fcfdbdce26d0b720070e8fd98a0eafe977fec80a79a7a1d1b61e64dd3bbb3"
+hash = "c0b066684294c33972d562e0cb08ea17b2d31bcf86cd1d6c63b8e968f0eac7a2"
 metafile = true
 
 [[files]]
@@ -1252,11 +1271,6 @@ metafile = true
 [[files]]
 file = "mods/wayfinder.pw.toml"
 hash = "b50a23e7fad5310048362733ee729e4391de4347389907354646bcdfffecb024"
-metafile = true
-
-[[files]]
-file = "mods/what-are-they-up-to.pw.toml"
-hash = "9ce52d07c0c3d146a2a44f8bc187138ce7a5558a4e3ab540c86234702b6de274"
 metafile = true
 
 [[files]]
