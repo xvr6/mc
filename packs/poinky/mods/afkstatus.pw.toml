@@ -1,6 +1,6 @@
 name = "AFKStatus"
 filename = "afkstatus-1.0.8.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha512"

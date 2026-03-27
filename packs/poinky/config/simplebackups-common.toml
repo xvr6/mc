@@ -42,7 +42,7 @@ sendMessages = true
 #The max size of storage the backup folder. If it takes more storage, old files will be deleted.
 #Needs to be written as <number><space><storage type>
 #Valid storage types: B, KB, MB, GB, TB
-maxDiskSize = "500 GB"
+maxDiskSize = "5 TB"
 #Used to define the output path.
 outputPath = "backups"
 
@@ -91,7 +91,7 @@ useTickCounter = false
 	#All files with paths matching this pattern will be skipped
 	#Example: '.*\.temp$' excludes all files ending with .temp
 	#Leave empty to disable regex-based file exclusion
-	ignored_files_regex = ".*\\.sqlite$"
+	ignored_files_regex = ".*\.sqlite$"
 
 [mod_compat]
 	#Should backup notifications be sent to Discord by using mc2discord? (needs to be installed)
