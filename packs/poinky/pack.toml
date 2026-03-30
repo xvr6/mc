@@ -1,16 +1,16 @@
 name = "Poinky"
 author = "prectriv"
-version = "1.0.9"
+version = "1.1.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "821fdb1f9bf09d1b4a668354584ac3a4e64c286ec519d53f0bad9c2828450774"
+hash = "b47969319e73631b40f3497fd2bd3a1413453ef31e1fcc1d27ea4b6327fa2d93"
 
 [versions]
 minecraft = "1.21.1"
-neoforge = "21.1.219"
+neoforge = "21.1.220"
 
 [options]
 datapack-folder = "./datapacks"

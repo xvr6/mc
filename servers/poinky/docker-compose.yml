@@ -1,30 +1,31 @@
 services:
   mc:
     container_name: poinky_server
-    image: itzg/minecraft-server:latest
-    ports:
-      - 3623:25565
-      - 8100:8100
-      - 25575:25575
     environment:
-      EULA: "TRUE"
-      MOTD: "poinky"
-      ENABLE_WHITELIST: "TRUE"
-      PACKWIZ_URL: "https://raw.githubusercontent.com/xvr6/mc/refs/heads/main/packs/poinky/pack.toml"
-      MEMORY: "26G"
-      USE_MEOWICE_FLAGS: "true"
-      ENABLE_ROLLING_LOGS: "true"
-      TYPE: "NEOFORGE"
-      VERSION: "1.21.1"
-      RCON_PASSWORD: "522391a27f72ca3b06afa496"
-      SPAWN_PROTECTION: "0"
-      VIEW_DISTANCE: "12"
-      SIMULATION_DISTANCE: "8"
-      SEED: "-5498133067232517102"
-      DIFFICULTY: "2"
-      ALLOW_FLIGHT: "true"
-    tty: true
-    stdin_open: true
+      ALLOW_FLIGHT: 'true'
+      DIFFICULTY: '2'
+      ENABLE_ROLLING_LOGS: 'true'
+      ENABLE_WHITELIST: 'TRUE'
+      EULA: 'TRUE'
+      MEMORY: 26G
+      MOTD: poinky
+      PACKWIZ_URL: >-
+        https://raw.githubusercontent.com/xvr6/mc/refs/heads/main/packs/poinky/pack.toml
+      RCON_PASSWORD: 522391a27f72ca3b06afa496
+      SEED: '-5498133067232517102'
+      SIMULATION_DISTANCE: '8'
+      SPAWN_PROTECTION: '0'
+      TYPE: NEOFORGE
+      USE_MEOWICE_FLAGS: 'true'
+      VERSION: 1.21.1
+      VIEW_DISTANCE: '12'
+    image: itzg/minecraft-server:java21-jdk
+    ports:
+      - '3623:25565'
+      - '8100:8100'
+      - '25575:25575'
     restart: unless-stopped
+    stdin_open: True
+    tty: True
     volumes:
-      - ./data:/data
+      - /mnt/shitNAS/mc/servers/poinky/data:/data

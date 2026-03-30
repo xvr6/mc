@@ -15,6 +15,7 @@
     "sandstone",
     "polished",
     "cobble",
+    "deepslate",
     "tuff",
     "glass",
     "gravel",
@@ -27,6 +28,9 @@
     "pavement",
     "glazed",
     "tile",
+    "copycat",
+    "catwalk",
+    "scaffolding",
     "_wall",
     "_fence",
     "_slab",
@@ -40,7 +44,8 @@
     "_button",
     "_pressure_plate",
     "_torch",
-    "_lantern"
+    "_lantern",
+    "chipped:"
   ],
   "block_string_blacklist": [
     "diagonalwalls:",
