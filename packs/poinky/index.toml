@@ -62,7 +62,7 @@ hash = "a1934a76de70de73fce91b89835ee6687110ae3898b3ba4850618094dfe300ca"
 
 [[files]]
 file = "config/simplebackups-common.toml"
-hash = "771d569c73412e08c855197df9533d91b43f53e1d5df59fce82718b40e0c6847"
+hash = "784182f1e2b62f151af7145956e27540861d8f4d9e35c082f0042a1b889e0717"
 
 [[files]]
 file = "config/simplebackups-server.toml"
@@ -150,6 +150,11 @@ hash = "82becc6910845ae1a68884e6f7a3dcdc861d79a087ae81b1d7e120e82884372d"
 metafile = true
 
 [[files]]
+file = "mods/accessories-compat-layer.pw.toml"
+hash = "c255cf4cd29718e3ab0a4c18df8bb7b626e0092c5aad7b4e67f34fc1ad4492f8"
+metafile = true
+
+[[files]]
 file = "mods/accessories.pw.toml"
 hash = "19cbfb37dc29169b50599dfa328fe12a0ec9caaec8ac02627b5846f3bd9d1425"
 metafile = true
@@ -206,7 +211,7 @@ metafile = true
 
 [[files]]
 file = "mods/athena-ctm.pw.toml"
-hash = "19058318bf7997f3f0f75d77c0afeb9581665412fbc336abc89230725c005131"
+hash = "4ecbb25b8f131d387e5f905ab6507cfa5ace39c4bde46cf55d67b461c06d4f35"
 metafile = true
 
 [[files]]
@@ -412,6 +417,11 @@ metafile = true
 [[files]]
 file = "mods/coroutil.pw.toml"
 hash = "d901f874a1e09747b8d0d072c38c426eceead1f29c8ba36680f8f0082996b152"
+metafile = true
+
+[[files]]
+file = "mods/create-bits-n-bobs.pw.toml"
+hash = "0f67083a39e4b9aa80b1830257086f16734091f9ecb24e64dd208c19be2c4923"
 metafile = true
 
 [[files]]
@@ -631,7 +641,7 @@ metafile = true
 
 [[files]]
 file = "mods/extreme_sound_muffler.pw.toml"
-hash = "a602a6c4a3f0e3fcab6dc28eb33aeef71e63d99ced162f0be165401b98563805"
+hash = "eb967e91ecdeefb7a6987d3b1283e8c5e63f51b4a3fd66e03769808882173d89"
 metafile = true
 
 [[files]]
@@ -671,7 +681,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-library-forge.pw.toml"
-hash = "291ab7e398118ff6a89b43eae60c3b219e1d96caaf048de00ad0747048e3ab48"
+hash = "77cd25c6a384b7e560fa0fbd320c1833fa518d9c86ddd768d5185983b5a188b4"
 metafile = true
 
 [[files]]
@@ -776,7 +786,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "6d789717321d42a219af38835ba6e74447e6ec2aee9a7cda8dcacb848d787746"
+hash = "3ffe7f5e4c530f8d46fcaf8d1c02b1dc8f5fadbc288bbacebcad9819a8185426"
 metafile = true
 
 [[files]]
@@ -986,7 +996,7 @@ metafile = true
 
 [[files]]
 file = "mods/navas-zamega.pw.toml"
-hash = "27914b1d105a01cc3ed0d4afacd52376b75ed9352f376aa065ba76b261794024"
+hash = "f436a7944f046047642d3acdfec9e8c080bda5b0fce09c0a87d2a4e0f8c4cbae"
 metafile = true
 
 [[files]]
@@ -1021,7 +1031,7 @@ metafile = true
 
 [[files]]
 file = "mods/oh-the-trees-youll-grow.pw.toml"
-hash = "1e479095c2d0453d8f8ec249b393d6d7350c3f51542177ae218db6819a6b6b48"
+hash = "907672467294408a423bfe23a2857476bcc8e3d0d39d5423992bbed76dc01159"
 metafile = true
 
 [[files]]
@@ -1102,6 +1112,11 @@ metafile = true
 [[files]]
 file = "mods/polytone.pw.toml"
 hash = "476e0255c6cafe5483294236d0431e3cc162222e7ad546a2f2271627e478dce0"
+metafile = true
+
+[[files]]
+file = "mods/power-grid.pw.toml"
+hash = "3d9e6280e38ac24dac1b5e3ad67f3f68baa67f53871261282ddbb7674611b2d0"
 metafile = true
 
 [[files]]
@@ -1191,17 +1206,17 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "921276c5dfbd3ddf82b46fe76ccf6e94f88042e99f9147bd5b69f354bd0ca118"
+hash = "d788f64a3baf66f674f968e87bd0347ec800bb000622db7541ce2efe66073754"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage-create-integration.pw.toml"
-hash = "e6bb3eeda43411c95fa84549ba3281df62654e36140ec322190206fc8df512a4"
+hash = "18b4886ca9ff03e2f8ce646955dca245c7e23dfe21d87fe6ae593a95165400b0"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "bb5993eb09307feff462e698c4c5d8405d583298c6048881ef2a7611c0292014"
+hash = "06bbebf42e3628ea6052ef584b5915eb78146728ccd43408e9a965c23a3621ec"
 metafile = true
 
 [[files]]
@@ -1236,7 +1251,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "4e45380047390a7981bad480189ac806694d244bb10138ede288fd2e4539dc1f"
+hash = "432b86c04893bd66250c5b4e26ddbd86b7963043c50e95b5295c2960de06fcd3"
 metafile = true
 
 [[files]]
@@ -1256,7 +1271,7 @@ metafile = true
 
 [[files]]
 file = "mods/the-bumblezone-forge.pw.toml"
-hash = "ec567a290150fd71b76065d01e85e8d4e89c27d5cf24074601804d2f44f0e467"
+hash = "81a2095feb44c834cc2508811ab0157cddf2fa01d37aa7338e7f0bba85c33cc9"
 metafile = true
 
 [[files]]
@@ -1277,6 +1292,11 @@ metafile = true
 [[files]]
 file = "mods/tooltip-overhaul.pw.toml"
 hash = "e2db1ff6f80928854dc988726a9207e91313fe8cab48a7a96a75d2999a0616b2"
+metafile = true
+
+[[files]]
+file = "mods/torchmaster.pw.toml"
+hash = "23ea2c32834281723c63d45ffe42969172492d36309755a46bc47154c3014b3f"
 metafile = true
 
 [[files]]
@@ -1452,9 +1472,12 @@ hash = "8d00514cbd63c8a83fe13119bf36776e30a195de5c47205ea664e57ce1351110"
 metafile = true
 
 [[files]]
-file = "shaderpacks/complementary-unbound.pw.toml"
-hash = "5caf93fa1624aeb26d11cdbadcb0c03b2a92815c798a930014774c7d525baf28"
-metafile = true
+file = "shaderpacks/ComplementaryUnbound_r5.7.1.zip"
+hash = "ee75358ec2b4d404dbfa26fe71d654a6c4fd228c401383f17002219b27ab535f"
+
+[[files]]
+file = "shaderpacks/README.md"
+hash = "ca5a886a03c7ca6b5aa7564f667df0dcf0c215ef9c95c21feb37454d47ac288a"
 
 [[files]]
 file = "shaderpacks/photon-shader.pw.toml"
