@@ -7,7 +7,7 @@ enabled = true
 #- MODIFIED_SINCE_LAST - only saves the files which changed since last (partial) backup !!! You need to adjust fullBackupTimer properly, otherwise you may lose a lot of your backup (or use the experimental setting) !!!
 #- MODIFIED_SINCE_FULL - saves all files which changed after the last full backup
 #Allowed Values: FULL_BACKUPS, MODIFIED_SINCE_LAST, MODIFIED_SINCE_FULL
-backupType = "FULL_BACKUPS"
+backupType = "MODIFIED_SINCE_FULL"
 
 #Should a save-all be forced before backup?
 saveAll = true
@@ -15,7 +15,7 @@ saveAll = true
 #How often should a full backup be created if only modified files should be saved? This creates a full backup when x minutes are over and the next backup needs to be done. Once a year is default.
 # Default: 525960
 # Range: 1 ~ 5259600
-fullBackupTimer = 360
+fullBackupTimer = 17532 #12.175 days
 #Experimental setting available, look at 'simplebackups-common-experimental.toml' to help testing
 #The max amount of backup files to keep.
 # Default: 10
@@ -27,7 +27,7 @@ backupsToKeep = 10
 #1440 = each day
 # Default: 120
 # Range: 1 ~ 32767
-timer = 360
+timer = 180 #3h
 
 #Compression level:
 #  0  = no compression (low CPU usage, larger files)

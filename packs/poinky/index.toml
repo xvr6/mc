@@ -33,6 +33,14 @@ file = "config/curios-client.toml"
 hash = "dcc28aa80e16236eb44c69c589d41a2ca663782a9c2d874c14cf55959499a50c"
 
 [[files]]
+file = "config/ftbbackups3-client.snbt"
+hash = "5b7d0f0c4abcf2d1c55e2b309c78be5762559cf44dda44415062306d5749e61c"
+
+[[files]]
+file = "config/ftbbackups3-server.snbt"
+hash = "86948e29e3e2f1f19923808b8896582d9da2acb57427421f5f28cf73942d4ff1"
+
+[[files]]
 file = "config/ftbessentials.snbt"
 hash = "37ab102ad2f9a54861cd728be1ad1dcb723ec0aa19433433634b747c0ac32973"
 
@@ -62,7 +70,7 @@ hash = "a1934a76de70de73fce91b89835ee6687110ae3898b3ba4850618094dfe300ca"
 
 [[files]]
 file = "config/simplebackups-common.toml"
-hash = "784182f1e2b62f151af7145956e27540861d8f4d9e35c082f0042a1b889e0717"
+hash = "9684446c3a77bbb4a866cba5c6c79f87437ce7c5e9c91edca247915baa585f26"
 
 [[files]]
 file = "config/simplebackups-server.toml"
@@ -74,7 +82,7 @@ hash = "214af285e7e20eb99c60eb8a8cd768dddf8a6804e0204a741b97ace70e10a243"
 
 [[files]]
 file = "config/spawn_notification.json"
-hash = "51e1c52485994a1bf2edace388886872d926649dee07676264961bc3b01ad574"
+hash = "f4b2978268ca57c2f004581d71f7ba86a43722046f71217a6f19ae8a0df72de2"
 
 [[files]]
 file = "config/tectonic.json"
@@ -675,6 +683,11 @@ hash = "e14c4af761ef65d736bfdab9842865d5fce27b13b0d777e2ab6703ac545a2c5a"
 metafile = true
 
 [[files]]
+file = "mods/ftb-backups-3.pw.toml"
+hash = "063326ed3a4ae2bc704b811b1b63e8003bb335c18951f656c5ad98ac15c8e09a"
+metafile = true
+
+[[files]]
 file = "mods/ftb-essentials.pw.toml"
 hash = "6b5bc03ec09e9303e176c9fd85a982b4e0246bd11df26de9ed525c16a0395ca8"
 metafile = true
@@ -786,7 +799,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "3ffe7f5e4c530f8d46fcaf8d1c02b1dc8f5fadbc288bbacebcad9819a8185426"
+hash = "33235a868a8518e801079f831d0f3542637e21605ac28182e83e30c762a9b998"
 metafile = true
 
 [[files]]
@@ -961,7 +974,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "91cfdcee62cc8ef6f6269562b3da00f06a9789a5169765b5175c4d34c17d16dc"
+hash = "579103387e2bad8c05c78bff288bf8555349033856ae10c069296b04b06e5956"
 metafile = true
 
 [[files]]
@@ -1166,12 +1179,7 @@ metafile = true
 
 [[files]]
 file = "mods/shoulder-surfing-reloaded.pw.toml"
-hash = "30ea57316902244e716dafc0ed39b43c4d1bd498bc0488b2ab60e135b3e66092"
-metafile = true
-
-[[files]]
-file = "mods/simple-backups.pw.toml"
-hash = "f0b8501a610b1dcb5923eb12e7aab316bd95e9c8300d0c736f9b693824804c13"
+hash = "b39cc0e202c21d67e8e7bac349f9708a021a84a5bf752121d1371bbe6b9d47ea"
 metafile = true
 
 [[files]]
@@ -1206,7 +1214,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "d788f64a3baf66f674f968e87bd0347ec800bb000622db7541ce2efe66073754"
+hash = "d652962f148a1140bc5462dc226e86b84f01421b9dfa791c5a1ef4cdceb002ff"
 metafile = true
 
 [[files]]
@@ -1251,7 +1259,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "432b86c04893bd66250c5b4e26ddbd86b7963043c50e95b5295c2960de06fcd3"
+hash = "f7803f5b0dbb8edca20f60be7a4f50c58be9c4c93fa05a790e2702adcef6fb88"
 metafile = true
 
 [[files]]
@@ -1271,7 +1279,7 @@ metafile = true
 
 [[files]]
 file = "mods/the-bumblezone-forge.pw.toml"
-hash = "81a2095feb44c834cc2508811ab0157cddf2fa01d37aa7338e7f0bba85c33cc9"
+hash = "bcbe9c6570374be8ecf4704b08f2823edd9cd0949c8d4e23c2b88970198737db"
 metafile = true
 
 [[files]]

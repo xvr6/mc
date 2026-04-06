@@ -11,9 +11,9 @@
     "spawn_notification:biome": "WHITE",
     "spawn_notification:dimension": "WHITE",
     "spawn_notification:bucket": "WHITE",
-    "spawn_notification:coord_x": "WHITE",
-    "spawn_notification:coord_y": "WHITE",
-    "spawn_notification:coord_z": "WHITE"
+    "spawn_notification:coord_x": "RED",
+    "spawn_notification:coord_y": "GREEN",
+    "spawn_notification:coord_z": "BLUE"
   },
   "disabledSituations": [],
   "disabledSegments": [],
