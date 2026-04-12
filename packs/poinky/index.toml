@@ -21,6 +21,14 @@ file = "config/bluemap/core.conf"
 hash = "6af0a5e5b300a5f0922d6029520552fedcd79bf2628def25cc5ff79eecebbb81"
 
 [[files]]
+file = "config/carryon-client.toml"
+hash = "865a366143df5f4d92941058c823ea48deb8445f6444b45e870331b16a444f0f"
+
+[[files]]
+file = "config/carryon-common.toml"
+hash = "9243fbadccbe341c9c3f9e87e1648b6a747bfe759ca2d5f959def7405c72c1aa"
+
+[[files]]
 file = "config/cobblemon/main.json"
 hash = "1bd8f9bc085b5b3d822eec47b2f641454d2902f779b3f5c5b87078453193e26e"
 
@@ -38,7 +46,7 @@ hash = "5b7d0f0c4abcf2d1c55e2b309c78be5762559cf44dda44415062306d5749e61c"
 
 [[files]]
 file = "config/ftbbackups3-server.snbt"
-hash = "86948e29e3e2f1f19923808b8896582d9da2acb57427421f5f28cf73942d4ff1"
+hash = "58fcf29f45238b1117919fa4be5877c2c0d1506379d55618e73e8b45dd98342f"
 
 [[files]]
 file = "config/ftbessentials.snbt"
@@ -230,6 +238,11 @@ metafile = true
 [[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "dd56ff2bcc4253d1d70c08333632743fb56cdc4cf5518dc6afc024164633145d"
+metafile = true
+
+[[files]]
+file = "mods/baguettelib.pw.toml"
+hash = "cc360d86f76e729d3ebb7384cfbc933d8ffba694ba91360edeb846d61d14e561"
 metafile = true
 
 [[files]]
@@ -745,6 +758,11 @@ metafile = true
 [[files]]
 file = "mods/gravestone-mod.pw.toml"
 hash = "2ac1df7fad83d36e69b4aaad32f0b952c9b039d7345592bb66934f40a8606224"
+metafile = true
+
+[[files]]
+file = "mods/gravestone-x-curios-api-compat.pw.toml"
+hash = "a90b481b3ce142ec1c515e7f7f1a5ca3a2b9445a0e38222428ff86e8751d02d9"
 metafile = true
 
 [[files]]
