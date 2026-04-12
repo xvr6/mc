@@ -288,6 +288,11 @@ hash = "f773c1a9d14caa184e006fdd8896134123a3092f923780125041029744844678"
 metafile = true
 
 [[files]]
+file = "mods/carry-on.pw.toml"
+hash = "c5e47d922e39c1556dc2e8c94bfe852cf16de14f65b99eb3e054e41745dddad0"
+metafile = true
+
+[[files]]
 file = "mods/chimes.pw.toml"
 hash = "7c39ccee8a0d788d5b9d365d8d79a498a998038c5ded39eb7b07ce0e292489cb"
 metafile = true
