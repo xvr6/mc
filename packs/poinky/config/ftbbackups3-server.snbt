@@ -26,7 +26,7 @@
 	# 1440 - backups once every day
 	# Default: 120
 	# Range: 1 ~ 43800
-	backup_timer: 360
+	backup_timer: 480
 	
 	# The number of backup files to keep.
 	# More backups = more space used
@@ -52,7 +52,7 @@
 	excluded_files: [
 		"glob:*.neoforge-tmp"
 		"glob:session.lock"
-		"glob:*.sqlite"
+		"glob:*.sqlite*"
 		"glob:./bluemap/*"
 	]
 	
