@@ -3,8 +3,8 @@ filename = "the_bumblezone-7.13.1+1.21.1-neoforge.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "ebcb3f6c4412cad6d22126f33b3a65622328f361"
+hash-format = "sha512"
+hash = "1b1c265f89b855812014b75fd588330125a81be5657e5d4c42ebd0821eee2e56b06f0af7ccbc110958cf3f71738383681d0f55dd2d69e6db44085554cc00f187"
 mode = "metadata:curseforge"
 
 [update]

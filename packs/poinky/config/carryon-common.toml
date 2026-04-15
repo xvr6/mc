@@ -191,6 +191,7 @@ forbiddenTiles = [
 	"chipped:*",
 	"irons_spellbooks:*",
 	"create*:*",
+	"powergrid:*",
 	"dndesires:*",
 	"simple_pipes:*",
 	"libmultipart:*",
