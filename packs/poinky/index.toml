@@ -85,6 +85,18 @@ file = "config/simplebackups-server.toml"
 hash = "bf73f138a476278c415bacc627026a81ddf7ebb4cb8e2613dc3bb2692c327922"
 
 [[files]]
+file = "config/simpleclouds-client.toml"
+hash = "f919e0954e340a30a1d2752b35c8d73e9ea7cdd1ae24f37fb3363de496cb16ca"
+
+[[files]]
+file = "config/simpleclouds-common.toml"
+hash = "d3cf4550cd755e44b0fc5bc54f26933d395e1c646a9b10dca35b7e7987a88818"
+
+[[files]]
+file = "config/simpleclouds-server.toml"
+hash = "65f0867637e1c6697c0cf4926dd016d943a7519ab4b5fa72551d8f6a179dd77b"
+
+[[files]]
 file = "config/sophisticatedbackpacks-server.toml"
 hash = "214af285e7e20eb99c60eb8a8cd768dddf8a6804e0204a741b97ace70e10a243"
 
@@ -1082,6 +1094,11 @@ hash = "37cb65510f08de773837e9f46d4fcf4aafb0875cc23ea0a64d929bd1d1d056a6"
 metafile = true
 
 [[files]]
+file = "mods/oculus-for-simpleclouds.pw.toml"
+hash = "6adc69f6eb2a692aaaa6d19c8d79caf2daa8f60e347b9be365f3683d5c9c12d8"
+metafile = true
+
+[[files]]
 file = "mods/oelib.pw.toml"
 hash = "983d7937053c02ea94e3a4c1221a96212a9c597a3f4d826631d861f7ed25b079"
 metafile = true
@@ -1239,6 +1256,11 @@ metafile = true
 [[files]]
 file = "mods/shoulder-surfing-reloaded.pw.toml"
 hash = "b39cc0e202c21d67e8e7bac349f9708a021a84a5bf752121d1371bbe6b9d47ea"
+metafile = true
+
+[[files]]
+file = "mods/simple-clouds.pw.toml"
+hash = "b5aeca8406e74bb7722b4916dacb304373f64fb38716a70a6976608969ded970"
 metafile = true
 
 [[files]]
