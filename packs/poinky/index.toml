@@ -193,7 +193,7 @@ metafile = true
 
 [[files]]
 file = "mods/advanced-chimneys.pw.toml"
-hash = "fcdc762c6a26ceac62a48189696007bdbf913656fab35499cf0cae38b5beb971"
+hash = "281a826981de17fcd8511bc2f6245bf93a97afcfd2ff05dbb6675ef47fdae3d5"
 metafile = true
 
 [[files]]
@@ -703,7 +703,7 @@ metafile = true
 
 [[files]]
 file = "mods/forgeendertech.pw.toml"
-hash = "6983f398128a5252bf518f8708a1a1c09b4a08bf9b8bb37d5f0e1b35179f9fbb"
+hash = "dbcf0e9901e57f82bc289d6716e4eea3b1b52a451ee064d2381d2af651870b62"
 metafile = true
 
 [[files]]
@@ -764,11 +764,6 @@ metafile = true
 [[files]]
 file = "mods/geophilic.pw.toml"
 hash = "cdc66a084161b07f0f07e8a445272862270f1f7be71a8ec94959365395eadc86"
-metafile = true
-
-[[files]]
-file = "mods/ghost.pw.toml"
-hash = "781eba185ba5ceaf76feebbf210459d88cfda2b6864fd7d1365bf114ce9f0ce2"
 metafile = true
 
 [[files]]
@@ -1178,7 +1173,7 @@ metafile = true
 
 [[files]]
 file = "mods/pollution-of-the-realms.pw.toml"
-hash = "2f24c6770b52576341f7a7b59a0af130484d1b4a748518091ff989f536fb82ad"
+hash = "244bd013eb9490932d9b21ad9ad3fe1afef0c3a672b3432df9a07911c49583f0"
 metafile = true
 
 [[files]]
@@ -1264,11 +1259,6 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "0281ed9713f3141bdac363056a791845510e14761ea65b4b2813cf96d664b20a"
-metafile = true
-
-[[files]]
-file = "mods/sooty-chimneys.pw.toml"
-hash = "815a5c9b3e5f8abdd86fef0319809b10517bcda0fa369789d525765a61f3e068"
 metafile = true
 
 [[files]]
@@ -1377,11 +1367,6 @@ hash = "9bf9ab019562d204c452dd282b9a835632ffe88fdad6f20a88326da546614aaf"
 metafile = true
 
 [[files]]
-file = "mods/trash-cans.pw.toml"
-hash = "a43bccc1cdad8e0ce5167f379c98935f7ea8117ac0bda2218b372defbc9fc985"
-metafile = true
-
-[[files]]
 file = "mods/trashslot.pw.toml"
 hash = "b7edb8bf6ab6913509a777faa013241784c3a75a966a1c62e4ddd786ecd2392f"
 metafile = true
@@ -1399,11 +1384,6 @@ metafile = true
 [[files]]
 file = "mods/via-romana.pw.toml"
 hash = "d96fe12674f0a9d208ab683e0799542b03ddfd9b17bd89996f3fca73dd3df2dd"
-metafile = true
-
-[[files]]
-file = "mods/wayfinder.pw.toml"
-hash = "b50a23e7fad5310048362733ee729e4391de4347389907354646bcdfffecb024"
 metafile = true
 
 [[files]]

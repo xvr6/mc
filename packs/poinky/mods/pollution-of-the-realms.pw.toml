@@ -3,8 +3,8 @@ filename = "AdPother-1.21.1-9.1.7.0-NeoForge-build.0768.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "193e53866b8cba5e9d02784a64a9e74ecacc55f7"
+hash-format = "sha512"
+hash = "75a63a1dd6e24bac4630b407b850974daea88ce98279266722eb1112fa7c885b40269988529e5dc4e9617c4472f7b39f3412939b82bd6422177ec87eca5f3d8d"
 mode = "metadata:curseforge"
 
 [update]
