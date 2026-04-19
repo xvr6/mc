@@ -192,6 +192,11 @@ hash = "19cbfb37dc29169b50599dfa328fe12a0ec9caaec8ac02627b5846f3bd9d1425"
 metafile = true
 
 [[files]]
+file = "mods/advanced-chimneys.pw.toml"
+hash = "fcdc762c6a26ceac62a48189696007bdbf913656fab35499cf0cae38b5beb971"
+metafile = true
+
+[[files]]
 file = "mods/advanced-netherite.pw.toml"
 hash = "4a7568e25cac4f4bedba140135036d9481403069a6d9513a922e9901661c05ca"
 metafile = true
@@ -697,6 +702,11 @@ hash = "ef9b249b2052ef6cc08214e63debd2a9a71d60b7fe1353bbff41634c3d6408ca"
 metafile = true
 
 [[files]]
+file = "mods/forgeendertech.pw.toml"
+hash = "6983f398128a5252bf518f8708a1a1c09b4a08bf9b8bb37d5f0e1b35179f9fbb"
+metafile = true
+
+[[files]]
 file = "mods/framedblocks.pw.toml"
 hash = "f9b1fbbb47ce9eb83e43037c6bce1a49167743094feeef1e4c941e9252a1131d"
 metafile = true
@@ -822,8 +832,8 @@ hash = "ef1faa467f5dfd37c40871575934dab645f15a70568e8268a9e477234bdd1c58"
 metafile = true
 
 [[files]]
-file = "mods/inventory-management-deluxe.pw.toml"
-hash = "a9cd43d74327042b2e408932915b2ed346ac05576de34d5360525fa664d22f39"
+file = "mods/inventory-profiles-next.pw.toml"
+hash = "ab503e89461dff879ee793253e173625b6ab868f570a371323ef725e567cf5ea"
 metafile = true
 
 [[files]]
@@ -934,6 +944,11 @@ metafile = true
 [[files]]
 file = "mods/lets-do-vinery.pw.toml"
 hash = "535e8e9c6bc184e9771cf4e35795c8f162d89abeb5b9aed9c2ea2988c710776f"
+metafile = true
+
+[[files]]
+file = "mods/libipn.pw.toml"
+hash = "0d2a00252d64ed7d2d9b19994f7accb780304be61f3903d36e810714b414c6cb"
 metafile = true
 
 [[files]]
@@ -1132,6 +1147,16 @@ hash = "d7f360ebb9f009d6dc0b368cd8fa399bdff70c0f6ef931687b2a35137f72715d"
 metafile = true
 
 [[files]]
+file = "mods/petrolpark.pw.toml"
+hash = "24251b653079b725cb74ac69f33739c4fd3168cfa157ad043f3eb9c7ffcfee42"
+metafile = true
+
+[[files]]
+file = "mods/petrols-parts.pw.toml"
+hash = "41bf8eb3eea5e3295036dc267215af9d734e08b2461842e559a1606d228fceca"
+metafile = true
+
+[[files]]
 file = "mods/pf-neoforge.pw.toml"
 hash = "1ef7ce6d5fe6e584914680f5463508996f0dd1c2bdbc051b8b3b050c85e134ff"
 metafile = true
@@ -1149,6 +1174,11 @@ metafile = true
 [[files]]
 file = "mods/platform.pw.toml"
 hash = "0ca90a25548289e4149c3d8435d50b75ff28bb83f973bf3e2cdc8a0b4b911acc"
+metafile = true
+
+[[files]]
+file = "mods/pollution-of-the-realms.pw.toml"
+hash = "2f24c6770b52576341f7a7b59a0af130484d1b4a748518091ff989f536fb82ad"
 metafile = true
 
 [[files]]
