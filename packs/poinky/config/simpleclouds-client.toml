@@ -14,7 +14,7 @@ clientSideSpeedModifier = 1.0
 #Default: 128
 # Default: 128
 # Range: 0 ~ 2048
-clientSideCloudHeight = 128
+clientSideCloudHeight = 256
 #Specifies the allowed dimensions that Simple Clouds is active in.
 dimensionWhitelist = ["minecraft:overworld"]
 #Specifies if the dimension whitelist should instead be use as a blacklist.
@@ -22,14 +22,14 @@ dimensionWhitelist = ["minecraft:overworld"]
 whitelistAsBlacklist = false
 #Shows the Vivecraft notice on startup.
 #Default: true
-showVivecraftNotice = true
+showVivecraftNotice = false
 
 #Preference
 [preference]
 #Specifies the type of world fog that should be used. Each has their own advantages and disadvantages, ranging from visual discrepancies to possible compatibility issues.
 #Default: SCREEN_SPACE
 #Allowed Values: VANILLA, SCREEN_SPACE, OFF
-fogMode = "SCREEN_SPACE"
+fogMode = "VANILLA"
 #Specifies the angle of the rain, perpendicular to the ground. Higher values makes it more horizontal.
 #Default: 15.0
 # Default: 15.0
