@@ -9,8 +9,16 @@ file = "config/accessories.json5"
 hash = "d8017acc5db66ce6d72ba3de64c60fc85844f0c29c37f1f59f99cf20df582fd8"
 
 [[files]]
+file = "config/adchimneys-common.toml"
+hash = "7def90b6724dc296bfd9e6227e363cb3f34d5f144f716872c70d81af68467dc6"
+
+[[files]]
 file = "config/autohud.json5"
 hash = "599cf1a325c1c61afe9dc2c8b6123becaf22f7208e095b5e370e1e9479955df5"
+
+[[files]]
+file = "config/badoptimizations.txt"
+hash = "d273f24671ad7986218c500917bad0d1fe7d8bfdb9f7f9cb12b6ace6c0ec4c02"
 
 [[files]]
 file = "config/biomeswevegone/world_generation.json5"
@@ -86,11 +94,11 @@ hash = "bf73f138a476278c415bacc627026a81ddf7ebb4cb8e2613dc3bb2692c327922"
 
 [[files]]
 file = "config/simpleclouds-client.toml"
-hash = "88d76e17f06fe9b8d1370ae56d470f514bb19e191ecdd21737e26f23fcc2b382"
+hash = "c3f777d0875632d9769801f14ea24f6dee7ac8d8068cd4dc70cd2f86d00d5edd"
 
 [[files]]
 file = "config/simpleclouds-common.toml"
-hash = "d3cf4550cd755e44b0fc5bc54f26933d395e1c646a9b10dca35b7e7987a88818"
+hash = "162d2be6af39cd16b2647a0afa116afce3badcb2c6cf8e544f753a51a177693d"
 
 [[files]]
 file = "config/simpleclouds-server.toml"
@@ -838,11 +846,6 @@ hash = "0eef279850c173527c29e0d550aa4a6a616caf031056ac85e69ced91e0cc8ce1"
 metafile = true
 
 [[files]]
-file = "mods/immersivethunder.pw.toml"
-hash = "c0a07ef9b87a84ac2caaf6bb39b5cb203b32b430aad8f232b11b275aab6aadad"
-metafile = true
-
-[[files]]
 file = "mods/incendium.pw.toml"
 hash = "ef1faa467f5dfd37c40871575934dab645f15a70568e8268a9e477234bdd1c58"
 metafile = true
@@ -1249,7 +1252,7 @@ metafile = true
 
 [[files]]
 file = "mods/simpleclouds-0.7.3-226-mod.jar"
-hash = "17c1cab0a1e2b6c9940d39c083e01efe8a6b6837de10526ac8c91fcb8f34b7d4"
+hash = "5511ea1d204850a23d12f869f9ddcdc863b8c9754e75031ecbc2a678359d6b0d"
 
 [[files]]
 file = "mods/simpletms-tms-and-trs-for-cobblemon.pw.toml"
