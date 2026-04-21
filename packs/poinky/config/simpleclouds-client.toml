@@ -9,7 +9,7 @@ showCloudPreviewerInfoPopup = true
 #Default: 1.0
 # Default: 1.0
 # Range: 0.1 ~ 32.0
-clientSideSpeedModifier = 0.75
+clientSideSpeedModifier = 1.0
 #Specifies the allowed dimensions that Simple Clouds is active in.
 dimensionWhitelist = ["minecraft:overworld"]
 #Specifies if the dimension whitelist should instead be use as a blacklist.
@@ -17,20 +17,43 @@ dimensionWhitelist = ["minecraft:overworld"]
 whitelistAsBlacklist = false
 #Shows the Vivecraft notice on startup.
 #Default: true
-showVivecraftNotice = false
+showVivecraftNotice = true
 
 #Preference
 [preference]
 #Specifies the type of world fog that should be used. Each has their own advantages and disadvantages, ranging from visual discrepancies to possible compatibility issues.
 #Default: SCREEN_SPACE
 #Allowed Values: VANILLA, SCREEN_SPACE, OFF
-fogMode = "VANILLA"
+fogMode = "SCREEN_SPACE"
+#EXPERIMENTAL. Specifies if extra fog and visibility limiting should be applied when the camera is physically inside a cloud.
+#Default: false
+insideCloudFog = false
+#Specifies how far into the horizontal body of a cloud the camera must be before the inside-cloud fog reaches full strength. Lower values make the effect kick in faster.
+#Default: 0.55
+# Default: 0.55
+# Range: 0.01 ~ 1.0
+insideCloudFogHorizontalFade = 0.55
+#Specifies how many blocks the inside-cloud fog takes to fade in vertically near the top and bottom of a cloud.
+#Default: 40.0
+# Default: 40.0
+# Range: 1.0 ~ 256.0
+insideCloudFogVerticalFadeDistance = 40.0
+#Specifies the maximum visibility distance, in blocks, when fully inside a cloud. Lower values make cloud interiors denser.
+#Default: 96.0
+# Default: 96.0
+# Range: 4.0 ~ 512.0
+insideCloudFogMaxVisibility = 96.0
+#Specifies how strongly the world fog color blends toward the cloud color when inside a cloud.
+#Default: 0.5
+# Default: 0.5
+# Range: 0.0 ~ 1.0
+insideCloudFogColorBlend = 0.5
 #Specifies the angle of the rain, perpendicular to the ground. Higher values makes it more horizontal.
 #Default: 15.0
 # Default: 15.0
 # Range: 0.0 ~ 45.0
 rainAngle = 15.0
-#Specifies the angle parellel to the horizon that the storm fog should be directed to.
+#Specifies the angle parallel to the horizon that the storm fog should be directed to.
 #Default: 80.0
 # Default: 80.0
 # Range: 50.0 ~ 90.0
@@ -42,13 +65,10 @@ lightningColorVariation = true
 #Default: 2000
 # Default: 2000
 # Range: 100 ~ 20000
-thunderAttenuationDistance = 1250
+thunderAttenuationDistance = 2000
 #Specifies if new rain sounds should replace the vanilla ones.
 #Default: true
 customRainSounds = true
-#Specifies if custom rain rendering should be used. Automatically disabled when using Pretty/Particle Rain.
-#Default: true
-renderCustomRain = false
 
 #Visual
 [visual]
@@ -82,11 +102,11 @@ useSpecificSeed = false
 #Default: false
 concurrentComputeDispatches = false
 #Specifies if faces that are not visible to the camera should be tested during mesh generation. Settings this to off can improve performance at the cost of visual issues with shadows and storm fog.
-#Default: false
+#Default: true
 testSidesThatAreOccluded = true
 #Specifies if 'rain' beneath storm clouds should appear or not. Disabling can improve performance, especially when in VR.
 #Default: true
-renderStormFog = false
+renderStormFog = true
 #Specifies the quality of the level of detail. A lower setting makes clouds lower quality faster.
 #Default: HIGH
 #Allowed Values: LOW, MEDIUM, HIGH
@@ -108,17 +128,17 @@ transparencyRenderDistancePercentage = 50
 #How the amount of frames used to generate the entire mesh is calculated. Static will use the 'Frames To Generate Mesh' option. Dynamic will calculate it automatically depending on your FPS. Target FPS will target a certain perceived framerate for mesh generation.
 #Default: TARGET_FPS
 #Allowed Values: STATIC, DYNAMIC, TARGET_FPS
-generationInterval = "DYNAMIC"
+generationInterval = "TARGET_FPS"
 #Specifies how many frames it should take to generate the entire cloud mesh. Higher values will improve performance at the cost of stuttery cloud movement.
-#Default: 5
-# Default: 5
+#Default: 4
+# Default: 4
 # Range: 1 ~ 32
-framesToGenerateMesh = 5
+framesToGenerateMesh = 4
 #Used to set the target FPS with the 'Target FPS' option in 'Generation Interval'.
-#Default: 30
-# Default: 30
-# Range: 1 ~ 1000
-targetMeshGenFps = 30
+#Default: 24
+# Default: 24
+# Range: 1 ~ 480
+targetMeshGenFps = 24
 
 #Debug
 [debug]
@@ -132,8 +152,8 @@ generateMesh = true
 #Single Mode
 [single_mode]
 #Specifies the cloud type that should be used when the SINGLE cloud mode is active.
-#Default: simpleclouds:itty_bitty
-clientSideSingleModeCloudType = "simpleclouds:itty_bitty"
+#Default: simpleclouds:cumulonimbus
+clientSideSingleModeCloudType = "simpleclouds:cumulonimbus"
 #Specifies the percentage of the cloud render distance that the clouds should begin to fade away, when using the single cloud type mode (e.x. 50 would start to make the clouds fade away at half of the cloud render distance).
 #Default: 80
 # Default: 80
@@ -151,7 +171,7 @@ singleModeFadeEndPercentage = 100
 #Default: true
 distantShadows = true
 #Specifies the distance shadows can render.
-#Default: 5000
-# Default: 5000
-# Range: 500 ~ 15000
+#Default: 4096
+# Default: 4096
+# Range: 512 ~ 16384
 shadowDistance = 4096

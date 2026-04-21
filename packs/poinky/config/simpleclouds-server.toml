@@ -12,6 +12,6 @@ cloudMode = "DEFAULT"
 
 #Single Mode
 [single_mode]
-	#Specifies the cloud type that should be used when the SINGLE cloud mode is active.
-	#Default: simpleclouds:itty_bitty
-	singleModeCloudType = "simpleclouds:itty_bitty"
+#Specifies the cloud type that should be used when the SINGLE cloud mode is active.
+#Default: simpleclouds:itty_bitty
+singleModeCloudType = "simpleclouds:cumulonimbus"

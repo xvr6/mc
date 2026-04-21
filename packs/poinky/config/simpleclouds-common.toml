@@ -4,7 +4,7 @@
 #Default: 128
 # Default: 128
 # Range: 0 ~ 2048
-cloudHeight = 372
+cloudHeight = 224
 
 #Lightning And Thunder
 [weather.lightning_and_thunder]

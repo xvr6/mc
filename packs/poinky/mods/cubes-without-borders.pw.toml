@@ -11,3 +11,7 @@ hash = "cbe2770179a948bc5cc7ab9fffdb65262745bb42902d03860cb6218708c1d5ffbabfafe4
 [update.modrinth]
 mod-id = "ETlrkaYF"
 version = "epixUL1j"
+
+[option]
+optional = true
+default = true

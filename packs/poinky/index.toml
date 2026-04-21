@@ -34,7 +34,7 @@ hash = "865a366143df5f4d92941058c823ea48deb8445f6444b45e870331b16a444f0f"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "e440161825e1409e150c8e9be88885a2df4cf8dc85ad29357d909c504ba0a12f"
+hash = "9fbb09615be27372624b711ae84d9bc6c0b2ebb1e765a59d146fd1b5de984c47"
 
 [[files]]
 file = "config/cobblemon/main.json"
@@ -94,15 +94,15 @@ hash = "bf73f138a476278c415bacc627026a81ddf7ebb4cb8e2613dc3bb2692c327922"
 
 [[files]]
 file = "config/simpleclouds-client.toml"
-hash = "c3f777d0875632d9769801f14ea24f6dee7ac8d8068cd4dc70cd2f86d00d5edd"
+hash = "7b0eb8b1c74496c618d44bb54fb720beeb7fb0c8b6fffae39b14c845cf61983e"
 
 [[files]]
 file = "config/simpleclouds-common.toml"
-hash = "162d2be6af39cd16b2647a0afa116afce3badcb2c6cf8e544f753a51a177693d"
+hash = "3deddfd9bc299434865f41f11c39ee58795f483b87178e3e70efd7d4d9ac89bf"
 
 [[files]]
 file = "config/simpleclouds-server.toml"
-hash = "65f0867637e1c6697c0cf4926dd016d943a7519ab4b5fa72551d8f6a179dd77b"
+hash = "cca697c0ca95146b06e24f1a21994fc12ce37ab8f07004e5921f098418760ba0"
 
 [[files]]
 file = "config/sit-server.toml"
@@ -277,7 +277,7 @@ metafile = true
 
 [[files]]
 file = "mods/autohud.pw.toml"
-hash = "7f9b158664848f238aa1187c9e72eaa4c2842b487972307b1b236163609715a5"
+hash = "20efb1d6a50ddb1682bf609dc7db31526f378d0c7605d0037fe86059faf4fff5"
 metafile = true
 
 [[files]]
@@ -567,7 +567,7 @@ metafile = true
 
 [[files]]
 file = "mods/cubes-without-borders.pw.toml"
-hash = "8e5f6550359e71ecbea95705ec61fb03313550e6f481cabf48043929909aabae"
+hash = "0c3840e0fd8073ce14314d98739b07dc43ef1aa73933f03f1258202be334d9d4"
 metafile = true
 
 [[files]]
@@ -597,7 +597,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "44c9b2edf452b29a9c6c4a786c92fbd1245ca9498842c6947e292b52ca32deae"
+hash = "1d125009a4c17701530c58cc50454f19de8dffe9ec826184b027a5d76bd8edfa"
 metafile = true
 
 [[files]]
@@ -853,6 +853,16 @@ metafile = true
 [[files]]
 file = "mods/inventory-management-deluxe.pw.toml"
 hash = "a9cd43d74327042b2e408932915b2ed346ac05576de34d5360525fa664d22f39"
+metafile = true
+
+[[files]]
+file = "mods/iris-flw-compat.pw.toml"
+hash = "7f29ccbcad9446e8e868539689419b335a9197b3c1e705e85ddbe592cc712cfc"
+metafile = true
+
+[[files]]
+file = "mods/iris.pw.toml"
+hash = "9776717ba124a3ebb51c2ebeb36378a7d2683494cf53975d6d21f2ab7debc0e8"
 metafile = true
 
 [[files]]
@@ -1251,8 +1261,8 @@ hash = "f2f3e5ea4f6aaf3e999bdd352326cf6f645aa5b2391c10b26207e63b79bfd458"
 metafile = true
 
 [[files]]
-file = "mods/simpleclouds-0.7.3-226-mod.jar"
-hash = "5511ea1d204850a23d12f869f9ddcdc863b8c9754e75031ecbc2a678359d6b0d"
+file = "mods/simpleclouds-0.7.5f.jar"
+hash = "dfbdb0a226975e1f6d6a2e07b0a89799a7b21ac9af7e3899dd034ec3f650cbb3"
 
 [[files]]
 file = "mods/simpletms-tms-and-trs-for-cobblemon.pw.toml"

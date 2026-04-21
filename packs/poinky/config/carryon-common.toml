@@ -201,6 +201,7 @@ forbiddenTiles = [
 	"extrastorage:*",
 	"relics:researching_table",
 	"sophisticatedbackpacks:*",
+	"sophisticatedstorage:*",
 	"powah:*",
 	"advancementtrophies:trophy",
 	"mekanismgenerators:heat_generator",

@@ -14,4 +14,4 @@ version = "FmdEZnCk"
 
 [option]
 optional = true
-description = "Automatically hides the HUD when exploring. (Weaver loves it so its here)"
+description = "Automatically hides sections of the HUD when not in use."
