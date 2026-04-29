@@ -106,6 +106,9 @@ renderStormFog = true
 #Default: HIGH
 #Allowed Values: LOW, MEDIUM, HIGH
 levelOfDetail = "MEDIUM"
+#Specifies if distant level-of-detail cloud chunks should be rendered. Disabling can improve performance, but removes faraway cloud coverage.
+#Default: true
+renderLodClouds = true
 #Culls cloud chunks not visible to the player. Generally should not be disabled, but can fix visual issues when looking around fast with higher frames per mesh generation values.
 #Default: true
 frustumCulling = true
@@ -128,7 +131,7 @@ generationInterval = "TARGET_FPS"
 #Default: 4
 # Default: 4
 # Range: 1 ~ 32
-framesToGenerateMesh = 2
+framesToGenerateMesh = 4
 #Used to set the target FPS with the 'Target FPS' option in 'Generation Interval'.
 #Default: 24
 # Default: 24

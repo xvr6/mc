@@ -8,12 +8,33 @@ whitelistAsBlacklist = false
 #Specifies how the clouds should behave. DEFAULT uses all cloud types with the default weather in Simple Clouds. SINGLE uses only a single cloud type and its associated weather. AMBIENT disables localized weather and carves clouds around the player, keeping them at a distance.
 #Default: DEFAULT
 #Allowed Values: DEFAULT, SINGLE, AMBIENT
-cloudMode = "DEFAULT"
+cloudMode = "AMBIENT"
 #Specifies the movement speed of clouds for this world/server. Lower values make weather transitions and cloud drift slower.
 #Default: 0.675
 # Default: 0.675
 # Range: 0.0 ~ 1.0
 cloudSpeed = 0.675
+
+#Weather
+[weather]
+#Specifies the lowest Y level any cloud may spawn at.
+#Default: 128
+# Default: 128
+# Range: 0 ~ 2048
+cloudHeight = 224
+
+#Lightning And Thunder
+[weather.lightning_and_thunder]
+#Specifies the shortest interval until the next lightning strike will spawn, in ticks.
+#Default: 10
+# Default: 10
+# Range: 1 ~ 72000
+lightningSpawnIntervalMinimum = 10
+#Specifies the longest interval until the next lightning strike will spawn, in ticks.
+#Default: 160
+# Default: 160
+# Range: 1 ~ 72000
+lightningSpawnIntervalMaximum = 160
 
 #Single Mode
 [single_mode]
