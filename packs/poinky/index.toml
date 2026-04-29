@@ -98,7 +98,7 @@ hash = "bf73f138a476278c415bacc627026a81ddf7ebb4cb8e2613dc3bb2692c327922"
 
 [[files]]
 file = "config/simpleclouds-client.toml"
-hash = "7b0eb8b1c74496c618d44bb54fb720beeb7fb0c8b6fffae39b14c845cf61983e"
+hash = "84d8c74005033ec1ef8ba8dcc626961ea7b6cf297cd7574e353929837447fbac"
 
 [[files]]
 file = "config/simpleclouds-common.toml"
@@ -106,7 +106,7 @@ hash = "3deddfd9bc299434865f41f11c39ee58795f483b87178e3e70efd7d4d9ac89bf"
 
 [[files]]
 file = "config/simpleclouds-server.toml"
-hash = "cca697c0ca95146b06e24f1a21994fc12ce37ab8f07004e5921f098418760ba0"
+hash = "b00ddb5768ca2f0feabf21f00200ec3ed9658528103e39e32c9dedd0ed2b0f5d"
 
 [[files]]
 file = "config/sit-server.toml"
@@ -240,7 +240,7 @@ metafile = true
 
 [[files]]
 file = "mods/ambientsounds.pw.toml"
-hash = "c12875918a95f25b548666e43e6b98b33087db787beabfd8de2a56d0e1eda4e8"
+hash = "666bfc7d7b7a843c36454f7d18a50f0f26747a01afbc2a514a917f85ce1af552"
 metafile = true
 
 [[files]]
@@ -514,6 +514,11 @@ hash = "0f67083a39e4b9aa80b1830257086f16734091f9ecb24e64dd208c19be2c4923"
 metafile = true
 
 [[files]]
+file = "mods/create-connected.pw.toml"
+hash = "31508c7c87c75cec7ae03cfe2367b6e4ea37035400c2594c93c1e9c60cf64b3f"
+metafile = true
+
+[[files]]
 file = "mods/create-curios-jetpack.pw.toml"
 hash = "b8e662516d509fc3fcc6036955373de4760e3c43093f31117cef927fb7e4e619"
 metafile = true
@@ -555,7 +560,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-power-loader.pw.toml"
-hash = "ee76dbe108ebf5cf68047f60ecabee5aeb029015253dc82c007b941a6d6cfcdf"
+hash = "703c2d475167e08d77254c8944e2971899603cce61e4c87f870095386c725c74"
 metafile = true
 
 [[files]]
@@ -575,7 +580,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "6cd0689dfe07e9fbe27a62e74a92929987fe64dd838f1680db070a7e933f204a"
+hash = "d6e8a17cd30032fb2eaeb910f65ffca9cd41a6530b607d58dfa18ac619b6d9f1"
 metafile = true
 
 [[files]]
@@ -670,7 +675,7 @@ metafile = true
 
 [[files]]
 file = "mods/dye-the-world.pw.toml"
-hash = "1ff52c3726f6e2eac251f6cfa2bb103ae410ffe1137465900b82b8584ae15b82"
+hash = "11379986f70587a0f800197e7bf6688eb5a4f5e2866fecaa0f33194fb1fac6e5"
 metafile = true
 
 [[files]]
@@ -715,7 +720,7 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "3e12e291f59845d26d24f57f81ee16b56afb486ae532ec3f00f5deda6a93dc6f"
+hash = "3937618f06648f5ad0c7be0195b5fa75bf6d7464ee133bd59bb5b13753090de7"
 metafile = true
 
 [[files]]
@@ -885,7 +890,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris-flw-compat.pw.toml"
-hash = "424ca0453bac985267d4916c66d7a754de731808895d3c297fd2e48f1eb27338"
+hash = "bd90713dd3a9821a6b1cfa41347306a476d6f619e72d1668a3a87902c9b214bf"
 metafile = true
 
 [[files]]
@@ -1065,7 +1070,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "e152bb9ae171e9f34c406bbc29dc36c8d8def9d8f913e1a1bbf82bd63d4e8da9"
+hash = "6c600fe7b0789b7501968f57bb33b526e8c711dc6305f64b406abccfbdb971d5"
 metafile = true
 
 [[files]]
@@ -1150,7 +1155,7 @@ metafile = true
 
 [[files]]
 file = "mods/oh-the-trees-youll-grow.pw.toml"
-hash = "907672467294408a423bfe23a2857476bcc8e3d0d39d5423992bbed76dc01159"
+hash = "312688b8bae6b3e31710700063f01777a6181f2f9b0a88263570373a34284770"
 metafile = true
 
 [[files]]
@@ -1210,7 +1215,7 @@ metafile = true
 
 [[files]]
 file = "mods/ping-wheel.pw.toml"
-hash = "9263405332ca3b5da9de2f7e05b53c2544b8fcb5345e0d80b05f8b87f07d6b29"
+hash = "650330109d21831664d2ff597c7a90200eda69a1efaca4e9b0b6b6297ac3c364"
 metafile = true
 
 [[files]]
@@ -1235,7 +1240,7 @@ metafile = true
 
 [[files]]
 file = "mods/power-grid.pw.toml"
-hash = "3d9e6280e38ac24dac1b5e3ad67f3f68baa67f53871261282ddbb7674611b2d0"
+hash = "1c5522db3b8327e889b0ec6fe8569c4f864b8515a5f1cf439c4bae86a86234e2"
 metafile = true
 
 [[files]]
@@ -1294,8 +1299,8 @@ hash = "1458a0718c17a1092ca54fecf6c0d2f5283a726e987d16ef360145b752cd1d68"
 metafile = true
 
 [[files]]
-file = "mods/simpleclouds-0.7.7f.jar"
-hash = "e130968ed68dae2ec685004e1049a40d43538dfd2622a5f9dff3ac69b819edb7"
+file = "mods/simpleclouds-0.8.0f-b1.jar"
+hash = "2aa5beee22a6c79869b11468de2b9b71792c509564e86b0a8e8910166b884ffc"
 
 [[files]]
 file = "mods/simpletms-tms-and-trs-for-cobblemon.pw.toml"
@@ -1319,12 +1324,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "e8c3f829458b16691508fe87672d7e70c73fac15663bbebfb9829efd2521fa24"
+hash = "5d456b77b7ba6381ee745161d355843c52bdc20b0eab644bd6152dc669ae3d58"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "23c31613960c38bc67da32c6dcd7e611d6a61bff225739ae87ccdaa7ef6fa1c1"
+hash = "00c2f94fd2a469c880b73633a14cb6b654554ebc26610a7a8eac65a6673772d2"
 metafile = true
 
 [[files]]
@@ -1334,7 +1339,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "642607481d0c9fa3c8ae9970a8d25bd1e45f84703cd3a697255ddae8f07960ff"
+hash = "0af154df6e7fe6999b6acc493cc55f41597de5bdd0c8b84b4c2d0ae6f343a362"
 metafile = true
 
 [[files]]
@@ -1359,7 +1364,7 @@ metafile = true
 
 [[files]]
 file = "mods/subtle-effects.pw.toml"
-hash = "2f809d67663e54f80baff9e541baa5f0373701cf718aba670f0c52c14f7681e9"
+hash = "8eaab8f312c3a1a72e7d9e9123bbfef2a7dcac7dd7d8f9eab72fb7c0d25b021e"
 metafile = true
 
 [[files]]

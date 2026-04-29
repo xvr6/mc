@@ -9,6 +9,11 @@ whitelistAsBlacklist = false
 #Default: DEFAULT
 #Allowed Values: DEFAULT, SINGLE, AMBIENT
 cloudMode = "DEFAULT"
+#Specifies the movement speed of clouds for this world/server. Lower values make weather transitions and cloud drift slower.
+#Default: 0.675
+# Default: 0.675
+# Range: 0.0 ~ 1.0
+cloudSpeed = 0.675
 
 #Single Mode
 [single_mode]

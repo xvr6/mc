@@ -14,4 +14,4 @@ version = "qKBN6hPf"
 
 [option]
 optional = true
-description = "Makes Flywheel optimizations work with shaders on! (create lags less with shaders)"
+description = "DONT FORGET TO DISABLE/ENABLE WITH IRIS CORE! Makes Flywheel optimizations work with shaders on! (create lags less with shaders)"

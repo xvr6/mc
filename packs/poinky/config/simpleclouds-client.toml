@@ -5,11 +5,6 @@ clientSideCloudMode = "AMBIENT"
 #Specifies if the info pop-up should appear when opening the cloud previewer menu.
 #Default: true
 showCloudPreviewerInfoPopup = true
-#Specifies the movement speed of the clouds.
-#Default: 1.0
-# Default: 1.0
-# Range: 0.1 ~ 32.0
-clientSideSpeedModifier = 1.0
 #Specifies the allowed dimensions that Simple Clouds is active in.
 dimensionWhitelist = ["minecraft:overworld"]
 #Specifies if the dimension whitelist should instead be use as a blacklist.
@@ -133,7 +128,7 @@ generationInterval = "TARGET_FPS"
 #Default: 4
 # Default: 4
 # Range: 1 ~ 32
-framesToGenerateMesh = 4
+framesToGenerateMesh = 2
 #Used to set the target FPS with the 'Target FPS' option in 'Generation Interval'.
 #Default: 24
 # Default: 24
