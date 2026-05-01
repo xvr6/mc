@@ -63,7 +63,7 @@ lightningColorVariation = true
 thunderAttenuationDistance = 2000
 #Specifies if new rain sounds should replace the vanilla ones.
 #Default: true
-customRainSounds = true
+customRainSounds = false
 
 #Visual
 [visual]
@@ -128,10 +128,10 @@ transparencyRenderDistancePercentage = 50
 #Allowed Values: STATIC, DYNAMIC, TARGET_FPS
 generationInterval = "TARGET_FPS"
 #Specifies how many frames it should take to generate the entire cloud mesh. Higher values will improve performance at the cost of stuttery cloud movement.
-#Default: 4
-# Default: 4
-# Range: 1 ~ 32
-framesToGenerateMesh = 4
+#Default: 1
+# Default: 1
+# Range: 1 ~ 30
+framesToGenerateMesh = 1
 #Used to set the target FPS with the 'Target FPS' option in 'Generation Interval'.
 #Default: 24
 # Default: 24
@@ -163,12 +163,12 @@ singleModeFadeStartPercentage = 80
 # Range: 0 ~ 100
 singleModeFadeEndPercentage = 100
 
-#Distant Horizons
+#Terrain Shadows
 [distant_horizons]
-#Toggles shadows that appear on distant terrain.
+#Toggles cloud shadows cast onto terrain, including nearby terrain under overhead clouds and distant terrain when available.
 #Default: true
 distantShadows = true
-#Specifies the distance shadows can render.
+#Specifies the distance cloud shadows can render across terrain.
 #Default: 4096
 # Default: 4096
 # Range: 512 ~ 16384

@@ -77,6 +77,14 @@ file = "config/mindfuldarkness-client.toml"
 hash = "e3920628719c00d298b6979e8014b1d2693d7a057024f9593e70ad751fe9f9ad"
 
 [[files]]
+file = "config/particlerain/config.json"
+hash = "3918492e89e0058ff67f0f7f3891e22bd03874325223e397886de3252c8df315"
+
+[[files]]
+file = "config/particlerain/particles.json"
+hash = "424e6cd1eed18496d51a073ffac4a4eb74cc0c46e110bbcf2658bcfb49cf21db"
+
+[[files]]
 file = "config/regions_unexplored/common.toml"
 hash = "779649ccfb1e1b4f4054924188e88362ada82c6226e34c235c4142c12396dfe0"
 
@@ -85,24 +93,12 @@ file = "config/shouldersurfing-client.toml"
 hash = "bb247011c98bf9fd7203c37cb7e18bb5579cf1f9d41f165c7a9202da880d8501"
 
 [[files]]
-file = "config/simplebackups-common-experimental.toml"
-hash = "a1934a76de70de73fce91b89835ee6687110ae3898b3ba4850618094dfe300ca"
-
-[[files]]
-file = "config/simplebackups-common.toml"
-hash = "9684446c3a77bbb4a866cba5c6c79f87437ce7c5e9c91edca247915baa585f26"
-
-[[files]]
-file = "config/simplebackups-server.toml"
-hash = "bf73f138a476278c415bacc627026a81ddf7ebb4cb8e2613dc3bb2692c327922"
-
-[[files]]
 file = "config/simpleclouds-client.toml"
-hash = "0447e7663fdffde990678e55229a4897109405175b6c635fd3a52833bcace2fc"
+hash = "f0c0e488bc9d5cee3ec59a10db71866c615873e21127f5bc9fe9a4cc74eecc97"
 
 [[files]]
 file = "config/simpleclouds-server.toml"
-hash = "6ac70d9b5911556c5b96141f70e115dccb7ceeb553eb99bbf39a6e4552e825a4"
+hash = "2f9d1132edcf743ccd96a2cec8e56ab786d6a8da5c191407a96e30744ef67337"
 
 [[files]]
 file = "config/sit-server.toml"
@@ -395,11 +391,6 @@ hash = "503569d1bccf50d580e517550e8f66574d881deac197f30fedb0a18ebb5d3ff4"
 metafile = true
 
 [[files]]
-file = "mods/cobbledex-rei-emi-jei.pw.toml"
-hash = "f64594676448900b775878b4687d5688050731698939834a1719e48a7caab850"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon-alatias-fakemon-pack.pw.toml"
 hash = "a88bc4f42325323a40b61b16a6845355a7227a4520d1fcb7e3d5655dcda07517"
 metafile = true
@@ -417,6 +408,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-counter.pw.toml"
 hash = "5298e216aa91dc3463ddd92d31b3b9fd43ee47d2b1ffce486ae4c725bfeec9ce"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-integrations.pw.toml"
+hash = "c70e86c727c484964831bf18f88f66b42d54dc057be20bc99ce0abdbecdeea41"
 metafile = true
 
 [[files]]
@@ -616,7 +612,7 @@ metafile = true
 
 [[files]]
 file = "mods/detail-armor-bar-reconstructed.pw.toml"
-hash = "b0a820824de32fd1fb9a6e0e4c97839abdd8ef5f03af547471e7d31109e8c67e"
+hash = "eac79c4cd5b44fbe1f89ca6ce664eca5de741ce17ada0a3c0eafd1839ea0c7c3"
 metafile = true
 
 [[files]]
@@ -891,7 +887,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "34bd4cb7b79edaca77a2769e9d2646a531d48f4be65587609065aaa7f141b303"
+hash = "23304e6c503133b275b54c0527c908b91a596d4ddb5c56d4db002fdd122b49fe"
 metafile = true
 
 [[files]]
@@ -917,6 +913,11 @@ metafile = true
 [[files]]
 file = "mods/jump-over-fences.pw.toml"
 hash = "e3c802556e3f8a52ac984bd08837442828f0af4756e2cf883e88da6f20452bc2"
+metafile = true
+
+[[files]]
+file = "mods/just-enough-cobblemon.pw.toml"
+hash = "2fad4cabd790759656376d154124f5d546f290f349e3bcb57a191334af525970"
 metafile = true
 
 [[files]]
@@ -1016,7 +1017,7 @@ metafile = true
 
 [[files]]
 file = "mods/lootr.pw.toml"
-hash = "114b4f1097f17b916cc5df3334aa57e34c6f4a108b87cb911e29134dd5ff980d"
+hash = "9bc2d48df2e387c4003a2c52333e392fbb332b2fcc27899fb43d55ff8328d76e"
 metafile = true
 
 [[files]]
@@ -1175,11 +1176,6 @@ hash = "7333c29c224d843384e26b2c7d9af1d31dada870d776fb1ad8f3d8c3040b313d"
 metafile = true
 
 [[files]]
-file = "mods/particle-rain.pw.toml"
-hash = "538a74dbca9ad4f93e63f65a20396a9d8d7d0c0d6cae900691a07c4dbacb0bf9"
-metafile = true
-
-[[files]]
 file = "mods/patched-figura.toml"
 hash = "537f233fde02f33217d97ed645cdbc12bf3a9c653397b1bff1dafa83a364391e"
 metafile = true
@@ -1290,8 +1286,8 @@ hash = "1458a0718c17a1092ca54fecf6c0d2f5283a726e987d16ef360145b752cd1d68"
 metafile = true
 
 [[files]]
-file = "mods/simpleclouds-0.8.0f-b2.jar"
-hash = "91c27b96ab44cf16daed841d17156abb1fc778ee3b03ac6894d86be896123069"
+file = "mods/simpleclouds-0.8.0f-b5.jar"
+hash = "ad5b3faed8f295d2c1abf201f50fca07c87266b5c921bc82926eeb38a23e54bd"
 
 [[files]]
 file = "mods/simpletms-tms-and-trs-for-cobblemon.pw.toml"

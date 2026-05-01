@@ -1,0 +1,13 @@
+name = "Just Enough Cobblemon"
+filename = "justenoughcobblemon-neoforge-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "92a01b91d77384bb08618529ad0f2e3cd1532868933b0cb34349b7c23dd6909faa626bde62c8e260f51b55c8d3263796cdbb0a32d14024cb8dc6b124f7130788"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7653849
+project-id = 1459880
