@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "87ec4c55a6a8afb8f6282460fb2348d82b9fcbfa41a0c27272f2cb35fcfd90f9"
+hash = "58084e869599f1ee736c676b63bd8e66bdc6323ffbf0d023fd4b54423424ad5a"
 
 [[files]]
 file = "config/accessories.json5"
@@ -526,11 +526,6 @@ hash = "df536f068808076c24dac917d86d581886ae5fb912672ec949d9c71a1a7a7fb7"
 metafile = true
 
 [[files]]
-file = "mods/create-dynamic-lights.pw.toml"
-hash = "56ff7fa56eb6ae7d32cdd1f7ce84022d1ed25b416dd9142572ef0d2360d49ec9"
-metafile = true
-
-[[files]]
 file = "mods/create-enchantment-industry.pw.toml"
 hash = "52f8600e5c7ab7358bee923cfff7cd2428d7599cb1ff3c0fdbd373330f770587"
 metafile = true
@@ -931,6 +926,11 @@ hash = "27302b0087cf53570cd7a3b4eb550a208cbb6f6ba07210c604176155f39e0078"
 metafile = true
 
 [[files]]
+file = "mods/lambdynamiclights.pw.toml"
+hash = "d77c41bf5a8dd470d65e7946d507657a910b54d2e76f4b3ced4fe4addc2d52d4"
+metafile = true
+
+[[files]]
 file = "mods/lasers-additions.pw.toml"
 hash = "372132d3b47b4ce5ab4d28b4d02278e04b7be4179719e13c93a8b94bfe6e1389"
 metafile = true
@@ -1292,11 +1292,6 @@ hash = "337c35c96da3a2c680bb28a4900f06d2fe68eed8885c3725666e108f34c5474e"
 [[files]]
 file = "mods/simpletms-tms-and-trs-for-cobblemon.pw.toml"
 hash = "307a39080394cbe930be57e67fb8dae37601e8f0842da10da10977d261dac07d"
-metafile = true
-
-[[files]]
-file = "mods/sodium-dynamic-lights.pw.toml"
-hash = "c1e526d3d17cb3563e596d45c7567ed1fe60c31bdc3457f7a747ef8150bd3c1b"
 metafile = true
 
 [[files]]
