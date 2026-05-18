@@ -77,14 +77,6 @@ file = "config/mindfuldarkness-client.toml"
 hash = "e3920628719c00d298b6979e8014b1d2693d7a057024f9593e70ad751fe9f9ad"
 
 [[files]]
-file = "config/particlerain/config.json"
-hash = "3918492e89e0058ff67f0f7f3891e22bd03874325223e397886de3252c8df315"
-
-[[files]]
-file = "config/particlerain/particles.json"
-hash = "424e6cd1eed18496d51a073ffac4a4eb74cc0c46e110bbcf2658bcfb49cf21db"
-
-[[files]]
 file = "config/regions_unexplored/common.toml"
 hash = "779649ccfb1e1b4f4054924188e88362ada82c6226e34c235c4142c12396dfe0"
 
@@ -94,11 +86,11 @@ hash = "bb247011c98bf9fd7203c37cb7e18bb5579cf1f9d41f165c7a9202da880d8501"
 
 [[files]]
 file = "config/simpleclouds-client.toml"
-hash = "f0c0e488bc9d5cee3ec59a10db71866c615873e21127f5bc9fe9a4cc74eecc97"
+hash = "3c9458d4207d07d311820110f9fa9f9f4dfadc6382003e13e8c786c27b20e571"
 
 [[files]]
 file = "config/simpleclouds-server.toml"
-hash = "2f9d1132edcf743ccd96a2cec8e56ab786d6a8da5c191407a96e30744ef67337"
+hash = "dfeae636de1c57cd1a86d63387412d554b07579766f41c78028bd5c6b8fecb51"
 
 [[files]]
 file = "config/sit-server.toml"
@@ -391,6 +383,11 @@ hash = "503569d1bccf50d580e517550e8f66574d881deac197f30fedb0a18ebb5d3ff4"
 metafile = true
 
 [[files]]
+file = "mods/cobbledex-rei-emi-jei.pw.toml"
+hash = "a962fc59176cc2b25537df7b8e571125e21ce14ab2435cb0864013ce642dc442"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-alatias-fakemon-pack.pw.toml"
 hash = "a88bc4f42325323a40b61b16a6845355a7227a4520d1fcb7e3d5655dcda07517"
 metafile = true
@@ -522,7 +519,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-dreams-and-desires.pw.toml"
-hash = "df536f068808076c24dac917d86d581886ae5fb912672ec949d9c71a1a7a7fb7"
+hash = "c308b557b01b6e6cc25ee8d6a1a7c78bca2b71be3ae645e40d10cf25259fabcd"
 metafile = true
 
 [[files]]
@@ -612,7 +609,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "ef49add5f8517d7b66ec5cb566efc4feb17475b78888bfb73ece175b5791a0dd"
+hash = "a98dd7f86518a0de7bb3451bee7c8e1d7cec1b7fe00d97504ce7afd7e715ae2d"
 metafile = true
 
 [[files]]
@@ -1286,8 +1283,8 @@ hash = "1458a0718c17a1092ca54fecf6c0d2f5283a726e987d16ef360145b752cd1d68"
 metafile = true
 
 [[files]]
-file = "mods/simpleclouds-0.8.0f-b5.jar"
-hash = "337c35c96da3a2c680bb28a4900f06d2fe68eed8885c3725666e108f34c5474e"
+file = "mods/simpleclouds-0.8.0f-b6.jar"
+hash = "a785e8eec4bd02eea66e14a2a0b2d066e5cad99f29ecf7aad0ad5ca0a173565b"
 
 [[files]]
 file = "mods/simpletms-tms-and-trs-for-cobblemon.pw.toml"
