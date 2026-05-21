@@ -189,51 +189,23 @@ file = "datapacks/poinky-compat/data/cobblemon/spawn_pool_world/0298_azurill.jso
 hash = "2cee6e8c66a6bb93490aea5159cf90a432fa2acb6e50ccd846d839d87bdd7ea8"
 
 [[files]]
-file = "datapacks/poinky-compat/data/immersive_weathering/fluid_generators/example.json"
-hash = "49c6ae7b33282cd78363fcfd1cf6a4cb6f410207f5572b9578842d7b7fa8aff8"
-
-[[files]]
-file = "datapacks/poinky-compat/data/poinky_compat/recipes/botanypots/crops/example.json5"
-hash = "c5cd312fe998aea7757531a8c52322cfaa348aa952ac6725eea6ec97de0a9cc5"
-
-[[files]]
-file = "datapacks/poinky-compat/data/poinky_compat/recipes/botanypots/crops/regions_unexplored/alpha_sapling.json"
-hash = "8e8788ca772269c32312d670a3b4efe4cf3a3ace4e73d8285e002978b3e1860d"
-
-[[files]]
-file = "datapacks/poinky-compat/data/poinky_compat/recipes/botanypots/crops/regions_unexplored/apple_sapling.json"
-hash = "f5ea56d1c18c529b9aca2a5e8a6e5b95c5144b19e4dd850806e9876bcfabe19c"
-
-[[files]]
-file = "datapacks/poinky-compat/data/poinky_compat/recipes/botanypots/soils/example.json5"
-hash = "b5a3695ef95fe02290d7b0ff1703f87669a4bd58629c93e62d20e20c5fb760f4"
-
-[[files]]
-file = "datapacks/poinky-compat/data/poinky_compat/recipes/haunting/cinder_flour_from_wheat_flour.json"
+file = "datapacks/poinky-compat/data/recipes/haunting/cinder_flour_from_wheat_flour.json"
 hash = "c5888c3c0f182f05514c5916851f9b9ee501eac03d1e0a47307885dc999c8a07"
 
 [[files]]
-file = "datapacks/poinky-compat/data/poinky_compat/recipes/hydraulic_compacting/diamond.json"
+file = "datapacks/poinky-compat/data/recipes/hydraulic_compacting/diamond_hc.json"
 hash = "f73efbc5502289aaebec5430e3d48dab3e58c65ecb27275f299c0cde400c1042"
 
 [[files]]
-file = "datapacks/poinky-compat/data/poinky_compat/recipes/hydraulic_compacting/diamond_shard.json"
+file = "datapacks/poinky-compat/data/recipes/hydraulic_compacting/diamond_shard_hc.json"
 hash = "8cc921cebd85c601afb4eb03e5d78958288bf8e4e6df38c32fae3c8ba3a360d0"
 
 [[files]]
-file = "datapacks/poinky-compat/data/poinky_compat/recipes/mixing/crushed_netherite_to_gold.json"
-hash = "1b8bd344fb958c87e827f5573f0900ca3f2dbd9276949092aad82009bbf8c8c4"
-
-[[files]]
-file = "datapacks/poinky-compat/data/poinky_compat/recipes/mixing/molten_netherite_to_void_steel.json"
-hash = "a647bc471110c36b0e2a3fe5159437867bdef9046434f9edd8221bf9687ae050"
-
-[[files]]
-file = "datapacks/poinky-compat/data/poinky_compat/recipes/shapeless/crimson_nylium.json"
+file = "datapacks/poinky-compat/data/recipes/shapeless/crimson_nylium.json"
 hash = "89a8588a481c12f1cdba94a23a1bb6f1c94d7643b11af89743b5c762001ad52c"
 
 [[files]]
-file = "datapacks/poinky-compat/data/poinky_compat/recipes/shapeless/warped_nylium.json"
+file = "datapacks/poinky-compat/data/recipes/shapeless/warped_nylium.json"
 hash = "9092d3f665cbe1c063d95ee09bc475c793d661d3f73f13612751a57d5cf268ec"
 
 [[files]]
