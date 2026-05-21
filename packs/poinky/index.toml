@@ -86,11 +86,11 @@ hash = "bb247011c98bf9fd7203c37cb7e18bb5579cf1f9d41f165c7a9202da880d8501"
 
 [[files]]
 file = "config/simpleclouds-client.toml"
-hash = "3c9458d4207d07d311820110f9fa9f9f4dfadc6382003e13e8c786c27b20e571"
+hash = "bc1364ee7f9fff6201a6253c6e7b7b85edc3bab8c490c2dcc3865528fc06cbb5"
 
 [[files]]
 file = "config/simpleclouds-server.toml"
-hash = "dfeae636de1c57cd1a86d63387412d554b07579766f41c78028bd5c6b8fecb51"
+hash = "1917fc4f008075abbf259dc6f315345120d77308cc4873f3db520b0cafd58644"
 
 [[files]]
 file = "config/sit-server.toml"
@@ -189,24 +189,20 @@ file = "datapacks/poinky-compat/data/cobblemon/spawn_pool_world/0298_azurill.jso
 hash = "2cee6e8c66a6bb93490aea5159cf90a432fa2acb6e50ccd846d839d87bdd7ea8"
 
 [[files]]
-file = "datapacks/poinky-compat/data/poinky/recipe/haunting/cinder_flour_from_wheat_flour.json"
-hash = "c5888c3c0f182f05514c5916851f9b9ee501eac03d1e0a47307885dc999c8a07"
+file = "datapacks/poinky-compat/data/poinky_compat/recipe/haunting/cinder_flour.json"
+hash = "9731ed5a1c22a0e3500d223a226f8a80665b233063293eaffdfec449c7aedd6c"
 
 [[files]]
-file = "datapacks/poinky-compat/data/poinky/recipe/packing/coal_block_to_diamond_shard.json"
-hash = "f2caf26e33924045bdf790f3e7bb905cf749739617553d2a08394b99705d7438"
+file = "datapacks/poinky-compat/data/poinky_compat/recipe/hydraulic_compacting/diamond_shard.json"
+hash = "19d843ca745cd92dd2e177a8d8ce6b6a50f8d1ebe7ebba40409763ad80382639"
 
 [[files]]
-file = "datapacks/poinky-compat/data/poinky/recipe/packing/coal_blocks_to_diamond.json"
-hash = "b22be8bc0ac3e90ac2f7d6d30b0949d1d44b5852fb5d92df8102bafcb4399461"
+file = "datapacks/poinky-compat/data/poinky_compat/recipe/shapeless/crimson_nylium.json"
+hash = "93345e7dc24a3de4b045235b1d5210e93dd88b7229f11c24a3657ad53ba990e3"
 
 [[files]]
-file = "datapacks/poinky-compat/data/poinky/recipe/shapeless/crimson_nylium.json"
-hash = "89a8588a481c12f1cdba94a23a1bb6f1c94d7643b11af89743b5c762001ad52c"
-
-[[files]]
-file = "datapacks/poinky-compat/data/poinky/recipe/shapeless/warped_nylium.json"
-hash = "9092d3f665cbe1c063d95ee09bc475c793d661d3f73f13612751a57d5cf268ec"
+file = "datapacks/poinky-compat/data/poinky_compat/recipe/shapeless/warped_nylium.json"
+hash = "792e31fe4f6d87e69ffeed5889839d4c3105ba58deb838bf5225d34985b3bfab"
 
 [[files]]
 file = "datapacks/poinky-compat/pack.mcmeta"
@@ -629,7 +625,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "a98dd7f86518a0de7bb3451bee7c8e1d7cec1b7fe00d97504ce7afd7e715ae2d"
+hash = "b8ae41950db281f8cfc3cb1b4881dc942cb5e41381f0a45dda3c18b848501acd"
 metafile = true
 
 [[files]]
@@ -1303,8 +1299,8 @@ hash = "1458a0718c17a1092ca54fecf6c0d2f5283a726e987d16ef360145b752cd1d68"
 metafile = true
 
 [[files]]
-file = "mods/simpleclouds-0.8.0f-b6.jar"
-hash = "a785e8eec4bd02eea66e14a2a0b2d066e5cad99f29ecf7aad0ad5ca0a173565b"
+file = "mods/simpleclouds-0.8.0f-b8-all.jar"
+hash = "d614a86eadf7b1c29f812537f528a0f6a8aef0a2383aafcbdc314d413fbdf1ac"
 
 [[files]]
 file = "mods/simpletms-tms-and-trs-for-cobblemon.pw.toml"

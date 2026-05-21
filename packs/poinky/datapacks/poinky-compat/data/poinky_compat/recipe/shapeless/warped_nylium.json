@@ -5,11 +5,10 @@
             "item": "minecraft:netherrack"
         },
         {
-            "item": "minecraft:crimson_fungus"
+            "item": "minecraft:warped_fungus"
         }
     ],
-    "result": {
-        "item": "minecraft:crimson_nylium",
-        "count": 1
+    "results": {
+        "id": "minecraft:warped_nylium",
     }
 }
