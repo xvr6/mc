@@ -189,28 +189,28 @@ file = "datapacks/poinky-compat/data/cobblemon/spawn_pool_world/0298_azurill.jso
 hash = "2cee6e8c66a6bb93490aea5159cf90a432fa2acb6e50ccd846d839d87bdd7ea8"
 
 [[files]]
-file = "datapacks/poinky-compat/data/recipes/haunting/cinder_flour_from_wheat_flour.json"
+file = "datapacks/poinky-compat/data/poinky/recipe/haunting/cinder_flour_from_wheat_flour.json"
 hash = "c5888c3c0f182f05514c5916851f9b9ee501eac03d1e0a47307885dc999c8a07"
 
 [[files]]
-file = "datapacks/poinky-compat/data/recipes/hydraulic_compacting/diamond_hc.json"
-hash = "f73efbc5502289aaebec5430e3d48dab3e58c65ecb27275f299c0cde400c1042"
+file = "datapacks/poinky-compat/data/poinky/recipe/packing/coal_block_to_diamond_shard.json"
+hash = "f2caf26e33924045bdf790f3e7bb905cf749739617553d2a08394b99705d7438"
 
 [[files]]
-file = "datapacks/poinky-compat/data/recipes/hydraulic_compacting/diamond_shard_hc.json"
-hash = "8cc921cebd85c601afb4eb03e5d78958288bf8e4e6df38c32fae3c8ba3a360d0"
+file = "datapacks/poinky-compat/data/poinky/recipe/packing/coal_blocks_to_diamond.json"
+hash = "b22be8bc0ac3e90ac2f7d6d30b0949d1d44b5852fb5d92df8102bafcb4399461"
 
 [[files]]
-file = "datapacks/poinky-compat/data/recipes/shapeless/crimson_nylium.json"
+file = "datapacks/poinky-compat/data/poinky/recipe/shapeless/crimson_nylium.json"
 hash = "89a8588a481c12f1cdba94a23a1bb6f1c94d7643b11af89743b5c762001ad52c"
 
 [[files]]
-file = "datapacks/poinky-compat/data/recipes/shapeless/warped_nylium.json"
+file = "datapacks/poinky-compat/data/poinky/recipe/shapeless/warped_nylium.json"
 hash = "9092d3f665cbe1c063d95ee09bc475c793d661d3f73f13612751a57d5cf268ec"
 
 [[files]]
 file = "datapacks/poinky-compat/pack.mcmeta"
-hash = "1747fed9956583cea8958a93125dfca010a83dd933a3d6d6bd810f0e11118357"
+hash = "63d00ee4ec71953f8b611a578d2083a51526804cd7459cc0476abdadb9a00954"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"

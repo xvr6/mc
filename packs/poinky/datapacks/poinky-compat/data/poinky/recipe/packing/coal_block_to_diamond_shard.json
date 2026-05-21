@@ -1,10 +1,10 @@
 {
-    "type": "dndesires:hydraulic_compacting",
+    "type": "create:packing",
     "ingredients": [
         {
             "item": "minecraft:coal_block",
             "amount": 1
-        },
+        }
     ],
     "results": [
         {
@@ -12,5 +12,5 @@
             "amount": 1
         }
     ],
-    "heatRequirement": "superheated"
+    "heat_requirement": "superheated"
 }

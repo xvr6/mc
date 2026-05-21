@@ -12,5 +12,5 @@
             "amount": 1
         }
     ],
-    "heatRequirement": "superheated"
+    "heat_requirement": "superheated"
 }
