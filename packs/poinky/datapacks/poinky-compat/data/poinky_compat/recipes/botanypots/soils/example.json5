@@ -1,0 +1,11 @@
+{
+    "type": "botanypots:soil",
+    "input": [
+        {
+            "item": "" // [Identifier (modid:item)]
+        }
+    ],
+    "display": {}, // https://github.com/Darkhax-Minecraft/BotanyPots/wiki/Datapack-Information#displaystates
+    "categories": [], // a crop with the same category can grow with this
+    "growthModifier": 1
+}

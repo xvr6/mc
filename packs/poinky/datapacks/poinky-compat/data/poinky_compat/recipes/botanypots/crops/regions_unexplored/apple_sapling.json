@@ -1,0 +1,52 @@
+{
+    "bookshelf:load_conditions": [
+        {
+            "type": "bookshelf:item_exists",
+            "values": [
+                "regions_unexplored:apple_sapling"
+            ]
+        }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+        "item": "regions_unexplored:apple_sapling"
+    },
+    "categories": [
+        "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+        "block": "regions_unexplored:apple_sapling"
+    },
+    "drops": [
+        {
+            "chance": 0.80,
+            "output": {
+                "item": "minecraft:oak_log"
+            },
+            "minRolls": 2,
+            "maxRolls": 4
+        },
+        {
+            "chance": 0.60,
+            "output": {
+                "item": "minecraft:apple"
+            },
+            "minRolls": 1,
+            "maxRolls": 2
+        },        {
+            "chance": 0.25,
+            "output": {
+                "item": "minecraft:stick"
+            },
+            "minRolls": 1,
+            "maxRolls": 2
+        },
+        {
+            "chance": 0.01,
+            "output": {
+                "item": "regions_unexplored:apple_sapling"
+            }
+        }
+    ]
+}

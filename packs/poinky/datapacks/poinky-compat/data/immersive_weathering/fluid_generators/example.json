@@ -1,0 +1,28 @@
+{
+    "adjacent_blocks": {
+        "sides": [
+            {
+                "block_state": {
+                    "Properties": {
+                        "bites": "0"
+                    },
+                    "Name": "minecraft:cake"
+                },
+                "predicate_type": "minecraft:blockstate_match"
+            }
+        ],
+        "up": {
+            "block_state": {
+                "Name": "minecraft:glass"
+            },
+            "predicate_type": "minecraft:blockstate_match"
+        }
+    },
+    "fluid": "minecraft:lava",
+    "generate": {
+        "Name": "minecraft:acacia_log",
+        "Properties": {
+            "axis": "y"
+        }
+    }
+}

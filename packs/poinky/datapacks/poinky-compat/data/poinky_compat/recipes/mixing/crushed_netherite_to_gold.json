@@ -1,0 +1,20 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "createmetalwork:crushed_netherite_scrap",
+            "amount": 4
+        },
+        {
+            "item": "minecraft:gold_ingot",
+            "amount": 4
+        }
+    ],
+    "results": [
+        {
+            "item": "minecraft:netherite_ingot",
+            "amount": 1
+        }
+    ],
+    "heatRequirement": "superheated"
+}

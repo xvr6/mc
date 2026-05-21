@@ -1,0 +1,16 @@
+{
+    "type": "dndesires:hydraulic_compacting",
+    "ingredients": [
+        {
+            "item": "minecraft:coal_block",
+            "amount": 9
+        },
+    ],
+    "results": [
+        {
+            "item": "minecraft:diamond",
+            "amount": 1
+        }
+    ],
+    "heatRequirement": "superheated"
+}
