@@ -1,0 +1,57 @@
+{
+    "type": "origins:multiple",
+    "name": "Evolution: Wings",
+    "description": "While you can propel yourself, only after studying an elytra you gain the ablity to glide fly",
+    "elytra": {
+        "type": "origins:elytra_flight",
+        "render_elytra": false,
+        "texture_location": "minecraft:textures/entity/elytra.png",
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "minecraft:end/elytra"
+        }
+    },
+    "flap": {
+        "type": "origins:active_self",
+        "cooldown": 10,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/resource_bar.png",
+            "bar_index": 4
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:add_velocity",
+                    "x": 0,
+                    "y": 0.5,
+                    "z": 1,
+                    "space": "local",
+                    "set": true
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "playsound minecraft:entity.ender_dragon.flap master @a[distance=..15] ~ ~ ~ 1 1.5"
+                },
+                {
+                    "type": "origins:spawn_particles",
+                    "bientity_condition": {
+                        "type": "origins:can_see"
+                    },
+                    "count": 30,
+                    "force": false,
+                    "particle": "minecraft:cloud",
+
+                    "speed": 0.01,
+                    "offset_x": 0.7,
+                    "offset_y": 0.2,
+                    "offset_z": 0.7
+                }
+            ]
+        },
+        "key": {
+            "key": "key.origins.primary_active"
+        }
+    }
+}

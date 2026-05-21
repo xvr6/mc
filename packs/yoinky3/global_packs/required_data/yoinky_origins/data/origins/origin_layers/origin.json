@@ -1,0 +1,8 @@
+{
+    "$schema": "https://raw.githubusercontent.com/SnaveSutit/origins-mod-json-schemas/refs/heads/schemas/apoli/origin_layer.json",
+    "origins": [
+        "yoinky:kobold",
+        "yoinky:waterwolf"
+    ],
+    "replace": false
+}

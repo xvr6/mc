@@ -3,8 +3,8 @@ filename = "ecologics-forge-1.20.1-2.2.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "c21e42b7a2cc36d0b1ac28034da7b49619ebe261"
+hash-format = "sha512"
+hash = "72a062ed29284e3685661f1de568de1f3c86a75c9549e73926c3c7132fbfc2c7d63694d98c30a8f2612d27ee674f8ea67c163fe26eabd84e4e5d8766fc1b8daa"
 mode = "metadata:curseforge"
 
 [update]

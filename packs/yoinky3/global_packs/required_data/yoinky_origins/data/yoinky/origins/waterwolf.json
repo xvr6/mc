@@ -1,0 +1,18 @@
+{
+    "icon": "minecraft:water_bucket",
+    "impact": 3,
+    "description": "Made by Waterwolf9910\n\nWyan from the server! -w-",
+    "name": "Waterwolf9910",
+    "powers": [
+        "origins:fall_immunity",
+        "yoinky:darkvision",
+        "yoinky:waterwolf/loved_by_animals",
+        "origins:velvet_paws",
+        "yoinky:waterwolf/water_affinity",
+        "yoinky:waterwolf/wings",
+        "yoinky:waterwolf/fire_vulnerablity",
+        "origins:more_exhaustion",
+        "yoinky:waterwolf/unstable_additions",
+        "yoinky:waterwolf/testing_remeberence"
+    ]
+}

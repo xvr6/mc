@@ -1,0 +1,37 @@
+{
+    "type": "origins:multiple",
+    "name": "Trinket Eater",
+    "description": "[Currently Broken!] You are unable to consume normal food instead you have the ability to eat iron and gold nuggets restoring 1/2 and 1 hunger respectfully",
+    "gold": {
+        "type": "origins:modify_food",
+        "always_edible": true,
+        "saturation_modifier": {
+            "value": 1,
+            "operation": "addition"
+        },
+        "food_modifier": {
+            "operation": "set_base",
+            "value": 2
+        },
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:gold_nugget"
+            }
+        }
+    },
+    "iron": {
+        "type": "origins:modify_food",
+        "always_edible": true,
+        "food_modifier": {
+            "operation": "set_base",
+            "value": 1
+        },
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:iron_nugget"
+            }
+        }
+    }
+}

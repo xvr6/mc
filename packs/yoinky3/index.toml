@@ -38,7 +38,7 @@ hash = "2a2ee19297afe3fc512f5cbe639349847f3e7a74616f282d24a179a17f4559ed"
 
 [[files]]
 file = "config/mindfuldarkness-client.toml"
-hash = "72288575fba4f1bcdb9013b57c3b18f956b94164ff29eb96fe3c2ddfeb094060"
+hash = "694884a78573b2d0610d4ed6a498fbb6a4eccc52e4d88aef96e493c87793b308"
 
 [[files]]
 file = "config/seasons.toml"
@@ -53,8 +53,72 @@ file = "config/tectonic.json"
 hash = "e5ba531dc5d98b2c9dd828bde206831d4603c87ee6d5f3ace41b0e7663f7d82e"
 
 [[files]]
-file = "global_packs/required_data/yoinky_origins.zip"
-hash = "5423d7d4d2e7f3abd8f1eb112a3008ca5c261fc91eab7aee4f0a7f9617f58519"
+file = "global_packs/required_data/README.md"
+hash = "d53b05ff8972feb260b03ea5ee09112b7224da093fdd29ea76fa0e78dc11b3c2"
+
+[[files]]
+file = "global_packs/required_data/yoinky_origins/data/origins/origin_layers/origin.json"
+hash = "c585ed4760b2fd55d0edfe174f5feb1dc465f8ff10d7534ba01c0e38dd14a328"
+
+[[files]]
+file = "global_packs/required_data/yoinky_origins/data/yoinky/origins/kobold.json"
+hash = "14586dd8216addc4853fe5682a49c27f107d72a0b2a12769bcf0c2f5112998d8"
+
+[[files]]
+file = "global_packs/required_data/yoinky_origins/data/yoinky/origins/waterwolf.json"
+hash = "38da5ab8a23a75e8a18f6bbe5588042138561bf014ac2b96d802d3d3d06708f1"
+
+[[files]]
+file = "global_packs/required_data/yoinky_origins/data/yoinky/powers/darkvision.json"
+hash = "809d9e37ee269584d203978f952c99158c17b03cf0f66a6f1a1b9cb261befeca"
+
+[[files]]
+file = "global_packs/required_data/yoinky_origins/data/yoinky/powers/kobold/cannon_fodder.json"
+hash = "586d8e896b536ca79b7cca3e25f947946a698ff921591043f565f7d85826e452"
+
+[[files]]
+file = "global_packs/required_data/yoinky_origins/data/yoinky/powers/kobold/cowardly.json"
+hash = "7d922f6a72667945f4086552eb788bbf332ef6a2baf7eb562fb2d1887738b96e"
+
+[[files]]
+file = "global_packs/required_data/yoinky_origins/data/yoinky/powers/kobold/dragon_sense.json"
+hash = "670adec84a55665a3dc4c38508051f3ceb59ea8046dee2b266d2002af8bf61a2"
+
+[[files]]
+file = "global_packs/required_data/yoinky_origins/data/yoinky/powers/kobold/sunlight_sensitivity.json"
+hash = "83614165cbe54fd4dd869c145a682a57db660671b23996e963fb81c31e6850ce"
+
+[[files]]
+file = "global_packs/required_data/yoinky_origins/data/yoinky/powers/kobold/trinket_eater.json"
+hash = "4ca2fde30ce7f0f985e64d72c88ab1c37be31333466671f7f3569cb8eabe6b26"
+
+[[files]]
+file = "global_packs/required_data/yoinky_origins/data/yoinky/powers/waterwolf/fire_vulnerablity.json"
+hash = "627c1c7de6109b58255af07297818e256770495afc07060279f23c65c6759cbd"
+
+[[files]]
+file = "global_packs/required_data/yoinky_origins/data/yoinky/powers/waterwolf/loved_by_animals.json"
+hash = "dbe1d3625fb77a70475932fb8d8fc49383254200356aaa8a51b8b83e89108f05"
+
+[[files]]
+file = "global_packs/required_data/yoinky_origins/data/yoinky/powers/waterwolf/testing_remeberence.json"
+hash = "f253077cda3639092b4f31372e6f1423a0046a6cec9c57d6ab0b9c71c907872f"
+
+[[files]]
+file = "global_packs/required_data/yoinky_origins/data/yoinky/powers/waterwolf/unstable_additions.json"
+hash = "a73c30408edf8b1cc98b8b38bbf78ab9e6fba21dd959ee2475186e80dce70bea"
+
+[[files]]
+file = "global_packs/required_data/yoinky_origins/data/yoinky/powers/waterwolf/water_affinity.json"
+hash = "9cdee93486a687c7e9acfa156313b348f62fb3e9b5e175ae57a60460c575511e"
+
+[[files]]
+file = "global_packs/required_data/yoinky_origins/data/yoinky/powers/waterwolf/wings.json"
+hash = "7a64696a1ea40b0b4f833ae6fd5c05fabc1d9d447bbb9cbd1ed5a383fae2576b"
+
+[[files]]
+file = "global_packs/required_data/yoinky_origins/pack.mcmeta"
+hash = "def14457113107ea15a4c36bf27d9cf0f80d6b10724a39846335125e552668ba"
 
 [[files]]
 file = "mods/alexs-caves.pw.toml"
@@ -88,12 +152,12 @@ metafile = true
 
 [[files]]
 file = "mods/apotheosis.pw.toml"
-hash = "c281ef574be46e4df3f7ed04b0a4b5f6d1b2a836b7d1d94c4a30be9c85d3adcb"
+hash = "76350c45f79ff24ed84344e4ad94b103596832c00315ce5ef33ba366da02feee"
 metafile = true
 
 [[files]]
 file = "mods/apothic-attributes.pw.toml"
-hash = "7ec91c6a496a122e84c4f0e7737175bf869dda8e046a208ef6e13830ca731378"
+hash = "663d5c3a1cb75ce098b0e23e1dca963d5e9f9b77624a546e8c81fec97afc735b"
 metafile = true
 
 [[files]]
@@ -103,12 +167,12 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "5e9edd1fd2395f14a0c8a4acbdbdd61e1047be1f0033deb3140d2ce0d093e9d8"
+hash = "f84300bcfa8c4a18358231c25b38892a98685cf537295419bce81242737df821"
 metafile = true
 
 [[files]]
 file = "mods/autohud.pw.toml"
-hash = "182c29346ee514a5dea717ed2eb521da29f5a2066c6edafb7426ff529e5f07ce"
+hash = "8d69f863d496770341c1f5001fae9c90cc1e90921e181fd8349d257095f0782c"
 metafile = true
 
 [[files]]
@@ -168,7 +232,7 @@ metafile = true
 
 [[files]]
 file = "mods/catalogue.pw.toml"
-hash = "0722da0022c3d9dcf6be08f561828222f61911b62aed7d8c75f71c126e12e1b8"
+hash = "44f757a31e8fd8231ef390cbb58fe53a235bb4777003d245e0a812b764ba4e08"
 metafile = true
 
 [[files]]
@@ -178,12 +242,12 @@ metafile = true
 
 [[files]]
 file = "mods/chimes.pw.toml"
-hash = "d960f68e4c5e5f79eff91a277dc22d7acb49f04080fcf0fe1648b5a9a83e3d4f"
+hash = "1c7c03243c17f064ab25ea99d2c6796587d02cb1d7295d2ab5f45b6d028ff5e9"
 metafile = true
 
 [[files]]
 file = "mods/chunk-sending-forge-fabric.pw.toml"
-hash = "4ab858babfd5ef7474b4e78c93b1819a78eef5b92ca30349f16aaa82f883fc55"
+hash = "4affa1bb29bc9f8ea212e7aa6e3a4b390c7c69d57355c01f073aa1ed52377049"
 metafile = true
 
 [[files]]
@@ -413,7 +477,7 @@ metafile = true
 
 [[files]]
 file = "mods/ecologics.pw.toml"
-hash = "e58257e27b7fce3399b38ca94a953728879d288757957521975ecc5044218fe0"
+hash = "57b71e4301ad3bec14b1d44a871c60a66a69600fcb76eaadbe0a7fce94b838bb"
 metafile = true
 
 [[files]]
@@ -518,7 +582,7 @@ metafile = true
 
 [[files]]
 file = "mods/framework.pw.toml"
-hash = "376f8a190f00bd120193d7a665ebe1b03dfe329cc395f7d944f7216c1182c84d"
+hash = "26aa198d31b72a9c98081aa11f9c9b42a4d5934fb8956e753b6d366d22166c58"
 metafile = true
 
 [[files]]
@@ -533,17 +597,17 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-essentials.pw.toml"
-hash = "8cf91dcad4590fed49069cdae47b211bdbee7da6e0c175ae802421ec6a961ae1"
+hash = "6cf98060ae324263d3295793971abbdef41b62b4c940135480ba79aad97702c0"
 metafile = true
 
 [[files]]
 file = "mods/ftb-library-forge.pw.toml"
-hash = "eb351918762f5c8f05672257082d1ca144c3c9397c40d6785116d1af8b02d864"
+hash = "1abe630b4c11f38170ce0799c2496f45ad9c8cba01dfb097327f4ff48be80fd1"
 metafile = true
 
 [[files]]
 file = "mods/ftb-ultimine-forge.pw.toml"
-hash = "5d5819b14f3e0088d99e82f2a6b2f77df2b566726c9380b89b858b4246c69d25"
+hash = "dd2df67fc2eeda15cbd190904e998d82817b003813d1de5a3aaec6c0796ae9b7"
 metafile = true
 
 [[files]]
@@ -648,7 +712,7 @@ metafile = true
 
 [[files]]
 file = "mods/kobolds.pw.toml"
-hash = "6f794b39d1a212235889ec0bd428097e49e97967e9ab2bb72c386c7432e6abde"
+hash = "1212f3095457d8da80090fcf8390da82142116b00e5396c69084dcf22f20d0d0"
 metafile = true
 
 [[files]]
@@ -788,7 +852,7 @@ metafile = true
 
 [[files]]
 file = "mods/patchouli.pw.toml"
-hash = "dec2bc011d4ca1d451aaa3eea477f13366bfb13beba0716018f47d9331a50d8e"
+hash = "30f9191894628677b8f6fb18dcaa01c38775094ea2e826bffcf64349dffc1bdd"
 metafile = true
 
 [[files]]
@@ -878,7 +942,7 @@ metafile = true
 
 [[files]]
 file = "mods/sit.pw.toml"
-hash = "8e53bd7c51af468c9dd6dc8843167c4f9a55cc059dcfb127b55f9ac06c387bca"
+hash = "cf92141d41a69739b65457a7e75b4c52c8f05747eb0a8f567dd496ce1148720f"
 metafile = true
 
 [[files]]
@@ -888,7 +952,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "3466500d3d5e0582ef44b24b3ae5596790b430b9a7ee784d1a6a0f48105c4598"
+hash = "439efcfc96953429687fcf43fa5fefa1595581b48c65dec7664c233bbb6729bb"
 metafile = true
 
 [[files]]

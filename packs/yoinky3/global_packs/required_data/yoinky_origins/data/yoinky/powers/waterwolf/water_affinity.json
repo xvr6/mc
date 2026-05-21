@@ -1,0 +1,47 @@
+{
+    "type": "origins:multiple",
+    "name": "Water Affinity",
+    "description": "You can live underwater as if it was land",
+    "breath": {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 1,
+        "max_stacks": 1,
+        "effect": {
+            "show_icon": false,
+            "show_particles": false,
+            "effect": "minecraft:water_breathing"
+        },
+        "duration_per_stack": 60
+    },
+    "movement": {
+        "type": "origins:attribute",
+        "modifier": {
+            "attribute": "forge:swim_speed",
+            "operation": "addition",
+            "value": 1
+        }
+    },
+    "break": {
+        "_type": "origins:modify_enchantment_level",
+        "_enchantment": "minecraft:aqua_affinity",
+        "_modifier": {
+            "value": 1,
+            "operation": "set_total"
+        },
+        "type": "origins:modify_break_speed",
+        "modifier": {
+            "operation": "add_base_early",
+            "value": 0.006
+        },
+        "condition": {
+            "type": "origins:fluid_height",
+            "fluid": "minecraft:water",
+            "compare_to": 1,
+            "comparison": ">"
+        }
+    },
+    "aquatic": {
+        "type": "origins:entity_group",
+        "group": "aquatic"
+    }
+}

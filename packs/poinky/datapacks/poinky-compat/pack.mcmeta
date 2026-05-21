@@ -1,6 +1,6 @@
 {
     "pack": {
-        "description": "Small modifications to make cobblemon play nicer with our pack!",
+        "description": "Small modifications to create recipes and Cobblemon to have things play nicer!",
         "pack_format": 15,
         "supported_formats": {"min_inclusive": 12, "max_inclusive": 99}
     }

@@ -1,0 +1,12 @@
+{
+    "type": "origins:attribute",
+    "name": "Unstable Additions",
+    "description": "Due to your unstable consitution, you have less health",
+    "modifiers": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": -7
+        }
+    ]
+}

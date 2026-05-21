@@ -1,0 +1,48 @@
+{
+    "type": "origins:action_on_block_use",
+    "name": "Testing Rememberence",
+    "description": "You can only sleep when surrounded by glass",
+    "block_condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:adjacent",
+                "adjacent_condition": {
+                    "type": "origins:or",
+                    "conditions": [
+                        {
+                            "type": "origins:in_tag",
+                            "tag": "c:glass_blocks"
+                        },
+                        {
+                            "type": "origins:in_tag",
+                            "tag": "forge:glass"
+                        }
+                    ],
+                    "block": "glass"
+                },
+                "compare_to": 4,
+                "comparison": "<"
+            },
+            {
+                "type": "origins:in_tag",
+                "tag": "minecraft:beds"
+            }
+        ]
+    },
+    "action_result": "fail",
+    "hands": ["main_hand"],
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:swing_hand",
+                "hand": "MAIN_HAND"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "tell @s I can't sleep while facing the sky or without being surrounded by glass!"
+            }
+        ]
+    }
+}

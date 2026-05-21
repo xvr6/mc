@@ -1,0 +1,58 @@
+{
+    "type": "origins:action_on_block_break",
+    "name": "Dragon Sense",
+    "description": "Your keen senses allow you to identify and pull precious materials and treasures out of stone that others would miss. (Note this is very rare)",
+    "block_condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:in_tag",
+                "tag": "minecraft:base_stone_overworld"
+            },
+            {
+                "type": "origins:in_tag",
+                "tag": "minecraft:sculk_replaceable_world_gen"
+            }
+        ]
+    },
+    "block_action": {
+        "type": "origins:choice",
+        "actions": [
+            {
+                "weight": 2,
+                "element": {
+                    "type": "origins:execute_command",
+                    "command": "summon item ~ ~ ~ {Item:{id: \"minecraft:iron_nugget\", Count: 5b}}"
+                }
+            },
+            {
+                "weight": 1,
+                "element": {
+                    "type": "origins:execute_command",
+                    "command": "summon item ~ ~ ~ {Item:{id: \"minecraft:gold_nugget\", Count: 5b}}"
+                }
+            },
+            {
+                "weight": 2,
+                "element": {
+                    "type": "origins:execute_command",
+                    "command": "summon item ~ ~ ~ {Item:{id: \"create:zinc_nugget\", Count: 5b}}"
+                }
+            },
+            {
+                "weight": 2,
+                "element": {
+                    "type": "origins:execute_command",
+                    "command": "summon item ~ ~ ~ {Item:{id: \"create:copper_nugget\", Count: 10b}}"
+                }
+            },
+            {
+                "weight": 193,
+                "element": {
+                    "type": "origins:nothing"
+                }
+            }
+        ]
+    },
+    "only_when_harvested": true
+}

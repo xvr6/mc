@@ -1,0 +1,14 @@
+{
+    "description": "Made by Waterwolf9910\n\nlil guy~",
+    "impact": 2,
+    "name": "Kobold",
+    "icon": "minecraft:dragon_egg",
+    "powers": [
+        "yoinky:darkvision",
+        "yoinky:kobold/cowardly",
+        "yoinky:kobold/cannon_fodder",
+        "yoinky:kobold/sunlight_sensitivity",
+        "yoinky:kobold/trinket_eater",
+        "yoinky:kobold/dragon_sense"
+    ]
+}

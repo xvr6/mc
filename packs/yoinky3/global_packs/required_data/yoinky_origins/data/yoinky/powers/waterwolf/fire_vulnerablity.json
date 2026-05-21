@@ -1,0 +1,34 @@
+{
+    "type": "origins:multiple",
+    "name": "Fire Vulnerablity",
+    "description": "You take increased damage to fire and are weakend in the nether due to your affinity to water",
+    "nether_weakness": {
+        "type": "origins:stacking_status_effect",
+        "condition": {
+            "type": "origins:biome",
+            "condition": {
+                "type": "origins:high_humidity"
+            }
+        },
+        "max_stacks": 2,
+        "min_stacks": 0,
+        "duration_per_stack": 60,
+        "effect": {
+            "effect": "minecraft:weakness",
+            "show_icon": false,
+            "show_particles": false
+        },
+        "tick_rate": 400
+    },
+    "fire_damage": {
+        "type": "origins:modify_damage_taken",
+        "damage_condition": {
+            "type": "origins:in_tag",
+            "tag": "minecraft:is_fire"
+        },
+        "modifier": {
+            "value": 0.5,
+            "operation": "multiply_base_additive"
+        }
+    }
+}

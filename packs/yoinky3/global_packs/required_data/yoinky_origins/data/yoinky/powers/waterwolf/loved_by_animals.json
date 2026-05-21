@@ -1,0 +1,23 @@
+{
+    "type": "origins:action_on_entity_use",
+    "name": "Loved by Animals",
+    "description": "You are loved by all animals and are able to tame any animal at will",
+    "bientity_action": {
+        "type": "origins:tame"
+    },
+    "bientity_condition": {
+        "type": "origins:target_condition",
+        "condition": {
+            "inverted": true,
+            "type": "origins:tamed"
+        }
+    },
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:air"
+        }
+    },
+    "hands": ["main_hand"],
+    "action_result": "success"
+}

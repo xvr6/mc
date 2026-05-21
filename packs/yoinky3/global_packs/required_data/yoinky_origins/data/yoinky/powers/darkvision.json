@@ -1,0 +1,20 @@
+{
+    "type": "origins:multiple",
+    "name": "Darkvision",
+    "description": "You can see in darkness as if it were bright light",
+    "vision": {
+        "type": "origins:stacking_status_effect",
+        "max_stacks": 1,
+        "min_stacks": 1,
+        "duration_per_stack": 400,
+        "effect": {
+            "effect": "minecraft:night_vision",
+            "show_icon": false,
+            "show_particles": false
+        }
+    },
+    "no_dark": {
+        "type": "origins:effect_immunity",
+        "effect": "minecraft:darkness"
+    }
+}

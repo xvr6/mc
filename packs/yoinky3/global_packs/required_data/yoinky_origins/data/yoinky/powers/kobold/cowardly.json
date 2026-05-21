@@ -1,0 +1,31 @@
+{
+    "type": "origins:active_self",
+    "key": "key.origins.primary_active",
+    "name": "Cowardly",
+    "description": "You are level 1 kobold, you do not drop good items, when some nasty adventurer or other creature is about to give you a good wallop you can run away in fear by pressing your primary active power key",
+    "cooldown": 700,
+    "hud_render": {
+        "bar_index": 3,
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/resource_bar.png"
+    },
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:speed",
+                    "amplifier": 1,
+                    "duration": 300,
+                    "show_particles": false,
+                    "show_icon": false
+                }
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "say YIP!"
+            }
+        ]
+    }
+}

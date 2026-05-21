@@ -1,0 +1,28 @@
+{
+    "type": "origins:attribute",
+    "modifiers": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": -10
+        },
+        {
+            "attribute": "minecraft:generic.attack_speed",
+            "value": 0.2,
+            "operation": "multiply_total"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": -0.1,
+            "operation": "multiply_total"
+        }
+    ],
+    "_currently_invalid": {
+        "attribute": "minecraft:generic.scale",
+        "value": -0.5,
+        "operation": "addition"
+    },
+    "update_health": true,
+    "name": "Cannon Fodder",
+    "description": "Your kind is known for nimbleness, not hardiness, you have 4 less hearts, but you move and attack faster in hopes of avoiding danger"
+}
