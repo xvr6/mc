@@ -1,13 +1,13 @@
 name = "ForgeEndertech"
-filename = "ForgeEndertech-1.21.1-12.1.2.0-NeoForge-build.0768.jar"
+filename = "ForgeEndertech-1.21.1-12.1.2.1-NeoForge-build.0821.jar"
 side = "both"
 
 [download]
 hash-format = "sha512"
-hash = "6ee9ce891e7838fd6cb2617f10de34fd61cc00267eee30da50bc92702bb7ef38d79e34074cfcff13272f5369b5580e9256b65bac7a977d6a8792183699d33073"
+hash = "ba4556c32327e04c3b5830845bd6a668db62f14680de47665ac915c0e3203f7b5cb18b5acf9782dd2861c68b625329c8c262b108eda2bbadf48256aed4fc6d9c"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7794259
+file-id = 8031577
 project-id = 244844

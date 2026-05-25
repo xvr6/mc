@@ -5,14 +5,14 @@ clientSideCloudMode = "AMBIENT"
 #Specifies if the info pop-up should appear when opening the cloud previewer menu.
 #Default: true
 showCloudPreviewerInfoPopup = true
-#Specifies the allowed dimensions that Simple Clouds is active in.
+#Specifies the allowed dimensions that Simple Clouds is active in Allowed values: minecraft:dimension.
 dimensionWhitelist = ["minecraft:overworld"]
 #Specifies if the dimension whitelist should instead be use as a blacklist.
 #Default: false
 whitelistAsBlacklist = false
 #Shows the Vivecraft notice on startup.
 #Default: true
-showVivecraftNotice = true
+showVivecraftNotice = false
 
 #Preference
 [preference]
@@ -63,7 +63,7 @@ lightningColorVariation = true
 thunderAttenuationDistance = 2000
 #Specifies if new rain sounds should replace the vanilla ones.
 #Default: true
-customRainSounds = true
+customRainSounds = false
 
 #Visual
 [visual]
@@ -73,9 +73,9 @@ cubeNormals = false
 #Specifies if minimal shading should be applied to clouds. May cause performance drops.
 #Default: true
 shadedClouds = true
-#Specifies if transparent cubes should be generated for supported cloud types. May cause performance drops.
-#Default: true
-transparency = true
+#Legacy option retained for config compatibility. Transparent cloud cubes are no longer generated; cloud edges now use opaque density shading.
+#Default: false
+transparency = false
 #Specifies if a purely visual 2D atmospheric cloud layer should render above the scene.
 #Default: true
 atmosphericClouds = true
@@ -102,7 +102,7 @@ renderStormFog = true
 #Specifies the quality of the level of detail. A lower setting makes clouds lower quality faster.
 #Default: HIGH
 #Allowed Values: LOW, MEDIUM, HIGH
-levelOfDetail = "MEDIUM"
+levelOfDetail = "HIGH"
 #Specifies if distant level-of-detail cloud chunks should be rendered. Disabling can improve performance, but removes faraway cloud coverage.
 #Default: true
 renderLodClouds = true
@@ -112,7 +112,7 @@ frustumCulling = true
 #Toggles lightning flashes that can be seen in storm fog. Disabling can lead to potential performance gains when lightning spawns.
 #Default: true
 stormFogLightningFlashes = true
-#Specifies the maximum percentage of the total viewable distance transparent cubes can be generated in.
+#Legacy option retained for config compatibility. The opaque-only renderer ignores transparent cube distance.
 #Default: 50
 # Default: 50
 # Range: 1 ~ 100

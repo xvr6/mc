@@ -1,13 +1,13 @@
 name = "Inventory Management Deluxe"
-filename = "Inventory Management Deluxe-1.21.1-NeoForge-1.0.3.jar"
+filename = "inventorymanagement-1.21.1-NeoForge-1.0.7.jar"
 side = "both"
 
 [download]
 hash-format = "sha512"
-hash = "1b9195249d4e3026f8bb4829399be7cbcb058c0b7de539eaea0e8401a2de80e2daa3c464af05acba85001af415bceeea53d2e508d09b53acda5c768af42830ec"
+hash = "3f8a830d0e4b7f9db96b4013ca9576c12838d9aa1b11fe0093b8c6de04fbf79289fca4de525b0a7a9c94844bad910210d57a8f8801be758d9ede0b341455888b"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6790941
+file-id = 8083722
 project-id = 1293085

@@ -1,13 +1,13 @@
 name = "AFKStatus"
-filename = "afkstatus-1.0.8.jar"
+filename = "afkstatus-neoforge-1.2.0.jar"
 side = "server"
 
 [download]
 hash-format = "sha512"
-hash = "fbe7cdd9d56c341a7b63e230d2c3a1e9972f5f93e7e5fed12e57448a5b5cf73d48859a07a8ec19f7b047a8e93ec74e721fecdad898dfa34f89bf6cf5c88528de"
+hash = "a4515630bbdb706f5ed19ecae7f9f84f12293cbefa824831c046e3efa9e4db1b6533698b515bb1a0a84cb2efb411233faf1cbfbef7598713bfe71cdd7bee5108"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7611964
+file-id = 8074854
 project-id = 1318335

@@ -1,13 +1,13 @@
 name = "Dye The World!"
-filename = "dye_the_world-2.3.1.jar"
+filename = "dye_the_world-2.3.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/naUMeOvG/versions/eQYPLGH6/dye_the_world-2.3.1.jar"
+url = "https://cdn.modrinth.com/data/naUMeOvG/versions/WddaVhso/dye_the_world-2.3.2.jar"
 hash-format = "sha512"
-hash = "486d76a8e2bb8687949da3bc4aecd6658d0fd037a92a509ca49e30600035587080fbf1c8d23ab49e1721ed849f13e384f8b8f6defed49ddfeb2f7ba7f6c92eb1"
+hash = "9ef86db373dff853ade547fac35563faa79d99be3e85f617cf7d79a35375d9f512e61714844c7536b78124624abe46c0183d6b9f332854e1a359dbba73484d5b"
 
 [update]
 [update.modrinth]
 mod-id = "naUMeOvG"
-version = "eQYPLGH6"
+version = "WddaVhso"

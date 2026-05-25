@@ -1,8 +1,8 @@
-#Specifies the allowed dimensions that Simple Clouds is active in
-#Requires restart of WORLD
+#Specifies the allowed dimensions that Simple Clouds is active in Allowed values: minecraft:dimension
+#Requires restart.
 dimensionWhitelist = ["minecraft:overworld"]
 #Specifies if the dimension whitelist should instead be use as a blacklist
-#Requires restart of WORLD
+#Requires restart.
 #Default: false
 whitelistAsBlacklist = false
 #Specifies how the clouds should behave. DEFAULT uses all cloud types with the default weather in Simple Clouds. SINGLE uses only a single cloud type and its associated weather. AMBIENT disables localized weather and carves clouds around the player, keeping them at a distance.
@@ -23,7 +23,7 @@ cloudSpeed = 0.675
 # Range: 0 ~ 2048
 cloudHeight = 224
 #Specifies the vertical cloud band height used for cloud shaping and legacy cloud type alignment
-#Requires restart of WORLD
+#Requires restart.
 #Default: 128
 # Default: 128
 # Range: 1 ~ 2048
@@ -39,9 +39,9 @@ allowRainInDryBiomes = true
 # Default: 0.55
 # Range: 0.0 ~ 1.0
 dryBiomeRainMinStorminess = 0.55
-#List of biome tags that should be treated as rain-capable dry biomes when dry-biome rain is enabled.
+#List of biome tags that should be treated as rain-capable dry biomes when dry-biome rain is enabled Allowed values: minecraft:tag.
 dryBiomeRainTags = ["c:is_dry/overworld", "minecraft:is_savanna"]
-#List of biome tags that should behave like normal rain biomes, bypassing dry-biome rain restrictions. These tags are automatically appended to Dry Biome Rain Tags for compatibility.
+#List of biome tags that should behave like normal rain biomes, bypassing dry-biome rain restrictions. These tags are automatically appended to Dry Biome Rain Tags for compatibility Allowed values: minecraft:tag.
 normalRainBiomeTags = ["terralith:reference/plains"]
 
 #Lightning And Thunder
