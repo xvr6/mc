@@ -12,7 +12,7 @@ dimensionWhitelist = ["minecraft:overworld"]
 whitelistAsBlacklist = false
 #Shows the Vivecraft notice on startup.
 #Default: true
-showVivecraftNotice = false
+showVivecraftNotice = true
 
 #Preference
 [preference]
@@ -43,6 +43,11 @@ insideCloudFogMaxVisibility = 96.0
 # Default: 0.5
 # Range: 0.0 ~ 1.0
 insideCloudFogColorBlend = 0.5
+#Specifies the maximum amount of world darkening applied during the most intense storms. Lower values keep dense storms brighter.
+#Default: 0.75
+# Default: 0.75
+# Range: 0.0 ~ 0.95
+maxStormDarkness = 0.75
 #Specifies the angle of the rain, perpendicular to the ground. Higher values makes it more horizontal.
 #Default: 15.0
 # Default: 15.0
@@ -73,12 +78,25 @@ cubeNormals = false
 #Specifies if minimal shading should be applied to clouds. May cause performance drops.
 #Default: true
 shadedClouds = true
-#Legacy option retained for config compatibility. Transparent cloud cubes are no longer generated; cloud edges now use opaque density shading.
+#Specifies if legacy transparent cubes should be generated around cloud edges. This is more expensive than opaque-only clouds but restores the original transparent cube look.
 #Default: false
-transparency = false
+transparency = true
 #Specifies if a purely visual 2D atmospheric cloud layer should render above the scene.
 #Default: true
 atmosphericClouds = true
+#Legacy compatibility alias for transparent cube rendering. Enabling this also enables legacy transparent cubes.
+#Default: false
+cloudEdgeTransparency = true
+#Fallback transparency fade depth for legacy transparent cubes when a cloud type does not define 'transparency_fade'. Higher values produce a thicker transparent band.
+#Default: 0.08
+# Default: 0.08
+# Range: 0.01 ~ 0.5
+edgeTransparencyFade = 0.08
+#Legacy edge-shell option retained for config compatibility. The transparent cube renderer ignores this setting.
+#Default: 2
+# Default: 2
+# Range: 1 ~ 6
+edgeTransparencySupportDepth = 2
 
 #Seed
 [seed]
@@ -102,7 +120,7 @@ renderStormFog = true
 #Specifies the quality of the level of detail. A lower setting makes clouds lower quality faster.
 #Default: HIGH
 #Allowed Values: LOW, MEDIUM, HIGH
-levelOfDetail = "HIGH"
+levelOfDetail = "MEDIUM"
 #Specifies if distant level-of-detail cloud chunks should be rendered. Disabling can improve performance, but removes faraway cloud coverage.
 #Default: true
 renderLodClouds = true
@@ -112,7 +130,7 @@ frustumCulling = true
 #Toggles lightning flashes that can be seen in storm fog. Disabling can lead to potential performance gains when lightning spawns.
 #Default: true
 stormFogLightningFlashes = true
-#Legacy option retained for config compatibility. The opaque-only renderer ignores transparent cube distance.
+#Specifies the maximum percentage of the total cloud render distance where legacy transparent cubes can be generated. Lower values clamp transparency closer to the player to improve performance.
 #Default: 50
 # Default: 50
 # Range: 1 ~ 100
@@ -123,7 +141,7 @@ transparencyRenderDistancePercentage = 50
 #How the amount of frames used to generate the entire mesh is calculated. Static will use the 'Frames To Generate Mesh' option. Dynamic will calculate it automatically depending on your FPS. Target FPS will target a certain perceived framerate for mesh generation.
 #Default: TARGET_FPS
 #Allowed Values: STATIC, DYNAMIC, TARGET_FPS
-generationInterval = "TARGET_FPS"
+generationInterval = "DYNAMIC"
 #Specifies how many frames it should take to generate the entire cloud mesh. Higher values will improve performance at the cost of stuttery cloud movement.
 #Default: 1
 # Default: 1

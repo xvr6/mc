@@ -226,6 +226,8 @@ forbiddenTiles = [
 	"cobblemon:*",
 	"oritech:*",
 	"supplementaries:*way_sign_*",
+	"minecraft:chiseled_bookshelf",
+	"upgrade_aquatic:bedroll",
 ]
 forbiddenEntities = [
 	"#c:capturing_not_supported",

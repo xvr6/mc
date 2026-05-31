@@ -34,7 +34,7 @@ hash = "865a366143df5f4d92941058c823ea48deb8445f6444b45e870331b16a444f0f"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "9fbb09615be27372624b711ae84d9bc6c0b2ebb1e765a59d146fd1b5de984c47"
+hash = "25dd616ebb1cf8013d524ec39cc440d8bd9e41b291331cc900d1b2470862ee4a"
 
 [[files]]
 file = "config/cobblemon/main.json"
@@ -86,11 +86,11 @@ hash = "bb247011c98bf9fd7203c37cb7e18bb5579cf1f9d41f165c7a9202da880d8501"
 
 [[files]]
 file = "config/simpleclouds-client.toml"
-hash = "0e12a79a6a7dc303515a837aec6f6aff755424a9bbaca3141234d9327a5a99cd"
+hash = "b205652196a3ff6b43c7d2b0c16ca0116d0d4cb29ffc28f65025cade6951352f"
 
 [[files]]
 file = "config/simpleclouds-server.toml"
-hash = "148ce764ecc1984e3e998930c8aba6603a3f754db5e92765fcde1091b5a31ec4"
+hash = "c816ee4b5d3907669343d06fabc3baede817f54e659b74232c1c9a69e9e962b2"
 
 [[files]]
 file = "config/sit-server.toml"
@@ -364,6 +364,21 @@ hash = "c5e47d922e39c1556dc2e8c94bfe852cf16de14f65b99eb3e054e41745dddad0"
 metafile = true
 
 [[files]]
+file = "mods/cc-redstone-link-bridge.pw.toml"
+hash = "791a6138f2501b4e3d2695bc6f95d207da57872cb7a32074a6236a264e43cb7f"
+metafile = true
+
+[[files]]
+file = "mods/cc-tweaked.pw.toml"
+hash = "209446eb003bb59111833db0e0328657a9ffe7d85d6016ddf3ecfd5a2f7e13c5"
+metafile = true
+
+[[files]]
+file = "mods/cccbridge.pw.toml"
+hash = "af5be21b70b778bd919a8d10807895fad40671c9701519dbf95bc74f139fec3f"
+metafile = true
+
+[[files]]
 file = "mods/chimes.pw.toml"
 hash = "7c39ccee8a0d788d5b9d365d8d79a498a998038c5ded39eb7b07ce0e292489cb"
 metafile = true
@@ -406,6 +421,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-alatias-fakemon-pack.pw.toml"
 hash = "a88bc4f42325323a40b61b16a6845355a7227a4520d1fcb7e3d5655dcda07517"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-better-campfire-pot.pw.toml"
+hash = "ca6ddda4800a302cc25913b990fb2a669bb4eea038ba8af03fbcd03c17c571a8"
 metafile = true
 
 [[files]]
@@ -561,6 +581,11 @@ metafile = true
 [[files]]
 file = "mods/create-structures-arise.pw.toml"
 hash = "bd48df02197c531fc58f203c2b6616f8327f5c18208414060e24b12e93c8afe0"
+metafile = true
+
+[[files]]
+file = "mods/create-trading-floor.pw.toml"
+hash = "dd46758c8eb82deb6dcd56a9879dc5e583ff812245ebb357fd79053a60c58871"
 metafile = true
 
 [[files]]
@@ -1199,6 +1224,11 @@ hash = "d7f360ebb9f009d6dc0b368cd8fa399bdff70c0f6ef931687b2a35137f72715d"
 metafile = true
 
 [[files]]
+file = "mods/pet-your-cobblemon.pw.toml"
+hash = "d70c3774cf1b087f19cf57a7489ec80471d47ae1d57a9dc231cb34f15d1b5677"
+metafile = true
+
+[[files]]
 file = "mods/petrolpark.pw.toml"
 hash = "d697896268af5b0b91ac4736007bbccd301aa8aa428c03ed70e23a15d719527e"
 metafile = true
@@ -1299,8 +1329,8 @@ hash = "9bc38c82f22d11fdbff4e2bbafbf74ad4964d8d94d220ae7e547d3a711f10e2c"
 metafile = true
 
 [[files]]
-file = "mods/simpleclouds-0.8.0f-b10.jar"
-hash = "80246be6af40c725f614104aa1748f15070085f295ec1bf0a06ea33c41e1359f"
+file = "mods/simpleclouds-0.8.0f-b12-all.jar"
+hash = "ca3362417fd733cb94f63a54c49041fae70680b0dfe4753c85117eb890e742ee"
 
 [[files]]
 file = "mods/simpletms-tms-and-trs-for-cobblemon.pw.toml"

@@ -21,13 +21,7 @@ cloudSpeed = 0.675
 #Default: 128
 # Default: 128
 # Range: 0 ~ 2048
-cloudHeight = 224
-#Specifies the vertical cloud band height used for cloud shaping and legacy cloud type alignment
-#Requires restart.
-#Default: 128
-# Default: 128
-# Range: 1 ~ 2048
-cloudLayerSeparation = 128
+cloudHeight = 256
 
 #Biome Precipitation
 [weather.biome_precipitation]

@@ -1,0 +1,13 @@
+name = "Cobblemon: Better Campfire Pot"
+filename = "bettercampfirepot-1.7.3+1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/iTqv0DeF/versions/NpGa1ka9/bettercampfirepot-1.7.3%2B1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "ed72e75e08f7dafc2d926dfaaa0649b58626feb0230be69c13f92782f75fdfe74cdcba56ab55a916b7405de027cff07a170f07f7f2d84105d3e6f73f4ac049eb"
+
+[update]
+[update.modrinth]
+mod-id = "iTqv0DeF"
+version = "NpGa1ka9"
