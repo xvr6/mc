@@ -1,0 +1,13 @@
+name = "Invisible Item Frame"
+filename = "invisible-item-frame-1.21.9.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/9loRXSkM/versions/BseseQG5/invisible-item-frame-1.21.9.zip"
+hash-format = "sha512"
+hash = "1f0c63b43bd89381f4519b940b9658f2d1cc534b0c05a42f25d7c778eedee0e4e7c15156a26f3fb984d45e2a0b3226fffb78a59266126f41a2c190b1974ef78d"
+
+[update]
+[update.modrinth]
+mod-id = "9loRXSkM"
+version = "BseseQG5"

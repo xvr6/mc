@@ -1,0 +1,13 @@
+name = "Cobblemon Alatia's Fakemon Pack"
+filename = "Cobblemon AFP 1.9.2-1.21.1-NeoForge-NoGEB.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/nHMcH3tj/versions/KSPGJWMv/Cobblemon%20AFP%201.9.2-1.21.1-NeoForge-NoGEB.jar"
+hash-format = "sha512"
+hash = "cf13638ad6e30055ce2aac059ef5b1c135a5e90830a21fe9b3ada10e69c347649613ca759ebf7f5a5dd70b8710c36a472311f118fdcfbb5c353340603424f6ad"
+
+[update]
+[update.modrinth]
+mod-id = "nHMcH3tj"
+version = "KSPGJWMv"

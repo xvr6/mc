@@ -1,0 +1,14 @@
+{
+    "type": "create:haunting",
+    "ingredients": [
+        {
+            "item": "create:wheat_flour"
+        }
+    ],
+    "results": [
+        {
+            "chance": 0.25,
+            "id": "create:cinder_flour"
+        }
+    ]
+}

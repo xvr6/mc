@@ -1,0 +1,13 @@
+name = "Good Ending"
+filename = "GoodEnding-1.21.1-1.1.0-NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/O7B5FVvG/versions/J9k9hIvO/GoodEnding-1.21.1-1.1.0-NeoForge.jar"
+hash-format = "sha512"
+hash = "0fe17228e68b65dce177a1ef3ef76f520be8dc2b3bf81c22f36f0a482ea96b869e6bb0edecfabd5b76d2fa3dd8e7c8912eaf1b2a0930e2f20a30a92f35aa8400"
+
+[update]
+[update.modrinth]
+mod-id = "O7B5FVvG"
+version = "J9k9hIvO"

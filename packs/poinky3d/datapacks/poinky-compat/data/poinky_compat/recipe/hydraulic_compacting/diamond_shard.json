@@ -1,0 +1,16 @@
+{
+    "type": "dndesires:hydraulic_compacting",
+    "heat_requirement": "superheated",
+    "ingredients": [
+        {
+            "count": 1,
+            "item": "minecraft:coal_block"
+        }
+    ],
+    "results": [
+        {
+            "chance": 0.75,
+            "id": "dndesires:diamond_shard"
+        }
+    ]
+}

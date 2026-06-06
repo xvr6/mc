@@ -1,0 +1,13 @@
+name = "Railways Untold"
+filename = "railwaysuntold-neoforge-1.1.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/R7r9n6Wu/versions/F2mCEJfL/railwaysuntold-neoforge-1.1.5.jar"
+hash-format = "sha512"
+hash = "a1a7db686f9d14d3b852c1cc82413270248ab602a1b836b8dda853cea309adc5a302f5deca6a09a0fe4e1f2574c50f83a3ac64db544c85d7c1ed3bbab23d55f3"
+
+[update]
+[update.modrinth]
+mod-id = "R7r9n6Wu"
+version = "F2mCEJfL"
