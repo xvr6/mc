@@ -1,6 +1,6 @@
 name = "MP - Moog's Paths"
 filename = "moogs_paths-neoforge-1.21.1-1.0.0.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/HDB8pnki/versions/7DH8jEHf/moogs_paths-neoforge-1.21.1-1.0.0.jar"
