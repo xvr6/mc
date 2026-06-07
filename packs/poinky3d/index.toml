@@ -521,6 +521,11 @@ hash = "0f67083a39e4b9aa80b1830257086f16734091f9ecb24e64dd208c19be2c4923"
 metafile = true
 
 [[files]]
+file = "mods/create-central-kitchen.pw.toml"
+hash = "c8b2e60b789885854508c674ba0630cdc8dc2a880302d8475cdc5ae06c44f64a"
+metafile = true
+
+[[files]]
 file = "mods/create-connected.pw.toml"
 hash = "57e8ff6c2bf41c7556f727251fda72946ebd8d849e5e83c141a679387a559dbc"
 metafile = true
@@ -548,6 +553,11 @@ metafile = true
 [[files]]
 file = "mods/create-enchantment-industry.pw.toml"
 hash = "166d312672116bc62648572337c66018be6e794eb12e25fb2b508f686fdd58e5"
+metafile = true
+
+[[files]]
+file = "mods/create-integrated-farming.pw.toml"
+hash = "fc49d6cf786feaabbb26ae0109498f5dab7c20fc939bdd650a38d46a31803e7c"
 metafile = true
 
 [[files]]
@@ -728,6 +738,11 @@ metafile = true
 [[files]]
 file = "mods/extreme_sound_muffler.pw.toml"
 hash = "087e13866808a234cb6049340715d938c081e653de7df394d48fbc36ab653906"
+metafile = true
+
+[[files]]
+file = "mods/farmers-delight.pw.toml"
+hash = "9aab64fbec4cc794817026caf84e7d0dff14ba3892da94aa0e00d23c84560499"
 metafile = true
 
 [[files]]
@@ -921,41 +936,6 @@ hash = "583a335211bc3a21bb379394344b67d64bffea421e7f7942c254903e1d607814"
 metafile = true
 
 [[files]]
-file = "mods/lets-do-addon-compat.pw.toml"
-hash = "50fcf316da46ab40812b30013f8427614c41e5778509ed117dcb304c31fc9169"
-metafile = true
-
-[[files]]
-file = "mods/lets-do-brewery-farmcharm-compat.pw.toml"
-hash = "70ce15946e4233feb55c10b5958db355a3e209c592c19fa273176d894423f9cb"
-metafile = true
-
-[[files]]
-file = "mods/lets-do-emi-compat.pw.toml"
-hash = "2e4ca2afd57a1c7cf3b4c0f3ba905509ec3f5caf6ae3abf44955b32e3efc02ae"
-metafile = true
-
-[[files]]
-file = "mods/lets-do-farm-charm.pw.toml"
-hash = "139243c0b47a2d89147289b8d9ef91178c1c2511f3060e00e3699d0e3adb226b"
-metafile = true
-
-[[files]]
-file = "mods/lets-do-herbalbrews.pw.toml"
-hash = "513e9da3100c93614934751c179fbd800f4a409e12a7ba5d44cd09407d211bb0"
-metafile = true
-
-[[files]]
-file = "mods/lets-do-meadow.pw.toml"
-hash = "98929c2d2368656d039c75d32612333edf4838ce95b84c7191d01021e3cde6fb"
-metafile = true
-
-[[files]]
-file = "mods/lets-do-vinery.pw.toml"
-hash = "535e8e9c6bc184e9771cf4e35795c8f162d89abeb5b9aed9c2ea2988c710776f"
-metafile = true
-
-[[files]]
 file = "mods/libipn.pw.toml"
 hash = "0d2a00252d64ed7d2d9b19994f7accb780304be61f3903d36e810714b414c6cb"
 metafile = true
@@ -1111,6 +1091,11 @@ hash = "5a59ebe515dbf2b637ac23bedeb33e545675668a0a454c5d6edd4d207a458844"
 metafile = true
 
 [[files]]
+file = "mods/overweight-farming.pw.toml"
+hash = "836ffb879311a16e620c05796513395a3b9009c7d27d84c5938f03add120bec6"
+metafile = true
+
+[[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "46831c04077a06df823bcd0f254833a90a9a9ccc78f5069f4b4c27fa301ac0cf"
 metafile = true
@@ -1247,6 +1232,11 @@ hash = "ca3362417fd733cb94f63a54c49041fae70680b0dfe4753c85117eb890e742ee"
 [[files]]
 file = "mods/simpletms-tms-and-trs-for-cobblemon.pw.toml"
 hash = "307a39080394cbe930be57e67fb8dae37601e8f0842da10da10977d261dac07d"
+metafile = true
+
+[[files]]
+file = "mods/slice-and-dice.pw.toml"
+hash = "18ca1d438084a8578f4b75f12233db58ca1deec55f117fb875afa21f2c021559"
 metafile = true
 
 [[files]]
