@@ -14,5 +14,4 @@ version = "oYXIfeus"
 
 [option]
 optional = true
-default = false
 description = "Enables rendering of far away chunks as LoDs."

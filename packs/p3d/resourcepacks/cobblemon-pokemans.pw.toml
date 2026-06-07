@@ -1,6 +1,6 @@
 name = "Pokemans Pack [Cobblemon]"
 filename = "pokemans_v15_toxicCloud.zip"
-side = "client"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/GFYCh249/versions/YRMjzyUR/pokemans_v15_toxicCloud.zip"
