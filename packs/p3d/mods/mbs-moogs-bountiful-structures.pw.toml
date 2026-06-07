@@ -1,6 +1,6 @@
 name = "MBS - Moog's Bountiful Structures"
 filename = "MoogsBountifulStructures-1.21-1.0.6.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/Qnb1HbfK/versions/EIVA8OOw/MoogsBountifulStructures-1.21-1.0.6.jar"

@@ -5,7 +5,7 @@ side = "both"
 [download]
 url = "https://cdn.modrinth.com/data/s1I9GeSl/versions/IBOIpNJq/colorful_depot-1.2-neoforge.jar"
 hash-format = "sha512"
-hash = "54310f41ba69d294afde10b0dcea6b59c5970437339f6dc17dfb0ffe5ce7572c346f0a2084bc37f81269cb22739fa990dc7f43502826a85321d999403082d8b4"
+hash = "99788274e8c1ac7164174f2bd5222def22149dffd0f4049d70b1a6fb8d3eb03c609daf817f8dda23537024d42e62f74e6d2c4f1aeb4133c96840f7b67f3e5e7a"
 
 [update]
 [update.modrinth]
