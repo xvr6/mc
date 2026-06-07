@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "58084e869599f1ee736c676b63bd8e66bdc6323ffbf0d023fd4b54423424ad5a"
+hash = "ed6b548d80abd7957aa4469fc65705cf464717d74f22b8002e3990cf7e116978"
 
 [[files]]
 file = "config/accessories.json5"
@@ -391,6 +391,11 @@ hash = "88589f694fbdf6d1b5f48c6efb8052b36bdfa505794b44fc6c447882875194b8"
 metafile = true
 
 [[files]]
+file = "mods/chunky.pw.toml"
+hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
+metafile = true
+
+[[files]]
 file = "mods/clayworks.pw.toml"
 hash = "171914c4eb938f32813bc9449ca5dc90210b33b5b389b4c9f2d718b4e34df2f1"
 metafile = true
@@ -657,7 +662,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "b92222e5c3c046d974da18b97c75b20bae75fedb86137d496e8470383d314c5e"
+hash = "451aa27f0ae9bfcf230c5b442a1b0bb09716943378e638fcec6b6468007701fb"
 metafile = true
 
 [[files]]
@@ -708,6 +713,11 @@ metafile = true
 [[files]]
 file = "mods/dynamic-trees-biomes-o-plenty.pw.toml"
 hash = "1b89507fb7bc8c2ed11c020a9014ce4a6552e7d0fe0522f6c1107a27e9c89f07"
+metafile = true
+
+[[files]]
+file = "mods/dynamic-trees-cobblemon.pw.toml"
+hash = "72691e1f2dc11718e8b8f62dcd368ac7537aa0c0670dc9c34f27cfe2d1aca66e"
 metafile = true
 
 [[files]]
