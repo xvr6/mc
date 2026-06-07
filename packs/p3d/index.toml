@@ -497,7 +497,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "540572ddb1d9c1de4d0c8c6b3cfbe9f8ceaddbf465523db39b007e547cf3ae01"
+hash = "4538a071e353862dfc4a099477edf8d941ca80d074fed35e5a539b6c5bb2ed3e"
 metafile = true
 
 [[files]]
@@ -582,7 +582,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-integrated-farming.pw.toml"
-hash = "fc49d6cf786feaabbb26ae0109498f5dab7c20fc939bdd650a38d46a31803e7c"
+hash = "71c83d540fd85deaaee9301e76d2b0bbf940167f1ed29212f38f544792b6077a"
 metafile = true
 
 [[files]]
@@ -752,7 +752,7 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "3e12e291f59845d26d24f57f81ee16b56afb486ae532ec3f00f5deda6a93dc6f"
+hash = "4fa25309ea7f4f7770ce6588f39711e891d39f70ae0906b842647273a9ce0448"
 metafile = true
 
 [[files]]
@@ -1271,7 +1271,7 @@ hash = "a692e35b2e3fef938f6b984dc05744476e979d348cf2f380567842ab1989a805"
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "09306b955060349986ccf6a6d2a67f1e019fa172a7dc690dd6007f81c966309a"
+hash = "61d572ec6e241a8374db15e453074a7ae70485a0caf9082b9b39c608410f643a"
 metafile = true
 
 [[files]]
@@ -1404,13 +1404,13 @@ hash = "148c5d14dfeca914d20ceea4defa9660fe588e6fc22cea23cab745504d4b2453"
 metafile = true
 
 [[files]]
-file = "mods/terrablender.pw.toml"
-hash = "15962183bec2468058c70e87aa32e902a08489b0f86741088cdc9aa958ba4931"
+file = "mods/tectonic.pw.toml"
+hash = "cd5c8c1f6183f5c2ca899daed14f272890566002dfcb2d9f9a59dfbfac0bc8f6"
 metafile = true
 
 [[files]]
-file = "mods/terralith.pw.toml"
-hash = "da7ee99189ad35aac094919fe33cac647d98533b23c228f10d4811f08989e2b8"
+file = "mods/terrablender.pw.toml"
+hash = "15962183bec2468058c70e87aa32e902a08489b0f86741088cdc9aa958ba4931"
 metafile = true
 
 [[files]]
