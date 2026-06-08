@@ -1,0 +1,13 @@
+name = "Mega Showdown Repolished [Cobblemon: Mega Showdown]"
+filename = "Mega Showdown Repolished.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/2WuxepRM/versions/oPJupU2x/Mega%20Showdown%20Repolished.zip"
+hash-format = "sha512"
+hash = "661795374028ac3a297e6b4c76007d15bad7274f24d40aa9fada60c16f59f3e3aba951a7cf37f03fece4f9581af427995a878a70e72a311a71bb2adb6d9928e7"
+
+[update]
+[update.modrinth]
+mod-id = "2WuxepRM"
+version = "oPJupU2x"

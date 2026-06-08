@@ -3,8 +3,8 @@ filename = "dtarsnouveau-1.3.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "e61f5753c5485de7c3874ddd36fdf20e2684bfcb"
+hash-format = "sha512"
+hash = "368e9926602a9f2be17523795aa5f50942f5704ce58f5d2a896518945f6a32b48ae64e381a5a401fc77b71df44613c8426bec7421a66efeb1325718faef8b79f"
 mode = "metadata:curseforge"
 
 [update]

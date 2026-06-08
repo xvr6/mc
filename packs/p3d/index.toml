@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "ed6b548d80abd7957aa4469fc65705cf464717d74f22b8002e3990cf7e116978"
+hash = "0a7f453335c6dda80387f5ba388b4cf997a0717ef54ae60a08dfaaa994ab6f64"
 
 [[files]]
 file = "config/accessories.json5"
@@ -77,16 +77,20 @@ file = "config/mindfuldarkness-client.toml"
 hash = "e3920628719c00d298b6979e8014b1d2693d7a057024f9593e70ad751fe9f9ad"
 
 [[files]]
+file = "config/railways-untold/config.toml"
+hash = "c708d2595b89a84a03a01567cdbea544fec887795f421d94a023b82b7ac393c9"
+
+[[files]]
 file = "config/shouldersurfing-client.toml"
 hash = "bb247011c98bf9fd7203c37cb7e18bb5579cf1f9d41f165c7a9202da880d8501"
 
 [[files]]
-file = "config/simpleclouds-client.toml"
-hash = "b205652196a3ff6b43c7d2b0c16ca0116d0d4cb29ffc28f65025cade6951352f"
+file = "config/simpleclouds-server.toml"
+hash = "8b1fc87f14368b5eb945ad0ea8daebd4ad525f7e12808d136448481e99995e86"
 
 [[files]]
-file = "config/simpleclouds-server.toml"
-hash = "c816ee4b5d3907669343d06fabc3baede817f54e659b74232c1c9a69e9e962b2"
+file = "config/simpleclouds.toml"
+hash = "60bfe4a03c4c4763f82f25e3cadd91937330f6d9173ecfaaa1be4d6ca8e6ab4b"
 
 [[files]]
 file = "config/sophisticatedbackpacks-server.toml"
@@ -95,6 +99,10 @@ hash = "7e3c43f4d9610837c6ea27a575cf58ecccc265e3ee78415c38344436e541ddbc"
 [[files]]
 file = "config/spawn_notification.json"
 hash = "f4b2978268ca57c2f004581d71f7ba86a43722046f71217a6f19ae8a0df72de2"
+
+[[files]]
+file = "config/tectonic.json"
+hash = "75522b9003154cdbc5f589f23d467ab0962a81a5f94becc739f8efe132fe0997"
 
 [[files]]
 file = "config/vanillabackport-common.toml"
@@ -543,6 +551,11 @@ hash = "89cd69bc05b2924ce052b375651e5f989ec78b038f4baaff1d2b5c3e95ac0455"
 metafile = true
 
 [[files]]
+file = "mods/create-aeronautics-toolgun.pw.toml"
+hash = "bc8e973498380bf0bbcfe26da585575097a9a9d168cba68e328e09e453d603e3"
+metafile = true
+
+[[files]]
 file = "mods/create-aeronautics-transmission-linkage.pw.toml"
 hash = "2144a1d02fc9dd63e923178a0dc7b99cfa1d44f8d956ba9eaaa4b7f03195bf9a"
 metafile = true
@@ -645,11 +658,6 @@ metafile = true
 [[files]]
 file = "mods/create-power-loader.pw.toml"
 hash = "d1a7402cc94a8a857d380f68bb9a19d8981a2b3223068a53d9054e97232f4167"
-metafile = true
-
-[[files]]
-file = "mods/create-sable-dynamic-lights.pw.toml"
-hash = "8bd25da66655f493b41b090867efb1b33241b8b9f623190c8991fe17709478e1"
 metafile = true
 
 [[files]]
@@ -764,7 +772,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynamic-trees-ars-nouveau.pw.toml"
-hash = "1dcb872b95f48dd59d3aa5059e1ce9abb8fc90ccb5d3df91f941cbb5a2414ead"
+hash = "09df70d53c5d54e157e87c9dbc436ec1fda7948ae0af2266468b3bce60368302"
 metafile = true
 
 [[files]]
@@ -1238,11 +1246,6 @@ hash = "6bc414cc0f2d4c078fe83f384d786343f701f371d657c5279b5b0df1595804bd"
 metafile = true
 
 [[files]]
-file = "mods/mp-moogs-paths.pw.toml"
-hash = "efde475ba8517e4cf00e019300999989e5c707205dfd36eae3c3aa88b88bda4b"
-metafile = true
-
-[[files]]
 file = "mods/mru.pw.toml"
 hash = "42805ef7e224873873d190b0363f2a53dae02530553574f29fab92e258bc0470"
 metafile = true
@@ -1260,6 +1263,11 @@ metafile = true
 [[files]]
 file = "mods/my-nethers-delight.pw.toml"
 hash = "e9eaae2c64556b565ebb7db05200392697f2472058cfebd82db3635c3512d918"
+metafile = true
+
+[[files]]
+file = "mods/navas-zamega.pw.toml"
+hash = "c26813c0d001083592dd7f12a1bde79972c8d24a7ea2e9dbf59f84b52cae4da9"
 metafile = true
 
 [[files]]
@@ -1324,7 +1332,7 @@ metafile = true
 
 [[files]]
 file = "mods/patched-figura.toml"
-hash = "f2a9d3cc01c56d92dc4e74592b93b6e27a10c48f08ab40731483067684200f26"
+hash = "f12a6a1322eed443bcb04d3a00da2b0f229cf85a0bee87521a1a9af0e3002085"
 metafile = true
 
 [[files]]
@@ -1452,8 +1460,8 @@ hash = "d1b23ec17a950213159633ad5102a31f1aa6382ee736b071b0d420d21bef01ce"
 metafile = true
 
 [[files]]
-file = "mods/simpleclouds-0.8.0f-b12-all.jar"
-hash = "91a9278ca36c0bc2466a7bfefb385b8d3fca8ab506852a262f2282f0f3f703ee"
+file = "mods/simpleclouds-0.8.0f-b13.jar"
+hash = "887fd1fcdf666d11d0c2617d63b5fe775eec0739b7076e605538b6980cef6265"
 
 [[files]]
 file = "mods/simpletms-tms-and-trs-for-cobblemon.pw.toml"
@@ -1463,11 +1471,6 @@ metafile = true
 [[files]]
 file = "mods/slice-and-dice.pw.toml"
 hash = "18ca1d438084a8578f4b75f12233db58ca1deec55f117fb875afa21f2c021559"
-metafile = true
-
-[[files]]
-file = "mods/sodium-dynamic-lights.pw.toml"
-hash = "c1e526d3d17cb3563e596d45c7567ed1fe60c31bdc3457f7a747ef8150bd3c1b"
 metafile = true
 
 [[files]]
@@ -1631,11 +1634,6 @@ hash = "d96fe12674f0a9d208ab683e0799542b03ddfd9b17bd89996f3fca73dd3df2dd"
 metafile = true
 
 [[files]]
-file = "mods/vista_tv.pw.toml"
-hash = "5367de6572975a1ceaada2d2468624ada048810923fc51e10cc641a8a50da069"
-metafile = true
-
-[[files]]
 file = "mods/wayfinder.pw.toml"
 hash = "b1e2d67ab433247bc4af46c8f76f7b3c0d9038472795630be17c38e454851c42"
 metafile = true
@@ -1643,6 +1641,11 @@ metafile = true
 [[files]]
 file = "mods/what-are-they-up-to.pw.toml"
 hash = "9ce52d07c0c3d146a2a44f8bc187138ce7a5558a4e3ab540c86234702b6de274"
+metafile = true
+
+[[files]]
+file = "mods/xaeroplus.pw.toml"
+hash = "082ff2e8d4eb4fd4cfd609eea766bc9d3f8b51ecc87457942c926cdd992c9f55"
 metafile = true
 
 [[files]]
@@ -1719,6 +1722,16 @@ hash = "17485135a9e9e995386854639e10b16ab816012d778f99500714b9a76e56f876"
 metafile = true
 
 [[files]]
+file = "resourcepacks/fa-player-extension.pw.toml"
+hash = "1fc43095c86a53b0867c00a3687645c557871d80757a9fcf16754cd192b02da3"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-animations-extensions.pw.toml"
+hash = "5973072b8b08c131a5c4b180dc017b35a6f19d136775779c38089486f798356d"
+metafile = true
+
+[[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
 hash = "815ae4435250f035ac59236ffe811d5ed58d5e686baca72a9deab742e106afb7"
 metafile = true
@@ -1729,6 +1742,11 @@ hash = "d3079ba5568f7e378a43402c0b5fa3e10accca577d34473b4574fc6ac6021249"
 metafile = true
 
 [[files]]
+file = "resourcepacks/megashowdown_repolished.pw.toml"
+hash = "569bcdad755f2457b8feee58e0e630611b7885403d700c3c155e8046ae8e2237"
+metafile = true
+
+[[files]]
 file = "resourcepacks/mundialmons.pw.toml"
 hash = "8703040e7ee5596f96c86792440c8d793006e3dabe191857c0c587044c7612b9"
 metafile = true
@@ -1736,6 +1754,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/mysticmons.pw.toml"
 hash = "d7f25a2f2a827a5d295298b855409e06db860cac5146d037b716e3b79af1e48c"
+metafile = true
+
+[[files]]
+file = "resourcepacks/the-rename-compat-project.pw.toml"
+hash = "59762cbb7156c5aa21855cc125bb4ad639059c14705d7c8ccdf0263d2f5398cb"
 metafile = true
 
 [[files]]
