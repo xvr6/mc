@@ -1453,7 +1453,7 @@ metafile = true
 
 [[files]]
 file = "mods/simpleclouds-0.8.0f-b12-all.jar"
-hash = "ca3362417fd733cb94f63a54c49041fae70680b0dfe4753c85117eb890e742ee"
+hash = "91a9278ca36c0bc2466a7bfefb385b8d3fca8ab506852a262f2282f0f3f703ee"
 
 [[files]]
 file = "mods/simpletms-tms-and-trs-for-cobblemon.pw.toml"
