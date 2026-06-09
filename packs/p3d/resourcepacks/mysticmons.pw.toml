@@ -1,6 +1,6 @@
 name = "MysticMons"
 filename = "MysticMons_v3.2.1.zip"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/TiFXQSAQ/versions/n1gBFmIp/MysticMons_v3.2.1.zip"

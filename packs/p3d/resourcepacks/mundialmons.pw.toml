@@ -1,6 +1,6 @@
 name = "MundialMons ReaniPack [CobbleMon]"
 filename = "MundialMons.V1.3.2(Galarmons 2.0 part2).zip"
-side = "both"
+side = "client"
 pin = true
 
 [download]

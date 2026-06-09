@@ -1,6 +1,6 @@
 name = "Sable: Weighted - Design n' Decor"
 filename = "sable-weighted_dndecor-1.1.0.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/ZpfgB3tl/versions/vzgzpZSX/sable-weighted_dndecor-1.1.0.jar"
