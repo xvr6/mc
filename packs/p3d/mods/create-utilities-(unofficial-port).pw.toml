@@ -1,0 +1,13 @@
+name = "Create Utilities (Unofficial Port)"
+filename = "createutilities-0.3.6+mc1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8gamiD8q/versions/lnnfU3a4/createutilities-0.3.6%2Bmc1.21.1.jar"
+hash-format = "sha512"
+hash = "e99185ba11e60dca57a46589115699b59437bcce8671ebcf234df7745c5ff8c45ab8072b2615e853bfc3016ff74b8c49068112d6491d501d10dc3572865b4b2e"
+
+[update]
+[update.modrinth]
+mod-id = "8gamiD8q"
+version = "lnnfU3a4"

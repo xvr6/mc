@@ -1,0 +1,13 @@
+name = "Sable: Weighted - Design n' Decor"
+filename = "sable-weighted_dndecor-1.1.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZpfgB3tl/versions/vzgzpZSX/sable-weighted_dndecor-1.1.0.jar"
+hash-format = "sha512"
+hash = "9c638eed44c94dfbf3ed1864beabf87b0381856edbafd2dfd3497280277b3e993e2c821340c101602f479282ba8c613539f79b06a620f70e36da69307cea544c"
+
+[update]
+[update.modrinth]
+mod-id = "ZpfgB3tl"
+version = "vzgzpZSX"
