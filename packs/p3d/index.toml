@@ -25,10 +25,6 @@ file = "config/betterdays-common.toml"
 hash = "03e4858e141353192b4616f179003be4086cca2a4c22aa37872f610ac6285573"
 
 [[files]]
-file = "config/bluemap/core.conf"
-hash = "6af0a5e5b300a5f0922d6029520552fedcd79bf2628def25cc5ff79eecebbb81"
-
-[[files]]
 file = "config/cobblemon/main.json"
 hash = "1bd8f9bc085b5b3d822eec47b2f641454d2902f779b3f5c5b87078453193e26e"
 
@@ -77,10 +73,6 @@ file = "config/mindfuldarkness-client.toml"
 hash = "e3920628719c00d298b6979e8014b1d2693d7a057024f9593e70ad751fe9f9ad"
 
 [[files]]
-file = "config/railways-untold/config.toml"
-hash = "c708d2595b89a84a03a01567cdbea544fec887795f421d94a023b82b7ac393c9"
-
-[[files]]
 file = "config/shouldersurfing-client.toml"
 hash = "bb247011c98bf9fd7203c37cb7e18bb5579cf1f9d41f165c7a9202da880d8501"
 
@@ -110,7 +102,7 @@ hash = "9665d3a25d795d1a03afff5c209f83182a9b4b4c9923d054d0e47c904969cddd"
 
 [[files]]
 file = "config/via_romana.json"
-hash = "9d67ca9463ca5659b4242032fdf9434f264a28b72445fe9e651cc8921536cc6d"
+hash = "9c5fbf81e630501627d563a5b7cfe5203ea14e297fd8cb87becc3d04b948a97a"
 
 [[files]]
 file = "config/wands.json"
@@ -666,6 +658,11 @@ hash = "52c16e839d26fb14ae1ceff26d16fd49f42db7658296b43c1161402e545f9cb8"
 metafile = true
 
 [[files]]
+file = "mods/create-steam-n-rails-1.21.1.pw.toml"
+hash = "7c9a7c6b0ba555d29cdff0c2874dfee7d1cd7807f084fcf08b3820b382dc3cb8"
+metafile = true
+
+[[files]]
 file = "mods/create-structures-arise.pw.toml"
 hash = "bd48df02197c531fc58f203c2b6616f8327f5c18208414060e24b12e93c8afe0"
 metafile = true
@@ -963,11 +960,6 @@ metafile = true
 [[files]]
 file = "mods/globalpacks.pw.toml"
 hash = "a7f2ae8ea415e95ce1a3518b66edcaf124d8903ff9101d07331f7fec92b3400f"
-metafile = true
-
-[[files]]
-file = "mods/good-ending.pw.toml"
-hash = "2d384086cf9ab631c760ef40718af9c9c877276fa98e8f99e273b7ed90059ecf"
 metafile = true
 
 [[files]]
@@ -1352,7 +1344,7 @@ metafile = true
 
 [[files]]
 file = "mods/patched-figura.toml"
-hash = "f12a6a1322eed443bcb04d3a00da2b0f229cf85a0bee87521a1a9af0e3002085"
+hash = "5f12268195a7de04271ac7e0d49463e42150ae6f3926d061f0ea0bdf2211a4d5"
 metafile = true
 
 [[files]]
@@ -1421,8 +1413,8 @@ hash = "22dde7441f5bd5d2b4699d00f0efed79f75664dade5a66a36f181a0a823c751c"
 metafile = true
 
 [[files]]
-file = "mods/railwaysuntold-neoforge-1.2.0-snapshot3.jar"
-hash = "a692e35b2e3fef938f6b984dc05744476e979d348cf2f380567842ab1989a805"
+file = "mods/railwaysuntold-neoforge-1.2.0Snapshot4.jar"
+hash = "062766db7bd85782aa5f34e8fbcaaed4fe96bddc58a02266557749cd8fdb6f3f"
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"

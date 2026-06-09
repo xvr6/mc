@@ -45,7 +45,8 @@
     "_pressure_plate",
     "_torch",
     "_lantern",
-    "chipped:"
+    "chipped:",
+    "trmt:"
   ],
   "block_string_blacklist": [
     "diagonalwalls:",
