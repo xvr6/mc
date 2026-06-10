@@ -58,7 +58,7 @@
 	},
 	"scoreboard": {
 		"scoreboard": {
-			"active": true,
+			"active": false,
 			"onChange": true
 		},
 		"onScoreChange": true,

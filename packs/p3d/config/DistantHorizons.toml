@@ -3,7 +3,7 @@ _version = 4
 [server]
 #
 # Defines the distance the player will receive updates around.
-realTimeUpdateDistanceRadiusInChunks = 256
+realTimeUpdateDistanceRadiusInChunks = 128
 #
 # Prefix of the level keys sent to the clients.
 # If the mod is running behind a proxy, each backend should use a unique value.
@@ -42,18 +42,18 @@ serverId = -25342512
 #
 # How many LOD generation requests per second should a client send? 
 # Also limits the number of client requests allowed to stay in the server's queue.
-generationRequestRateLimit = 20
+generationRequestRateLimit = 10
 #
 # How many LOD sync requests per second should a client send? 
 # Also limits the amount of player's requests allowed to stay in the server's queue.
-syncOnLoadRateLimit = 50
+syncOnLoadRateLimit = 20
 #
 # If true, clients will receive real-time LOD updates for chunks outside the client's render distance.
 enableRealTimeUpdates = true
 #
 # Maximum global speed for uploading LODs to the clients, in KB/s.
 # Value of 0 disables the limit.
-globalBandwidthLimit = 0
+globalBandwidthLimit = 50000
 #
 # Maximum per-player speed for uploading LODs to the clients, in KB/s.
 # Value of 0 disables the limit.
@@ -231,7 +231,7 @@ showGarbageCollectorWarning = true
 # but may cause server/simulation lag. 
 # Note: unlike other modes this option DOES save generated chunks to 
 # Minecraft's region files.
-distantGeneratorMode = "INTERNAL_SERVER"
+distantGeneratorMode = "PRE_EXISTING_ONLY"
 #
 # How should distant generator progress be displayed? 
 # 
@@ -247,7 +247,7 @@ showGenerationProgress = "DISABLED"
 # This should only be set if you have a pre-generated world that has a very limited size. 
 # Setting this on a normal MC world will prevent the world generator from filling 
 # out your render distance.
-generationMaxChunkRadius = 0
+generationMaxChunkRadius = 128
 #
 # How often should the distant generator progress be displayed?
 generationProgressDisplayIntervalInSeconds = 2
