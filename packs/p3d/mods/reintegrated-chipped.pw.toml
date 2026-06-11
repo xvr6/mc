@@ -1,6 +1,6 @@
 name = "Reintegrated: Chipped"
 filename = "reintegrated_chipped-1.0.0.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/5Rel2hNl/versions/L60LNn5J/reintegrated_chipped-1.0.0.jar"
