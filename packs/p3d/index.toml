@@ -660,16 +660,6 @@ hash = "e9dce7730d04e7d7f44c6216fefa0897b361ece8a74ea4c474f9d986e2c0dcc5"
 metafile = true
 
 [[files]]
-file = "mods/create-ore-excavation-plus.pw.toml"
-hash = "ffa423a7e70a02f5449969079cd17552dd1c7f308600febccf9a6dffa9d65416"
-metafile = true
-
-[[files]]
-file = "mods/create-ore-excavation.pw.toml"
-hash = "10d3389f72e8e8f78518f5b6786ccec4e62dbad117491d2970e8e1f75e390251"
-metafile = true
-
-[[files]]
 file = "mods/create-power-loader.pw.toml"
 hash = "d1a7402cc94a8a857d380f68bb9a19d8981a2b3223068a53d9054e97232f4167"
 metafile = true
@@ -687,11 +677,6 @@ metafile = true
 [[files]]
 file = "mods/create-steam-n-rails-1.21.1.pw.toml"
 hash = "7c9a7c6b0ba555d29cdff0c2874dfee7d1cd7807f084fcf08b3820b382dc3cb8"
-metafile = true
-
-[[files]]
-file = "mods/create-structures-arise.pw.toml"
-hash = "bd48df02197c531fc58f203c2b6616f8327f5c18208414060e24b12e93c8afe0"
 metafile = true
 
 [[files]]
@@ -815,6 +800,11 @@ hash = "872ab8c78193dd775eb707793b8edc528323632a7fe2930223513635c2fddefa"
 metafile = true
 
 [[files]]
+file = "mods/dungeons-and-taverns.pw.toml"
+hash = "b9244dca740d333c22f3425991fdd2fd40d3ae12384079a40a6fb7d4bca18a18"
+metafile = true
+
+[[files]]
 file = "mods/dusty-decorations.pw.toml"
 hash = "5c3c3dce1d331a31e67bbc826b0cdaf6db79723cd4739728ff274f4f0b712fe2"
 metafile = true
@@ -860,13 +850,13 @@ hash = "c6d69011793e9278c65ba14423fccdbc2421f62676bad2663ba85ad9c386ae28"
 metafile = true
 
 [[files]]
-file = "mods/endrem.pw.toml"
-hash = "db22718a1efaf2c691cf3bdddc61b0b06bedff7cb0722aa8b1bdf4f095d116cc"
+file = "mods/enders-delight.pw.toml"
+hash = "28ac34eafc267a4bde8c694bc23c66f0aa0837156bd808ee41023a63bdc68488"
 metafile = true
 
 [[files]]
-file = "mods/ends-delight.pw.toml"
-hash = "39b8dfd6d5967ef6de258b3be900bf03b752e080311200380e42253db6b5f4a2"
+file = "mods/endrem.pw.toml"
+hash = "db22718a1efaf2c691cf3bdddc61b0b06bedff7cb0722aa8b1bdf4f095d116cc"
 metafile = true
 
 [[files]]
@@ -912,11 +902,6 @@ metafile = true
 [[files]]
 file = "mods/farmers-cutting-oh-the-biomes-weve-gone.pw.toml"
 hash = "5135cb75af54eb83a61156dd252d19f308b8674d0c5fd778da568527bf6031d3"
-metafile = true
-
-[[files]]
-file = "mods/farmers-cutting-regions-unexplored.pw.toml"
-hash = "ab7df1ff1bdd1163c62030429cb6cf8bd02e968a8d404f573b6474d17a357435"
 metafile = true
 
 [[files]]
@@ -977,6 +962,11 @@ metafile = true
 [[files]]
 file = "mods/globalpacks.pw.toml"
 hash = "a7f2ae8ea415e95ce1a3518b66edcaf124d8903ff9101d07331f7fec92b3400f"
+metafile = true
+
+[[files]]
+file = "mods/goated.pw.toml"
+hash = "f4b1b532d8ea3fc538e8600072efe985635bd227772878a96a9bb622ca1bf9ad"
 metafile = true
 
 [[files]]
@@ -1175,11 +1165,6 @@ hash = "e04b1ac906167721ae2696ec837be362e6d6da252e8bc5c0bac29974fbae0461"
 metafile = true
 
 [[files]]
-file = "mods/macaws-regions-unexplored.pw.toml"
-hash = "a2eedcedb120c02cb16a10db5781dbc4149dffde1d475ee28ef4a5982bfea8af"
-metafile = true
-
-[[files]]
 file = "mods/macaws-roofs.pw.toml"
 hash = "b5f1c37740051774214d8dd035df9bac68ddd4d8c71ed8949fdaabd5949829de"
 metafile = true
@@ -1301,7 +1286,7 @@ metafile = true
 
 [[files]]
 file = "mods/mvsi-moogs-voyager-structures-integrated.pw.toml"
-hash = "cf73d8d583486f2520c5bc4f6077fd852846a3091afa27fd38d580491897510d"
+hash = "01bd54c18706795ac22bca5f647518741f1542ea49e2b136ba55d902d0e970ba"
 metafile = true
 
 [[files]]
@@ -1312,6 +1297,11 @@ metafile = true
 [[files]]
 file = "mods/navas-zamega.pw.toml"
 hash = "c26813c0d001083592dd7f12a1bde79972c8d24a7ea2e9dbf59f84b52cae4da9"
+metafile = true
+
+[[files]]
+file = "mods/nether-descent.pw.toml"
+hash = "3f949edfe012c7286779c9728ba0b97965f1a9cb650bb6964ef50aaa5886887f"
 metafile = true
 
 [[files]]
@@ -1347,11 +1337,6 @@ metafile = true
 [[files]]
 file = "mods/oh-the-trees-youll-grow.pw.toml"
 hash = "5a59ebe515dbf2b637ac23bedeb33e545675668a0a454c5d6edd4d207a458844"
-metafile = true
-
-[[files]]
-file = "mods/overweight-farming.pw.toml"
-hash = "836ffb879311a16e620c05796513395a3b9009c7d27d84c5938f03add120bec6"
 metafile = true
 
 [[files]]
@@ -1397,6 +1382,11 @@ metafile = true
 [[files]]
 file = "mods/pf-neoforge.pw.toml"
 hash = "1ef7ce6d5fe6e584914680f5463508996f0dd1c2bdbc051b8b3b050c85e134ff"
+metafile = true
+
+[[files]]
+file = "mods/ping-to-map-xaeros.pw.toml"
+hash = "c5a348d207d3d2cd071d0532413254f9217d4db7b402268a25ab314f487bc68d"
 metafile = true
 
 [[files]]
@@ -1459,11 +1449,6 @@ hash = "f2e5979a9d263f1016973f2de90619865b36e9291bd0b6021c7b03b23c5c7aa5"
 metafile = true
 
 [[files]]
-file = "mods/regions-unexplored.pw.toml"
-hash = "da7443d028b43392288c061257844e750cb75b4cc10ea79dc7b6beb41049704f"
-metafile = true
-
-[[files]]
 file = "mods/reintegrated-chipped.pw.toml"
 hash = "70674900e545ac727d245a2ab269ab63db6ef94b862548a55e36b31fcd7aaa70"
 metafile = true
@@ -1514,8 +1499,8 @@ hash = "d1b23ec17a950213159633ad5102a31f1aa6382ee736b071b0d420d21bef01ce"
 metafile = true
 
 [[files]]
-file = "mods/simpleclouds-0.8.0f-b13.jar"
-hash = "8a3efb7a8b5e89a31ab229227a885039dc53f7d27ff7b46b41c04dba2d6bc076"
+file = "mods/simpleclouds-0.8.0f-b14.jar"
+hash = "b3a71849c132efd91b632d90fa2a273751c5136bf878d357b6c3863f79376efe"
 
 [[files]]
 file = "mods/simpletms-tms-and-trs-for-cobblemon.pw.toml"
@@ -1708,8 +1693,18 @@ hash = "d9c0c9209bac0b693af2a7c1e47ffb28d366bad19c91df31dc6d345fa75250a1"
 metafile = true
 
 [[files]]
+file = "mods/yungs-better-caves.pw.toml"
+hash = "9bd04b84287a7ceaae9333f87bb4ca3741506ac7bc2851174f5bc1dd4e3dcc70"
+metafile = true
+
+[[files]]
 file = "mods/yungs-better-dungeons.pw.toml"
 hash = "1496ffa30020676979e65921b91e583a2fdc77e50001e2ed55f99edf1a0ae880"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-end-island.pw.toml"
+hash = "902c397d5dfc69b497681ba71aa5b8a8a85479b1ccf25157867e4803c16dd65b"
 metafile = true
 
 [[files]]
@@ -1733,6 +1728,16 @@ hash = "9854b699d5a067c46ac99b1dedeeb529bff3fc18dd079e29b438c4cbf9725f68"
 metafile = true
 
 [[files]]
+file = "mods/yungs-cave-biomes.pw.toml"
+hash = "5a334201feff0fb2f76d486399f47d0ce5b5818c284fea895706c92bb2119470"
+metafile = true
+
+[[files]]
+file = "mods/yungs-extras.pw.toml"
+hash = "2541b092b92a82757e5d200a6093658e20db548bb8583abad3f4506ed04e5ce6"
+metafile = true
+
+[[files]]
 file = "resourcepacks/README.md"
 hash = "8aead059e6f2e1032b37eeaddf0df8e07381b50cbe2d7356fe06d896aebda969"
 
@@ -1751,6 +1756,11 @@ hash = "a4b1dc3d1c055fe1d0c186a290e4b965c1d4f5dd73e0f43c8514ff81c4d17de3"
 metafile = true
 
 [[files]]
+file = "resourcepacks/dye-the-skies.pw.toml"
+hash = "9f62c27a62625ed704beb260a89c77a336047175721ff08cffb5b12a51a148ab"
+metafile = true
+
+[[files]]
 file = "resourcepacks/e19_cobblemon_minimap_icons.pw.toml"
 hash = "224356816f38b00457a54268435fc051f03b8f649cf9df099c676e5641f9b57f"
 metafile = true
@@ -1761,8 +1771,23 @@ hash = "1fc43095c86a53b0867c00a3687645c557871d80757a9fcf16754cd192b02da3"
 metafile = true
 
 [[files]]
+file = "resourcepacks/fresh-animations-emissive.pw.toml"
+hash = "0030ef5e06ccd9299226234e84b18b39126931c3f8d8aa290da8095521e1bcb6"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-animations-objects.pw.toml"
+hash = "25bb44a5eab4cbfa0ebf87560e138d3598a1b75dfa6e30eb5a567b71a7c70ab4"
+metafile = true
+
+[[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
 hash = "815ae4435250f035ac59236ffe811d5ed58d5e686baca72a9deab742e106afb7"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-compats.pw.toml"
+hash = "4e7c63d2fa5d5ce7b4fcbd7e3f692650ace3cded783cefb94551b0a513f166dd"
 metafile = true
 
 [[files]]
@@ -1778,11 +1803,6 @@ metafile = true
 [[files]]
 file = "resourcepacks/mysticmons.pw.toml"
 hash = "edac40b0b2c7da8a5b6a889ef22f9b9b4a0e53cb0d1d6c00116884d8e4db468f"
-metafile = true
-
-[[files]]
-file = "resourcepacks/the-rename-compat-project.pw.toml"
-hash = "59762cbb7156c5aa21855cc125bb4ad639059c14705d7c8ccdf0263d2f5398cb"
 metafile = true
 
 [[files]]
