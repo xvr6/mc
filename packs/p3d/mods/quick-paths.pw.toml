@@ -1,0 +1,13 @@
+name = "Quick Paths"
+filename = "quickpaths-1.21.1-3.9.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/IPbFTPzw/versions/1J7J02Hj/quickpaths-1.21.1-3.9.jar"
+hash-format = "sha512"
+hash = "fba7accaff449fae656186c286546efa7a7a5f1ead315eb54abbfe29ac3480f6a2cc4547ba66399b3acd815058bb9c0f5afe15f5238c67106016126200d07536"
+
+[update]
+[update.modrinth]
+mod-id = "IPbFTPzw"
+version = "1J7J02Hj"

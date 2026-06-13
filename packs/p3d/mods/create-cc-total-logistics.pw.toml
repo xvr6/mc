@@ -1,6 +1,6 @@
 name = "Create: CC Total Logistics"
 filename = "createcclogistics-1.21.1-0.3.6.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/FuyTRq2g/versions/24hfd7Lg/createcclogistics-1.21.1-0.3.6.jar"
