@@ -1329,8 +1329,8 @@ hash = "9bc38c82f22d11fdbff4e2bbafbf74ad4964d8d94d220ae7e547d3a711f10e2c"
 metafile = true
 
 [[files]]
-file = "mods/simpleclouds-0.8.0f-b12-all.jar"
-hash = "91a9278ca36c0bc2466a7bfefb385b8d3fca8ab506852a262f2282f0f3f703ee"
+file = "mods/simpleclouds-0.8.0f-b14.jar"
+hash = "b3a71849c132efd91b632d90fa2a273751c5136bf878d357b6c3863f79376efe"
 
 [[files]]
 file = "mods/simpletms-tms-and-trs-for-cobblemon.pw.toml"

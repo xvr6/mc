@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "164da6486e7e14e6a32fb24e0e26bb84beb1cd0250418aca4e038074b422b403"
+hash = "521826d7303eb8fb60ec08a9df90b2b3a5a4c16057781f4e3f1979ccb1dd3923"
 
 [[files]]
 file = "config/accessories.json5"
@@ -38,7 +38,7 @@ hash = "11e1e435e0e2a619b6abd55b9ab8e96586d365292a6c2c5db7e0e5ab61c9093b"
 
 [[files]]
 file = "config/create_connected-common.toml"
-hash = "67e73cca9caf23f43aea9f37ea0a8266eb131cd258d6a25c9cc4b79e9bd3f50f"
+hash = "c23ee69f3507516f42801543b2b863fb6e0865f4c41e029b1336ebe827aecf14"
 
 [[files]]
 file = "config/create_jetpack-common.toml"
@@ -145,12 +145,20 @@ file = "config/wands.json"
 hash = "f8da70b67c4fc8ef6173cc8180236e92de42facbbfb14f0e48f17695434cbac1"
 
 [[files]]
+file = "config/xaero/minimap/client.cfg"
+hash = "80c77d2c2882d29b5ae19be7588b19fd6e9ef6ef1a9b66feda121bde76943263"
+
+[[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
 hash = "07d0fd44bee532a09f5feabd435e949d1bdb34d8d9af7c4d5b145f8543fe28c0"
 
 [[files]]
 file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
 hash = "e9434bf660bd7dd68f4e3e62f92487cf33363a9a6725d714acba77c2a9e6b53b"
+
+[[files]]
+file = "config/xaero/world-map/client.cfg"
+hash = "5becce9b6f4a7c83c4ffd6568562b81f613f14b9ea0455981478e42eb1aef1f5"
 
 [[files]]
 file = "datapacks/README.md"
@@ -331,11 +339,6 @@ metafile = true
 [[files]]
 file = "mods/betterdays.pw.toml"
 hash = "2b30fe04aa2d3ac15bfacd0d90c4fd17bbf310902bc8680fb4432d2101549e7a"
-metafile = true
-
-[[files]]
-file = "mods/blocks-bogies.pw.toml"
-hash = "feb4efaaeaa4ee270d04de7f06e377ada25e3977649c7d6de227ea6338396634"
 metafile = true
 
 [[files]]
@@ -534,6 +537,11 @@ hash = "7a94a934a9206cd9f3b965b7970291f1f2d0ce8899284c2a5799666b2d1a8204"
 metafile = true
 
 [[files]]
+file = "mods/copycats+-aeronautics-weight.pw.toml"
+hash = "a1e68ec75524eb10a4522c27e3429a43c22861ac3c081686bd948a06bc4cfc91"
+metafile = true
+
+[[files]]
 file = "mods/copycats.pw.toml"
 hash = "e002fab16a9b9ef0a35844030339612a38d3c58b0b93e97a34eb43ddc9108be7"
 metafile = true
@@ -561,6 +569,16 @@ metafile = true
 [[files]]
 file = "mods/create-aeronautics-climbable-rope.pw.toml"
 hash = "4826787724dabb396681358d97bce2e5649a4fbad2f210588231d8e7293740e8"
+metafile = true
+
+[[files]]
+file = "mods/create-aeronautics-compatability.pw.toml"
+hash = "14a661c7ccb290a48b14ed189ff5728cc50d7dd1606368e979464aff1faa9e5b"
+metafile = true
+
+[[files]]
+file = "mods/create-aeronautics-portable-engine-liquid-fuel.pw.toml"
+hash = "aa69dc9a1d57d4c3c4f83627017b5a741c301f42f83f25a47bc420e869f9d931"
 metafile = true
 
 [[files]]
@@ -1588,8 +1606,8 @@ hash = "d1b23ec17a950213159633ad5102a31f1aa6382ee736b071b0d420d21bef01ce"
 metafile = true
 
 [[files]]
-file = "mods/simpleclouds-0.8.0f-b14.jar"
-hash = "b3a71849c132efd91b632d90fa2a273751c5136bf878d357b6c3863f79376efe"
+file = "mods/simpleclouds-0.8.0f-b15.jar"
+hash = "e3bac63876b688d43f1eac0e51a8bcad5731e2d6bbf7903f746ffa8a58b6cd6d"
 
 [[files]]
 file = "mods/simpletms-tms-and-trs-for-cobblemon.pw.toml"
@@ -1759,16 +1777,6 @@ metafile = true
 [[files]]
 file = "mods/via-romana.pw.toml"
 hash = "d96fe12674f0a9d208ab683e0799542b03ddfd9b17bd89996f3fca73dd3df2dd"
-metafile = true
-
-[[files]]
-file = "mods/vista-aeronautics-fix.pw.toml"
-hash = "72010b09a0bf4d7622d86bae25852c88d71f7259eea2d1c6955b90af4935b682"
-metafile = true
-
-[[files]]
-file = "mods/vista_tv.pw.toml"
-hash = "5367de6572975a1ceaada2d2468624ada048810923fc51e10cc641a8a50da069"
 metafile = true
 
 [[files]]
