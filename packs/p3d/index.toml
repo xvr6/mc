@@ -169,8 +169,8 @@ file = "datapacks/[V.1.4.1] Cobblemon Stellar Blue.zip"
 hash = "76b7f863833a4ac4cd1063c8d43218a9f489d3d36fde39bf7cfeb95dcaeeb0e4"
 
 [[files]]
-file = "datapacks/allthemons.pw.toml"
-hash = "24e843ff2e04d8c59610a6ee195a394511806cfbad1aa0797b0a1e7ce8fe8a52"
+file = "datapacks/allthemons-x-mega-showdown-legacy.pw.toml"
+hash = "717c920b406cf6ae8ac43ac402373660be271e78f27fb32aa4f522ee5d51d1ba"
 metafile = true
 
 [[files]]
@@ -192,14 +192,6 @@ metafile = true
 file = "datapacks/mysticmons.pw.toml"
 hash = "d7f25a2f2a827a5d295298b855409e06db860cac5146d037b716e3b79af1e48c"
 metafile = true
-
-[[files]]
-file = "datapacks/poinky-compat/data/cobblemon/spawn_pool_world/0183_marill.json"
-hash = "2cee6e8c66a6bb93490aea5159cf90a432fa2acb6e50ccd846d839d87bdd7ea8"
-
-[[files]]
-file = "datapacks/poinky-compat/data/cobblemon/spawn_pool_world/0298_azurill.json"
-hash = "2cee6e8c66a6bb93490aea5159cf90a432fa2acb6e50ccd846d839d87bdd7ea8"
 
 [[files]]
 file = "datapacks/poinky-compat/data/poinky_compat/recipe/haunting/cinder_flour.json"
@@ -253,7 +245,7 @@ metafile = true
 
 [[files]]
 file = "mods/ambient-environment.pw.toml"
-hash = "253dc274eafaebf1bbc693681e72fb175ea0d7e31198835b7f8659f6a6c369af"
+hash = "ad359890d083d7dac8c5a032cd80e29bd83f4ee949d79ba568e1b27cbf5d407c"
 metafile = true
 
 [[files]]
@@ -1612,7 +1604,7 @@ metafile = true
 
 [[files]]
 file = "mods/simpleclouds-0.8.0f-b15.jar"
-hash = "e3bac63876b688d43f1eac0e51a8bcad5731e2d6bbf7903f746ffa8a58b6cd6d"
+hash = "a719a0cbc145a4d4418818fe7b705c8c6c4cb5c325f1dbfb77765282663937a7"
 
 [[files]]
 file = "mods/simpletms-tms-and-trs-for-cobblemon.pw.toml"
@@ -1853,13 +1845,18 @@ file = "resourcepacks/[V.1.4.1] Cobblemon Stellar Blue.zip"
 hash = "76b7f863833a4ac4cd1063c8d43218a9f489d3d36fde39bf7cfeb95dcaeeb0e4"
 
 [[files]]
-file = "resourcepacks/allthemons.pw.toml"
-hash = "24e843ff2e04d8c59610a6ee195a394511806cfbad1aa0797b0a1e7ce8fe8a52"
+file = "resourcepacks/allthemons-x-mega-showdown-legacy.pw.toml"
+hash = "0394f05da4776a47705e16e90408fdcdc7a7a5d9419aeb19b8fa73cbe188c7bd"
 metafile = true
 
 [[files]]
 file = "resourcepacks/cobblemon-pokemans.pw.toml"
 hash = "a4b1dc3d1c055fe1d0c186a290e4b965c1d4f5dd73e0f43c8514ff81c4d17de3"
+metafile = true
+
+[[files]]
+file = "resourcepacks/cobblemotion.pw.toml"
+hash = "667d888aaa3e991f2063c3e0b14045eb9f36f143ca61bae1e0c630b33540f555"
 metafile = true
 
 [[files]]

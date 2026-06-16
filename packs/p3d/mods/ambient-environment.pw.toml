@@ -12,7 +12,6 @@ hash = "aad91081e677097847ad847463717fdb77abf32a1a27176b019fa919ba505a3ab01b6d06
 mod-id = "DyTvM1dv"
 version = "N7jam3SN"
 
-
 [option]
 optional = true
 default = true
