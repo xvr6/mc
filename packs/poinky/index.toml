@@ -142,8 +142,8 @@ file = "datapacks/[V.1.4.1] Cobblemon Stellar Blue.zip"
 hash = "76b7f863833a4ac4cd1063c8d43218a9f489d3d36fde39bf7cfeb95dcaeeb0e4"
 
 [[files]]
-file = "datapacks/allthemons.pw.toml"
-hash = "199cbf9de616844d09c34f5c60e7025a1310a4a921f4ffdb872e0aba935a47f5"
+file = "datapacks/allthemons-x-mega-showdown-legacy.pw.toml"
+hash = "717c920b406cf6ae8ac43ac402373660be271e78f27fb32aa4f522ee5d51d1ba"
 metafile = true
 
 [[files]]
@@ -334,11 +334,6 @@ hash = "9e8e6fefe7bbb8d00c64a5c9ee6b9dff3c7f18804f7fa7d72f07c37a1cb348a3"
 metafile = true
 
 [[files]]
-file = "mods/bl4cks-sit.pw.toml"
-hash = "2cfa9768cc635d7ec8cbc0172e62db5ad0fc79117b927344d7f2484b78ebd7b7"
-metafile = true
-
-[[files]]
 file = "mods/blueprint.pw.toml"
 hash = "0ab9d26c800d8bfc998341bf2d34c91238dbcba1f646f2c57705c1760148cc17"
 metafile = true
@@ -411,11 +406,6 @@ metafile = true
 [[files]]
 file = "mods/cluttered.pw.toml"
 hash = "503569d1bccf50d580e517550e8f66574d881deac197f30fedb0a18ebb5d3ff4"
-metafile = true
-
-[[files]]
-file = "mods/cobbledex-rei-emi-jei.pw.toml"
-hash = "a962fc59176cc2b25537df7b8e571125e21ce14ab2435cb0864013ce642dc442"
 metafile = true
 
 [[files]]
@@ -579,8 +569,18 @@ hash = "d1a7402cc94a8a857d380f68bb9a19d8981a2b3223068a53d9054e97232f4167"
 metafile = true
 
 [[files]]
+file = "mods/create-smart-bounds.pw.toml"
+hash = "7e6cdbf3b08697812e6954426b5e1aa8f3159d48e5b63913d2814a54f62d52dc"
+metafile = true
+
+[[files]]
 file = "mods/create-structures-arise.pw.toml"
 hash = "bd48df02197c531fc58f203c2b6616f8327f5c18208414060e24b12e93c8afe0"
+metafile = true
+
+[[files]]
+file = "mods/create-threaded-trains.pw.toml"
+hash = "f802c6f488a0141d9a51624bcce33c80c2c3d4bea731ea3f9301a6ec9d36cf4d"
 metafile = true
 
 [[files]]
@@ -1329,8 +1329,8 @@ hash = "9bc38c82f22d11fdbff4e2bbafbf74ad4964d8d94d220ae7e547d3a711f10e2c"
 metafile = true
 
 [[files]]
-file = "mods/simpleclouds-0.8.0f-b14.jar"
-hash = "b3a71849c132efd91b632d90fa2a273751c5136bf878d357b6c3863f79376efe"
+file = "mods/simpleclouds-0.8.0f-b15.jar"
+hash = "a719a0cbc145a4d4418818fe7b705c8c6c4cb5c325f1dbfb77765282663937a7"
 
 [[files]]
 file = "mods/simpletms-tms-and-trs-for-cobblemon.pw.toml"
@@ -1468,6 +1468,11 @@ hash = "ef870d22b5ee7e2718a1d849680d25103aae0f5a0b7c569b99032803ea772e68"
 metafile = true
 
 [[files]]
+file = "mods/tt20.pw.toml"
+hash = "ad3356f18bc95881483998ac4b7f07dd7f87c9688514274a1c4e74e8f756a358"
+metafile = true
+
+[[files]]
 file = "mods/upgrade-aquatic.pw.toml"
 hash = "c5ca24c184e37a29d5c6f1d244f0fd80e0f615723d35b4d0e04bcbd97d9bb8e4"
 metafile = true
@@ -1561,8 +1566,8 @@ file = "resourcepacks/[V.1.4.1] Cobblemon Stellar Blue.zip"
 hash = "76b7f863833a4ac4cd1063c8d43218a9f489d3d36fde39bf7cfeb95dcaeeb0e4"
 
 [[files]]
-file = "resourcepacks/allthemons.pw.toml"
-hash = "199cbf9de616844d09c34f5c60e7025a1310a4a921f4ffdb872e0aba935a47f5"
+file = "resourcepacks/allthemons-x-mega-showdown-legacy.pw.toml"
+hash = "717c920b406cf6ae8ac43ac402373660be271e78f27fb32aa4f522ee5d51d1ba"
 metafile = true
 
 [[files]]
@@ -1593,11 +1598,6 @@ metafile = true
 [[files]]
 file = "resourcepacks/ggt-pack.pw.toml"
 hash = "d3079ba5568f7e378a43402c0b5fa3e10accca577d34473b4574fc6ac6021249"
-metafile = true
-
-[[files]]
-file = "resourcepacks/invisible_item_frame.pw.toml"
-hash = "725da1fa86bd70fe0d0ac8c32ad6332cc015e38a21b21f4965ee0012743e3140"
 metafile = true
 
 [[files]]

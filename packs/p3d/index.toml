@@ -494,6 +494,11 @@ hash = "5040157557e38512b64d13395c4550950ad00acb40183cb63a9a2daba85c1b8e"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-synchro-machine.pw.toml"
+hash = "21f11922667f560d43067aa30b2717d5617b12195d74d3e08b465e2168738468"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-tim-core.pw.toml"
 hash = "4eb554732cf042b83ced2678bf3f89f250ad7a97feef8a5f87cd3afe249ca866"
 metafile = true
@@ -1739,6 +1744,16 @@ metafile = true
 [[files]]
 file = "mods/trashslot.pw.toml"
 hash = "c1e0c805d5ccd49535a6820aa8a2461a516437f90312fcadd393f928e3ce7bf2"
+metafile = true
+
+[[files]]
+file = "mods/trimmable-tools.pw.toml"
+hash = "113988ed5fa0ab2b2fbe56041852290579abc57db5f828a4c570acd4be1204e6"
+metafile = true
+
+[[files]]
+file = "mods/tt20.pw.toml"
+hash = "ad3356f18bc95881483998ac4b7f07dd7f87c9688514274a1c4e74e8f756a358"
 metafile = true
 
 [[files]]
