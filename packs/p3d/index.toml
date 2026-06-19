@@ -865,7 +865,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "2302be118a35d9b5168aad50cb0ad03e483425ebc791bbcc49eafe2793f47015"
+hash = "bac8d3996b2a72c7a5fb2e2d06c96c9943b0a0a5e90bdf244fa1efff1d8c7beb"
 metafile = true
 
 [[files]]
@@ -1049,6 +1049,11 @@ hash = "0521ed2becdf2b460511c92e80e2702a4b6e540c85c99fb571844e1c7c505724"
 metafile = true
 
 [[files]]
+file = "mods/glitchcore.pw.toml"
+hash = "e53646f88aeb6bd54c38db50da972abdac91e83c145a8f974107b0ca103b15bc"
+metafile = true
+
+[[files]]
 file = "mods/globalpacks.pw.toml"
 hash = "a7f2ae8ea415e95ce1a3518b66edcaf124d8903ff9101d07331f7fec92b3400f"
 metafile = true
@@ -1171,11 +1176,6 @@ metafile = true
 [[files]]
 file = "mods/lasers-fakemon-pack.pw.toml"
 hash = "2a5692ac291adfb1c4b7fbf9de3e768f935c6d15ed267f7a827e3c14a510f941"
-metafile = true
-
-[[files]]
-file = "mods/leaves-be-gone.pw.toml"
-hash = "583a335211bc3a21bb379394344b67d64bffea421e7f7942c254903e1d607814"
 metafile = true
 
 [[files]]
@@ -1449,6 +1449,11 @@ hash = "7333c29c224d843384e26b2c7d9af1d31dada870d776fb1ad8f3d8c3040b313d"
 metafile = true
 
 [[files]]
+file = "mods/particle-rain.pw.toml"
+hash = "6f24e7f5ecef862b1bdb61031637e27b093f185c3219023bea94d2d954ec4180"
+metafile = true
+
+[[files]]
 file = "mods/patched-figura.toml"
 hash = "5f12268195a7de04271ac7e0d49463e42150ae6f3926d061f0ea0bdf2211a4d5"
 metafile = true
@@ -1604,7 +1609,7 @@ metafile = true
 
 [[files]]
 file = "mods/shoulder-surfing-reloaded.pw.toml"
-hash = "3bcd80e70e2f251519472efe68b8153c723468104fc501e576656b27b3d18610"
+hash = "6daca84a82f0dd5066b379ccb510d144a870342817d12d58834b47b28c0d8694"
 metafile = true
 
 [[files]]
