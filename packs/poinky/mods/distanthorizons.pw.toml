@@ -14,4 +14,5 @@ version = "oYXIfeus"
 
 [option]
 optional = true
-description = "Enables rendering of far away chunks as LoDs"
+description = "Enables rendering of far away chunks as LoDs - INSANELY HIGH performance hit, but should work decently ok with included settings!"
+default = false
