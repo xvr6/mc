@@ -130,7 +130,7 @@ hash = "5966fabb763823356212fe1273dfe9fdbc708b363bd61ab7b985749ea73de8bf"
 
 [[files]]
 file = "config/tectonic.json"
-hash = "75522b9003154cdbc5f589f23d467ab0962a81a5f94becc739f8efe132fe0997"
+hash = "b031f5d2857a714cf9f1ca225625f4dd1e248a50d9fb9ca2e19677c6ddb3b6d5"
 
 [[files]]
 file = "config/vanillabackport-common.toml"
@@ -1049,6 +1049,11 @@ hash = "0521ed2becdf2b460511c92e80e2702a4b6e540c85c99fb571844e1c7c505724"
 metafile = true
 
 [[files]]
+file = "mods/geophilic.pw.toml"
+hash = "e56f8bbfe55aa00d09e341913cba870fb6218fba8df4a136f2443705982bce1f"
+metafile = true
+
+[[files]]
 file = "mods/glitchcore.pw.toml"
 hash = "e53646f88aeb6bd54c38db50da972abdac91e83c145a8f974107b0ca103b15bc"
 metafile = true
@@ -1081,6 +1086,11 @@ metafile = true
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "3d47b1d933d04934a606be1cbb67481860c3d68c9ed4efc387c7745d23b732a7"
+metafile = true
+
+[[files]]
+file = "mods/immersive-hotbar.pw.toml"
+hash = "bc08b9a16ffd0b00b0f704d674526520495e60fc92cc0f3864897d3510097ac9"
 metafile = true
 
 [[files]]
@@ -1714,6 +1724,26 @@ metafile = true
 [[files]]
 file = "mods/terrablender.pw.toml"
 hash = "15962183bec2468058c70e87aa32e902a08489b0f86741088cdc9aa958ba4931"
+metafile = true
+
+[[files]]
+file = "mods/terralith-no-structures.pw.toml"
+hash = "0bfb5c7b184192309b34edb31cf6e8725e4f595a358d8bdae60a2bd5006e07d8"
+metafile = true
+
+[[files]]
+file = "mods/terralith-restoned.pw.toml"
+hash = "abde622f6570b0b4c5ba50c6f329c174d3f8f82de3cd29523c0064b0f9d9987c"
+metafile = true
+
+[[files]]
+file = "mods/terralith.pw.toml"
+hash = "da7ee99189ad35aac094919fe33cac647d98533b23c228f10d4811f08989e2b8"
+metafile = true
+
+[[files]]
+file = "mods/terraphilic.pw.toml"
+hash = "2adf25ec00711d16b41c883e468df80e55448740b300d694364dd50744d76605"
 metafile = true
 
 [[files]]

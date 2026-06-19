@@ -1,0 +1,13 @@
+name = "Terralith: No Structures"
+filename = "Terralith_No_Structures_v1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/AVxrmCCE/versions/gHEBqjS9/Terralith_No_Structures_v1.1.jar"
+hash-format = "sha512"
+hash = "82bcebf0aefbf9e307cfaecbfd012cdda5d28e32d9c0d320ea37e00eb8f348af1132453a1cd0b0ca46cbfc785455cc9e67794d27b91217e779cb903be1cf6dd4"
+
+[update]
+[update.modrinth]
+mod-id = "AVxrmCCE"
+version = "gHEBqjS9"
