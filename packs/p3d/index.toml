@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "521826d7303eb8fb60ec08a9df90b2b3a5a4c16057781f4e3f1979ccb1dd3923"
+hash = "74187e46ea78cc4dddd82075e5f59af2f5dd3ec0a799722353b3d9514c43b2fb"
 
 [[files]]
 file = "config/accessories.json5"
@@ -86,7 +86,7 @@ hash = "0da4304d378b6b703ebc6b9b1d859ce6f30f0b48543d2d58be2b7242f3341358"
 
 [[files]]
 file = "config/ftbultimine-server.snbt"
-hash = "e2cf079fc83f62c0c2e132c1c994cc4616464e5a6ad823e5675e0e6bf6f3582f"
+hash = "d2a4447e4291bfd34285f81ff4e65eb785ba33350205e7443ddaac311186dcb0"
 
 [[files]]
 file = "config/global_packs.toml"
@@ -102,15 +102,15 @@ hash = "779e5a19c266c294003617ab5311c28c5f0223c297553ccfba03914f235cfee2"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "ef0f0d4a08169bfd15182e995c13a1b26fa54bdc1e3888706636f63d78b22a59"
+hash = "cc70c29f404ce03ad02181dcff2d817684b56e6854b9b58e47f9a4677873fc36"
+
+[[files]]
+file = "config/railways-untold-additions/config.toml"
+hash = "bdf5914c1c49e12070d0af733af49ff1bc69f709884505eeb0eac4a01bd6414e"
 
 [[files]]
 file = "config/railways-untold/config.toml"
-hash = "fb34077d9998ce231080e8e243e813ae21271a97ff3aa0e31336c7ab4cf4e0c3"
-
-[[files]]
-file = "config/shouldersurfing-client.toml"
-hash = "bb247011c98bf9fd7203c37cb7e18bb5579cf1f9d41f165c7a9202da880d8501"
+hash = "bcef2b2128660eeba64f321a3a7a9444bff8db3acfb16e769e028ca9d301ed23"
 
 [[files]]
 file = "config/simpleclouds-server.toml"
@@ -125,6 +125,10 @@ file = "config/sophisticatedbackpacks-server.toml"
 hash = "7e3c43f4d9610837c6ea27a575cf58ecccc265e3ee78415c38344436e541ddbc"
 
 [[files]]
+file = "config/sparsestructures.json5"
+hash = "7d4d5b326d41a537f32a73fb9dc1801abd17c7a7696fe26a74ce79b9472a3cd4"
+
+[[files]]
 file = "config/spawn_notification.json"
 hash = "f4b2978268ca57c2f004581d71f7ba86a43722046f71217a6f19ae8a0df72de2"
 
@@ -135,6 +139,10 @@ hash = "5966fabb763823356212fe1273dfe9fdbc708b363bd61ab7b985749ea73de8bf"
 [[files]]
 file = "config/tectonic.json"
 hash = "b031f5d2857a714cf9f1ca225625f4dd1e248a50d9fb9ca2e19677c6ddb3b6d5"
+
+[[files]]
+file = "config/underground_village/common.json"
+hash = "29dfa66e90132d0f995225e70c6f13d83c0af77e1f5a864dd4ace00c01e4e69b"
 
 [[files]]
 file = "config/vanillabackport-common.toml"
@@ -191,6 +199,10 @@ metafile = true
 file = "datapacks/mysticmons.pw.toml"
 hash = "d7f25a2f2a827a5d295298b855409e06db860cac5146d037b716e3b79af1e48c"
 metafile = true
+
+[[files]]
+file = "datapacks/poinky-compat/data/cobblemon/spawn_pool_world/README.md"
+hash = "7549086fb4081565c4f0d8e41928ab3a985c0e8f6ae4a462861cfcd6e3c9c5ca"
 
 [[files]]
 file = "datapacks/poinky-compat/data/poinky_compat/recipe/haunting/cinder_flour.json"
@@ -653,11 +665,6 @@ hash = "89f883bddfb008d0cf9b6ed4ff49795b351f3f5c3e5e3cc8e3a2818a81cea9b5"
 metafile = true
 
 [[files]]
-file = "mods/create-better-villagers.pw.toml"
-hash = "3c32f2b61b848d25bd09f139e319fb78ec505b80b62b09febb70bc45eeee198a"
-metafile = true
-
-[[files]]
 file = "mods/create-big-cannons-advanced-technologies.pw.toml"
 hash = "2de7339944ca4d988001c6cf30e9bf793cce8e18b6519fa3209afa8fb6ee3f94"
 metafile = true
@@ -1038,6 +1045,11 @@ hash = "5135cb75af54eb83a61156dd252d19f308b8674d0c5fd778da568527bf6031d3"
 metafile = true
 
 [[files]]
+file = "mods/farmers-cutting-quark.pw.toml"
+hash = "f725640348e9ae5af4edd59d1498fc7c08e58dddc29e1dd41056432a93d2737e"
+metafile = true
+
+[[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "9aab64fbec4cc794817026caf84e7d0dff14ba3892da94aa0e00d23c84560499"
 metafile = true
@@ -1173,6 +1185,11 @@ hash = "e7e6b3effe3022cf1fdb900c857111fdcbfd6b385c2d5bd28c914efaed436ecb"
 metafile = true
 
 [[files]]
+file = "mods/inventory-management-deluxe.pw.toml"
+hash = "241c4e49a6d0acbef1a436f776bef0ea7a029d5a654b3753b4e602260270b507"
+metafile = true
+
+[[files]]
 file = "mods/iris-flw-compat.pw.toml"
 hash = "b08dfd12e8e6bfada252885971e011d63e48776cb383fa14a3c52b4a4a689827"
 metafile = true
@@ -1200,6 +1217,11 @@ metafile = true
 [[files]]
 file = "mods/jade.pw.toml"
 hash = "b6e0a61fea06f8d6d8e1672cf07b682625c4b74efd548d5093cd9c1fed167eec"
+metafile = true
+
+[[files]]
+file = "mods/jamlib.pw.toml"
+hash = "750f4b552490779af147a9c70a558ab2aa1cbfd8331d5ad69efefa099854dfae"
 metafile = true
 
 [[files]]
@@ -1323,6 +1345,11 @@ hash = "e04b1ac906167721ae2696ec837be362e6d6da252e8bc5c0bac29974fbae0461"
 metafile = true
 
 [[files]]
+file = "mods/macaws-quark.pw.toml"
+hash = "4ee2eb6702d21d85aa825c5fbf61273564e4b0bee3182bb9c0b3e24e51203081"
+metafile = true
+
+[[files]]
 file = "mods/macaws-roofs.pw.toml"
 hash = "b5f1c37740051774214d8dd035df9bac68ddd4d8c71ed8949fdaabd5949829de"
 metafile = true
@@ -1373,11 +1400,6 @@ hash = "13481133d139f134bd3407983e29f86df835ff66bacb013d9d43e14f155241f4"
 metafile = true
 
 [[files]]
-file = "mods/missingmons-cobblemon.pw.toml"
-hash = "b5fd0f5908a1ba4703edae2e485553d0cdfacdaf95f8ba63f0849ea5035545c2"
-metafile = true
-
-[[files]]
 file = "mods/mixintrace-reforged.pw.toml"
 hash = "238b4a0a76d7c739e757554d234c0df2388f30df31fcdf45a53c6006272b55be"
 metafile = true
@@ -1408,11 +1430,6 @@ hash = "65c29f33b71b18965c3c98afb566254004542cef0a885ed278deb40a4e74f3d1"
 metafile = true
 
 [[files]]
-file = "mods/moogs-voyager-structures.pw.toml"
-hash = "edd4f14e0c6af065bb3bb51e1b24833ec8a722cf4a79724567ff997bd7e1e42b"
-metafile = true
-
-[[files]]
 file = "mods/moonlight.pw.toml"
 hash = "ebca20d77b200ff48f7e431ccffac2c2db6844ef4f9304452a0201f5c0307008"
 metafile = true
@@ -1428,6 +1445,16 @@ hash = "6bc414cc0f2d4c078fe83f384d786343f701f371d657c5279b5b0df1595804bd"
 metafile = true
 
 [[files]]
+file = "mods/movable-tracks.pw.toml"
+hash = "9bd78d5332debff02d8b141f9a2050c29a60e236b5a1917fdc3acb27c0bf7ce7"
+metafile = true
+
+[[files]]
+file = "mods/moyai.pw.toml"
+hash = "8b041aed68ea4b1e60100c865fd6510f18b0aa5efea7cc3cb1faab2bbe926ae1"
+metafile = true
+
+[[files]]
 file = "mods/mru.pw.toml"
 hash = "42805ef7e224873873d190b0363f2a53dae02530553574f29fab92e258bc0470"
 metafile = true
@@ -1440,11 +1467,6 @@ metafile = true
 [[files]]
 file = "mods/mtr-moogs-temples-reimagined.pw.toml"
 hash = "3ddc05a7d682137a05b62becb45435ea1e74af4a2a9e33b8f009bd7bc6d94497"
-metafile = true
-
-[[files]]
-file = "mods/mvsi-moogs-voyager-structures-integrated.pw.toml"
-hash = "01bd54c18706795ac22bca5f647518741f1542ea49e2b136ba55d902d0e970ba"
 metafile = true
 
 [[files]]
@@ -1614,21 +1636,22 @@ metafile = true
 
 [[files]]
 file = "mods/railways-additions.pw.toml"
-hash = "a6060d6a1d17dc4a2fcaf1d9b0418d3d6cce37f74fcf86a94923d879e7f30b60"
+hash = "2a3e3807ef463cf1100a2080d1629e06db7f1e5e776703585ef735c1de7871eb"
 metafile = true
 
 [[files]]
 file = "mods/railways-untold.pw.toml"
-hash = "e96b5f3d174a5aa906ce214ebe511ca680c2c62fc73bce46d35c2608de53a8d8"
+hash = "8d74d198c720aa6802f2bbc957be4e5e53a7dd43426f0316738ffb75f7d32da8"
 metafile = true
-
-[[files]]
-file = "mods/railwaysuntold-neoforge-1.2.0Snapshot4.jar"
-hash = "062766db7bd85782aa5f34e8fbcaaed4fe96bddc58a02266557749cd8fdb6f3f"
 
 [[files]]
 file = "mods/ranged-weapon-api.pw.toml"
 hash = "c0014740246a7e9427afe968d43e129f4d21b899e0e04fa036bab758bc11f713"
+metafile = true
+
+[[files]]
+file = "mods/rch-supplementaries-compat.pw.toml"
+hash = "8ebb23ea1093c4a9b4389164489dffcd9b2a44d27834392c60f94375d0ee864c"
 metafile = true
 
 [[files]]
@@ -1669,6 +1692,11 @@ metafile = true
 [[files]]
 file = "mods/ribbits.pw.toml"
 hash = "6a598c073aabc968d8ee736141d238c517e13662f3de0feb81796cb9c0d6f4f0"
+metafile = true
+
+[[files]]
+file = "mods/rightclickharvest.pw.toml"
+hash = "9c0d37bfbfdda77af1946da1d80aa48e7dfea9611c43d5c81c70676b1d854af6"
 metafile = true
 
 [[files]]
@@ -1720,10 +1748,6 @@ metafile = true
 file = "mods/shoulder-surfing-reloaded.pw.toml"
 hash = "6daca84a82f0dd5066b379ccb510d144a870342817d12d58834b47b28c0d8694"
 metafile = true
-
-[[files]]
-file = "mods/simpleclouds-0.8.0f-b15.jar"
-hash = "a719a0cbc145a4d4418818fe7b705c8c6c4cb5c325f1dbfb77765282663937a7"
 
 [[files]]
 file = "mods/simpletms-tms-and-trs-for-cobblemon.pw.toml"
@@ -1822,7 +1846,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "1698806f61f20be2a046d1b10dae35a6e045ae32d82b04e988283ecf62099320"
+hash = "e4ced1c70be45fd8e734418769c36f8af66b62d46c5171e931b7195cd84de434"
 metafile = true
 
 [[files]]

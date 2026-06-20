@@ -275,7 +275,7 @@
 	"Easy Transferring" = true
 	"Expanded Item Interactions" = true
 	"Hotbar Changer" = true
-	"Inventory Sorting" = true
+	"Inventory Sorting" = false
 	"Item Sharing" = true
 	"Quick Armor Swapping" = true
 
@@ -311,11 +311,11 @@
 		"Animation Time" = 7.0
 
 	[management.inventory_sorting]
-		"Enable Player Inventory" = true
-		"Enable Player Inventory In Chests" = true
-		"Enable Chests" = true
+		"Enable Player Inventory" = false
+		"Enable Player Inventory In Chests" = false
+		"Enable Chests" = false
 		#Play a click when sorting inventories using keybindings
-		"Satisfying Click" = true
+		"Satisfying Click" = false
 
 	[management.item_sharing]
 		#In ticks.
@@ -330,7 +330,7 @@
 	Abacus = true
 	"Ambient Discs" = true
 	"Ancient Tomes" = false
-	"Beacon Redirection" = false
+	"Beacon Redirection" = true
 	"Bottled Cloud" = false
 	"Color Runes" = false
 	"Endermosh Music Disc" = true
@@ -1538,7 +1538,7 @@
 	"Elytra Indicator" = false
 	"Greener Grass" = false
 	"Improved Tooltips" = true
-	"Long Range Pick Block" = true
+	"Long Range Pick Block" = false
 	"Microcrafting Helper" = false
 	"Soul Candles" = true
 	"Usage Ticker" = true

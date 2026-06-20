@@ -62,7 +62,7 @@
 		
 		# When true, right-clicking a crop block without the Ultimine key held harvests it
 		# Default: true
-		single_crop_harvesting: true
+		single_crop_harvesting: false
 	}
 	misc: {
 		# If a block couldn't be broken (even though it should be), stop ultimining immediately instead of skipping to the next block.
