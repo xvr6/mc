@@ -1,16 +1,17 @@
-name = "Shoulder Surfing Reloaded"
-filename = "ShoulderSurfing-NeoForge-1.21.1-4.22.12.jar"
+name = "[Visual] Shoulder Surfing Reloaded"
+filename = "ShoulderSurfing-NeoForge-1.21.1-5.0.2.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/kepjj2sy/versions/hIHjK7MW/ShoulderSurfing-NeoForge-1.21.1-4.22.12.jar"
+url = "https://cdn.modrinth.com/data/kepjj2sy/versions/sQituBzN/ShoulderSurfing-NeoForge-1.21.1-5.0.2.jar"
 hash-format = "sha512"
-hash = "a38dd972b32c1feef8c432b5c2f3434dcff1661cab425d303ae2943d1142d456f99b4db87a02342ac46477e3b7626205088ebe077381e97bf7c57b873f48e70d"
+hash = "f56faed18cc546a606ebd552fb68b5b5d2db5e5f5ba1c79df0d9764f3b809d0219a64e231203fd5961466139ddcebb3693dc11a32a42704e449c4a3a42a87886"
 
 [update]
 [update.modrinth]
 mod-id = "kepjj2sy"
-version = "hIHjK7MW"
+version = "sQituBzN"
 
 [option]
 optional = true
+description = "Replaces 3rd person with a more dynamic perspective like a proper 3rd person game! Tied with the better player animations this is actually peak once you get used to it :3"

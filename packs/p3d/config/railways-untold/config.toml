@@ -145,13 +145,13 @@
 	#Smaller values allow tighter turns but may cause train navigation issues.
 	# Default: 15
 	# Range: 10 ~ 50
-	minCurveRadius = 25
+	minCurveRadius = 15
 	#
 	#Maximum curve radius in blocks.
 	#Larger values create wider, smoother turns.
 	# Default: 25
 	# Range: 10 ~ 100
-	maxCurveRadius = 50
+	maxCurveRadius = 25
 	#
 	#Minimum height above water level for bridge tracks over oceans and rivers.
 	#Set to 0 to disable water bridging.

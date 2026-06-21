@@ -181,14 +181,6 @@ hash = "d7f25a2f2a827a5d295298b855409e06db860cac5146d037b716e3b79af1e48c"
 metafile = true
 
 [[files]]
-file = "datapacks/poinky-compat/data/cobblemon/spawn_pool_world/0183_marill.json"
-hash = "2cee6e8c66a6bb93490aea5159cf90a432fa2acb6e50ccd846d839d87bdd7ea8"
-
-[[files]]
-file = "datapacks/poinky-compat/data/cobblemon/spawn_pool_world/0298_azurill.json"
-hash = "2cee6e8c66a6bb93490aea5159cf90a432fa2acb6e50ccd846d839d87bdd7ea8"
-
-[[files]]
 file = "datapacks/poinky-compat/data/poinky_compat/recipe/haunting/cinder_flour.json"
 hash = "9731ed5a1c22a0e3500d223a226f8a80665b233063293eaffdfec449c7aedd6c"
 
@@ -650,7 +642,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "b8ae41950db281f8cfc3cb1b4881dc942cb5e41381f0a45dda3c18b848501acd"
+hash = "149198b375d1ab5a0b0390f53c67c5ab297f8caa1adc7b4b2e89de3cd4b30b8f"
 metafile = true
 
 [[files]]
@@ -1327,10 +1319,6 @@ metafile = true
 file = "mods/shoulder-surfing-reloaded.pw.toml"
 hash = "9bc38c82f22d11fdbff4e2bbafbf74ad4964d8d94d220ae7e547d3a711f10e2c"
 metafile = true
-
-[[files]]
-file = "mods/simpleclouds-0.8.0f-b15.jar"
-hash = "a719a0cbc145a4d4418818fe7b705c8c6c4cb5c325f1dbfb77765282663937a7"
 
 [[files]]
 file = "mods/simpletms-tms-and-trs-for-cobblemon.pw.toml"

@@ -1,4 +1,4 @@
-name = "Fresh Animations: Player Extension"
+name = "[Animations] FA: Player Extension"
 filename = "FA+Player-v1.1.zip"
 side = "client"
 
@@ -14,4 +14,5 @@ version = "Wj7NeGjP"
 
 [option]
 optional = true
+description = "Better player animations"
 default = true

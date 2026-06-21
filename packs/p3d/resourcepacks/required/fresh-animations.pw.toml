@@ -1,4 +1,4 @@
-name = "Fresh Animations"
+name = "[Animations] Fresh Animations"
 filename = "FreshAnimations_v1.10.4.zip"
 side = "client"
 
@@ -14,4 +14,5 @@ version = "xN57JJts"
 
 [option]
 optional = true
+description = "Better minecraft mob animations"
 default = true

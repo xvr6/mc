@@ -1,4 +1,4 @@
-name = "Stellar View"
+name = "[Visual] Stellar View"
 filename = "Stellar View-1.21.1-0.5.2-NeoForge.jar"
 side = "client"
 
@@ -14,4 +14,5 @@ version = "QD13LaRR"
 
 [option]
 optional = true
+description = "makes the skybox pretty :3"
 default = true

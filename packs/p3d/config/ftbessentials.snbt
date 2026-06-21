@@ -54,7 +54,7 @@
 		# Allows admins to configure kits of items that can be given to players.
 		kit: {
 			# Default: true
-			enabled: false
+			enabled: true
 		}
 		
 		# Allows admins to restrict players from chatting by using a command to mute (or unmute) them
@@ -80,7 +80,7 @@
 	integration: {
 		# If true, and FTB Team Bases is installed, then the '/spawn' command will instead send players to the lobby
 		# Default: true
-		team_bases_spawn_override: true
+		team_bases_spawn_override: true4
 	}
 	
 	# Miscellaneous features and utilities
@@ -118,7 +118,7 @@
 		# Allows users to view leaderboard stats about everyone on the server.
 		leaderboard: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows users to list nearby players, sorted by distance

@@ -1,4 +1,4 @@
-name = "Fresh Compats"
+name = "[Animations] Fresh Compats"
 filename = "FreshCompats_v1.6.zip"
 side = "client"
 
@@ -14,4 +14,5 @@ version = "EHQK5l1g"
 
 [option]
 optional = true
+description = "Better mob animations for a few other mods"
 default = true

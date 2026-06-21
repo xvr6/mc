@@ -247,7 +247,7 @@ showGenerationProgress = "OVERLAY"
 # This should only be set if you have a pre-generated world that has a very limited size. 
 # Setting this on a normal MC world will prevent the world generator from filling 
 # out your render distance.
-generationMaxChunkRadius = 192
+generationMaxChunkRadius = 128
 #
 # How often should the distant generator progress be displayed?
 generationProgressDisplayIntervalInSeconds = 2

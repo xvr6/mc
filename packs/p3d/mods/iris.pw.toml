@@ -1,4 +1,4 @@
-name = "Iris Shaders"
+name = "[Shaders] Iris Shaders"
 filename = "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar"
 side = "client"
 
@@ -15,3 +15,4 @@ version = "KduFYu4t"
 [option]
 optional = true
 description = "Shaders!"
+default = true

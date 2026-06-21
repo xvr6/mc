@@ -1,4 +1,4 @@
-name = "Fresh Animations: Objects"
+name = "[Animations] FA: Objects"
 filename = "FA+Objects-v2.1.1.zip"
 side = "client"
 
@@ -14,4 +14,5 @@ version = "Qf2NGZhY"
 
 [option]
 optional = true
+description = "Some tile entities get better animations"
 default = true

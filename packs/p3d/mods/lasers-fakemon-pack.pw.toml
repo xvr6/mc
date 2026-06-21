@@ -1,13 +1,13 @@
 name = "Laser's Fakemon Pack [Cobblemon]"
-filename = "lasers-fakemon-pack-1.5.5.jar"
+filename = "lasers-fakemon-pack-1.6.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/MkY2yZlo/versions/jN4zNjKH/lasers-fakemon-pack-1.5.5.jar"
+url = "https://cdn.modrinth.com/data/MkY2yZlo/versions/oqvgN1ML/lasers-fakemon-pack-1.6.jar"
 hash-format = "sha512"
-hash = "d94f4b17412c10cd66bedcb0b26521f5c7f20097c9cc5bc15308730b3fb1a799793187db45d09e7d245059c7b497553adeeea450411ccdf5525304c7f7b114fe"
+hash = "1b4c8c5caad7663a7a26c0047eaa0cf190489fd0ac525b3f82bd121acc4f5a333efa9a29f94a3a56f93858f173d2205cc536651dac653252b1881e361139b949"
 
 [update]
 [update.modrinth]
 mod-id = "MkY2yZlo"
-version = "jN4zNjKH"
+version = "oqvgN1ML"

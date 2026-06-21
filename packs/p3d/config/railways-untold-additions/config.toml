@@ -11,7 +11,7 @@
 	#Enable solid collision for Create train tracks.
 	#When enabled, tracks have full collision shapes so players don't fall through.
 	#Applies to both straight tracks and curved (bezier) track segments.
-	solidTrackCollision = true
+	solidTrackCollision = false
 
 #Compatibility Settings
 #Integration with other mods
