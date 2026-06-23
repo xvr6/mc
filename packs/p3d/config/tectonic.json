@@ -1,12 +1,12 @@
 {
   "__notice": "Tectonic has a config screen that explains every setting if you go to the in-game mod menu! You can also find config info here -> https://github.com/Apollounknowndev/tectonic/wiki/Config",
   "biomes": {
-    "temperature_multiplier": 1.1,
+    "temperature_multiplier": 1.0,
     "temperature_offset": 0.0,
-    "temperature_scale": 0.25,
+    "temperature_scale": 0.15,
     "vegetation_multiplier": 1.0,
     "vegetation_offset": 0.0,
-    "vegetation_scale": 0.25
+    "vegetation_scale": 0.15
   },
   "caves": {
     "carvers_enabled": true,
@@ -20,12 +20,12 @@
     "spaghetti_enabled": true
   },
   "continents": {
-    "continents_scale": 0.15,
-    "erosion_scale": 0.25,
+    "continents_scale": 0.1,
+    "erosion_scale": 0.15,
     "flat_terrain_skew": 0.1,
     "jungle_pillars": true,
     "ocean_offset": -0.75,
-    "ridge_scale": 0.25,
+    "ridge_scale": 0.175,
     "river_ice": false,
     "river_lanterns": true,
     "rolling_hills": true,

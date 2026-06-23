@@ -1,6 +1,7 @@
 name = "Laser's Fakemon Pack [Cobblemon]"
 filename = "Laser's Fakemon Pack v1.6.zip"
-side = "both"
+side = "client"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/MkY2yZlo/versions/M6fvMASD/Laser%27s%20Fakemon%20Pack%20v1.6.zip"
