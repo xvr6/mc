@@ -11,3 +11,8 @@ hash = "a2a5988094b46408622b532c23c476964e07609096455caa04e85c16df9b676bc7265f1f
 [update.modrinth]
 mod-id = "c1Ea817q"
 version = "RrOKEgfZ"
+
+[option]
+optional = true
+description = "Compat between better combat and FA"
+default = true

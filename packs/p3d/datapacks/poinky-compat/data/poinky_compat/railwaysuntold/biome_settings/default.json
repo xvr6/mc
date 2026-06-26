@@ -2,7 +2,7 @@
     "biome_filter": [],
     "priority": 10,
     "tunnel_facade_block": "minecraft:tuff_bricks",
-    "terrain_fill_block": "minecraft:andesite",
+    "terrain_fill_block": "chipped:andesite_gravel",
     "terrain_fill_base_block": "minecraft:cobblestone",
     "station_foundation_block": "minecraft:cobblestone",
     "lighting_block": "minecraft:wall_torch",

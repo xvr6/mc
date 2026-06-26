@@ -86,27 +86,11 @@ hash = "d2a4447e4291bfd34285f81ff4e65eb785ba33350205e7443ddaac311186dcb0"
 
 [[files]]
 file = "config/global_packs.toml"
-hash = "e7ca7b0b663eca139817bd652ae5bb13365b0298e9553191a14c544b6ba79faf"
-
-[[files]]
-file = "config/maplink/friends.json5"
-hash = "b1a7457b9b3cf2ca24b13ee9ce31476d7e4c53b3207f2eed8c6849192c5dec95"
+hash = "4e42824dccbab958c51a7db9aee460d127c6f7ccbb7fa92bbfeed28f3afe38b7"
 
 [[files]]
 file = "config/maplink/general.json5"
 hash = "12e39a68e24d238853f65b79929930a8c5a43a4b6c555a7fff1a573780bb175d"
-
-[[files]]
-file = "config/maplink/hud.json5"
-hash = "01032bed5a917ac77d6bdabb4eb13da33042420fa2a4a16c5c878ebb4056c8f2"
-
-[[files]]
-file = "config/maplink/minimap.json5"
-hash = "f7c9a52e9c5a0cdfe88f90d9e004b3f73d12ac1928781e3d2352f6d1bbf96142"
-
-[[files]]
-file = "config/maplink/worldmap.json5"
-hash = "dc15bba984e69a7c9464ff7e304a7f0c321b6cccd1490ea6f8118e604a29d4b4"
 
 [[files]]
 file = "config/mindfuldarkness-client.toml"
@@ -127,14 +111,6 @@ hash = "945b2c19c03a8b93d0026e27a517ec19ac34e2032791427ca37dd1753a43d2dd"
 [[files]]
 file = "config/railways-untold/config.toml"
 hash = "8ecbec37cb01741c995116e8af4b67ccc8f5a8b89594063b932792d3f973a671"
-
-[[files]]
-file = "config/simpleclouds-server.toml"
-hash = "8b1fc87f14368b5eb945ad0ea8daebd4ad525f7e12808d136448481e99995e86"
-
-[[files]]
-file = "config/simpleclouds.toml"
-hash = "60bfe4a03c4c4763f82f25e3cadd91937330f6d9173ecfaaa1be4d6ca8e6ab4b"
 
 [[files]]
 file = "config/sophisticatedbackpacks-server.toml"
@@ -189,65 +165,89 @@ file = "config/xaero/world-map/client.cfg"
 hash = "5becce9b6f4a7c83c4ffd6568562b81f613f14b9ea0455981478e42eb1aef1f5"
 
 [[files]]
-file = "datapacks/README.md"
-hash = "c18e89c28e4a7c17abbb5df17b1ae7c43e72d9bb3f1752854521913ef4925920"
-
-[[files]]
-file = "datapacks/required/201-trainers-cobblemon.pw.toml"
+file = "datapacks/201-trainers-cobblemon.pw.toml"
 hash = "095183fff656f8269396b27475daed6e724b8d4558b99439d0034891048d227a"
 metafile = true
 
 [[files]]
-file = "datapacks/required/[V.1.4.1] Cobblemon Stellar Blue.zip"
+file = "datapacks/README.md"
+hash = "c18e89c28e4a7c17abbb5df17b1ae7c43e72d9bb3f1752854521913ef4925920"
+
+[[files]]
+file = "datapacks/[V.1.4.1] Cobblemon Stellar Blue.zip"
 hash = "76b7f863833a4ac4cd1063c8d43218a9f489d3d36fde39bf7cfeb95dcaeeb0e4"
 
 [[files]]
-file = "datapacks/required/allthemons-x-mega-showdown-legacy.pw.toml"
+file = "datapacks/allthemons-x-mega-showdown-legacy.pw.toml"
 hash = "717c920b406cf6ae8ac43ac402373660be271e78f27fb32aa4f522ee5d51d1ba"
 metafile = true
 
 [[files]]
-file = "datapacks/required/cobblemon-expanded-spawns.pw.toml"
+file = "datapacks/cobblemon-expanded-spawns.pw.toml"
 hash = "c8691f14171fed0678c1b86682575e61ca4b8a2e81857b7819d55d94e3bd7922"
 metafile = true
 
 [[files]]
-file = "datapacks/required/lasers-fakemon-pack.pw.toml"
+file = "datapacks/lasers-fakemon-pack.pw.toml"
 hash = "c7a3d4297091650fb5387f3203c2b058ced15f5c34cf3317b972d33e8670b083"
 metafile = true
 
 [[files]]
-file = "datapacks/required/mysticmons.pw.toml"
+file = "datapacks/mysticmons.pw.toml"
 hash = "d7f25a2f2a827a5d295298b855409e06db860cac5146d037b716e3b79af1e48c"
 metafile = true
 
 [[files]]
-file = "datapacks/required/poinky-compat/data/cobblemon/spawn_pool_world/README.md"
+file = "datapacks/poinky-compat/data/cobblemon/spawn_pool_world/README.md"
 hash = "7549086fb4081565c4f0d8e41928ab3a985c0e8f6ae4a462861cfcd6e3c9c5ca"
 
 [[files]]
-file = "datapacks/required/poinky-compat/data/poinky_compat/railwaysuntold/biome_settings/default.json"
-hash = "c58313496cb60674c69b16c218ec5ad2c494b7ded8cae8db09a37883ba461532"
+file = "datapacks/poinky-compat/data/cobblemon/species/aggron.json"
+hash = "13ea952b4ed8ec24b685c4a901fe61ba674f930520cd0ae81f3baa8d90541ca4"
 
 [[files]]
-file = "datapacks/required/poinky-compat/data/poinky_compat/recipe/haunting/cinder_flour.json"
+file = "datapacks/poinky-compat/data/cobblemon/species/lunatone.json"
+hash = "cc46a434f79e4506ea91b4eb1291a4592c8a80199d6de6c118f2e94e913fc51c"
+
+[[files]]
+file = "datapacks/poinky-compat/data/cobblemon/species/solrock.json"
+hash = "670e2bb5371ce9b18d9a47b1f7ac29c0f410c7e89fa6dcaf7d92784265838f19"
+
+[[files]]
+file = "datapacks/poinky-compat/data/cobblemon/species/trevenant.json"
+hash = "10576bde59351e470521597f8434f34cba3612d327c353b32579423fa8f431d0"
+
+[[files]]
+file = "datapacks/poinky-compat/data/cobblemon/species/wishiwashi.json"
+hash = "92d780fa0d565ee21ae7f5ef079a09dbde64d3ba760c6476d1575788f3f51bd2"
+
+[[files]]
+file = "datapacks/poinky-compat/data/cobblemon/species_additions/trevenant_pale.json"
+hash = "1a566c78eef759f33bf4865dbce56ad9e5f6ab5d985f3aa4ed9361b41f58a5db"
+
+[[files]]
+file = "datapacks/poinky-compat/data/poinky_compat/railwaysuntold/biome_settings/default.json"
+hash = "c87b7a208c84bb231ae0912b09c67232a6f313167a4e4f168c5569d6e448cae5"
+
+[[files]]
+file = "datapacks/poinky-compat/data/poinky_compat/recipe/haunting/cinder_flour.json"
 hash = "82bf7693af7cc4fb97b7f8a3310d3cd755216cddb01eef618ef22dc953137dc3"
 
 [[files]]
-file = "datapacks/required/poinky-compat/data/poinky_compat/recipe/hydraulic_compacting/diamond_shard.json"
+file = "datapacks/poinky-compat/data/poinky_compat/recipe/hydraulic_compacting/diamond_shard.json"
 hash = "19d843ca745cd92dd2e177a8d8ce6b6a50f8d1ebe7ebba40409763ad80382639"
 
 [[files]]
-file = "datapacks/required/poinky-compat/data/poinky_compat/recipe/shapeless/crimson_nylium.json"
+file = "datapacks/poinky-compat/data/poinky_compat/recipe/shapeless/crimson_nylium.json"
 hash = "1ee4374f08cae0de656251fcf1a498307a9d4ca0bba245c5bbfa194d9a7f732c"
 
 [[files]]
-file = "datapacks/required/poinky-compat/data/poinky_compat/recipe/shapeless/warped_nylium.json"
+file = "datapacks/poinky-compat/data/poinky_compat/recipe/shapeless/warped_nylium.json"
 hash = "93c397ceab19500905ef60ab2686253e3bf398d05f1a442cc0a87e0d5c692d75"
 
 [[files]]
-file = "datapacks/required/poinky-compat/pack.mcmeta"
-hash = "63d00ee4ec71953f8b611a578d2083a51526804cd7459cc0476abdadb9a00954"
+file = "datapacks/poinky-compat/pack.mcmeta"
+hash = "b7d9412dc1211eaa7230d1f2c89857426d32a914332e0149b14dcf3e6663726d"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -510,6 +510,11 @@ hash = "503569d1bccf50d580e517550e8f66574d881deac197f30fedb0a18ebb5d3ff4"
 metafile = true
 
 [[files]]
+file = "mods/cobbledex-rei-emi-jei.pw.toml"
+hash = "99cd731a5cf46b1ed0a0659e92ad2325e8c087b48bb6a0040d4fa73f6a287d1b"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-better-campfire-pot.pw.toml"
 hash = "ca6ddda4800a302cc25913b990fb2a669bb4eea038ba8af03fbcd03c17c571a8"
 metafile = true
@@ -622,6 +627,11 @@ metafile = true
 [[files]]
 file = "mods/colorwheel.pw.toml"
 hash = "8f26c2ec8d7f886f1d73eeec176652156d598f7dc80f0906f41944287923a13e"
+metafile = true
+
+[[files]]
+file = "mods/configured.pw.toml"
+hash = "af4dc4828902eae1784568632a749fe9a442943f1570ac0ba3ea75e79934be41"
 metafile = true
 
 [[files]]
@@ -980,6 +990,11 @@ hash = "aa675b16bedfe10aaa4c77bf4e05c1425118637eef13bf7ed466597e6aa2afd7"
 metafile = true
 
 [[files]]
+file = "mods/dark-mode-everywhere.pw.toml"
+hash = "d4d0f4cc0c9636daaab5ab195e89ccaa7f187d2c4ad7e94a217fae9eb140b0ee"
+metafile = true
+
+[[files]]
 file = "mods/data-anchor.pw.toml"
 hash = "01d92d8ba2e35a9a46405a601849aed400b4d539f7db9b6500ab5ee40806da9a"
 metafile = true
@@ -991,7 +1006,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "d710a3bc0da177729f563bb161db4b3284cbacf66ef96b95089c083efb8697c6"
+hash = "ef595e3452cf1695c64685efaf15445a28434c9856f0d000c14941ecf80829ca"
 metafile = true
 
 [[files]]
@@ -1025,16 +1040,6 @@ hash = "5c3c3dce1d331a31e67bbc826b0cdaf6db79723cd4739728ff274f4f0b712fe2"
 metafile = true
 
 [[files]]
-file = "mods/dye-depot.pw.toml"
-hash = "80b348059fd89aa96ada0ccb1ec872ddd8af9898a5cdf47fee4ec021ffb8bb3d"
-metafile = true
-
-[[files]]
-file = "mods/dye-the-world.pw.toml"
-hash = "64977f7098f1386de7258e28b7fb48fa3e3e5ce2f034ee6c3be63ef15318cb5b"
-metafile = true
-
-[[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "d317869f9a821b2c434aaf7341be41f2ed396893bcbeb6d9db1c8e8eea82af3a"
 metafile = true
@@ -1047,31 +1052,6 @@ metafile = true
 [[files]]
 file = "mods/elemental-wizards-rpg.pw.toml"
 hash = "3340b393119e3a585a26ba4b774a7fff8e61c1759e870583e008ce6a9dafee2f"
-metafile = true
-
-[[files]]
-file = "mods/emi-enchanting.pw.toml"
-hash = "7c006fbe7ad47bcdd1715b25cdb08699acb512a8e331a2fe4f01d898f3bb5103"
-metafile = true
-
-[[files]]
-file = "mods/emi-loot.pw.toml"
-hash = "519f011d36736129795025f19301ad2d6141f422857d6154a3df2e2019f416f3"
-metafile = true
-
-[[files]]
-file = "mods/emi-ores.pw.toml"
-hash = "f2cbcb3d01017133313e1594cb89f052923592b7fa0c78eb9b6d09fb6e03bfb5"
-metafile = true
-
-[[files]]
-file = "mods/emi.pw.toml"
-hash = "67bb77eae0b644960be3b1074178ceb5d54facbb42f326981b9d94625238a54a"
-metafile = true
-
-[[files]]
-file = "mods/emiffect.pw.toml"
-hash = "b53c40130b7c2f91237cf62480877414296fbea3525f2c824351c0c07f136ddb"
 metafile = true
 
 [[files]]
@@ -1505,11 +1485,6 @@ hash = "73aba17132f267dd76ff682aa84abfb7c09d25a93b9220ee261a1e25337bebc7"
 metafile = true
 
 [[files]]
-file = "mods/mindful-darkness.pw.toml"
-hash = "045755a5ee3a04a545ad347da5fc78b546d97ded3561dd27dd9df714776423a8"
-metafile = true
-
-[[files]]
 file = "mods/miners-delight.pw.toml"
 hash = "13481133d139f134bd3407983e29f86df835ff66bacb013d9d43e14f155241f4"
 metafile = true
@@ -1547,6 +1522,11 @@ metafile = true
 [[files]]
 file = "mods/moonlight.pw.toml"
 hash = "bf3757240109ab1b642e90a8905454aa1ee715d76c55e979f51e96af6f4d07c9"
+metafile = true
+
+[[files]]
+file = "mods/more-cobblemon-tweaks.pw.toml"
+hash = "10670552c1fc1fd9bfad1c34f1c8bd8b0bbc0f8dfb4c8929b65ce5be9b914af7"
 metafile = true
 
 [[files]]
@@ -2030,11 +2010,6 @@ hash = "c1e0c805d5ccd49535a6820aa8a2461a516437f90312fcadd393f928e3ce7bf2"
 metafile = true
 
 [[files]]
-file = "mods/trimmable-tools.pw.toml"
-hash = "113988ed5fa0ab2b2fbe56041852290579abc57db5f828a4c570acd4be1204e6"
-metafile = true
-
-[[files]]
 file = "mods/tt20.pw.toml"
 hash = "ad3356f18bc95881483998ac4b7f07dd7f87c9688514274a1c4e74e8f756a358"
 metafile = true
@@ -2155,75 +2130,75 @@ hash = "cb474b6c0dde741836ed4f796f3b6ab0b9d3cdc0453e651122cd002d5d1f8df8"
 metafile = true
 
 [[files]]
-file = "resourcepacks/README.md"
-hash = "724c163295afffa949dcbe2aab248e13c6d7fd07ee8260afde6a42fc5a879b4d"
-
-[[files]]
-file = "resourcepacks/required/201-trainers-cobblemon.pw.toml"
+file = "resourcepacks/201-trainers-cobblemon.pw.toml"
 hash = "995b0cf5d67b1ba7f815bced575873f6fc39b03978d4ecc8f1f6c51280ce81db"
 metafile = true
 
 [[files]]
-file = "resourcepacks/required/Cobblemon Stellar Blue.zip"
+file = "resourcepacks/Cobblemon Stellar Blue.zip"
 hash = "76b7f863833a4ac4cd1063c8d43218a9f489d3d36fde39bf7cfeb95dcaeeb0e4"
 
 [[files]]
-file = "resourcepacks/required/allthemons-x-mega-showdown-legacy.pw.toml"
+file = "resourcepacks/README.md"
+hash = "724c163295afffa949dcbe2aab248e13c6d7fd07ee8260afde6a42fc5a879b4d"
+
+[[files]]
+file = "resourcepacks/allthemons-x-mega-showdown-legacy.pw.toml"
 hash = "0394f05da4776a47705e16e90408fdcdc7a7a5d9419aeb19b8fa73cbe188c7bd"
 metafile = true
 
 [[files]]
-file = "resourcepacks/required/dye-the-skies.pw.toml"
+file = "resourcepacks/dye-the-skies.pw.toml"
 hash = "9f62c27a62625ed704beb260a89c77a336047175721ff08cffb5b12a51a148ab"
 metafile = true
 
 [[files]]
-file = "resourcepacks/required/e19_cobblemon_minimap_icons.pw.toml"
+file = "resourcepacks/e19_cobblemon_minimap_icons.pw.toml"
 hash = "57e19f5e281f407d6335d08d8dc1de965a5fa9bcbe1f267f95bedcfc01e79db9"
 metafile = true
 
 [[files]]
-file = "resourcepacks/required/fa-player-extension-x-better-combat.pw.toml"
-hash = "936b3f09263b5e1b76a3cb0386f340d63106b92b516d87af0bfe98620a9b6e09"
+file = "resourcepacks/fa-player-extension-x-better-combat.pw.toml"
+hash = "6eabed87fce172f6d904834944a300ffc0bf3a6a964bf74b707a0fdea55a66df"
 metafile = true
 
 [[files]]
-file = "resourcepacks/required/fa-player-extension.pw.toml"
+file = "resourcepacks/fa-player-extension.pw.toml"
 hash = "9cda1565ed41c50816fe55c99f896d49eba780aa90225b3f41dbd6d11283db65"
 metafile = true
 
 [[files]]
-file = "resourcepacks/required/fresh-animations-emissive.pw.toml"
+file = "resourcepacks/fresh-animations-emissive.pw.toml"
 hash = "3a3ceaca04fba5625feb937b3c04fd089a2954ebd0590bbad8ce56e7adc7b3d9"
 metafile = true
 
 [[files]]
-file = "resourcepacks/required/fresh-animations-objects.pw.toml"
+file = "resourcepacks/fresh-animations-objects.pw.toml"
 hash = "65809e23305bde17d405a41dc5f556130d0bc7044d180167a2ddd1cb5e59ea29"
 metafile = true
 
 [[files]]
-file = "resourcepacks/required/fresh-animations.pw.toml"
+file = "resourcepacks/fresh-animations.pw.toml"
 hash = "80704e21819c5e8e5560e68ca5f9fda5bfeefd3d600d8ce7a893e260a5aef38b"
 metafile = true
 
 [[files]]
-file = "resourcepacks/required/fresh-compats.pw.toml"
+file = "resourcepacks/fresh-compats.pw.toml"
 hash = "b631e0f3f00ee528d1ba0d6660b0c37d01eb261c387f2b6f836440d98351107b"
 metafile = true
 
 [[files]]
-file = "resourcepacks/required/lasers-fakemon-pack.pw.toml"
+file = "resourcepacks/lasers-fakemon-pack.pw.toml"
 hash = "106e8ff4a891c7117f886bb78f52d7c6c0ccffccf30d67024a9080ec8544529e"
 metafile = true
 
 [[files]]
-file = "resourcepacks/required/megashowdown_repolished.pw.toml"
+file = "resourcepacks/megashowdown_repolished.pw.toml"
 hash = "569bcdad755f2457b8feee58e0e630611b7885403d700c3c155e8046ae8e2237"
 metafile = true
 
 [[files]]
-file = "resourcepacks/required/mysticmons.pw.toml"
+file = "resourcepacks/mysticmons.pw.toml"
 hash = "edac40b0b2c7da8a5b6a889ef22f9b9b4a0e53cb0d1d6c00116884d8e4db468f"
 metafile = true
 
