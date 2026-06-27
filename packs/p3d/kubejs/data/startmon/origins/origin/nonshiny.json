@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "startmon:nonshiny"
+  ],
+  "icon": {
+    "id": "kubejs:nonshiny"
+  },
+  "name": "Regular",
+  "description": "You're a regular pokemon.  No special genetic marker here.",
+  "order": 4,
+  "impact": 1
+}

@@ -1,0 +1,11 @@
+{
+  "powers": [
+  ],
+  "icon": {
+    "id": "kubejs:regular"
+  },
+  "name": "Regular",
+  "description": "You're just a regular mon from a regular region. No special form.",
+  "order": 4,
+  "impact": 1
+}

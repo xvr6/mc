@@ -250,6 +250,258 @@ file = "datapacks/poinky-compat/pack.mcmeta"
 hash = "b7d9412dc1211eaa7230d1f2c89857426d32a914332e0149b14dcf3e6663726d"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/alolain.png"
+hash = "a3242255252b27e36214076c0b8d6047fd7effdb709e287d607b0d04d84ffec7"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/bulbasaur.png"
+hash = "054f6abc728d321abf0c1c9f6571d761a8bfc3b29099e8bd5936b05878de5c6a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/charmander.png"
+hash = "c3747f76c26f29e9eb308dc022a53459ff11bb7f7ce946dcf71af4bc61f647d2"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/chespin.png"
+hash = "6cdcbe1fe70defe78d73a4cd5eec81824fbc02a1bb89f1b7f675da0ee61f9303"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/chikorita.png"
+hash = "4a882d428771d328e189410918556ff601a13e435634187bf2c04c0f7de1e52c"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/chimchar.png"
+hash = "8c99e06efd72b564eac8cec551f32ef68434eac0a5c75da232a070b21e2562a3"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/cyndaquil.png"
+hash = "cb879f228c101ddbeec5b6e0c37acad2ff06f76e5aa3de3dc608adc9c155a7e7"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/eevee.png"
+hash = "1354f12bb80f40d055776c218d815d21a23db873e3795652bf04448bf66e1022"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/enby.png"
+hash = "da2f90c9bfd0c3645c34bfb52039fdaa6aad2aed0278148dc836e297380c7e94"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/female.png"
+hash = "8c0fd88d97acdb59981bbfce467989d6194a029ffc9532fa47e8e5785b96fb0f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/fennekin.png"
+hash = "b095c1be87cc6d660f9978ef3a51aae5d1f864233db9d688a075678b3a7cd8c9"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/froakie.png"
+hash = "3764bb8dd79beb1efbff13b9d5294614916c01d2e96c596acc648c0626b45006"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/fuecoco.png"
+hash = "f16808c949e5c1e3ce52767ea368a541e4cfa076843edcb18fd576d74fb2f959"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/galarian.png"
+hash = "a37507f7e496c312429ed22b306a6dd7898092945deecfdcca75768522295214"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/grookey.png"
+hash = "b1228ce27435528b9e6ee157293405ec4e39176e728fc242f1823546b8cdb0e0"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/hisuian.png"
+hash = "87aa51c643593f85a0878b693eb6f822805bff2b629829d003434b465274c0b7"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/litten.png"
+hash = "3c439a0d5de8527adbe58ee356d31a4fd24644f75dce9faa7177d453c9461201"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/male.png"
+hash = "766de267f4238b7936aff26f38e41f27dee56a30c6fd88b6a40541731ef27405"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/mudkip.png"
+hash = "362f850a3d93b443768caeab71c55bf16c50a841ae58688e76e597c684347e4a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/nonshiny.png"
+hash = "1df5c529bf8346e1b75389e1ae93303a0604d5a7826958e7a265e7bcd5a514be"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/oshawott.png"
+hash = "cb524e13bc76fa0be70199087d78c83715bde46da702ba757c61d07f4ac96d39"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/piplup.png"
+hash = "87a826c2d6b7e73c1c2560307bc58883eec0c69be5426e511183881337d6e3a3"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/popplio.png"
+hash = "0a55f5f98f7e65c43fe2b97befd3b170aea87497233e9e76a36a301535009df5"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/quaxly.png"
+hash = "62c3bd288dfa79746b31ea6c7fea1e16297eb0aa67720d39da98f987e3a8c6da"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/regular.png"
+hash = "bdca8d9888d544291c4325fb1f7736fc302b70f97c5c1268ddb0fdb3afc77590"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/rowlet.png"
+hash = "113ea1c1abb69196e1ba7c8aeeb74a2963f2afa56287344f2479cfaaa1611762"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/scorbunny.png"
+hash = "d684656dd4c1af3048559cf7ea0f748ae48a485533122d6365461b15b53c1909"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/shiny.png"
+hash = "5a5ff5c7bebf971375ba407dbf7b526154aac83d2571284ce88062b56069ffe3"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/snivy.png"
+hash = "37e06ef4797128b7a937ad126d68ff05e6a286427135830092a9f1d4bf92282a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/sobble.png"
+hash = "a6ee8d565221eb613a0f7238984f23b4b55a7b5fd3736c858779d4e026c65171"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/sprigatito.png"
+hash = "e1ba7e4efd2fa40f12618d90246582b3c1ddb56d6dddccfa71cf12f0b80828f1"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/squirtle.png"
+hash = "3a924ea9bde5c91630d64624db187cd780a90f2ee0dc19d8af3f8b03da27c4db"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tepig.png"
+hash = "f90e51f6e80110612637089ce05908ea1103faa918ef3646d00b428f3095d66b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/torchic.png"
+hash = "65b758aa61df5cd6d1017cd7b1d107a9f20912330002c8c9c50bc05f184ee263"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/totodile.png"
+hash = "e7974331909036c3df2b6c24bed2d01c44f7dab9231d08ac1133cf2e2e13e7b7"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/treecko.png"
+hash = "631032eb1f3b7ace24f1b6f0d755b211d00064bf54313f1bc16ac51a0d844090"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/turtwig.png"
+hash = "ab8142b242cf5040d59f51a1746ff9eef0eedc7f46ea9e84a5b55829a7a726c5"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/zorua.png"
+hash = "474114ab35bdf49081fe6f11a7e15ab3e8ca760b306d7ca70b860ff8d261150c"
+
+[[files]]
+file = "kubejs/config/client.json"
+hash = "0aeb4cb329b896e33a0777a1683b0b813a6f2f0adc5bc2cf3e6d10e18e442fef"
+
+[[files]]
+file = "kubejs/config/common.json"
+hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
+
+[[files]]
+file = "kubejs/config/startmon.json"
+hash = "6b7827f57f84e77a1157a28fa116d0fe28b00c34da605099ca0c80db987f9236"
+
+[[files]]
+file = "kubejs/config/web_server.json"
+hash = "8a341c1d678c37f152853cf9841a10148cb58d3f6aee02deeec623feb42b9931"
+
+[[files]]
+file = "kubejs/data/origins/tags/origins/origin/origin.json"
+hash = "754f2a0ef80edd76c446b9f5faa583687f8a3e779f5d3ce062d4717d3419650b"
+
+[[files]]
+file = "kubejs/data/startmon/origins/layer/gender.json"
+hash = "6eaaa368b8cf907da0582573c7b52baa5861855dcad8faa7f914dd2825530ec6"
+
+[[files]]
+file = "kubejs/data/startmon/origins/layer/shiny.json"
+hash = "e8a3b54c98e6a6f74dd0098a6065b7950d946ed64a43a15715bfad0f2c465c62"
+
+[[files]]
+file = "kubejs/data/startmon/origins/origin/female.json"
+hash = "d87f6be2dab56c63bcae408d41dd8ddf98c23e8d4157ef5747fe3588517ef70f"
+
+[[files]]
+file = "kubejs/data/startmon/origins/origin/male.json"
+hash = "ec425b6ff6799111d940ca1977e5ec3f5f2d3616311adba2eb4eafff9faf81c8"
+
+[[files]]
+file = "kubejs/data/startmon/origins/origin/mon.json"
+hash = "db87f289c1683ff3910afc4da626fd40a53e12bf6ebc47a8a5d74f1c777bb6a9"
+
+[[files]]
+file = "kubejs/data/startmon/origins/origin/nonbinary.json"
+hash = "40631f474582c7559bd5ff08029b3b306702b8bee87e455c470a74bd073564ba"
+
+[[files]]
+file = "kubejs/data/startmon/origins/origin/nonshiny.json"
+hash = "1cde0650432c6931f82645500f074fa406db4c9e3a478ba86596562c1a371b62"
+
+[[files]]
+file = "kubejs/data/startmon/origins/origin/regular.json"
+hash = "1b7dc9bfe73ef7173fecaf5588fbefc2fc660c320c718315028ceef1451fa7f2"
+
+[[files]]
+file = "kubejs/data/startmon/origins/origin/shiny.json"
+hash = "e54b9ad5d5083ad7e3cdf34a71c38c18dfa84d9dc330a29c6ee644fcd6a01c64"
+
+[[files]]
+file = "kubejs/data/startmon/origins/power/female.json"
+hash = "366c77de6c4a28e0a122d3dde14869fe3c5bcdfddbea5ffb520261c7ad729573"
+
+[[files]]
+file = "kubejs/data/startmon/origins/power/male.json"
+hash = "f654c5797954d4d79d32c9827b0218371c36c5feb161a450f89d05e4b047567e"
+
+[[files]]
+file = "kubejs/data/startmon/origins/power/nonbinary.json"
+hash = "26db26f1abdeee518b570bb74dfc880eb4a37f3023a60d10fa726f0b86c95687"
+
+[[files]]
+file = "kubejs/data/startmon/origins/power/nonshiny.json"
+hash = "b233a8cfd5c7fb3b95742573ee87bb8ba3a5072aa3e17ae9eb0e76a1212c9333"
+
+[[files]]
+file = "kubejs/data/startmon/origins/power/onlymon.json"
+hash = "0de3947303e557fe66991cf5fd73c0d1508d2c46c2765bee3b6c06a3ae52cfd6"
+
+[[files]]
+file = "kubejs/data/startmon/origins/power/shiny.json"
+hash = "03359346e3ccb91362ab74f23a2615698732f0c7f1de1fc2198bceefd67057fc"
+
+[[files]]
+file = "kubejs/fetchIcons.py"
+hash = "7834dcf761f113d05401be46a49e4d87834aec787fe97e24131d95ecf98c834e"
+
+[[files]]
+file = "kubejs/server_scripts/mon_generate.js"
+hash = "e2029f14bc1d4983ddee4ac46291001f6202174511f512d34ff25a979cd3ff62"
+
+[[files]]
+file = "kubejs/server_scripts/startMon.js"
+hash = "431bafbb624f98ed5de88f61a1786c2d729f0a36b9bcec457606967475bafa37"
+
+[[files]]
+file = "kubejs/server_scripts/starting_item.js"
+hash = "f9ed1fd99d26850c81957ee3b9e39fb21a054b2237129830f9da8d4e4a9a5b53"
+
+[[files]]
+file = "kubejs/startup_scripts/main.js"
+hash = "801694c7e975f5c7cacc4840bc6b7f967ca5809813557d4a7e0487cccd44715e"
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "73c02b249af1c9f1296b5c5e6991317be50c9ba1cdf25e40ff121c0c4dfb9304"
 metafile = true
@@ -1315,6 +1567,11 @@ hash = "e3c802556e3f8a52ac984bd08837442828f0af4756e2cf883e88da6f20452bc2"
 metafile = true
 
 [[files]]
+file = "mods/jupiter.pw.toml"
+hash = "3f44721c554a06b9e922c6102bed6402fed57d6d340de0299ee4237544724c48"
+metafile = true
+
+[[files]]
 file = "mods/kazeran-eeveelutions.pw.toml"
 hash = "61f435bccb5a8e223d4967fe7af1e34d5b2533e7cea5debed4139739e62705a0"
 metafile = true
@@ -1627,6 +1884,11 @@ metafile = true
 [[files]]
 file = "mods/oh-the-trees-youll-grow.pw.toml"
 hash = "5a59ebe515dbf2b637ac23bedeb33e545675668a0a454c5d6edd4d207a458844"
+metafile = true
+
+[[files]]
+file = "mods/origins-neoforge.pw.toml"
+hash = "f22c24b593a829cccdec6f3a254a5ad354825c87d6a4aa6609e60d5a77b23bfa"
 metafile = true
 
 [[files]]

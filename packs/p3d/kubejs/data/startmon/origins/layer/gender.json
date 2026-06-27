@@ -1,0 +1,20 @@
+{
+  "order":4,
+  "enabled": true,
+  "name": "Gender",
+  "description": "You've elected to start as a cobblemon.  Pick what you're gonna start as.",
+  "origins": [
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "startmon:mon"
+      },
+      "origins": [
+        "startmon:male",
+        "startmon:female",
+        "startmon:nonbinary"
+      ]
+    }
+  ],
+  "allow_random": true
+}

@@ -1,0 +1,11 @@
+StartupEvents.registry('item', event => {
+  let data = JsonIO.read("./kubejs/config/startmon.json")
+  data.starterMons.forEach((x)=>event.create(x.name))
+  data.regions.forEach((x)=>event.create(x))
+  event.create('enby')
+  event.create('female')
+  event.create('male')
+  event.create('shiny')
+  event.create('regular')
+  event.create('nonshiny')
+})

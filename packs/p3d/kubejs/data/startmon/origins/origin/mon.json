@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "startmon:onlymon"
+  ],
+  "icon": {
+    "id": "cobblemon:poke_ball"
+  },
+  "name": "True Mon",
+  "description": "You are a cobblemon, through and through.  You can still transform into other mons, but you cant go back to human.",
+  "order": 4,
+  "impact": 1
+}

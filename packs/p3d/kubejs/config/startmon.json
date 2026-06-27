@@ -1,0 +1,241 @@
+{
+  "regions": [
+    "hisuian",
+    "galarian",
+    "alolain"
+  ],
+
+  "config": {
+    "startingLevel": 6
+  },
+
+  "starterMons": [
+    {
+      "name":"zorua",
+      "description": "A small fox creature.  You can disguise as other mons, and are generally mischivious.",
+      "regions":[
+        {
+          "region": "hisuian",
+          "species": "all"
+        }
+      ]
+    },
+    {
+      "name":"eevee",
+      "description": "",
+      "regions":[
+      ]
+    },
+
+    {
+      "name":"bulbasaur",
+      "description": "",
+      "regions":[
+      ]
+    },
+    {
+      "name":"charmander",
+      "description": "",
+      "regions":[
+      ]
+    },
+    {
+      "name":"squirtle",
+      "description": "",
+      "regions":[
+      ]
+    },
+
+    {
+      "name":"chikorita",
+      "description": "",
+      "regions":[
+      ]
+    },
+    {
+      "name":"cyndaquil",
+      "description": "A small Fire Mouse.  The flames on your back keep you warm at night.  Sometimes, you hear the call of an ancient land.",
+      "regions":[
+        {
+          "region": "hisuian",
+          "species": "typhlosion"
+        }
+      ]
+    },
+    {
+      "name":"totodile",
+      "description": "",
+      "regions":[
+      ]
+    },
+
+    {
+      "name":"treecko",
+      "description": "",
+      "regions":[
+      ]
+    },
+    {
+      "name":"torchic",
+      "description": "",
+      "regions":[
+      ]
+    },
+    {
+      "name":"mudkip",
+      "description": "",
+      "regions":[
+      ]
+    },
+
+    {
+      "name":"turtwig",
+      "description": "",
+      "regions":[
+      ]
+    },
+    {
+      "name":"chimchar",
+      "description": "",
+      "regions":[
+      ]
+    },
+    {
+      "name":"piplup",
+      "description": "",
+      "regions":[
+      ]
+    },
+
+    {
+      "name":"snivy",
+      "description": "",
+      "regions":[
+      ]
+    },
+    {
+      "name":"tepig",
+      "description": "",
+      "regions":[
+      ]
+    },
+    {
+      "name":"oshawott",
+      "description": "",
+      "regions":[
+        {
+          "region": "hisuian",
+          "species": "samurott"
+        }
+      ]
+    },
+
+    {
+      "name":"chespin",
+      "description": "",
+      "regions":[
+      ]
+    },
+    {
+      "name":"fennekin",
+      "description": "",
+      "regions":[
+      ]
+    },
+    {
+      "name":"froakie",
+      "description": "",
+      "regions":[
+      ]
+    },
+
+    {
+      "name":"rowlet",
+      "description": "",
+      "regions":[
+        {
+          "region": "hisuian",
+          "species": "decidueye"
+        }
+      ]
+    },
+    {
+      "name":"litten",
+      "description": "",
+      "regions":[
+      ]
+    },
+    {
+      "name":"popplio",
+      "description": "",
+      "regions":[
+      ]
+    },
+
+    {
+      "name":"grookey",
+      "description": "",
+      "noshuffle": true,
+      "regions":[
+      ]
+    },
+    {
+      "name":"scorbunny",
+      "description": "",
+      "noshuffle": true,
+      "regions":[
+      ]
+    },
+    {
+      "name":"sobble",
+      "description": "",
+      "noshuffle": true,
+      "regions":[
+      ]
+    },
+
+    {
+      "name":"sprigatito",
+      "description": "",
+      "noshuffle": true,
+      "regions":[
+      ]
+    },
+    {
+      "name":"fuecoco",
+      "description": "",
+      "noshuffle": true,
+      "regions":[
+      ]
+    },
+    {
+      "name":"quaxly",
+      "description": "",
+      "noshuffle": true,
+      "regions":[
+      ]
+    },
+
+    {
+      "name":"tigriff",
+      "description": "",
+      "noshuffle": true,
+      "regions":[
+      ]
+    },
+    {
+      "name":"emberam",
+      "description": "",
+      "noshuffle": true,
+      "regions":[
+      ]
+    },
+    {
+      "name":"equelpi",
+      "description": "",
+      "noshuffle": true,
+      "regions":[
+      ]
+    }
+  ]
+}

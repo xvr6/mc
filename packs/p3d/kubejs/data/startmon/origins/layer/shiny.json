@@ -1,0 +1,19 @@
+{
+  "order":5,
+  "enabled": true,
+  "name": "Shiny",
+  "description": "You've elected to start as a cobblemon.  Pick what you're gonna start as.",
+  "origins": [
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "startmon:mon"
+      },
+      "origins": [
+        "startmon:shiny",
+        "startmon:nonshiny"
+      ]
+    }
+  ],
+  "allow_random": true
+}
