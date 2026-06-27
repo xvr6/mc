@@ -26,7 +26,7 @@
         "vis:sfx/naut"
     ],
     "icon": {
-        "item": "minecraft:nautilus_shell"
+        "id": "minecraft:nautilus_shell"
     },
     "order": 0,
     "impact": 3
