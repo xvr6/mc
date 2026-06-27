@@ -1,0 +1,13 @@
+{
+    "name": "Echo",
+    "description": "Echo is a resource that starts at 70 and gradually decreases whenever certain abilities/powers are used and can be refilled by dealing damage (+2 recovered per damage dealt) or existing in complete darkness (+5 recovered every 600 ticks). A full bar of echo will grant you a small Haste buff, while an empty bar will make you blind.",
+    "type": "origins:resource",
+    "min": 0,
+    "max": 70,
+    "start_value": 70,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+        "bar_index": 18
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "startmon:nonbinary"
+  ],
+  "icon": {
+    "id": "kubejs:enby"
+  },
+  "name": "NB",
+  "description": "",
+  "order": 4,
+  "impact": 1
+}

@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "startmon:female"
+  ],
+  "icon": {
+    "id": "kubejs:female"
+  },
+  "name": "Female",
+  "description": "",
+  "order": 4,
+  "impact": 1
+}

@@ -1,0 +1,393 @@
+{
+    "name": "Cannibalism",
+    "description": "You may consume Nautilus Shells. Committing this act of cannibalism will reward you with sustenance and a random status effect buff. ",
+    "type": "origins:multiple",
+    "water": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:nautilus_shell"
+                        }
+                    }
+                },
+                {
+                    "type": "origins:fluid_height",
+                    "fluid": "minecraft:water",
+                    "comparison": ">=",
+                    "compare_to": 0.1
+                }
+            ]
+        },
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:equipped_item_action",
+                    "equipment_slot": "mainhand",
+                    "action": {
+                        "type": "origins:consume",
+                        "amount": 1
+                    }
+                },
+                {
+                    "type": "origins:choice",
+                    "actions": [
+                        {
+                            "weight": 1,
+                            "element": {
+                                "type": "origins:apply_effect",
+                                "effect": {
+                                    "effect": "minecraft:strength",
+                                    "duration": 900,
+                                    "amplifier": 1,
+                                    "is_ambient": true,
+                                    "show_particles": false,
+                                    "show_icon": true
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "element": {
+                                "type": "origins:apply_effect",
+                                "effect": {
+                                    "effect": "minecraft:absorption",
+                                    "duration": 900,
+                                    "amplifier": 4,
+                                    "is_ambient": true,
+                                    "show_particles": false,
+                                    "show_icon": true
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "element": {
+                                "type": "origins:apply_effect",
+                                "effect": {
+                                    "effect": "minecraft:haste",
+                                    "duration": 900,
+                                    "amplifier": 1,
+                                    "is_ambient": true,
+                                    "show_particles": false,
+                                    "show_icon": true
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "element": {
+                                "type": "origins:apply_effect",
+                                "effect": {
+                                    "effect": "minecraft:health_boost",
+                                    "duration": 900,
+                                    "amplifier": 4,
+                                    "is_ambient": true,
+                                    "show_particles": false,
+                                    "show_icon": true
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "element": {
+                                "type": "origins:apply_effect",
+                                "effect": {
+                                    "effect": "minecraft:invisibility",
+                                    "duration": 900,
+                                    "amplifier": 0,
+                                    "is_ambient": true,
+                                    "show_particles": false,
+                                    "show_icon": true
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "element": {
+                                "type": "origins:apply_effect",
+                                "effect": {
+                                    "effect": "minecraft:resistance",
+                                    "duration": 900,
+                                    "amplifier": 1,
+                                    "is_ambient": true,
+                                    "show_particles": false,
+                                    "show_icon": true
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "element": {
+                                "type": "origins:apply_effect",
+                                "effect": {
+                                    "effect": "minecraft:luck",
+                                    "duration": 900,
+                                    "amplifier": 1,
+                                    "is_ambient": true,
+                                    "show_particles": false,
+                                    "show_icon": true
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.camel.eat",
+                    "volume": 2,
+                    "pitch": 1
+                },
+                {
+                    "type": "origins:feed",
+                    "food": 8,
+                    "saturation": 5
+                },
+                {
+                    "type": "origins:grant_advancement",
+                    "advancement": "vis:cannibal"
+                }
+            ]
+        },
+        "cooldown": 40,
+        "key": {
+            "key": "key.use"
+        }
+    },
+    "land": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:nautilus_shell"
+                        }
+                    }
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:fluid_height",
+                    "fluid": "minecraft:water",
+                    "comparison": ">=",
+                    "compare_to": 0.1
+                }
+            ]
+        },
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:equipped_item_action",
+                    "equipment_slot": "mainhand",
+                    "action": {
+                        "type": "origins:consume",
+                        "amount": 1
+                    }
+                },
+                {
+                    "type": "origins:choice",
+                    "actions": [
+                        {
+                            "weight": 1,
+                            "element": {
+                                "type": "origins:apply_effect",
+                                "effect": {
+                                    "effect": "minecraft:speed",
+                                    "duration": 900,
+                                    "amplifier": 1,
+                                    "is_ambient": true,
+                                    "show_particles": false,
+                                    "show_icon": true
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "element": {
+                                "type": "origins:apply_effect",
+                                "effect": {
+                                    "effect": "minecraft:haste",
+                                    "duration": 900,
+                                    "amplifier": 1,
+                                    "is_ambient": true,
+                                    "show_particles": false,
+                                    "show_icon": true
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "element": {
+                                "type": "origins:apply_effect",
+                                "effect": {
+                                    "effect": "minecraft:jump_boost",
+                                    "duration": 900,
+                                    "amplifier": 1,
+                                    "is_ambient": true,
+                                    "show_particles": false,
+                                    "show_icon": true
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "element": {
+                                "type": "origins:apply_effect",
+                                "effect": {
+                                    "effect": "minecraft:regeneration",
+                                    "duration": 900,
+                                    "amplifier": 0,
+                                    "is_ambient": true,
+                                    "show_particles": false,
+                                    "show_icon": true
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "element": {
+                                "type": "origins:apply_effect",
+                                "effect": {
+                                    "effect": "minecraft:resistance",
+                                    "duration": 900,
+                                    "amplifier": 1,
+                                    "is_ambient": true,
+                                    "show_particles": false,
+                                    "show_icon": true
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "element": {
+                                "type": "origins:apply_effect",
+                                "effect": {
+                                    "effect": "minecraft:invisibility",
+                                    "duration": 900,
+                                    "amplifier": 0,
+                                    "show_particles": false,
+                                    "show_icon": true
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "element": {
+                                "type": "origins:apply_effect",
+                                "effect": {
+                                    "effect": "minecraft:night_vision",
+                                    "duration": 900,
+                                    "amplifier": 1,
+                                    "is_ambient": true,
+                                    "show_particles": false,
+                                    "show_icon": true
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "element": {
+                                "type": "origins:apply_effect",
+                                "effect": {
+                                    "effect": "minecraft:health_boost",
+                                    "duration": 900,
+                                    "amplifier": 4,
+                                    "is_ambient": true,
+                                    "show_particles": false,
+                                    "show_icon": true
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "element": {
+                                "type": "origins:apply_effect",
+                                "effect": {
+                                    "effect": "minecraft:absorption",
+                                    "duration": 900,
+                                    "amplifier": 4,
+                                    "is_ambient": true,
+                                    "show_particles": false,
+                                    "show_icon": true
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "element": {
+                                "type": "origins:apply_effect",
+                                "effect": {
+                                    "effect": "minecraft:luck",
+                                    "duration": 900,
+                                    "amplifier": 1,
+                                    "is_ambient": true,
+                                    "show_particles": false,
+                                    "show_icon": true
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "element": {
+                                "type": "origins:apply_effect",
+                                "effect": {
+                                    "effect": "minecraft:slow_falling",
+                                    "duration": 900,
+                                    "amplifier": 0,
+                                    "is_ambient": true,
+                                    "show_particles": false,
+                                    "show_icon": true
+                                }
+                            }
+                        },
+                        {
+                            "weight": 1,
+                            "element": {
+                                "type": "origins:apply_effect",
+                                "effect": {
+                                    "effect": "minecraft:hero_of_the_village",
+                                    "duration": 900,
+                                    "amplifier": 1,
+                                    "is_ambient": true,
+                                    "show_particles": false,
+                                    "show_icon": true
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.camel.eat",
+                    "volume": 2,
+                    "pitch": 1
+                },
+                {
+                    "type": "origins:feed",
+                    "food": 8,
+                    "saturation": 5
+                },
+                {
+                    "type": "origins:grant_advancement",
+                    "advancement": "vis:cannibal"
+                }
+            ]
+        },
+        "cooldown": 40,
+        "key": {
+            "key": "key.use"
+        }
+    }
+}

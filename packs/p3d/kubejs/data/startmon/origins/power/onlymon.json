@@ -1,0 +1,23 @@
+{
+  "type": "origins:action_on_callback",
+  "name": "True Mon",
+  "description": "You are a cobblemon, through and through.  You can still transform into other mons, but you cant go back to human.",
+  "hidden": true,
+  "entity_action_gained": {
+    "type": "origins:execute_command",
+    "command": "kubejs persistent-data entity @s merge {\"monSetup\":1b}"
+  },
+  "entity_action_lost": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "kubejs persistent-data entity @s merge {\"monStart\":0b}"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "synchro slot clear 1"
+      }
+    ]
+  }
+}

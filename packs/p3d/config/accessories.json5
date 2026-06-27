@@ -19,7 +19,7 @@
 			"x": 42,
 			"y": 6
 		},
-		"isDarkMode": true,
+		"isDarkMode": false,
 		"showEquippedStackSlotType": true,
 		"entityLooksAtMouseCursor": false,
 		"allowSideBarCraftingGrid": true,

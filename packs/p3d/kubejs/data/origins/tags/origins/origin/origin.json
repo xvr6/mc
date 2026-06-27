@@ -1,0 +1,8 @@
+{
+  "replace": true,
+  "values": [
+    "origins:human",
+    "startmon:mon",
+    "vis:nautili"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "echofirst": {
+        "type": "origins:item_on_item",
+        "using_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:echo_shard"
+            }
+        },
+        "on_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:diamond"
+            }
+        },
+        "result": {
+            "item": "minecraft:echo_shard",
+            "amount": 1,
+            "tag": "{display:{Name:'[\"\",{\"text\":\"Reinforced Echo Shard\",\"italic\":false,\"color\":\"dark_aqua\"}]'},Enchantments:[{}]}"
+        },
+        "using_item_action": {
+            "type": "origins:consume",
+            "amount": 1
+        },
+        "on_item_action": {
+            "type": "origins:consume",
+            "amount": 1
+        },
+        "click_type": "right"
+    },
+    "netheritefirst": {
+        "type": "origins:item_on_item",
+        "using_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:diamond"
+            }
+        },
+        "on_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:echo_shard"
+            }
+        },
+        "result": {
+            "item": "minecraft:echo_shard",
+            "amount": 1,
+            "tag": "{display:{Name:'[\"\",{\"text\":\"Reinforced Echo Shard\",\"italic\":false,\"color\":\"dark_aqua\"}]'},Enchantments:[{}]}"
+        },
+        "using_item_action": {
+            "type": "origins:consume",
+            "amount": 1
+        },
+        "on_item_action": {
+            "type": "origins:consume",
+            "amount": 1
+        },
+        "click_type": "right"
+    },
+    "bateatecho": {
+        "condition": {
+            "type": "origins:origin",
+            "origin": "vis:chiropteran"
+        },
+        "type": "origins:action_on_item_use",
+        "entity_action": {
+            "type": "origins:modify_resource",
+            "resource": "vis:resources/echo",
+            "modifier": {
+                "operation": "set_total",
+                "value": 70
+            }
+        },
+        "item_action": {
+            "type": "origins:consume",
+            "amount": 1
+        },
+        "item_condition": {
+            "type": "origins:nbt",
+            "nbt": "{display:{Name:'[\"\",{\"text\":\"Reinforced Echo Shard\",\"italic\":false,\"color\":\"dark_aqua\"}]'},Enchantments:[{}]}"
+        },
+        "trigger": "instant",
+        "priority": 0
+    },
+    "instantecho": {
+        "condition": {
+            "type": "origins:gamemode",
+            "gamemode": "creative"
+        },
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "give @s minecraft:echo_shard{display:{Name:'[\"\",{\"text\":\"Reinforced Echo Shard\",\"italic\":false,\"color\":\"dark_aqua\"}]'},Enchantments:[{}]}"
+        },
+        "cooldown": 0,
+        "key": {
+            "key": "key.loadToolbarActivator"
+        }
+    }
+}

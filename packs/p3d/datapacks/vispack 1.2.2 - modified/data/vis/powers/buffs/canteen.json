@@ -1,0 +1,44 @@
+{
+    "name": "Canteen",
+    "description": "[Primary] You have stored water in a canteen. Use this water to give yourself 3 minutes of water breathing. 10 minute cooldown.",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:water_breathing",
+                    "duration": 3600,
+                    "amplifier": 0,
+                    "is_ambient": true,
+                    "show_particles": false,
+                    "show_icon": true
+                }
+            },
+            {
+                "type": "origins:delay",
+                "action": {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:item.bottle.fill",
+                    "volume": 3,
+                    "pitch": 0.7
+                },
+                "ticks": 12000
+            },
+            {
+                "type": "origins:play_sound",
+                "sound": "minecraft:entity.witch.drink",
+                "volume": 1.5,
+                "pitch": 0.6
+            }
+        ]
+    },
+    "cooldown": 12000,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/resource_bar.png",
+        "bar_index": 3
+    },
+    "key": "primary"
+}

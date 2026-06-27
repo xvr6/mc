@@ -1,0 +1,39 @@
+{
+    "name": "Shatter",
+    "description": "When attacked, your shell has a chance to shatter slightly, causing you to take more damage.",
+    "type": "origins:self_action_when_hit",
+    "damage_condition": {
+        "inverted": true,
+        "type": "origins:name",
+        "name": "drown"
+    },
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:chance",
+                "chance": 0.3,
+                "action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:play_sound",
+                            "sound": "minecraft:block.glass.break",
+                            "volume": 5,
+                            "pitch": 0.1
+                        },
+                        {
+                            "type": "origins:damage",
+                            "amount": 6,
+                            "source": {
+                                "name": "anvil"
+                            },
+                            "damage_type": "anvil"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "cooldown": 0
+}

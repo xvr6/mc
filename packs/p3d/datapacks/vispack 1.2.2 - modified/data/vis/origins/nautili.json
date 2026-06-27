@@ -1,0 +1,33 @@
+{
+    "name": "Nautili",
+    "description": "A living conglomerate of coral blessed by interdimensional beings with advanced life.",
+    "powers": [
+        "origins:aqua_affinity",
+        "origins:like_water",
+        "vis:buffs/coralgen",
+        "vis:buffs/triplespiked",
+        "vis:buffs/cannibalism",
+        "vis:buffs/canteen",
+        "vis:buffs/nauticalvision",
+        "vis:neutral/scalefix",
+        "vis:neutral/yeet",
+        "vis:neutral/oily",
+        "vis:neutral/echocraft",
+        "vis:neutral/controlledsubstances",
+        "origins:water_breathing",
+        "vis:debuffs/shatter",
+        "vis:debuffs/hinderingshell",
+        "vis:debuffs/coralstate",
+        "vis:debuffs/riftcurse",
+        "origins:aquatic",
+        "origins:conduit_power_on_land",
+        "origins:air_from_potions",
+        "origins:no_shield",
+        "vis:sfx/naut"
+    ],
+    "icon": {
+        "item": "minecraft:nautilus_shell"
+    },
+    "order": 0,
+    "impact": 3
+}

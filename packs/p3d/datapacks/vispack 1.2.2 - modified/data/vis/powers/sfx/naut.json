@@ -1,0 +1,36 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "hurt": {
+        "type": "origins:self_action_when_hit",
+        "entity_action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:entity.turtle.egg_break",
+            "volume": 5,
+            "pitch": 0.4
+        },
+        "cooldown": 15
+    },
+    "key1": {
+        "type": "origins:self_action_on_hit",
+        "entity_action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:entity.player.hurt_drown",
+            "volume": 1.5,
+            "pitch": 0.6
+        },
+        "cooldown": 15
+    },
+    "advancement": {
+        "type": "origins:self_action_on_kill",
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:dolphin"
+        },
+        "entity_action": {
+            "type": "origins:grant_advancement",
+            "advancement": "vis:petty"
+        },
+        "cooldown": 0
+    }
+}

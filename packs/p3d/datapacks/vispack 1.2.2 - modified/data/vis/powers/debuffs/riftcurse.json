@@ -1,0 +1,33 @@
+{
+    "name": "Rift Curse",
+    "description": "You take double fire damage in The Nether and double explosive damage in The End.",
+    "type": "origins:multiple",
+    "nether": {
+        "condition": {
+            "type": "origins:dimension",
+            "dimension": "minecraft:the_nether"
+        },
+        "type": "origins:modify_damage_taken",
+        "damage_condition": {
+            "type": "origins:fire"
+        },
+        "modifier": {
+            "operation": "multiply_total",
+            "value": 2
+        }
+    },
+    "end": {
+        "condition": {
+            "type": "origins:dimension",
+            "dimension": "minecraft:the_end"
+        },
+        "type": "origins:modify_damage_taken",
+        "damage_condition": {
+            "type": "origins:explosive"
+        },
+        "modifier": {
+            "operation": "multiply_total",
+            "value": 2
+        }
+    }
+}

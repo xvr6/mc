@@ -15,4 +15,3 @@ version = "VDbf7FHr"
 [option]
 optional = true
 description = "Adds cobblemon information to JEI, causes HEAVY lag on first load every time due to generating the sprites to add to JEI"
-default = false

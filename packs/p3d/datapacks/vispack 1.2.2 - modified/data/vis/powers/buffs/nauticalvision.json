@@ -1,0 +1,10 @@
+{
+    "name": "Nautical Vision",
+    "description": "You can see clearly in water.",
+    "condition": {
+        "type": "origins:submerged_in",
+        "fluid": "minecraft:water"
+    },
+    "type": "origins:night_vision",
+    "strength": 1
+}

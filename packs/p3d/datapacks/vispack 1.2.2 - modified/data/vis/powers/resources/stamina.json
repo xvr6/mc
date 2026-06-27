@@ -1,0 +1,17 @@
+{
+    "name": "Stamina",
+    "description": "Stamina is a resource with a maximum of 50. Stamina can be drained by sprinting (-5 per 60 ticks) or by using certain powers. Stamina can be regained over time by standing still (+2 per 80 ticks), using certain abilities, or by consuming Stamina Surges (+20 per Surge). High stamina will grant you faster movement speed. Low stamina will hinder your movement speed and inhibit your flight.",
+    "type": "origins:resource",
+    "min": 0,
+    "max": 50,
+    "start_value": 50,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "bar_index": 22
+    },
+    "min_action": {
+        "type": "origins:grant_advancement",
+        "advancement": "vis:tired"
+    }
+}

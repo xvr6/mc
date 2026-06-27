@@ -1,0 +1,6 @@
+{
+    "name": "Coral State",
+    "description": "Dolphins do not recognize you as worthy of their blessing, and you therefore cannot be affected with Dolphins Grace.",
+    "type": "origins:effect_immunity",
+    "effect": "minecraft:dolphins_grace"
+}

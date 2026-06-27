@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "startmon:onlymon",
+    "origins:light_armor"
+  ],
+  "icon": {
+    "id": "cobblemon:poke_ball"
+  },
+  "name": "True Mon",
+  "description": "You are a cobblemon, through and through. You can still transform into other mons, but you cant go back to human. You can only wear light armor armor with protection values ar or below chainmail)..",
+  "order": 4,
+  "impact": 1
+}

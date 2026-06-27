@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "startmon:shiny"
+  ],
+  "icon": {
+    "id": "kubejs:shiny"
+  },
+  "name": "Shiny",
+  "description": "You're a shiny, sparkly mon with a special color! Careful not to get caught by extra excited trainers.",
+  "order": 4,
+  "impact": 1
+}
