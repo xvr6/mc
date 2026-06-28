@@ -1,6 +1,6 @@
 {
     "name": "Cannibalism",
-    "description": "You may consume Nautilus Shells. Committing this act of cannibalism will reward you with sustenance and a few positive status effects. ",
+    "description": "You may consume Nautilus Shells. Committing this act of cannibalism will reward you with sustenance and a few positive status effects.",
     "type": "origins:edible_item",
     "item_condition": {
         "type": "origins:ingredient",
@@ -8,28 +8,28 @@
             "item": "minecraft:nautilus_shell"
         }
     },
-    "food_component": {
+    "food_properties": {
         "hunger": 4,
         "saturation": 1,
         "meat": true,
         "effects": [
             {
                 "effect": {
-                    "effect": "minecraft:strength",
+                    "id": "minecraft:strength",
                     "duration": 900,
                     "amplifier": 1
                 }
             },
             {
                 "effect": {
-                    "effect": "minecraft:absorption",
+                    "id": "minecraft:absorption",
                     "duration": 900,
                     "amplifier": 4
                 }
             },
             {
                 "effect": {
-                    "effect": "minecraft:haste",
+                    "id": "minecraft:haste",
                     "duration": 900,
                     "amplifier": 1
                 }

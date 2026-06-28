@@ -12,14 +12,14 @@
                 "item_condition": {
                     "type": "origins:ingredient",
                     "ingredient": {
-                        "id": "minecraft:trident"
+                        "item": "minecraft:trident"
                     }
                 }
             }
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": 2
+            "operation": "multiply_base_multiplicative",
+            "value": 1.0
         }
     },
     "lessdamagefromtrident": {
@@ -29,8 +29,8 @@
             "projectile": "minecraft:trident"
         },
         "modifier": {
-            "operation": "set_base",
-            "value": 4
+            "operation": "multiply_base_multiplicative",
+            "value": -0.5
         }
     },
     "lessdamagefrommeleetrident": {
@@ -43,14 +43,14 @@
                 "item_condition": {
                     "type": "origins:ingredient",
                     "ingredient": {
-                        "id": "minecraft:trident"
+                        "item": "minecraft:trident"
                     }
                 }
             }
         },
         "modifier": {
-            "operation": "multiply_base",
-            "value": 0.5
+            "operation": "multiply_base_multiplicative",
+            "value": -0.5
         }
     },
     "thorns": {
@@ -61,12 +61,7 @@
             "action": {
                 "type": "origins:damage",
                 "amount": 4,
-                "source": {
-                    "name": "thorns",
-                    "bypasses_armor": true,
-                    "unblockable": true
-                },
-                "damage_type": "thorns"
+                "damage_type": "minecraft:thorns"
             }
         },
         "cooldown": 0

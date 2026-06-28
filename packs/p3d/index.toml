@@ -255,7 +255,7 @@ hash = "b7d9412dc1211eaa7230d1f2c89857426d32a914332e0149b14dcf3e6663726d"
 
 [[files]]
 file = "kubejs/README.md"
-hash = "c5a7f5ace0cfea17cb639f213f9e41aae833d10c0ea2efd509e7d492cc413abc"
+hash = "d33b776685bc9b6c2b4898c94544c6af8ddc1ef66084eb89d7d1e95685ba6a38"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/alolain.png"
@@ -490,80 +490,72 @@ file = "kubejs/data/startmon/origins/power/shiny.json"
 hash = "03359346e3ccb91362ab74f23a2615698732f0c7f1de1fc2198bceefd67057fc"
 
 [[files]]
-file = "kubejs/data/vis/advancements/tired.json"
-hash = "3a2344f752dd8e4c0422deb8d1e5e9ca208b0e088e0bf158b942aef2d939f03f"
-
-[[files]]
 file = "kubejs/data/vis/origins/origin/nautili.json"
-hash = "a0fb260d8873dad24d28588e989e1cde19824062b75cb51373755e451647370e"
+hash = "141d03f12cb3ad380a0d3666be4272e8bdadc22fe9a31b021e8dd5a9b17b0eee"
 
 [[files]]
-file = "kubejs/data/vis/origins/powers/buffs/cannibalism.json"
-hash = "8a952a8382622651cce5b49e1f62d32e1d9ea6886a4e8c3c441bfa1f97165abb"
+file = "kubejs/data/vis/origins/power/buffs/cannibalism.json"
+hash = "62cd1d3ed31b334dbf3ae0e69dce88c0b73dabc02eb61abc183dea543f38383a"
 
 [[files]]
-file = "kubejs/data/vis/origins/powers/buffs/canteen.json"
-hash = "0246c8a053d3f630966ad7fd35988b7cd883cd88020390ec824c8b28b3065509"
+file = "kubejs/data/vis/origins/power/buffs/canteen.json"
+hash = "4eb17b589807128d0752011e7af7456b66cb1bb31d52020de22b2dfe2089aa31"
 
 [[files]]
-file = "kubejs/data/vis/origins/powers/buffs/coralgen.json"
-hash = "a82deecab30b6ee0383222dbe67ae36ece43297dbe31d67b7df3ab2020901e2b"
+file = "kubejs/data/vis/origins/power/buffs/coralgen.json"
+hash = "3cddbffdd764d24b90ea48b8051a50aafe46ba7449fb37157897d27178bd876e"
 
 [[files]]
-file = "kubejs/data/vis/origins/powers/buffs/nauticalvision.json"
+file = "kubejs/data/vis/origins/power/buffs/nauticalvision.json"
 hash = "78c97a24d0483dd7706daced31d5a2828218356710326492d1c31d2fdc279807"
 
 [[files]]
-file = "kubejs/data/vis/origins/powers/buffs/triplespiked.json"
-hash = "99a0523869346fe2bc14f4317045ec7123e94fa625558a50c40e08d881cc4376"
+file = "kubejs/data/vis/origins/power/buffs/triplespiked.json"
+hash = "32c07550d49b0c5a1860f186a3c21c79d6f885bb89c1197ebddb30d8d3f2d6ec"
 
 [[files]]
-file = "kubejs/data/vis/origins/powers/debuffs/coralstate.json"
+file = "kubejs/data/vis/origins/power/debuffs/coralstate.json"
 hash = "befeb5ad0b150151cedeae3aaeb6982d335c800b2c16291b69eb33fb24958fe0"
 
 [[files]]
-file = "kubejs/data/vis/origins/powers/debuffs/hinderingshell.json"
-hash = "00eefb57161879f5eae7813a452c0d84bd629d2a92e8ea841e791342ed25e8d3"
+file = "kubejs/data/vis/origins/power/debuffs/hinderingshell.json"
+hash = "ff5e653353492f1193225c7bf9a25b48a2a1cc0fdd16326763ce2da682674f94"
 
 [[files]]
-file = "kubejs/data/vis/origins/powers/debuffs/riftcurse.json"
-hash = "3f87bdce078fa8c2352afc2de6d98d0d36582bdf2a8688ffa84a4846c6cc97c5"
+file = "kubejs/data/vis/origins/power/debuffs/riftcurse.json"
+hash = "da1193094a7b564870c6f15c558f0078757dcc167649e5f6aa3c4509eb8d5ea5"
 
 [[files]]
-file = "kubejs/data/vis/origins/powers/debuffs/shatter.json"
-hash = "0e918719f6d8718d7ab54b4cfa0f90fc1ba63c40316ed6d39437d9f1ca1d2b0d"
+file = "kubejs/data/vis/origins/power/debuffs/shatter.json"
+hash = "a11396fef31f0489f8dcd06ae77cea318a8e496b088f5872fecc49dfeff5b909"
 
 [[files]]
-file = "kubejs/data/vis/origins/powers/neutral/controlledsubstances.json"
-hash = "b3687f9f7ee42f460465684b7f7a2875eed365b2fd2d67dc2eb422463a93c064"
+file = "kubejs/data/vis/origins/power/neutral/controlledsubstances.json"
+hash = "1c51e674627d3306b8c7c8c7666e03a85420bc66da921ce77a24712dacda7e36"
 
 [[files]]
-file = "kubejs/data/vis/origins/powers/neutral/echocraft.json"
-hash = "8eed34add9e4a1b8f9dca29a307313da7e7c7d6d04ce47d6e8cbbc31ce2c073b"
+file = "kubejs/data/vis/origins/power/neutral/echocraft.json"
+hash = "f2b9534d9911aa5009d0955a79f68a5618e65c5c4c734545a0bb4e042dc81255"
 
 [[files]]
-file = "kubejs/data/vis/origins/powers/neutral/oily.json"
-hash = "87046a6b7481496984307cd4c52909ef36a58639e8f1541a2a395ea495af2f81"
-
-[[files]]
-file = "kubejs/data/vis/origins/powers/neutral/scalefix.json"
+file = "kubejs/data/vis/origins/power/neutral/scalefix.json"
 hash = "5950c65e806ac150c0cbf5088f752a73ec3b50466eac6951ab6cf74f83244973"
 
 [[files]]
-file = "kubejs/data/vis/origins/powers/neutral/yeet.json"
+file = "kubejs/data/vis/origins/power/neutral/yeet.json"
 hash = "866b8dbdcb2ab5c8e2b5b41050e91fd3684fb2a78a81b30898059e8c25bd189d"
 
 [[files]]
-file = "kubejs/data/vis/origins/powers/resources/echo.json"
+file = "kubejs/data/vis/origins/power/resources/echo.json"
 hash = "81615236487fe4d966eaaf17b7d6597c7f815edc4acc349d157abfb184808f65"
 
 [[files]]
-file = "kubejs/data/vis/origins/powers/resources/stamina.json"
-hash = "e123f27671b93c5c30d5e02402777027193f49bc80ffa652e342c2ffc1f0e90f"
+file = "kubejs/data/vis/origins/power/resources/stamina.json"
+hash = "0caf2b2f127e5c96e70dd71ccc61d27fe32ad4fa6862bbdb29c66c9c9d0e28e4"
 
 [[files]]
-file = "kubejs/data/vis/origins/powers/sfx/naut.json"
-hash = "5337d312419801cc195bdd3fb6c290a9c433689c3aded3b40284b8e60fc3a143"
+file = "kubejs/data/vis/origins/power/sfx/naut.json"
+hash = "0e28b9072f205ebeff4e9389cff92377e1db6303d270dbccbeb2575839b582a4"
 
 [[files]]
 file = "kubejs/fetchIcons.py"
@@ -2013,11 +2005,6 @@ metafile = true
 [[files]]
 file = "mods/patpat.pw.toml"
 hash = "7115ef60f5b686f40076508ce15549ab60de65068d3d116d3cd6ec78a5e85606"
-metafile = true
-
-[[files]]
-file = "mods/pehkui.pw.toml"
-hash = "e5141bf653c820b9967b8be2e3d9d8e83f3b54d0450f0cabe812e00cce481fdf"
 metafile = true
 
 [[files]]

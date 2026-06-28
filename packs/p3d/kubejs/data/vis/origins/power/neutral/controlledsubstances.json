@@ -1,0 +1,81 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "sugarfirst": {
+        "type": "origins:item_on_item",
+        "using_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:sugar"
+            }
+        },
+        "on_item_condition": {
+            "type": "origins:component",
+            "component": "minecraft:custom_data",
+            "value": "{fish_oil:1b}"
+        },
+        "result": {
+            "id": "minecraft:potion",
+            "count": 1,
+            "tag": "{\"minecraft:potion_contents\":{custom_color:16711935,custom_effects:[{id:\"minecraft:nausea\",duration:60,amplifier:3,show_particles:0b}]},\"minecraft:custom_name\":'{\"text\":\"Stamina Surge\",\"italic\":false,\"color\":\"dark_blue\"}',\"minecraft:custom_data\":{stamina_surge:1b}}"
+        },
+        "using_item_action": {
+            "type": "origins:consume",
+            "amount": 1
+        },
+        "on_item_action": {
+            "type": "origins:consume",
+            "amount": 1
+        }
+    },
+    "oilfirst": {
+        "type": "origins:item_on_item",
+        "using_item_condition": {
+            "type": "origins:component",
+            "component": "minecraft:custom_data",
+            "value": "{fish_oil:1b}"
+        },
+        "on_item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:sugar"
+            }
+        },
+        "result": {
+            "id": "minecraft:potion",
+            "count": 1,
+            "tag": "{\"minecraft:potion_contents\":{custom_color:16711935,custom_effects:[{id:\"minecraft:nausea\",duration:60,amplifier:3,show_particles:0b}]},\"minecraft:custom_name\":'{\"text\":\"Stamina Surge\",\"italic\":false,\"color\":\"dark_blue\"}',\"minecraft:custom_data\":{stamina_surge:1b}}"
+        },
+        "using_item_action": {
+            "type": "origins:consume",
+            "amount": 1
+        },
+        "on_item_action": {
+            "type": "origins:consume",
+            "amount": 1
+        }
+    },
+    "immediatesurge": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:gamemode",
+                    "gamemode": "creative"
+                },
+                {
+                    "type": "origins:sneaking"
+                }
+            ]
+        },
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "give @s minecraft:potion[minecraft:potion_contents={custom_color:16711935,custom_effects:[{id:\"minecraft:nausea\",duration:60,amplifier:3,show_particles:0b}]},minecraft:custom_name='{\"text\":\"Stamina Surge\",\"italic\":false,\"color\":\"dark_blue\"}',minecraft:custom_data={stamina_surge:1b}]"
+        },
+        "cooldown": 0,
+        "key": {
+            "key": "key.spectatorOutlines"
+        }
+    }
+}

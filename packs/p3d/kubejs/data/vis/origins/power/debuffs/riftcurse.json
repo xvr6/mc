@@ -9,11 +9,12 @@
         },
         "type": "origins:modify_damage_taken",
         "damage_condition": {
-            "type": "origins:fire"
+            "type": "origins:in_tag",
+            "tag": "minecraft:is_fire"
         },
         "modifier": {
-            "operation": "multiply_total",
-            "value": 2
+            "operation": "multiply_total_multiplicative",
+            "value": 1.0
         }
     },
     "end": {
@@ -23,11 +24,12 @@
         },
         "type": "origins:modify_damage_taken",
         "damage_condition": {
-            "type": "origins:explosive"
+            "type": "origins:in_tag",
+            "tag": "minecraft:is_explosion"
         },
         "modifier": {
-            "operation": "multiply_total",
-            "value": 2
+            "operation": "multiply_total_multiplicative",
+            "value": 1.0
         }
     }
 }

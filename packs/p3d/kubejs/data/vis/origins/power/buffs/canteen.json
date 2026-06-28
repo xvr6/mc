@@ -8,10 +8,10 @@
             {
                 "type": "origins:apply_effect",
                 "effect": {
-                    "effect": "minecraft:water_breathing",
+                    "id": "minecraft:water_breathing",
                     "duration": 3600,
                     "amplifier": 0,
-                    "is_ambient": true,
+                    "ambient": true,
                     "show_particles": false,
                     "show_icon": true
                 }
@@ -40,5 +40,7 @@
         "sprite_location": "origins:textures/gui/resource_bar.png",
         "bar_index": 3
     },
-    "key": "primary"
+    "key": {
+        "key": "key.origins.primary_active"
+    }
 }
