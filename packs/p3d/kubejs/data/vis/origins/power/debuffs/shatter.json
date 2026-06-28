@@ -4,8 +4,8 @@
     "type": "origins:self_action_when_hit",
     "damage_condition": {
         "inverted": true,
-        "type": "origins:name",
-        "name": "drown"
+        "type": "origins:id",
+        "id": "minecraft:drown"
     },
     "entity_action": {
         "type": "origins:and",
@@ -25,10 +25,7 @@
                         {
                             "type": "origins:damage",
                             "amount": 6,
-                            "source": {
-                                "name": "anvil"
-                            },
-                            "damage_type": "anvil"
+                            "damage_type": "minecraft:magic"
                         }
                     ]
                 }

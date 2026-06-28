@@ -16,9 +16,9 @@
             }
         },
         "result": {
-            "item": "minecraft:echo_shard",
-            "amount": 1,
-            "tag": "{display:{Name:'[\"\",{\"text\":\"Reinforced Echo Shard\",\"italic\":false,\"color\":\"dark_aqua\"}]'},Enchantments:[{}]}"
+            "id": "minecraft:echo_shard",
+            "count": 1,
+            "tag": "{\"minecraft:custom_name\":'{\"text\":\"Reinforced Echo Shard\",\"italic\":false,\"color\":\"dark_aqua\"}',\"minecraft:enchantment_glint_override\":1b,\"minecraft:custom_data\":{reinforced_echo_shard:1b}}"
         },
         "using_item_action": {
             "type": "origins:consume",
@@ -45,9 +45,9 @@
             }
         },
         "result": {
-            "item": "minecraft:echo_shard",
-            "amount": 1,
-            "tag": "{display:{Name:'[\"\",{\"text\":\"Reinforced Echo Shard\",\"italic\":false,\"color\":\"dark_aqua\"}]'},Enchantments:[{}]}"
+            "id": "minecraft:echo_shard",
+            "count": 1,
+            "tag": "{\"minecraft:custom_name\":'{\"text\":\"Reinforced Echo Shard\",\"italic\":false,\"color\":\"dark_aqua\"}',\"minecraft:enchantment_glint_override\":1b,\"minecraft:custom_data\":{reinforced_echo_shard:1b}}"
         },
         "using_item_action": {
             "type": "origins:consume",
@@ -78,8 +78,9 @@
             "amount": 1
         },
         "item_condition": {
-            "type": "origins:nbt",
-            "nbt": "{display:{Name:'[\"\",{\"text\":\"Reinforced Echo Shard\",\"italic\":false,\"color\":\"dark_aqua\"}]'},Enchantments:[{}]}"
+            "type": "origins:component",
+            "component": "minecraft:custom_data",
+            "value": "{reinforced_echo_shard:1b}"
         },
         "trigger": "instant",
         "priority": 0
@@ -92,7 +93,7 @@
         "type": "origins:active_self",
         "entity_action": {
             "type": "origins:execute_command",
-            "command": "give @s minecraft:echo_shard{display:{Name:'[\"\",{\"text\":\"Reinforced Echo Shard\",\"italic\":false,\"color\":\"dark_aqua\"}]'},Enchantments:[{}]}"
+            "command": "give @s minecraft:echo_shard[minecraft:custom_name='{\"text\":\"Reinforced Echo Shard\",\"italic\":false,\"color\":\"dark_aqua\"}',minecraft:enchantment_glint_override=1b,minecraft:custom_data={reinforced_echo_shard:1b}]"
         },
         "cooldown": 0,
         "key": {

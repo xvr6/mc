@@ -10,13 +10,15 @@
             }
         },
         "on_item_condition": {
-            "type": "origins:nbt",
-            "nbt": "{Potion:\"minecraft:water\"}"
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:potion"
+            }
         },
         "result": {
-            "item": "minecraft:potion",
-            "amount": 1,
-            "tag": "{CustomPotionColor:16701501,display:{Name:'[\"\",{\"text\":\"Fish Oil\",\"italic\":false,\"color\":\"yellow\"}]'}}"
+            "id": "minecraft:potion",
+            "count": 1,
+            "tag": "{\"minecraft:potion_contents\":{custom_color:16701501},\"minecraft:custom_name\":'{\"text\":\"Fish Oil\",\"italic\":false,\"color\":\"yellow\"}',\"minecraft:custom_data\":{fish_oil:1b}}"
         },
         "using_item_action": {
             "type": "origins:consume",
@@ -31,8 +33,10 @@
     "bottlefirst": {
         "type": "origins:item_on_item",
         "using_item_condition": {
-            "type": "origins:nbt",
-            "nbt": "{Potion:\"minecraft:water\"}"
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:potion"
+            }
         },
         "on_item_condition": {
             "type": "origins:ingredient",
@@ -41,9 +45,9 @@
             }
         },
         "result": {
-            "item": "minecraft:potion",
-            "amount": 1,
-            "tag": "{CustomPotionColor:16701501,display:{Name:'[\"\",{\"text\":\"Fish Oil\",\"italic\":false,\"color\":\"yellow\"}]'}}"
+            "id": "minecraft:potion",
+            "count": 1,
+            "tag": "{\"minecraft:potion_contents\":{custom_color:16701501},\"minecraft:custom_name\":'{\"text\":\"Fish Oil\",\"italic\":false,\"color\":\"yellow\"}',\"minecraft:custom_data\":{fish_oil:1b}}"
         },
         "using_item_action": {
             "type": "origins:consume",
@@ -67,8 +71,9 @@
             "saturation": 3
         },
         "item_condition": {
-            "type": "origins:nbt",
-            "nbt": "{CustomPotionColor:16701501,display:{Name:'[\"\",{\"text\":\"Fish Oil\",\"italic\":false,\"color\":\"yellow\"}]'}}"
+            "type": "origins:component",
+            "component": "minecraft:custom_data",
+            "value": "{fish_oil:1b}"
         },
         "trigger": "finish",
         "priority": 0
@@ -85,8 +90,9 @@
             "saturation": 8
         },
         "item_condition": {
-            "type": "origins:nbt",
-            "nbt": "{CustomPotionColor:16701501,display:{Name:'[\"\",{\"text\":\"Fish Oil\",\"italic\":false,\"color\":\"yellow\"}]'}}"
+            "type": "origins:component",
+            "component": "minecraft:custom_data",
+            "value": "{fish_oil:1b}"
         },
         "trigger": "finish",
         "priority": 0
@@ -103,8 +109,9 @@
             "saturation": 6
         },
         "item_condition": {
-            "type": "origins:nbt",
-            "nbt": "{CustomPotionColor:16701501,display:{Name:'[\"\",{\"text\":\"Fish Oil\",\"italic\":false,\"color\":\"yellow\"}]'}}"
+            "type": "origins:component",
+            "component": "minecraft:custom_data",
+            "value": "{fish_oil:1b}"
         },
         "trigger": "finish",
         "priority": 0
@@ -121,8 +128,9 @@
             "saturation": 6
         },
         "item_condition": {
-            "type": "origins:nbt",
-            "nbt": "{CustomPotionColor:16701501,display:{Name:'[\"\",{\"text\":\"Fish Oil\",\"italic\":false,\"color\":\"yellow\"}]'}}"
+            "type": "origins:component",
+            "component": "minecraft:custom_data",
+            "value": "{fish_oil:1b}"
         },
         "trigger": "finish",
         "priority": 0
@@ -139,8 +147,9 @@
             "saturation": 6
         },
         "item_condition": {
-            "type": "origins:nbt",
-            "nbt": "{CustomPotionColor:16701501,display:{Name:'[\"\",{\"text\":\"Fish Oil\",\"italic\":false,\"color\":\"yellow\"}]'}}"
+            "type": "origins:component",
+            "component": "minecraft:custom_data",
+            "value": "{fish_oil:1b}"
         },
         "trigger": "finish",
         "priority": 0
@@ -157,8 +166,9 @@
             "saturation": 12
         },
         "item_condition": {
-            "type": "origins:nbt",
-            "nbt": "{CustomPotionColor:16701501,display:{Name:'[\"\",{\"text\":\"Fish Oil\",\"italic\":false,\"color\":\"yellow\"}]'}}"
+            "type": "origins:component",
+            "component": "minecraft:custom_data",
+            "value": "{fish_oil:1b}"
         },
         "trigger": "finish",
         "priority": 0
@@ -170,8 +180,9 @@
         },
         "type": "origins:prevent_item_use",
         "item_condition": {
-            "type": "origins:nbt",
-            "nbt": "{CustomPotionColor:16701501,display:{Name:'[\"\",{\"text\":\"Fish Oil\",\"italic\":false,\"color\":\"yellow\"}]'}}"
+            "type": "origins:component",
+            "component": "minecraft:custom_data",
+            "value": "{fish_oil:1b}"
         }
     },
     "landshark": {
@@ -186,8 +197,9 @@
             "saturation": 12
         },
         "item_condition": {
-            "type": "origins:nbt",
-            "nbt": "{CustomPotionColor:16701501,display:{Name:'[\"\",{\"text\":\"Fish Oil\",\"italic\":false,\"color\":\"yellow\"}]'}}"
+            "type": "origins:component",
+            "component": "minecraft:custom_data",
+            "value": "{fish_oil:1b}"
         },
         "trigger": "finish",
         "priority": 0
@@ -204,8 +216,9 @@
             "saturation": 6
         },
         "item_condition": {
-            "type": "origins:nbt",
-            "nbt": "{CustomPotionColor:16701501,display:{Name:'[\"\",{\"text\":\"Fish Oil\",\"italic\":false,\"color\":\"yellow\"}]'}}"
+            "type": "origins:component",
+            "component": "minecraft:custom_data",
+            "value": "{fish_oil:1b}"
         },
         "trigger": "finish",
         "priority": 0
@@ -222,8 +235,9 @@
             "saturation": 6
         },
         "item_condition": {
-            "type": "origins:nbt",
-            "nbt": "{CustomPotionColor:16701501,display:{Name:'[\"\",{\"text\":\"Fish Oil\",\"italic\":false,\"color\":\"yellow\"}]'}}"
+            "type": "origins:component",
+            "component": "minecraft:custom_data",
+            "value": "{fish_oil:1b}"
         },
         "trigger": "finish",
         "priority": 0
@@ -240,8 +254,9 @@
             "saturation": 8
         },
         "item_condition": {
-            "type": "origins:nbt",
-            "nbt": "{CustomPotionColor:16701501,display:{Name:'[\"\",{\"text\":\"Fish Oil\",\"italic\":false,\"color\":\"yellow\"}]'}}"
+            "type": "origins:component",
+            "component": "minecraft:custom_data",
+            "value": "{fish_oil:1b}"
         },
         "trigger": "finish",
         "priority": 0
@@ -254,8 +269,9 @@
             "saturation": 4
         },
         "item_condition": {
-            "type": "origins:nbt",
-            "nbt": "{CustomPotionColor:16701501,display:{Name:'[\"\",{\"text\":\"Fish Oil\",\"italic\":false,\"color\":\"yellow\"}]'}}"
+            "type": "origins:component",
+            "component": "minecraft:custom_data",
+            "value": "{fish_oil:1b}"
         },
         "trigger": "finish",
         "priority": 0
@@ -272,8 +288,9 @@
             "saturation": 2.5
         },
         "item_condition": {
-            "type": "origins:nbt",
-            "nbt": "{CustomPotionColor:16701501,display:{Name:'[\"\",{\"text\":\"Fish Oil\",\"italic\":false,\"color\":\"yellow\"}]'}}"
+            "type": "origins:component",
+            "component": "minecraft:custom_data",
+            "value": "{fish_oil:1b}"
         },
         "trigger": "finish",
         "priority": 0
@@ -290,8 +307,9 @@
             "saturation": 6
         },
         "item_condition": {
-            "type": "origins:nbt",
-            "nbt": "{CustomPotionColor:16701501,display:{Name:'[\"\",{\"text\":\"Fish Oil\",\"italic\":false,\"color\":\"yellow\"}]'}}"
+            "type": "origins:component",
+            "component": "minecraft:custom_data",
+            "value": "{fish_oil:1b}"
         },
         "trigger": "finish",
         "priority": 0
@@ -303,8 +321,9 @@
         },
         "type": "origins:prevent_item_use",
         "item_condition": {
-            "type": "origins:nbt",
-            "nbt": "{CustomPotionColor:16701501,display:{Name:'[\"\",{\"text\":\"Fish Oil\",\"italic\":false,\"color\":\"yellow\"}]'}}"
+            "type": "origins:component",
+            "component": "minecraft:custom_data",
+            "value": "{fish_oil:1b}"
         }
     },
     "enderian": {
@@ -319,8 +338,9 @@
             "saturation": 6
         },
         "item_condition": {
-            "type": "origins:nbt",
-            "nbt": "{CustomPotionColor:16701501,display:{Name:'[\"\",{\"text\":\"Fish Oil\",\"italic\":false,\"color\":\"yellow\"}]'}}"
+            "type": "origins:component",
+            "component": "minecraft:custom_data",
+            "value": "{fish_oil:1b}"
         },
         "trigger": "finish",
         "priority": 0
@@ -337,8 +357,9 @@
             "saturation": 6
         },
         "item_condition": {
-            "type": "origins:nbt",
-            "nbt": "{CustomPotionColor:16701501,display:{Name:'[\"\",{\"text\":\"Fish Oil\",\"italic\":false,\"color\":\"yellow\"}]'}}"
+            "type": "origins:component",
+            "component": "minecraft:custom_data",
+            "value": "{fish_oil:1b}"
         },
         "trigger": "finish",
         "priority": 0
@@ -355,8 +376,9 @@
             "saturation": 1
         },
         "item_condition": {
-            "type": "origins:nbt",
-            "nbt": "{CustomPotionColor:16701501,display:{Name:'[\"\",{\"text\":\"Fish Oil\",\"italic\":false,\"color\":\"yellow\"}]'}}"
+            "type": "origins:component",
+            "component": "minecraft:custom_data",
+            "value": "{fish_oil:1b}"
         },
         "trigger": "finish",
         "priority": 0
@@ -373,8 +395,9 @@
             "saturation": 6
         },
         "item_condition": {
-            "type": "origins:nbt",
-            "nbt": "{CustomPotionColor:16701501,display:{Name:'[\"\",{\"text\":\"Fish Oil\",\"italic\":false,\"color\":\"yellow\"}]'}}"
+            "type": "origins:component",
+            "component": "minecraft:custom_data",
+            "value": "{fish_oil:1b}"
         },
         "trigger": "finish",
         "priority": 0
@@ -391,8 +414,9 @@
             "saturation": 6
         },
         "item_condition": {
-            "type": "origins:nbt",
-            "nbt": "{CustomPotionColor:16701501,display:{Name:'[\"\",{\"text\":\"Fish Oil\",\"italic\":false,\"color\":\"yellow\"}]'}}"
+            "type": "origins:component",
+            "component": "minecraft:custom_data",
+            "value": "{fish_oil:1b}"
         },
         "trigger": "finish",
         "priority": 0
@@ -409,8 +433,9 @@
             "saturation": 6
         },
         "item_condition": {
-            "type": "origins:nbt",
-            "nbt": "{CustomPotionColor:16701501,display:{Name:'[\"\",{\"text\":\"Fish Oil\",\"italic\":false,\"color\":\"yellow\"}]'}}"
+            "type": "origins:component",
+            "component": "minecraft:custom_data",
+            "value": "{fish_oil:1b}"
         },
         "trigger": "finish",
         "priority": 0
@@ -427,8 +452,9 @@
             "saturation": 6
         },
         "item_condition": {
-            "type": "origins:nbt",
-            "nbt": "{CustomPotionColor:16701501,display:{Name:'[\"\",{\"text\":\"Fish Oil\",\"italic\":false,\"color\":\"yellow\"}]'}}"
+            "type": "origins:component",
+            "component": "minecraft:custom_data",
+            "value": "{fish_oil:1b}"
         },
         "trigger": "finish",
         "priority": 0
@@ -445,8 +471,9 @@
             "saturation": 6
         },
         "item_condition": {
-            "type": "origins:nbt",
-            "nbt": "{CustomPotionColor:16701501,display:{Name:'[\"\",{\"text\":\"Fish Oil\",\"italic\":false,\"color\":\"yellow\"}]'}}"
+            "type": "origins:component",
+            "component": "minecraft:custom_data",
+            "value": "{fish_oil:1b}"
         },
         "trigger": "finish",
         "priority": 0
@@ -463,8 +490,9 @@
             "saturation": 9
         },
         "item_condition": {
-            "type": "origins:nbt",
-            "nbt": "{CustomPotionColor:16701501,display:{Name:'[\"\",{\"text\":\"Fish Oil\",\"italic\":false,\"color\":\"yellow\"}]'}}"
+            "type": "origins:component",
+            "component": "minecraft:custom_data",
+            "value": "{fish_oil:1b}"
         },
         "trigger": "finish",
         "priority": 0
@@ -489,7 +517,7 @@
             "actions": [
                 {
                     "type": "origins:execute_command",
-                    "command": "give @s minecraft:potion{CustomPotionColor:16701501,display:{Name:'[\"\",{\"text\":\"Fish Oil\",\"italic\":false,\"color\":\"yellow\"}]'}}"
+                    "command": "give @s minecraft:potion[minecraft:potion_contents={custom_color:16701501},minecraft:custom_name='{\"text\":\"Fish Oil\",\"italic\":false,\"color\":\"yellow\"}',minecraft:custom_data={fish_oil:1b}]"
                 }
             ]
         },
@@ -510,8 +538,9 @@
             "saturation": 6
         },
         "item_condition": {
-            "type": "origins:nbt",
-            "nbt": "{CustomPotionColor:16701501,display:{Name:'[\"\",{\"text\":\"Fish Oil\",\"italic\":false,\"color\":\"yellow\"}]'}}"
+            "type": "origins:component",
+            "component": "minecraft:custom_data",
+            "value": "{fish_oil:1b}"
         },
         "trigger": "finish",
         "priority": 0
@@ -523,8 +552,9 @@
         },
         "type": "origins:prevent_item_use",
         "item_condition": {
-            "type": "origins:nbt",
-            "nbt": "{CustomPotionColor:16701501,display:{Name:'[\"\",{\"text\":\"Fish Oil\",\"italic\":false,\"color\":\"yellow\"}]'}}"
+            "type": "origins:component",
+            "component": "minecraft:custom_data",
+            "value": "{fish_oil:1b}"
         }
     }
 }

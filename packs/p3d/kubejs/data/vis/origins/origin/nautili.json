@@ -19,8 +19,7 @@
         "vis:debuffs/hinderingshell",
         "vis:debuffs/coralstate",
         "vis:debuffs/riftcurse",
-        "origins:aquatic",
-        "origins:conduit_power_on_land",
+"origins:conduit_power_on_land",
         "origins:air_from_potions",
         "origins:no_shield",
         "vis:sfx/naut"

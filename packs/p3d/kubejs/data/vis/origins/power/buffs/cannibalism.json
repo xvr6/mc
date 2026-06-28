@@ -8,28 +8,28 @@
             "item": "minecraft:nautilus_shell"
         }
     },
-    "food_component": {
+    "food_properties": {
         "hunger": 4,
         "saturation": 1,
         "meat": true,
         "effects": [
             {
                 "effect": {
-                    "effect": "minecraft:strength",
+                    "id": "minecraft:strength",
                     "duration": 900,
                     "amplifier": 1
                 }
             },
             {
                 "effect": {
-                    "effect": "minecraft:absorption",
+                    "id": "minecraft:absorption",
                     "duration": 900,
                     "amplifier": 4
                 }
             },
             {
                 "effect": {
-                    "effect": "minecraft:haste",
+                    "id": "minecraft:haste",
                     "duration": 900,
                     "amplifier": 1
                 }
