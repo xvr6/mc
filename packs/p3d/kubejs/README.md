@@ -13,3 +13,4 @@
 - add buff back to start as mon
 - disable infinite creative flight from synchro
   - infinite ish flight gotten later with create: jetpacks
+- add in height adjustment to nautilil

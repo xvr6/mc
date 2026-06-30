@@ -27,10 +27,6 @@
             "type": "origins:entity_type",
             "entity_type": "minecraft:dolphin"
         },
-        "entity_action": {
-            "type": "origins:grant_advancement",
-            "advancement": "vis:petty"
-        },
         "cooldown": 0
     }
 }

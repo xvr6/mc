@@ -1,6 +1,6 @@
 {
     "name": "Cannibalism",
-    "description": "You may consume Nautilus Shells. Committing this act of cannibalism will reward you with sustenance and a few positive status effects. ",
+    "description": "You may consume Nautilus Shells. Committing this act of cannibalism will reward you with sustenance and a few positive status effects.",
     "type": "origins:edible_item",
     "item_condition": {
         "type": "origins:ingredient",

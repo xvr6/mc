@@ -59,32 +59,6 @@
         },
         "click_type": "right"
     },
-    "bateatecho": {
-        "condition": {
-            "type": "origins:origin",
-            "origin": "vis:chiropteran"
-        },
-        "type": "origins:action_on_item_use",
-        "entity_action": {
-            "type": "origins:modify_resource",
-            "resource": "vis:resources/echo",
-            "modifier": {
-                "operation": "set_total",
-                "value": 70
-            }
-        },
-        "item_action": {
-            "type": "origins:consume",
-            "amount": 1
-        },
-        "item_condition": {
-            "type": "origins:component",
-            "component": "minecraft:custom_data",
-            "value": "{reinforced_echo_shard:1b}"
-        },
-        "trigger": "instant",
-        "priority": 0
-    },
     "instantecho": {
         "condition": {
             "type": "origins:gamemode",

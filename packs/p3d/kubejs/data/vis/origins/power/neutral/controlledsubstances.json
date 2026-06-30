@@ -55,41 +55,6 @@
             "amount": 1
         }
     },
-    "staminasurge": {
-        "condition": {
-            "type": "origins:origin",
-            "origin": "vis:flyingpenguin"
-        },
-        "type": "origins:action_on_item_use",
-        "entity_action": {
-            "type": "origins:modify_resource",
-            "resource": "vis:resources/stamina",
-            "modifier": {
-                "operation": "add_base_early",
-                "value": 20
-            }
-        },
-        "item_condition": {
-            "type": "origins:component",
-            "component": "minecraft:custom_data",
-            "value": "{stamina_surge:1b}"
-        },
-        "trigger": "finish",
-        "priority": 0
-    },
-    "preventotherorigins": {
-        "condition": {
-            "inverted": true,
-            "type": "origins:origin",
-            "origin": "vis:flyingpenguin"
-        },
-        "type": "origins:prevent_item_use",
-        "item_condition": {
-            "type": "origins:component",
-            "component": "minecraft:custom_data",
-            "value": "{stamina_surge:1b}"
-        }
-    },
     "immediatesurge": {
         "condition": {
             "type": "origins:and",
