@@ -200,10 +200,6 @@ hash = "c8691f14171fed0678c1b86682575e61ca4b8a2e81857b7819d55d94e3bd7922"
 metafile = true
 
 [[files]]
-file = "datapacks/everycomp-dynamic_resources.zip"
-hash = "9f89e0431c564a100e0eaaeca999f8098fd84202eeea05544f3fb6b9cd50f1c3"
-
-[[files]]
 file = "datapacks/lasers-fakemon-pack.pw.toml"
 hash = "c7a3d4297091650fb5387f3203c2b058ced15f5c34cf3317b972d33e8670b083"
 metafile = true
@@ -264,6 +260,10 @@ hash = "93c397ceab19500905ef60ab2686253e3bf398d05f1a442cc0a87e0d5c692d75"
 [[files]]
 file = "datapacks/poinky-additions/pack.mcmeta"
 hash = "b7d9412dc1211eaa7230d1f2c89857426d32a914332e0149b14dcf3e6663726d"
+
+[[files]]
+file = "dynamic-data-pack-cache/everycomp-dynamic_resources.zip"
+hash = "8f0821af58acbf536de384a1c9856ac7089d3c1b36fdc04661f052cf94532647"
 
 [[files]]
 file = "kubejs/README.md"
@@ -964,16 +964,6 @@ hash = "b3c013507fdd85a662b4e6861cde218ca27f1409165940970fd08d3e946b9409"
 metafile = true
 
 [[files]]
-file = "mods/colorwheel-patcher.pw.toml"
-hash = "9fa03dd37c3c789d29099dd37040a3e0db5a6b623f1d22f35c1802d13ea409a6"
-metafile = true
-
-[[files]]
-file = "mods/colorwheel.pw.toml"
-hash = "8f26c2ec8d7f886f1d73eeec176652156d598f7dc80f0906f41944287923a13e"
-metafile = true
-
-[[files]]
 file = "mods/configured.pw.toml"
 hash = "716066fc86036dea4f88e527aa1015bf48e1f98ed7109cdad0250f6699d7387a"
 metafile = true
@@ -1169,6 +1159,16 @@ hash = "c308b557b01b6e6cc25ee8d6a1a7c78bca2b71be3ae645e40d10cf25259fabcd"
 metafile = true
 
 [[files]]
+file = "mods/create-drill-drain.pw.toml"
+hash = "3fbcb6a8065b89349d223e93fc5d58c1675bc11d1fbee86c4a9976e0f69f482d"
+metafile = true
+
+[[files]]
+file = "mods/create-easy-stock-ticker.pw.toml"
+hash = "de4bcd0988db2d00762da6e174261d92dc8e93c57b66a63a35b6e5833da0086c"
+metafile = true
+
+[[files]]
 file = "mods/create-electro-energetics.pw.toml"
 hash = "f809ef038d1f0f24389fbe581f672ed85b5e4ac6053eb4cf1f9d83b93930068b"
 metafile = true
@@ -1229,8 +1229,8 @@ hash = "12a90beeb5a46b46dfdc7ba2a5510107fbc60915e6cf1af129d365e20b99ce2d"
 metafile = true
 
 [[files]]
-file = "mods/create-misc-and-things.pw.toml"
-hash = "055a23471c72576d1f79e2edcd6a20bcaa59ac70c84480fc10069c6469b3f528"
+file = "mods/create-mobile-packages.pw.toml"
+hash = "ad5c2fd3c28bd92617c104d5cfc32fc1fd9b16585af1f5631cc4c59954fa8eef"
 metafile = true
 
 [[files]]
@@ -1454,6 +1454,11 @@ hash = "5822270769e6a4d6372fa5d88eeb003f719a539cc60eb047006cfa9b81baab02"
 metafile = true
 
 [[files]]
+file = "mods/euphoria-patches.pw.toml"
+hash = "5fad38203cbe193eb002687fd093794f8af052ddadcc61a803a0320f13d5fbe2"
+metafile = true
+
+[[files]]
 file = "mods/every-compat.pw.toml"
 hash = "d7995c6f45528e8769205ce7cd66156fab94e3f41d0a3aa699cdacbba94c3c93"
 metafile = true
@@ -1639,6 +1644,11 @@ hash = "fde686e782f611aed63b3231af93e7c58e6fc92e5a986e9dfc4af12fd97842f2"
 metafile = true
 
 [[files]]
+file = "mods/iris-flw-compat.pw.toml"
+hash = "da8dc541bcbef1034ecd7c8ed2bba11b95512ab937b9bcdd5d40e9f04e38bb06"
+metafile = true
+
+[[files]]
 file = "mods/iris.pw.toml"
 hash = "1b78e7fed24dfe3512dda0a138eed0985f8ffea962aece9d966922cb53f69c15"
 metafile = true
@@ -1804,23 +1814,8 @@ hash = "0c961c709297bcc89f2f07e1eb1049e4d21a331adb020f1786e5a9a0883e037c"
 metafile = true
 
 [[files]]
-file = "mods/macaws-doors.pw.toml"
-hash = "b00f8b696187f092a939b7bbbf2ad2f249665776465bac594e2d0f4f37d36dc4"
-metafile = true
-
-[[files]]
 file = "mods/macaws-fences-and-walls.pw.toml"
 hash = "ea28bcac23c070998d1f7df5dcbf248831c33f59067eaf2fd125adfa07c5722c"
-metafile = true
-
-[[files]]
-file = "mods/macaws-holidays.pw.toml"
-hash = "b9c4ccbf05a9002ebdb8981caad8b2442fa851f9cea33699d41ea334938c8df0"
-metafile = true
-
-[[files]]
-file = "mods/macaws-lights-and-lamps.pw.toml"
-hash = "87366a5d82152829103539d930ad9c0e8edbd5a917f65657db76f718f5296927"
 metafile = true
 
 [[files]]
@@ -1911,11 +1906,6 @@ metafile = true
 [[files]]
 file = "mods/moonlight.pw.toml"
 hash = "018eeaa17d34a6010be48e946ad26973e24e125cfdf6f87cbd79f0cd7d5901ce"
-metafile = true
-
-[[files]]
-file = "mods/more-beautiful-torches.pw.toml"
-hash = "2b1cbe1d0622a206bc38bae140d83ebf2086e034100eaaf74e3123d7bc124843"
 metafile = true
 
 [[files]]
@@ -2264,11 +2254,6 @@ hash = "1e8c9a317d9c076408d7e1533a362864b3f39f8998616149db646b2e9449244e"
 metafile = true
 
 [[files]]
-file = "mods/sodium-shadowy-path-blocks.pw.toml"
-hash = "6df23b8cdee33784a94cbdf00511102213d5bd041bfdaebb17cadf5539df4d19"
-metafile = true
-
-[[files]]
 file = "mods/sodium.pw.toml"
 hash = "b09f7819bbd22c2cc6a70601295721cb3bee6d830ca2f51fdacb50de519596e8"
 metafile = true
@@ -2562,10 +2547,6 @@ hash = "57e19f5e281f407d6335d08d8dc1de965a5fa9bcbe1f267f95bedcfc01e79db9"
 metafile = true
 
 [[files]]
-file = "resourcepacks/everycomp-dynamic_resources.zip"
-hash = "9f89e0431c564a100e0eaaeca999f8098fd84202eeea05544f3fb6b9cd50f1c3"
-
-[[files]]
 file = "resourcepacks/fa-player-extension-x-better-combat.pw.toml"
 hash = "6eabed87fce172f6d904834944a300ffc0bf3a6a964bf74b707a0fdea55a66df"
 metafile = true
@@ -2611,12 +2592,13 @@ hash = "edac40b0b2c7da8a5b6a889ef22f9b9b4a0e53cb0d1d6c00116884d8e4db468f"
 metafile = true
 
 [[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.7.1.zip"
-hash = "ee75358ec2b4d404dbfa26fe71d654a6c4fd228c401383f17002219b27ab535f"
-
-[[files]]
 file = "shaderpacks/README.md"
 hash = "ca5a886a03c7ca6b5aa7564f667df0dcf0c215ef9c95c21feb37454d47ac288a"
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "608b87f75b2387a9fbd340cb18a8238bbbe5a0afc54202634b34f3000246b6e7"
+metafile = true
 
 [[files]]
 file = "shaderpacks/photon-shaders.pw.toml"
