@@ -1,0 +1,11 @@
+{
+  "powers": [
+  ],
+  "icon": {
+    "id": "kubejs:regular"
+  },
+  "name": "Off",
+  "description": "This origin only exists to make origins happy. If you're not a mon, you can just click select.",
+  "order": 4,
+  "impact": 1
+}
