@@ -61,6 +61,18 @@ ServerEvents.generateData("after_mods",event=>{
           "origin": "startmon:mon"
         },
         "origins": monOriginNames
+      },
+      {
+        "condition": {
+          "type": "origins:not",
+          "condition": {
+            "type": "origins:origin",
+            "origin": "startmon:mon"
+          }
+        },
+        "origins": [
+          "startmon:off"
+        ]
       }
     ],
     "allow_random": true
@@ -121,6 +133,19 @@ ServerEvents.generateData("after_mods",event=>{
         "startmon:"+x
       ]
     }
+  })
+
+  regionLayerList.push({
+    "condition": {
+      "type": "origins:not",
+      "condition": {
+        "type": "origins:origin",
+        "origin": "startmon:mon"
+      }
+    },
+    "origins": [
+      "startmon:off"
+    ]
   })
 
   event.json("startmon:origins/layer/region.json",{

@@ -13,6 +13,18 @@
         "startmon:shiny",
         "startmon:nonshiny"
       ]
+    },
+    {
+      "condition": {
+        "type": "origins:not",
+        "condition": {
+          "type": "origins:origin",
+          "origin": "startmon:mon"
+        }
+      },
+      "origins": [
+        "startmon:off"
+      ]
     }
   ],
   "allow_random": true

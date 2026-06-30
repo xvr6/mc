@@ -439,11 +439,11 @@ hash = "df1709bf0bbacc894a139275bbf90404d04dd6d9868d53f8fb6939f5080f6bbe"
 
 [[files]]
 file = "kubejs/data/startmon/origins/layer/gender.json"
-hash = "6eaaa368b8cf907da0582573c7b52baa5861855dcad8faa7f914dd2825530ec6"
+hash = "77912ba31492181ffc7d9e14e7ae206fc3abef3ce34e2e09e9ab8c0f9d70221a"
 
 [[files]]
 file = "kubejs/data/startmon/origins/layer/shiny.json"
-hash = "e8a3b54c98e6a6f74dd0098a6065b7950d946ed64a43a15715bfad0f2c465c62"
+hash = "0bc9563c4c9f047cc3df7226759217bea351b40ef558cff13a80d56fb7687d13"
 
 [[files]]
 file = "kubejs/data/startmon/origins/origin/female.json"
@@ -464,6 +464,10 @@ hash = "40631f474582c7559bd5ff08029b3b306702b8bee87e455c470a74bd073564ba"
 [[files]]
 file = "kubejs/data/startmon/origins/origin/nonshiny.json"
 hash = "1cde0650432c6931f82645500f074fa406db4c9e3a478ba86596562c1a371b62"
+
+[[files]]
+file = "kubejs/data/startmon/origins/origin/off.json"
+hash = "fa6176a7be0e53fec8c76fa7902bb8c6b7722220fea98fc1d20f016f2ba68e7b"
 
 [[files]]
 file = "kubejs/data/startmon/origins/origin/regular.json"
@@ -571,7 +575,7 @@ hash = "7834dcf761f113d05401be46a49e4d87834aec787fe97e24131d95ecf98c834e"
 
 [[files]]
 file = "kubejs/server_scripts/mon_generate.js"
-hash = "e2029f14bc1d4983ddee4ac46291001f6202174511f512d34ff25a979cd3ff62"
+hash = "cab194194b6f13488fb584925f045d2b13b2c9f5cd5aa4facd0dfdb2ca991a38"
 
 [[files]]
 file = "kubejs/server_scripts/startMon.js"
