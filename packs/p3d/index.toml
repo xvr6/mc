@@ -605,11 +605,6 @@ hash = "19cbfb37dc29169b50599dfa328fe12a0ec9caaec8ac02627b5846f3bd9d1425"
 metafile = true
 
 [[files]]
-file = "mods/addonslib.pw.toml"
-hash = "1bef2612307c5e5066ea7c428435d2e5121dc0c48d6d1e2781854b4ce7210baa"
-metafile = true
-
-[[files]]
 file = "mods/advanced-chimneys.pw.toml"
 hash = "fda999ab05afac2ad16b487ad7d27ba6b9cfbddeec7b5b5d4764bb50df224bed"
 metafile = true
@@ -2520,11 +2515,6 @@ hash = "724c163295afffa949dcbe2aab248e13c6d7fd07ee8260afde6a42fc5a879b4d"
 [[files]]
 file = "resourcepacks/allthemons-x-mega-showdown-legacy.pw.toml"
 hash = "0394f05da4776a47705e16e90408fdcdc7a7a5d9419aeb19b8fa73cbe188c7bd"
-metafile = true
-
-[[files]]
-file = "resourcepacks/dye-the-skies.pw.toml"
-hash = "9f62c27a62625ed704beb260a89c77a336047175721ff08cffb5b12a51a148ab"
 metafile = true
 
 [[files]]
