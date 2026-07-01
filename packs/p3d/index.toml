@@ -1249,6 +1249,11 @@ hash = "d1a7402cc94a8a857d380f68bb9a19d8981a2b3223068a53d9054e97232f4167"
 metafile = true
 
 [[files]]
+file = "mods/create-propulsion-simulated.pw.toml"
+hash = "b3adf7e1a518ce4e49332c3d5855d5c9cdc4ff10a31dc652e5daa85d8f33a619"
+metafile = true
+
+[[files]]
 file = "mods/create-rail-grinding.pw.toml"
 hash = "c71bb895f0149f9df4eb89168b818cbd77cb83bf5a11954bee8a60a26ef28ea7"
 metafile = true
@@ -1304,6 +1309,11 @@ hash = "61444d9ddce21fc9016baef85b1d571afa58ef745e074d5b5d431498e026dcdd"
 metafile = true
 
 [[files]]
+file = "mods/create-vibrant-vaults.pw.toml"
+hash = "960645d7f385081b108208e58bbbdfc6b93288b7bd7da90e6f229a57b237234a"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
@@ -1321,6 +1331,11 @@ metafile = true
 [[files]]
 file = "mods/createnuclear.pw.toml"
 hash = "e7a6cda82ddd91e08e2fbadff97d4590861f0ca78d9fa12a8693de25f48a58ac"
+metafile = true
+
+[[files]]
+file = "mods/createschematicchecker.pw.toml"
+hash = "71053be9c44af1962340f830d5a0b463ea55e0251e5ad941668d1ed38d13254e"
 metafile = true
 
 [[files]]
@@ -1345,7 +1360,7 @@ metafile = true
 
 [[files]]
 file = "mods/custom-player-models.pw.toml"
-hash = "aa675b16bedfe10aaa4c77bf4e05c1425118637eef13bf7ed466597e6aa2afd7"
+hash = "2f7cb5847c0c50111dc8f906a92a474135ba908c6ae658c46c3dd44dfdc8220e"
 metafile = true
 
 [[files]]
@@ -1381,6 +1396,11 @@ metafile = true
 [[files]]
 file = "mods/dragonlib.pw.toml"
 hash = "f943c276fcebd5542c4b3dda60634728e1a70212f15dc9af8f0b7b9bb40199db"
+metafile = true
+
+[[files]]
+file = "mods/dripsounds.pw.toml"
+hash = "3298439919588dd564e9174af6cfc8496b253706f78407c881b4216e999b5234"
 metafile = true
 
 [[files]]
@@ -1505,7 +1525,7 @@ metafile = true
 
 [[files]]
 file = "mods/figura.pw.toml"
-hash = "b8d26b651e89f014def57b044d27f2042e75732fc0f225bde0eb1182d1ebe959"
+hash = "140897d2cb41cb354ab9cb762b0a41df2f24e0f27b9b7e443d700738baab3e11"
 metafile = true
 
 [[files]]
@@ -1646,6 +1666,11 @@ metafile = true
 [[files]]
 file = "mods/iris-flw-compat.pw.toml"
 hash = "da8dc541bcbef1034ecd7c8ed2bba11b95512ab937b9bcdd5d40e9f04e38bb06"
+metafile = true
+
+[[files]]
+file = "mods/iris-veil-compat.pw.toml"
+hash = "69f9051c61c05546a2bf008654149a101814842bc2bf384df5c0ee0d64301ccd"
 metafile = true
 
 [[files]]
@@ -1836,6 +1861,11 @@ metafile = true
 [[files]]
 file = "mods/macaws-windows.pw.toml"
 hash = "450ed5663bf1d12ffddc78eda5aa56cb7808cbdac6db8102d18461361aaa555f"
+metafile = true
+
+[[files]]
+file = "mods/map-distance-fix.pw.toml"
+hash = "3e8868b6d65cdb4a0be84ab4c8d3f456af09830858429a5b89dc3483fc9f2864"
 metafile = true
 
 [[files]]
@@ -2284,8 +2314,8 @@ hash = "bd400672dc8bfb441a68a1d5882d5ec3c045c097e0831bd994e25abf4965e71f"
 metafile = true
 
 [[files]]
-file = "mods/sound-physics-remastered.pw.toml"
-hash = "462b629a0b16bc52de95f5ea102e9ecfe8835f64e930d3175aa806da48081d19"
+file = "mods/sound-physics-perfected.pw.toml"
+hash = "44d8909d4501cf0d323a12c0f8a42893ac034a87c1d4faa757843c2a91866a6e"
 metafile = true
 
 [[files]]
@@ -2439,6 +2469,11 @@ hash = "ce2c77ea4776ab4945d50f8eb286d673abb946320d2aa8a3b956b58e4353fc50"
 metafile = true
 
 [[files]]
+file = "mods/vectorientation-reforged.pw.toml"
+hash = "87313ed369348c379647d5ae668439b45219c03448154ad6e47a70968db0090e"
+metafile = true
+
+[[files]]
 file = "mods/via-romana.pw.toml"
 hash = "d96fe12674f0a9d208ab683e0799542b03ddfd9b17bd89996f3fca73dd3df2dd"
 metafile = true
@@ -2451,6 +2486,11 @@ metafile = true
 [[files]]
 file = "mods/vista_tv.pw.toml"
 hash = "2513e758aabe6a188ca6899b1876c091fe2ea10b48d9b3eaad9c66bf9691511c"
+metafile = true
+
+[[files]]
+file = "mods/visual-workbench.pw.toml"
+hash = "baba208274c2694de645628138244a4316942cfbf9cf67b8c8dd656013fcbc54"
 metafile = true
 
 [[files]]

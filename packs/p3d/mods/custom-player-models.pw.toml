@@ -1,4 +1,4 @@
-name = "Customizable Player Models"
+name = "[Visual] Customizable Player Models"
 filename = "CustomPlayerModels-1.21-0.6.26a.jar"
 side = "both"
 
@@ -11,3 +11,8 @@ hash = "181e7d9cd2892ec791658383ae8b6a96f5afe89c4726c764342ff6623ebcad3a3880e329
 [update.modrinth]
 mod-id = "h1E7sQNL"
 version = "WTq2BBDV"
+
+[option]
+optional = true
+description = "Recomended to keep enabled as it adds in cool new player models! Leaving as optional as its truly not necessary for core gameplay functionality."
+default = true
