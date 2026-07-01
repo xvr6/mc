@@ -1,13 +1,13 @@
 name = "Origins (NeoForge)"
-filename = "origins-0.2.1.jar"
+filename = "origins-0.3-beta.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/QaMa6tXQ/versions/9Dji4O0h/origins-0.2.1.jar"
+url = "https://cdn.modrinth.com/data/QaMa6tXQ/versions/8H3PPDmz/origins-0.3-beta.1.jar"
 hash-format = "sha512"
-hash = "f17b6302722b57aa4b116bd4aeb6417bfda677d008cb3d0ca1472ec2ecddad612c46b0b8834efbf2d70a27e23ff2798e2e6f88991bd614adeaa67c05d51afdf7"
+hash = "cc2fd9580b99b42380bb914e0243388dad543dde6bc888d353f3ff7379736f89c49b3bff190cf37e670dee0abe5731f7a301beaae326b599421c28ea60bfdb3a"
 
 [update]
 [update.modrinth]
 mod-id = "QaMa6tXQ"
-version = "9Dji4O0h"
+version = "8H3PPDmz"

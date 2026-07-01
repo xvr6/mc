@@ -14,4 +14,5 @@ version = "kti7i9SG"
 
 [option]
 optional = true
+description = "Some sounds when opening/closing guis and moving items in inventories"
 default = true

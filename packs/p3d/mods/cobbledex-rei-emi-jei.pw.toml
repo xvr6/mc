@@ -1,6 +1,6 @@
 name = "[JEI] Cobblemon Info"
 filename = "cobbledex-rei-emi-jei-neoforge-2.0.2.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/qekxLrOP/versions/VDbf7FHr/cobbledex-rei-emi-jei-neoforge-2.0.2.jar"

@@ -1,0 +1,18 @@
+name = "[Visual] Vectorientation Reforged"
+filename = "vectorientation-1.1.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/6mh2AIhM/versions/KXoY3sqy/vectorientation-1.1.0.jar"
+hash-format = "sha512"
+hash = "2f8d0abcb7d33098dbcd0b551860a18148b728d1eefa377df74c1e10d9242073b000130d4e6a1b97c1e682ddd6fcc44516c601690768d85cd799c728ac618510"
+
+[update]
+[update.modrinth]
+mod-id = "6mh2AIhM"
+version = "KXoY3sqy"
+
+[option]
+optional = true
+description = "Adds rotation + squash and stretch to falling blocks"
+default = true

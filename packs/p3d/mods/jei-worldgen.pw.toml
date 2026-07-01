@@ -1,13 +1,13 @@
 name = "JEI / REI WorldGen"
-filename = "jeiworldgen-neoforge-1.21.1-1.3.0.jar"
+filename = "jeiworldgen-neoforge-1.21.1-1.3.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/YYrsrQ6q/versions/neRQ6KI2/jeiworldgen-neoforge-1.21.1-1.3.0.jar"
+url = "https://cdn.modrinth.com/data/YYrsrQ6q/versions/qcDfy9v0/jeiworldgen-neoforge-1.21.1-1.3.1.jar"
 hash-format = "sha512"
-hash = "527bda3b91e3f962de0266593a9267d6506561173bb363f344584eb20a6536ad41386cebbff40070dbd5a53cd4ff4c6e70036ddfde0459530f2a38cfb1507e19"
+hash = "f4e6fc72d442a79eaf49f6671abf3884a0a8d5d6572df7e103e7b8fb3e1068279071df5e2c7b8f8a127e8fcb5f66ca65b67507f9e6c66e48032df4ff51fa147f"
 
 [update]
 [update.modrinth]
 mod-id = "YYrsrQ6q"
-version = "neRQ6KI2"
+version = "qcDfy9v0"

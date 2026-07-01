@@ -1,4 +1,4 @@
-name = "Figura"
+name = "[Visual] Figura"
 filename = "figura-0.1.6+1.21.1-neoforge-mc.jar"
 side = "client"
 
@@ -14,5 +14,5 @@ version = "AvgeQoZm"
 
 [option]
 optional = true
-description = "May cause issues, but should be ok now!"
+description = "Recomended to keep enabled as it adds in chat emotes and some players do use this instead of CPM! Leaving as optional as its truly not necessary for core gameplay functionality."
 default = true

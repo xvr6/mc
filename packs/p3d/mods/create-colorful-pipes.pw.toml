@@ -1,13 +1,13 @@
 name = "Create: Colorful Pipes"
-filename = "Create_Colorful_Pipes_NeoForge-2.4.2+1.21.1.jar"
+filename = "Create_Colorful_Pipes_NeoForge-2.4.3+1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Bug7e6Xo/versions/mG7eomfc/Create_Colorful_Pipes_NeoForge-2.4.2%2B1.21.1.jar"
+url = "https://cdn.modrinth.com/data/Bug7e6Xo/versions/dQ3na0PQ/Create_Colorful_Pipes_NeoForge-2.4.3%2B1.21.1.jar"
 hash-format = "sha512"
-hash = "bcca0d01f2cc177005d637910577b7c99fdb5a321c3b7fedf23c35e41ebfae8b72f064a9a1eef8390f341106fb2e64758342180934e5d90c6fc59be7e092105e"
+hash = "40938d4c1b63cf0d6533fd57cf98534b7d4f49b891e25d76297bfadd1d295e2052062f8d3be243b49ae4142f93b0366e45c7e7aa9cc859e0f06ae481e4936449"
 
 [update]
 [update.modrinth]
 mod-id = "Bug7e6Xo"
-version = "mG7eomfc"
+version = "dQ3na0PQ"

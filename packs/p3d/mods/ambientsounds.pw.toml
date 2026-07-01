@@ -14,4 +14,5 @@ version = "RZyxhsqY"
 
 [option]
 optional = true
+description = "Adds in more environmental sound effects"
 default = true
