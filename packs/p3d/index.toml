@@ -106,7 +106,7 @@ hash = "779e5a19c266c294003617ab5311c28c5f0223c297553ccfba03914f235cfee2"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "cc70c29f404ce03ad02181dcff2d817684b56e6854b9b58e47f9a4677873fc36"
+hash = "46ca22db0ea4e790794a1b744c720ee15d5428e7de3dfff62cef3ba9c2610199"
 
 [[files]]
 file = "config/railways-untold-additions/config.toml"
@@ -1180,8 +1180,8 @@ hash = "c6f449a5dbd6640cef3a2d46f198af505b1d3fe7cb38c43057bb16ea055c3d7f"
 metafile = true
 
 [[files]]
-file = "mods/create-garnished.pw.toml"
-hash = "00f716591fd0e923c06a30fd023b73462d95a65cf3085432770ed52fc969373c"
+file = "mods/create-garnished-reworked.pw.toml"
+hash = "10d6abdb48c56b42ec803d11e91a42b97c212580797366980b02b8a01e920c2f"
 metafile = true
 
 [[files]]
@@ -1831,7 +1831,7 @@ metafile = true
 
 [[files]]
 file = "mods/mindful-darkness.pw.toml"
-hash = "ddfeb44a256532e79065a6578370516ac37fa416196bb826c6ac8e3e1348a4a8"
+hash = "878095e9122c1fa6bacaea51cf4f12b39405f63a16321c9d6cddc074b3d567e7"
 metafile = true
 
 [[files]]

@@ -1,0 +1,13 @@
+name = "Create: Garnished Reworked"
+filename = "creategarnished-april-foods-26-neoforged.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/f1wEzr0F/versions/ODnfYWc7/creategarnished-april-foods-26-neoforged.jar"
+hash-format = "sha512"
+hash = "587a5449ea1f22874b53ede8e3d3bab225560b5586530c6d0a67b167644dfcbc2d0640d913b1711c1221d617def7df836f284e7925346eceac92a05790673067"
+
+[update]
+[update.modrinth]
+mod-id = "f1wEzr0F"
+version = "ODnfYWc7"

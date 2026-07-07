@@ -120,14 +120,14 @@
 	Stools = false
 	"Sturdy Stone" = true
 	Thatch = true
-	"Variant Bookshelves" = false
-	"Variant Chests" = false
-	"Variant Furnaces" = false
-	"Variant Ladders" = false
-	"Vertical Planks" = false
-	"Vertical Slabs" = false
+	"Variant Bookshelves" = true
+	"Variant Chests" = true
+	"Variant Furnaces" = true
+	"Variant Ladders" = true
+	"Vertical Planks" = true
+	"Vertical Slabs" = true
 	"Wooden Posts" = true
-	"More Stone Variants" = false
+	"More Stone Variants" = true
 
 	[building.celebratory_lamps]
 		"Light Level" = 15
