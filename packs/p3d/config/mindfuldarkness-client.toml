@@ -40,7 +40,7 @@ paths = [
     "!dynamiccrosshair:textures/gui/crosshairs.png",
     "quark:textures/misc/backpack_gui.png",
     "quark:textures/misc/matrix_enchanting.png",
-    "quark:textures/misc/shulker_widget.png",
+    "quark:textures/misc/shulker_widget.png"
 ]
 #Do not add the dark mode toggle buttons to the top of every menu.
 #Default Value: false

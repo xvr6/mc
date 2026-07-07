@@ -1,0 +1,13 @@
+name = "Carcinogenius"
+filename = "Oreganized Carcinogenius 1.21.1-5.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1JyBUpOv/versions/gvKMyOiJ/Oreganized%20Carcinogenius%201.21.1-5.0.0.jar"
+hash-format = "sha512"
+hash = "c76c127515483a84a676da965ad80538669932db75999ccfcd1269ca8feb247d21b43187c55d51ac873f7acfd6a61fd48b5a5fe50f6df1ea6ecaaa37b4f79d63"
+
+[update]
+[update.modrinth]
+mod-id = "1JyBUpOv"
+version = "gvKMyOiJ"
