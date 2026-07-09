@@ -11,3 +11,7 @@ hash = "9bff41758d0a63621512a3ce4d9c8f2e5a16937ac1ccac766f24d2baaded2a0475a0478a
 [update.modrinth]
 mod-id = "nrikgvxm"
 version = "CJeVXIae"
+
+[option]
+optional = true
+description = "Laggy but pretty rain :3 - enable if ur pc can handle"

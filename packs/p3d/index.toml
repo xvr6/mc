@@ -248,19 +248,7 @@ hash = "c87b7a208c84bb231ae0912b09c67232a6f313167a4e4f168c5569d6e448cae5"
 
 [[files]]
 file = "datapacks/poinky-additions/data/poinky/recipe/haunting/cinder_flour.json"
-hash = "82bf7693af7cc4fb97b7f8a3310d3cd755216cddb01eef618ef22dc953137dc3"
-
-[[files]]
-file = "datapacks/poinky-additions/data/poinky/recipe/hydraulic_compacting/diamond_shard.json"
-hash = "19d843ca745cd92dd2e177a8d8ce6b6a50f8d1ebe7ebba40409763ad80382639"
-
-[[files]]
-file = "datapacks/poinky-additions/data/poinky/recipe/shapeless/crimson_nylium.json"
-hash = "1ee4374f08cae0de656251fcf1a498307a9d4ca0bba245c5bbfa194d9a7f732c"
-
-[[files]]
-file = "datapacks/poinky-additions/data/poinky/recipe/shapeless/warped_nylium.json"
-hash = "93c397ceab19500905ef60ab2686253e3bf398d05f1a442cc0a87e0d5c692d75"
+hash = "dc2c895619c4d74f396c1b8b8ebcfc7d0af2b180bd956b6d203a1e239de7592e"
 
 [[files]]
 file = "datapacks/poinky-additions/pack.mcmeta"
@@ -740,6 +728,21 @@ hash = "68d6016fa3707c434b3aca5db041c7518c70feb53d0183faa2502cc6efd4c827"
 metafile = true
 
 [[files]]
+file = "mods/botany-pots-tiers.pw.toml"
+hash = "8e758ed38737dd631d0b82306d0c29c534ae9cc5e1afb865f30e7bc875ed5b20"
+metafile = true
+
+[[files]]
+file = "mods/botany-pots.pw.toml"
+hash = "da045434a9f317ecfef588e409566b6679c76eed01ddc3a0652edce203113a68"
+metafile = true
+
+[[files]]
+file = "mods/botany-trees.pw.toml"
+hash = "75ee5511e4bb37c0f13486e2a550bea43dcf630f38201b4c61a1ae284cbccf94"
+metafile = true
+
+[[files]]
 file = "mods/brewin-and-chewin.pw.toml"
 hash = "22d9510588b081cf9905f6549d24bc11012aa8d9c7d38a8619ab9db5ccb7b9a8"
 metafile = true
@@ -816,7 +819,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobbledex-rei-emi-jei.pw.toml"
-hash = "84a17d75a371a5010cdee7d67fad25fc3755e7e2c3010a9555f3813c1036727b"
+hash = "bb14b2d47645d6dd12287422ef6244d89e6b19bda7a1bfcb14b47ecf35d5bd16"
 metafile = true
 
 [[files]]
@@ -1110,11 +1113,6 @@ hash = "fe07ad494bae995508330c9c2f89bb9b620227774a1157de4e3d0ab3c249e3a2"
 metafile = true
 
 [[files]]
-file = "mods/create-confectionery.pw.toml"
-hash = "85bfeee744eff6e3cb9146da32407874d569237298072c4455224566e322e476"
-metafile = true
-
-[[files]]
 file = "mods/create-connected.pw.toml"
 hash = "61afa588fd3156a29418aef463c527308b014e72d86b5ca7c03f2f28973ca27a"
 metafile = true
@@ -1145,16 +1143,6 @@ hash = "cab6f316cb4ef454bbfa18b32263c3fb7c246a0405a505611c1e36b5eabd48f0"
 metafile = true
 
 [[files]]
-file = "mods/create-dreams-and-desires.pw.toml"
-hash = "c308b557b01b6e6cc25ee8d6a1a7c78bca2b71be3ae645e40d10cf25259fabcd"
-metafile = true
-
-[[files]]
-file = "mods/create-drill-drain.pw.toml"
-hash = "3fbcb6a8065b89349d223e93fc5d58c1675bc11d1fbee86c4a9976e0f69f482d"
-metafile = true
-
-[[files]]
 file = "mods/create-easy-stock-ticker.pw.toml"
 hash = "de4bcd0988db2d00762da6e174261d92dc8e93c57b66a63a35b6e5833da0086c"
 metafile = true
@@ -1181,7 +1169,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-garnished-reworked.pw.toml"
-hash = "10d6abdb48c56b42ec803d11e91a42b97c212580797366980b02b8a01e920c2f"
+hash = "774466d0a8b3e2aa118abe93d5c22bc9d608f62589cea10f1399f8d29e7ea5bd"
 metafile = true
 
 [[files]]
@@ -1192,11 +1180,6 @@ metafile = true
 [[files]]
 file = "mods/create-let-the-adventure-begin.pw.toml"
 hash = "125550f754e447392aab3688e11652157296f53eac160bb62d1fbdca6c5af359"
-metafile = true
-
-[[files]]
-file = "mods/create-mechanical-botany.pw.toml"
-hash = "24bc6a9f5d62e8c6fc92ca5a60d49ccbd7ee62e0649961987501458b17e60ba0"
 metafile = true
 
 [[files]]
@@ -1212,11 +1195,6 @@ metafile = true
 [[files]]
 file = "mods/create-mobile-packages.pw.toml"
 hash = "ad5c2fd3c28bd92617c104d5cfc32fc1fd9b16585af1f5631cc4c59954fa8eef"
-metafile = true
-
-[[files]]
-file = "mods/create-more-parallel-pipes.pw.toml"
-hash = "fe642f391d1da67b5308987fb8ed3f4e1914d92bb181d8c05c6f5635e886b635"
 metafile = true
 
 [[files]]
@@ -1481,7 +1459,7 @@ metafile = true
 
 [[files]]
 file = "mods/euphoria-patches.pw.toml"
-hash = "5fad38203cbe193eb002687fd093794f8af052ddadcc61a803a0320f13d5fbe2"
+hash = "c5bb130a9bc6f565c90f5ceeec03bee73a4eaae801a7e44364941dff8b8502d4"
 metafile = true
 
 [[files]]
@@ -1676,7 +1654,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "1b78e7fed24dfe3512dda0a138eed0985f8ffea962aece9d966922cb53f69c15"
+hash = "db1c1e6382878b78e994dba1b9026935f8d1c5ca685c89d2437858e0a0dcab58"
 metafile = true
 
 [[files]]
@@ -1965,16 +1943,6 @@ hash = "7bf7c8369bd28212a1e294c60310ccb72f1eb773630970e6ab106ae666766cd3"
 metafile = true
 
 [[files]]
-file = "mods/oreganized-carcinogenius.pw.toml"
-hash = "ee4acf78af31a22b7ababbfcf773fc9431172585432c0bf876847e93afb81b37"
-metafile = true
-
-[[files]]
-file = "mods/oreganized.pw.toml"
-hash = "18f2e846ed69232e9b86ee3c495f590afeb7bc79c58d83209ac36e7a628d1f2c"
-metafile = true
-
-[[files]]
 file = "mods/origins-neoforge.pw.toml"
 hash = "89c668d57e888cb69e719c7b6faeb797a5c0d6edd736285c885f83f97833a5e9"
 metafile = true
@@ -1996,7 +1964,7 @@ metafile = true
 
 [[files]]
 file = "mods/particle-rain.pw.toml"
-hash = "6f24e7f5ecef862b1bdb61031637e27b093f185c3219023bea94d2d954ec4180"
+hash = "036035a7b9077d80c4e62be91f213891c355d1241ebb5dc2ada2d6d19789d4dd"
 metafile = true
 
 [[files]]
@@ -2241,7 +2209,7 @@ metafile = true
 
 [[files]]
 file = "mods/sound-physics-perfected.pw.toml"
-hash = "1f6e4e6682323ae8b90bed08ef14742dc080a8f2a7d93ae43fb00410d54ada5c"
+hash = "3253d6af1452e0ec854c6c482428370f0df261d8ad0b878d9a8c079945fb06ac"
 metafile = true
 
 [[files]]
@@ -2262,11 +2230,6 @@ metafile = true
 [[files]]
 file = "mods/stone-zone.pw.toml"
 hash = "896b8502bc5b521223d4935c364ee65b5023ac18e2041c0c93b26428c4d87499"
-metafile = true
-
-[[files]]
-file = "mods/structure-pool-api.pw.toml"
-hash = "b43fd8343ee66b129ea22bcd7ba47ad392e7edc33cb24be0ed604b2225ed0229"
 metafile = true
 
 [[files]]

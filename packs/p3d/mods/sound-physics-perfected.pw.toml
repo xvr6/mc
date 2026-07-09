@@ -14,5 +14,5 @@ version = "rljqrkhf"
 
 [option]
 optional = true
-description = "Proper ray traced audio"
+description = "Properly ray traced audio effects"
 default = true
