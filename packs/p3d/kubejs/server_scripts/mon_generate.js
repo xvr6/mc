@@ -99,10 +99,10 @@ ServerEvents.generateData("after_mods",event=>{
     })
     regionOrigins.push({
       "powers": [
-        "startmon:hisuian"
+        "startmon:"+x
       ],
       "icon": {
-        "id": "kubejs:hisuian"
+        "id": "kubejs:"+x
       },
       "name": x,
       "description": x+" Creature.  Only some mons have special forms.",
@@ -129,7 +129,6 @@ ServerEvents.generateData("after_mods",event=>{
         "power": "startmon:"+x+"_able"
       },
       "origins": [
-        "startmon:regular",
         "startmon:"+x
       ]
     }
@@ -144,6 +143,17 @@ ServerEvents.generateData("after_mods",event=>{
       }
     },
     "origins": [
+      "startmon:off"
+    ]
+  })
+ 
+  regionLayerList.push({
+    "condition": {
+      "type": "origins:origin",
+      "origin": "startmon:mon"
+    },
+    "origins": [
+      "startmon:regular",
       "startmon:off"
     ]
   })
