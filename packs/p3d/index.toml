@@ -45,6 +45,10 @@ file = "config/cobblemon/starters.json"
 hash = "11e1e435e0e2a619b6abd55b9ab8e96586d365292a6c2c5db7e0e5ab61c9093b"
 
 [[files]]
+file = "config/cobblemon_synchro_machine.json"
+hash = "b8b61c8a4322a80486800154010d5ae7239cd4c6ad88806b92029083ed60de4d"
+
+[[files]]
 file = "config/create_connected-common.toml"
 hash = "c23ee69f3507516f42801543b2b863fb6e0865f4c41e029b1336ebe827aecf14"
 
@@ -117,6 +121,10 @@ file = "config/railways-untold/config.toml"
 hash = "8ecbec37cb01741c995116e8af4b67ccc8f5a8b89594063b932792d3f973a671"
 
 [[files]]
+file = "config/roadweaver/roadweaver.json"
+hash = "27646a5d71b6401ef165df044fbad060a10e64075e3d8716aa4de203b57ac869"
+
+[[files]]
 file = "config/shouldersurfing-client.toml"
 hash = "bb247011c98bf9fd7203c37cb7e18bb5579cf1f9d41f165c7a9202da880d8501"
 
@@ -142,7 +150,7 @@ hash = "5966fabb763823356212fe1273dfe9fdbc708b363bd61ab7b985749ea73de8bf"
 
 [[files]]
 file = "config/tectonic.json"
-hash = "66ced7d6ab9d1c74582407323aafbe15474bfaf788141ddc9ac36e1c76ca4161"
+hash = "3db0e8f2da6ef9fef8e102c9e04637412d91006478cc3e06dc12da1b16e1ec49"
 
 [[files]]
 file = "config/underground_village/common.json"
@@ -175,6 +183,10 @@ hash = "e9434bf660bd7dd68f4e3e62f92487cf33363a9a6725d714acba77c2a9e6b53b"
 [[files]]
 file = "config/xaero/world-map/client.cfg"
 hash = "5becce9b6f4a7c83c4ffd6568562b81f613f14b9ea0455981478e42eb1aef1f5"
+
+[[files]]
+file = "config/yosbr/options.txt"
+hash = "d42b8a5a444efb438c4d17d28a59533030f8a4201e808a70f6d3452bd94866da"
 
 [[files]]
 file = "datapacks/201-trainers-cobblemon.pw.toml"
@@ -241,10 +253,6 @@ hash = "92d780fa0d565ee21ae7f5ef079a09dbde64d3ba760c6476d1575788f3f51bd2"
 [[files]]
 file = "datapacks/poinky-additions/data/cobblemon/species_additions/trevenant_pale.json"
 hash = "1a566c78eef759f33bf4865dbce56ad9e5f6ab5d985f3aa4ed9361b41f58a5db"
-
-[[files]]
-file = "datapacks/poinky-additions/data/poinky/railwaysuntold/biome_settings/default.json"
-hash = "c87b7a208c84bb231ae0912b09c67232a6f313167a4e4f168c5569d6e448cae5"
 
 [[files]]
 file = "datapacks/poinky-additions/data/poinky/recipe/haunting/cinder_flour.json"
@@ -576,7 +584,7 @@ hash = "81b299fd00d08a7c6c1d131bf52b32b2b89264e24665e928d1570000f9e16b48"
 
 [[files]]
 file = "kubejs/server_scripts/startingKit.js"
-hash = "fccb3a893660843cfbe3981c354cc7f6848af834d4f98761562d71be6fbe54d5"
+hash = "583080ec9c705497f0d7a4bc7975ca87c932beefd099929c07fdb51e5b6db7cb"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
@@ -983,6 +991,11 @@ hash = "2b8c5286980b8d864085d02a6b2153cefa401a965833139ffac8e7661a322f7c"
 metafile = true
 
 [[files]]
+file = "mods/corn-delight.pw.toml"
+hash = "c7d7ee14a057fc2c5b1e36af8da13f4e702f15109d5bc247daa4246ca8302dc3"
+metafile = true
+
+[[files]]
 file = "mods/coroutil.pw.toml"
 hash = "d901f874a1e09747b8d0d072c38c426eceead1f29c8ba36680f8f0082996b152"
 metafile = true
@@ -1223,6 +1236,11 @@ hash = "572ec7a57be68aa913863f4fa3be7208ae3dbb846043f3c5890a290976b41f90"
 metafile = true
 
 [[files]]
+file = "mods/create-ratatouille-fried-delights.pw.toml"
+hash = "076487648595e3ab21cba8cd641cc06ad3758d98f964b99b54faa72eecdce171"
+metafile = true
+
+[[files]]
 file = "mods/create-ratatouille.pw.toml"
 hash = "c179710a5c20de4ffd90f1a23d786270e01dd9a060a920310decd4245e119f9f"
 metafile = true
@@ -1343,6 +1361,11 @@ hash = "01d92d8ba2e35a9a46405a601849aed400b4d539f7db9b6500ab5ee40806da9a"
 metafile = true
 
 [[files]]
+file = "mods/delightful-creators.pw.toml"
+hash = "3b26aa1f81c86ead9da08dcf8d2af6d5ad5ce00211a1d7a1773b9f5a9dcc68a6"
+metafile = true
+
+[[files]]
 file = "mods/deployer.pw.toml"
 hash = "34f20675ca26ae05670def8d9d84faf42009fabd1113d1739cea6fd380420aac"
 metafile = true
@@ -1353,8 +1376,8 @@ hash = "5e56de4d2f91b883ce8592d324a6e3facacdfe50b880efd0caf8acc242f97bc7"
 metafile = true
 
 [[files]]
-file = "mods/dis-enchanting-table.pw.toml"
-hash = "d71851407e388787d67281a0564f357bd6384316fa1e4c1984ac6c549acba68d"
+file = "mods/display-delight.pw.toml"
+hash = "18219006cd971209a7630c5704c2ca92d5631f3d6ee6cb1c43975656c249ba0f"
 metafile = true
 
 [[files]]
@@ -1588,11 +1611,6 @@ hash = "a7f2ae8ea415e95ce1a3518b66edcaf124d8903ff9101d07331f7fec92b3400f"
 metafile = true
 
 [[files]]
-file = "mods/goated.pw.toml"
-hash = "f4b1b532d8ea3fc538e8600072efe985635bd227772878a96a9bb622ca1bf9ad"
-metafile = true
-
-[[files]]
 file = "mods/gravestone-mod.pw.toml"
 hash = "e88253c3633274c212b2c4628a26ba03ceba6afff561eb6f9488689fad4cad06"
 metafile = true
@@ -1823,13 +1841,13 @@ hash = "238b4a0a76d7c739e757554d234c0df2388f30df31fcdf45a53c6006272b55be"
 metafile = true
 
 [[files]]
-file = "mods/mmmmmmmmmmmm.pw.toml"
-hash = "35b03bb2dee1bcbb0436d2024d5c4803930ace5337f0380c6f1fec7a2f75a0cf"
+file = "mods/mmlib.pw.toml"
+hash = "65db1262f3d0823a0795b8b38328c0eceeb4632892f7c168e3c8e6abf4638735"
 metafile = true
 
 [[files]]
-file = "mods/mmv-moogs-missing-villages.pw.toml"
-hash = "e503dc4850258ebcf34ce99458ce452c9f4be8c6551136d27acd5ad0080b121c"
+file = "mods/mmmmmmmmmmmm.pw.toml"
+hash = "35b03bb2dee1bcbb0436d2024d5c4803930ace5337f0380c6f1fec7a2f75a0cf"
 metafile = true
 
 [[files]]
@@ -2048,16 +2066,6 @@ hash = "996ef578490b1d7646e2909b9bb90c688b72ce581bdb670f89b7adc9662c7d31"
 metafile = true
 
 [[files]]
-file = "mods/railways-additions.pw.toml"
-hash = "761fb1eb6bdd91acc5fe85672b675b505de83559082b4120a8259717d637dbd3"
-metafile = true
-
-[[files]]
-file = "mods/railways-untold.pw.toml"
-hash = "f852953d06c57d465e477e7792bddfba3d724efde552aaf369a3db537987e7ec"
-metafile = true
-
-[[files]]
 file = "mods/ranged-weapon-api.pw.toml"
 hash = "c0014740246a7e9427afe968d43e129f4d21b899e0e04fa036bab758bc11f713"
 metafile = true
@@ -2115,6 +2123,11 @@ metafile = true
 [[files]]
 file = "mods/rightclickharvest.pw.toml"
 hash = "9c0d37bfbfdda77af1946da1d80aa48e7dfea9611c43d5c81c70676b1d854af6"
+metafile = true
+
+[[files]]
+file = "mods/roadweaver.pw.toml"
+hash = "4a729e87f0d60deaf6670ce830b358849c92e9b2d7a12f55d8c07282a26b916b"
 metafile = true
 
 [[files]]
@@ -2283,11 +2296,6 @@ hash = "2adf25ec00711d16b41c883e468df80e55448740b300d694364dd50744d76605"
 metafile = true
 
 [[files]]
-file = "mods/tidal-towns.pw.toml"
-hash = "0ccb1c696758d7935d02dd5160987cab8d3594ab24f89deb01c28f9e596094e7"
-metafile = true
-
-[[files]]
 file = "mods/tmrv.pw.toml"
 hash = "40f7d1c072b54e11492e7774835901d4f5d757b01cac54947657695f580afd3a"
 metafile = true
@@ -2350,11 +2358,6 @@ metafile = true
 [[files]]
 file = "mods/via-romana.pw.toml"
 hash = "d96fe12674f0a9d208ab683e0799542b03ddfd9b17bd89996f3fca73dd3df2dd"
-metafile = true
-
-[[files]]
-file = "mods/vista_tv.pw.toml"
-hash = "000f11dff1ecc83fe66c6a998cf94e583cdce2ea3cc7ece7f66d7fc91cad7936"
 metafile = true
 
 [[files]]
