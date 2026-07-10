@@ -1,39 +1,39 @@
 {
-    "name": "Cannibalism",
-    "description": "You may consume Nautilus Shells. Committing this act of cannibalism will reward you with sustenance and a few positive status effects.",
-    "type": "origins:edible_item",
-    "item_condition": {
-        "type": "origins:ingredient",
-        "ingredient": {
-            "item": "minecraft:nautilus_shell"
-        }
-    },
-    "food_properties": {
-        "hunger": 4,
-        "saturation": 1,
-        "meat": true,
-        "effects": [
-            {
-                "effect": {
-                    "id": "minecraft:strength",
-                    "duration": 900,
-                    "amplifier": 1
-                }
-            },
-            {
-                "effect": {
-                    "id": "minecraft:absorption",
-                    "duration": 900,
-                    "amplifier": 4
-                }
-            },
-            {
-                "effect": {
-                    "id": "minecraft:haste",
-                    "duration": 900,
-                    "amplifier": 1
-                }
-            }
-        ]
+  "name": "Cannibalism",
+  "description": "You may consume Nautilus Shells. Committing this act of cannibalism will reward you with sustenance and a few positive status effects.",
+  "type": "origins:edible_item",
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "item": "minecraft:nautilus_shell"
     }
+  },
+  "food_properties": {
+    "hunger": 4,
+    "saturation": 1,
+    "meat": true,
+    "effects": [
+      {
+        "effect": {
+          "id": "minecraft:strength",
+          "duration": 900,
+          "amplifier": 1
+        }
+      },
+      {
+        "effect": {
+          "id": "minecraft:absorption",
+          "duration": 900,
+          "amplifier": 4
+        }
+      },
+      {
+        "effect": {
+          "id": "minecraft:haste",
+          "duration": 900,
+          "amplifier": 1
+        }
+      }
+    ]
+  }
 }

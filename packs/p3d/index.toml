@@ -42,7 +42,7 @@ hash = "11e1e435e0e2a619b6abd55b9ab8e96586d365292a6c2c5db7e0e5ab61c9093b"
 
 [[files]]
 file = "config/cobblemon_synchro_machine.json"
-hash = "b8b61c8a4322a80486800154010d5ae7239cd4c6ad88806b92029083ed60de4d"
+hash = "ad2fb299e77a6fbf54d1c7698d7785abc83e86c4f979338429e292e94add1842"
 
 [[files]]
 file = "config/create_connected-common.toml"
@@ -182,10 +182,6 @@ hash = "095183fff656f8269396b27475daed6e724b8d4558b99439d0034891048d227a"
 metafile = true
 
 [[files]]
-file = "datapacks/README.md"
-hash = "cf5e25619b4bdb75247e0564796140966a4a7c332fe30269de0def580b46b941"
-
-[[files]]
 file = "datapacks/[V.1.4.1] Cobblemon Stellar Blue.zip"
 hash = "76b7f863833a4ac4cd1063c8d43218a9f489d3d36fde39bf7cfeb95dcaeeb0e4"
 
@@ -213,10 +209,6 @@ metafile = true
 file = "datapacks/mysticmons.pw.toml"
 hash = "d7f25a2f2a827a5d295298b855409e06db860cac5146d037b716e3b79af1e48c"
 metafile = true
-
-[[files]]
-file = "datapacks/poinky-additions/data/cobblemon/spawn_pool_world/README.md"
-hash = "7549086fb4081565c4f0d8e41928ab3a985c0e8f6ae4a462861cfcd6e3c9c5ca"
 
 [[files]]
 file = "datapacks/poinky-additions/data/cobblemon/species/aggron.json"
@@ -249,10 +241,6 @@ hash = "dc2c895619c4d74f396c1b8b8ebcfc7d0af2b180bd956b6d203a1e239de7592e"
 [[files]]
 file = "datapacks/poinky-additions/pack.mcmeta"
 hash = "e35f6f9d1d0b04d86c74458c256c2f298733bab2fe3cb10a757be4d9e05b9274"
-
-[[files]]
-file = "kubejs/README.md"
-hash = "d33b776685bc9b6c2b4898c94544c6af8ddc1ef66084eb89d7d1e95685ba6a38"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/alolain.png"
@@ -496,67 +484,67 @@ hash = "141d03f12cb3ad380a0d3666be4272e8bdadc22fe9a31b021e8dd5a9b17b0eee"
 
 [[files]]
 file = "kubejs/data/vis/origins/power/buffs/cannibalism.json"
-hash = "1358c1de3c2d2855eb8485ca48c01b49aaaa9f0ff9e0a131b2c8cff4e31ad838"
+hash = "5ec651443d1cd8d247ca3409167c836460099eb3571a907af7e3819ca1d36ef1"
 
 [[files]]
 file = "kubejs/data/vis/origins/power/buffs/canteen.json"
-hash = "4eb17b589807128d0752011e7af7456b66cb1bb31d52020de22b2dfe2089aa31"
+hash = "f0f17a8f6a9babad1ad022dbd81afd087e1fbbf7f34ed4bfcbcf2586dfccdab8"
 
 [[files]]
 file = "kubejs/data/vis/origins/power/buffs/coralgen.json"
-hash = "3cddbffdd764d24b90ea48b8051a50aafe46ba7449fb37157897d27178bd876e"
+hash = "d16280c72cfb7a093b70224e8a9813e84df074d2765cb8619d06e4946a349cdd"
 
 [[files]]
 file = "kubejs/data/vis/origins/power/buffs/nauticalvision.json"
-hash = "78c97a24d0483dd7706daced31d5a2828218356710326492d1c31d2fdc279807"
+hash = "c0ff0ab6b5eedcee84aaf4744f080955d1427d2fd8dbe945749c54a5c3d491f2"
 
 [[files]]
 file = "kubejs/data/vis/origins/power/buffs/triplespiked.json"
-hash = "32c07550d49b0c5a1860f186a3c21c79d6f885bb89c1197ebddb30d8d3f2d6ec"
+hash = "71e1eb3546c0715e38363853fc7fc999adf70c7405518abde857e7d777da8d22"
 
 [[files]]
 file = "kubejs/data/vis/origins/power/debuffs/coralstate.json"
-hash = "befeb5ad0b150151cedeae3aaeb6982d335c800b2c16291b69eb33fb24958fe0"
+hash = "4ae0d315cb4bbbbc973ab548af78b7c5051a0fccbe9bf74e599fd9cb0b6730ce"
 
 [[files]]
 file = "kubejs/data/vis/origins/power/debuffs/hinderingshell.json"
-hash = "ff5e653353492f1193225c7bf9a25b48a2a1cc0fdd16326763ce2da682674f94"
+hash = "2eac5323f6ea6713ef20539d7d27f088a32417c86eecb50308fef86ca19d779b"
 
 [[files]]
 file = "kubejs/data/vis/origins/power/debuffs/riftcurse.json"
-hash = "da1193094a7b564870c6f15c558f0078757dcc167649e5f6aa3c4509eb8d5ea5"
+hash = "e1c49893932407e0493fd937ed466873cec5dd8af2ade56d42f6325b4726d405"
 
 [[files]]
 file = "kubejs/data/vis/origins/power/debuffs/shatter.json"
-hash = "a11396fef31f0489f8dcd06ae77cea318a8e496b088f5872fecc49dfeff5b909"
+hash = "84dd8b7861ca547856aa85a844d3acafcf4a13d605c839f1ff0adde0d25690d7"
 
 [[files]]
 file = "kubejs/data/vis/origins/power/neutral/controlledsubstances.json"
-hash = "1c51e674627d3306b8c7c8c7666e03a85420bc66da921ce77a24712dacda7e36"
+hash = "1cff0f4be254dfe423b2ba1647e38f1f1367b0caf4fb77c3a94d723de604aa6a"
 
 [[files]]
 file = "kubejs/data/vis/origins/power/neutral/echocraft.json"
-hash = "f2b9534d9911aa5009d0955a79f68a5618e65c5c4c734545a0bb4e042dc81255"
+hash = "2b7287e7172b8c7f68708c8563cbcdea12258bebc97a817772f5a84ecf7a12df"
 
 [[files]]
 file = "kubejs/data/vis/origins/power/neutral/scalefix.json"
-hash = "d746d9020c98647f448f87a058a6ba3bfb810d15a05761a216ce4c2739351c18"
+hash = "0473d7198c8efd9813bd78fc38a3f44f971fdce7a13cc24c4f5957ad21bb4cb8"
 
 [[files]]
 file = "kubejs/data/vis/origins/power/neutral/yeet.json"
-hash = "866b8dbdcb2ab5c8e2b5b41050e91fd3684fb2a78a81b30898059e8c25bd189d"
+hash = "681f3bcfef45d7ac444dc1e7efe7207c2e941e25f8dba0a0c70e3bcfa708a2da"
 
 [[files]]
 file = "kubejs/data/vis/origins/power/resources/echo.json"
-hash = "81615236487fe4d966eaaf17b7d6597c7f815edc4acc349d157abfb184808f65"
+hash = "3ca2c2bab00f5a756c8cb3b46dc3bb57edf6ac2ffb761e37f2d6628aeb6820c1"
 
 [[files]]
 file = "kubejs/data/vis/origins/power/resources/stamina.json"
-hash = "0caf2b2f127e5c96e70dd71ccc61d27fe32ad4fa6862bbdb29c66c9c9d0e28e4"
+hash = "533501686bb351299ebb71531040ff95e03af82bcb425e34d8033b3e29411637"
 
 [[files]]
 file = "kubejs/data/vis/origins/power/sfx/naut.json"
-hash = "0e28b9072f205ebeff4e9389cff92377e1db6303d270dbccbeb2575839b582a4"
+hash = "b3c0113b9a3e1a246ed720757a4afbbe974d4d894badd4a085bfed9295c364f5"
 
 [[files]]
 file = "kubejs/fetchIcons.py"
@@ -635,7 +623,7 @@ metafile = true
 
 [[files]]
 file = "mods/amplified-nether.pw.toml"
-hash = "e2fa0a0c652d1a4cdec2ecc122c968c2a4b1cb36c2cdd874e10d8b04edb737fa"
+hash = "786993e5bb314f53039578ace75997775d59b1c3766acd506781c1b170b0d791"
 metafile = true
 
 [[files]]
@@ -670,7 +658,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "7d5659cf745f95eedf7a907184698eb950d5ef067d011da028b72a578642fe90"
+hash = "b594dc1097013a09140b354465c2a85e5082f72a8b5c166ed8e7ebd60e30d187"
 metafile = true
 
 [[files]]
@@ -715,7 +703,7 @@ metafile = true
 
 [[files]]
 file = "mods/blueprint.pw.toml"
-hash = "0ab9d26c800d8bfc998341bf2d34c91238dbcba1f646f2c57705c1760148cc17"
+hash = "ead3aff0899e5bc61eb22fe0af86722b430f9e92990b3cd2720d5c2c1f66d023"
 metafile = true
 
 [[files]]
@@ -845,7 +833,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-fight-or-flight-reborn.pw.toml"
-hash = "b0a363fe4a008c27bcdb34f2e74f33962cecd48afab3497065bfc69bf9c4c51c"
+hash = "32ef82eeccc3950a9e83a811a593f8c4015c8cb9698b847da9ada7eed41bf92f"
 metafile = true
 
 [[files]]
@@ -990,7 +978,7 @@ metafile = true
 
 [[files]]
 file = "mods/cosy-critters.pw.toml"
-hash = "9122462279ca9f79227925412e42bd7a0a074c5b184d0a3c07595c1cbd090d01"
+hash = "016a7e21c4a4b8e08cc8703d21fff9942fe9c994008acb3a034c58998ac784aa"
 metafile = true
 
 [[files]]
@@ -1020,7 +1008,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-aeronautics-compatability.pw.toml"
-hash = "14a661c7ccb290a48b14ed189ff5728cc50d7dd1606368e979464aff1faa9e5b"
+hash = "f6d4e539387612fd0a17c9cae90931a61fc56f6e9f565bef85437fecf0ed5576"
 metafile = true
 
 [[files]]
@@ -1035,7 +1023,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-aeronautics-toolgun.pw.toml"
-hash = "4e327bfce14dc51bf11ae59b466ce1d75f3c48245cb3dbfb8aa306ebe5a87744"
+hash = "2ee1658abd1dc7134dac94b329fc913e12d4e2d1cb235ba2c2e34d81efd4f900"
 metafile = true
 
 [[files]]
@@ -1165,7 +1153,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-framed.pw.toml"
-hash = "c6f449a5dbd6640cef3a2d46f198af505b1d3fe7cb38c43057bb16ea055c3d7f"
+hash = "db683b65dc15a03dd6de2d34d5dc6ad0e3490744ced513a8cc584784ee9d3d8b"
 metafile = true
 
 [[files]]
@@ -1230,7 +1218,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-ratatouille.pw.toml"
-hash = "c179710a5c20de4ffd90f1a23d786270e01dd9a060a920310decd4245e119f9f"
+hash = "d1160b7fd4395d2b1140c78791a6d974a9c804d17078d643cbb8f4d267505066"
 metafile = true
 
 [[files]]
@@ -1270,7 +1258,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-train-parts.pw.toml"
-hash = "c6abf0b9e9455e965b3a5a8b0e02e69da749fe39ba3ca35c32bd72fecdfb6e32"
+hash = "f1ea8a7157f081f01f2c2fba7fc69fa40bae9a2f1984d04a2fd90242d86346ae"
 metafile = true
 
 [[files]]
@@ -1285,7 +1273,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-utilities-(unofficial-port).pw.toml"
-hash = "61444d9ddce21fc9016baef85b1d571afa58ef745e074d5b5d431498e026dcdd"
+hash = "09ff12ee2b35c482c2b9be9c2b429b7b11be0dc8f0c111443b655963643e9085"
 metafile = true
 
 [[files]]
@@ -1344,11 +1332,6 @@ hash = "01d92d8ba2e35a9a46405a601849aed400b4d539f7db9b6500ab5ee40806da9a"
 metafile = true
 
 [[files]]
-file = "mods/delightful-creators.pw.toml"
-hash = "3b26aa1f81c86ead9da08dcf8d2af6d5ad5ce00211a1d7a1773b9f5a9dcc68a6"
-metafile = true
-
-[[files]]
 file = "mods/deployer.pw.toml"
 hash = "34f20675ca26ae05670def8d9d84faf42009fabd1113d1739cea6fd380420aac"
 metafile = true
@@ -1365,7 +1348,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "d710a3bc0da177729f563bb161db4b3284cbacf66ef96b95089c083efb8697c6"
+hash = "e5d3cf7b99f7e5e43b2e1837f85494d2bdd692eea7629d4af0abbc56ddd3c4aa"
 metafile = true
 
 [[files]]
@@ -1660,7 +1643,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "a28c70d2b3cdd535beae2007a4b7f77a8572b786c7e2d8a92f33ffbeddf1c2be"
+hash = "261885cca2c4fad2e0c53fdbc6eecb29982afccab576d5ddedfa1a7827bfc20e"
 metafile = true
 
 [[files]]
@@ -1840,7 +1823,7 @@ metafile = true
 
 [[files]]
 file = "mods/moogs-structure-lib.pw.toml"
-hash = "65c29f33b71b18965c3c98afb566254004542cef0a885ed278deb40a4e74f3d1"
+hash = "60c19500ad1fd70efa6af617d102e68ff109eee4340c8638b0b9fbb52831ec40"
 metafile = true
 
 [[files]]
@@ -2150,7 +2133,7 @@ metafile = true
 
 [[files]]
 file = "mods/shoulder-surfing-reloaded.pw.toml"
-hash = "aaba249f37662e3e9409dfa4fef6e00e82b5755f1132f011afb65b68191a70ed"
+hash = "98704f536d60576e6be08217a0edb9165c096a978887b29874c0ee73a6539b60"
 metafile = true
 
 [[files]]
@@ -2170,7 +2153,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "b09f7819bbd22c2cc6a70601295721cb3bee6d830ca2f51fdacb50de519596e8"
+hash = "abc285fb28b8df872e4c2bb31e04fc23e2724d9c84b4cb6fbc4320fc569c758f"
 metafile = true
 
 [[files]]
@@ -2180,22 +2163,22 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "d4bc6ffee563fa6644ec1c4b216bb1956df0148e4f1fc152f45ddb70ae86d662"
+hash = "8d0f5b702b813c816f9197444f59e81c72a01c47ff186f6c771dd5fae2b37190"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "7d5fda4e1ae6613fa5a50849f7b4a99d3afa8dae8890ce4d7e74d6bb0a4a699f"
+hash = "636339949e3f45c2620128d5414071d91e4bdf98deb51f2bd657df157ec76d8b"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage-create-integration.pw.toml"
-hash = "af6a06dc4de79de268513f1b3efb903574694ef926a04d018a047b0b9e2727f2"
+hash = "7bcf005fc29a8a7f1fca053e9634b2e065232dfab3c77257ac68d0435e9544ec"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "43819545e13b46e5daa4e592e49d561acfe9875f21dee4417e8ec75d2dff42ba"
+hash = "50e1220c12d67739051d7a16f6faab1987f41132239d500abac89dcc3ed23352"
 metafile = true
 
 [[files]]
@@ -2216,11 +2199,6 @@ metafile = true
 [[files]]
 file = "mods/sparsestructures.pw.toml"
 hash = "993b4e4970e1a5ef2fe7c6712212f57a84dcf8b31d4b6863540b6395c4f9ce09"
-metafile = true
-
-[[files]]
-file = "mods/stellarview.pw.toml"
-hash = "99cd0b225f3f2498015608a9f0d55da4fa316dcaf4966c5ebb15d66d5089d2c2"
 metafile = true
 
 [[files]]
@@ -2261,6 +2239,11 @@ metafile = true
 [[files]]
 file = "mods/terrablender.pw.toml"
 hash = "15962183bec2468058c70e87aa32e902a08489b0f86741088cdc9aa958ba4931"
+metafile = true
+
+[[files]]
+file = "mods/terralith-biome-saplings.pw.toml"
+hash = "61d849b5dd59f7f9ccf950bbce846363c89dacd6a68af977c7cfa2f29c0ef8a6"
 metafile = true
 
 [[files]]
@@ -2355,12 +2338,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "141fbb4e134c0e2c08f45e4e1dda3a5d6c4fdd444f6e3e854c0ec7b0b431c741"
+hash = "b07417d612d5d206f063089211c70936e84a4f815e7e20b881c37ebea1b1c2c5"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "ea1deed216de5662e9ff803c71000efac7f1b3ec0b14c81d58b93c8449ccf14e"
+hash = "0cc5eab0da976be1fc33b8dd225bddd064078a829ec8f361564ec03666354546"
 metafile = true
 
 [[files]]
@@ -2428,10 +2411,6 @@ file = "resourcepacks/Cobblemon Stellar Blue.zip"
 hash = "76b7f863833a4ac4cd1063c8d43218a9f489d3d36fde39bf7cfeb95dcaeeb0e4"
 
 [[files]]
-file = "resourcepacks/README.md"
-hash = "724c163295afffa949dcbe2aab248e13c6d7fd07ee8260afde6a42fc5a879b4d"
-
-[[files]]
 file = "resourcepacks/allthemons-x-mega-showdown-legacy.pw.toml"
 hash = "0394f05da4776a47705e16e90408fdcdc7a7a5d9419aeb19b8fa73cbe188c7bd"
 metafile = true
@@ -2480,10 +2459,6 @@ metafile = true
 file = "resourcepacks/mysticmons.pw.toml"
 hash = "edac40b0b2c7da8a5b6a889ef22f9b9b4a0e53cb0d1d6c00116884d8e4db468f"
 metafile = true
-
-[[files]]
-file = "shaderpacks/README.md"
-hash = "ca5a886a03c7ca6b5aa7564f667df0dcf0c215ef9c95c21feb37454d47ac288a"
 
 [[files]]
 file = "shaderpacks/complementary-unbound.pw.toml"

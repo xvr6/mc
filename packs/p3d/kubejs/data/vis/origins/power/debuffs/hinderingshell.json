@@ -1,22 +1,24 @@
 {
-    "name": "Hindering Shell",
-    "description": "Your shell protects and moistens your limbs. When your limbs are slightly dried, you deal less damage. Therefore, you are afflicted by constant Weakness when on land.",
+  "name": "Hindering Shell",
+  "description": "Your shell protects and moistens your limbs. When your limbs are slightly dried, you deal less damage. Therefore, you are afflicted by constant Weakness when on land.",
+  "condition": {
+    "type": "origins:not",
     "condition": {
-        "inverted": true,
-        "type": "origins:submerged_in",
-        "fluid": "minecraft:water"
-    },
-    "type": "origins:stacking_effect",
-    "min_stacks": 0,
-    "max_stacks": 1,
-    "duration_per_stack": 2,
-    "effect": [
-        {
-            "id": "minecraft:weakness",
-            "amplifier": 0,
-            "ambient": true,
-            "show_particles": false,
-            "show_icon": true
-        }
-    ]
+      "type": "origins:submerged_in",
+      "fluid": "minecraft:water"
+    }
+  },
+  "type": "origins:stacking_effect",
+  "min_stacks": 0,
+  "max_stacks": 1,
+  "duration_per_stack": 2,
+  "effect": [
+    {
+      "id": "minecraft:weakness",
+      "amplifier": 0,
+      "ambient": true,
+      "show_particles": false,
+      "show_icon": true
+    }
+  ]
 }

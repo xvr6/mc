@@ -2,7 +2,7 @@
   "requireOwnership": false,
   "keepSyncedOnRespawn": false,
   "turnBasedBattles": false,
-  "requireItem": true,
+  "requireItem": false,
   "useAdjustedMovementSpeed": true,
   "enableTransformMove": true,
   "enableMobTransform": true,

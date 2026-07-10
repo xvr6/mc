@@ -1,35 +1,36 @@
 {
-    "name": "Rift Curse",
-    "description": "You take double fire damage in The Nether and double explosive damage in The End.",
-    "type": "origins:multiple",
-    "nether": {
-        "condition": {
-            "type": "origins:dimension",
-            "dimension": "minecraft:the_nether"
-        },
-        "type": "origins:modify_damage_taken",
-        "damage_condition": {
-            "type": "origins:in_tag",
-            "tag": "minecraft:is_fire"
-        },
-        "modifier": {
-            "operation": "multiply_total_multiplicative",
-            "value": 1.0
-        }
+  "name": "Rift Curse",
+  "description": "You take double fire damage in The Nether and double explosive damage in The End.",
+  "type": "origins:multiple",
+  "nether": {
+    "condition": {
+      "type": "origins:dimension",
+      "dimension": "minecraft:the_nether"
     },
-    "end": {
-        "condition": {
-            "type": "origins:dimension",
-            "dimension": "minecraft:the_end"
-        },
-        "type": "origins:modify_damage_taken",
-        "damage_condition": {
-            "type": "origins:in_tag",
-            "tag": "minecraft:is_explosion"
-        },
-        "modifier": {
-            "operation": "multiply_total_multiplicative",
-            "value": 1.0
-        }
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:in_tag",
+      "tag": "minecraft:is_fire"
+    },
+    "modifier": {
+      "operation": "multiply_total_multiplicative",
+      "value": 1.0
     }
+  },
+  "end": {
+    "condition": {
+      "type": "origins:dimension",
+      "dimension": "minecraft:the_end"
+    },
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:in_tag",
+      "tag": "minecraft:is_explosion"
+    },
+    "modifier": {
+      "operation": "multiply_total_multiplicative",
+      "value": 1.0
+    }
+  }
 }
+
