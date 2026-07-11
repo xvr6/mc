@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "item": "c:cobblestones"
+    },
+    "C": {
+      "item": "create:cinder_flour"
+    }
+  },
+  "pattern": ["CS", "SC"],
+  "result": {
+    "count": 1,
+    "id": "minecraft:netherrack"
+  }
+}

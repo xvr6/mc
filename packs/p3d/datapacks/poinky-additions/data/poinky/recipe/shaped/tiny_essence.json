@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "E": {
+      "item": "cobblemonsizevariation:shrink_essence"
+    }
+  },
+  "pattern": ["EE", "EE"],
+  "result": {
+    "count": 1,
+    "id": "cobblemonsizevariation:tiny_essence"
+  }
+}

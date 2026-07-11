@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cobblemonsizevariation:normal_essence"
+    },
+    {
+      "tag": "chipped:crimson_fungus"
+    }
+  ],
+  "result": {
+    "id": "cobblemonsizevariation:shrink_essence"
+  }
+}

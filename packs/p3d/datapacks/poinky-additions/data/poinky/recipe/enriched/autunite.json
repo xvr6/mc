@@ -1,0 +1,13 @@
+{
+  "type": "createnuclear:enriched",
+  "ingredients": [
+    {
+      "item": "minecraft:tuff"
+    }
+  ],
+  "results": [
+    {
+      "id": "createnuclear:autunite"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:tuff"
+    },
+    {
+      "item": "minecraft:granite"
+    }
+  ],
+  "result": {
+    "id": "create:ochrum"
+  }
+}
