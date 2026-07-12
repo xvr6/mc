@@ -4,3 +4,5 @@
   - Add proportional buff to pokespawn to balance out the nerf to armor (since most cobblemon have wayyy more than 20 hp - ensure this is kept in mind when buff decided)
 - add back in recipe for create stones not automatable 
 - cuttingboard recipie conflicts
+- void steel recipe missing/incomplete
+- add in compat for different cinnamon types - perhaps remove cinnamon from garnished reworked as a whole since we have cinnamon

@@ -1,0 +1,13 @@
+name = "ThreadTweak Reforged"
+filename = "threadtweak-1.21.1-NeoForge-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "393f7981bef519a1bd4a5b815b00a4b9af6482b0a6a0736407ae67e11e10f95b3e8a5ccbcaa752c716b8c1c422b2445edcd3cab46be0344586a8b5fe61a59ae7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7937266
+project-id = 1274735
