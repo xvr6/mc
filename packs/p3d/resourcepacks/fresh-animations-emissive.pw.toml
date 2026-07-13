@@ -11,8 +11,3 @@ hash = "e3909b72828c27838ba262e91e5fc035bd5553d0053f82f322d4af5f956d024b38d24706
 [update.modrinth]
 mod-id = "VRS2YQn9"
 version = "byyyyS7z"
-
-[option]
-optional = true
-description = "Some mobs will have emissive textures"
-default = true

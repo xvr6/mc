@@ -11,8 +11,3 @@ hash = "1396e1a640d6cc8012fab758d98e2ffb5ce0eb88b64c506af0d9edb3880da9257ae1ce38
 [update.modrinth]
 mod-id = "nOD7MgEz"
 version = "EHQK5l1g"
-
-[option]
-optional = true
-description = "Better mob animations for a few other mods"
-default = true

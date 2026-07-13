@@ -94,7 +94,7 @@ hash = "e94662237d5d8eaf8d347a4f97462a8bf406ad74c3c7fb7fe7f40d471a804ae6"
 
 [[files]]
 file = "config/global_packs.toml"
-hash = "4e42824dccbab958c51a7db9aee460d127c6f7ccbb7fa92bbfeed28f3afe38b7"
+hash = "df66ce21f4709cdb6f00b6c4a63ccc62628af61ee1424c937678d3769aa1aa11"
 
 [[files]]
 file = "config/maplink/general.json5"
@@ -107,6 +107,26 @@ hash = "87c94f1bb1b674bb1e06963eb82f1cb73ce2a521fe0253a1bf77e1d8204183ee"
 [[files]]
 file = "config/modernfix-mixins.properties"
 hash = "779e5a19c266c294003617ab5311c28c5f0223c297553ccfba03914f235cfee2"
+
+[[files]]
+file = "config/packed_packs/config.json"
+hash = "2954f8600d7c3def784a44119aa7818bdcb2231cb6f1157deb2e883ce1df8ef9"
+
+[[files]]
+file = "config/packed_packs/config.meta.json"
+hash = "bf69102f3f5c232ae8fc3bcbfc7211e2c7fea3608e34d4f589bf50f85f1bb868"
+
+[[files]]
+file = "config/packed_packs/preferences.properties"
+hash = "ccda7f85de5850bc2fb0ce05a6ff95cac14dd8f6546885fc303ee151e1e55610"
+
+[[files]]
+file = "config/packed_packs/profiles/resourcepacks/Cobblemon.profile.json"
+hash = "e616a42892b84afd8e27cd77a98d39b1071563539c626960e384edc40bb2129e"
+
+[[files]]
+file = "config/packed_packs/profiles/resourcepacks/FA + Cobblemon.profile.json"
+hash = "ff17d7db813f9fb1924604c9f60425b8a5fbce733ffed6ad99eaf88d0ed45170"
 
 [[files]]
 file = "config/quark-common.toml"
@@ -1582,11 +1602,6 @@ hash = "5d199a8eac42f5b6b4c64efa2131bdd1e97214e71f0e48f3ff624709c5861f16"
 metafile = true
 
 [[files]]
-file = "mods/forgified-fabric-api.pw.toml"
-hash = "a830f9e0393be04dd0a8a3a845b27e90cd34961887403c800e296182283d9c3e"
-metafile = true
-
-[[files]]
 file = "mods/formicapi.pw.toml"
 hash = "3a70d7259d89a9b02a0180cf3a8c9efedf75f32bf80012f6c41d40ab276c6913"
 metafile = true
@@ -2009,6 +2024,11 @@ metafile = true
 [[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "46831c04077a06df823bcd0f254833a90a9a9ccc78f5069f4b4c27fa301ac0cf"
+metafile = true
+
+[[files]]
+file = "mods/packed-packs.pw.toml"
+hash = "cff6d5801dac31965f98e404212a0f85aade08f7b2b2cb2f20694efd2aa16210"
 metafile = true
 
 [[files]]
@@ -2532,22 +2552,22 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/fa-player-extension.pw.toml"
-hash = "9cda1565ed41c50816fe55c99f896d49eba780aa90225b3f41dbd6d11283db65"
+hash = "a23b7b7d580d5ad081aeadcc9e4dd3e2685c661e39cac67b691135c918a43456"
 metafile = true
 
 [[files]]
 file = "resourcepacks/fresh-animations-emissive.pw.toml"
-hash = "3a3ceaca04fba5625feb937b3c04fd089a2954ebd0590bbad8ce56e7adc7b3d9"
+hash = "a8bcaa00f7fa24a595ff84d1da6586b2867739a210aa90f200624cccd0e18941"
 metafile = true
 
 [[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
-hash = "80704e21819c5e8e5560e68ca5f9fda5bfeefd3d600d8ce7a893e260a5aef38b"
+hash = "a829c98866da41add61b0c638eb1e389246bf59d23e9344054afaaf4a5119954"
 metafile = true
 
 [[files]]
 file = "resourcepacks/fresh-compats.pw.toml"
-hash = "b631e0f3f00ee528d1ba0d6660b0c37d01eb261c387f2b6f836440d98351107b"
+hash = "c189d3ca03fe274d947e98b9c81cdd3daf9373cdab2945210d5c83bcd26494ae"
 metafile = true
 
 [[files]]

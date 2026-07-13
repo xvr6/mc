@@ -1,0 +1,25 @@
+{
+  "devMode": false,
+  "showActionBar": true,
+  "hideIncompatible": false,
+  "sort": "VANILLA",
+  "resourcepacks": {
+    "applyOnClose": true,
+    "replaceOriginal": true,
+    "hideIncompatibleWarnings": false,
+    "additionalFolders": [],
+    "rememberLastViewedProfile": false,
+    "lastViewedProfile": "Cobblemon",
+    "profileOrder": [
+      "Cobblemon",
+      "FA + Cobblemon"
+    ]
+  },
+  "datapacks": {
+    "replaceOriginal": true,
+    "hideIncompatibleWarnings": false,
+    "additionalFolders": [],
+    "rememberLastViewedProfile": false,
+    "profileOrder": []
+  }
+}

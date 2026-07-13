@@ -11,8 +11,3 @@ hash = "41258f9bea1a773d823f9a014d0c08206e9e7b339bc538e1538211fff28fadd06878a836
 [update.modrinth]
 mod-id = "50dA9Sha"
 version = "xN57JJts"
-
-[option]
-optional = true
-description = "Better minecraft mob animations"
-default = true
