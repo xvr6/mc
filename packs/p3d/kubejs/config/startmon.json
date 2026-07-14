@@ -1,9 +1,5 @@
 {
-  "regions": [
-    "hisuian",
-    "galarian",
-    "alolain"
-  ],
+  "regions": ["hisuian", "galarian", "alolain"],
 
   "config": {
     "startingLevel": 6
@@ -11,9 +7,9 @@
 
   "starterMons": [
     {
-      "name":"zorua",
+      "name": "zorua",
       "description": "A small fox creature.  You can disguise as other mons, and are generally mischivious.",
-      "regions":[
+      "regions": [
         {
           "region": "hisuian",
           "species": "all"
@@ -21,41 +17,36 @@
       ]
     },
     {
-      "name":"eevee",
+      "name": "eevee",
       "description": "",
-      "regions":[
-      ]
+      "regions": []
     },
 
     {
-      "name":"bulbasaur",
+      "name": "bulbasaur",
       "description": "",
-      "regions":[
-      ]
+      "regions": []
     },
     {
-      "name":"charmander",
+      "name": "charmander",
       "description": "",
-      "regions":[
-      ]
+      "regions": []
     },
     {
-      "name":"squirtle",
+      "name": "squirtle",
       "description": "",
-      "regions":[
-      ]
+      "regions": []
     },
 
     {
-      "name":"chikorita",
+      "name": "chikorita",
       "description": "",
-      "regions":[
-      ]
+      "regions": []
     },
     {
-      "name":"cyndaquil",
+      "name": "cyndaquil",
       "description": "A small Fire Mouse.  The flames on your back keep you warm at night.  Sometimes, you hear the call of an ancient land.",
-      "regions":[
+      "regions": [
         {
           "region": "hisuian",
           "species": "typhlosion"
@@ -63,66 +54,57 @@
       ]
     },
     {
-      "name":"totodile",
+      "name": "totodile",
       "description": "",
-      "regions":[
-      ]
+      "regions": []
     },
 
     {
-      "name":"treecko",
+      "name": "treecko",
       "description": "",
-      "regions":[
-      ]
+      "regions": []
     },
     {
-      "name":"torchic",
+      "name": "torchic",
       "description": "",
-      "regions":[
-      ]
+      "regions": []
     },
     {
-      "name":"mudkip",
+      "name": "mudkip",
       "description": "",
-      "regions":[
-      ]
+      "regions": []
     },
 
     {
-      "name":"turtwig",
+      "name": "turtwig",
       "description": "",
-      "regions":[
-      ]
+      "regions": []
     },
     {
-      "name":"chimchar",
+      "name": "chimchar",
       "description": "",
-      "regions":[
-      ]
+      "regions": []
     },
     {
-      "name":"piplup",
+      "name": "piplup",
       "description": "",
-      "regions":[
-      ]
+      "regions": []
     },
 
     {
-      "name":"snivy",
+      "name": "snivy",
       "description": "",
-      "regions":[
-      ]
+      "regions": []
     },
     {
-      "name":"tepig",
+      "name": "tepig",
       "description": "",
-      "regions":[
-      ]
+      "regions": []
     },
     {
-      "name":"oshawott",
+      "name": "oshawott",
       "description": "",
-      "regions":[
+      "regions": [
         {
           "region": "hisuian",
           "species": "samurott"
@@ -131,28 +113,25 @@
     },
 
     {
-      "name":"chespin",
+      "name": "chespin",
       "description": "",
-      "regions":[
-      ]
+      "regions": []
     },
     {
-      "name":"fennekin",
+      "name": "fennekin",
       "description": "",
-      "regions":[
-      ]
+      "regions": []
     },
     {
-      "name":"froakie",
+      "name": "froakie",
       "description": "",
-      "regions":[
-      ]
+      "regions": []
     },
 
     {
-      "name":"rowlet",
+      "name": "rowlet",
       "description": "",
-      "regions":[
+      "regions": [
         {
           "region": "hisuian",
           "species": "decidueye"
@@ -160,82 +139,71 @@
       ]
     },
     {
-      "name":"litten",
+      "name": "litten",
       "description": "",
-      "regions":[
-      ]
+      "regions": []
     },
     {
-      "name":"popplio",
+      "name": "popplio",
       "description": "",
-      "regions":[
-      ]
+      "regions": []
     },
 
     {
-      "name":"grookey",
+      "name": "grookey",
       "description": "",
       "noshuffle": true,
-      "regions":[
-      ]
+      "regions": []
     },
     {
-      "name":"scorbunny",
+      "name": "scorbunny",
       "description": "",
       "noshuffle": true,
-      "regions":[
-      ]
+      "regions": []
     },
     {
-      "name":"sobble",
+      "name": "sobble",
       "description": "",
       "noshuffle": true,
-      "regions":[
-      ]
+      "regions": []
     },
 
     {
-      "name":"sprigatito",
+      "name": "sprigatito",
       "description": "",
       "noshuffle": true,
-      "regions":[
-      ]
+      "regions": []
     },
     {
-      "name":"fuecoco",
+      "name": "fuecoco",
       "description": "",
       "noshuffle": true,
-      "regions":[
-      ]
+      "regions": []
     },
     {
-      "name":"quaxly",
+      "name": "quaxly",
       "description": "",
       "noshuffle": true,
-      "regions":[
-      ]
+      "regions": []
     },
 
     {
-      "name":"tigriff",
+      "name": "tigriff",
       "description": "",
       "noshuffle": true,
-      "regions":[
-      ]
+      "regions": []
     },
     {
-      "name":"emberam",
+      "name": "emberam",
       "description": "",
       "noshuffle": true,
-      "regions":[
-      ]
+      "regions": []
     },
     {
-      "name":"equelpi",
+      "name": "equelpi",
       "description": "",
       "noshuffle": true,
-      "regions":[
-      ]
+      "regions": []
     }
   ]
 }

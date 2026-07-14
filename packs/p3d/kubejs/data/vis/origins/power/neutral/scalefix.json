@@ -4,7 +4,7 @@
   "entity_action_added": {
     "type": "origins:and",
     "actions": [
-      { 
+      {
         "type": "origins:and",
         "actions": [
           {

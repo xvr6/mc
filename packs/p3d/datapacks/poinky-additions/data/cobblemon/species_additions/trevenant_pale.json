@@ -7,25 +7,11 @@
       "maleRatio": 0.5,
       "height": 15,
       "weight": 710,
-      "pokedex": [
-        "cobblemon.species.trevenant-pale.desc"
-      ],
-      "labels": [
-        "laserdex",
-        "minecraftian"
-      ],
-      "aspects": [
-        "pale"
-      ],
-      "abilities": [
-        "forestspirit",
-        "stakeout",
-        "h:shadowtag"
-      ],
-      "eggGroups": [
-        "grass",
-        "amorphous"
-      ],
+      "pokedex": ["cobblemon.species.trevenant-pale.desc"],
+      "labels": ["laserdex", "minecraftian"],
+      "aspects": ["pale"],
+      "abilities": ["forestspirit", "stakeout", "h:shadowtag"],
+      "eggGroups": ["grass", "amorphous"],
       "baseStats": {
         "hp": 105,
         "attack": 116,
@@ -60,9 +46,7 @@
         "resting": {
           "canSleep": true,
           "light": "0-4",
-          "times": [
-            "day"
-          ],
+          "times": ["day"],
           "drowsyChance": 0.0033,
           "rouseChance": 0.0042
         },
@@ -252,3 +236,4 @@
     }
   ]
 }
+

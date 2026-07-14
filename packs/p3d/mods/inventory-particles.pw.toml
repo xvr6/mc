@@ -1,16 +1,16 @@
 name = "[UI] Inventory Particles"
-filename = "InventoryParticles-2.5.1+1.21.1+neoforge.jar"
+filename = "InventoryParticles-2.6.0+1.21.1+neoforge.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/XYnKrsxH/versions/ofnmN7tD/InventoryParticles-2.5.1%2B1.21.1%2Bneoforge.jar"
+url = "https://cdn.modrinth.com/data/XYnKrsxH/versions/GjoaAaKJ/InventoryParticles-2.6.0%2B1.21.1%2Bneoforge.jar"
 hash-format = "sha512"
-hash = "64ffca591c20e1ad1163709eac1e52d288238b2268c51592e9a0052beb9ffe0e695b97eee15747d8d2fc1482584d367edda197ddfbd7361323d8be2eca8adec6"
+hash = "6f3536fec478c3c84b9018d3ee1a226be357a3aa54f7751dd3df8ba622372673ec317afb35396859b750b2b2f41a6f50ee069c19f82b15974cd93e960b05258f"
 
 [update]
 [update.modrinth]
 mod-id = "XYnKrsxH"
-version = "ofnmN7tD"
+version = "GjoaAaKJ"
 
 [option]
 optional = true
