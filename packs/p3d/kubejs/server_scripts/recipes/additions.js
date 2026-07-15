@@ -1,1 +1,1 @@
-export function additions(event) {}
+global.additions = (event) => {};

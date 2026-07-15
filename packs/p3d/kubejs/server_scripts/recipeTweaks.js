@@ -1,5 +1,4 @@
-import { removals } from "./recipes/removal.js";
-
 ServerEvents.recipes((event) => {
-  removals(event);
+  global.removals(event);
+  global.additions(event);
 });
