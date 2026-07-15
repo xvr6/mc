@@ -683,14 +683,6 @@ file = "kubejs/server_scripts/recipeTweaks.js"
 hash = "6422c858876778bc2436d07006c1f94517b87a80f409eb85300cf28289f752b3"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/additions.js"
-hash = "02b7f75071a2ad553e57c65c81562969d1ceaa9e681631f5aa4251ffdf02d224"
-
-[[files]]
-file = "kubejs/server_scripts/recipes/removal.js"
-hash = "12637a1b100b424e75c78f4731c3d63df934c213782c5cd41a215e88da30fa10"
-
-[[files]]
 file = "kubejs/server_scripts/startMon.js"
 hash = "c8beb12250db21fba7c015f3c5660be4e50fc87efa596cc3ac2d695ba611461b"
 
@@ -701,6 +693,14 @@ hash = "ebaec794015bd0567aa1fe77d847d836a44b44fcb49de58c9c8ed9d633386067"
 [[files]]
 file = "kubejs/startup_scripts/main.js"
 hash = "801694c7e975f5c7cacc4840bc6b7f967ca5809813557d4a7e0487cccd44715e"
+
+[[files]]
+file = "kubejs/startup_scripts/recipeModifications/additions.js"
+hash = "1c35000aa9b1d90929d1eaaf68356a58cd30627a6beb2f994a1c38c3fa19926a"
+
+[[files]]
+file = "kubejs/startup_scripts/recipeModifications/removals.js"
+hash = "12637a1b100b424e75c78f4731c3d63df934c213782c5cd41a215e88da30fa10"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
