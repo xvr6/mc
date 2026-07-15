@@ -1,0 +1,14 @@
+(B) cuttingboard +recipe conflicts
+(B) Void steel +recipe missing/incomplete
+(F) look into why tf passive mobs still dont spawn +hell
+(B) expand uses of pancake/cake mold +recipe ; Remove cake/chcolate/pancakes that dont use this and tweak costs accordingly
+(B) change all blaze cakes to use this new system too, making blaze cakes a bit more complex, but perhaps make it so u get 2/4 bases when making it.
+(B) +recipe addition of using powdered snow in place of ratatatouille freezing block
+(C) Back tanks/some way for nautilil to breathe on land regardless of power +origin
+(B) 2026-07-15 Cobblemon industries +recipe tweaks; removing its dyes and replacing with dragons plus
+(B) 2026-07-15 +recipe compats between salts and cinnamon
+(B) Change recipies to kubejs; use function builders for less repeated code
+(B) complex/expensive +recipe for superexp maybe
+(B) netherrack duplicate +recipe removal/tweaks
+(F) EMI issues; some things dont show up, some recipies loose their favorite buttons, etc
+(A) Migrate +recipe stuff to kubejs
