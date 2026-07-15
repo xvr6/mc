@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "S": {
-      "item": "c:cobblestones"
+      "item": "#c:cobblestones"
     },
     "C": {
       "item": "create:cinder_flour"

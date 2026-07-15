@@ -2,13 +2,13 @@
   "type": "createnuclear:enriched",
   "ingredients": [
     {
-      "item": "minecraft:tuff"
+      "item": "#minecraft:small_flower"
     }
   ],
   "results": [
     {
-      "id": "createnuclear:autunite",
-      "chance": 0.15
+      "id":"minecraft:wither_rose",
+      "chance": 0.8
     }
   ]
 }

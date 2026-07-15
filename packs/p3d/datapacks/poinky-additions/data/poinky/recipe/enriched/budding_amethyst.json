@@ -2,13 +2,12 @@
   "type": "createnuclear:enriched",
   "ingredients": [
     {
-      "item": "minecraft:tuff"
+      "item": "minecraft:amethyst_block"
     }
   ],
   "results": [
     {
-      "id": "createnuclear:autunite",
-      "chance": 0.15
+      "id": "createnuclear:budding_amethyst"
     }
   ]
 }

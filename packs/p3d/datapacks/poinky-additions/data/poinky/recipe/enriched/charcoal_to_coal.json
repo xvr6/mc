@@ -1,0 +1,15 @@
+{
+  "type": "createnuclear:enriched",
+  "ingredients": [
+    {
+      "item": "minecraft:charcoal"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:coal",
+      "chance": 0.4
+    },
+    "id": //coal piece
+  ]
+}

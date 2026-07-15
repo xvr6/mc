@@ -7,7 +7,7 @@ const startingKit = [
   //  ["railways:handcar", 1],
   // ["cobblemon_synchro_machine:synchro_machine", 1],
   ["cobblemon:poke_ball", 16],
-  ["createfood:apple_jam_sandwich", 16],
+  ["rusticdelight:syrup_sandwich", 16],
 ];
 
 //the actual event

@@ -259,8 +259,36 @@ file = "datapacks/poinky-additions/data/cobblemon/species_additions/trevenant_pa
 hash = "f97af720e3f5542801a5121a40b8b66ca08845bea08ef89a077a92943bfd7166"
 
 [[files]]
+file = "datapacks/poinky-additions/data/poinky/recipe/crushing/autunite.json"
+hash = "d179e71abfaf465a2ec3585dde62ea48148d8da995e3e26730146818acdc8ff0"
+
+[[files]]
+file = "datapacks/poinky-additions/data/poinky/recipe/crushing/basalt.json"
+hash = "687ed0188c744599d3265f57c83786a7f51acd1c0d0365eded7c864dee2b92d6"
+
+[[files]]
 file = "datapacks/poinky-additions/data/poinky/recipe/enriched/autunite.json"
-hash = "6adf6edb8719bcd2ff0f96b53d1c9ffef37b3c0b575daeb89a7cedadc869e8d3"
+hash = "5804aefcc47befd6a064c7b771f6d4786e72d3fdf21895eb35159b72d50c6991"
+
+[[files]]
+file = "datapacks/poinky-additions/data/poinky/recipe/enriched/budding_amethyst.json"
+hash = "3a649b029e5fe246698a604e29b8f112fb28203572eb8eea750e5010f650d1ce"
+
+[[files]]
+file = "datapacks/poinky-additions/data/poinky/recipe/enriched/budding_citrine.json"
+hash = "00949e79263f7b461b790b85a96c23b2073ff854b4da1b29fd67a0b59a8b47d6"
+
+[[files]]
+file = "datapacks/poinky-additions/data/poinky/recipe/enriched/charcoal_to_coal.json"
+hash = "0ed9744437f11ba04933a29025a75ecfed494749285d8ce0129f08f71c3894a3"
+
+[[files]]
+file = "datapacks/poinky-additions/data/poinky/recipe/enriched/diamond.json"
+hash = "8714884764edcae30caa3371b595b0ab1a12d89c341c33dca08223fcdb5ebed1"
+
+[[files]]
+file = "datapacks/poinky-additions/data/poinky/recipe/enriched/wither_rose.json"
+hash = "820bab234222ab65d49b5ceeb00a2e7598c59e92ac83edfe9cbc35e34fad910d"
 
 [[files]]
 file = "datapacks/poinky-additions/data/poinky/recipe/filling/dripstone.json"
@@ -275,12 +303,20 @@ file = "datapacks/poinky-additions/data/poinky/recipe/haunting/cinder_flour.json
 hash = "9d7ea9dd6ae694fcaebe25b7ac7bf7f9065ddb34570bbc87a8f9b830c780dcaf"
 
 [[files]]
+file = "datapacks/poinky-additions/data/poinky/recipe/haunting/netherrack.json"
+hash = "ac89e118e310a68742b2f1030e052487e47b207c79659e3632d8177a4577d7e0"
+
+[[files]]
+file = "datapacks/poinky-additions/data/poinky/recipe/mixing/redstone.json"
+hash = "c6ec281316d947d818e015b2f52f62f49c3a1d7ed791dab6bc901756c3a02c13"
+
+[[files]]
 file = "datapacks/poinky-additions/data/poinky/recipe/shaped/huge_essence.json"
 hash = "c360dbec240a1478db508e300cdb58adbcbc9c326d5719daf3976b33ff7d4c87"
 
 [[files]]
 file = "datapacks/poinky-additions/data/poinky/recipe/shaped/netherrack.json"
-hash = "c6b78b1e9695aba0b8b04bbde53a4cd8f5d0452760cf0ddd622e49aebf94b55b"
+hash = "492e376e0e1f43486af2c1f5c2eb903608f7d926e0913910f8e06bbdd0861328"
 
 [[files]]
 file = "datapacks/poinky-additions/data/poinky/recipe/shaped/tiny_essence.json"
@@ -319,8 +355,12 @@ file = "datapacks/poinky-additions/data/poinky/recipe/shapeless/shrink_essence.j
 hash = "bb227bc584edad918c7f07e35337151916d99c924b2c33327268934502e4de1a"
 
 [[files]]
+file = "datapacks/poinky-additions/data/poinky/recipe/splashing/slime.json"
+hash = "6e1e0f7796d3344d1455f0bf994d5d183d464d51e226ddee04a7b3f64577ade7"
+
+[[files]]
 file = "datapacks/poinky-additions/pack.mcmeta"
-hash = "63e820d266a75245b0b1efb94d9a9d77af61c8c8bdbded4d79f6e875ad27a838"
+hash = "e55e81dbcbe7422bedfbb049e684863c100430049f586e483ea6d9d2fe967972"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/alolain.png"
@@ -639,12 +679,16 @@ file = "kubejs/server_scripts/mon_generate.js"
 hash = "a8e952f5628b32ee927faa6c1323aa3c81121b30da0660f721989095c9c07acc"
 
 [[files]]
+file = "kubejs/server_scripts/recipeRemoval.js"
+hash = "1bad382c30074124e0e9178b0a4acd6219f7ca491bafae7134a149c0d139abe5"
+
+[[files]]
 file = "kubejs/server_scripts/startMon.js"
 hash = "c8beb12250db21fba7c015f3c5660be4e50fc87efa596cc3ac2d695ba611461b"
 
 [[files]]
 file = "kubejs/server_scripts/startingKit.js"
-hash = "399cd8453a47e0b6a9ac2294a4adc829a6524fd03b71e4d98507d8fa6435db8f"
+hash = "ebaec794015bd0567aa1fe77d847d836a44b44fcb49de58c9c8ed9d633386067"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
@@ -667,7 +711,7 @@ metafile = true
 
 [[files]]
 file = "mods/advanced-chimneys.pw.toml"
-hash = "ad56954c46a5cca7c4b60cde1bafafb01755dd28a356c49d3fb88545318d82be"
+hash = "b045bebfa48a0fc1596c80960ca6f8e68e71627b0e43a1db58cfd54b4d85313d"
 metafile = true
 
 [[files]]
@@ -1218,11 +1262,6 @@ metafile = true
 [[files]]
 file = "mods/create-enchantment-industry.pw.toml"
 hash = "fb604f59e155e17ce4f193e043038789b29234f02be651b3d84d988fb938f64f"
-metafile = true
-
-[[files]]
-file = "mods/create-food.pw.toml"
-hash = "8fad30e9d26fed168e709656c58a6284105cb1b6aee4743fefad6566df965de5"
 metafile = true
 
 [[files]]
