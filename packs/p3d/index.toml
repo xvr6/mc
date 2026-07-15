@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/DistantHorizons.toml"
-hash = "a7ab0202d5b0eb69c085c57ab63dbf74952e0a275f4c08a24de431e9fc877221"
-
-[[files]]
 file = "config/accessories.json5"
 hash = "0782a3c1fbfe057013b029be7fb502315355d512ce2cd38f8dad7311f9d73b4c"
 
@@ -179,6 +175,10 @@ hash = "9c5fbf81e630501627d563a5b7cfe5203ea14e297fd8cb87becc3d04b948a97a"
 [[files]]
 file = "config/wands.json"
 hash = "f8da70b67c4fc8ef6173cc8180236e92de42facbbfb14f0e48f17695434cbac1"
+
+[[files]]
+file = "config/yosbr/config/DistantHorizons.toml"
+hash = "a7ab0202d5b0eb69c085c57ab63dbf74952e0a275f4c08a24de431e9fc877221"
 
 [[files]]
 file = "config/yosbr/config/xaero/minimap/client.cfg"
