@@ -679,8 +679,16 @@ file = "kubejs/server_scripts/mon_generate.js"
 hash = "a8e952f5628b32ee927faa6c1323aa3c81121b30da0660f721989095c9c07acc"
 
 [[files]]
-file = "kubejs/server_scripts/recipeRemoval.js"
-hash = "1bad382c30074124e0e9178b0a4acd6219f7ca491bafae7134a149c0d139abe5"
+file = "kubejs/server_scripts/recipeTweaks.js"
+hash = "640c6861b567f92a7678b275eef000f21e2a45f1125ff270f4142e1ec7860794"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/additions.js"
+hash = "54d0749159b01e27971252c5b2cb449e2fe1ec8c895fe18e19e4ae6d2c8d60a7"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/removal.js"
+hash = "2683c05775e2c94f9df62e1a754442408e0a6fbcacaa126108ac2b4ccd6a99c8"
 
 [[files]]
 file = "kubejs/server_scripts/startMon.js"
