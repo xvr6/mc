@@ -2,42 +2,48 @@ global.enriching = (event) => {
   event.custom({
     type: "createnuclear:enriched",
     ingredients: [{ item: "minecraft:tuff" }],
-    result: [CreateItem.of("createnuclear:autunite", 0.15)],
+    results: [{ id: "createnuclear:autunite", chance: 0.15 }],
   });
 
   event.custom({
     type: "createnuclear:enriched",
-    ingredients: [{ tag: "minecraft:small_flowers" }],
-    result: [CreateItem.of("minecraft:wither_rose", 0.8)],
+    ingredients: [Ingredient.of("#minecraft:small_flowers")],
+    results: [{ id: "minecraft:wither_rose", chance: 0.4 }],
   });
 
   event.custom({
     type: "createnuclear:enriched",
-    ingredients: [{ tag: "minecraft:tall_flowers" }],
-    result: [
-      CreateItem.of("minecraft:wither_rose", 0.8),
-      CreateItem.of("minecraft:wither_rose", 0.6),
+    ingredients: [Ingredient.of("#minecraft:tall_flowers")],
+    results: [
+      { id: "minecraft:wither_rose", chance: 0.6 },
+      { id: "minecraft:wither_rose", chance: 0.4 },
     ],
   });
 
   event.custom({
     type: "createnuclear:enriched",
     ingredients: [{ item: "minecraft:amethyst_block" }],
-    result: [{ item: "minecraft:budding_amethyst" }],
+    results: [{ id: "minecraft:budding_amethyst" }],
   });
 
   event.custom({
     type: "createnuclear:enriched",
     ingredients: [{ item: "unusualend:citrine_block" }],
-    result: [{ item: "unusualend:budding_citrine" }],
+    results: [{ id: "unusualend:budding_citrine" }],
   });
 
   event.custom({
     type: "createnuclear:enriched",
     ingredients: [{ item: "quark:charcoal_block" }],
-    result: [
-      { item: "minecraft:coal", count: 3 },
-      CreateItem.of("2x minecraft:coal", 0.4),
+    results: [
+      { id: "minecraft:coal", count: 4 },
+      { id: "minecraft:coal", count: 2, chance: 0.6 },
     ],
+  });
+
+  event.custom({
+    type: "createnuclear:enriched",
+    ingredients: [Ingredient.of("#c:flours")],
+    results: [{ id: "create:cinder_flour", chance: 0.4 }],
   });
 };

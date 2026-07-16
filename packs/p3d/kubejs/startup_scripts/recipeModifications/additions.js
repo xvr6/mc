@@ -2,6 +2,7 @@ global.additions = (event) => {
   global.stones(event);
   global.miscAdditions(event);
   global.enriching(event);
+  global.cobblemonAdditions(event);
   //replaces removed cinnamon recipe eith expanded delight
   event.shapeless(
     Item.of("creategarnished:gingerbread_flour", 2), //output
@@ -26,7 +27,7 @@ global.additions = (event) => {
       CreateItem.of("create_enchantment_industry:experience_cake_base", 0.2),
     ],
 
-    ["ratatouille:cake_base", "minecraft:lapis_lazuli"],
+    ["ratatouille:cake_base", "2x minecraft:lapis_lazuli"],
   );
   // blaze cake
   event.recipes.createCompacting(
@@ -35,7 +36,7 @@ global.additions = (event) => {
       CreateItem.of("create:blaze_cake_base", 0.6),
       CreateItem.of("create:blaze_cake_base", 0.2),
     ],
-    ["ratatouille:cake_base", "create:cinder_flour"],
+    ["ratatouille:cake_base", "2x create:cinder_flour"],
   );
   // echo cake
   event.recipes
@@ -45,7 +46,7 @@ global.additions = (event) => {
         CreateItem.of("create_deep_dark:echo_cake_base", 0.6),
         CreateItem.of("create_deep_dark:echo_cake_base", 0.2),
       ],
-      ["ratatouille:cake_base", "create_deep_dark:sculk_flour"],
+      ["ratatouille:cake_base", "2x create_deep_dark:sculk_flour"],
     )
     .heated();
 };

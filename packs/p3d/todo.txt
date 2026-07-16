@@ -10,19 +10,20 @@ x 2026-07-15 2026-07-15 +recipe compats between salts and cinnamon
 (B) complex/expensive +recipe for superexp maybe
 (B) netherrack duplicate +recipe removal/tweaks
 (F) EMI issues; some things dont show up, some recipies loose their favorite buttons, etc
-(A) Migrate +recipe datapack to kubejs
+x 2026-07-17 2026-07-17 Migrate +recipe datapack to kubejs
 (A) +origin nautilil canibalism not working
 (D) Fish!!! +mod
 (D) tweak +recipe for industrially-plated +mod
 (G) Once fixed (if at all) add in abilities for truemons to change size by eating size essences
 (C) remove items with no +recipe from EMI/JEI
 (A) Removal of +cobblemon legendary spawns; only use items to spawn then
-(C) +cobblemon not regenerating pp when sleeping
+(B) +cobblemon not regenerating pp when sleeping
 (D) gingerbread decorations +recipe change to using gingerflour
-(A) compat between salts +recipe with garnished as priority
+x 2026-07-17 2026-07-17 compat between salts +recipe with garnished as priority
 (B) pancake +recipe compat
-(A) migrate +recipe content into categories for purpose of recipe adjustment
 (D) +mod Etched with +recipe changes
-(B) boil stone for liquie dyes
+(B) boil stone for liquid dyes
 (D) adding Comforts +mod adds hammoks for daytime skipping
 (C) maximum speed decrease for thrusters
+(C) exp candy recipe tweaks to use create filling of honey comb with liquid exp
+(C) Weight adjustmenets for aeronautics
