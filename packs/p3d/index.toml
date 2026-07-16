@@ -660,7 +660,7 @@ hash = "68c791bfee1c34e8a61a37b926361147c0a07712f7e32a9fdf2c87b19b756e32"
 
 [[files]]
 file = "kubejs/startup_scripts/recipeModifications/additions/enriching.js"
-hash = "256ecacf3d7bb25a3f3bcd65372cc85e3cb528b2a383c1c2ba178daa2af38f86"
+hash = "fa826e4cd75f260dd184cb4becbfe4f6a94f1e3d754fc48511821f4a7c67decf"
 
 [[files]]
 file = "kubejs/startup_scripts/recipeModifications/additions/misc.js"
@@ -1537,11 +1537,6 @@ metafile = true
 [[files]]
 file = "mods/entity-model-features.pw.toml"
 hash = "4fa25309ea7f4f7770ce6588f39711e891d39f70ae0906b842647273a9ce0448"
-metafile = true
-
-[[files]]
-file = "mods/entityculling.pw.toml"
-hash = "4fbe037c1ec3570be84f68e075c3e8293b15f64dda22bca4735924705fb38236"
 metafile = true
 
 [[files]]
