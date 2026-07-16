@@ -696,11 +696,11 @@ hash = "801694c7e975f5c7cacc4840bc6b7f967ca5809813557d4a7e0487cccd44715e"
 
 [[files]]
 file = "kubejs/startup_scripts/recipeModifications/additions.js"
-hash = "1c35000aa9b1d90929d1eaaf68356a58cd30627a6beb2f994a1c38c3fa19926a"
+hash = "893ffb1d4792bc3cdcf8149128df01a2f119ad2f2f8582439c20dc95502cda38"
 
 [[files]]
 file = "kubejs/startup_scripts/recipeModifications/removals.js"
-hash = "12637a1b100b424e75c78f4731c3d63df934c213782c5cd41a215e88da30fa10"
+hash = "8b3effbeb235f3d555fe86c94082ac5ffa43c3efda3b11b51b258d380356d365"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -1835,6 +1835,11 @@ metafile = true
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "712a69b3569a8055979de6eea262068535fe182dffb3833e53e5833e9cbf9766"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-create.pw.toml"
+hash = "531aa276b74eabc24566c57412527767238c74ee16b9c646dff511f56dba990c"
 metafile = true
 
 [[files]]
