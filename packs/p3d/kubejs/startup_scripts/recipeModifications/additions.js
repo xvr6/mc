@@ -14,22 +14,19 @@ global.additions = (event) => {
     "ratatouille:cake_base",
     Fluid.of("create:chocolate", 500),
   ]);
-  // add in cake bases
+  // add in blaze cake bases
   event.recipes.createCompacting(
     Item.of("create_enchantment_industry:experience_cake_base", 4),
-    "ratatouille:cake_base",
-    "minecraft:lapis_lazuli",
+    ["ratatouille:cake_base", "minecraft:lapis_lazuli"],
   );
-  event.recipes.createCompacting(
-    Item.of("create:blaze_cake_base", 4),
+  event.recipes.createCompacting(Item.of("create:blaze_cake_base", 4), [
     "ratatouille:cake_base",
     "create:cinder_flour",
-  );
+  ]);
   event.recipes
-    .createCompacting(
-      Item.of("create_deep_dark:echo_cake_base", 4),
+    .createCompacting(Item.of("create_deep_dark:echo_cake_base", 4), [
       "ratatouille:cake_base",
       "create_deep_dark:sculk_flour",
-    )
+    ])
     .heated();
 };

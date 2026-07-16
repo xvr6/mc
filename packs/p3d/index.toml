@@ -696,7 +696,7 @@ hash = "801694c7e975f5c7cacc4840bc6b7f967ca5809813557d4a7e0487cccd44715e"
 
 [[files]]
 file = "kubejs/startup_scripts/recipeModifications/additions.js"
-hash = "893ffb1d4792bc3cdcf8149128df01a2f119ad2f2f8582439c20dc95502cda38"
+hash = "05110a35eb9b9f845ac38e9781900b9e69a97cbebfa8e9122a9efe9936e6752d"
 
 [[files]]
 file = "kubejs/startup_scripts/recipeModifications/removals.js"

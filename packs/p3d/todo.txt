@@ -16,4 +16,5 @@
 (D) tweak +recipe for industrially-plated +mod
 (G) Once fixed (if at all) add in abilities for truemons to change size by eating size essences
 (C) remove items with no +recipe from EMI/JEI
-(A) Removal of cobblemon legendary spawns; only use items to spawn then
+(A) Removal of +cobblemon legendary spawns; only use items to spawn then
+(C) +cobblemon not regenerating pp when sleeping
