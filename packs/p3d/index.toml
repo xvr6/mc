@@ -126,7 +126,7 @@ hash = "9ec54c18d725c3892f297410cff71e296b918cdf3037af6588693a453588ce43"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "46ca22db0ea4e790794a1b744c720ee15d5428e7de3dfff62cef3ba9c2610199"
+hash = "dcbad7253f79254df3a3a935c3168447f80c4b3e047a48e30288e3461819925d"
 
 [[files]]
 file = "config/roadweaver/roadweaver.json"
@@ -267,36 +267,12 @@ file = "datapacks/poinky-additions/data/poinky/recipe/crushing/basalt.json"
 hash = "687ed0188c744599d3265f57c83786a7f51acd1c0d0365eded7c864dee2b92d6"
 
 [[files]]
-file = "datapacks/poinky-additions/data/poinky/recipe/enriched/autunite.json"
-hash = "5804aefcc47befd6a064c7b771f6d4786e72d3fdf21895eb35159b72d50c6991"
-
-[[files]]
-file = "datapacks/poinky-additions/data/poinky/recipe/enriched/budding_amethyst.json"
-hash = "3a649b029e5fe246698a604e29b8f112fb28203572eb8eea750e5010f650d1ce"
-
-[[files]]
-file = "datapacks/poinky-additions/data/poinky/recipe/enriched/budding_citrine.json"
-hash = "00949e79263f7b461b790b85a96c23b2073ff854b4da1b29fd67a0b59a8b47d6"
-
-[[files]]
-file = "datapacks/poinky-additions/data/poinky/recipe/enriched/charcoal_to_coal.json"
-hash = "0ed9744437f11ba04933a29025a75ecfed494749285d8ce0129f08f71c3894a3"
-
-[[files]]
 file = "datapacks/poinky-additions/data/poinky/recipe/enriched/diamond.json"
 hash = "8714884764edcae30caa3371b595b0ab1a12d89c341c33dca08223fcdb5ebed1"
 
 [[files]]
-file = "datapacks/poinky-additions/data/poinky/recipe/enriched/wither_rose.json"
-hash = "820bab234222ab65d49b5ceeb00a2e7598c59e92ac83edfe9cbc35e34fad910d"
-
-[[files]]
 file = "datapacks/poinky-additions/data/poinky/recipe/filling/dripstone.json"
 hash = "3ecef5039404a6bd18bf8753ea4ba8cd4f8c6fb21555fcf04b2236696d0f85af"
-
-[[files]]
-file = "datapacks/poinky-additions/data/poinky/recipe/filling/normal_essence.json"
-hash = "249f383c7ac029f308a33b63af3e906a95c637cf6c959ef932a8d94f6b252e1e"
 
 [[files]]
 file = "datapacks/poinky-additions/data/poinky/recipe/haunting/cinder_flour.json"
@@ -323,16 +299,8 @@ file = "datapacks/poinky-additions/data/poinky/recipe/shaped/tiny_essence.json"
 hash = "6ef7299e68616df128b617caacb3867d8de001d7a096c29c636f83cb5c99ed98"
 
 [[files]]
-file = "datapacks/poinky-additions/data/poinky/recipe/shapeless/4_growth_essence.json"
-hash = "4a9d3b1a93f9d769454eb8bbffed49bef0e0698c03e057a11480500615ca7a88"
-
-[[files]]
-file = "datapacks/poinky-additions/data/poinky/recipe/shapeless/4_shrink_essence.json"
-hash = "e39535d49939cd7ba5a5f95031772ddb6d5d88d1643cb6c4bdc73a5db0d51e73"
-
-[[files]]
 file = "datapacks/poinky-additions/data/poinky/recipe/shapeless/asurine.json"
-hash = "0b7f6e46b92264e9515d3355cde9b229179b2d6a683739e1401a0fe3a2cd55d8"
+hash = "210ab39bc1af73fc76b990cc39bc58689e77e69fe4510aa26fa2b5261cffe2cd"
 
 [[files]]
 file = "datapacks/poinky-additions/data/poinky/recipe/shapeless/crimsite.json"
@@ -343,20 +311,8 @@ file = "datapacks/poinky-additions/data/poinky/recipe/shapeless/dripstone.json"
 hash = "f3b7db8a7e959bfc4719ff9e53ac547b5a48b406309fc432b27eb1261c7a76ab"
 
 [[files]]
-file = "datapacks/poinky-additions/data/poinky/recipe/shapeless/growth_essence.json"
-hash = "2a02073a863163d3dc6cb79edd248b82fd4ea0f82fb21fea194ff7ad0387b4d3"
-
-[[files]]
 file = "datapacks/poinky-additions/data/poinky/recipe/shapeless/ochrum.json"
 hash = "3b1906b814b9766174cfca6f3ae47fac9ea1406fddd0f23b672802c6e7340b9a"
-
-[[files]]
-file = "datapacks/poinky-additions/data/poinky/recipe/shapeless/shrink_essence.json"
-hash = "bb227bc584edad918c7f07e35337151916d99c924b2c33327268934502e4de1a"
-
-[[files]]
-file = "datapacks/poinky-additions/data/poinky/recipe/splashing/slime.json"
-hash = "6e1e0f7796d3344d1455f0bf994d5d183d464d51e226ddee04a7b3f64577ade7"
 
 [[files]]
 file = "datapacks/poinky-additions/pack.mcmeta"
@@ -696,11 +652,27 @@ hash = "801694c7e975f5c7cacc4840bc6b7f967ca5809813557d4a7e0487cccd44715e"
 
 [[files]]
 file = "kubejs/startup_scripts/recipeModifications/additions.js"
-hash = "05110a35eb9b9f845ac38e9781900b9e69a97cbebfa8e9122a9efe9936e6752d"
+hash = "93d5bff4ae3ad44ffc5cb361b1c778a9e78424262dd6842de2382bcec9e1fcbd"
+
+[[files]]
+file = "kubejs/startup_scripts/recipeModifications/additions/cobblemon.js"
+hash = "68c791bfee1c34e8a61a37b926361147c0a07712f7e32a9fdf2c87b19b756e32"
+
+[[files]]
+file = "kubejs/startup_scripts/recipeModifications/additions/enriching.js"
+hash = "256ecacf3d7bb25a3f3bcd65372cc85e3cb528b2a383c1c2ba178daa2af38f86"
+
+[[files]]
+file = "kubejs/startup_scripts/recipeModifications/additions/misc.js"
+hash = "b138689a53c1916561dd5814118d96cdb2ec5a33845016239eae96056157cdfc"
+
+[[files]]
+file = "kubejs/startup_scripts/recipeModifications/additions/stones.js"
+hash = "d505862d503af2879342721173ab8bfd375672907a50facc3fe64071dee8c46e"
 
 [[files]]
 file = "kubejs/startup_scripts/recipeModifications/removals.js"
-hash = "8b3effbeb235f3d555fe86c94082ac5ffa43c3efda3b11b51b258d380356d365"
+hash = "b3dd29c8425f6c30fc9042e085a6305541d9ee129c88333956d70a7ad9b6b890"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -2259,7 +2231,7 @@ metafile = true
 
 [[files]]
 file = "mods/roadweaver.pw.toml"
-hash = "4a729e87f0d60deaf6670ce830b358849c92e9b2d7a12f55d8c07282a26b916b"
+hash = "0eae305bf2d4677a4f39e34c445af1618bec1e57851ac7ee99105d6d24f1f1c0"
 metafile = true
 
 [[files]]
@@ -2409,7 +2381,7 @@ metafile = true
 
 [[files]]
 file = "mods/tectonic.pw.toml"
-hash = "fef2f8085bbdf6d398b02c87225ad9ccf9cc5d71edde13cd18e12a154764c84e"
+hash = "3ed074f24539931a5c474e27749b190bdee083d9c585acfa82778a3e492b41dd"
 metafile = true
 
 [[files]]

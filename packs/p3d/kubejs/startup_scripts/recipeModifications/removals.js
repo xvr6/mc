@@ -10,13 +10,16 @@ global.removals = (event) => {
     output: "farmersdelight:raw_pasta",
   });
 
-  // - Remove any recipes for chocolate that dont use the mold
-  event.remove({
-    not: { type: "ratatouille:demolding" },
-    output: "create:bar_of_chocolate",
-  });
+  //FIXME: was removing all ways to craft chcocolate
+  //- Remove any recipes for chocolate that dont use the mold
+  //event.remove({
+  //  not: { input: "ratatouille:chocolate_mold_solid" },
+  //  output: "create:bar_of_chocolate",
+  //});
+
   // no longer has ANY purpose so can be removed
-  event.remove({ output: "createdieselgenerators:mold" });
+  // FIXME: switch to removal of specific recipe
+  //  event.remove({ output: "createdieselgenerators:mold" });
 
   // - Remove recipies for cakes that do not use the cake base from ratatouille
   event.remove({ output: "createaddition:cake_base" });
