@@ -38,7 +38,7 @@ hash = "11e1e435e0e2a619b6abd55b9ab8e96586d365292a6c2c5db7e0e5ab61c9093b"
 
 [[files]]
 file = "config/cobblemon_synchro_machine.json"
-hash = "ad2fb299e77a6fbf54d1c7698d7785abc83e86c4f979338429e292e94add1842"
+hash = "a27a30bbe2416f0dee3600773470c1e1f56b9a190d1f0f96fc5c9af40ce0f969"
 
 [[files]]
 file = "config/create_connected-common.toml"
@@ -452,7 +452,7 @@ hash = "ec425b6ff6799111d940ca1977e5ec3f5f2d3616311adba2eb4eafff9faf81c8"
 
 [[files]]
 file = "kubejs/data/startmon/origins/origin/mon.json"
-hash = "8483c31786cdb689a78ca2902c5cbecafc769192cfc0f5ff403f659c9975baab"
+hash = "4cf91a3e197e5d71aea677f2ae6b6cce56d8183fd5a19cebe97a5931b9390f67"
 
 [[files]]
 file = "kubejs/data/startmon/origins/origin/nonbinary.json"
@@ -588,7 +588,7 @@ hash = "b60ee5135962464b62136bb190d4a66e2ac925d338ff5996f3e88f13f2f4c07e"
 
 [[files]]
 file = "kubejs/startup_scripts/recipeModifications/additions/cobblemon.js"
-hash = "b1303b0b17ed8844bb118cef2fe16193243dd97d07bc59e920c00c995c28e892"
+hash = "790275eddae52ff876f38644efdcb068cf1853861c9b575e25af250de55fa565"
 
 [[files]]
 file = "kubejs/startup_scripts/recipeModifications/additions/enriching.js"

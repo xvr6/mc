@@ -42,22 +42,48 @@ global.cobblemonAdditions = (event) => {
   //replace liquid -> dye recipe to use boil stone
 
   // this recipe for some reason uses white dye to dye apricorns, not yellow. Check for other similar erors through mod
-  // event.remove({ id: "cobblemon_industries: filling/apricorn/yellow_apricorn" })
+  event.replaceInput(
+    { id: "cobblemon_industries:filling/apricorn/yellow_apricorn" },
+    Fluid.of(`cobblemon_industries:white_fluid`),
+    Fluid.of(`cobblemon_industries:yellow_fluid`),
+  );
 
   Color.DYE.forEach((color) => {
     console.log(`KUBEJS: removing color: ${color}\n`);
     event.remove({ id: `cobblemon_industries:mixing/dyes/${color}_fluid` });
     event.remove({ input: `cobblemon_industries:${color}_fluid_bucket` });
-    event.remove({ output: `cobblemon_industries:${color}_fluid_bucket` });
+    event.remove({ id: `bucket_filling:cobblemon_industries/${color}_fluid` });
+    event.remove({
+      id: `create:fill_minecraft_bucket_with_cobblemon_industries_${color}_fluid`,
+    });
   });
 
   //replace recipes
   Color.DYE.forEach((color) => {
     console.log(`KUBEJS: Replacing input ${color}\n`);
     event.replaceInput(
-      { type: "create:filling" },
+      [{ type: "create:filling" }, { mod: "cobblemon_industries" }],
       Fluid.of(`cobblemon_industries:${color}_fluid`, 1000),
       Fluid.of(`create_dragons_plus:${color}_dye`, 250),
+    );
+
+    event.replaceInput(
+      [{ type: "create:filling" }, { mod: "cobblemon_industries" }],
+      Fluid.of(`create_dragons_plus:${color}_dye`, 1000),
+      Fluid.of(`create_dragons_plus:${color}_dye`, 250),
+    );
+  });
+
+  //modify dye recipes to require boil stone to convert back to dye
+
+  Color.DYE.forEach((color) => {
+    event.replaceInput(
+      { id: "create_dragons_plus:mixing/${color}_dye_from_fluid" },
+      Fluid.of(`create_dragons_plus:${color}_dye`, 1000),
+      [
+        Fluid.of(`create_dragons_plus:${color}_dye`, 1000),
+        "ratatouille:boil_stone",
+      ],
     );
   });
 };

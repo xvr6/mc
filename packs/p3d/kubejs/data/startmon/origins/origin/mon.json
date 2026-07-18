@@ -1,8 +1,5 @@
 {
-  "powers": [
-    "startmon:onlymon",
-    "origins:light_armor"
-  ],
+  "powers": ["startmon:onlymon"],
   "icon": {
     "id": "cobblemon:poke_ball"
   },
