@@ -41,7 +41,7 @@ global.cobblemonAdditions = (event) => {
   //  remove all recipes with outputs to cobblemon_industries (only dye buckets and liquid)
   //replace liquid -> dye recipe to use boil stone
 
-  // this recipe for some reason uses white dye to dye apricorns, not yellow. Check for other similar erors through mod
+  // this recipe for some reason uses white dye to dye apricorns yellow
   event.replaceInput(
     { id: "cobblemon_industries:filling/apricorn/yellow_apricorn" },
     Fluid.of(`cobblemon_industries:white_fluid`),
@@ -49,9 +49,9 @@ global.cobblemonAdditions = (event) => {
   );
 
   Color.DYE.forEach((color) => {
-    console.log(`KUBEJS: removing color: ${color}\n`);
     event.remove({ id: `cobblemon_industries:mixing/dyes/${color}_fluid` });
     event.remove({ input: `cobblemon_industries:${color}_fluid_bucket` });
+    // FIXME: these below dont get removed
     event.remove({ id: `bucket_filling:cobblemon_industries/${color}_fluid` });
     event.remove({
       id: `create:fill_minecraft_bucket_with_cobblemon_industries_${color}_fluid`,
@@ -65,12 +65,7 @@ global.cobblemonAdditions = (event) => {
       [{ type: "create:filling" }, { mod: "cobblemon_industries" }],
       Fluid.of(`cobblemon_industries:${color}_fluid`, 1000),
       Fluid.of(`create_dragons_plus:${color}_dye`, 250),
-    );
-
-    event.replaceInput(
-      [{ type: "create:filling" }, { mod: "cobblemon_industries" }],
-      Fluid.of(`create_dragons_plus:${color}_dye`, 1000),
-      Fluid.of(`create_dragons_plus:${color}_dye`, 250),
+      //FIXME: count of 250 doesnt work
     );
   });
 
@@ -78,7 +73,7 @@ global.cobblemonAdditions = (event) => {
 
   Color.DYE.forEach((color) => {
     event.replaceInput(
-      { id: "create_dragons_plus:mixing/${color}_dye_from_fluid" },
+      { id: `create_dragons_plus:mixing/${color}_dye_from_fluid` },
       Fluid.of(`create_dragons_plus:${color}_dye`, 1000),
       [
         Fluid.of(`create_dragons_plus:${color}_dye`, 1000),

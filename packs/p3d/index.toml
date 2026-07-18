@@ -588,7 +588,7 @@ hash = "b60ee5135962464b62136bb190d4a66e2ac925d338ff5996f3e88f13f2f4c07e"
 
 [[files]]
 file = "kubejs/startup_scripts/recipeModifications/additions/cobblemon.js"
-hash = "790275eddae52ff876f38644efdcb068cf1853861c9b575e25af250de55fa565"
+hash = "c483d91013a888640ba921cce0f46f11efe2426719e951bd260145c534e45c14"
 
 [[files]]
 file = "kubejs/startup_scripts/recipeModifications/additions/enriching.js"
