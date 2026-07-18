@@ -588,7 +588,7 @@ hash = "b60ee5135962464b62136bb190d4a66e2ac925d338ff5996f3e88f13f2f4c07e"
 
 [[files]]
 file = "kubejs/startup_scripts/recipeModifications/additions/cobblemon.js"
-hash = "c483d91013a888640ba921cce0f46f11efe2426719e951bd260145c534e45c14"
+hash = "23fb7332c81f6b5839cec7ff1db73c580459d55c0252c3ee65ec13d3067fdec7"
 
 [[files]]
 file = "kubejs/startup_scripts/recipeModifications/additions/enriching.js"
@@ -633,7 +633,7 @@ metafile = true
 
 [[files]]
 file = "mods/aero_cam_sync.pw.toml"
-hash = "e7b3177edf36f2ea0c73039bf13e9c3424c98bbbf0ee17e31ba47aaa4899eb91"
+hash = "1c67e1b2043b87e57f20cf4bfbdbf7d894ce0a4598cd5e7e3b65d49c078f70fa"
 metafile = true
 
 [[files]]
@@ -1588,12 +1588,12 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-essentials.pw.toml"
-hash = "6fa984dc1b5905ae909b417ed1cd92d6b536ba4832ed8c8d95aa9d424ad789df"
+hash = "0d5fcad129a50b54c31697c9e0d7f89c44689d114f18f0d517fddd97770693e1"
 metafile = true
 
 [[files]]
 file = "mods/ftb-library-forge.pw.toml"
-hash = "a2aa051ec45ec685f523fbf3813f23c5fde1935d7193e248871f1427ca1dd558"
+hash = "86b88f8586627e8f8628d709cb88c0515e49f4add98eae733f14470af78b6a9e"
 metafile = true
 
 [[files]]

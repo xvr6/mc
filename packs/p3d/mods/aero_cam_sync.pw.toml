@@ -13,5 +13,5 @@ mod-id = "ZGxtWu73"
 version = "8S7YZ52O"
 
 [option]
-optional = true 
+optional = true
 description = "Adds in camera tilt when on aero contraptions"

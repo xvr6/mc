@@ -72,13 +72,10 @@ global.cobblemonAdditions = (event) => {
   //modify dye recipes to require boil stone to convert back to dye
 
   Color.DYE.forEach((color) => {
-    event.replaceInput(
-      { id: `create_dragons_plus:mixing/${color}_dye_from_fluid` },
-      Fluid.of(`create_dragons_plus:${color}_dye`, 1000),
-      [
-        Fluid.of(`create_dragons_plus:${color}_dye`, 1000),
-        "ratatouille:boil_stone",
-      ],
-    );
+    event.remove({ id: `create_dragons_plus:mixing/${color}_dye_from_fluid` });
+    event.recipes.createFilling(`minecraft:${color}_dye`, [
+      "ratatouille:boil_stone",
+      Fluid.of(`create_dragons_plus:${color}_dye`),
+    ]);
   });
 };
