@@ -1,4 +1,4 @@
-global.enriching = (event) => {
+ServerEvents.recipes((event) => {
   event.custom({
     type: "createnuclear:enriched",
     ingredients: [{ item: "minecraft:tuff" }],
@@ -52,4 +52,4 @@ global.enriching = (event) => {
     ingredients: [Ingredient.of("#c:flours")],
     results: [{ id: "create:cinder_flour", chance: 0.4 }],
   });
-};
+});

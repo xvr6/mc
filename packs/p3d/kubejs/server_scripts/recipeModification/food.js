@@ -1,8 +1,4 @@
-global.additions = (event) => {
-  global.stones(event);
-  global.miscAdditions(event);
-  global.enriching(event);
-  global.cobblemonAdditions(event);
+ServerEvents.recipes((event) => {
   //replaces removed cinnamon recipe eith expanded delight
   event.shapeless(
     Item.of("creategarnished:gingerbread_flour", 2), //output
@@ -49,4 +45,35 @@ global.additions = (event) => {
       ["ratatouille:cake_base", "2x create_deep_dark:sculk_flour"],
     )
     .heated();
-};
+
+  // - Removing duplicate cinnamon bark
+  event.remove({ output: "creategarnished:cinnamon_bark" });
+  event.remove({ output: "creategarnished:cinnamon_stick" });
+  event.remove({ id: "creategarnished:crafting/gingerbread_flour" });
+
+  // - Removing all pasta recipes but garnished
+  event.remove({
+    not: { type: "ratatouille:squeezing" },
+    output: "farmersdelight:raw_pasta",
+  });
+
+  //FIXME: was removing all ways to craft chcocolate
+  //- Remove any recipes for chocolate that dont use the mold
+  //event.remove({
+  //  not: { input: "ratatouille:chocolate_mold_solid" },
+  //  output: "create:bar_of_chocolate",
+  //});
+
+  // no longer has ANY purpose so can be removed
+  // FIXME: switch to removal of specific recipe
+  //  event.remove({ output: "createdieselgenerators:mold" });
+
+  // - Remove recipies for cakes that do not use the cake base from ratatouille
+  event.remove({ output: "createaddition:cake_base" });
+  event.remove({ input: "createaddition:cake_base" });
+  event.remove({ input: "createaddition:cake_base_baked" });
+  //evil....... :)
+  event.remove({ output: "create_deep_dark:echo_cake_base" });
+  event.remove({ output: "create:blaze_cake_base" });
+  event.remove({ output: "create_enchantment_industry:experience_cake_base" });
+});

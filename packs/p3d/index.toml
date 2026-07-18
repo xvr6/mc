@@ -567,6 +567,26 @@ file = "kubejs/server_scripts/mon_generate.js"
 hash = "a8e952f5628b32ee927faa6c1323aa3c81121b30da0660f721989095c9c07acc"
 
 [[files]]
+file = "kubejs/server_scripts/recipeModification/cobblemon.js"
+hash = "807af7072e3cde66d97b7a4b1daf64b7d822710dce01c7e1ae74cc45c637b835"
+
+[[files]]
+file = "kubejs/server_scripts/recipeModification/enriching.js"
+hash = "39e10e1be01f23ea2ad0dbdfb94a5364c8881ef6bf99f41a80f85d47dffd30cb"
+
+[[files]]
+file = "kubejs/server_scripts/recipeModification/food.js"
+hash = "fff767bece4f64b3fe6a75676775c6bb35d4317979b9445053ae6a3844b236c6"
+
+[[files]]
+file = "kubejs/server_scripts/recipeModification/misc.js"
+hash = "455d8fa369b26265c50e738f8c5384510af423ccb463cf36eb3122b43cc7a40d"
+
+[[files]]
+file = "kubejs/server_scripts/recipeModification/stones.js"
+hash = "e6d39e6082bbc76d774bea53b26cdd51a361aa8965b49cb90889a4035fbf47a0"
+
+[[files]]
 file = "kubejs/server_scripts/recipeTweaks.js"
 hash = "6422c858876778bc2436d07006c1f94517b87a80f409eb85300cf28289f752b3"
 
@@ -581,30 +601,6 @@ hash = "ebaec794015bd0567aa1fe77d847d836a44b44fcb49de58c9c8ed9d633386067"
 [[files]]
 file = "kubejs/startup_scripts/main.js"
 hash = "801694c7e975f5c7cacc4840bc6b7f967ca5809813557d4a7e0487cccd44715e"
-
-[[files]]
-file = "kubejs/startup_scripts/recipeModifications/additions.js"
-hash = "b60ee5135962464b62136bb190d4a66e2ac925d338ff5996f3e88f13f2f4c07e"
-
-[[files]]
-file = "kubejs/startup_scripts/recipeModifications/additions/cobblemon.js"
-hash = "23fb7332c81f6b5839cec7ff1db73c580459d55c0252c3ee65ec13d3067fdec7"
-
-[[files]]
-file = "kubejs/startup_scripts/recipeModifications/additions/enriching.js"
-hash = "5a4575e2e23930b35fbe7bf1fa3f2ee38b9bf860b418c72da85333fcec15af1c"
-
-[[files]]
-file = "kubejs/startup_scripts/recipeModifications/additions/misc.js"
-hash = "b138689a53c1916561dd5814118d96cdb2ec5a33845016239eae96056157cdfc"
-
-[[files]]
-file = "kubejs/startup_scripts/recipeModifications/additions/stones.js"
-hash = "0a2caa6228e9443b652acc6420616cb1a3e621e3572540da928b7e761988ea7c"
-
-[[files]]
-file = "kubejs/startup_scripts/recipeModifications/removals.js"
-hash = "b3dd29c8425f6c30fc9042e085a6305541d9ee129c88333956d70a7ad9b6b890"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"

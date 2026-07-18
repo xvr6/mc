@@ -1,4 +1,4 @@
-global.cobblemonAdditions = (event) => {
+ServerEvents.recipes((event) => {
   // huge -> growth
   event.shapeless(
     Item.of("cobblemonsizevariation:growth_essence", 4), //output
@@ -73,9 +73,11 @@ global.cobblemonAdditions = (event) => {
 
   Color.DYE.forEach((color) => {
     event.remove({ id: `create_dragons_plus:mixing/${color}_dye_from_fluid` });
-    event.recipes.createFilling(`minecraft:${color}_dye`, [
-      "ratatouille:boil_stone",
-      Fluid.of(`create_dragons_plus:${color}_dye`),
-    ]);
+    event.recipes
+      .createMixing(`minecraft:${color}_dye`, [
+        "ratatouille:boil_stone",
+        Fluid.of(`create_dragons_plus:${color}_dye`, 250),
+      ])
+      .heated();
   });
-};
+});

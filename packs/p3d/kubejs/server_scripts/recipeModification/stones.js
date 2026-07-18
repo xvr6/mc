@@ -1,4 +1,4 @@
-global.stones = (event) => {
+ServerEvents.recipes((event) => {
   // - Crushing recipe
   //                (output[], input)
   event.recipes.createCrushing(
@@ -51,4 +51,4 @@ global.stones = (event) => {
     "minecraft:clay_ball",
     "minecraft:pointed_dripstone",
   );
-};
+});

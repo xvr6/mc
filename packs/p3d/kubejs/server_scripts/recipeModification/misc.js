@@ -1,6 +1,6 @@
-global.miscAdditions = (event) => {
+ServerEvents.recipes((event) => {
   event.recipes.createSplashing(
     CreateItem.of("minecraft:slime_ball", 0.4),
     "minecraft:magma_cream",
   );
-};
+});
