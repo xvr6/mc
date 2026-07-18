@@ -46,7 +46,7 @@ global.cobblemonAdditions = (event) => {
 
   Color.DYE.forEach((color) => {
     console.log(`KUBEJS: removing color: ${color}\n`);
-    event.remove({ id: "cobblemon_industries:mixing/dyes/${color}_fluid" });
+    event.remove({ id: `cobblemon_industries:mixing/dyes/${color}_fluid` });
     event.remove({
       input: `cobblemon_industries:${color}_fluid_bucket`,
     });
