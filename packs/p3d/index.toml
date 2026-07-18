@@ -500,11 +500,11 @@ hash = "03359346e3ccb91362ab74f23a2615698732f0c7f1de1fc2198bceefd67057fc"
 
 [[files]]
 file = "kubejs/data/vis/origins/origin/nautili.json"
-hash = "9f6c88550afeeffef4a3ff8d012f5c49e2f3b7da863df3aa25f5d4b713fadc62"
+hash = "fff63fd7a37261b974b525649949b66984e9fc14148c249a3423a60d7ef05f57"
 
 [[files]]
 file = "kubejs/data/vis/origins/power/buffs/cannibalism.json"
-hash = "5ec651443d1cd8d247ca3409167c836460099eb3571a907af7e3819ca1d36ef1"
+hash = "9b4cbf824f99dcfe847517ab632394f6c271162326a8e119410f39a2f7b346d6"
 
 [[files]]
 file = "kubejs/data/vis/origins/power/buffs/canteen.json"
@@ -512,11 +512,7 @@ hash = "9db703384569528c5e6724a6b20e9dbbdc7e28d0eaa3f552432ecd7d5d7707b9"
 
 [[files]]
 file = "kubejs/data/vis/origins/power/buffs/coralgen.json"
-hash = "d16280c72cfb7a093b70224e8a9813e84df074d2765cb8619d06e4946a349cdd"
-
-[[files]]
-file = "kubejs/data/vis/origins/power/buffs/nauticalvision.json"
-hash = "8ab85d4a1ce7c0d200061fe24fdf3197c92e5572df9a53457cb3e302c3e5f6b6"
+hash = "e4bc365ebb7e9eaf1e3f39de019e38a0c977648f1d6684a4df1bf95bdf3d48c7"
 
 [[files]]
 file = "kubejs/data/vis/origins/power/buffs/swimspeed.json"
@@ -541,14 +537,6 @@ hash = "b33ece1fcc0e242108843a31ed219c157a1e40c0d6636f5fefc4b9985425bb4c"
 [[files]]
 file = "kubejs/data/vis/origins/power/debuffs/shatter.json"
 hash = "0c8779a782bd41423a62f5a2055801e064c2447434b09f96685e46f2a76432ad"
-
-[[files]]
-file = "kubejs/data/vis/origins/power/neutral/controlledsubstances.json"
-hash = "e36ed6646bafa0e539d45f7b3535f226caf2cab91da1b8c29cdd66dd34f6425b"
-
-[[files]]
-file = "kubejs/data/vis/origins/power/neutral/echocraft.json"
-hash = "2b7287e7172b8c7f68708c8563cbcdea12258bebc97a817772f5a84ecf7a12df"
 
 [[files]]
 file = "kubejs/data/vis/origins/power/neutral/scalefix.json"
