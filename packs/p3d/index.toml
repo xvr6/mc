@@ -576,11 +576,11 @@ hash = "39e10e1be01f23ea2ad0dbdfb94a5364c8881ef6bf99f41a80f85d47dffd30cb"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/food.js"
-hash = "b91bf58a63fa1f0cc9b89b5e38a6fdd84123a66b8b5894ea79ec654d7db2f22c"
+hash = "98eda3ed3d4780974dcfdddb3ab7734e7deb255f2cc77d648ade4a6384df8bf3"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/misc.js"
-hash = "455d8fa369b26265c50e738f8c5384510af423ccb463cf36eb3122b43cc7a40d"
+hash = "3cbf24337adff1e2c4bb2d028be5a59c6b7411f734bebd8f93038b422dd84270"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/stones.js"
@@ -716,11 +716,6 @@ metafile = true
 [[files]]
 file = "mods/better-ping-display.pw.toml"
 hash = "cc2e6dda94a7a6f5487843cafe569d8044bf9482cbf03f062cf4595f1fb05281"
-metafile = true
-
-[[files]]
-file = "mods/betterdays.pw.toml"
-hash = "f567df6f58cbb28cd6e28dfa72dde29ed8c787afc6e4694c797b0896fa07c8f6"
 metafile = true
 
 [[files]]
@@ -976,6 +971,11 @@ metafile = true
 [[files]]
 file = "mods/colorwheel.pw.toml"
 hash = "3f99808dda6b83374cea1d478e2688c69af71a7381b176d0a7df50d219e44ca9"
+metafile = true
+
+[[files]]
+file = "mods/comforts.pw.toml"
+hash = "36f2f6e74b7dbeccb504572d47006582207544fa234a095093b97adfc7ecd5ac"
 metafile = true
 
 [[files]]
@@ -1486,6 +1486,11 @@ metafile = true
 [[files]]
 file = "mods/escalated.pw.toml"
 hash = "5822270769e6a4d6372fa5d88eeb003f719a539cc60eb047006cfa9b81baab02"
+metafile = true
+
+[[files]]
+file = "mods/etched.pw.toml"
+hash = "e542594c75eddafc1b72baebc82aa65ce2d8d791bc0ace17c731760bf30360b4"
 metafile = true
 
 [[files]]
@@ -2281,6 +2286,16 @@ metafile = true
 [[files]]
 file = "mods/sparsestructures.pw.toml"
 hash = "993b4e4970e1a5ef2fe7c6712212f57a84dcf8b31d4b6863540b6395c4f9ce09"
+metafile = true
+
+[[files]]
+file = "mods/starcatcher.pw.toml"
+hash = "e4ecf1988c8874004f6ff2312c06e3fc2291e14c8487b05b5386c82eb056963c"
+metafile = true
+
+[[files]]
+file = "mods/starcatchers-delight.pw.toml"
+hash = "d032568aef5ecab00e86e97179e8d6ccbc86bbd3432abb03a2b3a432b7aac5d9"
 metafile = true
 
 [[files]]

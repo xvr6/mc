@@ -6,10 +6,10 @@ ServerEvents.tags("item", (event) => {
     //"moresnifferflowers:salty_spice",
   );
 });
-// - salt modifications
 ServerEvents.recipes((event) => {
+  // - salt modifications
   event.remove({ output: "expandeddelight:salt" });
-  event.recipes.createCrushing(
+  event.recipes.createMilling(
     [Item.of("ratatouille:salt", 3), CreateItem.of("ratatouille:salt", 0.4)],
     "expandeddelight:salt_rock",
   );
@@ -23,13 +23,8 @@ ServerEvents.recipes((event) => {
     "ratatouille:salt",
     "#c:salt",
   );
-  event.replaceInput(
-    { id: "cluttered:salt_pepper_shakers" },
-    "minecraft:sugar",
-    "#c:salt",
-  );
 
-  //replaces removed cinnamon recipe eith expanded delight
+  // - replaces removed cinnamon recipe with expanded delight
   event.shapeless(
     Item.of("creategarnished:gingerbread_flour", 2), //output
     [
