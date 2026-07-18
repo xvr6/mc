@@ -588,11 +588,11 @@ hash = "b60ee5135962464b62136bb190d4a66e2ac925d338ff5996f3e88f13f2f4c07e"
 
 [[files]]
 file = "kubejs/startup_scripts/recipeModifications/additions/cobblemon.js"
-hash = "28b8431dd6e0628bdb69b64404cf5595b1045768f5fa62845855b7157490c023"
+hash = "9c3275a30d84a45f2fb796ac48589cbaf86a518bd1897e90dd2934b6bd527fc0"
 
 [[files]]
 file = "kubejs/startup_scripts/recipeModifications/additions/enriching.js"
-hash = "8bc4ad7852c1af9e0dd5586deec9c93b8f19a0340f1e06ff1e377f5401cbb919"
+hash = "5a4575e2e23930b35fbe7bf1fa3f2ee38b9bf860b418c72da85333fcec15af1c"
 
 [[files]]
 file = "kubejs/startup_scripts/recipeModifications/additions/misc.js"
@@ -600,7 +600,7 @@ hash = "b138689a53c1916561dd5814118d96cdb2ec5a33845016239eae96056157cdfc"
 
 [[files]]
 file = "kubejs/startup_scripts/recipeModifications/additions/stones.js"
-hash = "a2a5c791378d263f1a9e954bfa3c33e079cc27f2e9689048345634c73674154f"
+hash = "0a2caa6228e9443b652acc6420616cb1a3e621e3572540da928b7e761988ea7c"
 
 [[files]]
 file = "kubejs/startup_scripts/recipeModifications/removals.js"
@@ -724,6 +724,11 @@ metafile = true
 [[files]]
 file = "mods/better-ping-display.pw.toml"
 hash = "cc2e6dda94a7a6f5487843cafe569d8044bf9482cbf03f062cf4595f1fb05281"
+metafile = true
+
+[[files]]
+file = "mods/betterdays.pw.toml"
+hash = "f567df6f58cbb28cd6e28dfa72dde29ed8c787afc6e4694c797b0896fa07c8f6"
 metafile = true
 
 [[files]]

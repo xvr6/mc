@@ -40,5 +40,14 @@ global.cobblemonAdditions = (event) => {
   //  inputs must also be 1/4d compared to current; dye is 250mb per solid dye, not 1000mb like it is in cobblemon_industries
   //  remove all recipes with outputs to cobblemon_industries (only dye buckets and liquid)
   //replace liquid -> dye recipe to use boil stone
-  //
+  event.remove({ output: "cobblemon_industries:red_fluid" });
+  event.remove({ id: "cobblemon_industries:mixing/dyes/red_fluid" });
+
+  Color.DYE.forEach((color) => {
+    console.log(`KUBEJS: removing color: ${color}\n`);
+    event.remove({ output: `cobblemon_industries:${color}_fluid` });
+    event.remove({
+      output: `cobblemon_industries:${color}_fluid_bucket`,
+    });
+  });
 };

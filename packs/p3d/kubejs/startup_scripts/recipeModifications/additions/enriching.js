@@ -36,9 +36,15 @@ global.enriching = (event) => {
     type: "createnuclear:enriched",
     ingredients: [{ item: "quark:charcoal_block" }],
     results: [
-      { id: "minecraft:coal", count: 4 },
-      { id: "minecraft:coal", count: 2, chance: 0.6 },
+      { id: "minecraft:coal", count: 3 },
+      { id: "minecraft:coal", count: 1, chance: 0.8 },
     ],
+  });
+
+  event.custom({
+    type: "createnuclear:enriched",
+    ingredients: [{ item: "createnuclear:enriched_soul_soil" }],
+    results: [{ id: "minecraft:soul_soil", chance: 0.15 }],
   });
 
   event.custom({

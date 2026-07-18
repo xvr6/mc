@@ -16,20 +16,7 @@ global.stones = (event) => {
     ])
     .superheated();
 
-  //stone typed automatable
-  event.recipes
-    .createMixing(
-      ["create:asurine", Fluid.of("createmetallurgy:molten_slag", 90)],
-      ["minecraft:tuff", "create:veridium"],
-    )
-    .heated();
-  //crimsite
-  event.recipes
-    .createMixing(
-      ["create:crimsite", Fluid.of("createmetallurgy:molten_slag", 90)],
-      ["minecraft:tuff", "minecraft:netherrack"],
-    )
-    .heated();
+  // - Stone typed automatable
   //veridium
   event.recipes
     .createMixing(
@@ -37,7 +24,14 @@ global.stones = (event) => {
       ["minecraft:tuff", "create:veridium"],
     )
     .heated();
-  // ochrum
+  //Crimsite
+  event.recipes
+    .createMixing(
+      ["create:crimsite", Fluid.of("createmetallurgy:molten_slag", 90)],
+      ["minecraft:tuff", "minecraft:netherrack"],
+    )
+    .heated();
+  //Ochrum
   event.custom({
     type: "create_aquatic_ambitions:channeling",
     ingredients: [{ item: "minecraft:tuff" }],
