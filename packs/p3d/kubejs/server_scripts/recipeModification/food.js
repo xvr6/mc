@@ -1,4 +1,34 @@
+ServerEvents.tags("item", (event) => {
+  event.add(
+    "c:salt",
+    "ratatouille:salt",
+    "expandeddelight:salt",
+    //"moresnifferflowers:salty_spice",
+  );
+});
+// - salt modifications
 ServerEvents.recipes((event) => {
+  event.remove({ output: "expandeddelight:salt" });
+  event.recipes.createCrushing(
+    [Item.of("ratatouille:salt", 3), CreateItem.of("ratatouille:salt", 0.4)],
+    "expandeddelight:salt_rock",
+  );
+  event.replaceInput(
+    { input: "expandeddelight:salt" },
+    "expandeddelight:salt",
+    Ingredient.of("#c:salt"),
+  );
+  event.replaceInput(
+    { input: "ratatouille:salt" },
+    "ratatouille:salt",
+    "#c:salt",
+  );
+  event.replaceInput(
+    { id: "cluttered:salt_pepper_shakers" },
+    "minecraft:sugar",
+    "#c:salt",
+  );
+
   //replaces removed cinnamon recipe eith expanded delight
   event.shapeless(
     Item.of("creategarnished:gingerbread_flour", 2), //output
@@ -59,14 +89,10 @@ ServerEvents.recipes((event) => {
 
   //FIXME: was removing all ways to craft chcocolate
   //- Remove any recipes for chocolate that dont use the mold
-  //event.remove({
-  //  not: { input: "ratatouille:chocolate_mold_solid" },
-  //  output: "create:bar_of_chocolate",
-  //});
-
-  // no longer has ANY purpose so can be removed
-  // FIXME: switch to removal of specific recipe
-  //  event.remove({ output: "createdieselgenerators:mold" });
+  event.remove({
+    not: { input: "ratatouille:chocolate_mold_solid" },
+    output: "create:bar_of_chocolate",
+  });
 
   // - Remove recipies for cakes that do not use the cake base from ratatouille
   event.remove({ output: "createaddition:cake_base" });

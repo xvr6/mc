@@ -576,7 +576,7 @@ hash = "39e10e1be01f23ea2ad0dbdfb94a5364c8881ef6bf99f41a80f85d47dffd30cb"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/food.js"
-hash = "fff767bece4f64b3fe6a75676775c6bb35d4317979b9445053ae6a3844b236c6"
+hash = "b91bf58a63fa1f0cc9b89b5e38a6fdd84123a66b8b5894ea79ec654d7db2f22c"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/misc.js"
@@ -584,11 +584,7 @@ hash = "455d8fa369b26265c50e738f8c5384510af423ccb463cf36eb3122b43cc7a40d"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/stones.js"
-hash = "e6d39e6082bbc76d774bea53b26cdd51a361aa8965b49cb90889a4035fbf47a0"
-
-[[files]]
-file = "kubejs/server_scripts/recipeTweaks.js"
-hash = "6422c858876778bc2436d07006c1f94517b87a80f409eb85300cf28289f752b3"
+hash = "1f64cb59e3cd8d0c7d56ccd6962329be42f80c5fb9f7498a35da83375ddf665e"
 
 [[files]]
 file = "kubejs/server_scripts/startMon.js"

@@ -3,8 +3,8 @@ ServerEvents.recipes((event) => {
   //                (output[], input)
   event.recipes.createCrushing(
     [
-      CreateItem.of("create:crushed_raw_uranium", 0.05),
       CreateItem.of("createnuclear:uranium_powder", 0.35),
+      CreateItem.of("create:crushed_raw_uranium", 0.05),
     ],
     "createnuclear:autunite",
   );
