@@ -47,15 +47,15 @@ global.cobblemonAdditions = (event) => {
   Color.DYE.forEach((color) => {
     console.log(`KUBEJS: removing color: ${color}\n`);
     event.remove({ id: `cobblemon_industries:mixing/dyes/${color}_fluid` });
-    event.remove({
-      input: `cobblemon_industries:${color}_fluid_bucket`,
-    });
+    event.remove({ input: `cobblemon_industries:${color}_fluid_bucket` });
+    event.remove({ output: `cobblemon_industries:${color}_fluid_bucket` });
   });
 
   //replace recipes
   Color.DYE.forEach((color) => {
+    console.log(`KUBEJS: Replacing input ${color}\n`);
     event.replaceInput(
-      { type: "create:spout_filling" },
+      { type: "create:filling" },
       Fluid.of(`cobblemon_industries:${color}_fluid`, 1000),
       Fluid.of(`create_dragons_plus:${color}_dye`, 250),
     );
