@@ -40,14 +40,24 @@ global.cobblemonAdditions = (event) => {
   //  inputs must also be 1/4d compared to current; dye is 250mb per solid dye, not 1000mb like it is in cobblemon_industries
   //  remove all recipes with outputs to cobblemon_industries (only dye buckets and liquid)
   //replace liquid -> dye recipe to use boil stone
-  event.remove({ output: "cobblemon_industries:red_fluid" });
-  event.remove({ id: "cobblemon_industries:mixing/dyes/red_fluid" });
+
+  // this recipe for some reason uses white dye to dye apricorns, not yellow. Check for other similar erors through mod
+  // event.remove({ id: "cobblemon_industries: filling/apricorn/yellow_apricorn" })
 
   Color.DYE.forEach((color) => {
     console.log(`KUBEJS: removing color: ${color}\n`);
-    event.remove({ output: `cobblemon_industries:${color}_fluid` });
+    event.remove({ id: "cobblemon_industries:mixing/dyes/${color}_fluid" });
     event.remove({
-      output: `cobblemon_industries:${color}_fluid_bucket`,
+      input: `cobblemon_industries:${color}_fluid_bucket`,
     });
+  });
+
+  //replace recipes
+  Color.DYE.forEach((color) => {
+    event.replaceInput(
+      { type: "create:spout_filling" },
+      Fluid.of(`cobblemon_industries:${color}_fluid`, 1000),
+      Fluid.of(`create_dragons_plus:${color}_dye`, 250),
+    );
   });
 };
