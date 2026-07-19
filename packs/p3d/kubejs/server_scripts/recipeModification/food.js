@@ -1,11 +1,3 @@
-ServerEvents.tags("item", (event) => {
-  event.add(
-    "c:salt",
-    "ratatouille:salt",
-    "expandeddelight:salt",
-    "moresnifferflowers:salty_spice",
-  );
-});
 ServerEvents.recipes((event) => {
   // - salt modifications
   event.remove({ output: "expandeddelight:salt" });

@@ -74,10 +74,13 @@ ServerEvents.recipes((event) => {
   Color.DYE.forEach((color) => {
     event.remove({ id: `create_dragons_plus:mixing/${color}_dye_from_fluid` });
     event.recipes
-      .createMixing(`minecraft:${color}_dye`, [
-        "ratatouille:boil_stone",
-        Fluid.of(`create_dragons_plus:${color}_dye`, 250),
-      ])
+      .createMixing(
+        [`minecraft:${color}_dye`, "ratatouille:boil_stone"],
+        [
+          "ratatouille:boil_stone",
+          Fluid.of(`create_dragons_plus:${color}_dye`, 250),
+        ],
+      )
       .heated();
   });
 
@@ -90,13 +93,6 @@ ServerEvents.recipes((event) => {
   event.replaceInput(
     { output: "cobblemon:ancient_origin_ball" },
     "minecraft:redstone_block",
-    "minecraft:redstone_dye",
+    "minecraft:redstone",
   );
-
-  // - Remove all pokeball recipes asside from ones using cobblemon_industries
-  event.remove({
-    output: "#cobblemon:poke_balls",
-    not: { output: "#cobblepedia:basic_poke_balls" },
-    not: { mod: "cobblemon_industries" },
-  });
 });

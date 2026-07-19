@@ -259,6 +259,10 @@ file = "datapacks/poinky-additions/data/cobblemon/species_additions/trevenant_pa
 hash = "f97af720e3f5542801a5121a40b8b66ca08845bea08ef89a077a92943bfd7166"
 
 [[files]]
+file = "datapacks/poinky-additions/data/poinky/recipe/void_steel.json"
+hash = "1a4ff0cfd895541bf990972486e84ba6cb9dcc3ffb98d4415d1dd9c15276e8ab"
+
+[[files]]
 file = "datapacks/poinky-additions/pack.mcmeta"
 hash = "e55e81dbcbe7422bedfbb049e684863c100430049f586e483ea6d9d2fe967972"
 
@@ -568,23 +572,27 @@ hash = "a8e952f5628b32ee927faa6c1323aa3c81121b30da0660f721989095c9c07acc"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/cobblemon.js"
-hash = "1090933c4a848f2c036710bae424d5e7dfdebb067e4a61f0e69ec39fa38f6fae"
+hash = "15bba375e68ec3f4ca5eb5ea463774ee4a1af6844d8a012bd55eb1298ed02fc1"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/enriching.js"
-hash = "39e10e1be01f23ea2ad0dbdfb94a5364c8881ef6bf99f41a80f85d47dffd30cb"
+hash = "62e16c90c5960eb7a5cea77fa912cc1f89b605f545e410c0e499f6e3eebc3a62"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/food.js"
-hash = "d1a08976afa445eff7695ba209a200f8868960985ea6144e60d12a70b95decfd"
+hash = "5e04d8d204459f631c9a6abc98faa4c01664b4819929146bfd3d94ac8f5e320f"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/misc.js"
-hash = "554bced6523dee1cd2e02b32d30696d380853b5fa02cf3e45223da872df5fba8"
+hash = "962dd62825f4a60ef5aa9c86456d3fb58811c094b733aba319e6984ea8925219"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/stones.js"
-hash = "1f64cb59e3cd8d0c7d56ccd6962329be42f80c5fb9f7498a35da83375ddf665e"
+hash = "d79ffdeee5ed3bea63c2ba8cf1a907000507e3a6ea3e66bdc03418e9caeadf15"
+
+[[files]]
+file = "kubejs/server_scripts/recipeModification/tags.js"
+hash = "895c23d36fc7b3157a594dc575ed9da0d327822eb97d54f47a24b658b2c60982"
 
 [[files]]
 file = "kubejs/server_scripts/startMon.js"

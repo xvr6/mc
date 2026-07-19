@@ -29,6 +29,25 @@ ServerEvents.recipes((event) => {
     "industrially_plated:blank_instruction_sign",
   );
 
+  // - create nuclear
+  // TODO: replace with disel generators bulk fermenting recipe; lots of uranium powder in,
+  //       much less distilled out as yellow cake. Makes nuclear require massive setup, thus much harder!
+  event.remove({ id: `createnuclear:mixing/uranium_fluid` });
+  event.recipes.createMixing(Fluid.of("createnuclear:uranium", 250), [
+    "createnuclear:uranium_powder",
+    Fluid.of("minecraft:water", 250),
+  ]);
+  event.recipes
+    .createMixing(
+      [
+        "createnuclear:yellowcake",
+        CreateItem.of("createnuclear:yellowcake", 0.4),
+        "ratatouille:boil_stone",
+      ],
+      ["ratatouille:boil_stone", Fluid.of(`createnuclear:uranium`, 1000)],
+    )
+    .heated();
+
   // - Etched
   event.recipes.createPressing(
     ["etched:blank_music_disc"],
@@ -51,7 +70,10 @@ ServerEvents.recipes((event) => {
   //remove base recipe
   event.remove({ id: "createutilities:mixing/void_steel_ingot" });
   //add back in recipe
-  event.custom({
+  //FIXME: unsure how this recipe is formatted.
+  // https://github.com/Lucreeper74/Create-Metallurgy/blob/mc1.21.1/dev/src/generated/resources/data/createmetallurgy/recipe/casting_in_table/void_steel/ingot.json
+  // for now, done with datapack
+  /*  event.custom({
     type: "createmetallurgy:casting_in_table",
     ingredients: [
       Fluid.of("createmetallurgy:molten_void_steel", 180),
@@ -64,5 +86,5 @@ ServerEvents.recipes((event) => {
           "createmetallurgy:graphite_ingot_mold",
       },
     ],
-  });
+  }); */
 });

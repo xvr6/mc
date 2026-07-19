@@ -27,3 +27,5 @@ x 2026-07-18 2026-07-18 adding Comforts +mod adds hammoks for daytime skipping
 (C) Weight adjustmenets for aeronautics
 (E) Origins has a shit ton of bugs sobbing +origin
 x 2026-07-18 2026-07-18 sleeping cobblemon doesnt work all the time for restoring hp/pp. Make kubejs script that always fires after 1sec laying in bed
+(A) programatic way to fix dye fluid swap; 1000 -> 250 change not working
+(B) move item recipe removals to be tag based; ultimate goal is to have all removed items in one tag for emi hiding

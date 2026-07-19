@@ -2,20 +2,29 @@ ServerEvents.recipes((event) => {
   // - Crushing recipe
   //                (output[], input)
   event.recipes.createCrushing(
-    [
-      CreateItem.of("createnuclear:uranium_powder", 0.35),
-      CreateItem.of("create:crushed_raw_uranium", 0.05),
-    ],
+    [CreateItem.of("createnuclear:uranium_powder", 0.35)],
     "createnuclear:autunite",
   );
   //diamond antomation but evil
   event.recipes
-    .createCompacting(CreateItem.of("minecraft:diamond", 0.05), [
-      Item.of("minecraft:coal_block", 9),
-      Fluid.of("createnuclear:uranium", 250),
-    ])
+    .createCompacting(
+      [CreateItem.of("minecraft:diamond", 0.05), "createnuclear:yellowcake"],
+      [
+        Item.of("createnuclear:enriched_yellowcake", 1),
+        Item.of("minecraft:coal_block", 9),
+      ],
+    )
     .superheated();
-
+  event.recipes
+    .createCompacting(
+      [
+        Item.of("minecraft:coal", 3),
+        CreateItem.of("minecraft:coal", 0.6),
+        "createnuclear:yellowcake",
+      ],
+      ["createnuclear:enriched_yellowcake", "quark:charcoal_block"],
+    )
+    .heated();
   // - Stone typed automatable
   //veridium
   event.recipes
