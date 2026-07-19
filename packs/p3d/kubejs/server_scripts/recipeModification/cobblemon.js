@@ -80,4 +80,23 @@ ServerEvents.recipes((event) => {
       ])
       .heated();
   });
+
+  // - Adjust cost of cobblemon:ancient_origin_ball
+  event.replaceInput(
+    { output: "cobblemon:ancient_origin_ball" },
+    "minecraft:netherite_ingot",
+    "cobblemon:black_tumblestone",
+  );
+  event.replaceInput(
+    { output: "cobblemon:ancient_origin_ball" },
+    "minecraft:redstone_block",
+    "minecraft:redstone_dye",
+  );
+
+  // - Remove all pokeball recipes asside from ones using cobblemon_industries
+  event.remove({
+    output: "#cobblemon:poke_balls",
+    not: { output: "#cobblepedia:basic_poke_balls" },
+    not: { mod: "cobblemon_industries" },
+  });
 });

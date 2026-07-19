@@ -568,7 +568,7 @@ hash = "a8e952f5628b32ee927faa6c1323aa3c81121b30da0660f721989095c9c07acc"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/cobblemon.js"
-hash = "807af7072e3cde66d97b7a4b1daf64b7d822710dce01c7e1ae74cc45c637b835"
+hash = "1090933c4a848f2c036710bae424d5e7dfdebb067e4a61f0e69ec39fa38f6fae"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/enriching.js"
@@ -580,7 +580,7 @@ hash = "d1a08976afa445eff7695ba209a200f8868960985ea6144e60d12a70b95decfd"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/misc.js"
-hash = "06eda49057d1495d4f00316f82db48bb280b74efc754965a50882a16efa6cdf7"
+hash = "554bced6523dee1cd2e02b32d30696d380853b5fa02cf3e45223da872df5fba8"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/stones.js"

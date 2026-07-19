@@ -59,7 +59,10 @@ ServerEvents.recipes((event) => {
     ],
     result: [
       { id: "createutilities:void_steel_ingot" },
-      { id: "createmetallurgy:graphite_ingot_mold" },
+      {
+        "createmetalurgy:casting_output":
+          "createmetallurgy:graphite_ingot_mold",
+      },
     ],
   });
 });
