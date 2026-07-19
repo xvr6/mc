@@ -33,6 +33,7 @@ ServerEvents.recipes((event) => {
   // TODO: replace with disel generators bulk fermenting recipe; lots of uranium powder in,
   //       much less distilled out as yellow cake. Makes nuclear require massive setup, thus much harder!
   event.remove({ id: `createnuclear:mixing/uranium_fluid` });
+  event.remove({ id: "createnuclear:compacting/uranium_fluid_to_yellowcake" });
   event.recipes.createMixing(Fluid.of("createnuclear:uranium", 250), [
     "createnuclear:uranium_powder",
     Fluid.of("minecraft:water", 250),

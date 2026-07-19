@@ -4,7 +4,7 @@ ServerEvents.tags("item", (event) => {
     "#cobblemon:tier_2_poke_balls",
     "#cobblemon:tier_3_poke_balls",
     "#cobblemon:tier_4_poke_balls",
-    "#cobblemon:tier_5_poke_balls",
+    "cobblemon:master_ball",
   );
   event.add(
     "c:salt",

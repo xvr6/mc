@@ -1,4 +1,4 @@
-# Update: v3.1.0!
+# Update: v3.1.0 !
 
 > Finally.... the update I've been hinting at for a bit.
 > This involves a lot of new recipes, and rebalances as a result. Please read everything carefully, specifically the recipe changes.
@@ -60,7 +60,8 @@ List of all notable changes to mods (meaning, not everything is listed :p)
 - `@cobblemonsizevariation` essences are now all craftable, allowing players to change their mons sizes!
   - as a note, incompatable with synchro for now. Issue is on their side, hopefully to be fixed at some point
 - Removed all hand craftable recipes to craft pokeballs with the exception of tier one balls
-  - must now be done with create sequenced assembly (ignoring ancient origin ball)
+- New tag `#poinky:non_hand_craftable` to see exactly what ones are uncraftable with normal methods now. Tag likely to expand with other items as well as content gets removed
+- must now be done with create sequenced assembly (ignoring ancient origin ball)
 - Ancient origin ball is cheaper (no more netherite)
   - its cosmetic...? so why does it need 2 more netherite.
   - uses 4 balck tumblestone instead
@@ -91,11 +92,13 @@ List of all notable changes to mods (meaning, not everything is listed :p)
 ### Misc
 
 - Heated Mixing of Boil Stone + any liquid dye -> solid dye
-- Iron Sheet + Liquid Dye 250mb -> ...
-  - yellow dye -> blank hazard sign x4
-  - white dye -> blank prohibition sign x4
-  - green dye -> blank safety sign x4
-  - blue dye -> blank instruction sign x4
+- Industrially Plated recipes:
+  - Iron Sheet + Liquid Dye 250mb -> ...
+    - yellow dye -> blank hazard sign x4
+    - white dye -> blank prohibition sign x4
+    - green dye -> blank safety sign x4
+    - blue dye -> blank instruction sign x4
+  - All other blocks from IP are currently unaccesable. This can be changed on request, but this mod was mainly added for its signage
 - Stonecutting of blank instruction sign to fire diamond as other recipe is unaccessable
 - Heated Pressing -> Etched blank music disk
 

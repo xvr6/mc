@@ -60,12 +60,11 @@ ServerEvents.recipes((event) => {
 
   //replace recipes
   Color.DYE.forEach((color) => {
-    console.log(`KUBEJS: Replacing input ${color}\n`);
     event.replaceInput(
-      [{ type: "create:filling" }, { mod: "cobblemon_industries" }],
+      "*",
       Fluid.of(`cobblemon_industries:${color}_fluid`, 1000),
       Fluid.of(`create_dragons_plus:${color}_dye`, 250),
-      //FIXME: count of 250 doesnt work
+      //FIXME: this does not actually repalce fluid quantities values.....
     );
   });
 
