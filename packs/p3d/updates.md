@@ -101,6 +101,7 @@ List of all notable changes to mods (meaning, not everything is listed :p)
   - All other blocks from IP are currently unaccesable. This can be changed on request, but this mod was mainly added for its signage
 - Stonecutting of blank instruction sign to fire diamond as other recipe is unaccessable
 - Heated Pressing -> Etched blank music disk
+- Washing of charcoal -> ash x4, ash x2 60%
 
 ## Misc fixes
 

@@ -67,6 +67,15 @@ ServerEvents.recipes((event) => {
     "creategarnished:gingerbread_flour",
   );
 
+  // - Since firetick may be disabled and the best way to make ash is with that, add in another way to get ash
+  event.recipes.createSplashing(
+    [
+      Item.of("supplementaries:ash", 4),
+      CreateItem.of("2x supplementaries:ash", 0.6),
+    ],
+    "minecraft:charcoal",
+  );
+
   // - Void steel recipes + rebalance
   //remove base recipe
   event.remove({ id: "createutilities:mixing/void_steel_ingot" });
