@@ -15,15 +15,15 @@ x 2026-07-18 2026-07-18 Fish!!! +mod
 (G) Once fixed (if at all) add in abilities for truemons to change size by eating size essences
 (C) remove items with no +recipe from EMI/JEI
 (A) Removal of +cobblemon legendary spawns; only use items to spawn then
-(B) +cobblemon not regenerating pp when sleeping
+x 2026-07-18 2026-07-18 +cobblemon not regenerating pp when sleeping
 x 2026-07-18 2026-07-18 gingerbread decorations +recipe change to using gingerflour
 x 2026-07-17 2026-07-17 compat between salts +recipe with garnished as priority
 (B) pancake +recipe compat
 x 2026-07-18 2026-07-18 +mod Etched with +recipe changes
 x 2026-07-18 2026-07-18 boil stone for liquid dyes
-(D) adding Comforts +mod adds hammoks for daytime skipping
+x 2026-07-18 2026-07-18 adding Comforts +mod adds hammoks for daytime skipping
 (C) maximum speed decrease for thrusters
 (C) exp candy recipe tweaks to use create filling of honey comb with liquid exp
 (C) Weight adjustmenets for aeronautics
 (E) Origins has a shit ton of bugs sobbing +origin
-(A) sleeping cobblemon doesnt work all the time for restoring hp/pp. Make kubejs script that always fires after 1sec laying in bed
+x 2026-07-18 2026-07-18 sleeping cobblemon doesnt work all the time for restoring hp/pp. Make kubejs script that always fires after 1sec laying in bed

@@ -46,4 +46,17 @@ ServerEvents.recipes((event) => {
     "minecraft:sugar",
     "creategarnished:gingerbread_flour",
   );
+
+  // - Void steel recipes + rebalance
+  //remove base recipe
+  event.remove({ id: "createutilities:mixing/void_steel_ingot" });
+  //add back in recipe
+  event.custom({
+    type: "createmetallurgy:casting_in_table",
+    ingredients: [
+      Fluid.of("createmetallurgy:molten_void_steel", 90),
+      { item: "createmetallurgy:graphite_ingot_mold" },
+    ],
+    results: [{ id: "minecraft:wither_rose", chance: 0.4 }],
+  });
 });
