@@ -43,7 +43,7 @@ List of all notable changes to mods (meaning, not everything is listed :p)
 ### Void Steel (bluetooth create rotation/fluids/ etc.)
 
 - Base way of creation has been removed.
-- Now it _must_ be created through create metallurgy, and is also 2x as expensive / requires super heating
+- Now it _must_ be created through create metallurgy
 
 ### Cooking / Food changes (AND BLAZE CAKES)
 

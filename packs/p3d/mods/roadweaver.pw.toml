@@ -1,18 +1,14 @@
-name = "[readdesc] RoadWeaver"
-filename = "roadweaver-neoforge-2.3.0-1.21.1.jar"
+name = "RoadWeaver"
+filename = "roadweaver-neoforge-2.2.2-1.21.1.jar"
 side = "both"
+pin = true
 
 [download]
-url = "https://cdn.modrinth.com/data/6jk8Pote/versions/tlKGCaB5/roadweaver-neoforge-2.3.0-1.21.1.jar"
+url = "https://cdn.modrinth.com/data/6jk8Pote/versions/zi93RooF/roadweaver-neoforge-2.2.2-1.21.1.jar"
 hash-format = "sha512"
-hash = "7152535b9acf68539e8ce17e2ad23433f3df572ea18d665bfccf232d0555c91a577a2fad686e39f986f4ee6fb732b29c92b02cbba5ad1e220bc3d2c597052fe2"
+hash = "8611585dc923123499cb5edba0ad094da0777f5e45827fdf24dcbb699d34266eaa153823c89e565be253af1dfa9c43eb3a9115b268b4ebdde2a56d0602c3545d"
 
 [update]
 [update.modrinth]
 mod-id = "6jk8Pote"
-version = "tlKGCaB5"
-
-[option]
-optional = true
-description = "REQUIRED BY P3D SERVERS! Disable if playing in single player so worldgen doesnt take eons"
-default = true
+version = "zi93RooF"

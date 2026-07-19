@@ -259,8 +259,8 @@ file = "datapacks/poinky-additions/data/cobblemon/species_additions/trevenant_pa
 hash = "f97af720e3f5542801a5121a40b8b66ca08845bea08ef89a077a92943bfd7166"
 
 [[files]]
-file = "datapacks/poinky-additions/data/poinky/recipe/void_steel.json"
-hash = "1a4ff0cfd895541bf990972486e84ba6cb9dcc3ffb98d4415d1dd9c15276e8ab"
+file = "datapacks/poinky-additions/data/poinky/recipe/casting_in_table/void_steel.json"
+hash = "b1e398fb740f24fe67a2b32e8a228fd1e6eef0ac69267a6f0f74b6a11d3fe4d2"
 
 [[files]]
 file = "datapacks/poinky-additions/pack.mcmeta"
@@ -633,7 +633,7 @@ metafile = true
 
 [[files]]
 file = "mods/aero_cam_sync.pw.toml"
-hash = "1c67e1b2043b87e57f20cf4bfbdbf7d894ce0a4598cd5e7e3b65d49c078f70fa"
+hash = "2c1f51f9e5e0451c87fd34ff588e5dcd05469dca047bb0773268bff829afdbf2"
 metafile = true
 
 [[files]]
@@ -2183,7 +2183,7 @@ metafile = true
 
 [[files]]
 file = "mods/roadweaver.pw.toml"
-hash = "a3c4dad8a898bc42af3229758877bd3598b3787c91174da7286c80ae12d1ff9d"
+hash = "095bf1f0ffd192a9a53922aac0667d28ce67fa5a46e075342056f38adc433657"
 metafile = true
 
 [[files]]

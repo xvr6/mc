@@ -4,7 +4,7 @@
 x 2026-07-15 2026-07-15 Remove cake/chcolate +recipe that dont use mold
 x 2026-07-15 2026-07-15 change all blaze cakes to use this new system too, making blaze cakes a bit more complex, but perhaps make it so u get 2/4 bases when making it.
 (B) +recipe addition of using powdered snow in place of ratatatouille freezing block
-(B) 2026-07-15 Cobblemon industries +recipe tweaks; removing its dyes and replacing with dragons plus; remove all non-base pokeball recipies
+x 2026-07-19 2026-07-15 Cobblemon industries +recipe tweaks; removing its dyes and replacing with dragons plus; remove all non-base pokeball recipies
 x 2026-07-15 2026-07-15 +recipe compats between salts and cinnamon
 (B) complex/expensive +recipe for superexp maybe
 (B) netherrack duplicate +recipe removal/tweaks
@@ -14,7 +14,7 @@ x 2026-07-18 2026-07-18 Fish!!! +mod
 (D) tweak +recipe for industrially-plated +mod
 (G) Once fixed (if at all) add in abilities for truemons to change size by eating size essences
 (C) remove items with no +recipe from EMI/JEI
-(A) Removal of +cobblemon legendary spawns; only use items to spawn then
+(A) [likely wont be done] Removal of +cobblemon legendary spawns; only use items to spawn then
 x 2026-07-18 2026-07-18 +cobblemon not regenerating pp when sleeping
 x 2026-07-18 2026-07-18 gingerbread decorations +recipe change to using gingerflour
 x 2026-07-17 2026-07-17 compat between salts +recipe with garnished as priority

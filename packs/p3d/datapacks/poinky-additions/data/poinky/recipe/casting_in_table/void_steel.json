@@ -3,7 +3,7 @@
   "ingredients": [
     {
       "type": "neoforge:single",
-      "amount": 180,
+      "amount": 90,
       "fluid": "createmetallurgy:molten_void_steel"
     },
     {
@@ -12,6 +12,9 @@
   ],
   "processing_time": 60,
   "result": {
-    "item": "createutilities:void_steel_ingot"
+    "item": {
+      "count": 1,
+      "id": "createutilities:void_steel_ingot"
+    }
   }
 }
