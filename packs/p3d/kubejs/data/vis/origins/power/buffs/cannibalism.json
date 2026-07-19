@@ -8,7 +8,7 @@
       "item": "minecraft:nautilus_shell"
     }
   },
-  "food_properties": {
+  "food_component": {
     "hunger": 4,
     "saturation": 1,
     "meat": true,
@@ -17,14 +17,14 @@
         "effect": {
           "id": "minecraft:strength",
           "duration": 900,
-          "amplifier": 1
+          "amplifier": 2
         }
       },
       {
         "effect": {
-          "id": "minecraft:absorption",
+          "id": "minecraft:water_breathing",
           "duration": 900,
-          "amplifier": 4
+          "amplifier": 1
         }
       },
       {

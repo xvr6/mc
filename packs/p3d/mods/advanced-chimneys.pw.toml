@@ -3,8 +3,8 @@ filename = "AdChimneys-1.21.1-11.1.7.0-NeoForge-build.1006.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "e51a1c5701e6941146339c01d276ec110cafd274"
+hash-format = "sha512"
+hash = "b5ea802320a088cb155cc9482d2a5050dec1b0f52c8f06f50ba95d91962f0d00596ddbf46975f6f3239b6343b12c02b2b79d9caf81a029186c6351649a4b95c2"
 mode = "metadata:curseforge"
 
 [update]

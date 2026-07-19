@@ -1,6 +1,6 @@
 {
   "requireOwnership": false,
-  "keepSyncedOnRespawn": false,
+  "keepSyncedOnRespawn": true,
   "turnBasedBattles": false,
   "requireItem": false,
   "useAdjustedMovementSpeed": true,

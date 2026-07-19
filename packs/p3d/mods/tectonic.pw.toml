@@ -1,4 +1,4 @@
-name = "Tectonic"
+name = "[read desc] Tectonic"
 filename = "tectonic-3.0.26-neoforge-21.1.jar"
 side = "both"
 
@@ -11,3 +11,8 @@ hash = "7f91f69f6985cf5d0533dc0a645286f40b9625e0a67e405969d153497923a9b2e6b88e43
 [update.modrinth]
 mod-id = "lWDHr9jE"
 version = "vNrkxC3z"
+
+[option]
+optional = true
+description = "Disable if playing in single player so worldgen doesnt take eons"
+default = true
