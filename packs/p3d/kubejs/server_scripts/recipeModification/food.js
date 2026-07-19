@@ -3,7 +3,7 @@ ServerEvents.tags("item", (event) => {
     "c:salt",
     "ratatouille:salt",
     "expandeddelight:salt",
-    //"moresnifferflowers:salty_spice",
+    "moresnifferflowers:salty_spice",
   );
 });
 ServerEvents.recipes((event) => {
@@ -40,6 +40,12 @@ ServerEvents.recipes((event) => {
     Fluid.of("create:chocolate", 500),
   ]);
 
+  //remove all ways to make cake but select 2
+  event.remove({
+    not: { id: "farmersdelight:cake_from_slices" },
+    not: { id: "ratatouille:filling/cake" },
+    output: "minecraft:cake",
+  });
   // add in create cake bases
   event.recipes.createCompacting(
     [
@@ -82,8 +88,6 @@ ServerEvents.recipes((event) => {
     output: "farmersdelight:raw_pasta",
   });
 
-  //FIXME: was removing all ways to craft chcocolate
-  //- Remove any recipes for chocolate that dont use the mold
   event.remove({
     not: { input: "ratatouille:chocolate_mold_solid" },
     output: "create:bar_of_chocolate",

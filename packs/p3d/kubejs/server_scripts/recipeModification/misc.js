@@ -54,9 +54,12 @@ ServerEvents.recipes((event) => {
   event.custom({
     type: "createmetallurgy:casting_in_table",
     ingredients: [
-      Fluid.of("createmetallurgy:molten_void_steel", 90),
+      Fluid.of("createmetallurgy:molten_void_steel", 180),
       { item: "createmetallurgy:graphite_ingot_mold" },
     ],
-    results: [{ id: "minecraft:wither_rose", chance: 0.4 }],
+    result: [
+      { id: "createutilities:void_steel_ingot" },
+      { id: "createmetallurgy:graphite_ingot_mold" },
+    ],
   });
 });

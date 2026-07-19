@@ -576,11 +576,11 @@ hash = "39e10e1be01f23ea2ad0dbdfb94a5364c8881ef6bf99f41a80f85d47dffd30cb"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/food.js"
-hash = "98eda3ed3d4780974dcfdddb3ab7734e7deb255f2cc77d648ade4a6384df8bf3"
+hash = "d1a08976afa445eff7695ba209a200f8868960985ea6144e60d12a70b95decfd"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/misc.js"
-hash = "0abb75a34f98c9e932063af6492247fb9922d657fc2dfa12b46dbb30e221a40d"
+hash = "06eda49057d1495d4f00316f82db48bb280b74efc754965a50882a16efa6cdf7"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/stones.js"
