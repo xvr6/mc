@@ -1,3 +1,18 @@
+# Update: v3.1.1!
+
+## Recipe Changes (again yippe yippe yippe)
+
+### Liquid Fuel changes!
+
+- All seed oils but one removed (all had same recipe anyways)
+- Bio Diesel removed, reicpe to create it replaced with bioethanol
+- Other methods of creating bioethanol removed
+
+### Renewable snow w/o golem
+
+- Bulk freezing a bucket of water -> powder snow
+- Shapeless powder snow -> bucket back and snow block
+
 # Update: v3.1.0 !
 
 > Finally.... the update I've been hinting at for a bit.

@@ -1,21 +1,4 @@
 ServerEvents.recipes((event) => {
-  // - salt modifications
-  event.remove({ output: "expandeddelight:salt" });
-  event.recipes.createMilling(
-    [Item.of("ratatouille:salt", 3), CreateItem.of("ratatouille:salt", 0.4)],
-    "expandeddelight:salt_rock",
-  );
-  event.replaceInput(
-    { input: "expandeddelight:salt" },
-    "expandeddelight:salt",
-    Ingredient.of("#c:salt"),
-  );
-  event.replaceInput(
-    { input: "ratatouille:salt" },
-    "ratatouille:salt",
-    "#c:salt",
-  );
-
   // - replaces removed cinnamon recipe with expanded delight
   event.shapeless(
     Item.of("creategarnished:gingerbread_flour", 2), //output

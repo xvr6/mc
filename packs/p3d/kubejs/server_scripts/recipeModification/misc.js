@@ -75,6 +75,17 @@ ServerEvents.recipes((event) => {
     ],
     "minecraft:charcoal",
   );
+  // TODO: - Mob griefing being off means snow is difficult to farm
+
+  // - Modofications to liquid fuels
+  //event.remove({ output: Fluid.of("createaddition:bioethanol") });
+  //event.remove({ output: Fluid.of("createaddition:seed_oil") });
+  //event.remove({ output: Fluid.of("createdieselgenerators:plant_oil") });
+  //event.replaceOutput(
+  //  { id: "createdieselgenerators:mixing/biodiesel" },
+  //  Fluid.of("createdieselgenerators:biodiesel"),
+  //  Fluid.of("createaddition:bioethanol"),
+  //);
 
   // - Void steel recipes + rebalance
   //remove base recipe
@@ -82,22 +93,4 @@ ServerEvents.recipes((event) => {
 
   event.remove({ output: "petrolsparts:hydraulic_transmission" });
   event.remove({ output: "petrolsparts:pneumatic_tube" });
-  //add back in recipe
-  //FIXME: unsure how this recipe is formatted.
-  // https://github.com/Lucreeper74/Create-Metallurgy/blob/mc1.21.1/dev/src/generated/resources/data/createmetallurgy/recipe/casting_in_table/void_steel/ingot.json
-  // for now, done with datapack
-  /*  event.custom({
-    type: "createmetallurgy:casting_in_table",
-    ingredients: [
-      Fluid.of("createmetallurgy:molten_void_steel", 180),
-      { item: "createmetallurgy:graphite_ingot_mold" },
-    ],
-    result: [
-      { id: "createutilities:void_steel_ingot" },
-      {
-        "createmetalurgy:casting_output":
-          "createmetallurgy:graphite_ingot_mold",
-      },
-    ],
-  }); */
 });
