@@ -79,6 +79,9 @@ ServerEvents.recipes((event) => {
   // - Void steel recipes + rebalance
   //remove base recipe
   event.remove({ id: "createutilities:mixing/void_steel_ingot" });
+
+  event.remove({ output: "petrolsparts:hydraulic_transmission" });
+  event.remove({ output: "petrolsparts:pneumatic_tube" });
   //add back in recipe
   //FIXME: unsure how this recipe is formatted.
   // https://github.com/Lucreeper74/Create-Metallurgy/blob/mc1.21.1/dev/src/generated/resources/data/createmetallurgy/recipe/casting_in_table/void_steel/ingot.json
