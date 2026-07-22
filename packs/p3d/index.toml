@@ -1,16 +1,8 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/accessories.json5"
-hash = "0782a3c1fbfe057013b029be7fb502315355d512ce2cd38f8dad7311f9d73b4c"
-
-[[files]]
 file = "config/adchimneys-common.toml"
 hash = "7def90b6724dc296bfd9e6227e363cb3f34d5f144f716872c70d81af68467dc6"
-
-[[files]]
-file = "config/autohud.json5"
-hash = "00a23185906662fb34bc59d9bb7b31f21882558a5e9c077eaec18bdb3fa9e79f"
 
 [[files]]
 file = "config/badoptimizations.txt"
@@ -101,10 +93,6 @@ file = "config/maplink/general.json5"
 hash = "12e39a68e24d238853f65b79929930a8c5a43a4b6c555a7fff1a573780bb175d"
 
 [[files]]
-file = "config/mindfuldarkness-client.toml"
-hash = "87c94f1bb1b674bb1e06963eb82f1cb73ce2a521fe0253a1bf77e1d8204183ee"
-
-[[files]]
 file = "config/modernfix-mixins.properties"
 hash = "779e5a19c266c294003617ab5311c28c5f0223c297553ccfba03914f235cfee2"
 
@@ -135,10 +123,6 @@ hash = "dcbad7253f79254df3a3a935c3168447f80c4b3e047a48e30288e3461819925d"
 [[files]]
 file = "config/roadweaver/roadweaver.json"
 hash = "4213a28f87b7e9472a8f71345a750a310f451f393b57d8b2a3e09012954cfbf7"
-
-[[files]]
-file = "config/shouldersurfing-client.toml"
-hash = "bb247011c98bf9fd7203c37cb7e18bb5579cf1f9d41f165c7a9202da880d8501"
 
 [[files]]
 file = "config/sophisticatedbackpacks-server.toml"
@@ -183,6 +167,22 @@ hash = "f8da70b67c4fc8ef6173cc8180236e92de42facbbfb14f0e48f17695434cbac1"
 [[files]]
 file = "config/yosbr/config/DistantHorizons.toml"
 hash = "a7ab0202d5b0eb69c085c57ab63dbf74952e0a275f4c08a24de431e9fc877221"
+
+[[files]]
+file = "config/yosbr/config/accessories.json5"
+hash = "0782a3c1fbfe057013b029be7fb502315355d512ce2cd38f8dad7311f9d73b4c"
+
+[[files]]
+file = "config/yosbr/config/autohud.json5"
+hash = "00a23185906662fb34bc59d9bb7b31f21882558a5e9c077eaec18bdb3fa9e79f"
+
+[[files]]
+file = "config/yosbr/config/mindfuldarkness-client.toml"
+hash = "87c94f1bb1b674bb1e06963eb82f1cb73ce2a521fe0253a1bf77e1d8204183ee"
+
+[[files]]
+file = "config/yosbr/config/shouldersurfing-client.toml"
+hash = "bb247011c98bf9fd7203c37cb7e18bb5579cf1f9d41f165c7a9202da880d8501"
 
 [[files]]
 file = "config/yosbr/config/xaero/minimap/client.cfg"
@@ -576,27 +576,27 @@ hash = "a8e952f5628b32ee927faa6c1323aa3c81121b30da0660f721989095c9c07acc"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/cobblemon.js"
-hash = "5a1f524f2bdc54c8004d93e39a35dae25f42ff5f02b92482f50acba90e841b27"
+hash = "93146b9dc3609351f20bad9352c1ebe0c79ae3d6afd940bda868f748ee620971"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/enriching.js"
-hash = "62e16c90c5960eb7a5cea77fa912cc1f89b605f545e410c0e499f6e3eebc3a62"
+hash = "86f0e0364ee8a930309b7360c6857c0ead7464b9914c7becea8f9679deff6ca9"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/food.js"
-hash = "5184c1aee8463e86526cad329d4eeea98171c0f6bb47edbe427fe976555fbddf"
+hash = "4194df22f990e754e4a802c8551403dd1589ab6e4504d050dc6cc1c8ee21c241"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/freezing.js"
-hash = "fa2ed7fd1ea8d57aed84f8c5440d95a82293d8f42978ad342ff48304ae116ae3"
+hash = "181672b7728e8dd866d521597e8449a1a60293f9aef0520c9075a8b7f01a91f3"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/misc.js"
-hash = "a7ff80dd123489c6985a67c2e1aba3b912c88e5367cb6a52744d60d7148842a8"
+hash = "8eb89200a1a49ca1db0b9fbec43f79ccabc8d1b0009ba5f5b4dd8037868e1b2e"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/stones.js"
-hash = "d79ffdeee5ed3bea63c2ba8cf1a907000507e3a6ea3e66bdc03418e9caeadf15"
+hash = "a022ce01ab586da46f2c13e8c820e32c4701ff9370eec18c60d30a0a9ab9296c"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/tags.js"
@@ -1575,6 +1575,11 @@ hash = "28fc33b6482d77905a8ce8c27a822e388db8e3cd4fe03280d6dc4a236ee1b33b"
 metafile = true
 
 [[files]]
+file = "mods/finally-useful-stonecutter.pw.toml"
+hash = "08e663077b9d685795012f781d056bd67da667dc69ea0236cb7cf2d8aeb05eda"
+metafile = true
+
+[[files]]
 file = "mods/findme.pw.toml"
 hash = "ef9b249b2052ef6cc08214e63debd2a9a71d60b7fe1353bbff41634c3d6408ca"
 metafile = true
@@ -2191,7 +2196,7 @@ metafile = true
 
 [[files]]
 file = "mods/roadweaver.pw.toml"
-hash = "095bf1f0ffd192a9a53922aac0667d28ce67fa5a46e075342056f38adc433657"
+hash = "a4a15f030eb334f255d3596ab4834305800bf2d1ed279856b5ca581da870ea87"
 metafile = true
 
 [[files]]

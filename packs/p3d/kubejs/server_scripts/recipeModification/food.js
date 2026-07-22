@@ -25,8 +25,7 @@ ServerEvents.recipes((event) => {
   event.recipes.createCompacting(
     [
       Item.of("create_enchantment_industry:experience_cake_base", 2),
-      CreateItem.of("create_enchantment_industry:experience_cake_base", 0.6),
-      CreateItem.of("create_enchantment_industry:experience_cake_base", 0.2),
+      CreateItem.of("create_enchantment_industry:experience_cake_base", 0.75),
     ],
 
     ["ratatouille:cake_base", "2x minecraft:lapis_lazuli"],
@@ -35,8 +34,7 @@ ServerEvents.recipes((event) => {
   event.recipes.createCompacting(
     [
       Item.of("create:blaze_cake_base", 2),
-      CreateItem.of("create:blaze_cake_base", 0.6),
-      CreateItem.of("create:blaze_cake_base", 0.2),
+      CreateItem.of("create:blaze_cake_base", 0.75),
     ],
     ["ratatouille:cake_base", "2x create:cinder_flour"],
   );
@@ -45,8 +43,7 @@ ServerEvents.recipes((event) => {
     .createCompacting(
       [
         Item.of("create_deep_dark:echo_cake_base", 2),
-        CreateItem.of("create_deep_dark:echo_cake_base", 0.6),
-        CreateItem.of("create_deep_dark:echo_cake_base", 0.2),
+        CreateItem.of("create_deep_dark:echo_cake_base", 0.75),
       ],
       ["ratatouille:cake_base", "2x create_deep_dark:sculk_flour"],
     )
@@ -76,4 +73,67 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "create_deep_dark:echo_cake_base" });
   event.remove({ output: "create:blaze_cake_base" });
   event.remove({ output: "create_enchantment_industry:experience_cake_base" });
+
+  // - Hotdog Adjustments
+  event.replaceInput(
+    { id: "mynethersdelight:crafting/hotdog" },
+    "mynethersdelight:roasted_sausage",
+    "ratatouille:sausage",
+  );
+  event.replaceOutput(
+    { output: "ratatouille_fried_delights:hot_dog" },
+    "ratatouille_fried_delights:hot_dog",
+    "mynethersdelight:hotdog",
+  );
+  event.remove({ output: "mynethersdelight:hoglin_sausage" });
+  event.remove({ output: "mynethersdelight:roasted_sausage" });
+
+  // - Butter + cream compat
+  event.remove({ output: "ratatouille_fried_delights:butter" });
+  event.recipes.createCompacting(
+    ["ratatouille_fried_delights:butter"],
+    ["creategarnished:cream_block", Fluid.of("minecraft:milk", 250)],
+  );
+
+  // - Pancake Adjustments
+  // Modify all pancake recipies from rustic delight to require ratatouille_fried_delights pancake first
+  event.remove({
+    output: "rusticdelight:pumpkin_pancakes",
+    not: { input: "rusticdelight:pumpkin_pancake" },
+  });
+  event.shapeless("rusticdelight:pumpkin_pancake", [
+    "ratatouille_fried_delights:pancake",
+    "farmersdelight:pumpkin_slice",
+  ]);
+  event.remove({
+    output: "rusticdelight:vegetable_pancakes",
+    not: { input: "rusticdelight:vegetable_pancake" },
+  });
+  event.shapeless("rusticdelight:vegetable_pancake", [
+    "ratatouille_fried_delights:pancake",
+    "#c:foods/vegetable",
+  ]);
+  event.remove({
+    output: "rusticdelight:cherry_blossom_pancakes",
+    not: { input: "rusticdelight:cherry_blossom_pancake" },
+  });
+  event.shapeless("rusticdelight:cherry_blossom_pancake", [
+    "ratatouille_fried_delights:pancake",
+    "#rusticdelight:cherry_blossom_ingredients",
+  ]);
+  event.remove({
+    output: "rusticdelight:chocolate_pancakes",
+    not: { input: "rusticdelight:chocolate_pancake" },
+  });
+  event.recipes.createFilling("rusticdelight:chocolate_pancake", [
+    "ratatouille_fried_delights:pancake",
+    Fluid.of("create:chocolate", 250),
+  ]);
+  //unobtainable pancakes
+  event.remove({ output: "rusticdelight:pancake" });
+  event.remove({ output: "rusticdelight:pancakes" });
+  event.remove({ output: "rusticdelight:honey_pancake" });
+  event.remove({ output: "rusticdelight:honey_pancakes" });
+  event.remove({ output: "supplementaries:pancake" });
+  event.remove({ output: "creategarnished:pancakes" });
 });

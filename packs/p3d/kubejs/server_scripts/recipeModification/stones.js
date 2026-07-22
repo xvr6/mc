@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
     [CreateItem.of("createnuclear:uranium_powder", 0.35)],
     "createnuclear:autunite",
   );
-  //diamond antomation but evil
+  // - Diamond automation but evil
   event.recipes
     .createCompacting(
       [CreateItem.of("minecraft:diamond", 0.05), "createnuclear:yellowcake"],
@@ -25,8 +25,9 @@ ServerEvents.recipes((event) => {
       ["createnuclear:enriched_yellowcake", "quark:charcoal_block"],
     )
     .heated();
-  // - Stone typed automatable
-  //veridium
+
+  // - Stone types automatable
+  //Veridium
   event.recipes
     .createMixing(
       ["create:asurine", Fluid.of("createmetallurgy:molten_slag", 90)],
@@ -49,15 +50,55 @@ ServerEvents.recipes((event) => {
       { id: "createmetallurgy:slag", chance: 0.4 },
     ],
   });
+  //Dripstone
   event.recipes.createFilling("minecraft:dripstone_block", [
     Ingredient.of("#minecraft:terracotta"),
     Fluid.of("minecraft:lava", 250),
   ]);
+  //Chalk
+  event.recipes.shapeless("regions_unexplored:chalk", [
+    "2x supplementaries:ash",
+    "2x minecraft:bone_block",
+  ]);
+
+  // - Removing duplicate netherrack recipe and replace with my
+  //   own less efficient one to make it only viable if you can automate mass quantities (with enriching)
+  event.remove({ output: "minecraft:netherrack", type: "create:mixing" });
+  event.recipes
+    .createMixing(
+      [CreateItem.of("minecraft:netherrack", 0.8)],
+      [
+        Ingredient.of("#c:cobblestones"),
+        "create:cinder_flour",
+        Fluid.of("minecraft:lava", 750),
+      ],
+    )
+    .heated();
+
+  // - Adding slight buff to superheated lava mixing
+  event.remove({ id: "create:mixing/lava_from_cobble" });
+  event.recipes
+    .createMixing(
+      [Fluid.of("minecraft:lava", 75)],
+      Ingredient.of("#c:cobblestones"),
+    )
+    .superheated();
 
   // filter{}, to be replaced, what to replace with
   event.replaceOutput(
     { id: "create:milling/dripstone_block" },
     "minecraft:clay_ball",
     "minecraft:pointed_dripstone",
+  );
+
+  // - Immersive weathering cracked bricks changing
+  event.remove({ id: "cluttered:antique_bricks" });
+  event.stonecutting("cluttered:antique_bricks", "minecraft:bricks");
+  event.remove({ id: "immersive_weathering:cracked_bricks" });
+  event.stonecutting("immersive_weathering:cracked_bricks", "minecraft:bricks");
+  event.remove({ id: "immersive_weathering:cracked_end_stone_bricks" });
+  event.stonecutting(
+    "immersive_weathering:cracked_end_stone_bricks",
+    "minecraft:end_stone_bricks",
   );
 });

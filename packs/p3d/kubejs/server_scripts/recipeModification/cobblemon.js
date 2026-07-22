@@ -35,6 +35,18 @@ ServerEvents.recipes((event) => {
     Fluid.of("create_enchantment_industry:experience", 90),
   ]);
 
+  // - Exp Candy Automation must be done with create now
+  event.remove({
+    output: "cobblemon:exp_candy_xs",
+    not: { type: "create:mixing" },
+  });
+  event.recipes
+    .createMixing("cobblemon:exp_candy_xs", [
+      Fluid.of("create_enchantment_industry:experience", 125),
+      "minecraft:honeycomb",
+    ])
+    .heated();
+
   //replace all dye fluids from cobblemon_industries with dragons plus.
   //fluids from cobblemon_industries follow pattern id:{color}_fluid; from create_dragons_plus:{color}_dye
   //  inputs must also be 1/4d compared to current; dye is 250mb per solid dye, not 1000mb like it is in cobblemon_industries
@@ -69,15 +81,19 @@ ServerEvents.recipes((event) => {
   });
 
   //modify dye recipes to require boil stone to convert back to dye
-
   Color.DYE.forEach((color) => {
     event.remove({ id: `create_dragons_plus:mixing/${color}_dye_from_fluid` });
+    event.remove({ id: `create_dragons_plus:mixing/${color}_dye_from_item` });
+    event.recipes.createMixing(
+      [Fluid.of(`create_dragons_plus:${color}_dye`)],
+      [`minecraft:${color}_dye`, Fluid.of("minecraft:water", 1000)],
+    );
     event.recipes
       .createMixing(
         [`minecraft:${color}_dye`, "ratatouille:boil_stone"],
         [
           "ratatouille:boil_stone",
-          Fluid.of(`create_dragons_plus:${color}_dye`, 250),
+          Fluid.of(`create_dragons_plus:${color}_dye`, 1000),
         ],
       )
       .heated();

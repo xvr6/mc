@@ -38,6 +38,7 @@ ServerEvents.recipes((event) => {
     results: [{ id: "minecraft:soul_soil", chance: 0.15 }],
   });
 
+  // - This should become the only way to automate netherrack for balance purposes
   event.custom({
     type: "createnuclear:enriched",
     ingredients: [Ingredient.of("#c:flours")],

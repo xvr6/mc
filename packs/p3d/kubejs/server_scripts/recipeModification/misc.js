@@ -87,10 +87,31 @@ ServerEvents.recipes((event) => {
   //  Fluid.of("createaddition:bioethanol"),
   //);
 
-  // - Void steel recipes + rebalance
-  //remove base recipe
+  // Remove base void steel recipe
   event.remove({ id: "createutilities:mixing/void_steel_ingot" });
-
+  // removed bugged items
   event.remove({ output: "petrolsparts:hydraulic_transmission" });
   event.remove({ output: "petrolsparts:pneumatic_tube" });
+  // not needed; farmers delight stuff is often placable
+  event.remove({ input: "cluttered:pastry_plate" });
+
+  // make tinted glass cheaper, add recipe for tinted glass panes
+  event.remove({ id: "minecraft:tinted_glass" });
+  event.shapeless(Item.of("minecraft:tinted_glass", 2), [
+    Ingredient.of("#c:glass_blocks/colorless"),
+    "minecraft:amethyst_shard",
+  ]);
+
+  event.shaped(
+    Item.of("immersive_weathering:tinted_glass_pane", 16),
+    ["TTT", "TTT", "   "],
+    { T: "minecraft:tinted_glass" },
+  );
+
+  // - Remove duplicate recipes
+  //scaffolding
+  event.remove({ id: "farmersdelight:scaffolding_from_canvas" });
+  event.remove({ id: "minecraft:scaffolding" });
+  //lever
+  event.remove({ id: "minecraft:lever" });
 });

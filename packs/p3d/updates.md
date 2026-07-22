@@ -1,28 +1,51 @@
-# Update: v3.1.1!
+# Update Changelogs!
 
-## Recipe Changes (again yippe yippe yippe)
+## Update: v3.1.1
 
-### Liquid Fuel changes!
+### Mod changes
 
-- All seed oils but one removed (all had same recipe anyways)
-- Bio Diesel removed, reicpe to create it replaced with bioethanol
-- Other methods of creating bioethanol removed
+- Just one addition: a stonecutter mod that allows you to search!
+- Tectonic / Road Weaver are now optional
+  - DO NOTE HOWEVER: the p3d server will still require road weaver to connect and must be enabled to join.
+  - These two mods cause loading of singleplayer worlds to take FOREVER, so disabling them makes local play more possible!
 
-### Renewable snow w/o golem
+### Recipe changes
+
+#### Overlaps and fixes
+
+- For some brick types, when being smepted there were multiple outputs. Now some are craftable via stonecutter
+- overlapping recipe removals for scaffolding and lever
+- tinted glass pane from immersive weathering now craftable
+  - Also, tinted glass is cheaper to make now!
+- shapeless crafting of 2x ash and 2x bone block
+
+#### Food Changes
+
+- replaced ratatouille freezing with fan freezing instead
+- Hotdog from ratatouille fried delights removed; replaced all crafting with my nethers delight as output
+- Pancake recipies all changed to require fried delights (meaning molding process) as base
+  - honey pancakes removed
+
+#### Netherrack automation
+
+- made 80% chance, but uses 750mb instead
+- meant to make full automation of superheated fuel more expensive and requires much larger setup
+
+#### Renewable snow w/o golem
 
 - Bulk freezing a bucket of water -> powder snow
 - Shapeless powder snow -> bucket back and snow block
 
-# Update: v3.1.0 !
+## Update: v3.1.0!
 
 > Finally.... the update I've been hinting at for a bit.
 > This involves a lot of new recipes, and rebalances as a result. Please read everything carefully, specifically the recipe changes.
 
-## Mods:
+### Mods:
 
 List of all notable changes to mods (meaning, not everything is listed :p)
 
-### Additions
+#### Additions
 
 - Added CC addons:
   - Create CC total Logistics
@@ -37,11 +60,11 @@ List of all notable changes to mods (meaning, not everything is listed :p)
   - lever drugster (changes most analog levers to work just like aeronautics)
   - Starcatcher + its delight addon (FISHING!!!!!!!!!!!!!!!!)
 
-### Notable Updates:
+#### Notable Updates:
 
 - Create Train Parts ([changelog](https://modrinth.com/mod/create-train-parts/version/0.5.0))
 
-### Removals
+#### Removals
 
 - Removed better days (sleeping mod)
   - FOR NOW, will be added back later once kubejs script made (see note about cobblemon PP regen)
@@ -50,17 +73,17 @@ List of all notable changes to mods (meaning, not everything is listed :p)
 - create lazy tick, entity culling
   - both are optomization mods, CLT causing errors with create contraptions, EC effectively a duplicate of sodiums own culling and causes crashes with it.
 
-## Recipe Changes
+### Recipe Changes
 
 > Key: `input -> output (percentage chance / count)`
 > There were a TON of balance changes made here, not all of them in favor of the player and a lot involve create
 
-### Void Steel (bluetooth create rotation/fluids/ etc.)
+#### Void Steel (bluetooth create rotation/fluids/ etc.)
 
 - Base way of creation has been removed.
 - Now it _must_ be created through create metallurgy
 
-### Cooking / Food changes (AND BLAZE CAKES)
+#### Cooking / Food changes (AND BLAZE CAKES)
 
 - Requirement of ratatouille cake molding to make ALL cake types.
   - this is also a buff / more efficient recipe but it is more complex for blaze cakes.
@@ -70,7 +93,7 @@ List of all notable changes to mods (meaning, not everything is listed :p)
 - replaced all salt with ratatouille
   - salt from expanded delight still works; `#c:salt` created (`ratatouille:salt`, `expandeddelight:salt`,`moresnifferflowers:salty_spice`)
 
-### Cobblemon
+#### Cobblemon
 
 - `@cobblemonsizevariation` essences are now all craftable, allowing players to change their mons sizes!
   - as a note, incompatable with synchro for now. Issue is on their side, hopefully to be fixed at some point
@@ -82,7 +105,7 @@ List of all notable changes to mods (meaning, not everything is listed :p)
   - uses 4 balck tumblestone instead
   - 4 redstone dust instead of 4 redstone blocks
 
-### Enriching
+#### Enriching
 
 > New crafting type added by create: nuclear that i wanted to expand a bit!
 
@@ -93,7 +116,7 @@ List of all notable changes to mods (meaning, not everything is listed :p)
 - Soul Soil -> Enriched Soul Soil 15%
 - `#flours` -> Cinder Flour 35%
 
-### Other Stones and Diamonds
+#### Other Stones and Diamonds
 
 - Crushing Autunite -> Uranium Powder 35%
   - this makes uranium renewable!
@@ -104,7 +127,7 @@ List of all notable changes to mods (meaning, not everything is listed :p)
 - `#terracotta` filled with lava -> dripstone blocks
 - Crushing dripstone blocks -> dripstone
 
-### Misc
+#### Misc
 
 - Heated Mixing of Boil Stone + any liquid dye -> solid dye
 - Industrially Plated recipes:
@@ -118,7 +141,7 @@ List of all notable changes to mods (meaning, not everything is listed :p)
 - Heated Pressing -> Etched blank music disk
 - Washing of charcoal -> ash x4, ash x2 60%
 
-## Misc fixes
+### Misc fixes
 
 - Cobblemon PP regen being unpredictable
   - this was due to better days accelerating nights too much for cobblemon to detect that the player is actually sleeping. A simple kubejs script can be added but its a TODO for now, not major importance.
@@ -128,7 +151,7 @@ List of all notable changes to mods (meaning, not everything is listed :p)
   - Removal of nerf from coblespawn (able to wear all armor types now)
   - Nautilil is still bugged out but some more fixes were attempted
 
-### Issue tracking
+#### Issue tracking
 
 A thread will be created when this is posted - please keep discussion of issues in THIS VERSION of the pack to the thread. When next version comes out, another thread will be made and this one closed.
 
