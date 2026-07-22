@@ -64,7 +64,7 @@
 	shovel_extinguish = true
 	sponge_rusting = true
 	sponge_rust_drying = false
-	axe_stripping = true
+	axe_stripping = false
 	axe_rusting = true
 
 [food]
