@@ -86,7 +86,7 @@ hash = "df66ce21f4709cdb6f00b6c4a63ccc62628af61ee1424c937678d3769aa1aa11"
 
 [[files]]
 file = "config/immersive_weathering-common.toml"
-hash = "e35eb5ac9d487b7861122d0f31c0fd97b8e82f2f6a6fe7affc56a69c2aa1b5a6"
+hash = "052fa49c567d5d05bf111bd651b654f76b6f0cc7a4eb1c910c90c24e1d3cf17d"
 
 [[files]]
 file = "config/maplink/general.json5"
