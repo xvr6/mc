@@ -6,6 +6,7 @@
   - Create parallel pipes
   - Create storage compat
   - Create stuff n additions aeronautics compat
+- EMI++; Emi extra mod integrations removed
 
 ## Update: v3.1.1
 
