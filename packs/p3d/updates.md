@@ -1,5 +1,12 @@
 # Update Changelogs!
 
+## Update: v3.1.2
+
+- Mostly mod updates, but of note:
+  - Create parallel pipes
+  - Create storage compat
+  - Create stuff n additions aeronautics compat
+
 ## Update: v3.1.1
 
 ### Mod changes
