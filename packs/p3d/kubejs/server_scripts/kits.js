@@ -37,7 +37,7 @@ PlayerEvents.loggedIn((event) => {
   if (!event.player.stages.has("spawnEggsGiven")) {
     event.player.stages.add("spawnEggsGiven");
     event.server.runCommandSilent(
-      `give ${event.entity.username} ${spawnEggBundle}, 1`,
+      `give ${event.entity.username} ${spawnEggBundle}`,
     );
   }
 });
