@@ -30,7 +30,7 @@ x 2026-07-18 2026-07-18 sleeping cobblemon doesnt work all the time for restorin
 x 2026-07-21 2026-07-21 change dye recipes around
 (B) move item recipe removals to be tag based; ultimate goal is to have all removed items in one tag for emi hiding
 (G) minimap rotation is wrong when on aeronautics
-(B) +recipe tweaks for fried chcken
+(B) +recipe tweaks for fried stuff; cooking oil; rename sunflour oil
 x 2026-07-21 2026-07-21 (B)
 (B) Ratatoiulle popsicle +recipe expansion
 (C) Possble +recipe merging between diesel generators and ratatouile fermenting. Also look into making brewing and chewin compatable as well

@@ -114,4 +114,17 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "minecraft:scaffolding" });
   //lever
   event.remove({ id: "minecraft:lever" });
+
+  // crafting recipe for feathers cause string is kinda ez to automate with flax
+  event.shaped(Item.of("minecraft:feather", 3), ["  S", " W ", "S  "], {
+    T: "minecraft:tinted_glass",
+    W: "minecraft:white_wool",
+    S: "minecraft:string",
+  });
+  //make void steel
+  event.replaceInput(
+    { id: "create_deep_dark:create/sequenced_assembly_echo_ingot" },
+    "minecraft:netherite_ingot",
+    "createutilities:void_steel_ingot",
+  );
 });

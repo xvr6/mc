@@ -571,6 +571,10 @@ file = "kubejs/fetchIcons.py"
 hash = "7834dcf761f113d05401be46a49e4d87834aec787fe97e24131d95ecf98c834e"
 
 [[files]]
+file = "kubejs/server_scripts/kits.js"
+hash = "f790f2538c9e3ba5b1f6179158d1c59193804958d336601acee7f609d3045c56"
+
+[[files]]
 file = "kubejs/server_scripts/mon_generate.js"
 hash = "a8e952f5628b32ee927faa6c1323aa3c81121b30da0660f721989095c9c07acc"
 
@@ -592,7 +596,7 @@ hash = "181672b7728e8dd866d521597e8449a1a60293f9aef0520c9075a8b7f01a91f3"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/misc.js"
-hash = "8eb89200a1a49ca1db0b9fbec43f79ccabc8d1b0009ba5f5b4dd8037868e1b2e"
+hash = "dc1a760ca10f3ab0b081b6146ea25ab7e35b33ef5e849c81c9bafc2fdbdae8c0"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/stones.js"
@@ -605,10 +609,6 @@ hash = "0a9449825dc0c175fd543c64364fd790caba9872871a36d3d65838c06b0dc388"
 [[files]]
 file = "kubejs/server_scripts/startMon.js"
 hash = "c8beb12250db21fba7c015f3c5660be4e50fc87efa596cc3ac2d695ba611461b"
-
-[[files]]
-file = "kubejs/server_scripts/startingKit.js"
-hash = "ebaec794015bd0567aa1fe77d847d836a44b44fcb49de58c9c8ed9d633386067"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
