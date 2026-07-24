@@ -580,7 +580,7 @@ hash = "a8e952f5628b32ee927faa6c1323aa3c81121b30da0660f721989095c9c07acc"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/cobblemon.js"
-hash = "af3347b81a95049a9db7d31fe1bb88e56fbf59d849be5d353a504aee0321bdf9"
+hash = "f0ad94979c7ebe927ce60873b82dbec5b9177bdfb2934e99d81b980355024723"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/enriching.js"
@@ -609,10 +609,6 @@ hash = "0a9449825dc0c175fd543c64364fd790caba9872871a36d3d65838c06b0dc388"
 [[files]]
 file = "kubejs/server_scripts/startMon.js"
 hash = "c8beb12250db21fba7c015f3c5660be4e50fc87efa596cc3ac2d695ba611461b"
-
-[[files]]
-file = "kubejs/startup_scripts/sizeItems.js"
-hash = "d435f4dc05452c4d83370e03c0d0e814e3d47e96983a5a9c55d9b790184fb190"
 
 [[files]]
 file = "kubejs/startup_scripts/startmonItems.js"

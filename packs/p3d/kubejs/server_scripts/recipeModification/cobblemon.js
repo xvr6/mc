@@ -26,6 +26,40 @@ ItemEvents.modifyTooltips((event) => {
   );
 });
 
+ItemEvents.modification((event) => {
+  event.modify("cobblemonsizevariation:huge_essence", (item) => {
+    item.foodProperties = (food) => {
+      food.alwaysEdible();
+      food.fastToEat();
+    };
+  });
+  event.modify("cobblemonsizevariation:growth_essence", (item) => {
+    item.foodProperties = (food) => {
+      food.alwaysEdible();
+      food.fastToEat();
+    };
+  });
+  event.modify("cobblemonsizevariation:normal_essence", (item) => {
+    item.foodProperties = (food) => {
+      food.alwaysEdible();
+      food.fastToEat();
+    };
+  });
+  event.modify("cobblemonsizevariation:shrink_essence", (item) => {
+    item.foodProperties = (food) => {
+      food.alwaysEdible();
+      food.fastToEat();
+    };
+  });
+
+  event.modify("cobblemonsizevariation:tiny_essence", (item) => {
+    item.foodProperties = (food) => {
+      food.alwaysEdible();
+      food.fastToEat();
+    };
+  });
+});
+
 ServerEvents.recipes((event) => {
   // huge -> growth
   event.shapeless(
