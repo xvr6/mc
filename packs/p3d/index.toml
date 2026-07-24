@@ -572,7 +572,7 @@ hash = "7834dcf761f113d05401be46a49e4d87834aec787fe97e24131d95ecf98c834e"
 
 [[files]]
 file = "kubejs/server_scripts/kits.js"
-hash = "f222cfffc71f1dac5cce80e857b37b15b6ad3e6e7b3b6d54ff9250ce8a4fcc57"
+hash = "1a84292655779e747c69903062f76e2bb42ff10f842d4cd399e4593474b39d7e"
 
 [[files]]
 file = "kubejs/server_scripts/mon_generate.js"

@@ -11,7 +11,7 @@ const startingKit = [
 ];
 
 const spawnerBundle = Item.of("minecraft:gray_bundle", {
-  bundle_content: [
+  bundle_contents: [
     { id: "minecraft:cow_spawn_egg", count: 2 },
     { id: "minecraft:sheep_spawn_egg", count: 2 },
     { id: "minecraft:chicken_spawn_egg", count: 2 },
