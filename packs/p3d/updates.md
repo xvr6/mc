@@ -6,7 +6,11 @@
   - Create parallel pipes
   - Create storage compat
   - Create stuff n additions aeronautics compat
-- EMI++; Emi extra mod integrations removed
+  - EMI++; Emi extra mod integrations removed
+
+- Bundle with 2 of each farm animal.
+  - bandaid fix to mobs refusing to spawn on survival server.
+- Feather crating recipe; 1 stick, 1 wool, 1 string -> 3 feather
 
 ## Update: v3.1.1
 
