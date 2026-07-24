@@ -571,6 +571,10 @@ file = "kubejs/fetchIcons.py"
 hash = "7834dcf761f113d05401be46a49e4d87834aec787fe97e24131d95ecf98c834e"
 
 [[files]]
+file = "kubejs/server_scripts/kits.js"
+hash = "f068aaf658e8ab0ed26827ea1414cd9cd42e5606dc75a7ccc9bc3aff965c6b83"
+
+[[files]]
 file = "kubejs/server_scripts/mon_generate.js"
 hash = "a8e952f5628b32ee927faa6c1323aa3c81121b30da0660f721989095c9c07acc"
 
@@ -592,7 +596,7 @@ hash = "181672b7728e8dd866d521597e8449a1a60293f9aef0520c9075a8b7f01a91f3"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/misc.js"
-hash = "8eb89200a1a49ca1db0b9fbec43f79ccabc8d1b0009ba5f5b4dd8037868e1b2e"
+hash = "ed5e157ce96783d3d6fb11cb10494e95f1897aa086c0bb979f3518c4c6486da8"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/stones.js"
@@ -607,12 +611,12 @@ file = "kubejs/server_scripts/startMon.js"
 hash = "c8beb12250db21fba7c015f3c5660be4e50fc87efa596cc3ac2d695ba611461b"
 
 [[files]]
-file = "kubejs/server_scripts/startingKit.js"
-hash = "ebaec794015bd0567aa1fe77d847d836a44b44fcb49de58c9c8ed9d633386067"
+file = "kubejs/startup_scripts/sizeItems.js"
+hash = "403eb4747426c42c6b94195488ad4b8946226927d0aa254ff07e283d0f8a1e93"
 
 [[files]]
-file = "kubejs/startup_scripts/main.js"
-hash = "801694c7e975f5c7cacc4840bc6b7f967ca5809813557d4a7e0487cccd44715e"
+file = "kubejs/startup_scripts/startmonItems.js"
+hash = "094c0ebafa79913c0b277968e86df841967a7d189b87a01c9292b734228036d6"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -785,6 +789,11 @@ hash = "3a9295215e3a815a0dd459a04ca8e9ac39eefed7e6fa7c08eb53165f5f3b165b"
 metafile = true
 
 [[files]]
+file = "mods/cbc-locometal-armor.pw.toml"
+hash = "3d4858ddbb3b6423d04c421d94705a1b274d8123f483f517796804362d8cd5b4"
+metafile = true
+
+[[files]]
 file = "mods/cc-cbc.pw.toml"
 hash = "df32f867e04ce60dfd13d2c5af9d90b58daccfce7b4c94e5dba2f4666ba38a89"
 metafile = true
@@ -901,7 +910,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-mega-showdown.pw.toml"
-hash = "f601395e34dd1c6c92936e6de7bf89a178bedebd39c2d47561afe394f3c66b15"
+hash = "0480ba6c195e30ab7f20007ba781a4abc6600ed8bb6472448a108652aae618c8"
 metafile = true
 
 [[files]]
@@ -1106,7 +1115,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-aquatic-ambitions.pw.toml"
-hash = "784ae59b621baee8b68514b94f928d6b3414f4c8e3448aad784d9720c3066e2a"
+hash = "ad732ada7e42c44f0d5eaf45f5edfb7e90bc615ba6e50a3bb974250dfb36e83f"
 metafile = true
 
 [[files]]
@@ -1156,7 +1165,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-cobblestone.pw.toml"
-hash = "42c1a422e697288fa65a78fd1aa3c88f9c5246fb61f95ba219fadb600ab18a9e"
+hash = "7d89a6bba992c8f1a2d28f79411952c51b60d2f37ded6226e714552476639fd8"
 metafile = true
 
 [[files]]
@@ -1261,7 +1270,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-propulsion-simulated.pw.toml"
-hash = "b3adf7e1a518ce4e49332c3d5855d5c9cdc4ff10a31dc652e5daa85d8f33a619"
+hash = "f82cdd570cb4f6bd9b87a6a30c5e5ecc23125dfcecc715d4950a17301de8c58a"
 metafile = true
 
 [[files]]
@@ -1526,7 +1535,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "d7995c6f45528e8769205ce7cd66156fab94e3f41d0a3aa699cdacbba94c3c93"
+hash = "46fbb9bc56eece368b2ecb154d59f16059147b3b5b70d4e988b8d1eb6bc56533"
 metafile = true
 
 [[files]]
@@ -1931,7 +1940,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "b6d7448e14c747318b083d7903baa4801ad524853f34205aa19f0cfa18ec0a92"
+hash = "253eb0796df9a8cd0214de3a6c32b7f6dc71fff5b861aa11086f275419ab046e"
 metafile = true
 
 [[files]]
@@ -1986,7 +1995,7 @@ metafile = true
 
 [[files]]
 file = "mods/navas-zamega.pw.toml"
-hash = "4d39abcfd72687f34d242c7909e92a9dd57cb35aa4203ceb16daf35f6aa4a57c"
+hash = "1bf20cef5da92390afb3b535347ff7b2863a167c649e84c313aa9e606b0abeff"
 metafile = true
 
 [[files]]
@@ -2071,12 +2080,12 @@ metafile = true
 
 [[files]]
 file = "mods/petrolpark.pw.toml"
-hash = "ff0b2e2116e40733173c4e6654e838e196cd227f75533befd442b4e8c38b0c79"
+hash = "232f7c77717ba691dd87661d830c40e6f60f99d04c0af6b75b128602e513da77"
 metafile = true
 
 [[files]]
 file = "mods/petrols-parts.pw.toml"
-hash = "9421934b10433b6a421bd7c2d38a3c59023c316f17a4e9d7ce6152e7e039da85"
+hash = "92a299204f6b5bb0f39900d5866df154ad360b83a035060e25aec50baa6e305f"
 metafile = true
 
 [[files]]
@@ -2246,7 +2255,7 @@ metafile = true
 
 [[files]]
 file = "mods/shoulder-surfing-reloaded.pw.toml"
-hash = "f70ae1b1b83cef2e2280ef6bce6e1121560b1ea5fa4bcf2a47e1405cf8da36d7"
+hash = "efb6ad3c029e58d219072887886454f2cef1e67bd294d11a356444d31deaa8ae"
 metafile = true
 
 [[files]]
@@ -2276,22 +2285,22 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "ca1425bbc2e4ee91cf034ce5d15997274e21faf45d8596f242130bf8d73d07d6"
+hash = "93eb371e35e0446ec4c3c65d4fa5384e8495496b0a52c3f70ea21cbc4dcf3fac"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "90b0eea8b02ebd3560aa28571dfa8cba8491ed973273132dfe19613c10f0822e"
+hash = "f15ec49c02ca24f1a112082c7be5dc1457673d5afddf987d85a437253cea4051"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage-create-integration.pw.toml"
-hash = "7bcf005fc29a8a7f1fca053e9634b2e065232dfab3c77257ac68d0435e9544ec"
+hash = "bbaf23d24ec73180cead89d49e5c51f1e757829f1b63f74a2c4077c0c1f2323a"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "2bf1cad67eecd85c3b66ef366f3405f44c782a90b162c9b2557b99c9615b3934"
+hash = "cb8d23af122b37d3b55556abbe76e1c34d622e71c90d870eff004f5fb786ea6e"
 metafile = true
 
 [[files]]
@@ -2331,7 +2340,7 @@ metafile = true
 
 [[files]]
 file = "mods/stone-zone.pw.toml"
-hash = "896b8502bc5b521223d4935c364ee65b5023ac18e2041c0c93b26428c4d87499"
+hash = "ff9375815700853241baecc0985a5348aa44f9c5ba685afb595e22d754bf5bf5"
 metafile = true
 
 [[files]]
@@ -2356,7 +2365,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "edda5333279b06528e2d1128d69bdeb5f55c0b446b95f1d766bf12938ad91039"
+hash = "805c7b44181e5826bdbf4fcc21b14d93cd8ff656747356d325a5cb81a8fa3de5"
 metafile = true
 
 [[files]]

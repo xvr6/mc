@@ -10,6 +10,17 @@ const startingKit = [
   ["rusticdelight:syrup_sandwich", 16],
 ];
 
+const spawnEggBundle = Item.of("minecraft:gray_bundle", {
+  bundle_contents: [
+    { id: "minecraft:cow_spawn_egg", count: 2 },
+    { id: "minecraft:sheep_spawn_egg", count: 2 },
+    { id: "minecraft:chicken_spawn_egg", count: 2 },
+    { id: "minecraft:bee_spawn_egg", count: 2 },
+    { id: "minecraft:pig_spawn_egg", count: 2 },
+    { id: "minecraft:beehive", count: 1 },
+  ],
+});
+
 //the actual event
 PlayerEvents.loggedIn((event) => {
   if (!event.player.stages.has("kit_given")) {
@@ -21,5 +32,12 @@ PlayerEvents.loggedIn((event) => {
         `give ${entity} ${element[0]} ${element[1]}`,
       );
     }
+  }
+  // - mob bundle
+  if (!event.player.stages.has("spawnEggsGiven")) {
+    event.player.stages.add("spawnEggsGiven");
+    event.server.runCommandSilent(
+      `give ${event.entity.username} ${spawnEggBundle}, 1`,
+    );
   }
 });
