@@ -3,15 +3,15 @@ const startingKit = [
   ["minecraft:wooden_sword", 1],
   ["minecraft:wooden_pickaxe", 1],
   ["minecraft:wooden_axe", 1],
-  //  ["create:wrench", 1],
-  //  ["railways:handcar", 1],
+  // ["create:wrench", 1],
+  // ["railways:handcar", 1],
   // ["cobblemon_synchro_machine:synchro_machine", 1],
   ["cobblemon:poke_ball", 16],
   ["rusticdelight:syrup_sandwich", 16],
 ];
 
-const spawnerBundle = Item.of("minecraft:bundle", {
-  Items: [
+const spawnerBundle = Item.of("minecraft:gray_bundle", {
+  bundle_content: [
     { id: "minecraft:cow_spawn_egg", count: 2 },
     { id: "minecraft:sheep_spawn_egg", count: 2 },
     { id: "minecraft:chicken_spawn_egg", count: 2 },

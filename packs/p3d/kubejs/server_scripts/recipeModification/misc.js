@@ -116,10 +116,10 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "minecraft:lever" });
 
   // crafting recipe for feathers cause string is kinda ez to automate with flax
-  event.shaped(Item.of("minecraft:feather", 3), ["  S", " W ", "s  "], {
+  event.shaped(Item.of("minecraft:feather", 3), ["  S", " W ", "V  "], {
     S: "minecraft:string",
     W: "minecraft:white_wool",
-    s: "minecraft:stick",
+    V: "minecraft:stick",
   });
   //make void steel
   event.replaceInput(

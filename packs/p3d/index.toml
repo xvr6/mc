@@ -572,7 +572,7 @@ hash = "7834dcf761f113d05401be46a49e4d87834aec787fe97e24131d95ecf98c834e"
 
 [[files]]
 file = "kubejs/server_scripts/kits.js"
-hash = "f790f2538c9e3ba5b1f6179158d1c59193804958d336601acee7f609d3045c56"
+hash = "f222cfffc71f1dac5cce80e857b37b15b6ad3e6e7b3b6d54ff9250ce8a4fcc57"
 
 [[files]]
 file = "kubejs/server_scripts/mon_generate.js"
@@ -596,7 +596,7 @@ hash = "181672b7728e8dd866d521597e8449a1a60293f9aef0520c9075a8b7f01a91f3"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/misc.js"
-hash = "de6ce899170bbe0ff8fb422bb5a6fc156f934b70ca3f3dce45d3e8b7f3c834b1"
+hash = "87d73c1c8bf4252ec7a3f2d019695e69e2e127793c683b0dade9d2a9f108c21a"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/stones.js"
