@@ -1764,6 +1764,11 @@ hash = "750f4b552490779af147a9c70a558ab2aa1cbfd8331d5ad69efefa099854dfae"
 metafile = true
 
 [[files]]
+file = "mods/jei.pw.toml"
+hash = "06a7dd41efafdd02cd3d4b3eab59a1b8261d25c1ddd1d3d0af77418a5614b971"
+metafile = true
+
+[[files]]
 file = "mods/jump-over-fences.pw.toml"
 hash = "e3c802556e3f8a52ac984bd08837442828f0af4756e2cf883e88da6f20452bc2"
 metafile = true
@@ -2406,11 +2411,6 @@ metafile = true
 [[files]]
 file = "mods/tlib.pw.toml"
 hash = "1f504618f369b7e151045c08a46339f4afa912de4288f895df210e3a77076744"
-metafile = true
-
-[[files]]
-file = "mods/tmrv.pw.toml"
-hash = "40f7d1c072b54e11492e7774835901d4f5d757b01cac54947657695f580afd3a"
 metafile = true
 
 [[files]]
