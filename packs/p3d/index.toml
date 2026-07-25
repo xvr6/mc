@@ -432,7 +432,7 @@ hash = "474114ab35bdf49081fe6f11a7e15ab3e8ca760b306d7ca70b860ff8d261150c"
 
 [[files]]
 file = "kubejs/client_scripts/renames.js"
-hash = "e313a6e4bc3ab4d4a9f495228c5b1a568f9f6844fe5e52ad91ccca77216e2479"
+hash = "9925eb11a6faff74a3b4ac524e49ac512da4aaebdaeb374fb6b2df5bc158741b"
 
 [[files]]
 file = "kubejs/config/startmon.json"
@@ -865,7 +865,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobbledex-rei-emi-jei.pw.toml"
-hash = "6a5e605c9cc5dcc69e449c1c268b1b26bc9ac1f7705441bf108db46cd5b93e4f"
+hash = "94da8c7fb5c7858e100495463aca42235b1f42d1075f8e5affb0d335f78533d7"
 metafile = true
 
 [[files]]
