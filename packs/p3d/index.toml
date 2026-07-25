@@ -432,7 +432,7 @@ hash = "474114ab35bdf49081fe6f11a7e15ab3e8ca760b306d7ca70b860ff8d261150c"
 
 [[files]]
 file = "kubejs/client_scripts/renames.js"
-hash = "2bf1747dbb3b7fb9255bbb26077e7f2357d6168cb23c995777186426b61d0f3d"
+hash = "78c833be44f6f4f1941a7cf63dd9c1950523cda5857e45a09ccd68d3a61fb319"
 
 [[files]]
 file = "kubejs/config/startmon.json"
