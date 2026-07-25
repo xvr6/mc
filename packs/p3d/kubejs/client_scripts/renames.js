@@ -9,6 +9,4 @@ ClientEvents.lang("en_us", (event) => {
     "Cooking Oil Bottle",
   );
   event.renameEntity("ratatouille_fried_delights:sunflower_oil", "Cooking Oil");
-  event.remove("fluid.ratatouille_fried_delights.sunflower_oil");
-  event.add("fluid.ratatouille_fried_delights.sunflower_oil", "Cooking Oil");
 });
