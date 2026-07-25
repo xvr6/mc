@@ -142,4 +142,12 @@ ServerEvents.recipes((event) => {
     ["farmersdelight:pie_crust"],
     [Ingredient.of("#c:flours", 3), Fluid.of("minecraft:milk", 250)],
   );
+
+  // - Fried Delights adjustments/priority/compat; 
+  // TODO: CONTINUE
+  event.replaceInput(
+    { id: "ratatouille_fried_delights:coating/onion_coating" },
+    "farmersdelight:onion",
+    "someassemblyrequired:sliced_onion",
+  );
 });

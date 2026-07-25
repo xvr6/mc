@@ -173,12 +173,8 @@ file = "config/yosbr/config/accessories.json5"
 hash = "0782a3c1fbfe057013b029be7fb502315355d512ce2cd38f8dad7311f9d73b4c"
 
 [[files]]
-file = "config/yosbr/config/autohud.json5"
-hash = "00a23185906662fb34bc59d9bb7b31f21882558a5e9c077eaec18bdb3fa9e79f"
-
-[[files]]
-file = "config/yosbr/config/mindfuldarkness-client.toml"
-hash = "87c94f1bb1b674bb1e06963eb82f1cb73ce2a521fe0253a1bf77e1d8204183ee"
+file = "config/yosbr/config/jei/jei-client.ini"
+hash = "1b5316ad09ca0acfd02c1c585903c96ee976d6922b4bfdba01e92f5babebb3ad"
 
 [[files]]
 file = "config/yosbr/config/shouldersurfing-client.toml"
@@ -435,6 +431,10 @@ file = "kubejs/assets/kubejs/textures/item/zorua.png"
 hash = "474114ab35bdf49081fe6f11a7e15ab3e8ca760b306d7ca70b860ff8d261150c"
 
 [[files]]
+file = "kubejs/client_scripts/renames.js"
+hash = "e313a6e4bc3ab4d4a9f495228c5b1a568f9f6844fe5e52ad91ccca77216e2479"
+
+[[files]]
 file = "kubejs/config/startmon.json"
 hash = "38f4eda25c0c0c18b4c16ee610a44163c5355246aad0e876e5735ed7d5819228"
 
@@ -592,7 +592,7 @@ hash = "86f0e0364ee8a930309b7360c6857c0ead7464b9914c7becea8f9679deff6ca9"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/food.js"
-hash = "994b339e71a2f7d838477194d6a9a5b993d55b8979cb60bc87055aabb3455796"
+hash = "36aa5de962ff2bff7fc34619de104191541fd85cd07182caec32acfa29b4fb16"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/freezing.js"
@@ -600,7 +600,7 @@ hash = "181672b7728e8dd866d521597e8449a1a60293f9aef0520c9075a8b7f01a91f3"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/misc.js"
-hash = "003582c1206bcc33cfa36f96b698c16059cea7de79bd874acb263cc719eea7b1"
+hash = "c1982e5e5037926d8a59fbb366c1fa6629aa4bd86928e4ddc9a40bf682468a43"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/stones.js"
@@ -691,11 +691,6 @@ metafile = true
 [[files]]
 file = "mods/athena-ctm.pw.toml"
 hash = "f54cf71372645810ce22b0ba68e706139565437150e4cfd22bde4c14606099c4"
-metafile = true
-
-[[files]]
-file = "mods/autohud.pw.toml"
-hash = "ab2fa327ae99570e3cbc198d93893fb4c157026fbc0e52fd4c3dfc45f91749c0"
 metafile = true
 
 [[files]]
@@ -1740,7 +1735,7 @@ metafile = true
 
 [[files]]
 file = "mods/jeasync.pw.toml"
-hash = "2e759743fc78f8e67b2b65b60d23eee458a627dd6c57c2e6c24a548f084b8a7d"
+hash = "dcd666f98d247a436cb85c01dcc105a00bd09c0f65e9a21a4ff30d7d6e62328f"
 metafile = true
 
 [[files]]

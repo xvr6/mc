@@ -75,17 +75,6 @@ ServerEvents.recipes((event) => {
     ],
     "minecraft:charcoal",
   );
-  // TODO: - Mob griefing being off means snow is difficult to farm
-
-  // - Modofications to liquid fuels
-  //event.remove({ output: Fluid.of("createaddition:bioethanol") });
-  //event.remove({ output: Fluid.of("createaddition:seed_oil") });
-  //event.remove({ output: Fluid.of("createdieselgenerators:plant_oil") });
-  //event.replaceOutput(
-  //  { id: "createdieselgenerators:mixing/biodiesel" },
-  //  Fluid.of("createdieselgenerators:biodiesel"),
-  //  Fluid.of("createaddition:bioethanol"),
-  //);
 
   // Remove base void steel recipe
   event.remove({ id: "createutilities:mixing/void_steel_ingot" });
@@ -118,10 +107,16 @@ ServerEvents.recipes((event) => {
     W: "minecraft:white_wool",
     V: "minecraft:stick",
   });
+
   //make void steel
+  //FIXME: doesnt work
   event.replaceInput(
     { id: "create_deep_dark:create/sequenced_assembly_echo_ingot" },
     "minecraft:netherite_ingot",
     "createutilities:void_steel_ingot",
   );
+
+  // - Remove duplicate seed oils
+  event.remove({ output: Fluid.of("electroenergetics:plant_oil") });
+  event.remove({ output: Fluid.of("createdieselgenerators:plant_oil") });
 });
