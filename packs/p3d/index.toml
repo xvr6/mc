@@ -1899,11 +1899,6 @@ hash = "73aba17132f267dd76ff682aa84abfb7c09d25a93b9220ee261a1e25337bebc7"
 metafile = true
 
 [[files]]
-file = "mods/mindful-darkness.pw.toml"
-hash = "878095e9122c1fa6bacaea51cf4f12b39405f63a16321c9d6cddc074b3d567e7"
-metafile = true
-
-[[files]]
 file = "mods/miners-delight.pw.toml"
 hash = "13481133d139f134bd3407983e29f86df835ff66bacb013d9d43e14f155241f4"
 metafile = true
@@ -2565,6 +2560,11 @@ hash = "76b7f863833a4ac4cd1063c8d43218a9f489d3d36fde39bf7cfeb95dcaeeb0e4"
 [[files]]
 file = "resourcepacks/allthemons-x-mega-showdown-legacy.pw.toml"
 hash = "ddfb1a6f629102fb264c70dbe60e785fefdb48d953a5f6a7e342dbef23a1081f"
+metafile = true
+
+[[files]]
+file = "resourcepacks/default-dark-mode.pw.toml"
+hash = "19e48b773677cc0d4a448e7ec5f4d82d7c9bd21063aac3c1bf710b4a78865c53"
 metafile = true
 
 [[files]]
