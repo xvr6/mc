@@ -47,14 +47,14 @@ ServerEvents.tags("item", (event) => {
     "ratatouille:cocoa_liquor_bucket",
     "ratatouille:cake_batter_bucket",
     "ratatouille:mince_meat_bucket",
-    "ratatouille:egg_yolk_bucker",
+    "ratatouille:egg_yolk_bucket",
     "ratatouille:compost_tea_bucket",
-    "ratatouille:bio_gas_bucker",
+    "ratatouille:bio_gas_bucket",
     "ratatouille:compost_residue_fluid_bucket",
     "ratatouille:melon_juice_fluid_bucket",
     "ratatouille_fried_delights:cola_syrup_bucket",
     "ratatouille_fried_delights:sunflower_oil_bucket",
-    "ratatouille_fried_delights:mayonnaise_bucker",
+    "ratatouille_fried_delights:mayonnaise_bucket",
   );
 });
 

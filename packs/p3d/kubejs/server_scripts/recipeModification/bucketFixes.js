@@ -21,6 +21,6 @@ ServerEvents.recipes((event) => {
   );
   event.recipes.createEmptying(
     ["minecraft:bucket", Fluid.of("ratatouille:melon_juice_fluid", 1000)],
-    "ratatouille:melon_juice_fluid_bucker",
+    "ratatouille:melon_juice_fluid_bucket",
   );
 });
