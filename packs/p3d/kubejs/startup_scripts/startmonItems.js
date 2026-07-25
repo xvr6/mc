@@ -1,4 +1,6 @@
 StartupEvents.registry("item", (event) => {
+  Platform.mods.kubejs.name = "poinky";
+
   let data = JsonIO.read("./kubejs/config/startmon.json");
   data.starterMons.forEach((x) => event.create(x.name));
   data.regions.forEach((x) => event.create(x));
