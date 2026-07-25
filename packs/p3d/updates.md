@@ -7,7 +7,7 @@
   - Create storage compat
   - Create stuff n additions aeronautics compat
   - Full switch to JEI over EMI for compatability
-
+  - Petrol Parts was removed; was causing too many issues
 - Bundle with 2 of each farm animal.
   - bandaid fix to mobs refusing to spawn on survival server.
 
