@@ -174,7 +174,7 @@ hash = "0782a3c1fbfe057013b029be7fb502315355d512ce2cd38f8dad7311f9d73b4c"
 
 [[files]]
 file = "config/yosbr/config/jei/jei-client.ini"
-hash = "1b5316ad09ca0acfd02c1c585903c96ee976d6922b4bfdba01e92f5babebb3ad"
+hash = "a0ec8e556044e45f846d977c731fcfbe5335603e97af0c1544a237608d337774"
 
 [[files]]
 file = "config/yosbr/config/shouldersurfing-client.toml"

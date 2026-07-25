@@ -35,4 +35,4 @@ x 2026-07-21 2026-07-21 (B)
 (B) Ratatoiulle popsicle +recipe expansion
 (C) Possble +recipe merging between diesel generators and ratatouile fermenting. Also look into making brewing and chewin compatable as well
 (B) +recipe tweaks to CBC molds
-(A) +recipe for ratatouile molds
+(A) +recipe for ratatouile molds; add stonecutter
