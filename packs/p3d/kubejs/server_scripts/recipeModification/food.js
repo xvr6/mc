@@ -143,11 +143,28 @@ ServerEvents.recipes((event) => {
     [Ingredient.of("#c:flours", 3), Fluid.of("minecraft:milk", 250)],
   );
 
-  // - Fried Delights adjustments/priority/compat; 
+  // - Fried Delights adjustments/priority/compat;
   // TODO: CONTINUE
   event.replaceInput(
     { id: "ratatouille_fried_delights:coating/onion_coating" },
     "farmersdelight:onion",
     "someassemblyrequired:sliced_onion",
   );
+  //change cooking oils; done in combination with language changes in client
+  event.replaceInput(
+    { input: "rusticdelight:cooking_oil" },
+    "rusticdelight:cooking_oil",
+    "ratatouille_fried_delights:sunflower_seed_oil_bottle",
+  );
+
+  event.remove({ id: "ratatouille_fried_delights:compacting/sunflower_oil" });
+  event.recipes
+    .createMixing(
+      [
+        Fluid.of("ratatouille_fried_delights:sunflower_oil", 250),
+        "ratatouille:boil_stone",
+      ],
+      ["ratatouille:boil_stone", Fluid.of(`createaddition:seed_oil`, 500)],
+    )
+    .heated();
 });

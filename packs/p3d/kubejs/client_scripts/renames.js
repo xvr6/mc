@@ -8,5 +8,5 @@ ClientEvents.lang("en_us", (event) => {
     "ratatouille_fried_delights:sunflower_seed_oil_bottle",
     "Cooking Oil Bottle",
   );
-  event.renameItem("rusticdelight:cooking_oil", "Bottled Cooking Oil");
+  event.renameFluid("ratatouille_fried_delights:sunflower_oil", "Cooking Oil");
 });
