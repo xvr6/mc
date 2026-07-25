@@ -6,7 +6,7 @@
   - Create parallel pipes
   - Create storage compat
   - Create stuff n additions aeronautics compat
-  - EMI++; Emi extra mod integrations removed
+  - Full switch to JEI over EMI for compatability
 
 - Bundle with 2 of each farm animal.
   - bandaid fix to mobs refusing to spawn on survival server.
