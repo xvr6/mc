@@ -432,7 +432,7 @@ hash = "474114ab35bdf49081fe6f11a7e15ab3e8ca760b306d7ca70b860ff8d261150c"
 
 [[files]]
 file = "kubejs/client_scripts/renames.js"
-hash = "cf432f51174a1ec2997de00cb701312cf80fba67c58bc66d6eff48fe5294b552"
+hash = "d913815e485a50dc91387326a9a5c9ffac8d7d9d3c1570a7f4aca607d17bd29d"
 
 [[files]]
 file = "kubejs/config/startmon.json"
@@ -1461,6 +1461,11 @@ metafile = true
 [[files]]
 file = "mods/effectual.pw.toml"
 hash = "73adb59ea91b825485025349d0feab4f1124cb2d13e097ac76b272b1301f9284"
+metafile = true
+
+[[files]]
+file = "mods/emi.pw.toml"
+hash = "67bb77eae0b644960be3b1074178ceb5d54facbb42f326981b9d94625238a54a"
 metafile = true
 
 [[files]]
