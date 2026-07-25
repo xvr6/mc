@@ -136,4 +136,10 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "rusticdelight:honey_pancakes" });
   event.remove({ output: "supplementaries:pancake" });
   event.remove({ output: "creategarnished:pancakes" });
+
+  event.remove({ output: "farmersdelight:pie_crust" });
+  event.recipes.createCompacting(
+    ["farmersdelight:pie_crust"],
+    [Ingredient.of("#c:flours", 3), Fluid.of("minecraft:milk", 250)],
+  );
 });

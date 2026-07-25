@@ -10,15 +10,6 @@ const startingKit = [
   ["rusticdelight:syrup_sandwich", 16],
 ];
 
-const spawnerBundle = Item.of("minecraft:gray_bundle", {
-  bundle_contents: [
-    { id: "minecraft:cow_spawn_egg", count: 2 },
-    { id: "minecraft:sheep_spawn_egg", count: 2 },
-    { id: "minecraft:chicken_spawn_egg", count: 2 },
-    { id: "minecraft:bee_spawn_egg", count: 2 },
-    { id: "minecraft:pig_spawn_egg", count: 2 },
-  ],
-});
 
 //the actual event
 PlayerEvents.loggedIn((event) => {
@@ -33,8 +24,18 @@ PlayerEvents.loggedIn((event) => {
     }
   }
   // - mob bundle
-  if (!event.player.stages.has("spawn_eggs_given")) {
-    event.player.stages.add("spawn_eggs_given");
-    event.player.give(spawnerBundle);
+  if (!event.player.stages.has("spawnEggsGiven")) {
+    event.player.stages.add("spawnEggsGiven");
+    event.server.runCommandSilent(
+      `give ${event.entity.username} minecraft:gray_bundle[minecraft:bundle_contents=[
+        { id: "minecraft:cow_spawn_egg", count: 2 },
+        { id: "minecraft:sheep_spawn_egg", count: 2 },
+        { id: "minecraft:chicken_spawn_egg", count: 2 },
+        { id: "minecraft:bee_spawn_egg", count: 2 },
+        { id: "minecraft:pig_spawn_egg", count: 2 },
+        { id: "minecraft:beehive", count: 1 }
+        ]
+      ]`,
+    );
   }
 });

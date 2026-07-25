@@ -6,11 +6,18 @@
   - Create parallel pipes
   - Create storage compat
   - Create stuff n additions aeronautics compat
-  - EMI++; Emi extra mod integrations removed
+  - Full switch to JEI over EMI for compatability
 
 - Bundle with 2 of each farm animal.
   - bandaid fix to mobs refusing to spawn on survival server.
+
 - Feather crating recipe; 1 stick, 1 wool, 1 string -> 3 feather
+
+- Fixed overlapping cake batter and pie crust recipe
+  - pie crust now made with press
+- Attempting to fix the bucket issues
+  - many buckets not in `c:buckets`
+  - a few buckets dont have draining recipies, meaning fluids are completely stuck in their bucket form if picked up
 
 ## Update: v3.1.1
 
