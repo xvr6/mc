@@ -8,7 +8,7 @@ x 2026-07-19 2026-07-15 Cobblemon industries +recipe tweaks; removing its dyes a
 x 2026-07-15 2026-07-15 +recipe compats between salts and cinnamon
 (B) complex/expensive +recipe for superexp maybe
 x 2026-07-21 2026-07-21 netherrack duplicate +recipe removal/tweaks
-(F) EMI issues; some things dont show up, some recipies loose their favorite buttons, etc
+x 2026-07-24 2026-07-24 EMI issues; some things dont show up, some recipies loose their favorite buttons, etc
 x 2026-07-17 2026-07-17 Migrate +recipe datapack to kubejs
 x 2026-07-18 2026-07-18 Fish!!! +mod
 (D) tweak +recipe for industrially-plated +mod
@@ -28,10 +28,11 @@ x 2026-07-21 2026-07-21 exp candy recipe tweaks to use create filling of honey c
 (E) Origins has a shit ton of bugs sobbing +origin
 x 2026-07-18 2026-07-18 sleeping cobblemon doesnt work all the time for restoring hp/pp. Make kubejs script that always fires after 1sec laying in bed
 x 2026-07-21 2026-07-21 change dye recipes around
-(B) move item recipe removals to be tag based; ultimate goal is to have all removed items in one tag for emi hiding
+(B) move item recipe removals to be tag based; ultimate goal is to have all removed items in one tag for jei hiding
 (G) minimap rotation is wrong when on aeronautics
 (B) +recipe tweaks for fried stuff; cooking oil; rename sunflour oil
 x 2026-07-21 2026-07-21 (B)
 (B) Ratatoiulle popsicle +recipe expansion
 (C) Possble +recipe merging between diesel generators and ratatouile fermenting. Also look into making brewing and chewin compatable as well
 (B) +recipe tweaks to CBC molds
+(A) +recipe for ratatouile molds

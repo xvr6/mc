@@ -600,7 +600,7 @@ hash = "181672b7728e8dd866d521597e8449a1a60293f9aef0520c9075a8b7f01a91f3"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/misc.js"
-hash = "0a0516e06ad266649d8d39deeac736ee1143d6cd1a46f8bf8560b2d8df4c724b"
+hash = "003582c1206bcc33cfa36f96b698c16059cea7de79bd874acb263cc719eea7b1"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/stones.js"
@@ -2056,16 +2056,6 @@ metafile = true
 [[files]]
 file = "mods/pehkui.pw.toml"
 hash = "e5141bf653c820b9967b8be2e3d9d8e83f3b54d0450f0cabe812e00cce481fdf"
-metafile = true
-
-[[files]]
-file = "mods/petrolpark.pw.toml"
-hash = "232f7c77717ba691dd87661d830c40e6f60f99d04c0af6b75b128602e513da77"
-metafile = true
-
-[[files]]
-file = "mods/petrols-parts.pw.toml"
-hash = "92a299204f6b5bb0f39900d5866df154ad360b83a035060e25aec50baa6e305f"
 metafile = true
 
 [[files]]

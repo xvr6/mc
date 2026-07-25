@@ -89,8 +89,6 @@ ServerEvents.recipes((event) => {
 
   // Remove base void steel recipe
   event.remove({ id: "createutilities:mixing/void_steel_ingot" });
-  // removed evil item
-  event.remove({ output: "petrolsparts:hydraulic_transmission" });
   // not needed; farmers delight stuff is often placable
   event.remove({ input: "cluttered:pastry_plate" });
 
