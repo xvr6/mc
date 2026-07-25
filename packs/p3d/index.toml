@@ -1739,8 +1739,8 @@ hash = "750f4b552490779af147a9c70a558ab2aa1cbfd8331d5ad69efefa099854dfae"
 metafile = true
 
 [[files]]
-file = "mods/jei.pw.toml"
-hash = "06a7dd41efafdd02cd3d4b3eab59a1b8261d25c1ddd1d3d0af77418a5614b971"
+file = "mods/jeasync.pw.toml"
+hash = "2e759743fc78f8e67b2b65b60d23eee458a627dd6c57c2e6c24a548f084b8a7d"
 metafile = true
 
 [[files]]
@@ -2255,22 +2255,22 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "93eb371e35e0446ec4c3c65d4fa5384e8495496b0a52c3f70ea21cbc4dcf3fac"
+hash = "25a959fa079e424bc9e0dc48e879d7d15c74425694cd33d73168ecc212af00ca"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "f15ec49c02ca24f1a112082c7be5dc1457673d5afddf987d85a437253cea4051"
+hash = "90b0eea8b02ebd3560aa28571dfa8cba8491ed973273132dfe19613c10f0822e"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage-create-integration.pw.toml"
-hash = "bbaf23d24ec73180cead89d49e5c51f1e757829f1b63f74a2c4077c0c1f2323a"
+hash = "7bcf005fc29a8a7f1fca053e9634b2e065232dfab3c77257ac68d0435e9544ec"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "cb8d23af122b37d3b55556abbe76e1c34d622e71c90d870eff004f5fb786ea6e"
+hash = "e01d142f65b2c3f3310c15742bcc730ca81b6ead687aa3a4fef2c42acfaa3437"
 metafile = true
 
 [[files]]
