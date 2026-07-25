@@ -579,6 +579,10 @@ file = "kubejs/server_scripts/mon_generate.js"
 hash = "a8e952f5628b32ee927faa6c1323aa3c81121b30da0660f721989095c9c07acc"
 
 [[files]]
+file = "kubejs/server_scripts/recipeModification/bucketFixes.js"
+hash = "c61a13e1f281a2a230ca1a1cd2d1ec84ba82cbd18181db5c00c72a9eb7154df0"
+
+[[files]]
 file = "kubejs/server_scripts/recipeModification/cobblemon.js"
 hash = "e6950e3963dfa08b8cb847d8b6b2d3208b321bec9f4ab0f04cb6394d02b21a74"
 
@@ -588,7 +592,7 @@ hash = "86f0e0364ee8a930309b7360c6857c0ead7464b9914c7becea8f9679deff6ca9"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/food.js"
-hash = "4194df22f990e754e4a802c8551403dd1589ab6e4504d050dc6cc1c8ee21c241"
+hash = "994b339e71a2f7d838477194d6a9a5b993d55b8979cb60bc87055aabb3455796"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/freezing.js"
@@ -604,7 +608,7 @@ hash = "a022ce01ab586da46f2c13e8c820e32c4701ff9370eec18c60d30a0a9ab9296c"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/tags.js"
-hash = "0a9449825dc0c175fd543c64364fd790caba9872871a36d3d65838c06b0dc388"
+hash = "6d1e69d47dbdf08db79f661bacd4646bccaf57aba2d1f356ee5c3b27f8497e14"
 
 [[files]]
 file = "kubejs/server_scripts/startMon.js"
