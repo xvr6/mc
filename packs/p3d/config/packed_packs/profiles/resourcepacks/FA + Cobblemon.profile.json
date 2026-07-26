@@ -3,6 +3,7 @@
   "name": "FA + Cobblemon",
   "overrides": {},
   "packIds": [
+    "file/poinky-additions",
     "vanillabackport:freshly_animated",
     "file/faemissive.zip",
     "file/facompat.zip",

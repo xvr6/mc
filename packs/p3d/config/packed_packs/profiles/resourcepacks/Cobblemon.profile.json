@@ -3,6 +3,7 @@
   "name": "Cobblemon",
   "overrides": {},
   "packIds": [
+    "file/poinky-additions",
     "file/cobblemap.zip",
     "file/atmmsd.zip",
     "file/lasers.zip",

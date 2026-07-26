@@ -1,0 +1,13 @@
+name = "Create More Fans"
+filename = "createmorefans-0.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "0fc012b9505b88acfe6c2c527d048e34fe870ed3d0c687ab60f74ce0ff92457c524289aa12d87a7b2d277dc015055c266f3de93a28301a9a47be4b83f252c72b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6888684
+project-id = 1327607
