@@ -619,10 +619,6 @@ file = "kubejs/server_scripts/startMon.js"
 hash = "c8beb12250db21fba7c015f3c5660be4e50fc87efa596cc3ac2d695ba611461b"
 
 [[files]]
-file = "kubejs/startup_scripts/newfan.js"
-hash = "9e44cca814376dd4f1b1ed4eca635ed63a439dfece5c6fb9c94391b89a85a20c"
-
-[[files]]
 file = "kubejs/startup_scripts/startmonItems.js"
 hash = "0dfa29316225caba76ec4494433d332bb1d7e47ba700b05cd04b445739c7ad23"
 
@@ -1254,11 +1250,6 @@ metafile = true
 [[files]]
 file = "mods/create-mobile-packages.pw.toml"
 hash = "ad5c2fd3c28bd92617c104d5cfc32fc1fd9b16585af1f5631cc4c59954fa8eef"
-metafile = true
-
-[[files]]
-file = "mods/create-more-fans.pw.toml"
-hash = "a99d053bba6c88b34033662a4a0bc99bd67f2596c599ea8417063574cebc96bd"
 metafile = true
 
 [[files]]
