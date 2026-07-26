@@ -623,11 +623,6 @@ file = "kubejs/startup_scripts/startmonItems.js"
 hash = "0dfa29316225caba76ec4494433d332bb1d7e47ba700b05cd04b445739c7ad23"
 
 [[files]]
-file = "mods/3dskinlayers.pw.toml"
-hash = "73c02b249af1c9f1296b5c5e6991317be50c9ba1cdf25e40ff121c0c4dfb9304"
-metafile = true
-
-[[files]]
 file = "mods/accessories-compat-layer.pw.toml"
 hash = "c255cf4cd29718e3ab0a4c18df8bb7b626e0092c5aad7b4e67f34fc1ad4492f8"
 metafile = true
@@ -945,11 +940,6 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-spawn-notification.pw.toml"
 hash = "5040157557e38512b64d13395c4550950ad00acb40183cb63a9a2daba85c1b8e"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-synchro-machine.pw.toml"
-hash = "fc5ed6a9dcd092388676316ecee071e288bb83d5baea7bdb5ed1a89c0090d1bd"
 metafile = true
 
 [[files]]
