@@ -173,4 +173,9 @@ ServerEvents.recipes((event) => {
       ["ratatouille:boil_stone", Fluid.of(`createaddition:seed_oil`, 500)],
     )
     .heated();
+  event.custom({
+    type: "poinky:roosting",
+    ingredients: [{ item: "ratatouille:egg_shell" }],
+    results: [{ id: "minecraft:egg" }],
+  });
 });
