@@ -151,11 +151,18 @@ ServerEvents.recipes((event) => {
   );
   //change cooking oils; done in combination with language changes in client
   event.replaceInput(
-    { input: "rusticdelight:cooking_oil" },
+    "*",
     "rusticdelight:cooking_oil",
     "ratatouille_fried_delights:sunflower_seed_oil_bottle",
   );
 
+  event.recipes.createEmptying(
+    [
+      "minecraft:glass_bottle",
+      Fluid.of("ratatouille_fried_delights:sunflower_oil", 125),
+    ],
+    "ratatouille:melon_juice_fluid_bucket",
+  );
   event.remove({ id: "ratatouille_fried_delights:compacting/sunflower_oil" });
   event.recipes
     .createMixing(

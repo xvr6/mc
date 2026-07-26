@@ -588,11 +588,11 @@ hash = "e6950e3963dfa08b8cb847d8b6b2d3208b321bec9f4ab0f04cb6394d02b21a74"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/enriching.js"
-hash = "86f0e0364ee8a930309b7360c6857c0ead7464b9914c7becea8f9679deff6ca9"
+hash = "a0cf8994a274ea28bad48cc0d46289f060d35f129109c84203f1cfb955bd4726"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/food.js"
-hash = "67085a5a0b9ab07dc17bbbd3d1639bdb828f54ee1ecb7a1311920ea0c3a16dab"
+hash = "049c97d01cf5883dd9722ada69ac0a01161af64061d8ff7bee50b0cd52b28d72"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/freezing.js"
