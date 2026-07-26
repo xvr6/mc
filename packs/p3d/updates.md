@@ -2,6 +2,12 @@
 
 ## Update: v3.1.3
 
+- Adjustments to Cooking Oil
+
+- Aeronautics air pressure cuttoff Removed
+  - Previously, when u reached Y=320 your plane would just... fall out of the sky.
+  - New maximum height is set to Y=500 and it gradually decreases in air pressure until then!
+
 ## Update: v3.1.2
 
 - Mostly mod updates, but of note:

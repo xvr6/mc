@@ -161,7 +161,7 @@ ServerEvents.recipes((event) => {
       "minecraft:glass_bottle",
       Fluid.of("ratatouille_fried_delights:sunflower_oil", 125),
     ],
-    "ratatouille:melon_juice_fluid_bucket",
+    "ratatouille_fried_delights:sunflower_seed_oil_bottle",
   );
   event.remove({ id: "ratatouille_fried_delights:compacting/sunflower_oil" });
   event.recipes

@@ -259,6 +259,10 @@ file = "datapacks/poinky-additions/data/cobblemon/species_additions/trevenant_pa
 hash = "f97af720e3f5542801a5121a40b8b66ca08845bea08ef89a077a92943bfd7166"
 
 [[files]]
+file = "datapacks/poinky-additions/data/poinky/dimension_physics/overworld.json"
+hash = "5f42fb7ec4d3b72f738563730fcb22dca949816b06b78291e74fe2924f5f77d7"
+
+[[files]]
 file = "datapacks/poinky-additions/data/poinky/recipe/casting_in_table/void_steel.json"
 hash = "b1e398fb740f24fe67a2b32e8a228fd1e6eef0ac69267a6f0f74b6a11d3fe4d2"
 
@@ -592,7 +596,7 @@ hash = "a0cf8994a274ea28bad48cc0d46289f060d35f129109c84203f1cfb955bd4726"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/food.js"
-hash = "049c97d01cf5883dd9722ada69ac0a01161af64061d8ff7bee50b0cd52b28d72"
+hash = "20b4fe5efba67e40f091aae3e7314247c3a28ebe1e664eee685397126eeec791"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/freezing.js"
@@ -2576,6 +2580,14 @@ metafile = true
 file = "resourcepacks/mysticmons.pw.toml"
 hash = "ed1ead004b389a5fe094a0b46b7584ed8f30354c026e20dd614b96491f5bb426"
 metafile = true
+
+[[files]]
+file = "resourcepacks/poinky-additions/assets/ratatouille_fried_delights/lang/default/en_us.json"
+hash = "8f65a361c41d35ade555ea00105f845b7e06d765a3b03e310dbd793acf1e5753"
+
+[[files]]
+file = "resourcepacks/poinky-additions/pack.mcmeta"
+hash = "6c8ecad1f1d6447ed64bd5f00906ee222b91cffd727c5c6feef00fa142865033"
 
 [[files]]
 file = "shaderpacks/complementary-unbound.pw.toml"
