@@ -1,0 +1,13 @@
+name = "Cobblemon: Synchro Machine [Morph Play as a Pokémon]"
+filename = "synchro-neoforge-1.7.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/vfc8281v/versions/Rem5rjhH/synchro-neoforge-1.7.1.jar"
+hash-format = "sha512"
+hash = "12811b8041840b18b4fb9672eee419849d1699f12c64e6ebacfcea6e2504bc754b6c3c684c2680e3127dd1296a1e846799b519e30761221366874a91cc5f570a"
+
+[update]
+[update.modrinth]
+mod-id = "vfc8281v"
+version = "Rem5rjhH"
