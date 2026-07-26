@@ -620,7 +620,7 @@ hash = "c8beb12250db21fba7c015f3c5660be4e50fc87efa596cc3ac2d695ba611461b"
 
 [[files]]
 file = "kubejs/startup_scripts/newfan.js"
-hash = "463073124802fe8e58923a20ee9251be0dcc391a6c22f98d006dbaf0c3252c30"
+hash = "9e44cca814376dd4f1b1ed4eca635ed63a439dfece5c6fb9c94391b89a85a20c"
 
 [[files]]
 file = "kubejs/startup_scripts/startmonItems.js"
