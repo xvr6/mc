@@ -144,7 +144,6 @@ ServerEvents.recipes((event) => {
   );
 
   // - Fried Delights adjustments/priority/compat;
-  // TODO: CONTINUE
   event.replaceInput(
     { id: "ratatouille_fried_delights:coating/onion_coating" },
     "farmersdelight:onion",
@@ -161,7 +160,7 @@ ServerEvents.recipes((event) => {
   event.recipes
     .createMixing(
       [
-        Fluid.of("ratatouille_fried_delights:sunflower_oil", 250),
+        Fluid.of("ratatouille_fried_delights:sunflower_oil", 125),
         "ratatouille:boil_stone",
       ],
       ["ratatouille:boil_stone", Fluid.of(`createaddition:seed_oil`, 500)],

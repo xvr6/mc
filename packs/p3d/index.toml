@@ -432,7 +432,7 @@ hash = "474114ab35bdf49081fe6f11a7e15ab3e8ca760b306d7ca70b860ff8d261150c"
 
 [[files]]
 file = "kubejs/client_scripts/renames.js"
-hash = "2bf1747dbb3b7fb9255bbb26077e7f2357d6168cb23c995777186426b61d0f3d"
+hash = "7ba565ed80d67beb1f24488c492b9e75c82aae506e91101bdefa1798e0d42a9c"
 
 [[files]]
 file = "kubejs/config/startmon.json"
@@ -592,7 +592,7 @@ hash = "86f0e0364ee8a930309b7360c6857c0ead7464b9914c7becea8f9679deff6ca9"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/food.js"
-hash = "642cbd1315d29176f99e4f493cbdb85a3298e327bdd487296733d694c5b3f9a9"
+hash = "67085a5a0b9ab07dc17bbbd3d1639bdb828f54ee1ecb7a1311920ea0c3a16dab"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/freezing.js"
