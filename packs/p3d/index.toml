@@ -1553,11 +1553,6 @@ hash = "9aab64fbec4cc794817026caf84e7d0dff14ba3892da94aa0e00d23c84560499"
 metafile = true
 
 [[files]]
-file = "mods/fast-async-world-save-forge-fabric.pw.toml"
-hash = "39d8cf14a55f5c7417729592178f5e2031a0a678718f6a93d51cbb13192ea2c1"
-metafile = true
-
-[[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
 metafile = true
@@ -2245,11 +2240,6 @@ metafile = true
 [[files]]
 file = "mods/slice-and-dice.pw.toml"
 hash = "47f7a98662dff8dae871424d210f1f8144617140a9d84b9f502a6d620c124883"
-metafile = true
-
-[[files]]
-file = "mods/smooth-chunk-save.pw.toml"
-hash = "8cc760e589b4f053612581644b4cdc7d884c593d3a7493276286a72ae786c0bb"
 metafile = true
 
 [[files]]
