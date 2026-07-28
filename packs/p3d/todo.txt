@@ -37,3 +37,4 @@ x 2026-07-21 2026-07-21 (B)
 (B) +recipe tweaks to CBC molds
 (A) +recipe for ratatouile molds; add stonecutter
 x 2026-07-28 2026-07-28 +mod use my fork of integrated farming
+(C) kubejs readme
