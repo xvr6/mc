@@ -447,144 +447,8 @@ file = "kubejs/config/startmon.json"
 hash = "38f4eda25c0c0c18b4c16ee610a44163c5355246aad0e876e5735ed7d5819228"
 
 [[files]]
-file = "kubejs/data/origins/tags/origins/origin/origin.json"
-hash = "fbe06ec2cc8c9b6858b23ff17398dc2fc17209cc3f5ea77dac9eea7c69d758ed"
-
-[[files]]
-file = "kubejs/data/startmon/origins/layer/gender.json"
-hash = "77912ba31492181ffc7d9e14e7ae206fc3abef3ce34e2e09e9ab8c0f9d70221a"
-
-[[files]]
-file = "kubejs/data/startmon/origins/layer/shiny.json"
-hash = "0bc9563c4c9f047cc3df7226759217bea351b40ef558cff13a80d56fb7687d13"
-
-[[files]]
-file = "kubejs/data/startmon/origins/origin/female.json"
-hash = "d87f6be2dab56c63bcae408d41dd8ddf98c23e8d4157ef5747fe3588517ef70f"
-
-[[files]]
-file = "kubejs/data/startmon/origins/origin/male.json"
-hash = "ec425b6ff6799111d940ca1977e5ec3f5f2d3616311adba2eb4eafff9faf81c8"
-
-[[files]]
-file = "kubejs/data/startmon/origins/origin/mon.json"
-hash = "4cf91a3e197e5d71aea677f2ae6b6cce56d8183fd5a19cebe97a5931b9390f67"
-
-[[files]]
-file = "kubejs/data/startmon/origins/origin/nonbinary.json"
-hash = "40631f474582c7559bd5ff08029b3b306702b8bee87e455c470a74bd073564ba"
-
-[[files]]
-file = "kubejs/data/startmon/origins/origin/nonshiny.json"
-hash = "1cde0650432c6931f82645500f074fa406db4c9e3a478ba86596562c1a371b62"
-
-[[files]]
-file = "kubejs/data/startmon/origins/origin/off.json"
-hash = "fa6176a7be0e53fec8c76fa7902bb8c6b7722220fea98fc1d20f016f2ba68e7b"
-
-[[files]]
-file = "kubejs/data/startmon/origins/origin/regular.json"
-hash = "1b7dc9bfe73ef7173fecaf5588fbefc2fc660c320c718315028ceef1451fa7f2"
-
-[[files]]
-file = "kubejs/data/startmon/origins/origin/shiny.json"
-hash = "e54b9ad5d5083ad7e3cdf34a71c38c18dfa84d9dc330a29c6ee644fcd6a01c64"
-
-[[files]]
-file = "kubejs/data/startmon/origins/power/female.json"
-hash = "366c77de6c4a28e0a122d3dde14869fe3c5bcdfddbea5ffb520261c7ad729573"
-
-[[files]]
-file = "kubejs/data/startmon/origins/power/male.json"
-hash = "f654c5797954d4d79d32c9827b0218371c36c5feb161a450f89d05e4b047567e"
-
-[[files]]
-file = "kubejs/data/startmon/origins/power/nonbinary.json"
-hash = "26db26f1abdeee518b570bb74dfc880eb4a37f3023a60d10fa726f0b86c95687"
-
-[[files]]
-file = "kubejs/data/startmon/origins/power/nonshiny.json"
-hash = "b233a8cfd5c7fb3b95742573ee87bb8ba3a5072aa3e17ae9eb0e76a1212c9333"
-
-[[files]]
-file = "kubejs/data/startmon/origins/power/onlymon.json"
-hash = "0de3947303e557fe66991cf5fd73c0d1508d2c46c2765bee3b6c06a3ae52cfd6"
-
-[[files]]
-file = "kubejs/data/startmon/origins/power/shiny.json"
-hash = "03359346e3ccb91362ab74f23a2615698732f0c7f1de1fc2198bceefd67057fc"
-
-[[files]]
-file = "kubejs/data/vis/origins/origin/nautili.json"
-hash = "fff63fd7a37261b974b525649949b66984e9fc14148c249a3423a60d7ef05f57"
-
-[[files]]
-file = "kubejs/data/vis/origins/power/buffs/cannibalism.json"
-hash = "9b4cbf824f99dcfe847517ab632394f6c271162326a8e119410f39a2f7b346d6"
-
-[[files]]
-file = "kubejs/data/vis/origins/power/buffs/canteen.json"
-hash = "9db703384569528c5e6724a6b20e9dbbdc7e28d0eaa3f552432ecd7d5d7707b9"
-
-[[files]]
-file = "kubejs/data/vis/origins/power/buffs/coralgen.json"
-hash = "e4bc365ebb7e9eaf1e3f39de019e38a0c977648f1d6684a4df1bf95bdf3d48c7"
-
-[[files]]
-file = "kubejs/data/vis/origins/power/buffs/swimspeed.json"
-hash = "c8283651e3d953004a0f4537c01cc4d800a40b55b826b56b7200186dc8210459"
-
-[[files]]
-file = "kubejs/data/vis/origins/power/buffs/triplespiked.json"
-hash = "d1d5c5dc5ded9053958648746c330a06b3a55bf70477ecdc0fc1e9013a001a69"
-
-[[files]]
-file = "kubejs/data/vis/origins/power/debuffs/coralstate.json"
-hash = "ab1dfe4a104752f7a602f324f87875193822130c6f07bf0a383813fe75a57e32"
-
-[[files]]
-file = "kubejs/data/vis/origins/power/debuffs/hinderingshell.json"
-hash = "2eac5323f6ea6713ef20539d7d27f088a32417c86eecb50308fef86ca19d779b"
-
-[[files]]
-file = "kubejs/data/vis/origins/power/debuffs/riftcurse.json"
-hash = "b33ece1fcc0e242108843a31ed219c157a1e40c0d6636f5fefc4b9985425bb4c"
-
-[[files]]
-file = "kubejs/data/vis/origins/power/debuffs/shatter.json"
-hash = "0c8779a782bd41423a62f5a2055801e064c2447434b09f96685e46f2a76432ad"
-
-[[files]]
-file = "kubejs/data/vis/origins/power/neutral/scalefix.json"
-hash = "087a12fe21706d73f9279167b0371bf38dd77744220de5d66e023f575e8b7624"
-
-[[files]]
-file = "kubejs/data/vis/origins/power/neutral/yeet.json"
-hash = "dffd404d49eca4af0422b2843155ec5bcc3d33ba5f6479a9ba7054922f984270"
-
-[[files]]
-file = "kubejs/data/vis/origins/power/resources/echo.json"
-hash = "5b49759e1f347dd9c0a594ee9bfdb7696cbe8b07e1d5cdaf94be31c8f8d056da"
-
-[[files]]
-file = "kubejs/data/vis/origins/power/resources/stamina.json"
-hash = "533501686bb351299ebb71531040ff95e03af82bcb425e34d8033b3e29411637"
-
-[[files]]
-file = "kubejs/data/vis/origins/power/sfx/naut.json"
-hash = "cd4e9304e32633fd7f3c12383d67328eb7c81bcf1a086f398ffa4f4897d955cf"
-
-[[files]]
 file = "kubejs/fetchIcons.py"
 hash = "7834dcf761f113d05401be46a49e4d87834aec787fe97e24131d95ecf98c834e"
-
-[[files]]
-file = "kubejs/server_scripts/kits.js"
-hash = "8de30b35e5b3eefbbfde8ede5a91dd9a5fa216c4865ad2eed3a1530722401a73"
-
-[[files]]
-file = "kubejs/server_scripts/mon_generate.js"
-hash = "a8e952f5628b32ee927faa6c1323aa3c81121b30da0660f721989095c9c07acc"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/bucketFixes.js"
@@ -620,19 +484,11 @@ hash = "31960cfd66a5adc85431740b9c3c1b6cbe3210d9e74336c07b617b51c294c16f"
 
 [[files]]
 file = "kubejs/server_scripts/sizeMod.js"
-hash = "42cca7a4841d8da1412db064e5eb3486707534cd26b4b9ab3f8b74d5091bcd0a"
-
-[[files]]
-file = "kubejs/server_scripts/startMon.js"
-hash = "c8beb12250db21fba7c015f3c5660be4e50fc87efa596cc3ac2d695ba611461b"
+hash = "42804f60d4ab04bc33ac251dafdc5b0255b092f83f39c2b892caede94bcccb9b"
 
 [[files]]
 file = "kubejs/startup_scripts/growthEssences.js"
-hash = "9527cb1373c057b5eb7f9a32ecfcbccc813493a8a9795cd44f3120df5306a5b1"
-
-[[files]]
-file = "kubejs/startup_scripts/startmonItems.js"
-hash = "0dfa29316225caba76ec4494433d332bb1d7e47ba700b05cd04b445739c7ad23"
+hash = "61a0b3b4e2a25925b03deeaffe2d016a0df729950cba7770255caf3972e93278"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -942,6 +798,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-pokenav.pw.toml"
 hash = "6dc0747f249a105ef38d1a75a74736ec276bbf791a5bafd87a47a93a23b25b43"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-repel-neoreforged.pw.toml"
+hash = "f2939f9d4703322f5cf05dbde815640aec5e18ef191d78459a3540ecdcf84e7b"
 metafile = true
 
 [[files]]
@@ -1669,11 +1530,6 @@ hash = "0004feab868f7b873c12db05aae0d0dac6c87b497490b48bb66480e7c8d0f340"
 metafile = true
 
 [[files]]
-file = "mods/im-fast.pw.toml"
-hash = "474d64dba26d80c32a84ccdefc66d06dbf18503c17fe48927040fdf9026c5860"
-metafile = true
-
-[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "94af73eec28b59b314b2c6ef9dfb98f37d7bbcbcb482c278570cc15e44b6a559"
 metafile = true
@@ -2021,11 +1877,6 @@ metafile = true
 [[files]]
 file = "mods/oceans-delight.pw.toml"
 hash = "7bf7c8369bd28212a1e294c60310ccb72f1eb773630970e6ab106ae666766cd3"
-metafile = true
-
-[[files]]
-file = "mods/origins-neoforge.pw.toml"
-hash = "13db9dd1621e5247305a3cfd1aeea8b4e1c395d73872de92aa78e9c1f4d4553d"
 metafile = true
 
 [[files]]

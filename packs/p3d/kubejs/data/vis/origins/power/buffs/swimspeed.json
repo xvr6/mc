@@ -1,9 +1,0 @@
-{
-  "name": "Sweem",
-  "description": "You swim faster",
-  "type": "origins:modify_swim_speed",
-  "modifier": {
-    "operation": "addition",
-    "value": 0.125
-  }
-}
