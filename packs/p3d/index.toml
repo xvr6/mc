@@ -620,7 +620,7 @@ hash = "31960cfd66a5adc85431740b9c3c1b6cbe3210d9e74336c07b617b51c294c16f"
 
 [[files]]
 file = "kubejs/server_scripts/sizeMod.js"
-hash = "f2912fd014c29f409f0aa14050fd9095d4695255f89b1f26953c38cc3e19dd36"
+hash = "42cca7a4841d8da1412db064e5eb3486707534cd26b4b9ab3f8b74d5091bcd0a"
 
 [[files]]
 file = "kubejs/server_scripts/startMon.js"
@@ -628,7 +628,7 @@ hash = "c8beb12250db21fba7c015f3c5660be4e50fc87efa596cc3ac2d695ba611461b"
 
 [[files]]
 file = "kubejs/startup_scripts/growthEssences.js"
-hash = "c93cb49962d5bb67a528363f4237025a1469cf77bac855cf30706b7873dd2452"
+hash = "9527cb1373c057b5eb7f9a32ecfcbccc813493a8a9795cd44f3120df5306a5b1"
 
 [[files]]
 file = "kubejs/startup_scripts/startmonItems.js"
