@@ -37,6 +37,10 @@ file = "config/create_connected-common.toml"
 hash = "c23ee69f3507516f42801543b2b863fb6e0865f4c41e029b1336ebe827aecf14"
 
 [[files]]
+file = "config/create_integrated_farming-server.toml"
+hash = "535b955e1ab30daeb87a758b1a814c7652cb882f55eb08013e242c4d8d4e3192"
+
+[[files]]
 file = "config/createpropulsion-common.toml"
 hash = "074a7223d2351698de8d4b66c0141194f1daddf8e0a591711c154a7d7d0563b8"
 
@@ -588,7 +592,7 @@ hash = "0fee6806e6c089e328bd6e97c55c8a57d6c50de3e4cb508213a0c57dab86279a"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/cobblemon.js"
-hash = "e6950e3963dfa08b8cb847d8b6b2d3208b321bec9f4ab0f04cb6394d02b21a74"
+hash = "5d5b381903b0955f9cca5c2694ccd48fb1c258bb574060fc3961044625b1d298"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/enriching.js"
@@ -596,7 +600,7 @@ hash = "a0cf8994a274ea28bad48cc0d46289f060d35f129109c84203f1cfb955bd4726"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/food.js"
-hash = "20b4fe5efba67e40f091aae3e7314247c3a28ebe1e664eee685397126eeec791"
+hash = "1d1c2abfd3537bbe8593749bb724b49122b1cad59bb0a3f41fdd27e8ea48e0d8"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/freezing.js"
@@ -604,7 +608,7 @@ hash = "181672b7728e8dd866d521597e8449a1a60293f9aef0520c9075a8b7f01a91f3"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/misc.js"
-hash = "c1982e5e5037926d8a59fbb366c1fa6629aa4bd86928e4ddc9a40bf682468a43"
+hash = "7b7493bc2c6071a3b16af44fc2787792f4e54011089db53c5052943673c92c7d"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/stones.js"
@@ -612,11 +616,19 @@ hash = "a022ce01ab586da46f2c13e8c820e32c4701ff9370eec18c60d30a0a9ab9296c"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/tags.js"
-hash = "33d12b9b8d4b1877c6df4ffa4f5d59e6789b9636c596f1ef80c4a5d2a7902a13"
+hash = "31960cfd66a5adc85431740b9c3c1b6cbe3210d9e74336c07b617b51c294c16f"
+
+[[files]]
+file = "kubejs/server_scripts/sizeMod.js"
+hash = "f2912fd014c29f409f0aa14050fd9095d4695255f89b1f26953c38cc3e19dd36"
 
 [[files]]
 file = "kubejs/server_scripts/startMon.js"
 hash = "c8beb12250db21fba7c015f3c5660be4e50fc87efa596cc3ac2d695ba611461b"
+
+[[files]]
+file = "kubejs/startup_scripts/growthEssences.js"
+hash = "c93cb49962d5bb67a528363f4237025a1469cf77bac855cf30706b7873dd2452"
 
 [[files]]
 file = "kubejs/startup_scripts/startmonItems.js"
@@ -1228,9 +1240,8 @@ hash = "774466d0a8b3e2aa118abe93d5c22bc9d608f62589cea10f1399f8d29e7ea5bd"
 metafile = true
 
 [[files]]
-file = "mods/create-integrated-farming.pw.toml"
-hash = "a9b61f02176f8e0e1da5354fba2e17228b4f2d622d0f23faf195785af3fda018"
-metafile = true
+file = "mods/create-integrated-farming-1.2.7.jar"
+hash = "19c2af31a67940fd45cc528ca4c9414bb0cd5154139c26c18c02704e1fb50a3c"
 
 [[files]]
 file = "mods/create-let-the-adventure-begin.pw.toml"

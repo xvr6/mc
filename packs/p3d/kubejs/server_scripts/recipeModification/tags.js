@@ -1,12 +1,5 @@
 ServerEvents.tags("item", (event) => {
-  event.add(
-    "poinky:roosting_catalyst",
-    "create_integrated_farming:chicken_roost",
-  );
-  event.add(
-    "create:fan_transparent",
-    "create_integrated_farming:chicken_roost",
-  );
+  event.add("dndecor:industrial_cogwheels", "dndecor:industrial_cogwheel");
   event.add(
     "poinky:non_hand_craftable",
     "#cobblemon:tier_2_poke_balls",
@@ -18,7 +11,7 @@ ServerEvents.tags("item", (event) => {
   event.add(
     "c:salt",
     "ratatouille:salt",
-    "expandeddelight:salt",
+    "expandeddelight:salt", //should be no longer obtainable
     "moresnifferflowers:salty_spice",
   );
   event.add(

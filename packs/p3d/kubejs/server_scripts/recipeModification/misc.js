@@ -108,7 +108,7 @@ ServerEvents.recipes((event) => {
     V: "minecraft:stick",
   });
 
-  //make void steel
+  // - Increase cost of echo ingot
   //FIXME: doesnt work
   event.replaceInput(
     { id: "create_deep_dark:create/sequenced_assembly_echo_ingot" },
