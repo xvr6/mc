@@ -101,4 +101,13 @@ ServerEvents.recipes((event) => {
     "immersive_weathering:cracked_end_stone_bricks",
     "minecraft:end_stone_bricks",
   );
+  // - Sulfur Caves stuff
+  event.recipes.createFilling("minecraft:cinnabar", [
+    Fluid.of("create_dragons_plus:red_dye", 128),
+    "minecraft:calcite",
+  ]);
+  event.recipes.createFilling("minecraft:sulfur", [
+    Fluid.of("create_dragons_plus:yellow_dye", 128),
+    "minecraft:calcite",
+  ]);
 });

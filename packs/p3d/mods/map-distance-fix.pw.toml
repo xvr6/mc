@@ -1,13 +1,13 @@
 name = "Map Distance Fix"
-filename = "mapdistancefix-neoforge-1.1.1+mc1.21-1.21.11.jar"
+filename = "mapdistancefix-neoforge-1.1.2+mc1.21-1.21.11.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/51BNNAng/versions/rshh80s2/mapdistancefix-neoforge-1.1.1%2Bmc1.21-1.21.11.jar"
+url = "https://cdn.modrinth.com/data/51BNNAng/versions/endXjhx0/mapdistancefix-neoforge-1.1.2%2Bmc1.21-1.21.11.jar"
 hash-format = "sha512"
-hash = "81a0b901d5297febf82ec1ccccdb0345cf37bcf4554cdaafd32e1b30d78089415e838d39886cc03a0684c79643845d9cb7586614e6856d99fdb871b0f068f205"
+hash = "d74f419094340f7f446675e454826d943faf47898a4989d14d6e4ef1681b06614cbbd70ba7e1c4a618ec4c4fd96e4b2c3bc3fd8572f0913549144ed9dba79ff8"
 
 [update]
 [update.modrinth]
 mod-id = "51BNNAng"
-version = "rshh80s2"
+version = "endXjhx0"

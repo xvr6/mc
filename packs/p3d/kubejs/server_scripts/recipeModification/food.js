@@ -144,18 +144,18 @@ ServerEvents.recipes((event) => {
   );
 
   // - Fried Delights adjustments/priority/compat;
-  //event.replaceInput(
-  //  { output: "ratatouille_fried_delights:breaded_onion_rings" },
-  //  "farmersdelight:onion",
-  //  "someassemblyrequired:sliced_onion",
-  //);
-  //change cooking oils; done in combination with language changes in client
+  event.replaceInput(
+    { output: "ratatouille_fried_delights:breaded_onion_rings" },
+    "farmersdelight:onion",
+    "someassemblyrequired:sliced_onion",
+  );
+  // change cooking oils; done in combination with language changes in client
   event.replaceInput(
     { input: "rusticdelight:cooking_oil" },
     "rusticdelight:cooking_oil",
     "ratatouille_fried_delights:sunflower_seed_oil_bottle",
   );
-  //FIXME: NONE of the above work
+  // FIXME: NONE of the above work
   // bandaid fix:
   event.shapeless("rusticdelight:cooking_oil", [
     "ratatouille_fried_delights:sunflower_seed_oil_bottle",

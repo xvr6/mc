@@ -296,7 +296,7 @@ hash = "a0cf8994a274ea28bad48cc0d46289f060d35f129109c84203f1cfb955bd4726"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/food.js"
-hash = "21074aedcc346db5ef03079714cdd0e9898e1f7c8f8552a383fdc5c2c6466ff9"
+hash = "0886cc7c2343dff03af7bc1d6d90da1d99f9660760ecb94527996fdf4eb15ca7"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/freezing.js"
@@ -304,11 +304,11 @@ hash = "181672b7728e8dd866d521597e8449a1a60293f9aef0520c9075a8b7f01a91f3"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/misc.js"
-hash = "7b7493bc2c6071a3b16af44fc2787792f4e54011089db53c5052943673c92c7d"
+hash = "31b871edac24e36c5cb147ed4c1ce39c96c9b313a7f35df79498c90f77141670"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/stones.js"
-hash = "a022ce01ab586da46f2c13e8c820e32c4701ff9370eec18c60d30a0a9ab9296c"
+hash = "2045eb7be153c1a888349eb0abb64e7a35741224ccda469dd783d7607243f7eb"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/tags.js"
@@ -399,7 +399,7 @@ metafile = true
 
 [[files]]
 file = "mods/azimuth-api.pw.toml"
-hash = "dc4fba2ed89550843d0ce2a6cd1b13986ff2bf596b9f5b828ef55ebb538bab10"
+hash = "6030e42f662fedd16c4dea51a8b0c29913733ad88c2c422220b1db7c13589bdb"
 metafile = true
 
 [[files]]
@@ -609,7 +609,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-mega-showdown.pw.toml"
-hash = "0480ba6c195e30ab7f20007ba781a4abc6600ed8bb6472448a108652aae618c8"
+hash = "722f0d42f93f4fccd66c5aad64a7d6b09509880daddd6c9f79b3cc72aa2b64ad"
 metafile = true
 
 [[files]]
@@ -819,7 +819,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-avionics.pw.toml"
-hash = "89f883bddfb008d0cf9b6ed4ff49795b351f3f5c3e5e3cc8e3a2818a81cea9b5"
+hash = "09c4a6ed0968780cedfb90be7d72d9e5b7fe179b3fc289f1427dbba0a5ea90fb"
 metafile = true
 
 [[files]]
@@ -844,7 +844,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-bits-n-bobs.pw.toml"
-hash = "84f6c106884a14db42757a319563892a8b352cc535edcc427ea82b63162db8e2"
+hash = "b4259c4791ae275da76a9de81c91567bad2e11bf0a958212351b4998b05f47fb"
 metafile = true
 
 [[files]]
@@ -904,7 +904,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-dragons-plus.pw.toml"
-hash = "cab6f316cb4ef454bbfa18b32263c3fb7c246a0405a505611c1e36b5eabd48f0"
+hash = "9c112af813c1f7540c3d198f38c8733fb7d983f459b1d20e372402af16d07f7d"
 metafile = true
 
 [[files]]
@@ -948,7 +948,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-mobile-packages.pw.toml"
-hash = "ad5c2fd3c28bd92617c104d5cfc32fc1fd9b16585af1f5631cc4c59954fa8eef"
+hash = "3956311952e50e1b437d8e7c5af4537feebd3d95bd5435192b78b251cab38bf2"
 metafile = true
 
 [[files]]
@@ -1178,7 +1178,7 @@ metafile = true
 
 [[files]]
 file = "mods/endrem.pw.toml"
-hash = "db22718a1efaf2c691cf3bdddc61b0b06bedff7cb0722aa8b1bdf4f095d116cc"
+hash = "43e084efa5f7f4d41eb1c27c998029cf79d403549c8721e7621f650558f94c6e"
 metafile = true
 
 [[files]]
@@ -1208,7 +1208,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "46fbb9bc56eece368b2ecb154d59f16059147b3b5b70d4e988b8d1eb6bc56533"
+hash = "f91c58dd28057838313e9bc2a23a8abab71fb9db7b9fdb63742267ae7fc51ed1"
 metafile = true
 
 [[files]]
@@ -1298,7 +1298,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-library-forge.pw.toml"
-hash = "86b88f8586627e8f8628d709cb88c0515e49f4add98eae733f14470af78b6a9e"
+hash = "4c996e783683f1a51df88d6af6b57881ff095c8801b0f5ab2969d0d121c137f8"
 metafile = true
 
 [[files]]
@@ -1383,7 +1383,7 @@ metafile = true
 
 [[files]]
 file = "mods/industrially-plated.pw.toml"
-hash = "d47ef08a466a0f8d25dca811c7bfb557c9fb8aeae70ebd09de78bdd6019fa4df"
+hash = "8f1622d82d6e14bf9086b39e68d4f6a6c1ec7e38ac8a1783e0a81bbb7c91de29"
 metafile = true
 
 [[files]]
@@ -1418,7 +1418,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "261885cca2c4fad2e0c53fdbc6eecb29982afccab576d5ddedfa1a7827bfc20e"
+hash = "013b12bfe553783f905a6a667dc6aa28475b3077c10e57a85462e09a912830ad"
 metafile = true
 
 [[files]]
@@ -1553,7 +1553,7 @@ metafile = true
 
 [[files]]
 file = "mods/map-distance-fix.pw.toml"
-hash = "b259bff44ebf9113c7e8a473b16873791d9724aec0196548d66f851dd3d995bd"
+hash = "e94c29ae1231d30038156f3a9647dd5e3c692e15e26fd7d2f184fd114cec0642"
 metafile = true
 
 [[files]]
@@ -1593,7 +1593,7 @@ metafile = true
 
 [[files]]
 file = "mods/mmmmmmmmmmmm.pw.toml"
-hash = "35b03bb2dee1bcbb0436d2024d5c4803930ace5337f0380c6f1fec7a2f75a0cf"
+hash = "724b5f22ab51c24880dedc363ae4f87fd76855a9cbf81732cf45c17f092159f3"
 metafile = true
 
 [[files]]
@@ -1618,7 +1618,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "253eb0796df9a8cd0214de3a6c32b7f6dc71fff5b861aa11086f275419ab046e"
+hash = "688a2fcd58d20df93c57e571b054b3c582932a795a255dc13c65b055dc1880b1"
 metafile = true
 
 [[files]]
@@ -1883,7 +1883,7 @@ metafile = true
 
 [[files]]
 file = "mods/rustic-delight.pw.toml"
-hash = "3da8a9aa7208ef7593239ecd755f40a564fd6b1883737796ecf9aab3744140dd"
+hash = "6bc2026c80aa8af3dc63d2038eac872e3916a4d14b37f8f8a13eb4ca9efedbff"
 metafile = true
 
 [[files]]
@@ -2023,7 +2023,7 @@ metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
-hash = "3c08d6331ca871abdfa7a185011d2a6349a1125cc6b2cf87f9c89ca4043dbe70"
+hash = "926387faecac7270469466b6e2a930241c5612cda27abbc41a5ecaea212475a1"
 metafile = true
 
 [[files]]

@@ -12,6 +12,11 @@
 - Seed oils no longer overlap
   - only seed oil from crafts and aditions possible.
 
+- Change Brass Gearbox recipe to be _slightly_ cheaper.
+  - requires preciison mechanism instead of a full rotaional speed controller (technically cheaper by one brass but its more QoL)
+- Recipes for cinnabar and sulfur blocks
+  - Since they're cosmetic, it is just 128mb dye filling of Calcite
+
 ### Mod tweaks
 
 - Aeronautics air pressure cuttoff removed (thanks chloe!)
@@ -65,7 +70,7 @@
 
 #### Overlaps and fixes
 
-- For some brick types, when being smepted there were multiple outputs. Now some are craftable via stonecutter
+- For some brick types, when being smelted there were multiple outputs. Now some are craftable via stonecutter
 - overlapping recipe removals for scaffolding and lever
 - tinted glass pane from immersive weathering now craftable
   - Also, tinted glass is cheaper to make now!

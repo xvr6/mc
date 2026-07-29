@@ -119,4 +119,22 @@ ServerEvents.recipes((event) => {
   // - Remove duplicate seed oils
   event.remove({ output: Fluid.of("electroenergetics:plant_oil") });
   event.remove({ output: Fluid.of("createdieselgenerators:plant_oil") });
+
+  // Recipe for l-shaped gearbox -> normal gearbox
+  event.shaped("create:gearbox", [" C ", "CG ", "   "], {
+    G: "createutilities:lshaped-gearbox",
+    C: "create:cogwheel",
+  });
+
+  event.shaped("create:gearbox", ["GC ", "C  ", "   "], {
+    G: "createutilities:lshaped-gearbox",
+    C: "create:cogwheel",
+  });
+
+  // - make brass gearboxes a bit cheaper
+  event.replaceInput(
+    { id: "create_connected:crafting/kinetics/brass_gearbox" },
+    "create:rotation_speed_controller",
+    "create:precision_mechanism",
+  );
 });
