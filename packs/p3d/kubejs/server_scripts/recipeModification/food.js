@@ -144,12 +144,11 @@ ServerEvents.recipes((event) => {
   );
 
   // - Fried Delights adjustments/priority/compat;
-  console.log("pleading emoji");
-  event.replaceInput(
-    { output: "ratatouille_fried_delights:breaded_onion_rings" },
-    "farmersdelight:onion",
-    "someassemblyrequired:sliced_onion",
-  );
+  //event.replaceInput(
+  //  { output: "ratatouille_fried_delights:breaded_onion_rings" },
+  //  "farmersdelight:onion",
+  //  "someassemblyrequired:sliced_onion",
+  //);
   //change cooking oils; done in combination with language changes in client
   event.replaceInput(
     { input: "rusticdelight:cooking_oil" },
