@@ -15,6 +15,8 @@
   - Boilstone heating converts 500mb of seed oil into 125mb Food Grade Seed Oil (rename of ratatouille_dried_delights:sunflower_oil)
     - With intend of this replacing all inputs for rusticdelight:cooking oil.
     - CURRENTLY INCOMPLETE; mass replacement of inputs with kjs not working, shapeless 1:1 converstion between food grade oil and cooking oil
+- Eggs are now much more obtainable, and thus should be nerfed a bit.
+  - Eggshells are no longer 1to1 with ratatouille compost, now 4to1
 
 - Seed oils no longer overlap
   - only seed oil from crafts and aditions possible.
