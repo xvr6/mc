@@ -29,13 +29,13 @@ ServerEvents.recipes((event) => {
     Fluid.of(`create_dragons_plus:red_dye`, 250),
   ]);
   event.recipes.createFilling("industrially_plated:hazard_stripe_block", [
-    "minecraft.black_concrete",
+    "minecraft:black_concrete",
     Fluid.of("create_dragons_plus:yellow_dye", 250),
   ]);
   event.recipes.createFilling(
     "industrially_plated:radiation_hazard_stripe_block",
     [
-      "minecraft.pink_concrete",
+      "minecraft:pink_concrete",
       Fluid.of("create_dragons_plus:yellow_dye", 250),
     ],
   );
