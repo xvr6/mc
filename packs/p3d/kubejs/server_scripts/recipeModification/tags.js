@@ -1,4 +1,5 @@
 ServerEvents.tags("item", (event) => {
+  event.remove("ratatouille_fried_delights:compostable_items_1to1");
   event.add("dndecor:industrial_cogwheels", "dndecor:industrial_cogwheel");
   event.add(
     "poinky:non_hand_craftable",

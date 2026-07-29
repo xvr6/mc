@@ -312,7 +312,7 @@ hash = "2045eb7be153c1a888349eb0abb64e7a35741224ccda469dd783d7607243f7eb"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/tags.js"
-hash = "31960cfd66a5adc85431740b9c3c1b6cbe3210d9e74336c07b617b51c294c16f"
+hash = "ce175e4646301a0e7777de7e93b2f7f3fe5b120289088c9501081b96a64fbeb0"
 
 [[files]]
 file = "kubejs/server_scripts/sizeMod.js"
