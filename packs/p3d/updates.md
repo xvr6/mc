@@ -2,6 +2,14 @@
 
 ## Update: v3.1.3-beta1
 
+### Neoforge update
+
+> [!warn]
+> Updating with packwiz will cause your game to still load with the old version and crash. Restart again and it'll be fixed :3
+
+- 21.1.233 -> 21.1.244
+- may cause some random bugs here and there, please bring to my attention if so
+
 ### Recipes
 
 - Adjustments to Cooking Oil
@@ -14,12 +22,13 @@
 
 - Change Brass Gearbox recipe to be _slightly_ cheaper.
   - requires preciison mechanism instead of a full rotaional speed controller (technically cheaper by one brass but its more QoL)
+
 - Recipes for cinnabar and sulfur blocks
   - Since they're cosmetic, it is just 128mb dye filling of Calcite
 
 ### Mod tweaks
 
-- Aeronautics air pressure cuttoff removed (thanks chloe!)
+- Aeronautics air pressure cutoff removed (thanks chloe!)
   - Previously, when u reached Y=320 your plane would just... fall out of the sky.
   - New maximum height is set to Y=500 and it gradually decreases in air pressure until then!
 - Coop block (for egg production) has been changed:

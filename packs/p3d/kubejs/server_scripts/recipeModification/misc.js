@@ -24,6 +24,21 @@ ServerEvents.recipes((event) => {
     "create:iron_sheet",
     Fluid.of(`create_dragons_plus:blue_dye`, 250),
   ]);
+  event.recipes.createFilling("4x industrially_plated:blank_fire_safety_sign", [
+    "create:iron_sheet",
+    Fluid.of(`create_dragons_plus:red_dye`, 250),
+  ]);
+  event.recipes.createFilling("industrially_plated:hazard_stripe_block", [
+    "minecraft.black_concrete",
+    Fluid.of("create_dragons_plus:yellow_dye", 250),
+  ]);
+  event.recipes.createFilling(
+    "industrially_plated:radiation_hazard_stripe_block",
+    [
+      "minecraft.pink_concrete",
+      Fluid.of("create_dragons_plus:yellow_dye", 250),
+    ],
+  );
   event.stonecutting(
     "industrially_plated:fire_diamond_sign",
     "industrially_plated:blank_instruction_sign",
@@ -121,13 +136,13 @@ ServerEvents.recipes((event) => {
   event.remove({ output: Fluid.of("createdieselgenerators:plant_oil") });
 
   // Recipe for l-shaped gearbox -> normal gearbox
-  event.shaped("create:gearbox", [" C ", "CG ", "   "], {
-    G: "createutilities:lshaped-gearbox",
+  event.shaped(Item.of("create:gearbox"), [" C ", "CG ", "   "], {
+    G: "createutilities:lshaped_gearbox",
     C: "create:cogwheel",
   });
 
-  event.shaped("create:gearbox", ["GC ", "C  ", "   "], {
-    G: "createutilities:lshaped-gearbox",
+  event.shaped(Item.of("create:gearbox"), ["GC ", "C  ", "   "], {
+    G: "createutilities:lshaped_gearbox",
     C: "create:cogwheel",
   });
 
