@@ -23,9 +23,14 @@
   - One seed is consumed by the belt/depo infront of it and an egg is produced each time.
   - mainly done as a lag optimization thing; no longer a need for chicken farms if all you care about is eggs.
     - Note that feathers are also craftable with nothing but some string and a stick
+- Origins is, for now, completely gone
+  - Current version we were using was really buggy and caused lots of assumed lag
 
 ### Misc
 
+- WIP: player size adjutment with essences
+  - you'll notice on the cobblemon size essences there are now descriptions.
+    I'm working on a way to make them edible and allow the player to grow/shrink in size with pehkui.
 - A relatively 'decent' jei default config was added to aleviate some transition pains from EMI
 
 ## Update: v3.1.2
