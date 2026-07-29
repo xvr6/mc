@@ -28,6 +28,12 @@
 
 ### Mod tweaks
 
+- Updates to Industrially Plated
+  - New type of sign: fire safety signs, modified to be crafted the same way as the others!
+    - Filling of iron plate with red dye -> blank sign
+    - Stonecutter blank sign -> all red variants
+  - Recipes added for this pack added for hazard and radiation hazard stripe blocks
+    - Yellow dye filling of black and pink concrete respectively
 - Aeronautics air pressure cutoff removed (thanks chloe!)
   - Previously, when u reached Y=320 your plane would just... fall out of the sky.
   - New maximum height is set to Y=500 and it gradually decreases in air pressure until then!
