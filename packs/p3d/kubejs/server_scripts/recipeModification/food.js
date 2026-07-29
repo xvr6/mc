@@ -142,4 +142,43 @@ ServerEvents.recipes((event) => {
     ["farmersdelight:pie_crust"],
     [Ingredient.of("#c:flours", 3), Fluid.of("minecraft:milk", 250)],
   );
+
+  // - Fried Delights adjustments/priority/compat;
+  //event.replaceInput(
+  //  { output: "ratatouille_fried_delights:breaded_onion_rings" },
+  //  "farmersdelight:onion",
+  //  "someassemblyrequired:sliced_onion",
+  //);
+  //change cooking oils; done in combination with language changes in client
+  event.replaceInput(
+    { input: "rusticdelight:cooking_oil" },
+    "rusticdelight:cooking_oil",
+    "ratatouille_fried_delights:sunflower_seed_oil_bottle",
+  );
+  //FIXME: NONE of the above work
+  // bandaid fix:
+  event.shapeless("rusticdelight:cooking_oil", [
+    "ratatouille_fried_delights:sunflower_seed_oil_bottle",
+  ]);
+
+  event.remove({ output: "rusticdelight:cooking_oil" });
+
+  event.remove({ id: "ratatouille_fried_delights:compacting/sunflower_oil" });
+  event.recipes
+    .createMixing(
+      [
+        Fluid.of("ratatouille_fried_delights:sunflower_oil", 125),
+        "ratatouille:boil_stone",
+      ],
+      ["ratatouille:boil_stone", Fluid.of(`createaddition:seed_oil`, 500)],
+    )
+    .heated();
+
+  event.recipes.createEmptying(
+    [
+      "minecraft:glass_bottle",
+      Fluid.of("ratatouille_fried_delights:sunflower_oil", 125),
+    ],
+    "ratatouille_fried_delights:sunflower_seed_oil_bottle",
+  );
 });

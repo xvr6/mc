@@ -37,6 +37,10 @@ file = "config/create_connected-common.toml"
 hash = "c23ee69f3507516f42801543b2b863fb6e0865f4c41e029b1336ebe827aecf14"
 
 [[files]]
+file = "config/create_integrated_farming-server.toml"
+hash = "535b955e1ab30daeb87a758b1a814c7652cb882f55eb08013e242c4d8d4e3192"
+
+[[files]]
 file = "config/createpropulsion-common.toml"
 hash = "074a7223d2351698de8d4b66c0141194f1daddf8e0a591711c154a7d7d0563b8"
 
@@ -110,11 +114,11 @@ hash = "ccda7f85de5850bc2fb0ce05a6ff95cac14dd8f6546885fc303ee151e1e55610"
 
 [[files]]
 file = "config/packed_packs/profiles/resourcepacks/Cobblemon.profile.json"
-hash = "7f1d00090786645e885ca24c8a05e0d590495e46a73c0fcea44208fc1642d04b"
+hash = "f711c19d0029a647d1a86796df5e1db4eb8defce6606601c8f2dd707bfbbe86e"
 
 [[files]]
 file = "config/packed_packs/profiles/resourcepacks/FA + Cobblemon.profile.json"
-hash = "9ec54c18d725c3892f297410cff71e296b918cdf3037af6588693a453588ce43"
+hash = "7987fa6ce6b1ca333e4f959e82049a2d73c598a42093b876b80d092339483cd4"
 
 [[files]]
 file = "config/quark-common.toml"
@@ -173,12 +177,8 @@ file = "config/yosbr/config/accessories.json5"
 hash = "0782a3c1fbfe057013b029be7fb502315355d512ce2cd38f8dad7311f9d73b4c"
 
 [[files]]
-file = "config/yosbr/config/autohud.json5"
-hash = "00a23185906662fb34bc59d9bb7b31f21882558a5e9c077eaec18bdb3fa9e79f"
-
-[[files]]
-file = "config/yosbr/config/mindfuldarkness-client.toml"
-hash = "87c94f1bb1b674bb1e06963eb82f1cb73ce2a521fe0253a1bf77e1d8204183ee"
+file = "config/yosbr/config/jei/jei-client.ini"
+hash = "a0ec8e556044e45f846d977c731fcfbe5335603e97af0c1544a237608d337774"
 
 [[files]]
 file = "config/yosbr/config/shouldersurfing-client.toml"
@@ -263,6 +263,10 @@ file = "datapacks/poinky-additions/data/cobblemon/species_additions/trevenant_pa
 hash = "f97af720e3f5542801a5121a40b8b66ca08845bea08ef89a077a92943bfd7166"
 
 [[files]]
+file = "datapacks/poinky-additions/data/poinky/dimension_physics/overworld.json"
+hash = "5f42fb7ec4d3b72f738563730fcb22dca949816b06b78291e74fe2924f5f77d7"
+
+[[files]]
 file = "datapacks/poinky-additions/data/poinky/recipe/casting_in_table/void_steel.json"
 hash = "b1e398fb740f24fe67a2b32e8a228fd1e6eef0ac69267a6f0f74b6a11d3fe4d2"
 
@@ -271,312 +275,12 @@ file = "datapacks/poinky-additions/pack.mcmeta"
 hash = "e55e81dbcbe7422bedfbb049e684863c100430049f586e483ea6d9d2fe967972"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/alolain.png"
-hash = "a3242255252b27e36214076c0b8d6047fd7effdb709e287d607b0d04d84ffec7"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/bulbasaur.png"
-hash = "054f6abc728d321abf0c1c9f6571d761a8bfc3b29099e8bd5936b05878de5c6a"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/charmander.png"
-hash = "c3747f76c26f29e9eb308dc022a53459ff11bb7f7ce946dcf71af4bc61f647d2"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/chespin.png"
-hash = "6cdcbe1fe70defe78d73a4cd5eec81824fbc02a1bb89f1b7f675da0ee61f9303"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/chikorita.png"
-hash = "4a882d428771d328e189410918556ff601a13e435634187bf2c04c0f7de1e52c"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/chimchar.png"
-hash = "8c99e06efd72b564eac8cec551f32ef68434eac0a5c75da232a070b21e2562a3"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/cyndaquil.png"
-hash = "cb879f228c101ddbeec5b6e0c37acad2ff06f76e5aa3de3dc608adc9c155a7e7"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/eevee.png"
-hash = "1354f12bb80f40d055776c218d815d21a23db873e3795652bf04448bf66e1022"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/emberam.png"
-hash = "4adcd149e1fa70b6d0c10c7b6957d739e94a0f0637e56bc950269c708d58e6a4"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/enby.png"
-hash = "da2f90c9bfd0c3645c34bfb52039fdaa6aad2aed0278148dc836e297380c7e94"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/equelpi.png"
-hash = "70508f1b285a2d53465b32e70963059efd15bbee576218e5e1c43d5fc719039b"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/female.png"
-hash = "8c0fd88d97acdb59981bbfce467989d6194a029ffc9532fa47e8e5785b96fb0f"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/fennekin.png"
-hash = "b095c1be87cc6d660f9978ef3a51aae5d1f864233db9d688a075678b3a7cd8c9"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/froakie.png"
-hash = "3764bb8dd79beb1efbff13b9d5294614916c01d2e96c596acc648c0626b45006"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/fuecoco.png"
-hash = "f16808c949e5c1e3ce52767ea368a541e4cfa076843edcb18fd576d74fb2f959"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/galarian.png"
-hash = "a37507f7e496c312429ed22b306a6dd7898092945deecfdcca75768522295214"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/grookey.png"
-hash = "b1228ce27435528b9e6ee157293405ec4e39176e728fc242f1823546b8cdb0e0"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/hisuian.png"
-hash = "87aa51c643593f85a0878b693eb6f822805bff2b629829d003434b465274c0b7"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/litten.png"
-hash = "3c439a0d5de8527adbe58ee356d31a4fd24644f75dce9faa7177d453c9461201"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/male.png"
-hash = "766de267f4238b7936aff26f38e41f27dee56a30c6fd88b6a40541731ef27405"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/mudkip.png"
-hash = "362f850a3d93b443768caeab71c55bf16c50a841ae58688e76e597c684347e4a"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/nonshiny.png"
-hash = "1df5c529bf8346e1b75389e1ae93303a0604d5a7826958e7a265e7bcd5a514be"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/oshawott.png"
-hash = "cb524e13bc76fa0be70199087d78c83715bde46da702ba757c61d07f4ac96d39"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/piplup.png"
-hash = "87a826c2d6b7e73c1c2560307bc58883eec0c69be5426e511183881337d6e3a3"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/popplio.png"
-hash = "0a55f5f98f7e65c43fe2b97befd3b170aea87497233e9e76a36a301535009df5"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/quaxly.png"
-hash = "62c3bd288dfa79746b31ea6c7fea1e16297eb0aa67720d39da98f987e3a8c6da"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/regular.png"
-hash = "bdca8d9888d544291c4325fb1f7736fc302b70f97c5c1268ddb0fdb3afc77590"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/rowlet.png"
-hash = "113ea1c1abb69196e1ba7c8aeeb74a2963f2afa56287344f2479cfaaa1611762"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/scorbunny.png"
-hash = "d684656dd4c1af3048559cf7ea0f748ae48a485533122d6365461b15b53c1909"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/shiny.png"
-hash = "5a5ff5c7bebf971375ba407dbf7b526154aac83d2571284ce88062b56069ffe3"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/snivy.png"
-hash = "37e06ef4797128b7a937ad126d68ff05e6a286427135830092a9f1d4bf92282a"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/sobble.png"
-hash = "a6ee8d565221eb613a0f7238984f23b4b55a7b5fd3736c858779d4e026c65171"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/sprigatito.png"
-hash = "e1ba7e4efd2fa40f12618d90246582b3c1ddb56d6dddccfa71cf12f0b80828f1"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/squirtle.png"
-hash = "3a924ea9bde5c91630d64624db187cd780a90f2ee0dc19d8af3f8b03da27c4db"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tepig.png"
-hash = "f90e51f6e80110612637089ce05908ea1103faa918ef3646d00b428f3095d66b"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tigriff.png"
-hash = "52d09cfcd98398d487fc882af912e079abd32bed4816b0d72df15a0d749082f9"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/torchic.png"
-hash = "65b758aa61df5cd6d1017cd7b1d107a9f20912330002c8c9c50bc05f184ee263"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/totodile.png"
-hash = "e7974331909036c3df2b6c24bed2d01c44f7dab9231d08ac1133cf2e2e13e7b7"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/treecko.png"
-hash = "631032eb1f3b7ace24f1b6f0d755b211d00064bf54313f1bc16ac51a0d844090"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/turtwig.png"
-hash = "ab8142b242cf5040d59f51a1746ff9eef0eedc7f46ea9e84a5b55829a7a726c5"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/zorua.png"
-hash = "474114ab35bdf49081fe6f11a7e15ab3e8ca760b306d7ca70b860ff8d261150c"
-
-[[files]]
-file = "kubejs/config/startmon.json"
-hash = "38f4eda25c0c0c18b4c16ee610a44163c5355246aad0e876e5735ed7d5819228"
-
-[[files]]
-file = "kubejs/data/origins/tags/origins/origin/origin.json"
-hash = "fbe06ec2cc8c9b6858b23ff17398dc2fc17209cc3f5ea77dac9eea7c69d758ed"
-
-[[files]]
-file = "kubejs/data/startmon/origins/layer/gender.json"
-hash = "77912ba31492181ffc7d9e14e7ae206fc3abef3ce34e2e09e9ab8c0f9d70221a"
-
-[[files]]
-file = "kubejs/data/startmon/origins/layer/shiny.json"
-hash = "0bc9563c4c9f047cc3df7226759217bea351b40ef558cff13a80d56fb7687d13"
-
-[[files]]
-file = "kubejs/data/startmon/origins/origin/female.json"
-hash = "d87f6be2dab56c63bcae408d41dd8ddf98c23e8d4157ef5747fe3588517ef70f"
-
-[[files]]
-file = "kubejs/data/startmon/origins/origin/male.json"
-hash = "ec425b6ff6799111d940ca1977e5ec3f5f2d3616311adba2eb4eafff9faf81c8"
-
-[[files]]
-file = "kubejs/data/startmon/origins/origin/mon.json"
-hash = "4cf91a3e197e5d71aea677f2ae6b6cce56d8183fd5a19cebe97a5931b9390f67"
-
-[[files]]
-file = "kubejs/data/startmon/origins/origin/nonbinary.json"
-hash = "40631f474582c7559bd5ff08029b3b306702b8bee87e455c470a74bd073564ba"
-
-[[files]]
-file = "kubejs/data/startmon/origins/origin/nonshiny.json"
-hash = "1cde0650432c6931f82645500f074fa406db4c9e3a478ba86596562c1a371b62"
-
-[[files]]
-file = "kubejs/data/startmon/origins/origin/off.json"
-hash = "fa6176a7be0e53fec8c76fa7902bb8c6b7722220fea98fc1d20f016f2ba68e7b"
-
-[[files]]
-file = "kubejs/data/startmon/origins/origin/regular.json"
-hash = "1b7dc9bfe73ef7173fecaf5588fbefc2fc660c320c718315028ceef1451fa7f2"
-
-[[files]]
-file = "kubejs/data/startmon/origins/origin/shiny.json"
-hash = "e54b9ad5d5083ad7e3cdf34a71c38c18dfa84d9dc330a29c6ee644fcd6a01c64"
-
-[[files]]
-file = "kubejs/data/startmon/origins/power/female.json"
-hash = "366c77de6c4a28e0a122d3dde14869fe3c5bcdfddbea5ffb520261c7ad729573"
-
-[[files]]
-file = "kubejs/data/startmon/origins/power/male.json"
-hash = "f654c5797954d4d79d32c9827b0218371c36c5feb161a450f89d05e4b047567e"
-
-[[files]]
-file = "kubejs/data/startmon/origins/power/nonbinary.json"
-hash = "26db26f1abdeee518b570bb74dfc880eb4a37f3023a60d10fa726f0b86c95687"
-
-[[files]]
-file = "kubejs/data/startmon/origins/power/nonshiny.json"
-hash = "b233a8cfd5c7fb3b95742573ee87bb8ba3a5072aa3e17ae9eb0e76a1212c9333"
-
-[[files]]
-file = "kubejs/data/startmon/origins/power/onlymon.json"
-hash = "0de3947303e557fe66991cf5fd73c0d1508d2c46c2765bee3b6c06a3ae52cfd6"
-
-[[files]]
-file = "kubejs/data/startmon/origins/power/shiny.json"
-hash = "03359346e3ccb91362ab74f23a2615698732f0c7f1de1fc2198bceefd67057fc"
-
-[[files]]
-file = "kubejs/data/vis/origins/origin/nautili.json"
-hash = "fff63fd7a37261b974b525649949b66984e9fc14148c249a3423a60d7ef05f57"
-
-[[files]]
-file = "kubejs/data/vis/origins/power/buffs/cannibalism.json"
-hash = "9b4cbf824f99dcfe847517ab632394f6c271162326a8e119410f39a2f7b346d6"
-
-[[files]]
-file = "kubejs/data/vis/origins/power/buffs/canteen.json"
-hash = "9db703384569528c5e6724a6b20e9dbbdc7e28d0eaa3f552432ecd7d5d7707b9"
-
-[[files]]
-file = "kubejs/data/vis/origins/power/buffs/coralgen.json"
-hash = "e4bc365ebb7e9eaf1e3f39de019e38a0c977648f1d6684a4df1bf95bdf3d48c7"
-
-[[files]]
-file = "kubejs/data/vis/origins/power/buffs/swimspeed.json"
-hash = "c8283651e3d953004a0f4537c01cc4d800a40b55b826b56b7200186dc8210459"
-
-[[files]]
-file = "kubejs/data/vis/origins/power/buffs/triplespiked.json"
-hash = "d1d5c5dc5ded9053958648746c330a06b3a55bf70477ecdc0fc1e9013a001a69"
-
-[[files]]
-file = "kubejs/data/vis/origins/power/debuffs/coralstate.json"
-hash = "ab1dfe4a104752f7a602f324f87875193822130c6f07bf0a383813fe75a57e32"
-
-[[files]]
-file = "kubejs/data/vis/origins/power/debuffs/hinderingshell.json"
-hash = "2eac5323f6ea6713ef20539d7d27f088a32417c86eecb50308fef86ca19d779b"
-
-[[files]]
-file = "kubejs/data/vis/origins/power/debuffs/riftcurse.json"
-hash = "b33ece1fcc0e242108843a31ed219c157a1e40c0d6636f5fefc4b9985425bb4c"
-
-[[files]]
-file = "kubejs/data/vis/origins/power/debuffs/shatter.json"
-hash = "0c8779a782bd41423a62f5a2055801e064c2447434b09f96685e46f2a76432ad"
-
-[[files]]
-file = "kubejs/data/vis/origins/power/neutral/scalefix.json"
-hash = "087a12fe21706d73f9279167b0371bf38dd77744220de5d66e023f575e8b7624"
-
-[[files]]
-file = "kubejs/data/vis/origins/power/neutral/yeet.json"
-hash = "dffd404d49eca4af0422b2843155ec5bcc3d33ba5f6479a9ba7054922f984270"
-
-[[files]]
-file = "kubejs/data/vis/origins/power/resources/echo.json"
-hash = "5b49759e1f347dd9c0a594ee9bfdb7696cbe8b07e1d5cdaf94be31c8f8d056da"
-
-[[files]]
-file = "kubejs/data/vis/origins/power/resources/stamina.json"
-hash = "533501686bb351299ebb71531040ff95e03af82bcb425e34d8033b3e29411637"
-
-[[files]]
-file = "kubejs/data/vis/origins/power/sfx/naut.json"
-hash = "cd4e9304e32633fd7f3c12383d67328eb7c81bcf1a086f398ffa4f4897d955cf"
-
-[[files]]
-file = "kubejs/fetchIcons.py"
-hash = "7834dcf761f113d05401be46a49e4d87834aec787fe97e24131d95ecf98c834e"
+file = "kubejs/client_scripts/renames.js"
+hash = "7ba565ed80d67beb1f24488c492b9e75c82aae506e91101bdefa1798e0d42a9c"
 
 [[files]]
 file = "kubejs/server_scripts/kits.js"
-hash = "8de30b35e5b3eefbbfde8ede5a91dd9a5fa216c4865ad2eed3a1530722401a73"
-
-[[files]]
-file = "kubejs/server_scripts/mon_generate.js"
-hash = "a8e952f5628b32ee927faa6c1323aa3c81121b30da0660f721989095c9c07acc"
+hash = "106ec1300d73aa4cb1741429121ace898344758a2275425450e7fdb354c9fb1d"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/bucketFixes.js"
@@ -584,15 +288,15 @@ hash = "0fee6806e6c089e328bd6e97c55c8a57d6c50de3e4cb508213a0c57dab86279a"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/cobblemon.js"
-hash = "e6950e3963dfa08b8cb847d8b6b2d3208b321bec9f4ab0f04cb6394d02b21a74"
+hash = "5d5b381903b0955f9cca5c2694ccd48fb1c258bb574060fc3961044625b1d298"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/enriching.js"
-hash = "86f0e0364ee8a930309b7360c6857c0ead7464b9914c7becea8f9679deff6ca9"
+hash = "a0cf8994a274ea28bad48cc0d46289f060d35f129109c84203f1cfb955bd4726"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/food.js"
-hash = "994b339e71a2f7d838477194d6a9a5b993d55b8979cb60bc87055aabb3455796"
+hash = "21074aedcc346db5ef03079714cdd0e9898e1f7c8f8552a383fdc5c2c6466ff9"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/freezing.js"
@@ -600,7 +304,7 @@ hash = "181672b7728e8dd866d521597e8449a1a60293f9aef0520c9075a8b7f01a91f3"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/misc.js"
-hash = "003582c1206bcc33cfa36f96b698c16059cea7de79bd874acb263cc719eea7b1"
+hash = "7b7493bc2c6071a3b16af44fc2787792f4e54011089db53c5052943673c92c7d"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/stones.js"
@@ -608,15 +312,15 @@ hash = "a022ce01ab586da46f2c13e8c820e32c4701ff9370eec18c60d30a0a9ab9296c"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/tags.js"
-hash = "cd5892607f4854d4a66cf8876bae90a6ba53c00b0bd9b4d63346842a12043bf9"
+hash = "31960cfd66a5adc85431740b9c3c1b6cbe3210d9e74336c07b617b51c294c16f"
 
 [[files]]
-file = "kubejs/server_scripts/startMon.js"
-hash = "c8beb12250db21fba7c015f3c5660be4e50fc87efa596cc3ac2d695ba611461b"
+file = "kubejs/server_scripts/sizeMod.js"
+hash = "9a6d5f2211fd153c8de33a5eb4e43c288504120930763c784b81bd4a612d41bb"
 
 [[files]]
-file = "kubejs/startup_scripts/startmonItems.js"
-hash = "094c0ebafa79913c0b277968e86df841967a7d189b87a01c9292b734228036d6"
+file = "kubejs/startup_scripts/growthEssences.js"
+hash = "61a0b3b4e2a25925b03deeaffe2d016a0df729950cba7770255caf3972e93278"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -691,11 +395,6 @@ metafile = true
 [[files]]
 file = "mods/athena-ctm.pw.toml"
 hash = "f54cf71372645810ce22b0ba68e706139565437150e4cfd22bde4c14606099c4"
-metafile = true
-
-[[files]]
-file = "mods/autohud.pw.toml"
-hash = "ab2fa327ae99570e3cbc198d93893fb4c157026fbc0e52fd4c3dfc45f91749c0"
 metafile = true
 
 [[files]]
@@ -870,7 +569,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobbledex-rei-emi-jei.pw.toml"
-hash = "6a5e605c9cc5dcc69e449c1c268b1b26bc9ac1f7705441bf108db46cd5b93e4f"
+hash = "94da8c7fb5c7858e100495463aca42235b1f42d1075f8e5affb0d335f78533d7"
 metafile = true
 
 [[files]]
@@ -1229,9 +928,8 @@ hash = "774466d0a8b3e2aa118abe93d5c22bc9d608f62589cea10f1399f8d29e7ea5bd"
 metafile = true
 
 [[files]]
-file = "mods/create-integrated-farming.pw.toml"
-hash = "a9b61f02176f8e0e1da5354fba2e17228b4f2d622d0f23faf195785af3fda018"
-metafile = true
+file = "mods/create-integrated-farming-1.2.7.jar"
+hash = "19c2af31a67940fd45cc528ca4c9414bb0cd5154139c26c18c02704e1fb50a3c"
 
 [[files]]
 file = "mods/create-let-the-adventure-begin.pw.toml"
@@ -1740,7 +1438,7 @@ metafile = true
 
 [[files]]
 file = "mods/jeasync.pw.toml"
-hash = "2e759743fc78f8e67b2b65b60d23eee458a627dd6c57c2e6c24a548f084b8a7d"
+hash = "dcd666f98d247a436cb85c01dcc105a00bd09c0f65e9a21a4ff30d7d6e62328f"
 metafile = true
 
 [[files]]
@@ -2006,11 +1704,6 @@ metafile = true
 [[files]]
 file = "mods/oceans-delight.pw.toml"
 hash = "7bf7c8369bd28212a1e294c60310ccb72f1eb773630970e6ab106ae666766cd3"
-metafile = true
-
-[[files]]
-file = "mods/origins-neoforge.pw.toml"
-hash = "13db9dd1621e5247305a3cfd1aeea8b4e1c395d73872de92aa78e9c1f4d4553d"
 metafile = true
 
 [[files]]
@@ -2576,6 +2269,14 @@ metafile = true
 file = "resourcepacks/mysticmons.pw.toml"
 hash = "ed1ead004b389a5fe094a0b46b7584ed8f30354c026e20dd614b96491f5bb426"
 metafile = true
+
+[[files]]
+file = "resourcepacks/poinky-additions/assets/ratatouille_fried_delights/lang/en_us.json"
+hash = "8f65a361c41d35ade555ea00105f845b7e06d765a3b03e310dbd793acf1e5753"
+
+[[files]]
+file = "resourcepacks/poinky-additions/pack.mcmeta"
+hash = "142d6977e437deebd7b6adcb39d1bdacc30f423a767895e4d4f7e3abd45af5f0"
 
 [[files]]
 file = "shaderpacks/complementary-unbound.pw.toml"

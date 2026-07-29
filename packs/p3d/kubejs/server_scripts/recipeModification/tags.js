@@ -1,4 +1,5 @@
 ServerEvents.tags("item", (event) => {
+  event.add("dndecor:industrial_cogwheels", "dndecor:industrial_cogwheel");
   event.add(
     "poinky:non_hand_craftable",
     "#cobblemon:tier_2_poke_balls",
@@ -6,10 +7,11 @@ ServerEvents.tags("item", (event) => {
     "#cobblemon:tier_4_poke_balls",
     "cobblemon:master_ball",
   );
+
   event.add(
     "c:salt",
     "ratatouille:salt",
-    "expandeddelight:salt",
+    "expandeddelight:salt", //should be no longer obtainable
     "moresnifferflowers:salty_spice",
   );
   event.add(

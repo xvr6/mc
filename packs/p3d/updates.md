@@ -1,5 +1,38 @@
 # Update Changelogs!
 
+## Update: v3.1.3-beta1
+
+### Recipes
+
+- Adjustments to Cooking Oil
+  - Boilstone heating converts 500mb of seed oil into 125mb Food Grade Seed Oil (rename of ratatouille_dried_delights:sunflower_oil)
+    - With intend of this replacing all inputs for rusticdelight:cooking oil.
+    - CURRENTLY INCOMPLETE; mass replacement of inputs with kjs not working, shapeless 1:1 converstion between food grade oil and cooking oil
+
+- Seed oils no longer overlap
+  - only seed oil from crafts and aditions possible.
+
+### Mod tweaks
+
+- Aeronautics air pressure cuttoff removed (thanks chloe!)
+  - Previously, when u reached Y=320 your plane would just... fall out of the sky.
+  - New maximum height is set to Y=500 and it gradually decreases in air pressure until then!
+- Coop block (for egg production) has been changed:
+  - Now it has a flat ~30sec cooldown between each egg it generated
+  - Cooldown fluctuates by ~3sec just for pure randomization sake and for coops not producing in lock step
+  - One seed is consumed by the belt/depo infront of it and an egg is produced each time.
+  - mainly done as a lag optimization thing; no longer a need for chicken farms if all you care about is eggs.
+    - Note that feathers are also craftable with nothing but some string and a stick
+- Origins is, for now, completely gone
+  - Current version we were using was really buggy and caused lots of assumed lag
+
+### Misc
+
+- WIP: player size adjutment with essences
+  - you'll notice on the cobblemon size essences there are now descriptions.
+    I'm working on a way to make them edible and allow the player to grow/shrink in size with pehkui.
+- A relatively 'decent' jei default config was added to aleviate some transition pains from EMI
+
 ## Update: v3.1.2
 
 - Mostly mod updates, but of note:

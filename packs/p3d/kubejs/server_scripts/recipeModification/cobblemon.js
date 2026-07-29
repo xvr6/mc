@@ -2,27 +2,27 @@ ItemEvents.modifyTooltips((event) => {
   event.add(
     "cobblemonsizevariation:huge_essence",
     { shift: false },
-    Text.gray("Eat to become CHONKY"),
+    Text.gray("WIP: Eat to become CHONKY"),
   );
   event.add(
     "cobblemonsizevariation:growth_essence",
     { shift: false },
-    Text.gray("Eat to become larger"),
+    Text.gray("WIP: Eat to become larger"),
   );
   event.add(
     "cobblemonsizevariation:normal_essence",
     { shift: false },
-    Text.gray("Eat to return to normal size"),
+    Text.gray("WIP: Eat to return to normal size"),
   );
   event.add(
     "cobblemonsizevariation:shrink_essence",
     { shift: false },
-    Text.gray("Eat to become smaller"),
+    Text.gray("WIP: Eat to become smaller"),
   );
   event.add(
     "cobblemonsizevariation:tiny_essence",
     { shift: false },
-    Text.gray("Eat to become MINISCULE"),
+    Text.gray("WIP: Eat to become MINISCULE"),
   );
 });
 
@@ -141,7 +141,7 @@ ServerEvents.recipes((event) => {
       "*",
       Fluid.of(`cobblemon_industries:${color}_fluid`, 1000),
       Fluid.of(`create_dragons_plus:${color}_dye`, 250),
-      //FIXME: this does not actually repalce fluid quantities values.....
+      // FIXME: this does not actually repalce fluid quantities values.....
     );
   });
 
@@ -149,6 +149,8 @@ ServerEvents.recipes((event) => {
   Color.DYE.forEach((color) => {
     event.remove({ id: `create_dragons_plus:mixing/${color}_dye_from_fluid` });
     event.remove({ id: `create_dragons_plus:mixing/${color}_dye_from_item` });
+    //readd, but with boil stone
+    //       values increased to 1000 as bandaid fix to previous replacement not working.
     event.recipes.createMixing(
       [Fluid.of(`create_dragons_plus:${color}_dye`)],
       [`minecraft:${color}_dye`, Fluid.of("minecraft:water", 1000)],
