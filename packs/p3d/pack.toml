@@ -1,6 +1,6 @@
 name = "New Poinky 3D XS"
 author = "xvr6"
-version = "3.1.3-beta1"
+version = "3.1.3-beta2"
 pack-format = "packwiz:1.1.0"
 
 [index]
@@ -10,7 +10,7 @@ hash = "bf76b0ea9c08998713979230a8a169998a173c72be20f20ce4ac80fe4f444d56"
 
 [versions]
 minecraft = "1.21.1"
-neoforge = "21.1.233"
+neoforge = "21.1.244"
 
 [options]
 datapack-folder = "./datapacks"
