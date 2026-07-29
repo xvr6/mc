@@ -15,4 +15,4 @@ version = "PEHRE9ut"
 [option]
 optional = true
 description = "Dark mode mod that should work with everything; make sure to not use the resource pack"
-default = true
+default = false
