@@ -1097,6 +1097,11 @@ hash = "36358b308e0ede7fe0b22c69396eb8cf44c2b54b96fd593cf2ed5f43759a327c"
 metafile = true
 
 [[files]]
+file = "mods/dark-mode-everywhere.pw.toml"
+hash = "9950ae0e3028959ac99dfaeef452bbdd7c4a53d59435f2cc7f28b6bf7a748587"
+metafile = true
+
+[[files]]
 file = "mods/data-anchor.pw.toml"
 hash = "01d92d8ba2e35a9a46405a601849aed400b4d539f7db9b6500ab5ee40806da9a"
 metafile = true
