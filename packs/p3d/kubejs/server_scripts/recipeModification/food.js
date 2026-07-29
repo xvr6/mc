@@ -156,6 +156,11 @@ ServerEvents.recipes((event) => {
     "ratatouille_fried_delights:sunflower_seed_oil_bottle",
   );
   //FIXME: NONE of the above work
+  // bandaid fix:
+  event.shapeless("rusticdelight:cooking_oil", [
+    "ratatouille_fried_delights:sunflower_seed_oil_bottle",
+  ]);
+
   event.remove({ output: "rusticdelight:cooking_oil" });
 
   event.remove({ id: "ratatouille_fried_delights:compacting/sunflower_oil" });

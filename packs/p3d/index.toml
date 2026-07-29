@@ -292,7 +292,7 @@ hash = "a0cf8994a274ea28bad48cc0d46289f060d35f129109c84203f1cfb955bd4726"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/food.js"
-hash = "fc8ad2cb46830aed97473feb9e33135ab02cd4405c0ef8922c427f6fc716d3c5"
+hash = "21074aedcc346db5ef03079714cdd0e9898e1f7c8f8552a383fdc5c2c6466ff9"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/freezing.js"
