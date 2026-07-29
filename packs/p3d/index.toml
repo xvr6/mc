@@ -279,6 +279,10 @@ file = "kubejs/client_scripts/renames.js"
 hash = "7ba565ed80d67beb1f24488c492b9e75c82aae506e91101bdefa1798e0d42a9c"
 
 [[files]]
+file = "kubejs/server_scripts/kits.js"
+hash = "9628caa86b1a12b0d5f23ee862025bf986d4a3c619a2ab12b84012acf7193c98"
+
+[[files]]
 file = "kubejs/server_scripts/recipeModification/bucketFixes.js"
 hash = "0fee6806e6c089e328bd6e97c55c8a57d6c50de3e4cb508213a0c57dab86279a"
 

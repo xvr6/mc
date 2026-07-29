@@ -12,11 +12,21 @@
 - Seed oils no longer overlap
   - only seed oil from crafts and aditions possible.
 
-### Misc
+### Mod tweaks
 
 - Aeronautics air pressure cuttoff removed (thanks chloe!)
   - Previously, when u reached Y=320 your plane would just... fall out of the sky.
   - New maximum height is set to Y=500 and it gradually decreases in air pressure until then!
+- Coop block (for egg production) has been changed:
+  - Now it has a flat ~30sec cooldown between each egg it generated
+  - Cooldown fluctuates by ~3sec just for pure randomization sake and for coops not producing in lock step
+  - One seed is consumed by the belt/depo infront of it and an egg is produced each time.
+  - mainly done as a lag optimization thing; no longer a need for chicken farms if all you care about is eggs.
+    - Note that feathers are also craftable with nothing but some string and a stick
+
+### Misc
+
+- A relatively 'decent' jei default config was added to aleviate some transition pains from EMI
 
 ## Update: v3.1.2
 
