@@ -280,7 +280,7 @@ hash = "7ba565ed80d67beb1f24488c492b9e75c82aae506e91101bdefa1798e0d42a9c"
 
 [[files]]
 file = "kubejs/server_scripts/kits.js"
-hash = "106ec1300d73aa4cb1741429121ace898344758a2275425450e7fdb354c9fb1d"
+hash = "67eadf9a3a77b6ba2d443a87940e3f066ba6697ff61cedd8dd5925f8d7aed5b0"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/bucketFixes.js"
@@ -296,7 +296,7 @@ hash = "a0cf8994a274ea28bad48cc0d46289f060d35f129109c84203f1cfb955bd4726"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/food.js"
-hash = "0886cc7c2343dff03af7bc1d6d90da1d99f9660760ecb94527996fdf4eb15ca7"
+hash = "c2c2385d3e20e0b884b52b58cbad08b54d71585431bfc246e2915c8428beab98"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/freezing.js"
