@@ -4,8 +4,7 @@
 
 ### Neoforge update
 
-> [!warn]
-> Updating with packwiz will cause your game to still load with the old version and crash. Restart again and it'll be fixed :3
+> Updating with packwiz will cause your game to still load with the old version and crash. Restart again and it'll be fixed :)
 
 - 21.1.233 -> 21.1.244
 - may cause some random bugs here and there, please bring to my attention if so
