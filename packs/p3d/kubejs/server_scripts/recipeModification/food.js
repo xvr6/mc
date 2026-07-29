@@ -146,20 +146,18 @@ ServerEvents.recipes((event) => {
   // - Fried Delights adjustments/priority/compat;
   console.log("pleading emoji");
   event.replaceInput(
-    { id: "ratatouille_fried_delights:coating/onion_coating" },
+    { output: "ratatouille_fried_delights:breaded_onion_rings" },
     "farmersdelight:onion",
     "someassemblyrequired:sliced_onion",
   );
-  console.log("pleading emoji2");
   //change cooking oils; done in combination with language changes in client
   event.replaceInput(
-    "*",
+    { input: "rusticdelight:cooking_oil" },
     "rusticdelight:cooking_oil",
     "ratatouille_fried_delights:sunflower_seed_oil_bottle",
   );
-  console.log("pleading emoji3");
-  event.remove({ output: "rusticdelight:cooking_oil" });
   //FIXME: NONE of the above work
+  event.remove({ output: "rusticdelight:cooking_oil" });
 
   event.remove({ id: "ratatouille_fried_delights:compacting/sunflower_oil" });
   event.recipes
