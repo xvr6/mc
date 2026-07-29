@@ -17,6 +17,14 @@
 
 ItemEvents.modifyTooltips((event) => {
   event.add(
+    "rusticdelight:cooking_oil",
+    { shift: false },
+    Text.gray(
+      "WIP: bandaid fix. Food Grade Oil is the intended input here. Shapeless 1:1 crafting is possible for now",
+    ),
+  );
+
+  event.add(
     "cobblemonsizevariation:huge_essence",
     { shift: false },
     Text.gray("WIP: Eat to become CHONKY"),

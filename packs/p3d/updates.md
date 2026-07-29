@@ -1,10 +1,20 @@
 # Update Changelogs!
 
-## Update: v3.1.3
+## Update: v3.1.3-beta1
+
+### Recipes
 
 - Adjustments to Cooking Oil
+  - Boilstone heating converts 500mb of seed oil into 125mb Food Grade Seed Oil (rename of ratatouille_dried_delights:sunflower_oil)
+    - With intend of this replacing all inputs for rusticdelight:cooking oil.
+    - CURRENTLY INCOMPLETE; mass replacement of inputs with kjs not working, shapeless 1:1 converstion between food grade oil and cooking oil
 
-- Aeronautics air pressure cuttoff Removed
+- Seed oils no longer overlap
+  - only seed oil from crafts and aditions possible.
+
+### Misc
+
+- Aeronautics air pressure cuttoff removed (thanks chloe!)
   - Previously, when u reached Y=320 your plane would just... fall out of the sky.
   - New maximum height is set to Y=500 and it gradually decreases in air pressure until then!
 
