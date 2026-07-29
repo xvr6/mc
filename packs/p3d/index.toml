@@ -629,11 +629,6 @@ hash = "6dc0747f249a105ef38d1a75a74736ec276bbf791a5bafd87a47a93a23b25b43"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-repel-neoreforged.pw.toml"
-hash = "f2939f9d4703322f5cf05dbde815640aec5e18ef191d78459a3540ecdcf84e7b"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon-safepastures.pw.toml"
 hash = "a8ece9671c4ee2b8793693d5da734c189c561c9410a0a758006f5a568aceaa96"
 metafile = true
