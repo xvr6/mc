@@ -33,7 +33,6 @@ PlayerEvents.loggedIn((event) => {
     event.player.stages.add("spawnEggsGiven");
     event.server.runCommandSilent(
       `give ${event.entity.username} minecraft:gray_bundle[minecraft:bundle_contents=[
-		
 	        { id: "minecraft:cow_spawn_egg", count: 2 }, 		
 	        { id: "minecraft:sheep_spawn_egg", count: 2 }, 		
 	        { id: "minecraft:chicken_spawn_egg", count: 2 }, 		
