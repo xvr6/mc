@@ -181,6 +181,7 @@ ServerEvents.recipes((event) => {
     ],
     "ratatouille_fried_delights:sunflower_seed_oil_bottle",
   );
+
   // - Since chipped mushrooms spawn naturally, add in shapeless crafting for turning them into normal variants for inventory relief
   event.shapeless("minecraft:brown_mushroom", [
     Ingredient.of("#chipped:brown_mushroom"),
@@ -193,5 +194,11 @@ ServerEvents.recipes((event) => {
   ]);
   event.shapeless("minecraft:crimson_fungus", [
     Ingredient.of("#chipped:crimson_fungus"),
+  ]);
+  event.shapeless("minecraft:crimson_roots", [
+    Ingredient.of("#chipped:crimson_roots"),
+  ]);
+  event.shapeless("minecraft:warped_roots", [
+    Ingredient.of("#chipped:warped_roots"),
   ]);
 });
