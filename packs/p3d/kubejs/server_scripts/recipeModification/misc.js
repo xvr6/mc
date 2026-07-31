@@ -165,4 +165,5 @@ ServerEvents.recipes((event) => {
       ],
       results: [{ id: `minecraft:${color}_dye` }],
     });
+  });
 });
