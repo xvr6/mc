@@ -160,6 +160,8 @@ ServerEvents.recipes((event) => {
       ingredients: [
         {
           item: "minecraft:white_dye",
+        },
+        {
           color: `create_dragons_plus:${color}_dye`,
         },
       ],
