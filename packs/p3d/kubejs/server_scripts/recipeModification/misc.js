@@ -158,7 +158,7 @@ ServerEvents.recipes((event) => {
     event.custom({
       type: "create_dragons_plus:coloring",
       ingredients: [{ item: "minecraft:white_dye" }],
-      color: [{ id: `create_dragons_plus:${color}_dye` }],
+      color: `create_dragons_plus:${color}_dye`,
       results: [{ id: `minecraft:${color}_dye` }],
     });
   });
