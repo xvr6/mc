@@ -153,8 +153,10 @@ ServerEvents.recipes((event) => {
     "create:precision_mechanism",
   );
 
-  // - Allow fan dying of white dye into any color
+  // - Allow fan dying of white dye into any coloring
+  // FIXME: may need to be done in datapack form
   Color.DYE.forEach((color) => {
+    if (color == "white") continue;
     event.custom({
       type: "create_dragons_plus:coloring",
       ingredients: [{ item: "minecraft:white_dye" }],
