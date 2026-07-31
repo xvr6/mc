@@ -1,14 +1,13 @@
 name = "Laser's Fakemon Pack [Cobblemon]"
-filename = "Laser's Fakemon Pack v1.6.zip"
+filename = "Laser's Fakemon Pack v1.6.2.zip"
 side = "both"
-pin = true
 
 [download]
-url = "https://cdn.modrinth.com/data/MkY2yZlo/versions/M6fvMASD/Laser%27s%20Fakemon%20Pack%20v1.6.zip"
+url = "https://cdn.modrinth.com/data/MkY2yZlo/versions/nnb5553z/Laser%27s%20Fakemon%20Pack%20v1.6.2.zip"
 hash-format = "sha512"
-hash = "3c0fa6a0078a66c01655e7a9218b4ee511ff26d426657c031ffad7597fecce063c9d6e955678064647a5b0f6e1960a149740fa6625d175d4d2d78f3bf2bc48ac"
+hash = "506ed07a9d37a07da7128b56fe44f25a1c50a95f9e6af49a55f7b5c59f991ee431090bd06ea5be1dd8dc429434190ad5f3af0f638b56cc0fd210916a0f43ee24"
 
 [update]
 [update.modrinth]
 mod-id = "MkY2yZlo"
-version = "M6fvMASD"
+version = "nnb5553z"

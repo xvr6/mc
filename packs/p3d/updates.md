@@ -28,6 +28,7 @@
   - Since they're cosmetic, it is just 128mb dye filling of Calcite
 
 - All chipped mushrooms/fungus types are convertable to base now with shapeless, making gathering easier
+  - Also nether vines
 
 ### Mod tweaks
 
