@@ -193,7 +193,7 @@ ServerEvents.recipes((event) => {
   event.recipes.createMilling(
     [
       Item.of("minecraft:string"),
-      CraeteItem.of("minecraft:string", 0.4),
+      CreateItem.of("minecraft:string", 0.4),
       CreateItem.of("rusticdelight:cotton_Seeds", 0.2),
     ],
     Item.of("rusticdelight:cotton_ball"),
