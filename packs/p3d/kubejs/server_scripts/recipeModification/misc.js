@@ -168,7 +168,7 @@ ServerEvents.recipes((event) => {
   });
 
   // - Bone Block Changes
-  event.recipe
+  event.recipes
     .createCompacting(
       [
         Item.of("minecraft:bone_block", 1),
@@ -190,7 +190,7 @@ ServerEvents.recipes((event) => {
   );
 
   // - Cotton milling -> brings in line with flax, prob slightly better
-  event.recipe.createMilling(
+  event.recipes.createMilling(
     [
       Item.of("minecraft:string"),
       CraeteItem.of("minecraft:string", 0.4),
