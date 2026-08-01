@@ -1,6 +1,6 @@
 # Update Changelogs!
 
-## Update: v3.1.3-beta1/2
+## Update: v3.1.3
 
 ### Neoforge update
 
@@ -30,6 +30,9 @@
 - All chipped mushrooms/fungus types are convertable to base now with shapeless, making gathering easier
   - Also nether vines
 
+- Calcium rich powder and water -> bone block
+  - Boneblock Crushing -> bonemeal
+
 ### Mod tweaks
 
 - Updates to Industrially Plated
@@ -55,7 +58,7 @@
 - WIP: player size adjutment with essences
   - you'll notice on the cobblemon size essences there are now descriptions.
     I'm working on a way to make them edible and allow the player to grow/shrink in size with pehkui.
-- A relatively 'decent' jei default config was added to aleviate some transition pains from EMI
+- A few relatively 'decent' configs were added, shouldnt overwrite but if they do sowwi
 
 ## Update: v3.1.2
 
