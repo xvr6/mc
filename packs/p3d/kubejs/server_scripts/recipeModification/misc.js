@@ -172,7 +172,7 @@ ServerEvents.recipes((event) => {
     .createCompacting(
       [
         Item.of("minecraft:bone_block", 1),
-        CreateItem.of("minecraft:bonemeal", 0.6),
+        CreateItem.of("minecraft:bone_meal", 0.6),
       ],
       [
         Item.of("create_aquatic_ambitions:calcium_rich_powder", 8),
@@ -183,8 +183,8 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "minecraft:bone_meal_from_bone_block" });
   event.recipes.createMilling(
     [
-      Item.of("minecraft:bonemeal", 4),
-      CreateItem.of("2x minecraft:bonemeal", 0.225),
+      Item.of("minecraft:bone_meal", 4),
+      CreateItem.of("2x minecraft:bone_meal", 0.225),
     ],
     "minecraft:bone_block",
   );

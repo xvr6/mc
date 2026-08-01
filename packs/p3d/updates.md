@@ -31,7 +31,7 @@
   - Also nether roots
 
 - Calcium rich powder and water -> bone block
-  - Boneblock Crushing -> bonemeal
+  - Boneblock Crushing -> bone meal
 
 - Milling of cotton akin to flax milling recipe
 
