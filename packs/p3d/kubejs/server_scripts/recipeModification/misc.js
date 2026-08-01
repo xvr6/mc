@@ -186,7 +186,7 @@ ServerEvents.recipes((event) => {
     "minecraft:bone_block",
   );
 
-  // Cotton milling -> brings in line with flax
+  // - Cotton milling -> brings in line with flax, prob slightly better
   event.recipe.createMilling(
     [
       Item.of("minecraft:string"),
@@ -195,4 +195,26 @@ ServerEvents.recipes((event) => {
     ],
     Item.of("rusticdelight:cotton_ball"),
   );
+
+  // - Additional shapeless recipe for flanged cogwheels; no costs changed
+  event.shapeless("bits_n_bobs:small_flanged_cogwheel", [
+    "create:shaft",
+    Ingredient.of("#minecraft:planks"),
+    "minecraft:iron_nugget",
+  ]);
+  event.shapeless("bits_n_bobs:large_flanged_cogwheel", [
+    "create:shaft",
+    Ingredient.of("#minecraft:planks"),
+    Ingredient.of("#minecraft:planks"),
+    "minecraft:iron_nugget",
+  ]);
+  event.shapeless("bits_n_bobs:large_flanged_cogwheel", [
+    "bits_n_bobs:small_flanged_cogwheel",
+    Ingredient.of("#minecraft:planks"),
+  ]);
+  event.shapeless("bits_n_bobs:large_flanged_cogwheel", [
+    "create:cogwheel",
+    Ingredient.of("#minecraft:planks"),
+    "minecraft:iron_nugget",
+  ]);
 });
