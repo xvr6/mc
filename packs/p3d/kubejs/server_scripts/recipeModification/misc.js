@@ -66,7 +66,7 @@ ServerEvents.recipes((event) => {
 
   // - Etched
   event.recipes
-    .createPressing(
+    .createCompacting(
       ["etched:blank_music_disc"],
       "createmetallurgy:graphite_blank_mold",
     )
@@ -168,9 +168,12 @@ ServerEvents.recipes((event) => {
   });
 
   // - Bone Block Changes
-  event
-    .createPressing(
-      [Item.of("minecraft:bone_block", 1)],
+  event.recipe
+    .createCompacting(
+      [
+        Item.of("minecraft:bone_block", 1),
+        CreateItem.of("minecraft:bonemeal", 0.8),
+      ],
       [
         Item.of("create_aquatic_ambitions:calcium_rich_powder", 8),
         Fluid.of("minecraft:water", 250),
