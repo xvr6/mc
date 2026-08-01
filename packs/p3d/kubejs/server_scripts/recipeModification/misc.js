@@ -65,10 +65,12 @@ ServerEvents.recipes((event) => {
     .heated();
 
   // - Etched
-  event.recipes.createPressing(
-    ["etched:blank_music_disc"],
-    "createmetallurgy:graphite_blank_mold",
-  );
+  event.recipes
+    .createPressing(
+      ["etched:blank_music_disc"],
+      "createmetallurgy:graphite_blank_mold",
+    )
+    .heated();
 
   // - Cluttered
   event.replaceInput(
@@ -76,6 +78,7 @@ ServerEvents.recipes((event) => {
     "minecraft:sugar",
     "#c:salt",
   );
+
   event.replaceInput(
     { id: "cluttered:gingerbread_bricks" },
     "minecraft:sugar",
@@ -85,8 +88,8 @@ ServerEvents.recipes((event) => {
   // - Since firetick may be disabled and the best way to make ash is with that, add in another way to get ash
   event.recipes.createSplashing(
     [
-      Item.of("supplementaries:ash", 4),
-      CreateItem.of("2x supplementaries:ash", 0.6),
+      Item.of("supplementaries:ash", 3),
+      CreateItem.of("supplementaries:ash", 0.6),
     ],
     "minecraft:charcoal",
   );
@@ -156,7 +159,6 @@ ServerEvents.recipes((event) => {
   // - Allow fan dying of white dye into any coloring
   // FIXME: may need to be done in datapack form
   Color.DYE.forEach((color) => {
-    if (color == "white") continue;
     event.custom({
       type: "create_dragons_plus:coloring",
       ingredients: [{ item: "minecraft:white_dye" }],
@@ -164,4 +166,23 @@ ServerEvents.recipes((event) => {
       results: [{ id: `minecraft:${color}_dye` }],
     });
   });
+
+  // - Bone Block Changes
+  event
+    .createPressing(
+      [Item.of("minecraft:bone_block", 1)],
+      [
+        Item.of("create_aquatic_ambitions:calcium_rich_powder", 8),
+        Fluid.of("minecraft:water", 250),
+      ],
+    )
+    .heated();
+  event.remove({ id: "minecraft:bone_meal_from_bone_block" });
+  event.recipes.createMilling(
+    [
+      Item.of("minecraft:bonemeal", 6),
+      CreateItem.of("minecraft:bonemeal", 0.225),
+    ],
+    "minecraft:bone_block",
+  );
 });

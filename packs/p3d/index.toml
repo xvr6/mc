@@ -304,11 +304,11 @@ hash = "181672b7728e8dd866d521597e8449a1a60293f9aef0520c9075a8b7f01a91f3"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/misc.js"
-hash = "18a0982d753083de9ba81d6135c4076fb7c5e4a25a562042d732d3ced4ab83dd"
+hash = "2c2ef9a865279d12dff4b9e38b0623d72c90d01f36384d947c8ca1f10f9aa11e"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/stones.js"
-hash = "2045eb7be153c1a888349eb0abb64e7a35741224ccda469dd783d7607243f7eb"
+hash = "7a34f4c9d380f96102d06b93ac7e84b76bda3f3ee846b09c3a2c619ef5c70949"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/tags.js"
