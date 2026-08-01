@@ -28,12 +28,14 @@
   - Since they're cosmetic, it is just 128mb dye filling of Calcite
 
 - All chipped mushrooms/fungus types are convertable to base now with shapeless, making gathering easier
-  - Also nether vines
+  - Also nether roots
 
 - Calcium rich powder and water -> bone block
   - Boneblock Crushing -> bonemeal
 
 - Milling of cotton akin to flax milling recipe
+
+- More shapeless recipes for flanged cogwheels to make their crafting less steps
 
 ### Mod tweaks
 
@@ -57,8 +59,8 @@
 
 ### Misc
 
-- WIP: player size adjutment with essences
-  - you'll notice on the cobblemon size essences there are now descriptions.
+- WIP: player size adjustment with essences
+  - You'll notice on the cobblemon size essences there are now descriptions.
     I'm working on a way to make them edible and allow the player to grow/shrink in size with pehkui.
 - A few relatively 'decent' configs were added, shouldnt overwrite but if they do sowwi
 
