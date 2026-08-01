@@ -194,7 +194,7 @@ ServerEvents.recipes((event) => {
     [
       Item.of("minecraft:string"),
       CreateItem.of("minecraft:string", 0.4),
-      CreateItem.of("rusticdelight:cotton_Seeds", 0.2),
+      CreateItem.of("rusticdelight:cotton_seeds", 0.2),
     ],
     Item.of("rusticdelight:cotton_boll"),
   );
