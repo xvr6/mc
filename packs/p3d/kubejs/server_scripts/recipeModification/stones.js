@@ -58,7 +58,7 @@ ServerEvents.recipes((event) => {
   //Chalk
   event.recipes.shapeless("regions_unexplored:chalk", [
     "2x supplementaries:ash",
-    "2x minecraft:bone_block",
+    "minecraft:bone_block",
   ]);
 
   // - Removing duplicate netherrack recipe and replace with my

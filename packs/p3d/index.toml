@@ -170,11 +170,11 @@ hash = "f8da70b67c4fc8ef6173cc8180236e92de42facbbfb14f0e48f17695434cbac1"
 
 [[files]]
 file = "config/yosbr/config/DistantHorizons.toml"
-hash = "a7ab0202d5b0eb69c085c57ab63dbf74952e0a275f4c08a24de431e9fc877221"
+hash = "e4d2ebf2dc43e35d9005cd9ad6be5887cb6a14e9949c713da351f3a11f2ace64"
 
 [[files]]
 file = "config/yosbr/config/accessories.json5"
-hash = "0782a3c1fbfe057013b029be7fb502315355d512ce2cd38f8dad7311f9d73b4c"
+hash = "4374e93338f947dc9e4e12818877c28ab4994c9420d5462edf2da31d6c0c25af"
 
 [[files]]
 file = "config/yosbr/config/jei/jei-client.ini"
@@ -304,11 +304,11 @@ hash = "181672b7728e8dd866d521597e8449a1a60293f9aef0520c9075a8b7f01a91f3"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/misc.js"
-hash = "72e029edb570ee679741016b253c69df0716889a13da582f8b9b3763d4102229"
+hash = "60c61f9cb1b27cb07754715256e617ec5197e5451419ff44b33c3777985f924e"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/stones.js"
-hash = "2045eb7be153c1a888349eb0abb64e7a35741224ccda469dd783d7607243f7eb"
+hash = "7a34f4c9d380f96102d06b93ac7e84b76bda3f3ee846b09c3a2c619ef5c70949"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/tags.js"
