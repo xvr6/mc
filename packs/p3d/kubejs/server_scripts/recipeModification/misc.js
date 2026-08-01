@@ -196,7 +196,7 @@ ServerEvents.recipes((event) => {
       CreateItem.of("minecraft:string", 0.4),
       CreateItem.of("rusticdelight:cotton_Seeds", 0.2),
     ],
-    Item.of("rusticdelight:cotton_ball"),
+    Item.of("rusticdelight:cotton_boll"),
   );
 
   // - Additional shapeless recipe for flanged cogwheels; no costs changed
