@@ -185,4 +185,14 @@ ServerEvents.recipes((event) => {
     ],
     "minecraft:bone_block",
   );
+
+  // Cotton milling -> brings in line with flax
+  event.recipe.createMilling(
+    [
+      Item.of("minecraft:string"),
+      CraeteItem.of("minecraft:string", 0.4),
+      CreateItem.of("rusticdelight:cotton_Seeds", 0.2),
+    ],
+    Item.of("rusticdelight:cotton_ball"),
+  );
 });

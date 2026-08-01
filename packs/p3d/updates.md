@@ -33,6 +33,8 @@
 - Calcium rich powder and water -> bone block
   - Boneblock Crushing -> bonemeal
 
+- Milling of cotton akin to flax milling recipe
+
 ### Mod tweaks
 
 - Updates to Industrially Plated
