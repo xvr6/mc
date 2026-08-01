@@ -161,8 +161,8 @@ ServerEvents.recipes((event) => {
   Color.DYE.forEach((color) => {
     event.custom({
       type: "create_dragons_plus:coloring",
-      ingredients: [{ item: "minecraft:white_dye" }],
       color: `create_dragons_plus:${color}_dye`,
+      ingredients: [{ item: "minecraft:white_dye" }],
       results: [{ id: `minecraft:${color}_dye` }],
     });
   });
@@ -180,8 +180,8 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "minecraft:bone_meal_from_bone_block" });
   event.recipes.createMilling(
     [
-      Item.of("minecraft:bonemeal", 6),
-      CreateItem.of("minecraft:bonemeal", 0.225),
+      Item.of("minecraft:bonemeal", 4),
+      CreateItem.of("2x minecraft:bonemeal", 0.225),
     ],
     "minecraft:bone_block",
   );
