@@ -17,25 +17,19 @@
     - CURRENTLY INCOMPLETE; mass replacement of inputs with kjs not working, shapeless 1:1 converstion between food grade oil and cooking oil
 - Eggs are now much more obtainable, and thus should be nerfed a bit.
   - Eggshells are no longer 1to1 with ratatouille compost, now 4to1
-
 - Seed oils no longer overlap
   - only seed oil from crafts and aditions possible.
-
 - Change Brass Gearbox recipe to be _slightly_ cheaper.
   - requires preciison mechanism instead of a full rotaional speed controller (technically cheaper by one brass but its more QoL)
-
 - Recipes for cinnabar and sulfur blocks
   - Since they're cosmetic, it is just 128mb dye filling of Calcite
-
 - All chipped mushrooms/fungus types are convertable to base now with shapeless, making gathering easier
   - Also nether roots
-
 - Calcium rich powder and water -> bone block
   - Boneblock Crushing -> bone meal
-
 - Milling of cotton akin to flax milling recipe
-
 - More shapeless recipes for flanged cogwheels to make their crafting less steps
+- Copycat block -> shapeless back to zinc ingot
 
 ### Mod tweaks
 

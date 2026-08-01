@@ -304,7 +304,7 @@ hash = "181672b7728e8dd866d521597e8449a1a60293f9aef0520c9075a8b7f01a91f3"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/misc.js"
-hash = "5bdd111c0200528b8793d35344b9037754b3f16abffa41143138913eac14e675"
+hash = "9e30fc1e56a1d59de557a9326a75311c6b441b55ef622c5fd15337b521288779"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/stones.js"

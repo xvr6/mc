@@ -220,4 +220,6 @@ ServerEvents.recipes((event) => {
     Ingredient.of("#minecraft:planks"),
     "minecraft:iron_nugget",
   ]);
+
+  event.shapeless("create:zinc_ingot", "copycats:copycat_block");
 });
