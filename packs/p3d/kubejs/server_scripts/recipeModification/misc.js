@@ -168,11 +168,11 @@ ServerEvents.recipes((event) => {
   });
 
   // - Bone Block Changes
-  event.recipe
+  event.recipes
     .createCompacting(
       [
         Item.of("minecraft:bone_block", 1),
-        CreateItem.of("minecraft:bonemeal", 0.8),
+        CreateItem.of("minecraft:bone_meal", 0.6),
       ],
       [
         Item.of("create_aquatic_ambitions:calcium_rich_powder", 8),
@@ -183,20 +183,20 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "minecraft:bone_meal_from_bone_block" });
   event.recipes.createMilling(
     [
-      Item.of("minecraft:bonemeal", 4),
-      CreateItem.of("2x minecraft:bonemeal", 0.225),
+      Item.of("minecraft:bone_meal", 4),
+      CreateItem.of("2x minecraft:bone_meal", 0.225),
     ],
     "minecraft:bone_block",
   );
 
   // - Cotton milling -> brings in line with flax, prob slightly better
-  event.recipe.createMilling(
+  event.recipes.createMilling(
     [
       Item.of("minecraft:string"),
-      CraeteItem.of("minecraft:string", 0.4),
-      CreateItem.of("rusticdelight:cotton_Seeds", 0.2),
+      CreateItem.of("minecraft:string", 0.67),
+      CreateItem.of("rusticdelight:cotton_seeds", 0.4),
     ],
-    Item.of("rusticdelight:cotton_ball"),
+    Item.of("rusticdelight:cotton_boll"),
   );
 
   // - Additional shapeless recipe for flanged cogwheels; no costs changed
@@ -220,4 +220,6 @@ ServerEvents.recipes((event) => {
     Ingredient.of("#minecraft:planks"),
     "minecraft:iron_nugget",
   ]);
+
+  event.shapeless("create:zinc_ingot", "copycats:copycat_block");
 });

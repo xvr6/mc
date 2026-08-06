@@ -292,7 +292,7 @@ hash = "5d5b381903b0955f9cca5c2694ccd48fb1c258bb574060fc3961044625b1d298"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/enriching.js"
-hash = "a0cf8994a274ea28bad48cc0d46289f060d35f129109c84203f1cfb955bd4726"
+hash = "e73255254c19489561ff7714bb590c8671f7d9320e4017d4e719ba5767f5fd16"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/food.js"
@@ -304,11 +304,11 @@ hash = "181672b7728e8dd866d521597e8449a1a60293f9aef0520c9075a8b7f01a91f3"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/misc.js"
-hash = "6aec83450080e32b194e54f9b2e51286c01c39ab3946746bf9e8c8de67d8f6d0"
+hash = "9e30fc1e56a1d59de557a9326a75311c6b441b55ef622c5fd15337b521288779"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/stones.js"
-hash = "7a34f4c9d380f96102d06b93ac7e84b76bda3f3ee846b09c3a2c619ef5c70949"
+hash = "6ef642e18db67c91acc883992b7947dc863e90ece7f85a42732b4d8d0c6a8ff8"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/tags.js"

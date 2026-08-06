@@ -1,8 +1,8 @@
 ServerEvents.recipes((event) => {
   event.custom({
     type: "createnuclear:enriched",
-    ingredients: [{ item: "minecraft:tuff" }],
-    results: [{ id: "createnuclear:autunite", chance: 0.15 }],
+    ingredients: [{ item: "create:asurine" }],
+    results: [{ id: "createnuclear:autunite", chance: 0.25 }],
   });
 
   event.custom({

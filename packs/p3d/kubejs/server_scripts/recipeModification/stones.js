@@ -2,16 +2,23 @@ ServerEvents.recipes((event) => {
   // - Crushing recipe
   //                (output[], input)
   event.recipes.createCrushing(
-    [CreateItem.of("createnuclear:uranium_powder", 0.35)],
+    [
+      CreateItem.of("createnuclear:uranium_powder", 0.225),
+      CreateItem.of("createmetallurgy:dirty_zinc_dust", 0.55),
+      CreateItem.of("2x createnuclear:lead_nugget", 0.45),
+    ],
     "createnuclear:autunite",
   );
   // - Diamond automation but evil
   event.recipes
     .createCompacting(
-      [CreateItem.of("minecraft:diamond", 0.05), "createnuclear:yellowcake"],
+      [
+        CreateItem.of("minecraft:diamond", 0.175),
+        CreateItem.of("createnuclear:yellowcake", 0.9),
+      ],
       [
         Item.of("createnuclear:enriched_yellowcake", 1),
-        Item.of("minecraft:coal_block", 9),
+        Item.of("minecraft:coal_block", 4),
       ],
     )
     .superheated();
@@ -19,7 +26,7 @@ ServerEvents.recipes((event) => {
     .createCompacting(
       [
         Item.of("minecraft:coal", 3),
-        CreateItem.of("minecraft:coal", 0.6),
+        CreateItem.of("2x minecraft:coal", 0.25),
         "createnuclear:yellowcake",
       ],
       ["createnuclear:enriched_yellowcake", "quark:charcoal_block"],

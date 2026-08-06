@@ -1,5 +1,19 @@
 # Update Changelogs!
 
+## Update: TODO:
+
+### Recipe tweaks/fixes
+
+- Autunite tweaks:
+  - More expensive to craft (needs Veridium to fully automate it via enriching)
+  - Better crushing output (dirty zinc, lead nuggets, uranium powder)
+    - Do note, the quantities in which we can make uranium powder in this pack
+      have made me cause subsequent recipes to be more costly; i.e nuclear
+      reactors are more expensive to setup now.
+    - This was done as im using enriched yellow cake as a 'crafting catalyst';
+      it will have a new secondary purpose necessary for the more high volume
+      production i've allowed.
+
 ## Update: v3.1.3
 
 ### Neoforge update
@@ -17,25 +31,19 @@
     - CURRENTLY INCOMPLETE; mass replacement of inputs with kjs not working, shapeless 1:1 converstion between food grade oil and cooking oil
 - Eggs are now much more obtainable, and thus should be nerfed a bit.
   - Eggshells are no longer 1to1 with ratatouille compost, now 4to1
-
 - Seed oils no longer overlap
   - only seed oil from crafts and aditions possible.
-
 - Change Brass Gearbox recipe to be _slightly_ cheaper.
   - requires preciison mechanism instead of a full rotaional speed controller (technically cheaper by one brass but its more QoL)
-
 - Recipes for cinnabar and sulfur blocks
   - Since they're cosmetic, it is just 128mb dye filling of Calcite
-
 - All chipped mushrooms/fungus types are convertable to base now with shapeless, making gathering easier
   - Also nether roots
-
 - Calcium rich powder and water -> bone block
-  - Boneblock Crushing -> bonemeal
-
+  - Boneblock Crushing -> bone meal
 - Milling of cotton akin to flax milling recipe
-
 - More shapeless recipes for flanged cogwheels to make their crafting less steps
+- Copycat block -> shapeless back to zinc ingot
 
 ### Mod tweaks
 
