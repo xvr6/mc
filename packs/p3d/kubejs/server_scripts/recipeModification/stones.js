@@ -19,13 +19,38 @@ ServerEvents.recipes((event) => {
   event.recipes.createCrushing(
     [
       CreateItem.of("createmetallurgy:crushed_raw_tungsten", 0.4),
-      CreateItem.of("createmetallurgy:tunsten_nugget", 0.35),
+      CreateItem.of("createmetallurgy:tungsten_nugget", 0.35),
     ],
     "create:scorchia",
   );
+
+  // - tungsten sheet actually has a use now.
+  event.recipes.create.pressing(
+    "createmetallurgy:tungsten_sheet",
+    "createmetallurgy:tungsten_ingot",
+  );
+
   event.replaceInput(
-    { id: "electroenergetics:crafting/bulb" },
-    Ingredient.of("#c:wires/copper"),
+    { id: "createmetallurgy:crafting/materials/tungsten_wire" },
+    "createmetallurgy:tungsten_ingot",
+    "createmetallurgy:tungsten_sheet",
+  );
+
+  // - Adjust bulb crafting recipes, remove duplicates; electroenergetics has prio
+  event.remove({ output: Ingredient.of("#createmetallurgy:light_bulb") });
+  event.remove({ id: "electroenergetics:crafting/bulb" });
+
+  // new recipe fpr electro bulb to use tungsten
+  event.shaped(Item.of("electroenergetics:bulb"), [" G ", " T ", "CAC"], {
+    G: "minecraft:glass",
+    T: "createmetallurgy:tungsten_wire_spool",
+    C: "electroenergetics:connector",
+    A: "create:andesite_alloy",
+  });
+  // may just remove this bulb type entirely, but it has cool cosmetic applicatiions iirc
+  event.replaceInput(
+    { id: "bits_n_bobs:crafting/lightbulb" },
+    "minecraft:glowstone_dust",
     "createmetallurgy:tungsten_wire_spool",
   );
 
