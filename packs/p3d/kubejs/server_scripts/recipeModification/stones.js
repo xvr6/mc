@@ -173,8 +173,8 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "ballastmod:ballast_stones" });
   event.custom({
     type: "ratatouille:threshing",
-    ingredients: [Ingredient.of("#c:cobblestones")],
-    results: ["ballastmod:ballast_stones"],
+    ingredients: [{ tag: "#c:cobblestones" }],
+    results: [{ id: "ballastmod:ballast_stones" }],
   });
   //
 });
