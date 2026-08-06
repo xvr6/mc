@@ -170,6 +170,11 @@ ServerEvents.recipes((event) => {
   ]);
 
   // - Change balast stones recipe
-  //
+  event.remove({ id: "ballastmod:ballast_stones" });
+  event.custom({
+    type: "ratatouille:threshing",
+    ingredients: [Ingredient.of("#c:cobblestones")],
+    results: ["ballastmod:ballast_stones"],
+  });
   //
 });

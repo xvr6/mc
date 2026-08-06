@@ -1,9 +1,12 @@
 # Update Changelogs!
 
-## Update: TODO:
+## Update: v3.1.3a:
 
 ### Recipe tweaks/fixes
 
+- Ballast Stones:
+  - Origonal recipe removed; caused too many random conflicts in a mixer
+  - Now requires use of the Thresher; 1 cobble in, 1 ballast stone out
 - Autunite tweaks:
   - More expensive to craft (needs Veridium to fully automate it via enriching)
   - Better crushing output (dirty zinc, lead nuggets, uranium powder)
