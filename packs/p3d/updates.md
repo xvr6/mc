@@ -1,6 +1,6 @@
 # Update Changelogs!
 
-## Update: v3.1.3a:
+## Update: v3.1.3a
 
 ### Recipe tweaks/fixes
 
