@@ -13,6 +13,12 @@
     - This was done as im using enriched yellow cake as a 'crafting catalyst';
       it will have a new secondary purpose necessary for the more high volume
       production i've allowed.
+- Tungsten adjustmenets:
+  - Tungsten is now used in all bulb crafting
+  - Tungsten is now automatable with new Scorchia recipes
+  - TODO: possible removal of all bulbs except electro energetics;
+    or at least just metallurgy ones as it is so much cheaper and so much better
+    so why bother interacting with electricity?
 
 ## Update: v3.1.3
 

@@ -9,6 +9,26 @@ ServerEvents.recipes((event) => {
     ],
     "createnuclear:autunite",
   );
+  // - Add in ability for wolframite/tungsten automation
+  // Increase cost of scorchia
+  event.remove({ id: "create:crafting/palettes/scorchia" });
+  event.recipes.create.haunting(
+    [CreateItem.of("create:scorchia", 0.8)],
+    ["create:scoria"],
+  );
+  event.recipes.createCrushing(
+    [
+      CreateItem.of("createmetallurgy:crushed_raw_tungsten", 0.4),
+      CreateItem.of("createmetallurgy:tunsten_nugget", 0.35),
+    ],
+    "create:scorchia",
+  );
+  event.replaceInput(
+    { id: "electroenergetics:crafting/bulb" },
+    Ingredient.of("#c:wires/copper"),
+    "createmetallurgy:tungsten_wire_spool",
+  );
+
   // - Diamond automation but evil
   event.recipes
     .createCompacting(
