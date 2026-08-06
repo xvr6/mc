@@ -53,6 +53,12 @@ ServerEvents.recipes((event) => {
     "minecraft:glowstone_dust",
     "createmetallurgy:tungsten_wire_spool",
   );
+  // change recipe
+  event.remove({ output: "createmetallurgy:tungsten_sheet" });
+  event.recipes.create.cutting(
+    [Item.of("createmetallurgy:tungsten_wire", 2)],
+    "createmetallurgy:tungsten_sheet",
+  );
 
   // - Diamond automation but evil
   event.recipes
@@ -162,4 +168,8 @@ ServerEvents.recipes((event) => {
     Fluid.of("create_dragons_plus:yellow_dye", 128),
     "minecraft:calcite",
   ]);
+
+  // - Change balast stones recipe
+  //
+  //
 });
