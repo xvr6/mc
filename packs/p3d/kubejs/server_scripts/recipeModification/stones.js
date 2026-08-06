@@ -2,16 +2,74 @@ ServerEvents.recipes((event) => {
   // - Crushing recipe
   //                (output[], input)
   event.recipes.createCrushing(
-    [CreateItem.of("createnuclear:uranium_powder", 0.35)],
+    [
+      CreateItem.of("createnuclear:uranium_powder", 0.225),
+      CreateItem.of("createmetallurgy:dirty_zinc_dust", 0.55),
+      CreateItem.of("2x createnuclear:lead_nugget", 0.45),
+    ],
     "createnuclear:autunite",
   );
+  // - Add in ability for wolframite/tungsten automation
+  // Increase cost of scorchia
+  event.remove({ id: "create:crafting/palettes/scorchia" });
+  event.recipes.create.haunting(
+    [CreateItem.of("create:scorchia", 0.8)],
+    ["create:scoria"],
+  );
+  event.recipes.createCrushing(
+    [
+      CreateItem.of("createmetallurgy:crushed_raw_tungsten", 0.4),
+      CreateItem.of("createmetallurgy:tungsten_nugget", 0.35),
+    ],
+    "create:scorchia",
+  );
+
+  // - tungsten sheet actually has a use now.
+  event.recipes.create.pressing(
+    "createmetallurgy:tungsten_sheet",
+    "createmetallurgy:tungsten_ingot",
+  );
+
+  event.replaceInput(
+    { id: "createmetallurgy:crafting/materials/tungsten_wire" },
+    "createmetallurgy:tungsten_ingot",
+    "createmetallurgy:tungsten_sheet",
+  );
+
+  // - Adjust bulb crafting recipes, remove duplicates; electroenergetics has prio
+  event.remove({ output: Ingredient.of("#createmetallurgy:light_bulb") });
+  event.remove({ id: "electroenergetics:crafting/bulb" });
+
+  // new recipe fpr electro bulb to use tungsten
+  event.shaped(Item.of("electroenergetics:bulb", 6), [" G ", " T ", "CAC"], {
+    G: "minecraft:glass",
+    T: "createmetallurgy:tungsten_wire_spool",
+    C: "electroenergetics:connector",
+    A: "create:andesite_alloy",
+  });
+  // may just remove this bulb type entirely, but it has cool cosmetic applicatiions iirc
+  event.replaceInput(
+    { id: "bits_n_bobs:crafting/lightbulb" },
+    "minecraft:glowstone_dust",
+    "createmetallurgy:tungsten_wire_spool",
+  );
+  // change recipe
+  event.remove({ output: "createmetallurgy:tungsten_sheet" });
+  event.recipes.create.cutting(
+    [Item.of("createmetallurgy:tungsten_wire", 2)],
+    "createmetallurgy:tungsten_sheet",
+  );
+
   // - Diamond automation but evil
   event.recipes
     .createCompacting(
-      [CreateItem.of("minecraft:diamond", 0.05), "createnuclear:yellowcake"],
+      [
+        CreateItem.of("minecraft:diamond", 0.175),
+        CreateItem.of("createnuclear:yellowcake", 0.9),
+      ],
       [
         Item.of("createnuclear:enriched_yellowcake", 1),
-        Item.of("minecraft:coal_block", 9),
+        Item.of("minecraft:coal_block", 4),
       ],
     )
     .superheated();
@@ -19,7 +77,7 @@ ServerEvents.recipes((event) => {
     .createCompacting(
       [
         Item.of("minecraft:coal", 3),
-        CreateItem.of("minecraft:coal", 0.6),
+        CreateItem.of("2x minecraft:coal", 0.25),
         "createnuclear:yellowcake",
       ],
       ["createnuclear:enriched_yellowcake", "quark:charcoal_block"],
@@ -110,4 +168,13 @@ ServerEvents.recipes((event) => {
     Fluid.of("create_dragons_plus:yellow_dye", 128),
     "minecraft:calcite",
   ]);
+
+  // - Change balast stones recipe
+  event.remove({ id: "ballastmod:ballast_stones" });
+  event.custom({
+    type: "ratatouille:threshing",
+    ingredients: [{ tag: "c:cobblestones" }],
+    results: [{ id: "ballastmod:ballast_stones" }],
+  });
+  //
 });

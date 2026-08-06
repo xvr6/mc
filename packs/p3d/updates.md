@@ -1,5 +1,32 @@
 # Update Changelogs!
 
+## Update: v3.1.3a
+
+### Recipe tweaks/fixes
+
+- Ballast Stones:
+  - Origonal recipe removed; caused too many random conflicts in a mixer
+  - Now requires use of the Thresher; 1 cobble in, 1 ballast stone out
+- Autunite tweaks:
+  - More expensive to craft (needs Veridium to fully automate it via enriching)
+  - Better crushing output (dirty zinc, lead nuggets, uranium powder)
+    - Do note, the quantities in which we can make uranium powder in this pack
+      have made me cause subsequent recipes to be more costly; i.e nuclear
+      reactors are more expensive to setup now.
+    - This was done as im using enriched yellow cake as a 'crafting catalyst';
+      it will have a new secondary purpose necessary for the more high volume
+      production i've allowed.
+- Tungsten adjustmenets:
+  - Tungsten is now used in all bulb crafting
+  - Tungsten is now automatable with new Scorchia recipes
+  - Tungsten wire is now a cutting (mechanical saw) recipe and uses tungsten sheet as an input
+  - Tungsten Wire Spool is used to craft electro energetics bulbs x6 and bits n bobs x3.
+    - Note: metallurgy bulbs were disabled entirely, they were too good and too
+      cheap; so why bother even interacting with electricity? This is why they were removed
+    - Bits n bobs lights were kept due to their cosmetic value (got damn they look amazing).
+      They become yet another way to avoid using electricity for mass lighting. Again,
+      its cool, but i want to have electricity be the main way to do this not redstone, thus the cost decrease of the electric bulbs
+
 ## Update: v3.1.3
 
 ### Neoforge update
