@@ -16,9 +16,13 @@
 - Tungsten adjustmenets:
   - Tungsten is now used in all bulb crafting
   - Tungsten is now automatable with new Scorchia recipes
-  - TODO: possible removal of all bulbs except electro energetics;
-    or at least just metallurgy ones as it is so much cheaper and so much better
-    so why bother interacting with electricity?
+  - Tungsten wire is now a cutting (mechanical saw) recipe and uses tungsten sheet as an input
+  - Tungsten Wire Spool is used to craft electro energetics bulbs x6 and bits n bobs x3.
+    - Note: metallurgy bulbs were disabled entirely, they were too good and too
+      cheap; so why bother even interacting with electricity? This is why they were removed
+    - Bits n bobs lights were kept due to their cosmetic value (got damn they look amazing).
+      They become yet another way to avoid using electricity for mass lighting. Again,
+      its cool, but i want to have electricity be the main way to do this not redstone, thus the cost decrease of the electric bulbs
 
 ## Update: v3.1.3
 

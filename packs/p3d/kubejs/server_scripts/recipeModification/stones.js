@@ -41,7 +41,7 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "electroenergetics:crafting/bulb" });
 
   // new recipe fpr electro bulb to use tungsten
-  event.shaped(Item.of("electroenergetics:bulb"), [" G ", " T ", "CAC"], {
+  event.shaped(Item.of("electroenergetics:bulb", 6), [" G ", " T ", "CAC"], {
     G: "minecraft:glass",
     T: "createmetallurgy:tungsten_wire_spool",
     C: "electroenergetics:connector",
