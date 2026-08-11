@@ -1757,16 +1757,6 @@ hash = "e5141bf653c820b9967b8be2e3d9d8e83f3b54d0450f0cabe812e00cce481fdf"
 metafile = true
 
 [[files]]
-file = "mods/petrolpark.pw.toml"
-hash = "e9561866bb1c30847819680ad833e407572bdd8b04d1b11d25c00fbb4e25679d"
-metafile = true
-
-[[files]]
-file = "mods/petrols-parts.pw.toml"
-hash = "32336a0ac67be3a466e581268aafaf859174ce9389addd43bd9d50d757148118"
-metafile = true
-
-[[files]]
 file = "mods/pf-neoforge.pw.toml"
 hash = "1ef7ce6d5fe6e584914680f5463508996f0dd1c2bdbc051b8b3b050c85e134ff"
 metafile = true
