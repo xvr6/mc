@@ -39,3 +39,4 @@ x 2026-07-21 2026-07-21 (B)
 x 2026-07-28 2026-07-28 +mod use my fork of integrated farming
 (C) kubejs readme
 (A) +recipe dye washing for apricorns/their seeds
+(A) add item description for cobblestone generators listing what can be generated

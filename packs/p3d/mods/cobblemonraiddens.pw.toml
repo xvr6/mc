@@ -1,13 +1,13 @@
 name = "Cobblemon Raid Dens"
-filename = "cobblemonraiddens-neoforge-0.11.4+1.21.1.jar"
+filename = "cobblemonraiddens-neoforge-0.11.6+1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/GebWh45l/versions/gZKxyCz1/cobblemonraiddens-neoforge-0.11.4%2B1.21.1.jar"
+url = "https://cdn.modrinth.com/data/GebWh45l/versions/KfuSZLkT/cobblemonraiddens-neoforge-0.11.6%2B1.21.1.jar"
 hash-format = "sha512"
-hash = "43916ce9bcb6a6d3cb0d2f8884738ea2bdf00d8af6321516e8a15c6b463ee18ec1be077e2b5c78a0abe2f4f57bc300791f6d404e92d30996f9dc7e2652d32e93"
+hash = "d4551265a35b7f29b6c08ce5c206c118bd8bc0ae5a5eeb5fc7c51688c928425af74477acfea05cf22f5504049ac09bb9b4f6aa108e14ec1be2f100ad9c80fa49"
 
 [update]
 [update.modrinth]
 mod-id = "GebWh45l"
-version = "gZKxyCz1"
+version = "KfuSZLkT"

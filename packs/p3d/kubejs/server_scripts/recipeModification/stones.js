@@ -88,14 +88,20 @@ ServerEvents.recipes((event) => {
   //Veridium
   event.recipes
     .createMixing(
-      ["create:asurine", Fluid.of("createmetallurgy:molten_slag", 90)],
+      [
+        CreateItem.of("create:asurine", 0.8),
+        Fluid.of("createmetallurgy:molten_slag", 35),
+      ],
       ["minecraft:tuff", "create:veridium"],
     )
     .heated();
   //Crimsite
   event.recipes
     .createMixing(
-      ["create:crimsite", Fluid.of("createmetallurgy:molten_slag", 90)],
+      [
+        CreateItem.of("create:crimsite", 0.8),
+        Fluid.of("createmetallurgy:molten_slag", 35),
+      ],
       ["minecraft:tuff", "minecraft:netherrack"],
     )
     .heated();
@@ -104,8 +110,8 @@ ServerEvents.recipes((event) => {
     type: "create_aquatic_ambitions:channeling",
     ingredients: [{ item: "minecraft:tuff" }],
     results: [
-      { id: "create:ochrum" },
-      { id: "createmetallurgy:slag", chance: 0.4 },
+      { id: "create:ochrum", chance: 0.8 },
+      { id: "createmetallurgy:slag", chance: 0.15 },
     ],
   });
   //Dripstone
@@ -118,6 +124,13 @@ ServerEvents.recipes((event) => {
     "2x supplementaries:ash",
     "minecraft:bone_block",
   ]);
+
+  //Alt recipe for prismarine
+  event.custom({
+    type: "create_aquatic_ambitions:channeling",
+    ingredients: [{ item: "supplementaries:flint_block" }],
+    results: [{ id: "minecraft:prismarine" }],
+  });
 
   // - Removing duplicate netherrack recipe and replace with my
   //   own less efficient one to make it only viable if you can automate mass quantities (with enriching)

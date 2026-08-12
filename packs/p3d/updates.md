@@ -1,5 +1,20 @@
 # Update Changelogs!
 
+## Update: v3.1.3b:
+
+> Another neoforge update... follow instructions outlined in the v3.1.3 changelog if confused.
+
+### Misc mod updates
+
+- None really of note, feel free to look at git diff if wanted!
+
+### Recipe tweaks
+
+- Adjustments to stone conversions; either made more expensive or cheaper depending on previous balances
+  - Most are just 80% chance for conversion and some small change/ammount of slag as biproduct
+  - Crimsite, Orhcurm, Asurine
+- Added in 1:1 channeling recipe for flint blocks -> prismarine block
+
 ## Update: v3.1.3a
 
 ### Recipe tweaks/fixes
