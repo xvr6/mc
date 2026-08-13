@@ -19,6 +19,8 @@
 
 ### Recipe tweaks/fixes
 
+- Removed dndecor + createdeco container Recipes
+  - Vibrant vaults is prio
 - Ballast Stones:
   - Origonal recipe removed; caused too many random conflicts in a mixer
   - Now requires use of the Thresher; 1 cobble in, 1 ballast stone out

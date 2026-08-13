@@ -59,6 +59,12 @@ ServerEvents.tags("item", (event) => {
     "ratatouille_fried_delights:sunflower_oil_bucket",
     "ratatouille_fried_delights:mayonnaise_bucket",
   );
+
+  event.add(
+    "poinky:removed_containers",
+    "#dndecor:containers_decor",
+    "#createdeco:shipping_containers",
+  );
 });
 
 ServerEvents.recipes((event) => {
@@ -98,4 +104,7 @@ ServerEvents.recipes((event) => {
   });
   // - change crafting to use tag instead
   event.replaceInput("*", "create:mechanical_pump", "#create:mechanical_pumps");
+
+  // - Disasble crafting of all dndecor and create deco containers; vibrant vaults is preferred.
+  event.remove({ output: Ingredient.of("#poinky:removed_containers") });
 });

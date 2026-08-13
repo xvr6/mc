@@ -222,8 +222,4 @@ ServerEvents.recipes((event) => {
   ]);
 
   event.shapeless("create:zinc_ingot", "copycats:copycat_block");
-
-  // - Disasble crafting of all dndecor and create deco containers; vibrant vaults is preferred.
-  event.remove({ output: Ingredient.of("#dndecor:containers_decor") });
-  event.remove({ output: Ingredient.of("#createdeco:shipping_containers") });
 });
