@@ -63,8 +63,14 @@ ServerEvents.tags("item", (event) => {
   event.add(
     "poinky:removed_containers",
     "#dndecor:containers_decor",
-    "#createdeco:shipping_containers",
+    "#createdeco:shipping_containers", // block tag, not item tag; must be removed by hand
   );
+  Color.DYE.forEach((color) => {
+    event.add(
+      "poinky:removed_containers",
+      `createdeco:${color}_shipping_container`,
+    );
+  });
 });
 
 ServerEvents.recipes((event) => {
