@@ -25,6 +25,12 @@ ItemEvents.modifyTooltips((event) => {
   );
 
   event.add(
+    Ingredient.of("#poinky:removed"),
+    { shift: false },
+    Text.orange("Removed from survival!"),
+  );
+
+  event.add(
     "cobblemonsizevariation:huge_essence",
     { shift: false },
     Text.gray("WIP: Eat to become CHONKY"),

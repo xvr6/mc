@@ -3,14 +3,14 @@ filename = "cobbledex-rei-emi-jei-neoforge-2.0.4.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/qekxLrOP/versions/GC1Zwff6/cobbledex-rei-emi-jei-neoforge-2.0.4.jar"
+url = "https://cdn.modrinth.com/data/qekxLrOP/versions/cvN5Smlh/cobbledex-rei-emi-jei-neoforge-2.0.4.jar"
 hash-format = "sha512"
-hash = "d6bd6714d36594df67040ecfc0c87f31791f189828c18801ce5cebaea01ad2d7c132042fb24dab68173c0bd416ac0b29c37a1cad7a3b13aa0f83c59802a2c295"
+hash = "1b3de702ff2d37b3f26ab06917ac8a6ac1301cee8e6fe5fac430b25aa539274b50f4002090385076956ddfb57ffca554bea0d94831a371a85f33195e8a4b50ec"
 
 [update]
 [update.modrinth]
 mod-id = "qekxLrOP"
-version = "GC1Zwff6"
+version = "cvN5Smlh"
 
 [option]
 optional = true

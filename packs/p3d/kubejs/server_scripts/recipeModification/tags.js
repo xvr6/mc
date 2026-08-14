@@ -59,6 +59,15 @@ ServerEvents.tags("item", (event) => {
     "ratatouille_fried_delights:sunflower_oil_bucket",
     "ratatouille_fried_delights:mayonnaise_bucket",
   );
+
+  event.add(
+    "poinky:removed",
+    "#dndecor:containers_decor",
+    "#createdeco:shipping_containers", // block tag, not item tag; must be removed by hand
+  );
+  Color.DYE.forEach((color) => {
+    event.add("poinky:removed", `createdeco:${color}_shipping_container`);
+  });
 });
 
 ServerEvents.recipes((event) => {
@@ -98,4 +107,7 @@ ServerEvents.recipes((event) => {
   });
   // - change crafting to use tag instead
   event.replaceInput("*", "create:mechanical_pump", "#create:mechanical_pumps");
+
+  // - Disasble crafting of all dndecor and create deco containers; vibrant vaults is preferred.
+  event.remove({ output: Ingredient.of("#poinky:removed") });
 });

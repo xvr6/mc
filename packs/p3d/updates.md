@@ -1,10 +1,18 @@
-# Update Changelogs!
+# Update Changelogs
 
-## Update: v3.1.3b:
+## Update: v3.1.3c
+
+- Minor mod updates
+- Datapack update; Cobblemon spawns have been modified a bit with more variety
+  (tl;dr of expanded spawn datapack)
+
+## Update: v3.1.3b
+
+> Another neoforge update... follow instructions outlined in the v3.1.3 changelog if confused.
 
 ### Misc mod updates
 
--
+- None really of note, feel free to look at git diff if wanted!
 
 ### Recipe tweaks
 
@@ -17,6 +25,8 @@
 
 ### Recipe tweaks/fixes
 
+- Removed dndecor + createdeco container Recipes
+  - Vibrant vaults is prio
 - Ballast Stones:
   - Origonal recipe removed; caused too many random conflicts in a mixer
   - Now requires use of the Thresher; 1 cobble in, 1 ballast stone out
