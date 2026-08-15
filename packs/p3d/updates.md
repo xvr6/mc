@@ -5,6 +5,7 @@
 - Minor mod updates
 - Datapack update; Cobblemon spawns have been modified a bit with more variety
   (tl;dr of expanded spawn datapack)
+- Minor recipe adjustments
 
 ## Update: v3.1.3b
 

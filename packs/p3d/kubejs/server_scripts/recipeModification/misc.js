@@ -168,18 +168,13 @@ ServerEvents.recipes((event) => {
   });
 
   // - Bone Block Changes
-  event.recipes
-    .createCompacting(
-      [
-        Item.of("minecraft:bone_block", 1),
-        CreateItem.of("minecraft:bone_meal", 0.6),
-      ],
-      [
-        Item.of("create_aquatic_ambitions:calcium_rich_powder", 8),
-        Fluid.of("minecraft:water", 250),
-      ],
-    )
-    .heated();
+  event.recipes.createCompacting(
+    [
+      Item.of("minecraft:bone_block", 1),
+      CreateItem.of("2x minecraft:bone_meal", 0.6),
+    ],
+    [Item.of("create_aquatic_ambitions:calcium_rich_powder", 8)],
+  );
   event.remove({ id: "minecraft:bone_meal_from_bone_block" });
   event.recipes.createMilling(
     [

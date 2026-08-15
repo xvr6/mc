@@ -25,6 +25,14 @@ ItemEvents.modifyTooltips((event) => {
   );
 
   event.add(
+    "createcobblestone:mechanical_generator",
+    { shift: false },
+    Text.white(
+      "Can be set to: Cobblestone, Stone, Basalt, Limestone, and Scoria",
+    ),
+  );
+
+  event.add(
     Ingredient.of("#poinky:removed"),
     { shift: false },
     Text.orange("Removed from survival!"),

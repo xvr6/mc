@@ -1,13 +1,13 @@
 name = "Navas ZA Megas"
-filename = "zamega-neoforge-1.7.5-hotfix.jar"
+filename = "zamega-neoforge-1.7.6.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/2V1Y86sc/versions/MFuRZOBA/zamega-neoforge-1.7.5-hotfix.jar"
+url = "https://cdn.modrinth.com/data/2V1Y86sc/versions/I2TIMyf4/zamega-neoforge-1.7.6.jar"
 hash-format = "sha512"
-hash = "9b328c07a50f16718cf828201a6a5d4d14cffbd3f64bf950d54d44a470308d7420c8c9903c70d89cf81b3c74530a5b62f1614ebeb0e45f0225b44320e1ce7490"
+hash = "1912b54ad4f16f059c0a9b85454e0c220d4ebfb5ec068aee0ef260e839cb0e52d832d5e30557d4c11c5a36f23b6855d630f08ed9758db00aba9ced2228d19e20"
 
 [update]
 [update.modrinth]
 mod-id = "2V1Y86sc"
-version = "MFuRZOBA"
+version = "I2TIMyf4"
