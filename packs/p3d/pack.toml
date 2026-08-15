@@ -1,12 +1,12 @@
 name = "New Poinky 3D XS"
 author = "xvr6"
-version = "3.1.3b"
+version = "3.1.3c"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "e93f672a07f5cc0b9cbb0d51fcd625dccbe7c589795365819835311ea219aafd"
+hash = "18e781669dbd9b0e8a73f4f37e983f84d5b69c6ea17421e3073031466366e425"
 
 [versions]
 minecraft = "1.21.1"

@@ -109,10 +109,7 @@ ServerEvents.recipes((event) => {
   event.custom({
     type: "create_aquatic_ambitions:channeling",
     ingredients: [{ item: "minecraft:tuff" }],
-    results: [
-      { id: "create:ochrum", chance: 0.8 },
-      { id: "createmetallurgy:slag", chance: 0.15 },
-    ],
+    results: [{ id: "create:ochrum", chance: 0.8 }],
   });
   //Dripstone
   event.recipes.createFilling("minecraft:dripstone_block", [

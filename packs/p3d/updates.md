@@ -1,6 +1,13 @@
-# Update Changelogs!
+# Update Changelogs
 
-## Update: v3.1.3b:
+## Update: v3.1.3c
+
+- Minor mod updates
+- Datapack update; Cobblemon spawns have been modified a bit with more variety
+  (tl;dr of expanded spawn datapack)
+- Minor recipe adjustments
+
+## Update: v3.1.3b
 
 > Another neoforge update... follow instructions outlined in the v3.1.3 changelog if confused.
 

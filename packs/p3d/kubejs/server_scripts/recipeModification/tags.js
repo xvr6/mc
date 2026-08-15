@@ -61,15 +61,12 @@ ServerEvents.tags("item", (event) => {
   );
 
   event.add(
-    "poinky:removed_containers",
+    "poinky:removed",
     "#dndecor:containers_decor",
     "#createdeco:shipping_containers", // block tag, not item tag; must be removed by hand
   );
   Color.DYE.forEach((color) => {
-    event.add(
-      "poinky:removed_containers",
-      `createdeco:${color}_shipping_container`,
-    );
+    event.add("poinky:removed", `createdeco:${color}_shipping_container`);
   });
 });
 
@@ -112,5 +109,5 @@ ServerEvents.recipes((event) => {
   event.replaceInput("*", "create:mechanical_pump", "#create:mechanical_pumps");
 
   // - Disasble crafting of all dndecor and create deco containers; vibrant vaults is preferred.
-  event.remove({ output: Ingredient.of("#poinky:removed_containers") });
+  event.remove({ output: Ingredient.of("#poinky:removed") });
 });
