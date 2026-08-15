@@ -6,6 +6,7 @@
 - Datapack update; Cobblemon spawns have been modified a bit with more variety
   (tl;dr of expanded spawn datapack)
 - Minor recipe adjustments
+- Description added for mechanical generator that lists all valid inputs; description added for removed content as well
 
 ## Update: v3.1.3b
 

@@ -316,7 +316,7 @@ hash = "fcea17daf8d926ff7345e249e565b4c42afe0f015e94cda4b2bc56ed8ba4d63f"
 
 [[files]]
 file = "kubejs/server_scripts/sizeMod.js"
-hash = "462afdd979812abc968ee03dca6267b56e284e9121329ab6ebc4d8f2f346e4ef"
+hash = "35f795e7953036855ec38294187c197bfabce3f6e914ed4cb454e33076a0bf5a"
 
 [[files]]
 file = "kubejs/startup_scripts/growthEssences.js"
