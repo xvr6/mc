@@ -304,7 +304,7 @@ hash = "181672b7728e8dd866d521597e8449a1a60293f9aef0520c9075a8b7f01a91f3"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/misc.js"
-hash = "06ba242eda9d1b87991959b6072551c4e99821e57999f91d4c7b8a4fc2e17fae"
+hash = "33ec24a358f3d5c12b49f79131922c4dcdec95587e85e842b0f51a1bad9a1c66"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/stones.js"
@@ -312,11 +312,11 @@ hash = "9525aeab7792dddec025a878ae1f32460a12ee25bafa64a92b8e81a46b12a7b3"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/tags.js"
-hash = "fcea17daf8d926ff7345e249e565b4c42afe0f015e94cda4b2bc56ed8ba4d63f"
+hash = "2ef7ea96292f5b807d6dc923cf19db96c628c9acd819572e234be470d77dcb3d"
 
 [[files]]
 file = "kubejs/server_scripts/sizeMod.js"
-hash = "35f795e7953036855ec38294187c197bfabce3f6e914ed4cb454e33076a0bf5a"
+hash = "b2dcf9fa0a6426682dc1a93731da73dbe1015b85ea21582820cbbd8e1704e5a9"
 
 [[files]]
 file = "kubejs/startup_scripts/growthEssences.js"
