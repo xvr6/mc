@@ -85,10 +85,11 @@ ServerEvents.recipes((event) => {
     .heated();
 
   // - Stone types automatable
-  //Veridium
+  //Asurine
   event.recipes
     .createMixing(
       [
+        Item.of("create:asurine"),
         CreateItem.of("create:asurine", 0.8),
         Fluid.of("createmetallurgy:molten_slag", 35),
       ],
@@ -99,6 +100,7 @@ ServerEvents.recipes((event) => {
   event.recipes
     .createMixing(
       [
+        Item.of("create:crimsite"),
         CreateItem.of("create:crimsite", 0.8),
         Fluid.of("createmetallurgy:molten_slag", 35),
       ],
