@@ -164,7 +164,7 @@ ServerEvents.recipes((event) => {
   });
 
   // - Bone Block Changes
-  event.recipes.createcompacting(
+  event.recipes.createCompacting(
     [
       item.of("minecraft:bone_block", 1),
       createitem.of("2x minecraft:bone_meal", 0.6),
