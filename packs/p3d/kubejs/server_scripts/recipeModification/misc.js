@@ -166,10 +166,10 @@ ServerEvents.recipes((event) => {
   // - Bone Block Changes
   event.recipes.createCompacting(
     [
-      item.of("minecraft:bone_block", 1),
-      createitem.of("2x minecraft:bone_meal", 0.6),
+      Item.of("minecraft:bone_block", 1),
+      CreateItem.of("2x minecraft:bone_meal", 0.6),
     ],
-    [item.of("create_aquatic_ambitions:calcium_rich_powder", 8)],
+    [Item.of("create_aquatic_ambitions:calcium_rich_powder", 8)],
   );
   event.remove({ id: "minecraft:bone_meal_from_bone_block" });
   event.recipes.createMilling(
