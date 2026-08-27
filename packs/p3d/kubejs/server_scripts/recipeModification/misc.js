@@ -1,8 +1,4 @@
 ServerEvents.recipes((event) => {
-  event.recipes.createSplashing(
-    CreateItem.of("minecraft:slime_ball", 0.4),
-    "minecraft:magma_cream",
-  );
   // - Industrially Plated
   event.remove({
     not: { type: "minecraft:stonecutting" },
@@ -168,12 +164,12 @@ ServerEvents.recipes((event) => {
   });
 
   // - Bone Block Changes
-  event.recipes.createCompacting(
+  event.recipes.createcompacting(
     [
-      Item.of("minecraft:bone_block", 1),
-      CreateItem.of("2x minecraft:bone_meal", 0.6),
+      item.of("minecraft:bone_block", 1),
+      createitem.of("2x minecraft:bone_meal", 0.6),
     ],
-    [Item.of("create_aquatic_ambitions:calcium_rich_powder", 8)],
+    [item.of("create_aquatic_ambitions:calcium_rich_powder", 8)],
   );
   event.remove({ id: "minecraft:bone_meal_from_bone_block" });
   event.recipes.createMilling(
@@ -223,4 +219,20 @@ ServerEvents.recipes((event) => {
     "create_connected:item_silo",
     "create_vibrant_vaults:vertical_item_vault",
   );
+
+  // - Adjustments to magma cream
+  event.recipes.createSplashing(
+    CreateItem.of("minecraft:slime_ball", 0.6),
+    "minecraft:magma_cream",
+  );
+
+  event.remove({ id: "createdieselgenerators:basin_fermenting/magma_cream" });
+  event.remove({ id: "create_sa:magma_cream_recipe" });
+
+  event.recipes
+    .createCompacting(
+      [CreateItem.of("minecraft:magma_cream")],
+      [Item.of("minecraft:slime_ball", 2)],
+    )
+    .heated();
 });
