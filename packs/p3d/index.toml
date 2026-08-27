@@ -1117,11 +1117,6 @@ hash = "bdc409a5eb4e06535a0387250fc4002ea578213bc2a1c5fbcdd4a836f54281c0"
 metafile = true
 
 [[files]]
-file = "mods/deployer.pw.toml"
-hash = "34f20675ca26ae05670def8d9d84faf42009fabd1113d1739cea6fd380420aac"
-metafile = true
-
-[[files]]
 file = "mods/detail-armor-bar-reconstructed.pw.toml"
 hash = "5e56de4d2f91b883ce8592d324a6e3facacdfe50b880efd0caf8acc242f97bc7"
 metafile = true
@@ -1244,11 +1239,6 @@ metafile = true
 [[files]]
 file = "mods/extra-eeveelutions.pw.toml"
 hash = "7764ac9b49a0400de01347f01dd4cb91549dd403adad8c881cad4d300f5eeb90"
-metafile = true
-
-[[files]]
-file = "mods/extra-gauges.pw.toml"
-hash = "635b8380894bc7c050deeb426f3e5947b27bda821a616b0ef6a757ae729e96b8"
 metafile = true
 
 [[files]]
