@@ -918,6 +918,11 @@ hash = "a7fd8286646b1d7ae52507c6ccfa7767389803f30e5f891c59d26c1463808e59"
 metafile = true
 
 [[files]]
+file = "mods/create-fluid.pw.toml"
+hash = "178feb862fdff2cfb26979310d548f51e5dbbf6d0ed496089bcf86243d94e3ee"
+metafile = true
+
+[[files]]
 file = "mods/create-framed.pw.toml"
 hash = "db683b65dc15a03dd6de2d34d5dc6ad0e3490744ced513a8cc584784ee9d3d8b"
 metafile = true
