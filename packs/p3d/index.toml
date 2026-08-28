@@ -1072,11 +1072,6 @@ hash = "5931025bb6c50fa9064bd6c3c3ca51afb4119535bd77d8cc01b6509e53a9abc1"
 metafile = true
 
 [[files]]
-file = "mods/createfluidlogistic.pw.toml"
-hash = "20b5dd2fd454d9a8e68e74711c3572281971bb2064dfff16f4800c13c3c0f847"
-metafile = true
-
-[[files]]
 file = "mods/createnuclear.pw.toml"
 hash = "e7a6cda82ddd91e08e2fbadff97d4590861f0ca78d9fa12a8693de25f48a58ac"
 metafile = true
