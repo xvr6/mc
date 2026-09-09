@@ -266,14 +266,14 @@ ServerEvents.recipes((event) => {
   event.shaped(Item.of("ctl:ilb_block"), ["   ", "DG ", " A "], {
     D: "minecraft:glowstone_dust",
     A: "minecraft:amethyst_shard",
-    G: "#c:glass_blocks:colorless",
+    G: Ingreient.of("#c:glass_blocks:colorless"),
   });
 
   event.remove({ id: "ctl:htlb_block" });
   event.shaped(Item.of("ctl:htlb_block"), ["   ", "DG ", "IA "], {
     D: "minecraft:glowstone_dust",
     A: "minecraft:amethyst_shard",
-    G: "#c:glass_blocks:colorless",
+    G: Ingreient.of("#c:glass_blocks:colorless"),
     I: "minecraft:redstone_dust",
   });
 });
