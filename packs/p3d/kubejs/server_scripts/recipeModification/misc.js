@@ -235,4 +235,25 @@ ServerEvents.recipes((event) => {
       [Item.of("minecraft:slime_ball", 2)],
     )
     .heated();
+
+  // - Fueling Tank
+  // remove base recipes; replace with cheaper recipes
+  event.remove({ id: "create_sa:small_fueling_tank_recipe" });
+  event.remove({ id: "create_sa:medium_fueling_tank_recipe" });
+  event.remove({ id: "create_sa:large_fueling_tank_recipe" });
+
+  //cheaper recipes
+// filling --> Fueling conversions; 1 tank, 2 sheets.
+   event.shaped(Item.of("create_sa:small_fueling_tank"), [" S ", " T ", " S "], {
+    T: "create_sa:small_filling_tank",
+    S: "create:sturdy_sheet",
+  });
+  event.shaped(Item.of("create_sa:medium_fueling_tank"), [" S ", " T ", " S "], {
+    T: "create_sa:medium_filling_tank",
+    S: "create:sturdy_sheet",
+  });
+  event.shaped(Item.of("create_sa:large_fueling_tank"), [" S ", " T ", " S "], {
+    T: "create_sa:large_filling_tank",
+    S: "create:sturdy_sheet",
+  });
 });
