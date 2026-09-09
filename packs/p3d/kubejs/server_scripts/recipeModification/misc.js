@@ -243,17 +243,37 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "create_sa:large_fueling_tank_recipe" });
 
   //cheaper recipes
-// filling --> Fueling conversions; 1 tank, 2 sheets.
-   event.shaped(Item.of("create_sa:small_fueling_tank"), [" S ", " T ", " S "], {
+  // filling --> Fueling conversions; 1 tank, 2 sheets.
+  event.shaped(Item.of("create_sa:small_fueling_tank"), [" S ", " T ", " S "], {
     T: "create_sa:small_filling_tank",
     S: "create:sturdy_sheet",
   });
-  event.shaped(Item.of("create_sa:medium_fueling_tank"), [" S ", " T ", " S "], {
-    T: "create_sa:medium_filling_tank",
-    S: "create:sturdy_sheet",
-  });
+  event.shaped(
+    Item.of("create_sa:medium_fueling_tank"),
+    [" S ", " T ", " S "],
+    {
+      T: "create_sa:medium_filling_tank",
+      S: "create:sturdy_sheet",
+    },
+  );
   event.shaped(Item.of("create_sa:large_fueling_tank"), [" S ", " T ", " S "], {
     T: "create_sa:large_filling_tank",
     S: "create:sturdy_sheet",
+  });
+
+  // - simplify and cheapen reicpe for train light blocks
+  event.remove({ id: "ctl:ilb_block" });
+  event.shaped(Item.of("ctl:ilb_block"), ["   ", "DG ", " A "], {
+    D: "minecraft:glowstone_dust",
+    A: "minecraft:amethyst_shard",
+    G: "#c:glass_blocks:colorless",
+  });
+
+  event.remove({ id: "ctl:htlb_block" });
+  event.shaped(Item.of("ctl:htlb_block"), ["   ", "DG ", "IA "], {
+    D: "minecraft:glowstone_dust",
+    A: "minecraft:amethyst_shard",
+    G: "#c:glass_blocks:colorless",
+    I: "minecraft:redstone_dust",
   });
 });
