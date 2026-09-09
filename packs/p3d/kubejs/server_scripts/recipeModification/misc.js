@@ -274,6 +274,6 @@ ServerEvents.recipes((event) => {
     D: "minecraft:glowstone_dust",
     A: "minecraft:amethyst_shard",
     G: Ingredient.of("#c:glass_blocks/colorless"),
-    I: "minecraft:redstone_dust",
+    I: "minecraft:redstone",
   });
 });
