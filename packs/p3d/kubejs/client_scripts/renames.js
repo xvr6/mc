@@ -19,4 +19,20 @@ ClientEvents.lang("en_us", (event) => {
     "ratatouille_fried_delights:flowing_sunflower_oil",
     "Food Grade Seed Oil (Flowing)",
   );
+  Color.DYE.forEach((color) => {
+    event.renameItem(
+      `interiors:${color}_chair`,
+      `${capitalizeFirstLetter(color)} Raised Chair`,
+    );
+
+    event.renameItem(
+      `interiors:${color}_chair`,
+      `${capitalizeFirstLetter(color)} Styled Floor Chair`,
+    );
+  });
 });
+
+function capitalizeFirstLetter(str) {
+  if (!str) return str; // Handle empty strings, null, or undefined
+  return str.charAt(0).toUpperCase() + str.slice(1);
+}
