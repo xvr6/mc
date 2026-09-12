@@ -26,7 +26,7 @@ ClientEvents.lang("en_us", (event) => {
     );
 
     event.renameItem(
-      `interiors:${color}_chair`,
+      `bits_n_bobs:${color}_chair`,
       `${capitalizeFirstLetter(color)} Styled Floor Chair`,
     );
   });

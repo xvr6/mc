@@ -272,7 +272,7 @@ hash = "e55e81dbcbe7422bedfbb049e684863c100430049f586e483ea6d9d2fe967972"
 
 [[files]]
 file = "kubejs/client_scripts/renames.js"
-hash = "5d36fccc813e0bc5229bbe4bb0d722aaa01620db8005e10f27ab8e290c3264bc"
+hash = "452587e537620b3d0cbc4ca7f06f1266061924953289a8d95bee06532409a1fd"
 
 [[files]]
 file = "kubejs/server_scripts/kits.js"
@@ -1450,6 +1450,11 @@ metafile = true
 [[files]]
 file = "mods/jamlib.pw.toml"
 hash = "750f4b552490779af147a9c70a558ab2aa1cbfd8331d5ad69efefa099854dfae"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+hash = "c430b477285dd0ab4397cf69257cf01b558f7db6490dfa9e69ec37e7762290bc"
 metafile = true
 
 [[files]]
