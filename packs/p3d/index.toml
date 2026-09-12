@@ -216,7 +216,7 @@ metafile = true
 
 [[files]]
 file = "datapacks/cobblemon-expanded-spawns.pw.toml"
-hash = "97dbd7639992b26b9ade82d2776a383017b2dc7126a2eb3709b4df9a64342093"
+hash = "0b505b4b91af0943b8e86faefe3f0866c80eb8f732ff1502506c8ae16b93d258"
 metafile = true
 
 [[files]]
@@ -2075,11 +2075,6 @@ metafile = true
 [[files]]
 file = "mods/tlib.pw.toml"
 hash = "1f504618f369b7e151045c08a46339f4afa912de4288f895df210e3a77076744"
-metafile = true
-
-[[files]]
-file = "mods/tmrv.pw.toml"
-hash = "40f7d1c072b54e11492e7774835901d4f5d757b01cac54947657695f580afd3a"
 metafile = true
 
 [[files]]
