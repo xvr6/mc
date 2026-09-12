@@ -567,16 +567,6 @@ hash = "4d50a0d112301450f14a9e41e1c3591e2a0213dd66d1eb47dfb61ba5823ed4a0"
 metafile = true
 
 [[files]]
-file = "mods/crd-broadcasts.pw.toml"
-hash = "059aac03ccdfc32164f8e9505f75acac43ccad412b2c01a471188a1109b88c22"
-metafile = true
-
-[[files]]
-file = "mods/crd-converters.pw.toml"
-hash = "05a7af645c733ca468738414363089d4b170b27bdbc5b29d3bd5e71a36ce0d0d"
-metafile = true
-
-[[files]]
 file = "mods/create-aeronautics-automated-logistics.pw.toml"
 hash = "438adac16323dac49409821993ced526c08cf3cbba01bca3bdf86a9a81a70167"
 metafile = true
@@ -1338,11 +1328,6 @@ metafile = true
 [[files]]
 file = "mods/lootr.pw.toml"
 hash = "a4e12af3a61f73db9128b857d053770f1d4cab64697a08c9d027e5c8bcdf6891"
-metafile = true
-
-[[files]]
-file = "mods/lootrmon.pw.toml"
-hash = "4fc73c53deeb29e98ee31b7cb534f80ed3635afc54f7c37460cfba92718ce74a"
 metafile = true
 
 [[files]]
