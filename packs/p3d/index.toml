@@ -667,11 +667,6 @@ hash = "7a7eeb96f8cf82768269855ff837c07fa75daf32a6f560d85f2bf901402d70d3"
 metafile = true
 
 [[files]]
-file = "mods/create-colorful-pipes.pw.toml"
-hash = "d33c3fdc5272553fb3b88a9ef84aae2764e0874b8dd7fdf6525a30d222995c6f"
-metafile = true
-
-[[files]]
 file = "mods/create-compatible-storage.pw.toml"
 hash = "c4af8c4810587d8c19fdc3dec720687fd575be0c55b625f4d0a8900a39b7f80b"
 metafile = true
@@ -803,6 +798,11 @@ metafile = true
 [[files]]
 file = "mods/create-smart-bounds.pw.toml"
 hash = "7e6cdbf3b08697812e6954426b5e1aa8f3159d48e5b63913d2814a54f62d52dc"
+metafile = true
+
+[[files]]
+file = "mods/create-sound-of-steam.pw.toml"
+hash = "a7a87fc6ea98d8fbaa426258990f2dec714699e98fb8a083f9a399c90d02844f"
 metafile = true
 
 [[files]]
