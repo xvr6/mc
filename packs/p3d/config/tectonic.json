@@ -47,7 +47,7 @@
     // Some Plains biomes generate very smooth, hilly terrain.
     "rolling_hills": true,
     // Rivers that reach mountain ranges continue underground, allowing smoother boat exploration.
-    "underground_rivers": true
+    "underground_rivers": false
   },
   "experimental": {
     "alternate_continents_scaling": false,
