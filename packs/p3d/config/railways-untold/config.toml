@@ -69,7 +69,7 @@ allAvoidance = true
 # Enable side-by-side dual track mode.
 # Two parallel tracks with opposite travel directions.
 # Separation = horizontalExpansion * 2 (minimum 5 blocks).
-sideBySideTracks = true
+sideBySideTracks = false
 #
 # Whether a head running parallel and adjacent to another line should merge into it.
 # When enabled, a head that meets another track running its way merges in (curving across

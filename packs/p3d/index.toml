@@ -45,6 +45,10 @@ file = "config/curios-client.toml"
 hash = "dcc28aa80e16236eb44c69c589d41a2ca663782a9c2d874c14cf55959499a50c"
 
 [[files]]
+file = "config/dynamicwaters-common.toml"
+hash = "b32aaec8c5e9cfff66507cdab3bff140281aa7ff42deb7b53b30eaab637ce9c1"
+
+[[files]]
 file = "config/everycomp-common.toml"
 hash = "6d96e865e44fade14c963065fab51cf26a54999be33210a86ca7f308df4306ab"
 
@@ -106,11 +110,7 @@ hash = "dcbad7253f79254df3a3a935c3168447f80c4b3e047a48e30288e3461819925d"
 
 [[files]]
 file = "config/railways-untold/config.toml"
-hash = "129bb81470f6c0b19bdbdbf47ea26662195832abedcf570211a9986505f7b47a"
-
-[[files]]
-file = "config/roadweaver/roadweaver.json"
-hash = "4213a28f87b7e9472a8f71345a750a310f451f393b57d8b2a3e09012954cfbf7"
+hash = "0d2f9289fb1ccddc38e7f12052bbff403d8e9790728d74caffa5fdc2cba34500"
 
 [[files]]
 file = "config/sophisticatedbackpacks-server.toml"
