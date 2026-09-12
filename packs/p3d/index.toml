@@ -220,11 +220,6 @@ hash = "0b505b4b91af0943b8e86faefe3f0866c80eb8f732ff1502506c8ae16b93d258"
 metafile = true
 
 [[files]]
-file = "datapacks/cobblemonraiddens-typedesigns.pw.toml"
-hash = "a4c94f098d63efc35d0086c3b11784bc7d902ea32c2e40094b68193859557636"
-metafile = true
-
-[[files]]
 file = "datapacks/lasers-fakemon-pack.pw.toml"
 hash = "dd80b0c2621786ee1ccd12b60ca7ef0d07c04d42482de4f1b348bb994471d296"
 metafile = true
@@ -654,18 +649,8 @@ hash = "9333850aa8b506a5e2019c3be2bb584374067ff79db5d6cdf9a87abaeb796c2a"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-unchained.pw.toml"
-hash = "ce3d77e626d315fae2c0c7347348a7d57c038b209a4a91fa62ccc77de3d8c742"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon.pw.toml"
 hash = "acbbc3f4cf7521c953a59f06a18df9a4e50778b1f69e27b3be85824789cf51f4"
-metafile = true
-
-[[files]]
-file = "mods/cobblemonraiddens.pw.toml"
-hash = "3cda03b7c35115260e7f14d476c4fc06e92b340a887207d3c3ca8e1359191107"
 metafile = true
 
 [[files]]
