@@ -106,7 +106,7 @@ hash = "dcbad7253f79254df3a3a935c3168447f80c4b3e047a48e30288e3461819925d"
 
 [[files]]
 file = "config/railways-untold/config.toml"
-hash = "aeb49ecbe00f34ab32392c78788399512b425911db0a250eca8f4cd05d12c631"
+hash = "129bb81470f6c0b19bdbdbf47ea26662195832abedcf570211a9986505f7b47a"
 
 [[files]]
 file = "config/roadweaver/roadweaver.json"
