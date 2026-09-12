@@ -15,7 +15,7 @@
 			"ids": [],
 			"patterns": []
 		},
-		"ignoreAll": true,
+		"ignoreAll": false,
 		"alwaysCheck": false
 	},
 	"visual": {

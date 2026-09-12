@@ -14,7 +14,7 @@ hash = "03e4858e141353192b4616f179003be4086cca2a4c22aa37872f610ac6285573"
 
 [[files]]
 file = "config/bits_n_bobs-common.toml"
-hash = "7a2181fd0f76e24b2a250e94ade3c29bf53a5d5502c129113713570c5337d351"
+hash = "df30f52d79e0654f74f702e05c6c3cbe6efe13d062d0ab1b513abade34899591"
 
 [[files]]
 file = "config/bluemap/core.conf"
@@ -62,7 +62,7 @@ hash = "6d96e865e44fade14c963065fab51cf26a54999be33210a86ca7f308df4306ab"
 
 [[files]]
 file = "config/freecam.json5"
-hash = "dcf63031f8dcb40f2e4ec3ca1fc6ec459955dc8caa8b0ba309df701e422f5546"
+hash = "b30822393c4c3295086259891ef296f0b2610005666e7e549f4cfc3367c9b796"
 
 [[files]]
 file = "config/ftbbackups3-client.snbt"
@@ -276,7 +276,7 @@ hash = "e55e81dbcbe7422bedfbb049e684863c100430049f586e483ea6d9d2fe967972"
 
 [[files]]
 file = "kubejs/client_scripts/renames.js"
-hash = "5d36fccc813e0bc5229bbe4bb0d722aaa01620db8005e10f27ab8e290c3264bc"
+hash = "7ba565ed80d67beb1f24488c492b9e75c82aae506e91101bdefa1798e0d42a9c"
 
 [[files]]
 file = "kubejs/server_scripts/kits.js"
@@ -1759,16 +1759,6 @@ metafile = true
 [[files]]
 file = "mods/pehkui.pw.toml"
 hash = "e5141bf653c820b9967b8be2e3d9d8e83f3b54d0450f0cabe812e00cce481fdf"
-metafile = true
-
-[[files]]
-file = "mods/petrolpark.pw.toml"
-hash = "69f8cc0868c514922852a5232fb06f2e72563a46eb29eb3b18ae48bd4cdb9f54"
-metafile = true
-
-[[files]]
-file = "mods/petrols-parts.pw.toml"
-hash = "d190580497e9bc5dbf6ca81eeae3ffac4dda21362c736f00fb876e7bd708929b"
 metafile = true
 
 [[files]]
