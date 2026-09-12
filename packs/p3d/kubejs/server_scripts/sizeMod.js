@@ -35,7 +35,7 @@ ItemEvents.modifyTooltips((event) => {
   event.add(
     Ingredient.of("#poinky:removed"),
     { shift: false },
-    Text.orange("Removed from survival!"),
+    Text.red("Recipe Removed"),
   );
 
   event.add(

@@ -1,13 +1,12 @@
-name = "Cobblemon Biome Expanded Spawns"
-filename = "CR - Biome Expanded Spawns.zip"
+filename = "CR - Biome Expanded Spawns - 6.0 hf.zip"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/kM8mdHMu/versions/6yKc07jJ/CR%20-%20Biome%20Expanded%20Spawns.zip"
+url = "https://cdn.modrinth.com/data/kM8mdHMu/versions/GRMvmAVy/CR%20-%20Biome%20Expanded%20Spawns%20-%206.0%20hf.zip"
 hash-format = "sha512"
-hash = "805df7a51f536313750b808d077e75fdac5f8ff6bd730b7487caeaa1580a7cefd95b9357253141d6661f40c4bc57bbe36016303ba13fd607f7f3653af860af40"
+hash = "9be2ae4fa542216530d6b62d15c039ae3f9df01c37a11a9f366cfd82642de4f80faa8400d129891b6ac880f34b2386174d4f6880260506cb801518c4010537dc"
 
 [update]
 [update.modrinth]
 mod-id = "kM8mdHMu"
-version = "6yKc07jJ"
+version = "GRMvmAVy"

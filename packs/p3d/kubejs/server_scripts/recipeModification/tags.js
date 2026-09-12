@@ -64,6 +64,8 @@ ServerEvents.tags("item", (event) => {
     "poinky:removed",
     "#dndecor:containers_decor",
     "#createdeco:shipping_containers", // block tag, not item tag; must be removed by hand
+    "create_connected:item_silo",
+    "create_sa:vault_component",
   );
   Color.DYE.forEach((color) => {
     event.add("poinky:removed", `createdeco:${color}_shipping_container`);

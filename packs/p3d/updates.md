@@ -1,11 +1,44 @@
 # Update Changelogs
 
+## **WIP** - Update: v3.1.4
+
+### Notable Mod Changes
+
+- Bits 'n' Bobs chairs got patched and are re-enabled!
+  - check Misc for relevant information about chair renames
+- Petrol Parts re-added
+  - Hydraulic transmission is disabled
+- Create: Fluids
+  - For more info, check the [mod page](https://www.curseforge.com/minecraft/mc-mods/create-fluid)
+  - TL;DR - Fluid Logistics network integration; More fluid based functional blocks
+
+### Minor Recipe Adjustments
+
+- Lots of undocumented minor changes that dont affect core gameplay
+- Of importance:
+  - Train Head-Tail lights were simplified a lot
+    - Previous: sequenced assembly
+    - Now: Shaped crafting (same components)
+  - All Fueling Tank tiers cheaped and adjusted
+    - Small Fueling Tank: 2 Sturdy Sheet, one Small _Filling_ Tank
+    - Medium Fueling Tank: 2 Sturdy Sheet, one Medium _Filling_ Tank
+    - Large Fueling Tank: 2 Sturdy Sheet, one Large _Filling_ Tank
+
+### Misc
+
+- Rename of ALL Create+Addon chairs.
+  - Interiors Chair -> Raised Chair
+  - Interiors Floor Chair -> < no change >
+  - Bits 'n' Bobs Chair -> Styled Floor Chair
+    - (also it was reanabled now that its bugfixed :D)
+
 ## Update: v3.1.3c
 
 - Minor mod updates
 - Datapack update; Cobblemon spawns have been modified a bit with more variety
   (tl;dr of expanded spawn datapack)
 - Minor recipe adjustments
+- Description added for mechanical generator that lists all valid inputs; description added for removed content as well
 
 ## Update: v3.1.3b
 

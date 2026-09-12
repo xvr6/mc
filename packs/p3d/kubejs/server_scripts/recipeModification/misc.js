@@ -1,8 +1,4 @@
 ServerEvents.recipes((event) => {
-  event.recipes.createSplashing(
-    CreateItem.of("minecraft:slime_ball", 0.4),
-    "minecraft:magma_cream",
-  );
   // - Industrially Plated
   event.remove({
     not: { type: "minecraft:stonecutting" },
@@ -217,4 +213,67 @@ ServerEvents.recipes((event) => {
   ]);
 
   event.shapeless("create:zinc_ingot", "copycats:copycat_block");
+
+  // Shapeless 1:1 silo to normal vertical vault
+  event.shapeless(
+    "create_connected:item_silo",
+    "create_vibrant_vaults:vertical_item_vault",
+  );
+
+  // - Adjustments to magma cream
+  event.recipes.createSplashing(
+    CreateItem.of("minecraft:slime_ball", 0.6),
+    "minecraft:magma_cream",
+  );
+
+  event.remove({ id: "createdieselgenerators:basin_fermenting/magma_cream" });
+  event.remove({ id: "create_sa:magma_cream_recipe" });
+
+  event.recipes
+    .createCompacting(
+      [CreateItem.of("minecraft:magma_cream")],
+      [Item.of("minecraft:slime_ball", 2)],
+    )
+    .heated();
+
+  // - Fueling Tank
+  // remove base recipes; replace with cheaper recipes
+  event.remove({ id: "create_sa:small_fueling_tank_recipe" });
+  event.remove({ id: "create_sa:medium_fueling_tank_recipe" });
+  event.remove({ id: "create_sa:large_fueling_tank_recipe" });
+
+  //cheaper recipes
+  // filling --> Fueling conversions; 1 tank, 2 sheets.
+  event.shaped(Item.of("create_sa:small_fueling_tank"), [" S ", " T ", " S "], {
+    T: "create_sa:small_filling_tank",
+    S: "create:sturdy_sheet",
+  });
+  event.shaped(
+    Item.of("create_sa:medium_fueling_tank"),
+    [" S ", " T ", " S "],
+    {
+      T: "create_sa:medium_filling_tank",
+      S: "create:sturdy_sheet",
+    },
+  );
+  event.shaped(Item.of("create_sa:large_fueling_tank"), [" S ", " T ", " S "], {
+    T: "create_sa:large_filling_tank",
+    S: "create:sturdy_sheet",
+  });
+
+  // - simplify and cheapen reicpe for train light blocks
+  event.remove({ id: "ctl:ilb_block" });
+  event.shaped(Item.of("ctl:ilb_block"), ["   ", "DG ", " A "], {
+    D: "minecraft:glowstone_dust",
+    A: "minecraft:amethyst_shard",
+    G: Ingredient.of("#c:glass_blocks/colorless"),
+  });
+
+  event.remove({ id: "ctl:htlb_block" });
+  event.shaped(Item.of("ctl:htlb_block"), ["   ", "DG ", "IA "], {
+    D: "minecraft:glowstone_dust",
+    A: "minecraft:amethyst_shard",
+    G: Ingredient.of("#c:glass_blocks/colorless"),
+    I: "minecraft:redstone",
+  });
 });
