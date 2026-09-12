@@ -1,13 +1,13 @@
 name = "Cobblemon: PlayerXP"
-filename = "playerxp-neoforge-1.1.1+1.21.1.jar"
+filename = "playerxp-neoforge-1.1.2+1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/zlrbPCvu/versions/TvoDOL2q/playerxp-neoforge-1.1.1%2B1.21.1.jar"
+url = "https://cdn.modrinth.com/data/zlrbPCvu/versions/TnGS5djO/playerxp-neoforge-1.1.2%2B1.21.1.jar"
 hash-format = "sha512"
-hash = "8b0dd00585555f7176250ef9959a1b067456d458199d7f49347e1e7e9b5f8c87d15c7866c7160d985119b19d7480218fbd821983d3232f66617ce0e83bd81e9c"
+hash = "83fb086d88456448445f82cab6fb182e50d5fd78298bd54ccf880d4baa3d3df4cfbef807dd3e5f130a94e32713143a05a19886ae332d1c2bc03673760dba2dc6"
 
 [update]
 [update.modrinth]
 mod-id = "zlrbPCvu"
-version = "TvoDOL2q"
+version = "TnGS5djO"
