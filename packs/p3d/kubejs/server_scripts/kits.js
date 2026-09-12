@@ -4,10 +4,8 @@ const startingKit = [
   ["minecraft:wooden_sword", 1],
   ["minecraft:wooden_pickaxe", 1],
   ["minecraft:wooden_axe", 1],
-  // ["create:wrench", 1],
-  // ["railways:handcar", 1],
-  // ["cobblemon_synchro_machine:synchro_machine", 1],
-  ["cobblemon:poke_ball", 16],
+  ["create:wrench", 1],
+  ["railways:handcar", 1],
   ["rusticdelight:syrup_sandwich", 16],
 ];
 

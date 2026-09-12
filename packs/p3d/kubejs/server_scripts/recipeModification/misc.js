@@ -220,6 +220,27 @@ ServerEvents.recipes((event) => {
     "create_vibrant_vaults:vertical_item_vault",
   );
 
+  //modify dye recipes to require boil stone to convert back to dye
+  Color.DYE.forEach((color) => {
+    event.remove({ id: `create_dragons_plus:mixing/${color}_dye_from_fluid` });
+    event.remove({ id: `create_dragons_plus:mixing/${color}_dye_from_item` });
+    //readd, but with boil stone
+    //       values increased to 1000 as bandaid fix to previous replacement not working.
+    event.recipes.createMixing(
+      [Fluid.of(`create_dragons_plus:${color}_dye`)],
+      [`minecraft:${color}_dye`, Fluid.of("minecraft:water", 1000)],
+    );
+    event.recipes
+      .createMixing(
+        [`minecraft:${color}_dye`, "ratatouille:boil_stone"],
+        [
+          "ratatouille:boil_stone",
+          Fluid.of(`create_dragons_plus:${color}_dye`, 1000),
+        ],
+      )
+      .heated();
+  });
+
   // - Adjustments to magma cream
   event.recipes.createSplashing(
     CreateItem.of("minecraft:slime_ball", 0.6),
