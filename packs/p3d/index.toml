@@ -647,6 +647,11 @@ hash = "e4af97e9813f177f5dc7c335603a819e6fcc824b7b47f10a490733a31b99a7d0"
 metafile = true
 
 [[files]]
+file = "mods/create-bits-n-dyes.pw.toml"
+hash = "345981c2a38d2f77002392d3364e716fdc15618ec71014e993e6924fb06ca1eb"
+metafile = true
+
+[[files]]
 file = "mods/create-bluemap.pw.toml"
 hash = "126a46aca4f5225d6b08094716def2da67aa9b3fe6fd64a05478f7dc0aeb4e63"
 metafile = true
@@ -856,11 +861,6 @@ hash = "09ff12ee2b35c482c2b9be9c2b429b7b11be0dc8f0c111443b655963643e9085"
 metafile = true
 
 [[files]]
-file = "mods/create-vibrant-vaults.pw.toml"
-hash = "960645d7f385081b108208e58bbbdfc6b93288b7bd7da90e6f229a57b237234a"
-metafile = true
-
-[[files]]
 file = "mods/create.pw.toml"
 hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
@@ -881,8 +881,18 @@ hash = "36ba6ade58f4c13c623743ee4b18e92a56355d3014e6c05fb6d7183d13fb9d83"
 metafile = true
 
 [[files]]
+file = "mods/creeper-overhaul.pw.toml"
+hash = "cd4c4ec6ef26d2b61e0cb0bdd398e8d528b88ebf739fc0898bc8cb2f7a88debb"
+metafile = true
+
+[[files]]
 file = "mods/cristel-lib.pw.toml"
 hash = "08a334ae5565e122d26b819cba16ce784776a10fe100ab2b22de72a5a2bac653"
+metafile = true
+
+[[files]]
+file = "mods/critters-and-companions.pw.toml"
+hash = "b065a8cb99a887abb2c434b84e3fa84f1e62cf500b1b9f50c86a4b48e4bdcc4f"
 metafile = true
 
 [[files]]
@@ -966,6 +976,11 @@ hash = "2bcb5fbe083f3ace39698e890255eb0758116e395fb211d136c8a12369b529e0"
 metafile = true
 
 [[files]]
+file = "mods/dynamic-waters-realistic-flowing-rivers.pw.toml"
+hash = "28b0354cfb77b40ce34501a78b21403c5ae20a624061ce7026f0eb98bc373712"
+metafile = true
+
+[[files]]
 file = "mods/easy-magic.pw.toml"
 hash = "1aa75105514780685caab9b945db2a2ea7c0594ced8c01e12f2a3e331f1af4e6"
 metafile = true
@@ -983,6 +998,11 @@ metafile = true
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
 hash = "889b8b58391e2e6652dd4e8f2c24b3119026a02a30bb3b9de264890f747581cf"
+metafile = true
+
+[[files]]
+file = "mods/enderman-overhaul.pw.toml"
+hash = "1045ba1bb46eb77e2fea9be04268c2c73c161b94f3bceddbd4c3dbff1c0bf555"
 metafile = true
 
 [[files]]
@@ -1093,6 +1113,21 @@ metafile = true
 [[files]]
 file = "mods/freecam.pw.toml"
 hash = "184c6768f11e0c33c22c104397ad559c5b9337c709d1d05c8e9c93891dcddaee"
+metafile = true
+
+[[files]]
+file = "mods/friends-and-foes-beekeeper-hut-forge.pw.toml"
+hash = "5a4ec7dc7fb171c541e96b2339b9dfb9610e6bfb17d444564a7fe41ccfa01bb5"
+metafile = true
+
+[[files]]
+file = "mods/friends-and-foes-flowery-mooblooms-forge.pw.toml"
+hash = "359fa7c50935dd5eb8e629c47ef5c86ee7cd183dd40cf3650ac9efe9ff7ce854"
+metafile = true
+
+[[files]]
+file = "mods/friends-and-foes-forge.pw.toml"
+hash = "78a50ddf9108d1dda82e7de46a991dcd61a046e4ea2279aa551071ba8f178f86"
 metafile = true
 
 [[files]]
@@ -1451,6 +1486,11 @@ hash = "cf98a93ea429786de97d9d7b70c72468909e0b9d1799def65b7c29c419c8d362"
 metafile = true
 
 [[files]]
+file = "mods/naturalist.pw.toml"
+hash = "398b6b94cf062416480b6ef3af25e15f30594a680079a9ed3a32236c110245d2"
+metafile = true
+
+[[files]]
 file = "mods/nightlights.pw.toml"
 hash = "9b56c2c17c00dd51fffcbc5e5a59d2c325ed656e768365ae1a36f7692ffcd01e"
 metafile = true
@@ -1598,6 +1638,11 @@ metafile = true
 [[files]]
 file = "mods/quick-paths.pw.toml"
 hash = "996ef578490b1d7646e2909b9bb90c688b72ce581bdb670f89b7adc9662c7d31"
+metafile = true
+
+[[files]]
+file = "mods/railways-untold.pw.toml"
+hash = "219a3f10bd28afdacd61638da2eb491b4143fc354953173433ef59dcbb9a81ef"
 metafile = true
 
 [[files]]
