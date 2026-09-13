@@ -613,7 +613,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-ballast.pw.toml"
-hash = "fcabd265b7d88372614d74bae22c7a1ea90c830ff4e8aa13d8354bece9690555"
+hash = "a1676d6720ff8a2427aa52eda47d2a51ae5aaaf77ac8b0635978999d0634ec75"
 metafile = true
 
 [[files]]
@@ -1212,7 +1212,7 @@ metafile = true
 
 [[files]]
 file = "mods/immersive-paintings.pw.toml"
-hash = "75b43f1a86593360f10703b7625da4e0a3c435bf13bf8b5b75fa383a0338dade"
+hash = "f4f4f93fd59e6a43e7484b44c667875cc8a5d8e5621d98b61e8944c9e0838d61"
 metafile = true
 
 [[files]]
@@ -1938,11 +1938,6 @@ metafile = true
 [[files]]
 file = "mods/vb-mob-variants-compat.pw.toml"
 hash = "ce2c77ea4776ab4945d50f8eb286d673abb946320d2aa8a3b956b58e4353fc50"
-metafile = true
-
-[[files]]
-file = "mods/vectorientation-reforged.pw.toml"
-hash = "33931c33f5a1eca887ea5de536fc2048824781ae2b1ff1de7ab869fe05e55740"
 metafile = true
 
 [[files]]
