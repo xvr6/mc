@@ -105,10 +105,6 @@ file = "config/quark-common.toml"
 hash = "dcbad7253f79254df3a3a935c3168447f80c4b3e047a48e30288e3461819925d"
 
 [[files]]
-file = "config/railways-untold/config.toml"
-hash = "0d2f9289fb1ccddc38e7f12052bbff403d8e9790728d74caffa5fdc2cba34500"
-
-[[files]]
 file = "config/sophisticatedbackpacks-server.toml"
 hash = "7e3c43f4d9610837c6ea27a575cf58ecccc265e3ee78415c38344436e541ddbc"
 
@@ -1644,11 +1640,6 @@ metafile = true
 [[files]]
 file = "mods/quick-paths.pw.toml"
 hash = "996ef578490b1d7646e2909b9bb90c688b72ce581bdb670f89b7adc9662c7d31"
-metafile = true
-
-[[files]]
-file = "mods/railways-untold.pw.toml"
-hash = "219a3f10bd28afdacd61638da2eb491b4143fc354953173433ef59dcbb9a81ef"
 metafile = true
 
 [[files]]
