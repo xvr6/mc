@@ -81,10 +81,6 @@ file = "config/global_packs.toml"
 hash = "df66ce21f4709cdb6f00b6c4a63ccc62628af61ee1424c937678d3769aa1aa11"
 
 [[files]]
-file = "config/immersive_weathering-common.toml"
-hash = "dcb431221ba1d16a4838445de46d9b326312ca9fe32caef0ce4b4e64d89eb293"
-
-[[files]]
 file = "config/maplink/general.json5"
 hash = "12e39a68e24d238853f65b79929930a8c5a43a4b6c555a7fff1a573780bb175d"
 
@@ -985,6 +981,11 @@ hash = "73adb59ea91b825485025349d0feab4f1124cb2d13e097ac76b272b1301f9284"
 metafile = true
 
 [[files]]
+file = "mods/elysium-api.pw.toml"
+hash = "320e38a0bb24767b93473c7d6c969c8ed4e3bf014d7db36a74ad646504ed16ce"
+metafile = true
+
+[[files]]
 file = "mods/emi.pw.toml"
 hash = "67bb77eae0b644960be3b1074178ceb5d54facbb42f326981b9d94625238a54a"
 metafile = true
@@ -1215,11 +1216,6 @@ hash = "75b43f1a86593360f10703b7625da4e0a3c435bf13bf8b5b75fa383a0338dade"
 metafile = true
 
 [[files]]
-file = "mods/immersive-weather-renewed.pw.toml"
-hash = "a58a37f8dbd119032390fd1f6794d7b2f9a71c69c4e10e3b5a8b99e71bd9c852"
-metafile = true
-
-[[files]]
 file = "mods/industrially-plated.pw.toml"
 hash = "8f1622d82d6e14bf9086b39e68d4f6a6c1ec7e38ac8a1783e0a81bbb7c91de29"
 metafile = true
@@ -1267,6 +1263,16 @@ metafile = true
 [[files]]
 file = "mods/jade.pw.toml"
 hash = "4de3e4a1a49e332c1ad313283e0403c4273b628d634c17a9ff0c9da3d6b67f9a"
+metafile = true
+
+[[files]]
+file = "mods/jadens-nether-expansion-delight.pw.toml"
+hash = "1fe74f16e586aed2a2f679a295fb6b64bbb2c0981599746a27409e290555d1fe"
+metafile = true
+
+[[files]]
+file = "mods/jadens-nether-expansion.pw.toml"
+hash = "158d6b6f19d486d49b989eca3797078e24c093fc75004c13a4c71e3dbdf9d7f2"
 metafile = true
 
 [[files]]
@@ -1515,6 +1521,16 @@ hash = "7bf7c8369bd28212a1e294c60310ccb72f1eb773630970e6ab106ae666766cd3"
 metafile = true
 
 [[files]]
+file = "mods/oh-the-biomes-weve-gone.pw.toml"
+hash = "fdaa22d49ee4987c2d0c012e24c7b44d50a653519767d18371e8d778c188f184"
+metafile = true
+
+[[files]]
+file = "mods/oh-the-trees-youll-grow.pw.toml"
+hash = "b586f666162c916d768532cbb98f390aa66f4998ca9ab0999bc4a9b7de5bb83f"
+metafile = true
+
+[[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "46831c04077a06df823bcd0f254833a90a9a9ccc78f5069f4b4c27fa301ac0cf"
 metafile = true
@@ -1647,11 +1663,6 @@ metafile = true
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "0f465bf38b13f887dbde506c859c9b5439ee9151ae5f3a98078b9f6c3a2c89ad"
-metafile = true
-
-[[files]]
-file = "mods/regions-unexplored.pw.toml"
-hash = "9a94f2e57b081963d11a33a9be6435046bfb8720defac9d2cced4d37b3db7299"
 metafile = true
 
 [[files]]
@@ -2042,6 +2053,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/fresh-compats.pw.toml"
 hash = "db4db3afd71e36dc4cb4d0ce9861771674f97f375107dd97ad2dd43a09d819ff"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-jadens-nether-expansion.pw.toml"
+hash = "88807b4122b97e6522e8e4c32f76a2104363ea949454fffb58586977584c37b6"
 metafile = true
 
 [[files]]
