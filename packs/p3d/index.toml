@@ -121,10 +121,6 @@ file = "config/supplementaries-common.toml"
 hash = "da20bd60e424dca987706ba8fe3497a72bf441f9b911388e8e6ba61fd08202d8"
 
 [[files]]
-file = "config/tectonic.json"
-hash = "e819f5dcf48561c7e009a1ca49de4bddd3eccf9438615159b9a07a1b6ed0b83c"
-
-[[files]]
 file = "config/underground_village/common.json"
 hash = "29dfa66e90132d0f995225e70c6f13d83c0af77e1f5a864dd4ace00c01e4e69b"
 
@@ -1033,6 +1029,11 @@ hash = "e0ad7cb6cf33d7958b7c9b7af321807190adf45ada89d65892fe2d437fe3024d"
 metafile = true
 
 [[files]]
+file = "mods/expanded-ecosphere.pw.toml"
+hash = "8498f075a6fce902aa9cb52981c7a4a70dd9a644a6e0f7abf65eba90f9ad012c"
+metafile = true
+
+[[files]]
 file = "mods/explosive-enhancement-forge.pw.toml"
 hash = "fc8948d1a8837b7a89a3b754335fd53086ba89c78af9c3d07fa899761c6a9e50"
 metafile = true
@@ -1150,16 +1151,6 @@ metafile = true
 [[files]]
 file = "mods/geckolib.pw.toml"
 hash = "5a26489b734991c0511abfe43bf9143c935b8483d854a78fecd2e84993fb09cc"
-metafile = true
-
-[[files]]
-file = "mods/geophilic-backport.pw.toml"
-hash = "ad7073cfde54792c62c5d11647638405da3d77be01190a888f96a7f9b655a372"
-metafile = true
-
-[[files]]
-file = "mods/geophilic.pw.toml"
-hash = "e56f8bbfe55aa00d09e341913cba870fb6218fba8df4a136f2443705982bce1f"
 metafile = true
 
 [[files]]
@@ -1355,21 +1346,6 @@ metafile = true
 [[files]]
 file = "mods/lootr.pw.toml"
 hash = "a4e12af3a61f73db9128b857d053770f1d4cab64697a08c9d027e5c8bcdf6891"
-metafile = true
-
-[[files]]
-file = "mods/macaws-fences-and-walls.pw.toml"
-hash = "ea28bcac23c070998d1f7df5dcbf248831c33f59067eaf2fd125adfa07c5722c"
-metafile = true
-
-[[files]]
-file = "mods/macaws-paths-and-pavings.pw.toml"
-hash = "e04b1ac906167721ae2696ec837be362e6d6da252e8bc5c0bac29974fbae0461"
-metafile = true
-
-[[files]]
-file = "mods/macaws-roofs.pw.toml"
-hash = "b5f1c37740051774214d8dd035df9bac68ddd4d8c71ed8949fdaabd5949829de"
 metafile = true
 
 [[files]]
@@ -1838,11 +1814,6 @@ hash = "25fdaaf01546f4083aa00f85b6c1c4b67434f6d068d3e1725d4437576ca34a7a"
 metafile = true
 
 [[files]]
-file = "mods/tectonic.pw.toml"
-hash = "25e43a48b70a61cfe70866e3799d4a34d77d6c9e597be60a1da2fb76438afc3c"
-metafile = true
-
-[[files]]
 file = "mods/terrablender.pw.toml"
 hash = "15962183bec2468058c70e87aa32e902a08489b0f86741088cdc9aa958ba4931"
 metafile = true
@@ -1853,18 +1824,8 @@ hash = "61d849b5dd59f7f9ccf950bbce846363c89dacd6a68af977c7cfa2f29c0ef8a6"
 metafile = true
 
 [[files]]
-file = "mods/terralith-restoned.pw.toml"
-hash = "abde622f6570b0b4c5ba50c6f329c174d3f8f82de3cd29523c0064b0f9d9987c"
-metafile = true
-
-[[files]]
 file = "mods/terralith.pw.toml"
 hash = "da7ee99189ad35aac094919fe33cac647d98533b23c228f10d4811f08989e2b8"
-metafile = true
-
-[[files]]
-file = "mods/terraphilic.pw.toml"
-hash = "2adf25ec00711d16b41c883e468df80e55448740b300d694364dd50744d76605"
 metafile = true
 
 [[files]]
@@ -1945,6 +1906,11 @@ metafile = true
 [[files]]
 file = "mods/wayfinder.pw.toml"
 hash = "8792f70e38e9c697c6256f29005cea3f447e44d5a365c0225eb5d14b5442b8f8"
+metafile = true
+
+[[files]]
+file = "mods/wwoo.pw.toml"
+hash = "1960c304ef7e5eb391934e0c102fd3346afe586cd5df5efb0cd7235e0a583634"
 metafile = true
 
 [[files]]
