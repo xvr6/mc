@@ -46,7 +46,7 @@ hash = "dcc28aa80e16236eb44c69c589d41a2ca663782a9c2d874c14cf55959499a50c"
 
 [[files]]
 file = "config/dynamicwaters-common.toml"
-hash = "b32aaec8c5e9cfff66507cdab3bff140281aa7ff42deb7b53b30eaab637ce9c1"
+hash = "aa909d0ee33c0e678a34f272995f7467205904ee8d24ab0eaca75622bcdc2222"
 
 [[files]]
 file = "config/everycomp-common.toml"
@@ -121,6 +121,10 @@ file = "config/supplementaries-common.toml"
 hash = "da20bd60e424dca987706ba8fe3497a72bf441f9b911388e8e6ba61fd08202d8"
 
 [[files]]
+file = "config/tectonic.json"
+hash = "fd491b5864e9945eff46a62f60e7bc105ced1c197c692dc3a89d2706e6336196"
+
+[[files]]
 file = "config/underground_village/common.json"
 hash = "29dfa66e90132d0f995225e70c6f13d83c0af77e1f5a864dd4ace00c01e4e69b"
 
@@ -138,7 +142,7 @@ hash = "f8da70b67c4fc8ef6173cc8180236e92de42facbbfb14f0e48f17695434cbac1"
 
 [[files]]
 file = "config/yosbr/config/DistantHorizons.toml"
-hash = "e4d2ebf2dc43e35d9005cd9ad6be5887cb6a14e9949c713da351f3a11f2ace64"
+hash = "3ce09c9195bb6d345cf78d9efcc4ba9fd447f67e10d9363eb00bea1a4441924c"
 
 [[files]]
 file = "config/yosbr/config/accessories.json5"
