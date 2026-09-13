@@ -1639,11 +1639,6 @@ hash = "70674900e545ac727d245a2ab269ab63db6ef94b862548a55e36b31fcd7aaa70"
 metafile = true
 
 [[files]]
-file = "mods/remove-terralith-intro-message.pw.toml"
-hash = "2e9dead89853555c8d909fe2549af2db5e5051c690fae695df93d2369aa8314c"
-metafile = true
-
-[[files]]
 file = "mods/resourceful-config.pw.toml"
 hash = "27721caca5a03b743bf25888e1d984142948069dace31453f103f94f7f24d2ce"
 metafile = true
@@ -1821,16 +1816,6 @@ metafile = true
 [[files]]
 file = "mods/terrablender.pw.toml"
 hash = "15962183bec2468058c70e87aa32e902a08489b0f86741088cdc9aa958ba4931"
-metafile = true
-
-[[files]]
-file = "mods/terralith-biome-saplings.pw.toml"
-hash = "61d849b5dd59f7f9ccf950bbce846363c89dacd6a68af977c7cfa2f29c0ef8a6"
-metafile = true
-
-[[files]]
-file = "mods/terralith.pw.toml"
-hash = "da7ee99189ad35aac094919fe33cac647d98533b23c228f10d4811f08989e2b8"
 metafile = true
 
 [[files]]
