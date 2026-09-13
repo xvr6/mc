@@ -117,10 +117,6 @@ file = "config/sparsestructures.json5"
 hash = "f7c73df0018332028fc5f9ed65fbe0b9a10abd30b9574e919f4c5684fce3a66f"
 
 [[files]]
-file = "config/spawn_notification.json"
-hash = "f4b2978268ca57c2f004581d71f7ba86a43722046f71217a6f19ae8a0df72de2"
-
-[[files]]
 file = "config/supplementaries-client.toml"
 hash = "24441ff96f9d18cb6c03921742f292449a600077758b7bffc51a033dc15ed4e3"
 
