@@ -1148,6 +1148,11 @@ hash = "f9c118b7a66238a7f9e052705e82402e57c7a5b753d62d679b94701ede479752"
 metafile = true
 
 [[files]]
+file = "mods/galosphere-trimming.pw.toml"
+hash = "a5f78dd3563f209bf7a3380b10e7d57150926fb34e5d485910b3cba79bd41bf5"
+metafile = true
+
+[[files]]
 file = "mods/galosphere.pw.toml"
 hash = "a87a4a2c45223994ce2024026d9c88b93712cf1fa915279d0ba5e8e7090b5583"
 metafile = true
@@ -1848,6 +1853,11 @@ hash = "9daefeebf775faf0eb892216580077b9d05c299b7b5464c616f7b04367f33150"
 metafile = true
 
 [[files]]
+file = "mods/trails-and-tales-plus.pw.toml"
+hash = "637771444ac226a315f0c0bf4a5f23d7dada70d39e698350cf50344df9959ef2"
+metafile = true
+
+[[files]]
 file = "mods/trashslot.pw.toml"
 hash = "c1e0c805d5ccd49535a6820aa8a2461a516437f90312fcadd393f928e3ce7bf2"
 metafile = true
@@ -1958,13 +1968,8 @@ hash = "9854b699d5a067c46ac99b1dedeeb529bff3fc18dd079e29b438c4cbf9725f68"
 metafile = true
 
 [[files]]
-file = "mods/yungs-cave-biomes.pw.toml"
-hash = "5a334201feff0fb2f76d486399f47d0ce5b5818c284fea895706c92bb2119470"
-metafile = true
-
-[[files]]
 file = "mods/yungs-extras.pw.toml"
-hash = "cfb7ce4c2b00cedd2e61f7d345b824d6bcc1471021668d2319ee2e4079108639"
+hash = "2541b092b92a82757e5d200a6093658e20db548bb8583abad3f4506ed04e5ce6"
 metafile = true
 
 [[files]]
