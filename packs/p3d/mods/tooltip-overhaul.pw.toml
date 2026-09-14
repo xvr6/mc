@@ -1,0 +1,18 @@
+name = "[UI] Tooltip Overhaul"
+filename = "tooltipoverhaul-neoforge-1.21.1-1.5.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/vRFcG5n6/versions/dJSHREVC/tooltipoverhaul-neoforge-1.21.1-1.5.1.jar"
+hash-format = "sha512"
+hash = "b4906c4e86b0f6ded79ae448aaf77abfcb15f9d6bca667b20631af421b3925894a68243739722b82d8a04a9a019ee97b39e105caec6f57ae1451769e2223e93f"
+
+[update]
+[update.modrinth]
+mod-id = "vRFcG5n6"
+version = "dJSHREVC"
+
+[option]
+optional = true
+description = "Visual changes to tooltip rendering"
+default = true

@@ -1,0 +1,13 @@
+name = "CRD Broadcasts"
+filename = "crd_broadcasts-neoforge-1.4.1+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/TmNAjS6y/versions/VZ5p3Nry/crd_broadcasts-neoforge-1.4.1%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "121038371afa999f360f51a04dfb213a52060b4cb1234028a21f584b88922918eda8adb9e5664fc669b07909932fbdc962d4d450096e90f9d6cc3e22a2839835"
+
+[update]
+[update.modrinth]
+mod-id = "TmNAjS6y"
+version = "VZ5p3Nry"

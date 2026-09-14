@@ -1,0 +1,13 @@
+name = "CRD Converters"
+filename = "crd_converters-neoforge-1.1.0+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DQcVN2GF/versions/7xXt02yH/crd_converters-neoforge-1.1.0%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "4b928d57fb5ff207a3328c8a07b17f6e5f61aff4300d1920add9ead63909f28158ad290b82994488c998b5f7ef73b2610af65582ac79bc6178830c9c4db011a4"
+
+[update]
+[update.modrinth]
+mod-id = "DQcVN2GF"
+version = "7xXt02yH"

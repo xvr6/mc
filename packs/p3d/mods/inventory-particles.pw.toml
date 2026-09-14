@@ -1,0 +1,17 @@
+name = "[UI] Inventory Particles"
+filename = "InventoryParticles-3.0.0+1.21.1+neoforge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/XYnKrsxH/versions/YVWIP5nv/InventoryParticles-3.0.0%2B1.21.1%2Bneoforge.jar"
+hash-format = "sha512"
+hash = "c14b5def324ca42333e8c23547d107ec911c0c7bc306a56dc4c1ff870e7f8097cbfd0c33238bd573979749aaf3ee3ce131d912129ea81841cc1a03e40f3a0917"
+
+[update]
+[update.modrinth]
+mod-id = "XYnKrsxH"
+version = "YVWIP5nv"
+
+[option]
+optional = true
+description = "can cause excessive lag on first load of the pack as it generates all the particles. Disabled by default because of this"

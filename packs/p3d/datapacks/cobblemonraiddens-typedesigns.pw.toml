@@ -1,0 +1,13 @@
+name = "Cobblemon Raid Dens Addon - Raid Den Designs"
+filename = "CobblemonRaidDenDesigns-0.5_RELEASE.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ulsDecfN/versions/PzkSoc8f/CobblemonRaidDenDesigns-0.5_RELEASE.zip"
+hash-format = "sha512"
+hash = "975107f6834176f84ae072a7a9a1e590e8c54217b4d132ecfb247b25ba8af2de14ec3a50c6135b03f3e6167d3df00a46d8bb4ffa2b12d8f2962254a99e7c5376"
+
+[update]
+[update.modrinth]
+mod-id = "ulsDecfN"
+version = "PzkSoc8f"

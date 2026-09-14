@@ -1,0 +1,17 @@
+name = "[JEI] Cobblemon Info"
+filename = "cobbledex-rei-emi-jei-neoforge-2.23.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/qekxLrOP/versions/nY0CbeHT/cobbledex-rei-emi-jei-neoforge-2.23.0.jar"
+hash-format = "sha512"
+hash = "0bd3141bc70e19d4804fc7b2d220a5c5e0c7e2ba9329a773bb3dfb8e50617fe620e176dabc91e8e3fb30392e6c5a18d999909575919c71b5b0fb5e228f737fda"
+
+[update]
+[update.modrinth]
+mod-id = "qekxLrOP"
+version = "nY0CbeHT"
+
+[option]
+optional = true
+description = "Adds cobblemon information to JEI, causes HEAVY lag on first load every time due to generating the sprites to add to JEI"

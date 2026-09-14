@@ -1,0 +1,13 @@
+name = "JEAsync"
+filename = "jei-1.21.1-neoforge-19.27.0.340-async-10.jar"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "7d4bf2fd07b0650a65f4bc9a85688b8546aea337cfd060f28dab89a68a54ae30e67ca43396f29bb7f73fac4c1efd8b08dfece2835431a92ae4af96bf4955dc55"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8290782
+project-id = 1180017

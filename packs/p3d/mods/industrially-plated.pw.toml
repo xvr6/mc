@@ -1,0 +1,13 @@
+name = "Industrially Plated"
+filename = "industrially_plated-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/4WFmfeR9/versions/Vhyb3HL5/industrially_plated-1.1.0.jar"
+hash-format = "sha512"
+hash = "f13b2dde79f66e2a16481a8aa349c7eaf110fee5b95afa61c7f7667205ad3ac46058ffd206d329c70d0e8630c783a4130330076c606ba2c58aed1debad64ae24"
+
+[update]
+[update.modrinth]
+mod-id = "4WFmfeR9"
+version = "Vhyb3HL5"

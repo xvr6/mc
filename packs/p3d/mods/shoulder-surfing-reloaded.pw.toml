@@ -1,0 +1,17 @@
+name = "[Visual] Shoulder Surfing Reloaded"
+filename = "ShoulderSurfing-NeoForge-1.21.1-5.0.11.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/kepjj2sy/versions/gtUuy6S9/ShoulderSurfing-NeoForge-1.21.1-5.0.11.jar"
+hash-format = "sha512"
+hash = "6fbe65be13213ffe180e17047a8ac80d3cca16043be9ca5b7ee711dd1f0b4ee383513e31ac1b8b87ad068412b92ee7af279da087a6d24fa27826d6de098ac37b"
+
+[update]
+[update.modrinth]
+mod-id = "kepjj2sy"
+version = "gtUuy6S9"
+
+[option]
+optional = true
+description = "Replaces 3rd person with a more dynamic perspective like a proper 3rd person game! Tied with the better player animations this is actually peak once you get used to it :3"

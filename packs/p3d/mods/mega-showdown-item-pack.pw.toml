@@ -1,0 +1,13 @@
+name = "Mega Showdown Item Pack"
+filename = "mega-showdown-item-pack-1.4.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ldNeqFqN/versions/UKP9CyH2/mega-showdown-item-pack-1.4.2.jar"
+hash-format = "sha512"
+hash = "94888127f258b250c2a45575d7e18e532fda7fc2151b3f67e10aa840efe8a5c078995dc9c944af8551907aba578499354f2c27ca3242344ad1dd444287470e85"
+
+[update]
+[update.modrinth]
+mod-id = "ldNeqFqN"
+version = "UKP9CyH2"
