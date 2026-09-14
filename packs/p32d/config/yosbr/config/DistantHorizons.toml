@@ -118,7 +118,7 @@ _version = 4
 	[common.multiThreading]
 		#
 		# How many threads should be used by Distant Horizons?
-		numberOfThreads = 5
+		numberOfThreads = 8
 		#
 		# A value between 1.0 and 0.0 that represents the percentage 
 		# of time each thread can run before going idle. 
@@ -126,7 +126,7 @@ _version = 4
 		# This can be used to reduce CPU usage if the thread count 
 		# is already set to 1 for the given option, or more finely 
 		# tune CPU performance.
-		threadRunTimeRatio = "1.0"
+		threadRunTimeRatio = "0.5"
 		#
 		# What Java thread priority should DH's primary thread pools run with? 
 		# 
@@ -300,7 +300,7 @@ _version = 4
 			# If DH should use the nightly (provided by Gitlab), or stable (provided by Modrinth) build. 
 			# If [AUTO] is selected DH will update to new stable releases if the current jar is a stable jar 
 			# and will update to new nightly builds if the current jar is a nightly jar (IE the version number ends in '-dev').
-			updateBranch = "AUTO"
+			updateBranch = "STABLE"
 			#
 			# Automatically check for updates on game launch?
 			enableAutoUpdater = false
@@ -323,7 +323,7 @@ _version = 4
 			# DEFAULT: Default lod renderer 
 			# DEBUG_TRIANGLE: Debug testing renderer 
 			# DISABLED: Disable rendering
-			rendererMode = "DISABLED"
+			rendererMode = "DEFAULT"
 			#
 			# If true overlapping quads will be rendered as bright red for easy identification. 
 			# If false the quads will be rendered normally.

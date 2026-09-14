@@ -70,6 +70,6 @@ enableRiverSound = true
 
 [General]
 # Automatically disable underground rivers from the Tectonic mod to improve performance and compatibility with Dynamic Waters.
-disableTectonicUndergroundRivers = false
+disableTectonicUndergroundRivers =  true
 # Show the welcome message when joining the world.
 showWelcomeMessage = false

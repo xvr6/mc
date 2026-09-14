@@ -46,7 +46,7 @@ hash = "dcc28aa80e16236eb44c69c589d41a2ca663782a9c2d874c14cf55959499a50c"
 
 [[files]]
 file = "config/dynamicwaters-common.toml"
-hash = "a9175f9d0f1c2a601a5c8e2a96057bfdf31b9cdc474048b76e3c99d76f99c98d"
+hash = "9d6022e2cad88a1553d2e0f7e1915583399c6f2adf34359a452193959f56c3bf"
 
 [[files]]
 file = "config/everycomp-common.toml"
@@ -138,7 +138,7 @@ hash = "f8da70b67c4fc8ef6173cc8180236e92de42facbbfb14f0e48f17695434cbac1"
 
 [[files]]
 file = "config/yosbr/config/DistantHorizons.toml"
-hash = "3ce09c9195bb6d345cf78d9efcc4ba9fd447f67e10d9363eb00bea1a4441924c"
+hash = "e4eb0015266c11c60dbc04d5abaa54256f7614a5f2292fabe94c649cf5d3aa46"
 
 [[files]]
 file = "config/yosbr/config/accessories.json5"
