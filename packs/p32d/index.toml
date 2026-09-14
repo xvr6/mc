@@ -81,10 +81,6 @@ file = "config/global_packs.toml"
 hash = "df66ce21f4709cdb6f00b6c4a63ccc62628af61ee1424c937678d3769aa1aa11"
 
 [[files]]
-file = "config/maplink/general.json5"
-hash = "12e39a68e24d238853f65b79929930a8c5a43a4b6c555a7fff1a573780bb175d"
-
-[[files]]
 file = "config/modernfix-mixins.properties"
 hash = "779e5a19c266c294003617ab5311c28c5f0223c297553ccfba03914f235cfee2"
 
