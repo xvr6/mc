@@ -46,7 +46,7 @@ hash = "dcc28aa80e16236eb44c69c589d41a2ca663782a9c2d874c14cf55959499a50c"
 
 [[files]]
 file = "config/dynamicwaters-common.toml"
-hash = "aa909d0ee33c0e678a34f272995f7467205904ee8d24ab0eaca75622bcdc2222"
+hash = "a9175f9d0f1c2a601a5c8e2a96057bfdf31b9cdc474048b76e3c99d76f99c98d"
 
 [[files]]
 file = "config/everycomp-common.toml"
@@ -695,7 +695,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-fluid.pw.toml"
-hash = "178feb862fdff2cfb26979310d548f51e5dbbf6d0ed496089bcf86243d94e3ee"
+hash = "b49081efc68e0e29b77e05e275b19e193c765c086a19b1ba3924d70e945f69d7"
 metafile = true
 
 [[files]]
@@ -834,7 +834,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-ultimine.pw.toml"
-hash = "579800a69ca3296dae0563f50fb2605b4f6ca65633b50b8493fb68782a657314"
+hash = "6adbe018fa82d595b6679edb045d66e266b031eca2bc1b6f243b1ae50bef92ab"
 metafile = true
 
 [[files]]
@@ -1189,7 +1189,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "48b746cb623c16a8cee88ec0d7d42233d74d97b9cf92d662f121633723d50876"
+hash = "2863a3b187723e1f69ed2ad2b2c3d834e8442468a1347c80df5b310e243c8753"
 metafile = true
 
 [[files]]
@@ -1483,11 +1483,6 @@ hash = "c5e7e0a3de03c138f587fc56dca70013978677e0cde2ad19024dc798178a49bd"
 metafile = true
 
 [[files]]
-file = "mods/noisiumforked.pw.toml"
-hash = "11835b8555c23090b12d6ca9be871a6b5bfcec5ff7f48e77ef09c784af40b69e"
-metafile = true
-
-[[files]]
 file = "mods/now-playing.pw.toml"
 hash = "a1100cc00811868f201c01a8b0532c9f12908184c028998bf4a8f574c5d643df"
 metafile = true
@@ -1554,7 +1549,7 @@ metafile = true
 
 [[files]]
 file = "mods/petrolpark.pw.toml"
-hash = "69f8cc0868c514922852a5232fb06f2e72563a46eb29eb3b18ae48bd4cdb9f54"
+hash = "edf1ede47e69edfeac3e52eaaa9fa8539f7fa44d2fd0903aba84d2348309af70"
 metafile = true
 
 [[files]]
@@ -1903,6 +1898,11 @@ hash = "3d907a6ec6e27ba52d9f8f062216b56aef39e586a4e673cfbb70dbe12671ec61"
 metafile = true
 
 [[files]]
+file = "mods/wavify.pw.toml"
+hash = "0dec68161d522a0de581dd288334a99c64083711496635b2159ea680878e9b4e"
+metafile = true
+
+[[files]]
 file = "mods/wayfinder.pw.toml"
 hash = "8792f70e38e9c697c6256f29005cea3f447e44d5a365c0225eb5d14b5442b8f8"
 metafile = true
@@ -1970,6 +1970,11 @@ metafile = true
 [[files]]
 file = "mods/zeta.pw.toml"
 hash = "cb474b6c0dde741836ed4f796f3b6ab0b9d3cdc0453e651122cd002d5d1f8df8"
+metafile = true
+
+[[files]]
+file = "mods/zfastnoise.pw.toml"
+hash = "b24c213b8727e80ca559670e97971c735c4dc4be1d1a4bd637c41450e7654c1e"
 metafile = true
 
 [[files]]

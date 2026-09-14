@@ -55,7 +55,7 @@ enableWatersheds = true
 enableNormalRivers = true
 # Density of mountain rivers flowing into normal rivers. LOW = rare, HIGH = current default, ULTRA = very frequent.
 # Allowed Values: LOW, MEDIUM, HIGH, ULTRA, EXTREME, INSANE
-mountainRiverDensity = "ULTRA"
+mountainRiverDensity = "HIGH"
 # Density of mountain rivers flowing directly into the ocean. LOW = none (0%), MEDIUM = 2%, HIGH = 5%, ULTRA = 10%.
 # Allowed Values: LOW, MEDIUM, HIGH, ULTRA, EXTREME, INSANE
 mountainRiverOceanDensity = "ULTRA"
