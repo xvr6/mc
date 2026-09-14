@@ -1899,11 +1899,6 @@ hash = "3d907a6ec6e27ba52d9f8f062216b56aef39e586a4e673cfbb70dbe12671ec61"
 metafile = true
 
 [[files]]
-file = "mods/wavify.pw.toml"
-hash = "0dec68161d522a0de581dd288334a99c64083711496635b2159ea680878e9b4e"
-metafile = true
-
-[[files]]
 file = "mods/wayfinder.pw.toml"
 hash = "8792f70e38e9c697c6256f29005cea3f447e44d5a365c0225eb5d14b5442b8f8"
 metafile = true
