@@ -1173,6 +1173,11 @@ hash = "a7f2ae8ea415e95ce1a3518b66edcaf124d8903ff9101d07331f7fec92b3400f"
 metafile = true
 
 [[files]]
+file = "mods/gouge.pw.toml"
+hash = "dbc22c3cdce51c813de707d16317a099b8399ccc2b8df759299af45922512d5c"
+metafile = true
+
+[[files]]
 file = "mods/gravestone-mod.pw.toml"
 hash = "d18f1ea4c6c1c2f99f18a8725d11e14c93abd29988df24c967794fc52e9c969c"
 metafile = true
