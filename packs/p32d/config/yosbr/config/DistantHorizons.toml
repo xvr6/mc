@@ -735,7 +735,7 @@ _version = 4
 		showGenerationProgress = "CHAT"
 		#
 		# How often should the distant generator progress be displayed?
-		generationProgressDisplayIntervalInSeconds = 2
+		generationProgressDisplayIntervalInSeconds = 120
 		#
 		# For how many seconds should instructions for disabling the distant generator progress be displayed? 
 		# Setting this to 0 hides the instructional message so the world gen progress is shown immediately when it starts.
