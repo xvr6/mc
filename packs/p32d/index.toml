@@ -137,10 +137,6 @@ file = "config/wands.json"
 hash = "f8da70b67c4fc8ef6173cc8180236e92de42facbbfb14f0e48f17695434cbac1"
 
 [[files]]
-file = "config/yosbr/config/DistantHorizons.toml"
-hash = "e4eb0015266c11c60dbc04d5abaa54256f7614a5f2292fabe94c649cf5d3aa46"
-
-[[files]]
 file = "config/yosbr/config/accessories.json5"
 hash = "4374e93338f947dc9e4e12818877c28ab4994c9420d5462edf2da31d6c0c25af"
 
@@ -442,11 +438,6 @@ metafile = true
 [[files]]
 file = "mods/chunk-sending-forge-fabric.pw.toml"
 hash = "15ddc26717c48614647522939a243fc06a0b2563b7586fc92dd3abdc514cf59d"
-metafile = true
-
-[[files]]
-file = "mods/chunky.pw.toml"
-hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
 metafile = true
 
 [[files]]
