@@ -58,7 +58,7 @@ enableNormalRivers = true
 mountainRiverDensity = "HIGH"
 # Density of mountain rivers flowing directly into the ocean. LOW = none (0%), MEDIUM = 2%, HIGH = 5%, ULTRA = 10%.
 # Allowed Values: LOW, MEDIUM, HIGH, ULTRA, EXTREME, INSANE
-mountainRiverOceanDensity = "ULTRA"
+mountainRiverOceanDensity = "HIGH"
 # List of biome IDs that will be treated like oceans by Dynamic Waters: no river flow and no river carving.
 # Use the full biome resource location, e.g. minecraft:warm_ocean or mymod:dead_sea.
 # Supports wildcard suffixes when the entry ends with '*', e.g. mymod:*
@@ -70,6 +70,6 @@ enableRiverSound = true
 
 [General]
 # Automatically disable underground rivers from the Tectonic mod to improve performance and compatibility with Dynamic Waters.
-disableTectonicUndergroundRivers =  true
+disableTectonicUndergroundRivers = false
 # Show the welcome message when joining the world.
 showWelcomeMessage = false

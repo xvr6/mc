@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/DistantHorizons.toml"
+hash = "2eb7aa493c1514348c9d02a9912fd597f38c379dc14a3ed84d0f7caec3448abb"
+
+[[files]]
 file = "config/adchimneys-common.toml"
 hash = "7def90b6724dc296bfd9e6227e363cb3f34d5f144f716872c70d81af68467dc6"
 
@@ -46,7 +50,7 @@ hash = "dcc28aa80e16236eb44c69c589d41a2ca663782a9c2d874c14cf55959499a50c"
 
 [[files]]
 file = "config/dynamicwaters-common.toml"
-hash = "9d6022e2cad88a1553d2e0f7e1915583399c6f2adf34359a452193959f56c3bf"
+hash = "32b4a78a6f6f6094362629384b6c250f4dacc2f2cc3991a421b5fed1d8995644"
 
 [[files]]
 file = "config/everycomp-common.toml"
@@ -962,6 +966,21 @@ metafile = true
 [[files]]
 file = "mods/elysium-api.pw.toml"
 hash = "320e38a0bb24767b93473c7d6c969c8ed4e3bf014d7db36a74ad646504ed16ce"
+metafile = true
+
+[[files]]
+file = "mods/emi-enchanting.pw.toml"
+hash = "ff029ee6fc50f2696e96cdbcc696f42e75b483c9d7b83f2b1447dcf5c865e664"
+metafile = true
+
+[[files]]
+file = "mods/emi-loot.pw.toml"
+hash = "519f011d36736129795025f19301ad2d6141f422857d6154a3df2e2019f416f3"
+metafile = true
+
+[[files]]
+file = "mods/emi-ores.pw.toml"
+hash = "f2cbcb3d01017133313e1594cb89f052923592b7fa0c78eb9b6d09fb6e03bfb5"
 metafile = true
 
 [[files]]
