@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "2eb7aa493c1514348c9d02a9912fd597f38c379dc14a3ed84d0f7caec3448abb"
+hash = "9ae74c4790c1e7f3e435de29f8658fe98c173e6bfdf223a21768d98b95c89122"
 
 [[files]]
 file = "config/adchimneys-common.toml"
@@ -51,10 +51,6 @@ hash = "dcc28aa80e16236eb44c69c589d41a2ca663782a9c2d874c14cf55959499a50c"
 [[files]]
 file = "config/dynamicwaters-common.toml"
 hash = "32b4a78a6f6f6094362629384b6c250f4dacc2f2cc3991a421b5fed1d8995644"
-
-[[files]]
-file = "config/everycomp-common.toml"
-hash = "6d96e865e44fade14c963065fab51cf26a54999be33210a86ca7f308df4306ab"
 
 [[files]]
 file = "config/freecam.json5"
