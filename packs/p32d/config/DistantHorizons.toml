@@ -702,7 +702,7 @@ _version = 4
 		# but may cause server/simulation lag. 
 		# Note: unlike other modes this option DOES save generated chunks to 
 		# Minecraft's region files.
-		chunkGeneratorMode = "FEATURES"
+		chunkGeneratorMode = "INTERNAL_SERVER"
 		#
 		# If the Minecraft server thread is taking too long 
 		# Distant Horizons will pause world gen to reduce server stuttering/lag.
@@ -732,7 +732,7 @@ _version = 4
 		# CHAT 
 		# LOG 
 		# DISABLED
-		showGenerationProgress = "OVERLAY"
+		showGenerationProgress = "CHAT"
 		#
 		# How often should the distant generator progress be displayed?
 		generationProgressDisplayIntervalInSeconds = 2
@@ -907,19 +907,19 @@ _version = 4
 			# If enabled, a chat message will be displayed in chat if the garbage 
 			# collector Java is currently using is known 
 			# to cause frame stuttering and/or other issues.
-			showGarbageCollectorWarning = true
+			showGarbageCollectorWarning = false
 			#
 			# If enabled, a message will be logged if explicit garbage collection 
 			# is disabled. 
 			# This is known to cause out-of-memory issues 
 			# and is better solved with a concurrent garbage collector.
-			logExplicitGcDisabledWarning = false
+			logExplicitGcDisabledWarning = true
 			#
 			# If enabled, a message will be displayed in chat if explicit garbage collection 
 			# is disabled. 
 			# This is known to cause out-of-memory issues 
 			# and is better solved with a concurrent garbage collector.
-			showExplicitGcDisabledWarning = false
+			showExplicitGcDisabledWarning = true
 
 [server]
 	#
