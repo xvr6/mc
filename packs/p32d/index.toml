@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/DistantHorizons.toml"
-hash = "6ed7346dce78aeda856be235b3989f8ee1e61f46bbdf3c3237ef4ca68db6dca0"
-
-[[files]]
 file = "config/adchimneys-common.toml"
 hash = "7def90b6724dc296bfd9e6227e363cb3f34d5f144f716872c70d81af68467dc6"
 
@@ -133,6 +129,10 @@ file = "config/wands.json"
 hash = "f8da70b67c4fc8ef6173cc8180236e92de42facbbfb14f0e48f17695434cbac1"
 
 [[files]]
+file = "config/yosbr/config/DistantHorizons.toml"
+hash = "6ed7346dce78aeda856be235b3989f8ee1e61f46bbdf3c3237ef4ca68db6dca0"
+
+[[files]]
 file = "config/yosbr/config/accessories.json5"
 hash = "4374e93338f947dc9e4e12818877c28ab4994c9420d5462edf2da31d6c0c25af"
 
@@ -155,10 +155,6 @@ hash = "e9434bf660bd7dd68f4e3e62f92487cf33363a9a6725d714acba77c2a9e6b53b"
 [[files]]
 file = "config/yosbr/config/xaero/world-map/client.cfg"
 hash = "5becce9b6f4a7c83c4ffd6568562b81f613f14b9ea0455981478e42eb1aef1f5"
-
-[[files]]
-file = "config/yosbr/options.txt"
-hash = "d42b8a5a444efb438c4d17d28a59533030f8a4201e808a70f6d3452bd94866da"
 
 [[files]]
 file = "datapacks/poinky-additions/data/poinky/dimension_physics/overworld.json"
