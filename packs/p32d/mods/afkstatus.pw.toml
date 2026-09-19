@@ -3,8 +3,8 @@ filename = "afkstatus-neoforge-1.3.0.jar"
 side = "server"
 
 [download]
-hash-format = "sha1"
-hash = "3046737648291b77c1cdfcdc1a714e7e3109eafc"
+hash-format = "sha512"
+hash = "b60471f5494a29202cd0ae742bf1744442ab56aad2e7d879f10617c48acceab37cb1d9dbea15f02ac8fd697cdfaa1c9f74792cd0708c501d54a11ffbf55abfed"
 mode = "metadata:curseforge"
 
 [update]

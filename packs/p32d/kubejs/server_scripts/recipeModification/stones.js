@@ -118,11 +118,6 @@ ServerEvents.recipes((event) => {
     Ingredient.of("#minecraft:terracotta"),
     Fluid.of("minecraft:lava", 250),
   ]);
-  //Chalk
-  event.recipes.shapeless("regions_unexplored:chalk", [
-    "2x supplementaries:ash",
-    "minecraft:bone_block",
-  ]);
 
   //Alt recipe for prismarine
   event.custom({
@@ -161,16 +156,6 @@ ServerEvents.recipes((event) => {
     "minecraft:pointed_dripstone",
   );
 
-  // - Immersive weathering cracked bricks changing
-  event.remove({ id: "cluttered:antique_bricks" });
-  event.stonecutting("cluttered:antique_bricks", "minecraft:bricks");
-  event.remove({ id: "immersive_weathering:cracked_bricks" });
-  event.stonecutting("immersive_weathering:cracked_bricks", "minecraft:bricks");
-  event.remove({ id: "immersive_weathering:cracked_end_stone_bricks" });
-  event.stonecutting(
-    "immersive_weathering:cracked_end_stone_bricks",
-    "minecraft:end_stone_bricks",
-  );
   // - Sulfur Caves stuff
   event.recipes.createFilling("minecraft:cinnabar", [
     Fluid.of("create_dragons_plus:red_dye", 128),

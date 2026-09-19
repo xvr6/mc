@@ -206,11 +206,11 @@ hash = "181672b7728e8dd866d521597e8449a1a60293f9aef0520c9075a8b7f01a91f3"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/misc.js"
-hash = "60fce6fc998b5b8798dcdf3f1887db269db13908b97509378d695ac5b58c58b3"
+hash = "dd4b5526fc88ed62c9bcbe32479f6f51a5f19591e5dbf9430267fe043258bd76"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/stones.js"
-hash = "34b41d9452a0215305d1bf3620e0757bdde6b0d91bbf82131c31847476468110"
+hash = "766d76b8063a4ec0da0c4a82c330d02adebf28833db80c5c8f82ada2c8c70535"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/tags.js"
@@ -256,7 +256,7 @@ metafile = true
 
 [[files]]
 file = "mods/afkstatus.pw.toml"
-hash = "8f119a51de1c2517d8c7ac8bae17712712e4791d996e7b249f3ec2a09a7f231d"
+hash = "b135860a45ebb8e8b5831318cdc6e772794e97c354c422582c468de31f36b963"
 metafile = true
 
 [[files]]
@@ -875,7 +875,7 @@ metafile = true
 
 [[files]]
 file = "mods/cupboard.pw.toml"
-hash = "55f8f5c6152e6c0ceb79d38ca741910665754d1ce0755234b09318923e586e43"
+hash = "f4279f1ec7e43ec0331b4fd31453b954ab279902f34219c1e0be792ff6f2c5ce"
 metafile = true
 
 [[files]]

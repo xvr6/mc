@@ -102,12 +102,6 @@ ServerEvents.recipes((event) => {
     "minecraft:amethyst_shard",
   ]);
 
-  event.shaped(
-    Item.of("immersive_weathering:tinted_glass_pane", 16),
-    ["TTT", "TTT", "   "],
-    { T: "minecraft:tinted_glass" },
-  );
-
   // - Remove duplicate recipes
   //scaffolding
   event.remove({ id: "farmersdelight:scaffolding_from_canvas" });
