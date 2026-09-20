@@ -102,7 +102,7 @@ hash = "7e3c43f4d9610837c6ea27a575cf58ecccc265e3ee78415c38344436e541ddbc"
 
 [[files]]
 file = "config/sparsestructures.json5"
-hash = "4f72684e368c0d707a6789c9e21dd2a01e61f184367773f9049a1711664a4c9d"
+hash = "0fc5fed7ed534cbfdec3f210f3f987c6094dcb9cf7319a0a29fb7b8c65938ab7"
 
 [[files]]
 file = "config/supplementaries-client.toml"
@@ -1772,7 +1772,7 @@ metafile = true
 
 [[files]]
 file = "mods/sparsestructures.pw.toml"
-hash = "8c71edbbb86e5d3e1c14ea6629382539d44e75b1061725df9c3abceb889a8591"
+hash = "993b4e4970e1a5ef2fe7c6712212f57a84dcf8b31d4b6863540b6395c4f9ce09"
 metafile = true
 
 [[files]]
