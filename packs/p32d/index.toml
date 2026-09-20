@@ -101,6 +101,10 @@ file = "config/sophisticatedbackpacks-server.toml"
 hash = "7e3c43f4d9610837c6ea27a575cf58ecccc265e3ee78415c38344436e541ddbc"
 
 [[files]]
+file = "config/sparsestructures.json5"
+hash = "4f72684e368c0d707a6789c9e21dd2a01e61f184367773f9049a1711664a4c9d"
+
+[[files]]
 file = "config/supplementaries-client.toml"
 hash = "24441ff96f9d18cb6c03921742f292449a600077758b7bffc51a033dc15ed4e3"
 
@@ -878,7 +882,7 @@ metafile = true
 
 [[files]]
 file = "mods/data-anchor.pw.toml"
-hash = "bdc409a5eb4e06535a0387250fc4002ea578213bc2a1c5fbcdd4a836f54281c0"
+hash = "64bdeecf2b2217fc22d5237a6bcc3b5f54a4352233040aaa0dbec4e8216f6536"
 metafile = true
 
 [[files]]
@@ -1348,7 +1352,7 @@ metafile = true
 
 [[files]]
 file = "mods/lootr.pw.toml"
-hash = "a4e12af3a61f73db9128b857d053770f1d4cab64697a08c9d027e5c8bcdf6891"
+hash = "86390b0fac4ae3a1f24f0723cab5dcd3b798cb0c9be579575ba93b0cc6a90212"
 metafile = true
 
 [[files]]
@@ -1418,7 +1422,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "d4b0144afd929bafee68f0e0e716f86f91e35dc063063c429f06b5f74eef5971"
+hash = "a5794d747743ac8800355f1ac570b40baaf0bb195ff57beb0c2d0176a0530b94"
 metafile = true
 
 [[files]]
@@ -1713,7 +1717,7 @@ metafile = true
 
 [[files]]
 file = "mods/slice-and-dice.pw.toml"
-hash = "83a7b840686a417dfe1161ee5cd918989dd2d901c9013bf85e93a30f597260f7"
+hash = "3c24accda8011a6a5e04c49c40e39617bb04ab3a549d8f2e8180d3246fddac39"
 metafile = true
 
 [[files]]
@@ -1764,6 +1768,11 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "593fa7b30ab016aa45be07bd6bef3a9f160ed0f24689850d60bf84995d69b843"
+metafile = true
+
+[[files]]
+file = "mods/sparsestructures.pw.toml"
+hash = "8c71edbbb86e5d3e1c14ea6629382539d44e75b1061725df9c3abceb889a8591"
 metafile = true
 
 [[files]]
@@ -1833,7 +1842,7 @@ metafile = true
 
 [[files]]
 file = "mods/tooltip-overhaul.pw.toml"
-hash = "2b951c978b7351b66c64843a47f294d476752eb26e75b5f7c30608876dc59bd7"
+hash = "ca860dfb7e9a47a15f3e86f16948f31bd86459b0d8a587d77ccf52b3428b45f6"
 metafile = true
 
 [[files]]
