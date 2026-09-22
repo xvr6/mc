@@ -1,7 +1,7 @@
 ServerEvents.tags("item", (event) => {
   event.remove("ratatouille_fried_delights:compostable_items_1to1");
   event.add("dndecor:industrial_cogwheels", "dndecor:industrial_cogwheel");
-  event.add("poinky:non_hand_craftable", "");
+  event.add("poinky:non_hand_craftable", ""); // removes all crafting grid recipes
 
   event.add(
     "c:salt",
@@ -54,15 +54,7 @@ ServerEvents.tags("item", (event) => {
     "ratatouille_fried_delights:mayonnaise_bucket",
   );
 
-  event.add(
-    "poinky:removed",
-    "#dndecor:containers_decor",
-    "#createdeco:shipping_containers", // block tag, not item tag; must be removed by hand
-    "create_sa:vault_component",
-  );
-  Color.DYE.forEach((color) => {
-    event.add("poinky:removed", `createdeco:${color}_shipping_container`);
-  });
+  event.add("poinky:removed", "create_sa:vault_component");
 });
 
 ServerEvents.recipes((event) => {
