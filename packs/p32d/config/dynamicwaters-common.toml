@@ -55,10 +55,10 @@ enableWatersheds = true
 enableNormalRivers = true
 # Density of mountain rivers flowing into normal rivers. LOW = rare, HIGH = current default, ULTRA = very frequent.
 # Allowed Values: LOW, MEDIUM, HIGH, ULTRA, EXTREME, INSANE
-mountainRiverDensity = "HIGH"
+mountainRiverDensity = "MEDIUM"
 # Density of mountain rivers flowing directly into the ocean. LOW = none (0%), MEDIUM = 2%, HIGH = 5%, ULTRA = 10%.
 # Allowed Values: LOW, MEDIUM, HIGH, ULTRA, EXTREME, INSANE
-mountainRiverOceanDensity = "HIGH"
+mountainRiverOceanDensity = "INSANE"
 # List of biome IDs that will be treated like oceans by Dynamic Waters: no river flow and no river carving.
 # Use the full biome resource location, e.g. minecraft:warm_ocean or mymod:dead_sea.
 # Supports wildcard suffixes when the entry ends with '*', e.g. mymod:*

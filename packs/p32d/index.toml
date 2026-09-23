@@ -46,7 +46,7 @@ hash = "dcc28aa80e16236eb44c69c589d41a2ca663782a9c2d874c14cf55959499a50c"
 
 [[files]]
 file = "config/dynamicwaters-common.toml"
-hash = "32b4a78a6f6f6094362629384b6c250f4dacc2f2cc3991a421b5fed1d8995644"
+hash = "17d9fd291fea3310914a78aedba76a2886d6a1fa8f76f596c3fa3b081358d89b"
 
 [[files]]
 file = "config/freecam.json5"
@@ -114,7 +114,7 @@ hash = "da20bd60e424dca987706ba8fe3497a72bf441f9b911388e8e6ba61fd08202d8"
 
 [[files]]
 file = "config/tectonic.json"
-hash = "1218496e7519a1fa4d96f36fc72b78ffe2b2173c6351fb3ea0b8ed8edf9c44ec"
+hash = "e48b6af4ccc96468c4a97a2501346922639a0ff9be418165dc24b1318713b7e5"
 
 [[files]]
 file = "config/underground_village/common.json"
@@ -1903,6 +1903,11 @@ metafile = true
 [[files]]
 file = "mods/wayfinder.pw.toml"
 hash = "8792f70e38e9c697c6256f29005cea3f447e44d5a365c0225eb5d14b5442b8f8"
+metafile = true
+
+[[files]]
+file = "mods/wwoo.pw.toml"
+hash = "1960c304ef7e5eb391934e0c102fd3346afe586cd5df5efb0cd7235e0a583634"
 metafile = true
 
 [[files]]
