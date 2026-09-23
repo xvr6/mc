@@ -2014,6 +2014,10 @@ file = "resourcepacks/poinky-additions/pack.mcmeta"
 hash = "142d6977e437deebd7b6adcb39d1bdacc30f423a767895e4d4f7e3abd45af5f0"
 
 [[files]]
+file = "shaderpacks/ComplementaryUnbound_r5.9.3 + EuphoriaPatches_1.10.5.txt"
+hash = "74865b2145b3adef84e63f551c18513e1eea456f0799d91b79224e07218b607f"
+
+[[files]]
 file = "shaderpacks/complementary-unbound.pw.toml"
 hash = "1a3d3663c44dc21e227c39c42ea9b5e3c4f3b2e3b5272ed55b45da9e247a46d7"
 metafile = true
