@@ -134,7 +134,7 @@ hash = "f8da70b67c4fc8ef6173cc8180236e92de42facbbfb14f0e48f17695434cbac1"
 
 [[files]]
 file = "config/yosbr/config/DistantHorizons.toml"
-hash = "977e18b427ac027274b82724255c351b0144baf3c13486756c9935e985dba8ea"
+hash = "a9a921518df61463ed07153a066355a3a621c863e64fc5c5cf4826f696284a2f"
 
 [[files]]
 file = "config/yosbr/config/accessories.json5"
