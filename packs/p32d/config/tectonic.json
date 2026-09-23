@@ -73,7 +73,7 @@
     "vertical_scale": 1.175
   },
   "islands": {
-    "enabled": true,
+    "enabled": false,
     "noise_multiplier": 1.0,
     "noise_offset": 0.0,
     "noise_scale": 0.25
