@@ -114,7 +114,7 @@ hash = "da20bd60e424dca987706ba8fe3497a72bf441f9b911388e8e6ba61fd08202d8"
 
 [[files]]
 file = "config/tectonic.json"
-hash = "2c9ec6894dc73273aa1cb4734a7f23b79da4ad93b16742aecb44192adfd71bcb"
+hash = "84f4656cfb2ee0f14407dc4ee5c39f7b63d11322a6bd4feb9a99b57ef2729a0d"
 
 [[files]]
 file = "config/underground_village/common.json"
@@ -1611,6 +1611,11 @@ hash = "c99c5bac469e8d6ece5aae80f08635e3bbb8367f0c586b6288573c725faefe69"
 metafile = true
 
 [[files]]
+file = "mods/project-vibrant-journeys.pw.toml"
+hash = "359eedc9f0126af6e31c3f6f7843f8d25a8ff456d51638ff364f84f19bce26ff"
+metafile = true
+
+[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "391e5d415c0754ad210b8efa54fc9ded4f99e6ab8562d6faf960f3b65d84a66a"
 metafile = true
@@ -1908,11 +1913,6 @@ metafile = true
 [[files]]
 file = "mods/wayfinder.pw.toml"
 hash = "8792f70e38e9c697c6256f29005cea3f447e44d5a365c0225eb5d14b5442b8f8"
-metafile = true
-
-[[files]]
-file = "mods/wwoo.pw.toml"
-hash = "1960c304ef7e5eb391934e0c102fd3346afe586cd5df5efb0cd7235e0a583634"
 metafile = true
 
 [[files]]
