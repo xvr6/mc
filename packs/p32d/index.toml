@@ -1721,6 +1721,11 @@ hash = "d7b738d7a81f0c3114a4ae76a2d10aca813d0d24b6686f40c21aeac1c7fc60b5"
 metafile = true
 
 [[files]]
+file = "mods/si-refined-obsidian.pw.toml"
+hash = "f2156c910fdbad78c0a1b7bcdb682bd7809b96f47328b34c4e975d86779a7ca6"
+metafile = true
+
+[[files]]
 file = "mods/simulated-gauges.pw.toml"
 hash = "b131faa1c8ca8217f5d52612d4b41f8f8f019488f6b1e3bfee065ca82c21bdfb"
 metafile = true

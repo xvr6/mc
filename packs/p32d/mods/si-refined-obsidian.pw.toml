@@ -1,0 +1,13 @@
+name = "SI: Refined Obsidian"
+filename = "si_refined_obsidian-1.0.0-1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/XiboXdEl/versions/sK3CXmaO/si_refined_obsidian-1.0.0-1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "54c02a97b0c85978a4697e3fc5240a929f005b15b134af3916c487f91e19befdc1a3fce257755db527683264fa29641a5f802023cafae6a59b4c0c378dc19f51"
+
+[update]
+[update.modrinth]
+mod-id = "XiboXdEl"
+version = "sK3CXmaO"
