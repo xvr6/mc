@@ -165,6 +165,10 @@ file = "config/yosbr/config/xaero/world-map/client.cfg"
 hash = "5becce9b6f4a7c83c4ffd6568562b81f613f14b9ea0455981478e42eb1aef1f5"
 
 [[files]]
+file = "config/yosbr/options.txt"
+hash = "5fa353626f9efe389f7a9c556bd1588067e3aa8ede3d3f391273293d4812613c"
+
+[[files]]
 file = "datapacks/poinky-additions/data/poinky/dimension_physics/overworld.json"
 hash = "5f42fb7ec4d3b72f738563730fcb22dca949816b06b78291e74fe2924f5f77d7"
 
