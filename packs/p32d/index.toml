@@ -1439,6 +1439,11 @@ hash = "7bc20264f0874457c08927af84def007cd5ed2caeee9d736cab1f92d8ea8d6ec"
 metafile = true
 
 [[files]]
+file = "mods/more-armor-trims.pw.toml"
+hash = "241889855b03ad7fecf82b441e2fbb3be925bd2e73b22598487a1c4831a77b52"
+metafile = true
+
+[[files]]
 file = "mods/more-sniffer-flowers.pw.toml"
 hash = "a0d426e47f8f3d53d279ccc63fbadd7351a90c52b5dbdd94f63ac253f637c1a6"
 metafile = true
@@ -1840,7 +1845,7 @@ metafile = true
 
 [[files]]
 file = "mods/tectonic.pw.toml"
-hash = "dd46fad79cf33a00123be0a74c73581da72cd98503ef23822a624a08f4b10ff2"
+hash = "eb41ce61c3780319f0fdf96f0c9cb3e15e95dccc6f90c26df5ab0f232eb9961b"
 metafile = true
 
 [[files]]
@@ -1871,6 +1876,11 @@ metafile = true
 [[files]]
 file = "mods/torchmaster.pw.toml"
 hash = "08aa1a2574bde997cb575648a6ff67b630b68f3783849579b8399ffb3a3829dc"
+metafile = true
+
+[[files]]
+file = "mods/trails-and-tales-plus.pw.toml"
+hash = "637771444ac226a315f0c0bf4a5f23d7dada70d39e698350cf50344df9959ef2"
 metafile = true
 
 [[files]]
