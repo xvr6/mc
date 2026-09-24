@@ -97,12 +97,12 @@ file = "config/packed_packs/profiles/resourcepacks/FA.profile.json"
 hash = "4488afbdf2a72826d6299a1bccd1c004539cb489ac6733f8232d602982e0458d"
 
 [[files]]
-file = "config/quark-common.toml"
-hash = "dcbad7253f79254df3a3a935c3168447f80c4b3e047a48e30288e3461819925d"
+file = "config/petrolsparts-common.toml"
+hash = "cbdec719d97a9409db321ada07c5d252a7948e3bb9220a182abf95ea6c174052"
 
 [[files]]
-file = "config/sophisticatedbackpacks-server.toml"
-hash = "7e3c43f4d9610837c6ea27a575cf58ecccc265e3ee78415c38344436e541ddbc"
+file = "config/quark-common.toml"
+hash = "dcbad7253f79254df3a3a935c3168447f80c4b3e047a48e30288e3461819925d"
 
 [[files]]
 file = "config/sparsestructures.json5"
@@ -400,6 +400,11 @@ hash = "df32f867e04ce60dfd13d2c5af9d90b58daccfce7b4c94e5dba2f4666ba38a89"
 metafile = true
 
 [[files]]
+file = "mods/cc-deep-seas.pw.toml"
+hash = "2f23159bbbda90471b31e843f7a743b4d5d56718b4fd213a6f91c7ef77c931f0"
+metafile = true
+
+[[files]]
 file = "mods/cc-redstone-link-bridge.pw.toml"
 hash = "791a6138f2501b4e3d2695bc6f95d207da57872cb7a32074a6236a264e43cb7f"
 metafile = true
@@ -420,6 +425,11 @@ hash = "0194091946d249681e33dd32a927122e844d4093c2f14165f2f99f92e028af11"
 metafile = true
 
 [[files]]
+file = "mods/cgs.pw.toml"
+hash = "dae8f38fa94bb1ce2108bf60fcce95eed3b5e9a3deb6759093a217e9b192f5ac"
+metafile = true
+
+[[files]]
 file = "mods/chefs-delight.pw.toml"
 hash = "4c05ea60d85212e4737d23a4b5ee74659a37c7cb9d6ab54c71b2eca56ed1f58c"
 metafile = true
@@ -437,16 +447,6 @@ metafile = true
 [[files]]
 file = "mods/chloride.pw.toml"
 hash = "d828ddd116c9e2c33c85f4c3cce7691e6d217b38db14265219ed13ec4d7f8d6f"
-metafile = true
-
-[[files]]
-file = "mods/chunk-sending-forge-fabric.pw.toml"
-hash = "15ddc26717c48614647522939a243fc06a0b2563b7586fc92dd3abdc514cf59d"
-metafile = true
-
-[[files]]
-file = "mods/chunky.pw.toml"
-hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
 metafile = true
 
 [[files]]
@@ -665,6 +665,11 @@ hash = "59ca697b09cd2339e6bbd524828fed73fa842083846e950a555aa081fedb6c63"
 metafile = true
 
 [[files]]
+file = "mods/create-deep-seas.pw.toml"
+hash = "404db1758af44123b89cbf6e2ffdf4a5cf11b708be665f48657ff40735723152"
+metafile = true
+
+[[files]]
 file = "mods/create-design-n-decor.pw.toml"
 hash = "e05bc0c3ee97da0dfcf9dabd3c3eaee0e90819091ead3f500ddc3b1caf77fe54"
 metafile = true
@@ -687,6 +692,11 @@ metafile = true
 [[files]]
 file = "mods/create-enchantment-industry.pw.toml"
 hash = "1a9187d50e9a3a17dbdae3fbf8c3f691c43f9a5c6da8313fa6dffbf2ac0c49ba"
+metafile = true
+
+[[files]]
+file = "mods/create-fast-schematic-cannon.pw.toml"
+hash = "fa174ec257cb0fdbf3e4130a2d37fd44fab48a4b2fd03d2985189f54d68cf50b"
 metafile = true
 
 [[files]]
@@ -794,6 +804,11 @@ hash = "5e27d23ab07532da7bb1d9e19ce94fc1f8dad1924b61f980306d3822aeb7cd9c"
 metafile = true
 
 [[files]]
+file = "mods/create-storage-neo-forge.pw.toml"
+hash = "c5c5d732a02521e4b3e960653a84f0781b5919e9df13bad99666493bc2f1d63c"
+metafile = true
+
+[[files]]
 file = "mods/create-stuff-additions.pw.toml"
 hash = "2244c6c580c41f432e02bc82a6f78af0b1777de42400d1e5b702208376c56c6f"
 metafile = true
@@ -839,6 +854,11 @@ hash = "09ff12ee2b35c482c2b9be9c2b429b7b11be0dc8f0c111443b655963643e9085"
 metafile = true
 
 [[files]]
+file = "mods/create-vintage-(unofficial-port).pw.toml"
+hash = "30f47ae0488b62621306955e3a4c071c062ca723965e64c6da899a0bf1c8a213"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
@@ -846,6 +866,11 @@ metafile = true
 [[files]]
 file = "mods/createaddition.pw.toml"
 hash = "bcbcb4d32d5b2b6bcb4a578639a8830396eb87febe0ff3364a99ca6aee9a5bb7"
+metafile = true
+
+[[files]]
+file = "mods/createlazytick.pw.toml"
+hash = "0590e6ac543f33f0df98b90fe1ccfd57bbfe2af396dc3ef87264c313f104e7ff"
 metafile = true
 
 [[files]]
@@ -971,6 +996,11 @@ metafile = true
 [[files]]
 file = "mods/elysium-api.pw.toml"
 hash = "320e38a0bb24767b93473c7d6c969c8ed4e3bf014d7db36a74ad646504ed16ce"
+metafile = true
+
+[[files]]
+file = "mods/emi-create-schematics.pw.toml"
+hash = "e0da63d5ba6b0649e29325584dd15046070f7b5b251f41fc7e33ce85be240f8f"
 metafile = true
 
 [[files]]
@@ -1509,6 +1539,11 @@ hash = "a1100cc00811868f201c01a8b0532c9f12908184c028998bf4a8f574c5d643df"
 metafile = true
 
 [[files]]
+file = "mods/ntgl.pw.toml"
+hash = "7932fbacc370edc6fd2577784800fd3d8baf7ceffa7d8ef0ac927ec13a62f16a"
+metafile = true
+
+[[files]]
 file = "mods/oceans-delight.pw.toml"
 hash = "7bf7c8369bd28212a1e294c60310ccb72f1eb773630970e6ab106ae666766cd3"
 metafile = true
@@ -1761,26 +1796,6 @@ metafile = true
 [[files]]
 file = "mods/some-assembly-required.pw.toml"
 hash = "04f06b630fb9479786c6b86696af543d7108b3dba50f651437c865d02e773a0f"
-metafile = true
-
-[[files]]
-file = "mods/sophisticated-backpacks.pw.toml"
-hash = "d089be7d1b39541c418ea6a6a4d3797eb5afcc68ad511dbd606de66d5397d59d"
-metafile = true
-
-[[files]]
-file = "mods/sophisticated-core.pw.toml"
-hash = "2f0c858e1e303aba06718a27c1628134418d53825bd46e3c44cabe1b442636c7"
-metafile = true
-
-[[files]]
-file = "mods/sophisticated-storage-create-integration.pw.toml"
-hash = "22729316e54e8a314171281417d7429e7d554be0ebb0c87a5b55c949c5972757"
-metafile = true
-
-[[files]]
-file = "mods/sophisticated-storage.pw.toml"
-hash = "2d45e747634f18813476b01a13507fa99e01e330334f11c3ed8b6a074faf3b5f"
 metafile = true
 
 [[files]]
