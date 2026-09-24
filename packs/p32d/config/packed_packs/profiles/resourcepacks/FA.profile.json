@@ -1,0 +1,17 @@
+{
+  "locked": true,
+  "name": "FA",
+  "overrides": {},
+  "packIds": [
+    "file/Fresh Patch - Jaden\u0027s Nether Expansion.zip",
+    "vanillabackport:freshly_animated",
+    "file/faplayer.zip",
+    "file/faemissive.zip",
+    "file/facompat.zip",
+    "file/fa.zip",
+    "moonlight:merged_pack",
+    "netherexp:jne_retextures",
+    "mod_resources",
+    "vanilla"
+  ]
+}

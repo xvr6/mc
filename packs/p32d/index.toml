@@ -82,7 +82,7 @@ hash = "779e5a19c266c294003617ab5311c28c5f0223c297553ccfba03914f235cfee2"
 
 [[files]]
 file = "config/packed_packs/config.json"
-hash = "2954f8600d7c3def784a44119aa7818bdcb2231cb6f1157deb2e883ce1df8ef9"
+hash = "c186f5b827116c182012bea2d253d45daea637678e7fc4acf8181462300c6353"
 
 [[files]]
 file = "config/packed_packs/config.meta.json"
@@ -91,6 +91,10 @@ hash = "bf69102f3f5c232ae8fc3bcbfc7211e2c7fea3608e34d4f589bf50f85f1bb868"
 [[files]]
 file = "config/packed_packs/preferences.properties"
 hash = "ccda7f85de5850bc2fb0ce05a6ff95cac14dd8f6546885fc303ee151e1e55610"
+
+[[files]]
+file = "config/packed_packs/profiles/resourcepacks/FA.profile.json"
+hash = "4488afbdf2a72826d6299a1bccd1c004539cb489ac6733f8232d602982e0458d"
 
 [[files]]
 file = "config/quark-common.toml"
