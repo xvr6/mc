@@ -1,0 +1,13 @@
+name = "Gouge"
+filename = "gouge-1.6-mc1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7ZwT9z3D/versions/7zF5Birs/gouge-1.6-mc1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "cbbb8175aa9179bb610fdf1c7280c07dd5e6133005ae5b5cb24fdd7da0d10f92b924d60dc683a7de9854c18db610346849ac12614c184d2d22500682783cfd3b"
+
+[update]
+[update.modrinth]
+mod-id = "7ZwT9z3D"
+version = "7zF5Birs"

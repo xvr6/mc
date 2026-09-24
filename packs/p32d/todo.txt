@@ -1,0 +1,44 @@
+(C) cuttingboard +recipe conflicts
+x 2026-07-21 2026-07-21 Void steel +recipe missing/incomplete
+(F) look into why tf passive mobs still dont spawn +hell
+x 2026-07-15 2026-07-15 Remove cake/chcolate +recipe that dont use mold
+x 2026-07-15 2026-07-15 change all blaze cakes to use this new system too, making blaze cakes a bit more complex, but perhaps make it so u get 2/4 bases when making it.
+x 2026-07-21 2026-07-21 +recipe addition of using powdered snow in place of ratatatouille freezing block
+x 2026-07-19 2026-07-15 Cobblemon industries +recipe tweaks; removing its dyes and replacing with dragons plus; remove all non-base pokeball recipies
+x 2026-07-15 2026-07-15 +recipe compats between salts and cinnamon
+(B) complex/expensive +recipe for superexp maybe
+x 2026-07-21 2026-07-21 netherrack duplicate +recipe removal/tweaks
+x 2026-07-24 2026-07-24 EMI issues; some things dont show up, some recipies loose their favorite buttons, etc
+x 2026-07-17 2026-07-17 Migrate +recipe datapack to kubejs
+x 2026-07-18 2026-07-18 Fish!!! +mod
+(D) tweak +recipe for industrially-plated +mod
+(G) Once fixed (if at all) add in abilities for truemons to change size by eating size essences
+(C) remove items with no +recipe from EMI/JEI
+(A) [likely wont be done] Removal of +cobblemon legendary spawns; only use items to spawn then
+x 2026-07-18 2026-07-18 +cobblemon not regenerating pp when sleeping
+x 2026-07-18 2026-07-18 gingerbread decorations +recipe change to using gingerflour
+x 2026-07-17 2026-07-17 compat between salts +recipe with garnished as priority
+x 2026-07-21 2026-07-21 pancake +recipe compat
+x 2026-07-18 2026-07-18 +mod Etched with +recipe changes
+x 2026-07-18 2026-07-18 boil stone for liquid dyes
+x 2026-07-18 2026-07-18 adding Comforts +mod adds hammoks for daytime skipping
+(C) maximum speed decrease for thrusters
+x 2026-07-21 2026-07-21 exp candy recipe tweaks to use create filling of honey comb with liquid exp
+(C) Weight adjustmenets for aeronautics
+(E) Origins has a shit ton of bugs sobbing +origin
+x 2026-07-18 2026-07-18 sleeping cobblemon doesnt work all the time for restoring hp/pp. Make kubejs script that always fires after 1sec laying in bed
+x 2026-07-21 2026-07-21 change dye recipes around
+(B) move item recipe removals to be tag based; ultimate goal is to have all removed items in one tag for jei hiding
+(G) minimap rotation is wrong when on aeronautics
+(B) +recipe tweaks for fried stuff; cooking oil; rename sunflour oil
+x 2026-07-21 2026-07-21 (B)
+(B) Ratatoiulle popsicle +recipe expansion
+(C) Possble +recipe merging between diesel generators and ratatouile fermenting. Also look into making brewing and chewin compatable as well
+(B) +recipe tweaks to CBC molds
+(A) +recipe for ratatouile molds; add stonecutter
+x 2026-07-28 2026-07-28 +mod use my fork of integrated farming
+(C) kubejs readme
+(A) +recipe dye washing for apricorns/their seeds
+(A) add item description for cobblestone generators listing what can be generated
+(A) description for items that are removed; denote their content removal. Migrate ALL removed content to tags.
+(G) Eventually replace colorful vaults with bits 'n' dyes/create connected

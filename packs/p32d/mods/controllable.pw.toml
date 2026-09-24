@@ -1,0 +1,17 @@
+name = "Controllable"
+filename = "controllable-neoforge-1.21.1-0.25.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "17b3fe33acb34993eaeabc338b6148cd7d871d23ca956bc1721251aab3482f45918d6c8785c8196a291a764a622be00771e2682dd5dfe9abc8798bbaa43d08d3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7411284
+project-id = 317269
+
+[option]
+optional = true
+description = "controller support"

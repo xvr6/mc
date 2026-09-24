@@ -1,0 +1,13 @@
+name = "is Typing"
+filename = "istyping-neoforge-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/GdWD6r2S/versions/3ikD7TWg/istyping-neoforge-1.0.0.jar"
+hash-format = "sha512"
+hash = "0306d47ad0277a308ea8328e4990e94a6fecbe7422412565be5dc746b190013a4808dc6cf73c6966342801c9ac52711dbdfd2135290725b885dc54e6266c1d97"
+
+[update]
+[update.modrinth]
+mod-id = "GdWD6r2S"
+version = "3ikD7TWg"

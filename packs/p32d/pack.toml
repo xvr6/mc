@@ -1,0 +1,16 @@
+name = "New Poinky 3D XS"
+author = "xvr6"
+version = "3.2.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "63cb4b5dd871a3a9f75dddb872ad7eb75bfb96e34a22b4801fe9bf1030089924"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.248"
+
+[options]
+datapack-folder = "./datapacks"

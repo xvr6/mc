@@ -1,0 +1,13 @@
+name = "Fresh Animations Patch - Jaden's Nether Expansion"
+filename = "Fresh Patch - Jaden's Nether Expansion.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/LdIgEVk0/versions/24hnumdJ/Fresh%20Patch%20-%20Jaden%27s%20Nether%20Expansion.zip"
+hash-format = "sha512"
+hash = "22c380bed1ed092922e78b299df623b8d7a9882c3930bcb839d1c3233beb908e55eb8196fa0ab2bb9e9729918c14a175b180c61cb69cb3a9169b58e86a07d1e6"
+
+[update]
+[update.modrinth]
+mod-id = "LdIgEVk0"
+version = "24hnumdJ"

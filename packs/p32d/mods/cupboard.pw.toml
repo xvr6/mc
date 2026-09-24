@@ -1,0 +1,13 @@
+name = "Cupboard"
+filename = "cupboard-1.21.1-4.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "c8e929b64464529c8d1dbbc90459926ddcd1b23cf65899fa076da2eb2e27c0dcef40b95bd266fc7328abf7bea83ddf5efd81b428459db35f2423453393abb304"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8889050
+project-id = 326652

@@ -1,0 +1,13 @@
+name = "Laser's Additions [Cobblemon]"
+filename = "lasers-additions-1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FoHQLw6R/versions/250IhxLN/lasers-additions-1.2.jar"
+hash-format = "sha512"
+hash = "e038cc3ffb0273f4f4b87e4d97bc4578f2eea873d4abf7e56eeaa274f36f936a4b32b7373a02a199d925e6ca1df0aed889c4ebb5cdcb9d514ef90be15049d645"
+
+[update]
+[update.modrinth]
+mod-id = "FoHQLw6R"
+version = "250IhxLN"
