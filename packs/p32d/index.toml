@@ -118,7 +118,7 @@ hash = "da20bd60e424dca987706ba8fe3497a72bf441f9b911388e8e6ba61fd08202d8"
 
 [[files]]
 file = "config/tectonic.json"
-hash = "dabc9cd22d64cb5b4752bdd37d021bd866ea7b683f5f209f345a87ea18b4c18e"
+hash = "ebd123c3033c7a278b99b0487f19a8011232f2948fd1a372114125ccd19d1eb6"
 
 [[files]]
 file = "config/underground_village/common.json"
@@ -166,7 +166,7 @@ hash = "5becce9b6f4a7c83c4ffd6568562b81f613f14b9ea0455981478e42eb1aef1f5"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "5fa353626f9efe389f7a9c556bd1588067e3aa8ede3d3f391273293d4812613c"
+hash = "9704f9fc33cda22f11c8eafeef860699e3e68dd150d11833749916ee8c4c0bb8"
 
 [[files]]
 file = "datapacks/poinky-additions/data/poinky/dimension_physics/overworld.json"
@@ -841,11 +841,6 @@ metafile = true
 [[files]]
 file = "mods/create-utilities-(unofficial-port).pw.toml"
 hash = "09ff12ee2b35c482c2b9be9c2b429b7b11be0dc8f0c111443b655963643e9085"
-metafile = true
-
-[[files]]
-file = "mods/create-vintage-(unofficial-port).pw.toml"
-hash = "30f47ae0488b62621306955e3a4c071c062ca723965e64c6da899a0bf1c8a213"
 metafile = true
 
 [[files]]
