@@ -118,7 +118,7 @@ hash = "da20bd60e424dca987706ba8fe3497a72bf441f9b911388e8e6ba61fd08202d8"
 
 [[files]]
 file = "config/tectonic.json"
-hash = "ebd123c3033c7a278b99b0487f19a8011232f2948fd1a372114125ccd19d1eb6"
+hash = "0032dce8fb02317695b9c9fac34db36f312cbc9700c9dda4bdf95a0ace7a8289"
 
 [[files]]
 file = "config/underground_village/common.json"
@@ -166,7 +166,7 @@ hash = "5becce9b6f4a7c83c4ffd6568562b81f613f14b9ea0455981478e42eb1aef1f5"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "9704f9fc33cda22f11c8eafeef860699e3e68dd150d11833749916ee8c4c0bb8"
+hash = "fc89b2ec89d7f0bf389e8da4aecadb649af0342afb62523e4b1f25826d5e8854"
 
 [[files]]
 file = "datapacks/poinky-additions/data/poinky/dimension_physics/overworld.json"

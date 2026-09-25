@@ -109,7 +109,6 @@ key_create_mobile_packages.keyinfo.open_portable_stock_ticker:key.keyboard.g
 key_create_mobile_packages.keyinfo.open_player_networks_screen:key.keyboard.h
 key_placebo.toggleTrails:key.keyboard.keypad.9
 key_placebo.toggleWings:key.keyboard.keypad.8
-key_patpat.keybinding.pat:key.keyboard.unknown
 key_keyinfo.copycats.fill_copycat:key.keyboard.left.alt
 key_chloride.zoom:key.keyboard.c
 key_key.cpm.gestureMenu:key.keyboard.g
