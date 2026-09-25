@@ -400,11 +400,6 @@ hash = "df32f867e04ce60dfd13d2c5af9d90b58daccfce7b4c94e5dba2f4666ba38a89"
 metafile = true
 
 [[files]]
-file = "mods/cc-deep-seas.pw.toml"
-hash = "2f23159bbbda90471b31e843f7a743b4d5d56718b4fd213a6f91c7ef77c931f0"
-metafile = true
-
-[[files]]
 file = "mods/cc-redstone-link-bridge.pw.toml"
 hash = "791a6138f2501b4e3d2695bc6f95d207da57872cb7a32074a6236a264e43cb7f"
 metafile = true
@@ -662,11 +657,6 @@ metafile = true
 [[files]]
 file = "mods/create-deep-dark.pw.toml"
 hash = "59ca697b09cd2339e6bbd524828fed73fa842083846e950a555aa081fedb6c63"
-metafile = true
-
-[[files]]
-file = "mods/create-deep-seas.pw.toml"
-hash = "404db1758af44123b89cbf6e2ffdf4a5cf11b708be665f48657ff40735723152"
 metafile = true
 
 [[files]]
