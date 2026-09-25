@@ -1894,11 +1894,6 @@ hash = "08aa1a2574bde997cb575648a6ff67b630b68f3783849579b8399ffb3a3829dc"
 metafile = true
 
 [[files]]
-file = "mods/trails-and-tales-plus.pw.toml"
-hash = "637771444ac226a315f0c0bf4a5f23d7dada70d39e698350cf50344df9959ef2"
-metafile = true
-
-[[files]]
 file = "mods/trashslot.pw.toml"
 hash = "c1e0c805d5ccd49535a6820aa8a2461a516437f90312fcadd393f928e3ce7bf2"
 metafile = true
