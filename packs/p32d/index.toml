@@ -118,7 +118,7 @@ hash = "da20bd60e424dca987706ba8fe3497a72bf441f9b911388e8e6ba61fd08202d8"
 
 [[files]]
 file = "config/tectonic.json"
-hash = "96f9360ae8e3aebd6d6ec264d5c32889ce668b023c129c40dca7a6431a159cbc"
+hash = "11ec8edd01c6b0b5a591381f6be42daec4e8fce768b05942215223c3d927265f"
 
 [[files]]
 file = "config/underground_village/common.json"
@@ -565,11 +565,6 @@ hash = "ede459754df771b7fed0268f983b67f9f98ccccd60df8958ffa49d28f0481106"
 metafile = true
 
 [[files]]
-file = "mods/create-aeronautics-toolgun.pw.toml"
-hash = "783a2f396c1420da031f90b14a60b7020bd97d32c76a1bade1980046aa812aba"
-metafile = true
-
-[[files]]
 file = "mods/create-aeronautics-transmission-linkage.pw.toml"
 hash = "fd78380d12b73953fccdf69abd7449233fcce19244dc34378e1f9a1147a976c8"
 metafile = true
@@ -796,11 +791,6 @@ metafile = true
 [[files]]
 file = "mods/create-stones.pw.toml"
 hash = "5e27d23ab07532da7bb1d9e19ce94fc1f8dad1924b61f980306d3822aeb7cd9c"
-metafile = true
-
-[[files]]
-file = "mods/create-storage-neo-forge.pw.toml"
-hash = "c5c5d732a02521e4b3e960653a84f0781b5919e9df13bad99666493bc2f1d63c"
 metafile = true
 
 [[files]]
@@ -1529,11 +1519,6 @@ hash = "a1100cc00811868f201c01a8b0532c9f12908184c028998bf4a8f574c5d643df"
 metafile = true
 
 [[files]]
-file = "mods/ntgl.pw.toml"
-hash = "7932fbacc370edc6fd2577784800fd3d8baf7ceffa7d8ef0ac927ec13a62f16a"
-metafile = true
-
-[[files]]
 file = "mods/oceans-delight.pw.toml"
 hash = "7bf7c8369bd28212a1e294c60310ccb72f1eb773630970e6ab106ae666766cd3"
 metafile = true
@@ -1786,6 +1771,31 @@ metafile = true
 [[files]]
 file = "mods/some-assembly-required.pw.toml"
 hash = "04f06b630fb9479786c6b86696af543d7108b3dba50f651437c865d02e773a0f"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-backpacks.pw.toml"
+hash = "d089be7d1b39541c418ea6a6a4d3797eb5afcc68ad511dbd606de66d5397d59d"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-core.pw.toml"
+hash = "2f0c858e1e303aba06718a27c1628134418d53825bd46e3c44cabe1b442636c7"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-storage-create-integration.pw.toml"
+hash = "22729316e54e8a314171281417d7429e7d554be0ebb0c87a5b55c949c5972757"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-storage-in-motion.pw.toml"
+hash = "4d4ec89b1cbcf446f094e029f6e26482fc283ee3bf4e3e4c285f0a3794fb960b"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-storage.pw.toml"
+hash = "2d45e747634f18813476b01a13507fa99e01e330334f11c3ed8b6a074faf3b5f"
 metafile = true
 
 [[files]]
