@@ -1,0 +1,13 @@
+name = "Subterranean Expansion | Cave Update"
+filename = "sub_expansion-1.1.1-NeoForge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8eTiXwZJ/versions/yBdsj2r6/sub_expansion-1.1.1-NeoForge-1.21.1.jar"
+hash-format = "sha512"
+hash = "eff5bd2b520a6a0a7e3b006e075319e4259954f6b2505556b9da1068b1015387626b726ccc390e9796bc2ad1f3de23a05fe8f75874325805dfe8c0a9134c5603"
+
+[update]
+[update.modrinth]
+mod-id = "8eTiXwZJ"
+version = "yBdsj2r6"

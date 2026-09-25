@@ -118,7 +118,7 @@ hash = "da20bd60e424dca987706ba8fe3497a72bf441f9b911388e8e6ba61fd08202d8"
 
 [[files]]
 file = "config/tectonic.json"
-hash = "11ec8edd01c6b0b5a591381f6be42daec4e8fce768b05942215223c3d927265f"
+hash = "3ee380e53a1518227895818a50cda61ce0ce113de2719319037fc1a05f586a01"
 
 [[files]]
 file = "config/underground_village/common.json"
@@ -323,6 +323,11 @@ metafile = true
 [[files]]
 file = "mods/better-archeology.pw.toml"
 hash = "737828afd79fae8bc2cf535ae48cca409dc4a86b93312ad0c88e4fd8009fe8c2"
+metafile = true
+
+[[files]]
+file = "mods/better-chunk-loading-forge-fabric.pw.toml"
+hash = "f5424d3ffcc444bc8d347e101b74dc67bf1663f1bc54c7642ac17a70cfec5147"
 metafile = true
 
 [[files]]
@@ -1860,6 +1865,11 @@ hash = "bb1a2b476e6ebd3b6deef2047f7a4ae3a0b8dfcd967bff710dede2803bd9b5bd"
 metafile = true
 
 [[files]]
+file = "mods/subterranean-expansion.pw.toml"
+hash = "c215df4c9eabf40b580afdbadb08a9d5e5a8aac0dea31d01076b1a75c03cead1"
+metafile = true
+
+[[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
 hash = "62bd7012826fdcccf17a089055be67f87fb7335c88e73efc52bc9e51a1bf3188"
 metafile = true
@@ -2012,6 +2022,11 @@ metafile = true
 [[files]]
 file = "mods/yungs-better-witch-huts.pw.toml"
 hash = "9854b699d5a067c46ac99b1dedeeb529bff3fc18dd079e29b438c4cbf9725f68"
+metafile = true
+
+[[files]]
+file = "mods/yungs-cave-biomes.pw.toml"
+hash = "5a334201feff0fb2f76d486399f47d0ce5b5818c284fea895706c92bb2119470"
 metafile = true
 
 [[files]]
