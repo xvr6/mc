@@ -208,12 +208,6 @@ ServerEvents.recipes((event) => {
 
   event.shapeless("create:zinc_ingot", "copycats:copycat_block");
 
-  // Shapeless 1:1 silo to normal vertical vault
-  event.shapeless(
-    "create_connected:item_silo",
-    "create_vibrant_vaults:vertical_item_vault",
-  );
-
   //modify dye recipes to require boil stone to convert back to dye
   Color.DYE.forEach((color) => {
     event.remove({ id: `create_dragons_plus:mixing/${color}_dye_from_fluid` });

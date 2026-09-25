@@ -206,7 +206,7 @@ hash = "181672b7728e8dd866d521597e8449a1a60293f9aef0520c9075a8b7f01a91f3"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/misc.js"
-hash = "dd4b5526fc88ed62c9bcbe32479f6f51a5f19591e5dbf9430267fe043258bd76"
+hash = "7bb3d8436f0df2b92363730d2a5fffa9d34da1a2a7a0d4b06de0704f1c6258f0"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/stones.js"
@@ -637,6 +637,11 @@ metafile = true
 [[files]]
 file = "mods/create-central-kitchen.pw.toml"
 hash = "07c51c2d97b8a9dd5fefb51798923f5621d46f5db44b4d7327a567f945f375f0"
+metafile = true
+
+[[files]]
+file = "mods/create-cobblestone.pw.toml"
+hash = "4d1e7881798e3e72bf619c45f384cd284b1d31ebad84bb4615eeeaa3ecf3ca77"
 metafile = true
 
 [[files]]
