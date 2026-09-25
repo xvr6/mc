@@ -221,10 +221,6 @@ file = "kubejs/server_scripts/sizeMod.js"
 hash = "aba39f33e4d8b3b8d904688ffcf7b8f8c1350270ffd301b907327419f39fa406"
 
 [[files]]
-file = "kubejs/startup_scripts/growthEssences.js"
-hash = "61a0b3b4e2a25925b03deeaffe2d016a0df729950cba7770255caf3972e93278"
-
-[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "062e153a332c0daf5b0a42a89c3758066f9f0a44b96631d470df965f59c0a53d"
 metafile = true
