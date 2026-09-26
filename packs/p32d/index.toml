@@ -105,6 +105,10 @@ file = "config/quark-common.toml"
 hash = "dcbad7253f79254df3a3a935c3168447f80c4b3e047a48e30288e3461819925d"
 
 [[files]]
+file = "config/sparsestructures.json5"
+hash = "90949632c4aa693c9c9761c282c7e640aabe61d5d6944fc7cf07909395b4d8b2"
+
+[[files]]
 file = "config/streamsreflowing-common.toml"
 hash = "b795ddb2bf117e2c0556f8801b6ddc5362c469572bb483a427c00995ed48afcc"
 
@@ -1833,6 +1837,11 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "593fa7b30ab016aa45be07bd6bef3a9f160ed0f24689850d60bf84995d69b843"
+metafile = true
+
+[[files]]
+file = "mods/sparsestructures.pw.toml"
+hash = "8c71edbbb86e5d3e1c14ea6629382539d44e75b1061725df9c3abceb889a8591"
 metafile = true
 
 [[files]]
