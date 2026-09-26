@@ -45,10 +45,6 @@ file = "config/curios-client.toml"
 hash = "dcc28aa80e16236eb44c69c589d41a2ca663782a9c2d874c14cf55959499a50c"
 
 [[files]]
-file = "config/dynamicwaters-common.toml"
-hash = "17d9fd291fea3310914a78aedba76a2886d6a1fa8f76f596c3fa3b081358d89b"
-
-[[files]]
 file = "config/freecam.json5"
 hash = "dcf63031f8dcb40f2e4ec3ca1fc6ec459955dc8caa8b0ba309df701e422f5546"
 
