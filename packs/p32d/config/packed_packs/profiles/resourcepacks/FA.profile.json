@@ -3,6 +3,7 @@
   "name": "FA",
   "overrides": {},
   "packIds": [
+    "file/SLNames.zip",
     "file/Fresh Patch - Jaden\u0027s Nether Expansion.zip",
     "vanillabackport:freshly_animated",
     "file/faplayer.zip",

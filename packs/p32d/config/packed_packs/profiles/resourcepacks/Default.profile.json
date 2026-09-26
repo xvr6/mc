@@ -1,0 +1,12 @@
+{
+  "locked": true,
+  "name": "Default",
+  "overrides": {},
+  "packIds": [
+    "file/SLNames.zip",
+    "moonlight:merged_pack",
+    "netherexp:jne_retextures",
+    "mod_resources",
+    "vanilla"
+  ]
+}

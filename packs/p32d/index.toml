@@ -89,8 +89,12 @@ file = "config/packed_packs/preferences.properties"
 hash = "ccda7f85de5850bc2fb0ce05a6ff95cac14dd8f6546885fc303ee151e1e55610"
 
 [[files]]
+file = "config/packed_packs/profiles/resourcepacks/Default.profile.json"
+hash = "216ce84f79f225cb4a750fef39b5c2c65569106b6fc67f14473c875aa6803238"
+
+[[files]]
 file = "config/packed_packs/profiles/resourcepacks/FA.profile.json"
-hash = "4488afbdf2a72826d6299a1bccd1c004539cb489ac6733f8232d602982e0458d"
+hash = "c18a58a5f1f80707775d75a92355ca7ef6ba7e2f3ef570e53fcc79c25e0237a6"
 
 [[files]]
 file = "config/petrolsparts-common.toml"
@@ -2069,6 +2073,11 @@ hash = "8f65a361c41d35ade555ea00105f845b7e06d765a3b03e310dbd793acf1e5753"
 [[files]]
 file = "resourcepacks/poinky-additions/pack.mcmeta"
 hash = "142d6977e437deebd7b6adcb39d1bdacc30f423a767895e4d4f7e3abd45af5f0"
+
+[[files]]
+file = "resourcepacks/stilllifebiomenamefix.pw.toml"
+hash = "0a2b71eda829208cff55cd966cbea55c014da47031226f5e9476e9469538e9cc"
+metafile = true
 
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.9.3 + EuphoriaPatches_1.10.5.txt"
