@@ -118,11 +118,7 @@ hash = "da20bd60e424dca987706ba8fe3497a72bf441f9b911388e8e6ba61fd08202d8"
 
 [[files]]
 file = "config/tectonic.json"
-hash = "16ebc0409acd820ad02fc693464940a1d944a0196ff8dcf6ed134b7828148cb1"
-
-[[files]]
-file = "config/underground_village/common.json"
-hash = "29dfa66e90132d0f995225e70c6f13d83c0af77e1f5a864dd4ace00c01e4e69b"
+hash = "84ad77a9e0880a4d97eb6c9b60fcf18361d868cb478afcf82c906d031dfb77c1"
 
 [[files]]
 file = "config/vanillabackport-common.toml"
@@ -326,18 +322,13 @@ hash = "737828afd79fae8bc2cf535ae48cca409dc4a86b93312ad0c88e4fd8009fe8c2"
 metafile = true
 
 [[files]]
-file = "mods/better-chunk-loading-forge-fabric.pw.toml"
-hash = "f5424d3ffcc444bc8d347e101b74dc67bf1663f1bc54c7642ac17a70cfec5147"
-metafile = true
-
-[[files]]
-file = "mods/better-library.pw.toml"
-hash = "e4dd3e609e83c723cbcfcc14adca13e4e611afb359e0d5eac8a7b637dad9da66"
-metafile = true
-
-[[files]]
 file = "mods/better-ping-display.pw.toml"
 hash = "cc2e6dda94a7a6f5487843cafe569d8044bf9482cbf03f062cf4595f1fb05281"
+metafile = true
+
+[[files]]
+file = "mods/betterdays.pw.toml"
+hash = "f567df6f58cbb28cd6e28dfa72dde29ed8c787afc6e4694c797b0896fa07c8f6"
 metafile = true
 
 [[files]]
@@ -1927,11 +1918,6 @@ metafile = true
 [[files]]
 file = "mods/tt20.pw.toml"
 hash = "97c0370d23ac5730dc3699f8a78957b15d5dc05b2bf19091e04afea2aac1891e"
-metafile = true
-
-[[files]]
-file = "mods/underground-village,-stoneholm.pw.toml"
-hash = "2f7758c4210f63c9fc8d05729dbf18c5ca80ffe78bec65ea80d0f736bc5c0f51"
 metafile = true
 
 [[files]]
