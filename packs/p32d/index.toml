@@ -118,7 +118,7 @@ hash = "da20bd60e424dca987706ba8fe3497a72bf441f9b911388e8e6ba61fd08202d8"
 
 [[files]]
 file = "config/tectonic.json"
-hash = "1da757eba410c876d57b6e4d03db40d9b1b156bc10d4e7b73d1d6cbb5f772ad3"
+hash = "16ebc0409acd820ad02fc693464940a1d944a0196ff8dcf6ed134b7828148cb1"
 
 [[files]]
 file = "config/underground_village/common.json"
