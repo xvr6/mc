@@ -45,6 +45,10 @@ file = "config/curios-client.toml"
 hash = "dcc28aa80e16236eb44c69c589d41a2ca663782a9c2d874c14cf55959499a50c"
 
 [[files]]
+file = "config/dynamicwaters-common.toml"
+hash = "17d9fd291fea3310914a78aedba76a2886d6a1fa8f76f596c3fa3b081358d89b"
+
+[[files]]
 file = "config/freecam.json5"
 hash = "dcf63031f8dcb40f2e4ec3ca1fc6ec459955dc8caa8b0ba309df701e422f5546"
 
@@ -115,6 +119,10 @@ hash = "24441ff96f9d18cb6c03921742f292449a600077758b7bffc51a033dc15ed4e3"
 [[files]]
 file = "config/supplementaries-common.toml"
 hash = "da20bd60e424dca987706ba8fe3497a72bf441f9b911388e8e6ba61fd08202d8"
+
+[[files]]
+file = "config/tectonic.json"
+hash = "08e739761f7370ab1e2a04bdb12e3795e732d8c434ad21fd51319504ae618782"
 
 [[files]]
 file = "config/vanillabackport-common.toml"
@@ -223,11 +231,6 @@ hash = "062e153a332c0daf5b0a42a89c3758066f9f0a44b96631d470df965f59c0a53d"
 metafile = true
 
 [[files]]
-file = "mods/abyssaline-nether.pw.toml"
-hash = "4329c0aad3406ee89e5be7e1bc846251b8a99d131308bd2c4a7ff300e6858b8c"
-metafile = true
-
-[[files]]
 file = "mods/accessories-compat-layer.pw.toml"
 hash = "c255cf4cd29718e3ab0a4c18df8bb7b626e0092c5aad7b4e67f34fc1ad4492f8"
 metafile = true
@@ -275,6 +278,11 @@ metafile = true
 [[files]]
 file = "mods/amendments.pw.toml"
 hash = "c81bee190ce936bc46b98b20f3dff4a7b9689cb7ac168a1674f5378c882f304a"
+metafile = true
+
+[[files]]
+file = "mods/amplified-nether.pw.toml"
+hash = "9efd2467725934e660f256346950d4e10ca44f034475ce8909a29fe0790dd5cc"
 metafile = true
 
 [[files]]
@@ -1382,11 +1390,6 @@ hash = "51e129832b04acd57da470fc41725bad5e101b6a6b1d4901fd8ea7a92b14e13d"
 metafile = true
 
 [[files]]
-file = "mods/lithosphere.pw.toml"
-hash = "0dc022725540296132755f18658b24c50c02bd7fbae89c1d66ff1159d9f38be6"
-metafile = true
-
-[[files]]
 file = "mods/lithostitched.pw.toml"
 hash = "f2d07484c181a72f27e4fbf8f3e643b2690ed19d8b76d7c6b3b20a93133f7ce9"
 metafile = true
@@ -1857,11 +1860,6 @@ hash = "96e36c447f00cf42622a78091883f054ec8ff708b285ef1351668cb00f081804"
 metafile = true
 
 [[files]]
-file = "mods/still-life.pw.toml"
-hash = "10abaaacef70467dc09b62aa2f28cc2242be181d3cd9f585d1c0383d38eb87b8"
-metafile = true
-
-[[files]]
 file = "mods/streams-reflowing.pw.toml"
 hash = "71a0020d9e46242e4445a06fff9ca1dd5600ca8a6bc38629b07eb1182d1dc2ab"
 metafile = true
@@ -1894,6 +1892,11 @@ metafile = true
 [[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "25fdaaf01546f4083aa00f85b6c1c4b67434f6d068d3e1725d4437576ca34a7a"
+metafile = true
+
+[[files]]
+file = "mods/tectonic.pw.toml"
+hash = "dd46fad79cf33a00123be0a74c73581da72cd98503ef23822a624a08f4b10ff2"
 metafile = true
 
 [[files]]
@@ -1979,6 +1982,11 @@ metafile = true
 [[files]]
 file = "mods/wayfinder.pw.toml"
 hash = "8792f70e38e9c697c6256f29005cea3f447e44d5a365c0225eb5d14b5442b8f8"
+metafile = true
+
+[[files]]
+file = "mods/wwoo.pw.toml"
+hash = "1960c304ef7e5eb391934e0c102fd3346afe586cd5df5efb0cd7235e0a583634"
 metafile = true
 
 [[files]]
@@ -2088,11 +2096,6 @@ hash = "8f65a361c41d35ade555ea00105f845b7e06d765a3b03e310dbd793acf1e5753"
 [[files]]
 file = "resourcepacks/poinky-additions/pack.mcmeta"
 hash = "142d6977e437deebd7b6adcb39d1bdacc30f423a767895e4d4f7e3abd45af5f0"
-
-[[files]]
-file = "resourcepacks/stilllifebiomenamefix.pw.toml"
-hash = "0a2b71eda829208cff55cd966cbea55c014da47031226f5e9476e9469538e9cc"
-metafile = true
 
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.9.3 + EuphoriaPatches_1.10.5.txt"
