@@ -169,11 +169,6 @@ file = "datapacks/poinky-additions/pack.mcmeta"
 hash = "e55e81dbcbe7422bedfbb049e684863c100430049f586e483ea6d9d2fe967972"
 
 [[files]]
-file = "datapacks/still-life.pw.toml"
-hash = "5bd3f65b79f5fae4105a0b184839d4d18f909b71defb80a2c88f425c5f45e2eb"
-metafile = true
-
-[[files]]
 file = "kubejs/client_scripts/renames.js"
 hash = "452587e537620b3d0cbc4ca7f06f1266061924953289a8d95bee06532409a1fd"
 
@@ -1364,7 +1359,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithosphere.pw.toml"
-hash = "4a2b992577d6f41f981f3d2e12b13a1a0d5a8d252fed3c325f8b9443dc8ba33e"
+hash = "0dc022725540296132755f18658b24c50c02bd7fbae89c1d66ff1159d9f38be6"
 metafile = true
 
 [[files]]
@@ -1840,6 +1835,11 @@ metafile = true
 [[files]]
 file = "mods/status-effect-bars-reforged.pw.toml"
 hash = "96e36c447f00cf42622a78091883f054ec8ff708b285ef1351668cb00f081804"
+metafile = true
+
+[[files]]
+file = "mods/still-life.pw.toml"
+hash = "10abaaacef70467dc09b62aa2f28cc2242be181d3cd9f585d1c0383d38eb87b8"
 metafile = true
 
 [[files]]
