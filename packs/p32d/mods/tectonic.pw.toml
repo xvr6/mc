@@ -14,4 +14,4 @@ version = "n4iyW7aB"
 
 [option]
 optional = true
-description = "Better worldgen, admitedly very laggy. Server uses it, but it is not required to join, or to play in single player, just do note worldgen will not be as 'impressive' with this off in single player!"
+description = "Better worldgen; Not required, but is what the servers use (NOT required to join)!"
