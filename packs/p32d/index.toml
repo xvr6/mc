@@ -118,7 +118,7 @@ hash = "da20bd60e424dca987706ba8fe3497a72bf441f9b911388e8e6ba61fd08202d8"
 
 [[files]]
 file = "config/tectonic.json"
-hash = "08e739761f7370ab1e2a04bdb12e3795e732d8c434ad21fd51319504ae618782"
+hash = "49199d8297c58cfdd32b5580f3e9beb58f76ad32cd688e7116e14fa49a31ed8f"
 
 [[files]]
 file = "config/vanillabackport-common.toml"
