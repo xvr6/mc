@@ -45,10 +45,6 @@ file = "config/curios-client.toml"
 hash = "dcc28aa80e16236eb44c69c589d41a2ca663782a9c2d874c14cf55959499a50c"
 
 [[files]]
-file = "config/dynamicwaters-common.toml"
-hash = "17d9fd291fea3310914a78aedba76a2886d6a1fa8f76f596c3fa3b081358d89b"
-
-[[files]]
 file = "config/freecam.json5"
 hash = "dcf63031f8dcb40f2e4ec3ca1fc6ec459955dc8caa8b0ba309df701e422f5546"
 
@@ -115,10 +111,6 @@ hash = "24441ff96f9d18cb6c03921742f292449a600077758b7bffc51a033dc15ed4e3"
 [[files]]
 file = "config/supplementaries-common.toml"
 hash = "da20bd60e424dca987706ba8fe3497a72bf441f9b911388e8e6ba61fd08202d8"
-
-[[files]]
-file = "config/tectonic.json"
-hash = "84ad77a9e0880a4d97eb6c9b60fcf18361d868cb478afcf82c906d031dfb77c1"
 
 [[files]]
 file = "config/vanillabackport-common.toml"
@@ -961,11 +953,6 @@ hash = "2bcb5fbe083f3ace39698e890255eb0758116e395fb211d136c8a12369b529e0"
 metafile = true
 
 [[files]]
-file = "mods/dynamic-waters-realistic-flowing-rivers.pw.toml"
-hash = "28b0354cfb77b40ce34501a78b21403c5ae20a624061ce7026f0eb98bc373712"
-metafile = true
-
-[[files]]
 file = "mods/easy-magic.pw.toml"
 hash = "1aa75105514780685caab9b945db2a2ea7c0594ced8c01e12f2a3e331f1af4e6"
 metafile = true
@@ -1371,8 +1358,13 @@ hash = "51e129832b04acd57da470fc41725bad5e101b6a6b1d4901fd8ea7a92b14e13d"
 metafile = true
 
 [[files]]
+file = "mods/lithosphere.pw.toml"
+hash = "4a2b992577d6f41f981f3d2e12b13a1a0d5a8d252fed3c325f8b9443dc8ba33e"
+metafile = true
+
+[[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "0294264654da6777cfbbbd24ffa6dd1d082768fa7ae28b36b76f78261f53fce9"
+hash = "f2d07484c181a72f27e4fbf8f3e643b2690ed19d8b76d7c6b3b20a93133f7ce9"
 metafile = true
 
 [[files]]
@@ -1686,6 +1678,11 @@ hash = "70674900e545ac727d245a2ab269ab63db6ef94b862548a55e36b31fcd7aaa70"
 metafile = true
 
 [[files]]
+file = "mods/remove-terralith-intro-message.pw.toml"
+hash = "2e9dead89853555c8d909fe2549af2db5e5051c690fae695df93d2369aa8314c"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-config.pw.toml"
 hash = "27721caca5a03b743bf25888e1d984142948069dace31453f103f94f7f24d2ce"
 metafile = true
@@ -1846,6 +1843,11 @@ hash = "96e36c447f00cf42622a78091883f054ec8ff708b285ef1351668cb00f081804"
 metafile = true
 
 [[files]]
+file = "mods/streams-reflowing.pw.toml"
+hash = "71a0020d9e46242e4445a06fff9ca1dd5600ca8a6bc38629b07eb1182d1dc2ab"
+metafile = true
+
+[[files]]
 file = "mods/strut-your-stuff.pw.toml"
 hash = "6d397332141018f355ab858fd2cc1ec037702acc083efca531c7b90eb675d8f8"
 metafile = true
@@ -1876,13 +1878,18 @@ hash = "25fdaaf01546f4083aa00f85b6c1c4b67434f6d068d3e1725d4437576ca34a7a"
 metafile = true
 
 [[files]]
-file = "mods/tectonic.pw.toml"
-hash = "eb41ce61c3780319f0fdf96f0c9cb3e15e95dccc6f90c26df5ab0f232eb9961b"
+file = "mods/terrablender.pw.toml"
+hash = "15962183bec2468058c70e87aa32e902a08489b0f86741088cdc9aa958ba4931"
 metafile = true
 
 [[files]]
-file = "mods/terrablender.pw.toml"
-hash = "15962183bec2468058c70e87aa32e902a08489b0f86741088cdc9aa958ba4931"
+file = "mods/terralith-biome-saplings.pw.toml"
+hash = "61d849b5dd59f7f9ccf950bbce846363c89dacd6a68af977c7cfa2f29c0ef8a6"
+metafile = true
+
+[[files]]
+file = "mods/terralith.pw.toml"
+hash = "da7ee99189ad35aac094919fe33cac647d98533b23c228f10d4811f08989e2b8"
 metafile = true
 
 [[files]]
