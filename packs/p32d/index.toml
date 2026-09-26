@@ -1843,11 +1843,6 @@ hash = "96e36c447f00cf42622a78091883f054ec8ff708b285ef1351668cb00f081804"
 metafile = true
 
 [[files]]
-file = "mods/still-life.pw.toml"
-hash = "10abaaacef70467dc09b62aa2f28cc2242be181d3cd9f585d1c0383d38eb87b8"
-metafile = true
-
-[[files]]
 file = "mods/streams-reflowing.pw.toml"
 hash = "71a0020d9e46242e4445a06fff9ca1dd5600ca8a6bc38629b07eb1182d1dc2ab"
 metafile = true
