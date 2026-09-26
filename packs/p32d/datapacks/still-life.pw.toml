@@ -1,0 +1,13 @@
+name = "Still Life"
+filename = "still_life 0.3 23.09.2026.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/fK6aflho/versions/z3iTKprn/still_life%200.3%2023.09.2026.zip"
+hash-format = "sha512"
+hash = "9cf26296db8e901a407ddc8aa2c46cc903041aec33df06eadfa03c2892be256efb1d8ad3bccb8f22455aad79bf19b69f10b02d4735cd798f4e40ebee80972387"
+
+[update]
+[update.modrinth]
+mod-id = "fK6aflho"
+version = "z3iTKprn"
