@@ -101,10 +101,6 @@ file = "config/quark-common.toml"
 hash = "dcbad7253f79254df3a3a935c3168447f80c4b3e047a48e30288e3461819925d"
 
 [[files]]
-file = "config/sparsestructures.json5"
-hash = "0fc5fed7ed534cbfdec3f210f3f987c6094dcb9cf7319a0a29fb7b8c65938ab7"
-
-[[files]]
 file = "config/streamsreflowing-common.toml"
 hash = "b795ddb2bf117e2c0556f8801b6ddc5362c469572bb483a427c00995ed48afcc"
 
@@ -1832,11 +1828,6 @@ hash = "593fa7b30ab016aa45be07bd6bef3a9f160ed0f24689850d60bf84995d69b843"
 metafile = true
 
 [[files]]
-file = "mods/sparsestructures.pw.toml"
-hash = "993b4e4970e1a5ef2fe7c6712212f57a84dcf8b31d4b6863540b6395c4f9ce09"
-metafile = true
-
-[[files]]
 file = "mods/starcatcher.pw.toml"
 hash = "7eebc5df8461a48701344924f3ce5e3ec754ce1183d0d1189c88dbe93ca5cd7a"
 metafile = true
@@ -1919,6 +1910,11 @@ metafile = true
 [[files]]
 file = "mods/torchmaster.pw.toml"
 hash = "08aa1a2574bde997cb575648a6ff67b630b68f3783849579b8399ffb3a3829dc"
+metafile = true
+
+[[files]]
+file = "mods/towns-and-towers.pw.toml"
+hash = "a9afe82b3d1b4975dd9f8b3272898450aeb29365678b3779059977301f88c101"
 metafile = true
 
 [[files]]
