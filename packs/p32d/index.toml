@@ -186,7 +186,7 @@ hash = "452587e537620b3d0cbc4ca7f06f1266061924953289a8d95bee06532409a1fd"
 
 [[files]]
 file = "kubejs/server_scripts/kits.js"
-hash = "0f8bf6c1261885f95d3a7edcdaecd3fe70c71cc08a6f90f115eb4bcf410ce37a"
+hash = "b4ca6e219facd4cced06f926666eb77942f4eece4b1395673a05f241f7bdc3fb"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/bucketFixes.js"
