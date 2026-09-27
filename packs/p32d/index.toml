@@ -110,7 +110,7 @@ hash = "90949632c4aa693c9c9761c282c7e640aabe61d5d6944fc7cf07909395b4d8b2"
 
 [[files]]
 file = "config/streamsreflowing-common.toml"
-hash = "b795ddb2bf117e2c0556f8801b6ddc5362c469572bb483a427c00995ed48afcc"
+hash = "db0122fffa27cf4915feb5638eabacdedbe51981bce0336458a3e8c409badee5"
 
 [[files]]
 file = "config/supplementaries-client.toml"
@@ -167,11 +167,6 @@ hash = "5becce9b6f4a7c83c4ffd6568562b81f613f14b9ea0455981478e42eb1aef1f5"
 [[files]]
 file = "config/yosbr/options.txt"
 hash = "fc89b2ec89d7f0bf389e8da4aecadb649af0342afb62523e4b1f25826d5e8854"
-
-[[files]]
-file = "datapacks/mes-biomes-o-plenty-compat-pack.pw.toml"
-hash = "89bd19c0523515c5ea75befcae33803dbc2f54ca0eb1b663e9685d8a403d848d"
-metafile = true
 
 [[files]]
 file = "datapacks/poinky-additions/data/poinky/dimension_physics/overworld.json"
@@ -338,11 +333,6 @@ metafile = true
 [[files]]
 file = "mods/betterdays.pw.toml"
 hash = "f567df6f58cbb28cd6e28dfa72dde29ed8c787afc6e4694c797b0896fa07c8f6"
-metafile = true
-
-[[files]]
-file = "mods/biomes-o-plenty.pw.toml"
-hash = "a4931e5abbec081a08ab3a1d69b2d470596b6361d707a7756f6ad34c0f21f81e"
 metafile = true
 
 [[files]]
@@ -1105,8 +1095,8 @@ hash = "36cc04059e9287c087425d5e3f156b2198817e32f38a2974ccade586939e96bc"
 metafile = true
 
 [[files]]
-file = "mods/farmers-cutting-biomes-o-plenty.pw.toml"
-hash = "e8a8b5217e3cac90c7e42a9698c9d3da408a5de99d590eab025653fa7d8b8911"
+file = "mods/farmers-cutting-oh-the-biomes-weve-gone.pw.toml"
+hash = "5135cb75af54eb83a61156dd252d19f308b8674d0c5fd778da568527bf6031d3"
 metafile = true
 
 [[files]]
@@ -1415,11 +1405,6 @@ hash = "e94c29ae1231d30038156f3a9647dd5e3c692e15e26fd7d2f184fd114cec0642"
 metafile = true
 
 [[files]]
-file = "mods/mbs-moogs-bountiful-structures.pw.toml"
-hash = "42d8a185a6aad086a1e27eb6f41ac78e088297ebcdfde83bdd2f2c3a94ba0e5b"
-metafile = true
-
-[[files]]
 file = "mods/mechanicals-lib.pw.toml"
 hash = "c9e181185e3177d43fc9bd8d919288ac1bc0ce6b85e7049890f3eb231f5be10d"
 metafile = true
@@ -1540,6 +1525,11 @@ hash = "6ea358a18fbb72631cca70b6c906cc3541bbfaadef02408ae426a07a9d09c856"
 metafile = true
 
 [[files]]
+file = "mods/nether-descent.pw.toml"
+hash = "b57cd4fdf9cd54faaf68b2eca27839574d946136150695b57272f18df37ec831"
+metafile = true
+
+[[files]]
 file = "mods/nightlights.pw.toml"
 hash = "9b56c2c17c00dd51fffcbc5e5a59d2c325ed656e768365ae1a36f7692ffcd01e"
 metafile = true
@@ -1562,6 +1552,16 @@ metafile = true
 [[files]]
 file = "mods/oceans-delight.pw.toml"
 hash = "7bf7c8369bd28212a1e294c60310ccb72f1eb773630970e6ab106ae666766cd3"
+metafile = true
+
+[[files]]
+file = "mods/oh-the-biomes-weve-gone.pw.toml"
+hash = "fdaa22d49ee4987c2d0c012e24c7b44d50a653519767d18371e8d778c188f184"
+metafile = true
+
+[[files]]
+file = "mods/oh-the-trees-youll-grow.pw.toml"
+hash = "b586f666162c916d768532cbb98f390aa66f4998ca9ab0999bc4a9b7de5bb83f"
 metafile = true
 
 [[files]]
