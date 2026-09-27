@@ -14,19 +14,19 @@ generateLakes = true
 # EXTREME and MAX cost far more: pre-generate. How many streams there are is growDensity and wetness.
 # Takes effect in new worlds. Existing land keeps its streams.
 # Allowed Values: POTATO, LOW, MEDIUM, HIGH, EXTREME, MAX
-terrainAccuracyLevel = "MAX"
+terrainAccuracyLevel = "HIGH"
 # Blocks across one stream system. Bigger = longer, wider streams and fewer seams.
 # Performance: same total work in bigger pieces. Double the size = pauses 4x longer, 4x rarer.
 # New worlds only: a world keeps the size it was started with.
 # Allowed Values: BLOCKS_512, BLOCKS_768, BLOCKS_1024, BLOCKS_1536, BLOCKS_2048, BLOCKS_4096, BLOCKS_8192
-watershedSize = "BLOCKS_8192"
+watershedSize = "BLOCKS_4096"
 
 # How far a vanilla river's current is planned, as a multiple of the watershed.
 # 1 = one watershed (default), 2 = twice, 3 = four times. Larger finds far outlets, costs more.
 # Applies to newly generated land only.
 # Default: 1
 # Range: 1 ~ 3
-riverDrainageSize = 3
+riverDrainageSize = 1
 # How closely each stream hugs the land after its course is planned.
 # 4 = closest, 2 = lighter, 0 = none, -1 = follow the accuracy level.
 # Applies to newly generated land only.

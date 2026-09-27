@@ -110,7 +110,7 @@ hash = "90949632c4aa693c9c9761c282c7e640aabe61d5d6944fc7cf07909395b4d8b2"
 
 [[files]]
 file = "config/streamsreflowing-common.toml"
-hash = "db0122fffa27cf4915feb5638eabacdedbe51981bce0336458a3e8c409badee5"
+hash = "9d8261d731e1ea2645c58eafff18ddc79247f10733bcc11bf04fbffd6f03dd16"
 
 [[files]]
 file = "config/supplementaries-client.toml"
