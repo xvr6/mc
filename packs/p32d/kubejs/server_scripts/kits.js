@@ -5,6 +5,7 @@ const startingKit = [
   ["minecraft:stone_pickaxe", 1],
   ["minecraft:stone_axe", 1],
   ["create:wrench", 1],
+  ["minecraft:oak_boat", 1],
   ["minecraft:red_bed", 1],
   ["rusticdelight:syrup_sandwich", 16],
   ["minecraft:torch", 32],
@@ -13,8 +14,8 @@ const startingKit = [
 // The actual event
 
 PlayerEvents.loggedIn((event) => {
-  if (!event.player.stages.has("kit_given")) {
-    event.player.stages.add("kit_given");
+  if (!event.player.stages.has("starterKitGiven")) {
+    event.player.stages.add("starterKitGiven");
     const entity = event.entity.username;
     for (const item in startingKit) {
       let element = startingKit[item];
