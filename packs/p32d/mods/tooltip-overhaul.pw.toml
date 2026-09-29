@@ -1,16 +1,16 @@
 name = "[UI] Tooltip Overhaul"
-filename = "tooltipoverhaul-neoforge-1.21.1-2.0.5.jar"
+filename = "tooltipoverhaul-neoforge-1.21.1-2.0.6.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/vRFcG5n6/versions/Job8fZim/tooltipoverhaul-neoforge-1.21.1-2.0.5.jar"
+url = "https://cdn.modrinth.com/data/vRFcG5n6/versions/aclR21OH/tooltipoverhaul-neoforge-1.21.1-2.0.6.jar"
 hash-format = "sha512"
-hash = "24f39e52c105e13356c8d082b881037b0309f49f2a7dbfaef67a6dd859471f8eeef487df49507c65c9186b483da1473810b252a3eb288e0ee91199252b44e407"
+hash = "88d787e8d6272d4c81809804d8ecab8ce9dea9efc744816dd777484f9b0c10710a36622803d40120d0ed4fa6ec928372e99b2d7b8ddafd81520d08a1b15474b8"
 
 [update]
 [update.modrinth]
 mod-id = "vRFcG5n6"
-version = "Job8fZim"
+version = "aclR21OH"
 
 [option]
 optional = true

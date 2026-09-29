@@ -1,13 +1,13 @@
 name = "Advanced Chimneys"
-filename = "AdChimneys-1.21.1-11.1.10.0-NeoForge-build.1121.jar"
+filename = "AdChimneys-1.21.1-11.1.11.0-NeoForge-build.1161.jar"
 side = "both"
 
 [download]
 hash-format = "sha512"
-hash = "f8cd77ac6d72b2c22caace8501b9369cdc231bfdd3b5aae30cac8618898aae5ad39540a5ec1c70b9cfba2e36a7b8001cd56ef14df7e48a47db28a70487cef4dd"
+hash = "ed9576bb72fc61611ececa71a67a3e35b3a0a91dfb017be2af9f1d0a866b08ed76a81a2051973478686a932ee92bfb648954e4b50d8e8c2f198d1094781170a7"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8824273
+file-id = 8980664
 project-id = 244830
