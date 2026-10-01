@@ -138,7 +138,7 @@ hash = "f8da70b67c4fc8ef6173cc8180236e92de42facbbfb14f0e48f17695434cbac1"
 
 [[files]]
 file = "config/yosbr/config/DistantHorizons.toml"
-hash = "a9a921518df61463ed07153a066355a3a621c863e64fc5c5cf4826f696284a2f"
+hash = "d47ecd3ffdc6e0cb300512ee8063f2879cd79c76c4c837a65908f0d79ad7af32"
 
 [[files]]
 file = "config/yosbr/config/accessories.json5"
@@ -210,7 +210,7 @@ hash = "7bb3d8436f0df2b92363730d2a5fffa9d34da1a2a7a0d4b06de0704f1c6258f0"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/stones.js"
-hash = "766d76b8063a4ec0da0c4a82c330d02adebf28833db80c5c8f82ada2c8c70535"
+hash = "4970d86e11e42f4133008adab5acae50005420ac4ac9b520b69acde827833911"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/tags.js"

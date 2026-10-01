@@ -173,5 +173,17 @@ ServerEvents.recipes((event) => {
     ingredients: [{ tag: "c:cobblestones" }],
     results: [{ id: "ballastmod:ballast_stones" }],
   });
-  //
+
+  // - Adjustments to obsidian powder
+  event.replaceInput(
+    { input: "si_refined_obsidian:obsidian_dust" },
+    "si_refined_obsidian:obsidian_dust",
+    "create:powdered_obsidian",
+  );
+
+  event.replaceOutput(
+    { id: "create:crushing/obsidian" },
+    "create:powdered_obsidian",
+    Item.of("create:powdered_obsidian", 4),
+  );
 });
