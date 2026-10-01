@@ -186,4 +186,8 @@ ServerEvents.recipes((event) => {
     "create:powdered_obsidian",
     Item.of("create:powdered_obsidian", 4),
   );
+
+  event.remove({
+    id: "si_refined_obsidian:obsidian_dust_from_obsidian_stonecutting",
+  });
 });
