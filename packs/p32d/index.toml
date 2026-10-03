@@ -715,11 +715,6 @@ hash = "3a99e0babeb75872334ed2abd96949fb9e993690f27eb51dcb30ec376186c719"
 metafile = true
 
 [[files]]
-file = "mods/create-mechanical-spawner.pw.toml"
-hash = "8d9f6438c0e03857f55b3b6fe2383fb8393c01c8d41012cf5032fdedd184575a"
-metafile = true
-
-[[files]]
 file = "mods/create-meta-logistics.pw.toml"
 hash = "fdce46060dbc0033029338e92dabae981a780c80bcc6705a43cb7060925bfb78"
 metafile = true
@@ -1397,11 +1392,6 @@ metafile = true
 [[files]]
 file = "mods/map-distance-fix.pw.toml"
 hash = "e94c29ae1231d30038156f3a9647dd5e3c692e15e26fd7d2f184fd114cec0642"
-metafile = true
-
-[[files]]
-file = "mods/mechanicals-lib.pw.toml"
-hash = "c9e181185e3177d43fc9bd8d919288ac1bc0ce6b85e7049890f3eb231f5be10d"
 metafile = true
 
 [[files]]
