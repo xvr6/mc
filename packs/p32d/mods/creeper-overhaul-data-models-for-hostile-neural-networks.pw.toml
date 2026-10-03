@@ -1,0 +1,13 @@
+name = "Creeper Overhaul data models for Hostile Neural Networks"
+filename = "creeper-overhaul-data-models-for-hostile-neural-networks-1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/JQKLPQgv/versions/TSnBPIrr/creeper-overhaul-data-models-for-hostile-neural-networks-1.2.jar"
+hash-format = "sha512"
+hash = "db85efcf0fa39b17831a3a329c73a35666b65aa86462117aaa9fc4fed1b07b07297aafc93a672cc8bdc21be4030423e2a5e9d03bb2aedaf8c5f9bd77ab287f63"
+
+[update]
+[update.modrinth]
+mod-id = "JQKLPQgv"
+version = "TSnBPIrr"
