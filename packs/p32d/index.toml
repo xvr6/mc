@@ -166,7 +166,11 @@ hash = "5becce9b6f4a7c83c4ffd6568562b81f613f14b9ea0455981478e42eb1aef1f5"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "fc89b2ec89d7f0bf389e8da4aecadb649af0342afb62523e4b1f25826d5e8854"
+hash = "e71780036abc69237101b00d2e1525e1c64e431459154ea09f68ebce00742a67"
+
+[[files]]
+file = "config/yosbr/shaderpacks/ComplementaryUnbound_r5.9.3 + EuphoriaPatches_1.10.5.txt"
+hash = "b4086b26ab968661fd6c58dc9c7222e21cde690a9d5f3611e9884290de93303f"
 
 [[files]]
 file = "datapacks/poinky-additions/data/poinky/dimension_physics/overworld.json"
@@ -2081,10 +2085,6 @@ hash = "8f65a361c41d35ade555ea00105f845b7e06d765a3b03e310dbd793acf1e5753"
 [[files]]
 file = "resourcepacks/poinky-additions/pack.mcmeta"
 hash = "142d6977e437deebd7b6adcb39d1bdacc30f423a767895e4d4f7e3abd45af5f0"
-
-[[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.9.3 + EuphoriaPatches_1.10.5.txt"
-hash = "74865b2145b3adef84e63f551c18513e1eea456f0799d91b79224e07218b607f"
 
 [[files]]
 file = "shaderpacks/complementary-unbound.pw.toml"
