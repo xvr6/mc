@@ -1694,7 +1694,7 @@ metafile = true
 
 [[files]]
 file = "mods/rch-supplementaries-compat.pw.toml"
-hash = "8ebb23ea1093c4a9b4389164489dffcd9b2a44d27834392c60f94375d0ee864c"
+hash = "3002b40192bd47e8a36d8d3429f56a19ba27098e532804baacd9c4c5197aa476"
 metafile = true
 
 [[files]]
@@ -1909,7 +1909,7 @@ metafile = true
 
 [[files]]
 file = "mods/tectonic.pw.toml"
-hash = "390a9ee574456ce5494d14d7581f5f332cb686d0e92139930139313c91bb37de"
+hash = "dd46fad79cf33a00123be0a74c73581da72cd98503ef23822a624a08f4b10ff2"
 metafile = true
 
 [[files]]

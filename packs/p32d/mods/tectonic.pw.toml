@@ -11,7 +11,3 @@ hash = "e07b9cb54f078b7bf74c925c5cebd6643f0b4c210b8f94474e68659b69468ece7d61432f
 [update.modrinth]
 mod-id = "lWDHr9jE"
 version = "n4iyW7aB"
-
-[option]
-optional = true
-description = "Better worldgen; Not required, but is what the servers use (NOT required to join)!"
