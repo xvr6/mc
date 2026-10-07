@@ -181,10 +181,13 @@ ServerEvents.recipes((event) => {
     "create:powdered_obsidian",
   );
 
-  event.replaceOutput(
-    { id: "create:crushing/obsidian" },
-    "create:powdered_obsidian",
-    Item.of("create:powdered_obsidian", 4),
+  event.remove({ id: "create:crushing/obsidian" });
+  event.recipes.createCrushing(
+    [
+      Item.of("create:powdered_obsidian", 4),
+      "si_refined_obsidian:cobbled_obsidian",
+    ],
+    "minecraft:obsidian",
   );
 
   event.remove({

@@ -61,8 +61,12 @@ ServerEvents.recipes((event) => {
   // - salt modifications
   event.remove({ output: "expandeddelight:salt" });
   event.recipes.createMilling(
-    [Item.of("ratatouille:salt", 3), CreateItem.of("ratatouille:salt", 0.4)],
+    [Item.of("ratatouille:salt", 2), CreateItem.of("ratatouille:salt", 0.4)],
     "expandeddelight:salt_rock",
+  );
+  event.recipes.createMilling(
+    [Item.of("ratatouille:salt", 3), CreateItem.of("ratatouille:salt", 0.6)],
+    "galosphere:pink_salt_shart",
   );
   event.replaceInput(
     { input: "expandeddelight:salt" },
@@ -87,14 +91,15 @@ ServerEvents.recipes((event) => {
   );
   event.remove({ output: "mynethersdelight:hoglin_sausage" });
   event.remove({ output: "mynethersdelight:roasted_sausage" });
+
+  // - change crafting to use tag instead
+  event.replaceInput("*", "create:mechanical_pump", "#create:mechanical_pumps");
+
   // - remove things lsited as non hand craftable
   event.remove({
     output: "#poinky:non_hand_craftable",
     type: "minecraft:crafting_shaped",
   });
-  // - change crafting to use tag instead
-  event.replaceInput("*", "create:mechanical_pump", "#create:mechanical_pumps");
-
-  // - Disasble crafting of all dndecor and create deco containers; vibrant vaults is preferred.
+  // - Disasble ALL crafting of anything in removed tag.
   event.remove({ output: Ingredient.of("#poinky:removed") });
 });

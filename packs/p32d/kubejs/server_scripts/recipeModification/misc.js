@@ -106,8 +106,6 @@ ServerEvents.recipes((event) => {
   //scaffolding
   event.remove({ id: "farmersdelight:scaffolding_from_canvas" });
   event.remove({ id: "minecraft:scaffolding" });
-  //lever
-  event.remove({ id: "minecraft:lever" });
 
   // crafting recipe for feathers cause string is kinda ez to automate with flax
   event.shaped(Item.of("minecraft:feather", 3), ["  S", " W ", "V  "], {

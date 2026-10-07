@@ -1,0 +1,13 @@
+name = "Perfected Pet (Teleportation Overhauls)"
+filename = "pet-teleport-fix-1.4-HOTFIX.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/QZ5S10DM/versions/7it2mwLv/pet-teleport-fix-1.4-HOTFIX.jar"
+hash-format = "sha512"
+hash = "0e68c4bac606586a9226d883ee834bcd2798f06285923497055725e3a46fd24a906283093b516a7fb19844eba3f065363fed18feac5e9c9e0efed5fdf6ac5214"
+
+[update]
+[update.modrinth]
+mod-id = "QZ5S10DM"
+version = "7it2mwLv"
