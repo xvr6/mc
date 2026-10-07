@@ -354,4 +354,4 @@ serverStreamParticles = true
 [misc]
 # Show the one-time Streams Reflowing notice in chat when a world is first opened.
 # Applies at once.
-welcomeMessage = true
+welcomeMessage = false
