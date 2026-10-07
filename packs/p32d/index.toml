@@ -174,7 +174,7 @@ hash = "e71780036abc69237101b00d2e1525e1c64e431459154ea09f68ebce00742a67"
 
 [[files]]
 file = "config/yosbr/shaderpacks/ComplementaryUnbound_r5.9.3 + EuphoriaPatches_1.10.5.txt"
-hash = "b4086b26ab968661fd6c58dc9c7222e21cde690a9d5f3611e9884290de93303f"
+hash = "afed2335f29c161c3d700ddac8ddf2fb49e2d2dff7a9d1563152c179f220da24"
 
 [[files]]
 file = "datapacks/poinky-additions/data/poinky/dimension_physics/overworld.json"
