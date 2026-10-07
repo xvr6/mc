@@ -66,7 +66,7 @@ ServerEvents.recipes((event) => {
   );
   event.recipes.createMilling(
     [Item.of("ratatouille:salt", 3), CreateItem.of("ratatouille:salt", 0.6)],
-    "galosphere:pink_salt_shart",
+    "galosphere:pink_salt_shard",
   );
   event.replaceInput(
     { input: "expandeddelight:salt" },
