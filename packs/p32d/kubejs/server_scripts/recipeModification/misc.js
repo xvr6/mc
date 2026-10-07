@@ -283,4 +283,6 @@ ServerEvents.recipes((event) => {
     G: Ingredient.of("#c:glass_blocks/colorless"),
     I: "minecraft:redstone",
   });
+
+  event.shapeless(Item.of("minecraft:bamboo", 9), "minecraft:bamboo_block");
 });

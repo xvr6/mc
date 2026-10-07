@@ -185,7 +185,7 @@ ServerEvents.recipes((event) => {
   event.recipes.createCrushing(
     [
       Item.of("create:powdered_obsidian", 4),
-      "si_refined_obsidian:cobbled_obsidian",
+      CreateItem.of("si_refined_obsidian:cobbled_obsidian", 0.85),
     ],
     "minecraft:obsidian",
   );

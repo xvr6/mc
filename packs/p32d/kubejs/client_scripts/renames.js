@@ -30,6 +30,11 @@ ClientEvents.lang("en_us", (event) => {
       `${capitalizeFirstLetter(color)} Styled Floor Chair`,
     );
   });
+  event.renameItem("chipped:cobbled_obsidian", "Chipped Obsidian");
+  event.renameItem(
+    "chipped:cobbled_crying_obsidian",
+    "Chipped Crying Obsidian",
+  );
 });
 
 function capitalizeFirstLetter(str) {

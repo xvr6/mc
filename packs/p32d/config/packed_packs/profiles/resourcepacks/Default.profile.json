@@ -3,6 +3,8 @@
   "name": "Default",
   "overrides": {},
   "packIds": [
+    "file/CSSB.zip",
+    "file/CSSS.zip",
     "file/SLNames.zip",
     "moonlight:merged_pack",
     "netherexp:jne_retextures",
