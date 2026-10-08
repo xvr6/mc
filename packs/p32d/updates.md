@@ -1,20 +1,21 @@
 # Update Changelogs
 
-## Update: v3.2.(0/1)
+## Update: v3.2.1
 
 > Note: I didnt keep track of every individual change between this pack and the
 > original p3d. This is not an exhaustive changelog, but it contains most of the
 > important things to note since the p32d server came online!
 
-### Notable Mod Changes
+### Notable Changes
 
+- Re-added Bumblezone cause funny
 - Nether Portals can be goofy shapes
 - Pets **_should_** teleport when using Via Romana warps, /home, /back, /spawn, etc.
 - Create Nuclear... PLEASE read the [wiki](https://wiki.createnuclear.net/)
   - Uranium is dangerous; proper PPE must be used.
   - you can ACTUALLY BLOW UP if you dont build reactors right!
   - As a result of this mod updating, new ores were added. Leave the currently
-    loaded chunks (visible on bluemap) to find the new resources (just leave spawn "continent" to be safe)
+    loaded chunks (visible on [bluemap](https://map.prectriv.cc) to find the new resources (just leave spawn "continent" to be safe)
 - Create Colorful Pipes & Vibrant vaults replaced with Bits 'n' Dyes
   - BnD is a lot more feature complete, allowing for a lot more things to be dyed.
   - The mod does _not_ add in the items to emi (they are not crafted), instead
@@ -33,6 +34,7 @@
 
 ### Recipe Adjustments
 
+- Shearpin/shaft half recipe conflict
 - Bamboo Block can be broken back down into 9 bamboo
 - Obsidian adjusted:
   - Powdered obsidian is now easier to obtain (4 per crushing cycle instead of just 1).
@@ -56,4 +58,4 @@
   - Interiors Floor Chair -> < no change >
   - Bits 'n' Bobs Chair -> Styled Floor Chair
     - (also it was reenabled now that its bugfixed :D)
-- Renamed `chipped:cobbled_obsidian & chipped:cobbled_crying_obsidian` to Cracked (Crying) Obsidian
+- Renamed `chipped:cobbled_obsidian`&`chipped:cobbled_crying_obsidian` to Cracked (Crying) ObsidianCracked (Crying) Obsidian
