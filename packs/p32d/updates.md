@@ -3,23 +3,24 @@
 ## Update: v3.2.(0/1)
 
 > Note: I didnt keep track of every individual change between this pack and the
-> origonal p3d. This is not an exaustive changelog, but it contains most of the
+> original p3d. This is not an exhaustive changelog, but it contains most of the
 > important things to note since the p32d server came online!
 
 ### Notable Mod Changes
 
 - Nether Portals can be goofy shapes
 - Pets **_should_** teleport when using Via Romana warps, /home, /back, /spawn, etc.
-- Create Nuclear... PLEASE read the wiki, you can ACTUALLY BLOW UP if you dont build reactors right! Proper Nuclear PPE is also needed
-  - https://wiki.createnuclear.net/
-  - As a result of this mod updating, we made the decision to regen the world. All bases im aware of were exactly copy pasted,
-    as with our player data so nothing should chane in practice, but new caves and ore distribution.
-- Create Colorful Pipes & Vibrant vaults repalced with Bits 'n' Dyes
+- Create Nuclear... PLEASE read the [wiki](https://wiki.createnuclear.net/)
+  - Uranium is dangerous; proper PPE must be used.
+  - you can ACTUALLY BLOW UP if you dont build reactors right!
+  - As a result of this mod updating, new ores were added. Leave the currently
+    loaded chunks (visible on bluemap) to find the new resources (just leave spawn "continent" to be safe)
+- Create Colorful Pipes & Vibrant vaults replaced with Bits 'n' Dyes
   - BnD is a lot more feature complete, allowing for a lot more things to be dyed.
   - The mod does _not_ add in the items to emi (they are not crafted), instead
     you dye them by just applying dye physically to it in the world once placed down.
 - Bits 'n' Bobs
-  - Chains can be modified once placed, keepign their rotation
+  - Chains can be modified once placed, keeping their rotation
   - Cogwheel Chain Carriage :)
   - Chairs got patched and are re-enabled!
     - Check Misc for relevant information about chair renames
@@ -40,7 +41,7 @@
 - Train Head-Tail lights were simplified a lot
   - Previous: sequenced assembly
   - Now: Shaped crafting (same components)
-- All Fueling Tank tiers cheaped and adjusted
+- All Fueling Tank tiers cheapend and adjusted
   - Small Fueling Tank: 2 Sturdy Sheet, one Small _Filling_ Tank
   - Medium Fueling Tank: 2 Sturdy Sheet, one Medium _Filling_ Tank
   - Large Fueling Tank: 2 Sturdy Sheet, one Large _Filling_ Tank
@@ -54,5 +55,5 @@
   - Interiors Chair -> Raised Chair
   - Interiors Floor Chair -> < no change >
   - Bits 'n' Bobs Chair -> Styled Floor Chair
-    - (also it was reanabled now that its bugfixed :D)
+    - (also it was reenabled now that its bugfixed :D)
 - Renamed `chipped:cobbled_obsidian & chipped:cobbled_crying_obsidian` to Cracked (Crying) Obsidian
