@@ -285,9 +285,13 @@ ServerEvents.recipes((event) => {
   });
 
   event.shapeless(Item.of("minecraft:bamboo", 9), "minecraft:bamboo_block");
-  
+
   // shaft recipe overlap
   event.remove({ id: "create:cutting/shaft" });
   event.shapeless("create_connected:shear_pin", "create:shaft");
   event.shapeless("create:shaft", "create_connected:shear_pin");
+  event.remove({
+    output: "minecraft:suspicious_sand",
+    input: "minecraft:paper",
+  }); // #TODO: add back in a recipe
 });
