@@ -49,6 +49,10 @@ file = "config/curios-client.toml"
 hash = "dcc28aa80e16236eb44c69c589d41a2ca663782a9c2d874c14cf55959499a50c"
 
 [[files]]
+file = "config/emi.css"
+hash = "b102965e3b27b0e8aac98a7f26439753810b1fb9ccfcb550e30307f7fa4233f1"
+
+[[files]]
 file = "config/freecam.json5"
 hash = "dcf63031f8dcb40f2e4ec3ca1fc6ec459955dc8caa8b0ba309df701e422f5546"
 
