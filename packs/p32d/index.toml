@@ -193,6 +193,66 @@ file = "datapacks/poinky-additions/pack.mcmeta"
 hash = "e55e81dbcbe7422bedfbb049e684863c100430049f586e483ea6d9d2fe967972"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/block/asparagus_seed_bag_top.png"
+hash = "860ea652fea0d8651e1a196f45607af86c5de445f128512c7cf66cea70252201"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/beetroot_seed_bag_top.png"
+hash = "87f517849bcb0f3ad67fc78cbca5688a2403052aa406a459856468c17442f9c9"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/blueberry_bag_top.png"
+hash = "15adfbdb086be8325f9a2db858c06eea917d6fcac13446468ba5aa99ceb1c35d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/cabbage_seed_bag_top.png"
+hash = "646648121a96e829a744d6ea54a6c21465b061633e3cb234d3de22ace7cc38b6"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/chili_pepper_seed_bag_top.png"
+hash = "6d6c51532c0703fc7c3788f70ed9eb17a1fd6f606427ea899c3a9f61b401430b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/crimson_berry_bag_top.png"
+hash = "99a279520c7951dccd06aae6de1e33e504fd8de0a59eaeed1e4ede25712a2076"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/crop_bag_bottom.png"
+hash = "ce71cd4bd6778cbedd60790ac5885bd59b581fc088a673cc7a7a4c31a3ceac99"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/crop_bag_side.png"
+hash = "f5381f0e1bdc921b4fe7fd317f2d24ca8f5c037c8bf5418022c770c6a1c01ad2"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/crop_bag_side_tied.png"
+hash = "46defa03e79935efdb10cca4c525a421a951211f7e0db3dbe750a0c8c6bfcaaa"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/elven_sweet_berry_bag_top.png"
+hash = "918aee4a8d598488155f1344c9b900c33878be12fdcba425e08462eaf00c386a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/flax_seed_bag_top.png"
+hash = "53366592603dcf5ab6359c7a8b8e36ad39082857c022cd157e4fa11e827cd5e4"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/melon_seed_bag_top.png"
+hash = "03e213b4273c66a4b108203d644a790877041066961e115809d6d89f4f175c19"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/pumpkin_seed_bag_top.png"
+hash = "fb7c79f0a740d577eb23baad7946ad352e48e21cdc656bcd4aa36d8684abcf44"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/tomato_seed_bag_top.png"
+hash = "550cae659beb8c7137547bb32f07f1b6e002f5cd496252300215ce2be0d07c81"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/wheat_seed_bag_top.png"
+hash = "de20ef487c52d0bb7359e7fdcaa26870e857b8848e3ab158eb9c711bed27e58b"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/fluid/blaze_cake_batter_flow.png"
 hash = "c99099355696bc2259f1ada157b525fdf14ed34a71664305adc8d3a2da397f3e"
 
@@ -295,6 +355,10 @@ hash = "7f9ddbcd903315ecf2db23acf70108a518bba9654aaf4a133d6d8131ae4911cb"
 [[files]]
 file = "kubejs/server_scripts/tooltips.js"
 hash = "aba39f33e4d8b3b8d904688ffcf7b8f8c1350270ffd301b907327419f39fa406"
+
+[[files]]
+file = "kubejs/startup_scripts/blocks.js"
+hash = "6dd31fb83e2d403d8bbb82a1cfa3af0ec79d66eb9b1ca9b71d10dcf5e44f14cb"
 
 [[files]]
 file = "kubejs/startup_scripts/fluids.js"
