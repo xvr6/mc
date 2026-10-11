@@ -4,24 +4,12 @@ StartupEvents.init((event) => {
 
 StartupEvents.registry("item", (event) => {
   // Filled cake mold bases
-  event
-    .create("blaze_cake_mold_filled")
-    .texture("poinky:item/blaze_cake_mold_filled.png");
-  event
-    .create("echo_cake_mold_filled")
-    .texture("poinky:item/echo_cake_mold_filled.png");
-  event
-    .create("experience_cake_mold_filled")
-    .texture("poinky:item/experience_cake_mold_filled.png");
+  event.create("blaze_cake_mold_filled");
+  event.create("echo_cake_mold_filled");
+  event.create("experience_cake_mold_filled");
 
   // Cooked cake mold bases
-  event
-    .create("blaze_cake_mold_baked")
-    .texture("poinky:item/blaze_cake_mold_baked.png");
-  event
-    .create("echo_cake_mold_baked")
-    .texture("poinky:item/echo_cake_mold_baked.png");
-  event
-    .create("experience_cake_mold_baked")
-    .texture("poinky:item/experience_cake_mold_baked.png");
+  event.create("blaze_cake_mold_baked");
+  event.create("echo_cake_mold_baked");
+  event.create("experience_cake_mold_baked");
 });

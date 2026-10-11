@@ -193,63 +193,63 @@ file = "datapacks/poinky-additions/pack.mcmeta"
 hash = "e55e81dbcbe7422bedfbb049e684863c100430049f586e483ea6d9d2fe967972"
 
 [[files]]
-file = "kubejs/assets/poinky/textures/item/blaze_cake_batter_bucket.png"
-hash = "170649f6e79cf679ff4c2c8be5281562588cb9d81abb0dbb12e7542714d4fcf2"
-
-[[files]]
-file = "kubejs/assets/poinky/textures/item/blaze_cake_batter_flow.png"
+file = "kubejs/assets/kubejs/textures/fluid/blaze_cake_batter_flow.png"
 hash = "c99099355696bc2259f1ada157b525fdf14ed34a71664305adc8d3a2da397f3e"
 
 [[files]]
-file = "kubejs/assets/poinky/textures/item/blaze_cake_batter_still.png"
+file = "kubejs/assets/kubejs/textures/fluid/blaze_cake_batter_still.png"
 hash = "f3085c76a7350729c3c3fc7042636ac9557914f5421aff18189ce68c266ed3d7"
 
 [[files]]
-file = "kubejs/assets/poinky/textures/item/blaze_cake_mold_baked.png"
-hash = "63f9208169283e221ff8c2e43e70cc1c0d73552d5978666e9565b9a602521c22"
-
-[[files]]
-file = "kubejs/assets/poinky/textures/item/blaze_cake_mold_filled.png"
-hash = "74b433dc2870ae7914a50bf34cc1cf5df06e5a7f42b04681711311b654a927f5"
-
-[[files]]
-file = "kubejs/assets/poinky/textures/item/echo_cake_batter_bucket.png"
-hash = "6cdbf5726ac467371b41e19699c4bb82edd0a003d15088a1dad09642ccfe7c99"
-
-[[files]]
-file = "kubejs/assets/poinky/textures/item/echo_cake_batter_flow.png"
+file = "kubejs/assets/kubejs/textures/fluid/echo_cake_batter_flow.png"
 hash = "d6138c18acfbbd98858e634ea94777bbcf5a64e060e0b01153f49e4324151f27"
 
 [[files]]
-file = "kubejs/assets/poinky/textures/item/echo_cake_batter_still.png"
+file = "kubejs/assets/kubejs/textures/fluid/echo_cake_batter_still.png"
 hash = "466ecf94c347b56b6e9cc55cab430ec4c5872f10439bbca4758da7a65dd8683b"
 
 [[files]]
-file = "kubejs/assets/poinky/textures/item/echo_cake_mold_baked.png"
-hash = "f4cd70154857d926a32573a60119a06850e7bb344611f650d217a67f63c69a2f"
-
-[[files]]
-file = "kubejs/assets/poinky/textures/item/echo_cake_mold_filled.png"
-hash = "b217d0b4b04b69620c429c83178213ae1b0e8bcedf45349bc7e7b08e7b642d02"
-
-[[files]]
-file = "kubejs/assets/poinky/textures/item/experience_cake_batter_bucket.png"
-hash = "e4185135763aa77cfe9f617492059a688656aec12f97239ce4d1d9fbd2320bab"
-
-[[files]]
-file = "kubejs/assets/poinky/textures/item/experience_cake_batter_flow.png"
+file = "kubejs/assets/kubejs/textures/fluid/experience_cake_batter_flow.png"
 hash = "bd434fe8439a749558754fe5d17edde7572a0b117b081c0428057334f7896c72"
 
 [[files]]
-file = "kubejs/assets/poinky/textures/item/experience_cake_batter_still.png"
+file = "kubejs/assets/kubejs/textures/fluid/experience_cake_batter_still.png"
 hash = "87bdd6933c3dba4440ab4f1ba28c7a0e95cf4e59ea3b18372f676e086aeb1df9"
 
 [[files]]
-file = "kubejs/assets/poinky/textures/item/experience_cake_mold_baked.png"
+file = "kubejs/assets/kubejs/textures/item/blaze_cake_batter_bucket.png"
+hash = "170649f6e79cf679ff4c2c8be5281562588cb9d81abb0dbb12e7542714d4fcf2"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/blaze_cake_mold_baked.png"
+hash = "63f9208169283e221ff8c2e43e70cc1c0d73552d5978666e9565b9a602521c22"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/blaze_cake_mold_filled.png"
+hash = "74b433dc2870ae7914a50bf34cc1cf5df06e5a7f42b04681711311b654a927f5"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/echo_cake_batter_bucket.png"
+hash = "6cdbf5726ac467371b41e19699c4bb82edd0a003d15088a1dad09642ccfe7c99"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/echo_cake_mold_baked.png"
+hash = "f4cd70154857d926a32573a60119a06850e7bb344611f650d217a67f63c69a2f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/echo_cake_mold_filled.png"
+hash = "b217d0b4b04b69620c429c83178213ae1b0e8bcedf45349bc7e7b08e7b642d02"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/experience_cake_batter_bucket.png"
+hash = "e4185135763aa77cfe9f617492059a688656aec12f97239ce4d1d9fbd2320bab"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/experience_cake_mold_baked.png"
 hash = "4e5b3761484c14e2261c1e14a61a1b139c5a1ba014756111c35473546ec4bd68"
 
 [[files]]
-file = "kubejs/assets/poinky/textures/item/experience_cake_mold_filled.png"
+file = "kubejs/assets/kubejs/textures/item/experience_cake_mold_filled.png"
 hash = "ce526ffa2497b1fffc7952841c1a414c3d9dbbcf0e29c4762edb718caa7cdfe1"
 
 [[files]]
@@ -302,7 +302,7 @@ hash = "02ac556fb6924994c4a2dddd0983910ea95d4fe4579ac5529da78b0949ef3906"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
-hash = "4399cf814863a026317eb70951424f10e968d4147716e55f08d3aa7d45683246"
+hash = "5ed7eaeacfe7f5f991207b94def42acaf3ac810ad21490f1c617f3ec055e486a"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
