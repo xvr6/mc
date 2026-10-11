@@ -258,7 +258,7 @@ hash = "3b61a51cf4eb68bf5e5e0ae2679706a9c736988024abcb8429ad6bfdd321917d"
 
 [[files]]
 file = "kubejs/server_scripts/cakes.js"
-hash = "d33b239c3c96c236e16678c3a7e672f4e2c3b6027ba498e9d7dcf67a35d857c5"
+hash = "0953d9fc3d5fb03796a565f1c3ffd0432752220bea912faa60eea9fa7c383461"
 
 [[files]]
 file = "kubejs/server_scripts/kits.js"
@@ -302,7 +302,7 @@ hash = "02ac556fb6924994c4a2dddd0983910ea95d4fe4579ac5529da78b0949ef3906"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
-hash = "598cc75a54547f7e9962f14b6e08f724ada817ec3c9a126076e3f1021cae35ea"
+hash = "4399cf814863a026317eb70951424f10e968d4147716e55f08d3aa7d45683246"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"

@@ -31,7 +31,7 @@ ServerEvents.recipes((event) => {
   ]);
   event.recipes.createMixing(Fluid.of("kubejs:echo_cake_batter", 500), [
     Fluid.of("ratatouille:cake_batter", 500),
-    "create_deep_dark:sculk_flouer",
+    "create_deep_dark:sculk_flour",
   ]);
   event.recipes.createMixing(Fluid.of("kubejs:experience_cake_batter", 500), [
     Fluid.of("ratatouille:cake_batter", 500),
