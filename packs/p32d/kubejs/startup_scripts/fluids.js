@@ -4,21 +4,18 @@ StartupEvents.registry("fluid", (event) => {
     .create("blaze_cake_batter")
     .displayName("Blaze Cake Batter")
     .renderType("solid")
-    .builtinTextures()
-    .flowingTexture("kubejs:fluid/blaze_cake_batter_flow.png")
-    .stillTexture("kubejs:fluid/blaze_cake_batter_still.png");
+    .flowingTexture("kubejs:fluid/blaze_cake_batter_flow")
+    .stillTexture("kubejs:fluid/blaze_cake_batter_still");
   event
     .create("echo_cake_batter")
     .renderType("solid")
-    .builtinTextures()
-    .flowingTexture("kubejs:fluid/echo_cake_batter_flow.png")
-    .stillTexture("kubejs:fluid/echo_cake_batter_still.png")
+    .flowingTexture("kubejs:fluid/echo_cake_batter_flow")
+    .stillTexture("kubejs:fluid/echo_cake_batter_still")
     .displayName("Echo Cake Batter");
   event
     .create("experience_cake_batter")
     .displayName("Experience Cake Batter")
     .renderType("solid")
-    .builtinTextures()
-    .flowingTexture("kubejs:fluid/experience_cake_batter_flow.png")
-    .stillTexture("kubejs:fluid/experience_cake_batter_still.png");
+    .flowingTexture("kubejs:fluid/experience_cake_batter_flow")
+    .stillTexture("kubejs:fluid/experience_cake_batter_still");
 });
