@@ -3,7 +3,11 @@ ServerEvents.tags("item", (event) => {
     "ratatouille:compostable_items_1to1",
     "farmersdelight:tree_bark",
   );
-  event.add("ratatouile:compostable_items_4to1", "farmersdelight:tree_bark");
+  event.add(
+    "ratatouile:compostable_items_4to1",
+    "farmersdelight:tree_bark",
+    "corn_delight:corncob",
+  );
   event.add("dndecor:industrial_cogwheels", "dndecor:industrial_cogwheel");
   event.add("poinky:non_hand_craftable", ""); // removes all crafting grid recipes
 
@@ -58,12 +62,39 @@ ServerEvents.tags("item", (event) => {
     "ratatouille_fried_delights:mayonnaise_bucket",
   );
 
-  event.add("poinky:removed", "create_sa:vault_component");
+  event.add(
+    // Remove all recipes within this tag
+    "poinky:removed",
+
+    // - Remove recipies for cakes that do not use the cake base from ratatouille
+    "createaddition:cake_base",
+    "createaddition:cake_base",
+    "createaddition:cake_base_baked",
+
+    // - unused sausages
+    "mynethersdelight:hoglin_sausage",
+    "mynethersdelight:roasted_sausage",
+
+    // - idk seems useless?
+    "create_sa:vault_component",
+    // - unused salt
+    "expandeddelight:salt",
+
+    // unused pancakes
+    "rusticdelight:pancake",
+    "rusticdelight:pancakes",
+    "rusticdelight:honey_pancake",
+    "rusticdelight:honey_pancakes",
+    "supplementaries:pancake",
+    "creategarnished:pancakes",
+  );
 });
 
 ServerEvents.recipes((event) => {
+  // - Disasble ALL crafting of anything in removed tag.
+  event.remove({ output: Ingredient.of("#poinky:removed") });
+
   // - salt modifications
-  event.remove({ output: "expandeddelight:salt" });
   event.recipes.createMilling(
     [Item.of("ratatouille:salt", 2), CreateItem.of("ratatouille:salt", 0.4)],
     "expandeddelight:salt_rock",
@@ -84,7 +115,7 @@ ServerEvents.recipes((event) => {
   );
 
   event.replaceInput(
-    { id: "mynethersdelight:crafting/hotdog" },
+    { input: "mynethersdelight:roasted_sausage" },
     "mynethersdelight:roasted_sausage",
     "ratatouille:sausage",
   );
@@ -93,8 +124,6 @@ ServerEvents.recipes((event) => {
     "ratatouille_fried_delights:hot_dog",
     "mynethersdelight:hotdog",
   );
-  event.remove({ output: "mynethersdelight:hoglin_sausage" });
-  event.remove({ output: "mynethersdelight:roasted_sausage" });
 
   // - change crafting to use tag instead
   event.replaceInput("*", "create:mechanical_pump", "#create:mechanical_pumps");
@@ -104,6 +133,4 @@ ServerEvents.recipes((event) => {
     output: "#poinky:non_hand_craftable",
     type: "minecraft:crafting_shaped",
   });
-  // - Disasble ALL crafting of anything in removed tag.
-  event.remove({ output: Ingredient.of("#poinky:removed") });
 });
