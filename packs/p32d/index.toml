@@ -297,11 +297,11 @@ file = "kubejs/server_scripts/tooltips.js"
 hash = "aba39f33e4d8b3b8d904688ffcf7b8f8c1350270ffd301b907327419f39fa406"
 
 [[files]]
-file = "kubejs/startup_events/fluids.js"
+file = "kubejs/startup_scripts/fluids.js"
 hash = "b55ecad1f846accbe59d75744b90ae9db805e4cc9e7e9cd47d7cccc0e93538b7"
 
 [[files]]
-file = "kubejs/startup_events/items.js"
+file = "kubejs/startup_scripts/items.js"
 hash = "b65a9b01c6b0743098eebb259518266c73a6f61385ce2551ceac114663582a5c"
 
 [[files]]
