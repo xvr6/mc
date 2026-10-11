@@ -27,11 +27,11 @@ ServerEvents.recipes((event) => {
   // new batters
   event.recipes.createMixing(Fluid.of("kubejs:blaze_cake_batter", 500), [
     Fluid.of("ratatouille:cake_batter", 500),
-    "minecraft:lapis_lazuli",
+    "create:cinder_flour",
   ]);
   event.recipes.createMixing(Fluid.of("kubejs:echo_cake_batter", 500), [
     Fluid.of("ratatouille:cake_batter", 500),
-    "create_deep_dark:sculk",
+    "create_deep_dark:sculk_flouer",
   ]);
   event.recipes.createMixing(Fluid.of("kubejs:experience_cake_batter", 500), [
     Fluid.of("ratatouille:cake_batter", 500),
@@ -57,7 +57,7 @@ ServerEvents.recipes((event) => {
     "kubejs:blaze_cake_mold_baked",
     "kubejs:blaze_cake_mold_filled",
   );
-  event.smoking("kubejs:echo_cake_mold_baked", "poinky:echo_cake_mold_filled");
+  event.smoking("kubejs:echo_cake_mold_baked", "kubejs:echo_cake_mold_filled");
   event.smoking(
     "kubejs:experience_cake_mold_baked",
     "kubejs:experience_cake_mold_filled",
@@ -66,15 +66,15 @@ ServerEvents.recipes((event) => {
   // Demold and produce normal unfilled cakes
   event.custom({
     type: "ratatouille:demolding",
-    ingredients: [Item.of("kubejs:blaze_cake_mold_baked")],
+    ingredients: [{ item: "kubejs:blaze_cake_mold_baked" }],
     results: [
-      { id: "kubejs:blaze_cake_base" },
+      { id: "create:blaze_cake_base" },
       { id: "ratatouille:cake_mold" },
     ],
   });
   event.custom({
     type: "ratatouille:demolding",
-    ingredients: [Item.of("kubejs:echo_cake_mold_baked")],
+    ingredients: [{ item: "kubejs:echo_cake_mold_baked" }],
     results: [
       { id: "create_deep_dark:echo_cake_base" },
       { id: "ratatouille:cake_mold" },
@@ -82,7 +82,7 @@ ServerEvents.recipes((event) => {
   });
   event.custom({
     type: "ratatouille:demolding",
-    ingredients: [Item.of("kubejs:experience_cake_mold_baked")],
+    ingredients: [{ item: "kubejs:experience_cake_mold_baked" }],
     results: [
       { id: "create_enchantment_industry:experience_cake_base" },
       { id: "ratatouille:cake_mold" },

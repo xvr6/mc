@@ -258,7 +258,7 @@ hash = "3b61a51cf4eb68bf5e5e0ae2679706a9c736988024abcb8429ad6bfdd321917d"
 
 [[files]]
 file = "kubejs/server_scripts/cakes.js"
-hash = "0b85956e09bcf86fcf408ffb0c19c3a55d9c185dd0be7f3b205b1d18cd2e60ef"
+hash = "d33b239c3c96c236e16678c3a7e672f4e2c3b6027ba498e9d7dcf67a35d857c5"
 
 [[files]]
 file = "kubejs/server_scripts/kits.js"
