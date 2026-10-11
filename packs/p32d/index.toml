@@ -298,7 +298,7 @@ hash = "aba39f33e4d8b3b8d904688ffcf7b8f8c1350270ffd301b907327419f39fa406"
 
 [[files]]
 file = "kubejs/startup_scripts/fluids.js"
-hash = "3c7d4dfbef27b0b4d011729094216279c710a6d2c016664ccb74f52a3f855f8f"
+hash = "e51e927a3ba3d437dd7476ed6b09bbbc5fbbad5ea63bb01be92cafb60c203c0c"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
