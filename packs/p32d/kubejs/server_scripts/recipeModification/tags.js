@@ -1,5 +1,9 @@
 ServerEvents.tags("item", (event) => {
-  event.remove("ratatouille_fried_delights:compostable_items_1to1");
+  event.remove(
+    "ratatouille:compostable_items_1to1",
+    "farmersdelight:tree_bark",
+  );
+  event.add("ratatouile:compostable_items_4to1", "farmersdelight:tree_bark");
   event.add("dndecor:industrial_cogwheels", "dndecor:industrial_cogwheel");
   event.add("poinky:non_hand_craftable", ""); // removes all crafting grid recipes
 
