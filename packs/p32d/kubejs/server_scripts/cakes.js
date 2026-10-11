@@ -25,56 +25,56 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "create_enchantment_industry:experience_cake_base" });
 
   // new batters
-  event.recipes.createMixing(Fluid.of("poinky:blaze_cake_batter", 500), [
+  event.recipes.createMixing(Fluid.of("kubejs:blaze_cake_batter", 500), [
     Fluid.of("ratatouille:cake_batter", 500),
     "minecraft:lapis_lazuli",
   ]);
-  event.recipes.createMixing(Fluid.of("poinky:echo_cake_batter", 500), [
+  event.recipes.createMixing(Fluid.of("kubejs:echo_cake_batter", 500), [
     Fluid.of("ratatouille:cake_batter", 500),
     "create_deep_dark:sculk",
   ]);
-  event.recipes.createMixing(Fluid.of("poinky:experience_cake_batter", 500), [
+  event.recipes.createMixing(Fluid.of("kubejs:experience_cake_batter", 500), [
     Fluid.of("ratatouille:cake_batter", 500),
     "minecraft:lapis_lazuli",
   ]);
 
   // Filled cake molds
-  event.recipes.createFilling("poinky:blaze_cake_mold_filled", [
+  event.recipes.createFilling("kubejs:blaze_cake_mold_filled", [
     "ratatouille:cake_mold",
-    Fluid.of("poinky:blaze_cake_batter", 500),
+    Fluid.of("kubejs:blaze_cake_batter", 500),
   ]);
-  event.recipes.createFilling("poinky:echo_cake_mold_filled", [
+  event.recipes.createFilling("kubejs:echo_cake_mold_filled", [
     "ratatouille:cake_mold",
-    Fluid.of("poinky:echo_cake_batter", 500),
+    Fluid.of("kubejs:echo_cake_batter", 500),
   ]);
-  event.recipes.createFilling("poinky:experience_cake_mold_filled", [
+  event.recipes.createFilling("kubejs:experience_cake_mold_filled", [
     "ratatouille:cake_mold",
-    Fluid.of("poinky:experience_cake_batter", 500),
+    Fluid.of("kubejs:experience_cake_batter", 500),
   ]);
 
   // Cooking filled cake molds
   event.smoking(
-    "poinky:blaze_cake_mold_baked",
-    "poinky:blaze_cake_mold_filled",
+    "kubejs:blaze_cake_mold_baked",
+    "kubejs:blaze_cake_mold_filled",
   );
-  event.smoking("poinky:echo_cake_mold_baked", "poinky:echo_cake_mold_filled");
+  event.smoking("kubejs:echo_cake_mold_baked", "poinky:echo_cake_mold_filled");
   event.smoking(
-    "poinky:experience_cake_mold_baked",
-    "poinky:experience_cake_mold_filled",
+    "kubejs:experience_cake_mold_baked",
+    "kubejs:experience_cake_mold_filled",
   );
 
   // Demold and produce normal unfilled cakes
   event.custom({
     type: "ratatouille:demolding",
-    ingredients: [Item.of("poinky:blaze_cake_mold_baked")],
+    ingredients: [Item.of("kubejs:blaze_cake_mold_baked")],
     results: [
-      { id: "poinky:blaze_cake_base" },
+      { id: "kubejs:blaze_cake_base" },
       { id: "ratatouille:cake_mold" },
     ],
   });
   event.custom({
     type: "ratatouille:demolding",
-    ingredients: [Item.of("poinky:echo_cake_mold_baked")],
+    ingredients: [Item.of("kubejs:echo_cake_mold_baked")],
     results: [
       { id: "create_deep_dark:echo_cake_base" },
       { id: "ratatouille:cake_mold" },
@@ -82,7 +82,7 @@ ServerEvents.recipes((event) => {
   });
   event.custom({
     type: "ratatouille:demolding",
-    ingredients: [Item.of("poinky:experience_cake_mold_baked")],
+    ingredients: [Item.of("kubejs:experience_cake_mold_baked")],
     results: [
       { id: "create_enchantment_industry:experience_cake_base" },
       { id: "ratatouille:cake_mold" },
