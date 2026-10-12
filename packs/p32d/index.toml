@@ -321,6 +321,10 @@ file = "kubejs/server_scripts/cakes.js"
 hash = "0953d9fc3d5fb03796a565f1c3ffd0432752220bea912faa60eea9fa7c383461"
 
 [[files]]
+file = "kubejs/server_scripts/cropdate.js"
+hash = "e02697b5f70e61de7971ae9879daf2f71d5d2b65f0cb39995cb948fdbe3112c3"
+
+[[files]]
 file = "kubejs/server_scripts/kits.js"
 hash = "b4ca6e219facd4cced06f926666eb77942f4eece4b1395673a05f241f7bdc3fb"
 
