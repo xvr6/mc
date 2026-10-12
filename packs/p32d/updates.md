@@ -1,5 +1,24 @@
 # Update Changelogs
 
+## Update: v3.2.2
+
+### Adjusted default resourcepacks
+
+- removed bugged CSSS pack
+- re-added poinky lang to default pack
+
+### New Items and Blocks!
+
+> First custom items and blocks added to the pack; textures modified by cobalt
+> (all can be seen by searching for `@poinky` in emi)
+
+- Blaze Cakes
+  - Recipes have not changed much in cost, instead there are now custom
+    intermediary items for all blaze cake types
+- Seed/Crop bags
+  - Addition of several seed bags (9 seeds compressed into one block)
+  - Addition of berry bags (same thing)
+
 ## Update: v3.2.1
 
 > Note: I didnt keep track of every individual change between this pack and the

@@ -4,8 +4,7 @@
   "overrides": {},
   "packIds": [
     "file/CSSB.zip",
-    "file/CSSS.zip",
-    "file/SLNames.zip",
+    "file/poinky-additions",
     "moonlight:merged_pack",
     "netherexp:jne_retextures",
     "mod_resources",
