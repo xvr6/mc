@@ -20,4 +20,10 @@ ItemEvents.modifyTooltips((event) => {
     { shift: false },
     Text.red("Recipe Removed"),
   );
+
+  event.add(
+    "create:andesite_alloy",
+    { shift: false },
+    Text.gray("Now used for copycat blocks!"),
+  );
 });

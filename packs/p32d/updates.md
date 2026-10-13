@@ -7,6 +7,24 @@
 - removed bugged CSSS pack
 - re-added poinky lang to default pack
 
+### Recipes
+
+- Copycat blocks now use andesite alloy
+  - Now, they will be accessable in mass quantities earlier on to the players,
+    allowing for more fun early game building projects :D
+  - _Why should something meant for building be so... hard to obtain early game
+    when ur building the most?_
+- Vault recipe fixes:
+  - Bugged recipes removed, allowing for cheaper creation of frogports
+  - Where it makes sense, reicpes that previously required item vaults now also
+    accept item silos
+    - **_SOME BUGS MAY OCCUR_** as this was done with broad tags. If issues are
+      found contact me
+- Pumpkins
+  - Since chipped pumpkins can be naturally found in the overworld, they can now
+    be shapeless converted in any crafting interface to the normal minecraft
+    version for easier crafting
+
 ### New Items and Blocks!
 
 > First custom items and blocks added to the pack; textures modified by cobalt

@@ -204,8 +204,6 @@ ServerEvents.recipes((event) => {
     "minecraft:iron_nugget",
   ]);
 
-  event.shapeless("create:zinc_ingot", "copycats:copycat_block");
-
   //modify dye recipes to require boil stone to convert back to dye
   Color.DYE.forEach((color) => {
     event.remove({ id: `create_dragons_plus:mixing/${color}_dye_from_fluid` });
@@ -293,5 +291,7 @@ ServerEvents.recipes((event) => {
   event.remove({
     output: "minecraft:suspicious_sand",
     input: "minecraft:paper",
-  }); // #TODO: add back in a recipe
+  }); // #FIXME: doesnt work
+
+  event.remove({ mod: "create_vibrant_vaults" });
 });

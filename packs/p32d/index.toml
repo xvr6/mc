@@ -321,6 +321,10 @@ file = "kubejs/server_scripts/cakes.js"
 hash = "0953d9fc3d5fb03796a565f1c3ffd0432752220bea912faa60eea9fa7c383461"
 
 [[files]]
+file = "kubejs/server_scripts/copycats.js"
+hash = "132c4d513e473fa4bd305119d4076117197eeaf74977f1fcbf5bddca4ae3bf5c"
+
+[[files]]
 file = "kubejs/server_scripts/cropdate.js"
 hash = "774431760a8876a4e62375b99e38bc7b0225eb9987533116e2497d74f373d360"
 
@@ -338,7 +342,7 @@ hash = "e73255254c19489561ff7714bb590c8671f7d9320e4017d4e719ba5767f5fd16"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/food.js"
-hash = "8942ff3e182d70e8354eb797e597e5875d970e7ae5b86e2c285885c1fbff4910"
+hash = "1dd6b6dc6630459fd323dcf048360b46a6ae3eec070f5b6ce95f221a6c187713"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/freezing.js"
@@ -346,19 +350,19 @@ hash = "181672b7728e8dd866d521597e8449a1a60293f9aef0520c9075a8b7f01a91f3"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/misc.js"
-hash = "4ff19fe86396a1219a3871f5b7e2b51c6c3391c9aef8340dfdfff30fb4d13abb"
+hash = "1ee1821a26cbbe77abd41f0090ebdfb7b42adf3232991f4a781f44d3b4271e82"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/stones.js"
 hash = "a10c32613e1aca23fc0b6b4fb62be6196590abd1df3d13f693ea45a17ad77e63"
 
 [[files]]
-file = "kubejs/server_scripts/recipeModification/tags.js"
-hash = "7f9ddbcd903315ecf2db23acf70108a518bba9654aaf4a133d6d8131ae4911cb"
+file = "kubejs/server_scripts/tags.js"
+hash = "ed3237df883704d63caa65445b5b905e5bc2f1aa1072a8fe119092e8716c3461"
 
 [[files]]
 file = "kubejs/server_scripts/tooltips.js"
-hash = "aba39f33e4d8b3b8d904688ffcf7b8f8c1350270ffd301b907327419f39fa406"
+hash = "33880b01d57fe91c1dcc409f6889387cf3d640147cdd96570feea0a4fd903f38"
 
 [[files]]
 file = "kubejs/startup_scripts/blocks.js"
