@@ -842,6 +842,11 @@ hash = "1a9187d50e9a3a17dbdae3fbf8c3f691c43f9a5c6da8313fa6dffbf2ac0c49ba"
 metafile = true
 
 [[files]]
+file = "mods/create-factory-controller.pw.toml"
+hash = "2677237aa7c7c037f770bd15c33359e054cd27f5614a7667e02183ed23f3c4d1"
+metafile = true
+
+[[files]]
 file = "mods/create-fast-schematic-cannon.pw.toml"
 hash = "fa174ec257cb0fdbf3e4130a2d37fd44fab48a4b2fd03d2985189f54d68cf50b"
 metafile = true
