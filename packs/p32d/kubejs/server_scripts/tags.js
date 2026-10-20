@@ -87,6 +87,8 @@ ServerEvents.tags("item", (event) => {
     "rusticdelight:honey_pancakes",
     "supplementaries:pancake",
     "creategarnished:pancakes",
+
+    "createmetalogistics:station_chunk_loader",
   );
 
   event.add("c:vaults", "create:item_vault", "create_connected:item_silo");

@@ -1,5 +1,16 @@
 # Update Changelogs
 
+## Update v3.2.2a
+
+- Roller Coasters and more fun building/create things!
+  - [Create: Coasters Simulated](https://modrinth.com/mod/create-coasters-simulated)
+  - [Coasters: Engineered](https://modrinth.com/mod/coasters-engineered)
+- Removed meta logistics chunk loader; power loaders is preferred
+- [Vista](https://modrinth.com/mod/vista_tv) added
+  - Note: this mod MAY not work in all cases, and is
+    known to cause major lag and/or visual bugs with shaders on.
+- [Create: Factory Controller](https://modrinth.com/mod/create-factory-controller)
+
 ## Update: v3.2.2
 
 ### Adjusted default resourcepacks
@@ -25,7 +36,7 @@
     be shapeless converted in any crafting interface to the normal minecraft
     version for easier crafting
 
-### New Items and Blocks!
+### New Items and Blocks
 
 > First custom items and blocks added to the pack; textures modified by cobalt
 > (all can be seen by searching for `@poinky` in emi)

@@ -354,11 +354,11 @@ hash = "1ee1821a26cbbe77abd41f0090ebdfb7b42adf3232991f4a781f44d3b4271e82"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/stones.js"
-hash = "a10c32613e1aca23fc0b6b4fb62be6196590abd1df3d13f693ea45a17ad77e63"
+hash = "f9b93356054fc087f2790f9ea2873602a58a2dc50393cbf0c8ecae9d9a7aa8d5"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "ed3237df883704d63caa65445b5b905e5bc2f1aa1072a8fe119092e8716c3461"
+hash = "63f69ba6f0a0612c4906a705125cbc8bc9fe9c8a8ffb7f4b7d22a648c0432558"
 
 [[files]]
 file = "kubejs/server_scripts/tooltips.js"
@@ -612,6 +612,11 @@ hash = "503569d1bccf50d580e517550e8f66574d881deac197f30fedb0a18ebb5d3ff4"
 metafile = true
 
 [[files]]
+file = "mods/coasters-engineered.pw.toml"
+hash = "888fbb5416e82039b1911882ae35257c038d77aef7af38138c17eeb3062d77a4"
+metafile = true
+
+[[files]]
 file = "mods/collective.pw.toml"
 hash = "1f7f58336a02a5efd56397a401247d40d39e31221dd7165bd1ed86b42c3a2a66"
 metafile = true
@@ -789,6 +794,11 @@ metafile = true
 [[files]]
 file = "mods/create-central-kitchen.pw.toml"
 hash = "07c51c2d97b8a9dd5fefb51798923f5621d46f5db44b4d7327a567f945f375f0"
+metafile = true
+
+[[files]]
+file = "mods/create-coasters-simulated.pw.toml"
+hash = "d5aad6415413aa777ed89ae55912f33c86757321c7c16c8392ce2e1429b920d5"
 metafile = true
 
 [[files]]
@@ -2138,6 +2148,11 @@ metafile = true
 [[files]]
 file = "mods/via-romana.pw.toml"
 hash = "9e26a9936491607f08239c18d8d41327172a401ae70dbce5c5277573f9c05be2"
+metafile = true
+
+[[files]]
+file = "mods/vista_tv.pw.toml"
+hash = "45eacb077412e52f365954d9fb8ddd58585eba1db841aacec84223e6cb0da28f"
 metafile = true
 
 [[files]]
