@@ -1,6 +1,51 @@
 # Update Changelogs
 
-## WIP Update: v3.2.2
+## WIP: Update v3.2.2a
+
+- Roller Coasters and more fun building/create things!
+  - [Create: Coasters Simulated](https://modrinth.com/mod/create-coasters-simulated)
+  - [Coasters: Engineered](https://modrinth.com/mod/coasters-engineered)
+- Removed meta logistics chunk loader; power loaders is preferred
+- [Vista](https://modrinth.com/mod/vista_tv) added
+  - Note: this mod MAY not work in all cases, and is
+    known to cause major lag with shaders on.
+
+## Update: v3.2.2
+
+### Adjusted default resourcepacks
+
+- removed bugged CSSS pack
+- re-added poinky lang to default pack
+
+### Recipes
+
+- Copycat blocks now use andesite alloy
+  - Now, they will be accessable in mass quantities earlier on to the players,
+    allowing for more fun early game building projects :D
+  - _Why should something meant for building be so... hard to obtain early game
+    when ur building the most?_
+- Vault recipe fixes:
+  - Bugged recipes removed, allowing for cheaper creation of frogports
+  - Where it makes sense, reicpes that previously required item vaults now also
+    accept item silos
+    - **_SOME BUGS MAY OCCUR_** as this was done with broad tags. If issues are
+      found contact me
+- Pumpkins
+  - Since chipped pumpkins can be naturally found in the overworld, they can now
+    be shapeless converted in any crafting interface to the normal minecraft
+    version for easier crafting
+
+### New Items and Blocks
+
+> First custom items and blocks added to the pack; textures modified by cobalt
+> (all can be seen by searching for `@poinky` in emi)
+
+- Blaze Cakes
+  - Recipes have not changed much in cost, instead there are now custom
+    intermediary items for all blaze cake types
+- Seed/Crop bags
+  - Addition of several seed bags (9 seeds compressed into one block)
+  - Addition of berry bags (same thing)
 
 ## Update: v3.2.1
 

@@ -88,7 +88,7 @@ ServerEvents.recipes((event) => {
     Item.of("farmersdelight:tomato_seeds", 9),
   );
   event.shapeless(
-    Item.of("farmersdelight:omato_seeds", 9),
+    Item.of("farmersdelight:tomato_seeds", 9),
     "kubejs:tomato_seed_bag",
   );
 

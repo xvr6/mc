@@ -98,11 +98,11 @@ hash = "ccda7f85de5850bc2fb0ce05a6ff95cac14dd8f6546885fc303ee151e1e55610"
 
 [[files]]
 file = "config/packed_packs/profiles/resourcepacks/Default.profile.json"
-hash = "5767d6edd3be1b9653a1a0d0148c75c9130e7d2a10375cd286b7852acf205b60"
+hash = "8cf6d55e8cc5635c792b2d4692e4673a3f45a3d46b873cac4d48fc7d5ca965a8"
 
 [[files]]
 file = "config/packed_packs/profiles/resourcepacks/FA.profile.json"
-hash = "fa314b0c14fe0438f7e44b07939443cd27ce65b1ec8630b9e095633d332717fb"
+hash = "82436080fd73449a97c161f780ccd8e163a6915e2dca5cb6f692fcffc58114db"
 
 [[files]]
 file = "config/petrolsparts-common.toml"
@@ -321,8 +321,12 @@ file = "kubejs/server_scripts/cakes.js"
 hash = "0953d9fc3d5fb03796a565f1c3ffd0432752220bea912faa60eea9fa7c383461"
 
 [[files]]
+file = "kubejs/server_scripts/copycats.js"
+hash = "132c4d513e473fa4bd305119d4076117197eeaf74977f1fcbf5bddca4ae3bf5c"
+
+[[files]]
 file = "kubejs/server_scripts/cropdate.js"
-hash = "e02697b5f70e61de7971ae9879daf2f71d5d2b65f0cb39995cb948fdbe3112c3"
+hash = "774431760a8876a4e62375b99e38bc7b0225eb9987533116e2497d74f373d360"
 
 [[files]]
 file = "kubejs/server_scripts/kits.js"
@@ -338,7 +342,7 @@ hash = "e73255254c19489561ff7714bb590c8671f7d9320e4017d4e719ba5767f5fd16"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/food.js"
-hash = "8942ff3e182d70e8354eb797e597e5875d970e7ae5b86e2c285885c1fbff4910"
+hash = "1dd6b6dc6630459fd323dcf048360b46a6ae3eec070f5b6ce95f221a6c187713"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/freezing.js"
@@ -346,19 +350,19 @@ hash = "181672b7728e8dd866d521597e8449a1a60293f9aef0520c9075a8b7f01a91f3"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/misc.js"
-hash = "4ff19fe86396a1219a3871f5b7e2b51c6c3391c9aef8340dfdfff30fb4d13abb"
+hash = "1ee1821a26cbbe77abd41f0090ebdfb7b42adf3232991f4a781f44d3b4271e82"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/stones.js"
 hash = "a10c32613e1aca23fc0b6b4fb62be6196590abd1df3d13f693ea45a17ad77e63"
 
 [[files]]
-file = "kubejs/server_scripts/recipeModification/tags.js"
-hash = "7f9ddbcd903315ecf2db23acf70108a518bba9654aaf4a133d6d8131ae4911cb"
+file = "kubejs/server_scripts/tags.js"
+hash = "63f69ba6f0a0612c4906a705125cbc8bc9fe9c8a8ffb7f4b7d22a648c0432558"
 
 [[files]]
 file = "kubejs/server_scripts/tooltips.js"
-hash = "aba39f33e4d8b3b8d904688ffcf7b8f8c1350270ffd301b907327419f39fa406"
+hash = "33880b01d57fe91c1dcc409f6889387cf3d640147cdd96570feea0a4fd903f38"
 
 [[files]]
 file = "kubejs/startup_scripts/blocks.js"
@@ -608,6 +612,11 @@ hash = "503569d1bccf50d580e517550e8f66574d881deac197f30fedb0a18ebb5d3ff4"
 metafile = true
 
 [[files]]
+file = "mods/coasters-engineered.pw.toml"
+hash = "888fbb5416e82039b1911882ae35257c038d77aef7af38138c17eeb3062d77a4"
+metafile = true
+
+[[files]]
 file = "mods/collective.pw.toml"
 hash = "1f7f58336a02a5efd56397a401247d40d39e31221dd7165bd1ed86b42c3a2a66"
 metafile = true
@@ -788,6 +797,11 @@ hash = "07c51c2d97b8a9dd5fefb51798923f5621d46f5db44b4d7327a567f945f375f0"
 metafile = true
 
 [[files]]
+file = "mods/create-coasters-simulated.pw.toml"
+hash = "d5aad6415413aa777ed89ae55912f33c86757321c7c16c8392ce2e1429b920d5"
+metafile = true
+
+[[files]]
 file = "mods/create-cobblestone.pw.toml"
 hash = "4d1e7881798e3e72bf619c45f384cd284b1d31ebad84bb4615eeeaa3ecf3ca77"
 metafile = true
@@ -835,6 +849,11 @@ metafile = true
 [[files]]
 file = "mods/create-enchantment-industry.pw.toml"
 hash = "1a9187d50e9a3a17dbdae3fbf8c3f691c43f9a5c6da8313fa6dffbf2ac0c49ba"
+metafile = true
+
+[[files]]
+file = "mods/create-factory-controller.pw.toml"
+hash = "2677237aa7c7c037f770bd15c33359e054cd27f5614a7667e02183ed23f3c4d1"
 metafile = true
 
 [[files]]
@@ -2132,6 +2151,11 @@ hash = "9e26a9936491607f08239c18d8d41327172a401ae70dbce5c5277573f9c05be2"
 metafile = true
 
 [[files]]
+file = "mods/vista_tv.pw.toml"
+hash = "45eacb077412e52f365954d9fb8ddd58585eba1db841aacec84223e6cb0da28f"
+metafile = true
+
+[[files]]
 file = "mods/visual-workbench.pw.toml"
 hash = "2684f71394862cff4c20d0f4d8491c0f86f12e66879381295e9088e0eded025d"
 metafile = true
@@ -2219,11 +2243,6 @@ metafile = true
 [[files]]
 file = "resourcepacks/create-sophisticated-backpacks.pw.toml"
 hash = "67edb6a10fa1a4bd6dbb9814bf234e4d9bf8f993f95cc21f0f9a36137ae3a956"
-metafile = true
-
-[[files]]
-file = "resourcepacks/create-sophisticated-storages.pw.toml"
-hash = "1e0f6f22825b2ee4883c332a206177269118beadcb7043198a5addf6e0fd357e"
 metafile = true
 
 [[files]]

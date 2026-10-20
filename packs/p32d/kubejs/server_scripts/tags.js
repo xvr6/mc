@@ -87,7 +87,11 @@ ServerEvents.tags("item", (event) => {
     "rusticdelight:honey_pancakes",
     "supplementaries:pancake",
     "creategarnished:pancakes",
+
+    "createmetalogistics:station_chunk_loader",
   );
+
+  event.add("c:vaults", "create:item_vault", "create_connected:item_silo");
 });
 
 ServerEvents.recipes((event) => {
@@ -128,9 +132,25 @@ ServerEvents.recipes((event) => {
   // - change crafting to use tag instead
   event.replaceInput("*", "create:mechanical_pump", "#create:mechanical_pumps");
 
-  // - remove things lsited as non hand craftable
+  // - remove things listed as non hand craftable
   event.remove({
     output: "#poinky:non_hand_craftable",
     type: "minecraft:crafting_shaped",
   });
+
+  // - Item Silo recipe additions
+  event.replaceInput(
+    // keys in one object are AND'd, arrays are OR'd (KubeJS has no `and` key)
+    {
+      type: "minecraft:crafting_shaped",
+      input: "create:item_vault",
+      not: [
+        { output: "create_connected:item_silo" },
+        { mod: "dndecor" },
+        { mod: "createdeco" },
+      ],
+    },
+    "create:item_vault",
+    Ingredient.of("#c:vaults"),
+  );
 });
