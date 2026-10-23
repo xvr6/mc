@@ -34,5 +34,3 @@ x 2026-10-07 2026-10-07 add item description for cobblestone generators listing 
 (A) description for items that are removed; denote their content removal. Migrate ALL removed content to tags.
 (A) Crushing +recipe for infested stone -> cobblestone and decent chance exp. Completely disable silverfish exp farms if at all possible
 (A) +recipe fixes for flint
-(B) biomes weve gone quicksand recipe
-(A) sequenced assembly bug
