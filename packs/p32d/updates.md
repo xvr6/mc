@@ -1,6 +1,6 @@
 # Update Changelogs
 
-## WIP: Update v3.2.2a
+## Update v3.2.2a
 
 - Roller Coasters and more fun building/create things!
   - [Create: Coasters Simulated](https://modrinth.com/mod/create-coasters-simulated)
@@ -8,7 +8,8 @@
 - Removed meta logistics chunk loader; power loaders is preferred
 - [Vista](https://modrinth.com/mod/vista_tv) added
   - Note: this mod MAY not work in all cases, and is
-    known to cause major lag with shaders on.
+    known to cause major lag and/or visual bugs with shaders on.
+- [Create: Factory Controller](https://modrinth.com/mod/create-factory-controller)
 
 ## Update: v3.2.2
 

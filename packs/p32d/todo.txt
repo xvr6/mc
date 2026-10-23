@@ -33,3 +33,4 @@ x 2026-07-28 2026-07-28 +mod use my fork of integrated farming
 x 2026-10-07 2026-10-07 add item description for cobblestone generators listing what can be generated
 (A) description for items that are removed; denote their content removal. Migrate ALL removed content to tags.
 (A) Crushing +recipe for infested stone -> cobblestone and decent chance exp. Completely disable silverfish exp farms if at all possible
+(A) +recipe fixes for flint

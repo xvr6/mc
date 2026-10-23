@@ -146,7 +146,7 @@ hash = "f8da70b67c4fc8ef6173cc8180236e92de42facbbfb14f0e48f17695434cbac1"
 
 [[files]]
 file = "config/yosbr/config/DistantHorizons.toml"
-hash = "d47ecd3ffdc6e0cb300512ee8063f2879cd79c76c4c837a65908f0d79ad7af32"
+hash = "5e651ae0194d18f0a68eaf9df1f27d4202b894f77968f70a148f055eab5240dd"
 
 [[files]]
 file = "config/yosbr/config/accessories.json5"
@@ -178,7 +178,7 @@ hash = "e71780036abc69237101b00d2e1525e1c64e431459154ea09f68ebce00742a67"
 
 [[files]]
 file = "config/yosbr/shaderpacks/ComplementaryUnbound_r5.9.3 + EuphoriaPatches_1.10.5.txt"
-hash = "afed2335f29c161c3d700ddac8ddf2fb49e2d2dff7a9d1563152c179f220da24"
+hash = "b197e1e3dd669b9a5c6ab4d9344bf359994d48ea2d01b8d03260128d24526888"
 
 [[files]]
 file = "datapacks/poinky-additions/data/poinky/dimension_physics/overworld.json"
@@ -354,7 +354,7 @@ hash = "1ee1821a26cbbe77abd41f0090ebdfb7b42adf3232991f4a781f44d3b4271e82"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/stones.js"
-hash = "a10c32613e1aca23fc0b6b4fb62be6196590abd1df3d13f693ea45a17ad77e63"
+hash = "f9b93356054fc087f2790f9ea2873602a58a2dc50393cbf0c8ecae9d9a7aa8d5"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
@@ -1954,6 +1954,10 @@ metafile = true
 file = "mods/simulated-gauges.pw.toml"
 hash = "b131faa1c8ca8217f5d52612d4b41f8f8f019488f6b1e3bfee065ca82c21bdfb"
 metafile = true
+
+[[files]]
+file = "mods/simurail-0.1.0+mc1.21.1+ff9c451.jar"
+hash = "539de685b1523e39637ba4efd900cb569e42ec0afcdb39b3dfee6eea85da4a69"
 
 [[files]]
 file = "mods/slice-and-dice.pw.toml"
