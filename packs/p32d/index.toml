@@ -14,7 +14,7 @@ hash = "03e4858e141353192b4616f179003be4086cca2a4c22aa37872f610ac6285573"
 
 [[files]]
 file = "config/bits_n_bobs-common.toml"
-hash = "7a2181fd0f76e24b2a250e94ade3c29bf53a5d5502c129113713570c5337d351"
+hash = "29673a3c8112c9ecd7815c85b61e08081d4b14e6c9144c50d1db9c6377801c20"
 
 [[files]]
 file = "config/bluemap/core.conf"
@@ -808,6 +808,11 @@ metafile = true
 [[files]]
 file = "mods/create-cobblestone.pw.toml"
 hash = "4d1e7881798e3e72bf619c45f384cd284b1d31ebad84bb4615eeeaa3ecf3ca77"
+metafile = true
+
+[[files]]
+file = "mods/create-colored-packages.pw.toml"
+hash = "758487f7d0a7e4a195dea2b7df621ef5a3dcc91eb68ce9c4ed912b6923a79aaa"
 metafile = true
 
 [[files]]
@@ -1835,6 +1840,11 @@ hash = "d935e4ce118d15c88b10809df85e801f0e9577855f870f3c28e5a0bd5e7fecf6"
 metafile = true
 
 [[files]]
+file = "mods/pottery.pw.toml"
+hash = "c75ff0e5fc0b3cf3d92d3c3819eff896d1e27efd3b300e57e3d527f89c21591a"
+metafile = true
+
+[[files]]
 file = "mods/prickle.pw.toml"
 hash = "c99c5bac469e8d6ece5aae80f08635e3bbb8367f0c586b6288573c725faefe69"
 metafile = true
@@ -2102,6 +2112,11 @@ metafile = true
 [[files]]
 file = "mods/toast-control.pw.toml"
 hash = "6ad4d5fdecd5a684ffc860e26f6a7efa918f7c4def42163174023531d3b6e643"
+metafile = true
+
+[[files]]
+file = "mods/tool-trims.pw.toml"
+hash = "580c4fbb12a2f983bbe1976d02182f8b0d0660a8d4db7a6b608700903bfd948e"
 metafile = true
 
 [[files]]

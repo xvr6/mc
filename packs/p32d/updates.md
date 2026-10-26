@@ -1,5 +1,13 @@
 # Update Changelogs
 
+## Update v3.2.2b
+
+
+- Create Colorful Packages
+- Create fluid blocks are now dyeable again with bits'n'Bobs
+- Tool Trims
+- Pottery
+
 ## Update v3.2.2a
 
 - Roller Coasters and more fun building/create things!
