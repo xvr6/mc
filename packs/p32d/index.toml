@@ -905,6 +905,11 @@ hash = "12a90beeb5a46b46dfdc7ba2a5510107fbc60915e6cf1af129d365e20b99ce2d"
 metafile = true
 
 [[files]]
+file = "mods/create-mixed-casing.pw.toml"
+hash = "f9c3390fd46f6a64e0620264b5a4812d034f00a99aed25e735fae2081979fbb2"
+metafile = true
+
+[[files]]
 file = "mods/create-mobile-packages.pw.toml"
 hash = "f341b8307a3a9efd08d777fb4e572351ca0dac96a280efbd6ecb0e838420f905"
 metafile = true

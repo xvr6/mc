@@ -2,11 +2,17 @@
 
 ## Update v3.2.2b
 
+### Mod Additions
 
 - Create Colorful Packages
-- Create fluid blocks are now dyeable again with bits'n'Bobs
 - Tool Trims
 - Pottery
+- Create mixed casings
+
+### Mod Fixes
+
+- Create fluid blocks are now dyeable again with bits'n'Bobs
+- Disable of fancy rendering for building wands as it is currently bugged. now you will only see a wireframe and no block preview
 
 ## Update v3.2.2a
 
