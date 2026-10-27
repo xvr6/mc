@@ -142,7 +142,7 @@ hash = "9c5fbf81e630501627d563a5b7cfe5203ea14e297fd8cb87becc3d04b948a97a"
 
 [[files]]
 file = "config/wands.json"
-hash = "f8da70b67c4fc8ef6173cc8180236e92de42facbbfb14f0e48f17695434cbac1"
+hash = "d0a86bb6c29b1a710cc2342d2acdc83e9cf1981e18ac89322f3b4805766e64e5"
 
 [[files]]
 file = "config/yosbr/config/DistantHorizons.toml"
