@@ -194,15 +194,22 @@ ServerEvents.recipes((event) => {
     id: "si_refined_obsidian:obsidian_dust_from_obsidian_stonecutting",
   });
 
-  // TODO: Flint:
-  // something HEAVY in this pack ATM as a waste product.
-  // Additional measures must be made to give it some
-  // sort of semi-decent purpose other than trash.
-  // Must also remove/decrease output throughout.
-
   //Useful (to me/builders) way to remove excess flint. Bandaid fix for now
   event.recipes.createHaunting(
     CreateItem.of("minecraft:blackstone", 0.1),
     "supplementaries:flint_block",
   );
+
+  // adjust splashing recipe; reduce quartz output and slightly increase gold output.
+  event.recipes.remove({ id: "create:splashing/soul_sand" });
+  event.recipes.createSplashing(
+    [
+      CreateItem.of("minecraft:quartz", 0.15),
+      CreateItem.of("minecraft:gold_nugget", 0.05),
+    ],
+    "minecraft:soul_sand",
+  );
+
+  // automation of dacite
+  event.blasting("biomeswevegone:dacite", "dndecor:gabbro");
 });

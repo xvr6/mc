@@ -2,6 +2,25 @@
 
 ## Update v3.2.2b
 
+### Recipe adjustment
+
+- Soul Sand Washing (Quartz major nerf, gold minor buff)
+  - Im adjusting the washing recipe of soul sand to be
+    slightly better for gold output (~3 nuggets per stack instead of ~1.5)
+    and worse for quartz (\~9 per stack instead of \~30)
+    since it gives so much quartz by default
+- Flint block haunting to blackstone
+  - way to get rid of excess flint waste as a useful stone builders use!
+- Dacite automation by blasting Gabbro
+  - preciously un-automatable stone type
+
+### Regen on respawn
+
+There are currently a few issues known where you
+can just get softlocked and unable to /back to get your
+stuff. As a QoL and fix (but will be kept indefinitely)
+you now respawn with regen for 20sec.
+
 ### Mod Additions
 
 - Create Colorful Packages
