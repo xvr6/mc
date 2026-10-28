@@ -138,7 +138,7 @@ hash = "9665d3a25d795d1a03afff5c209f83182a9b4b4c9923d054d0e47c904969cddd"
 
 [[files]]
 file = "config/via_romana.json"
-hash = "9c5fbf81e630501627d563a5b7cfe5203ea14e297fd8cb87becc3d04b948a97a"
+hash = "f8217144339014955699d7c1c137ac484dfbd8b18c37428f8f8afed52f8b2c1d"
 
 [[files]]
 file = "config/wands.json"
@@ -338,7 +338,7 @@ hash = "0fee6806e6c089e328bd6e97c55c8a57d6c50de3e4cb508213a0c57dab86279a"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/enriching.js"
-hash = "e73255254c19489561ff7714bb590c8671f7d9320e4017d4e719ba5767f5fd16"
+hash = "28f741c9044aec66262456b58ffec23ff31e08fbb8430a64aa2d9e924bd90319"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/food.js"
@@ -350,7 +350,7 @@ hash = "181672b7728e8dd866d521597e8449a1a60293f9aef0520c9075a8b7f01a91f3"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/misc.js"
-hash = "1ee1821a26cbbe77abd41f0090ebdfb7b42adf3232991f4a781f44d3b4271e82"
+hash = "71c01db9d6aff1c31dc242ced4ca3bfa39243b2ced7822918f8988ea625f724a"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/stones.js"
@@ -1350,6 +1350,11 @@ hash = "0f2e1b9ac1eaebb724884364493335b39610e011c6b8688c15be7f2017300b27"
 metafile = true
 
 [[files]]
+file = "mods/ftb-ultimine-copycat-compat.pw.toml"
+hash = "7920a5e44987d96ea6981fe592b95630348ffbf53aad6b4f3746065c272f36f8"
+metafile = true
+
+[[files]]
 file = "mods/ftb-ultimine-forge.pw.toml"
 hash = "d38e998adbac4c8a8a56929722db9a6e374e67e88c26eb880374c36850a3c804"
 metafile = true
@@ -1782,6 +1787,11 @@ metafile = true
 [[files]]
 file = "mods/patpat.pw.toml"
 hash = "0b24c1d1c740b7b5dfba1afc97c9fadd0e6fce127de8ed8d5e3b568f57bed9ac"
+metafile = true
+
+[[files]]
+file = "mods/paving-the-way.pw.toml"
+hash = "9fc447f74b9b0e53ba1e7d0d59384bab7986e1c32931bc8e85ab70b24f24d493"
 metafile = true
 
 [[files]]

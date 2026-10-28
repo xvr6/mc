@@ -1,0 +1,13 @@
+name = "Paving The Way"
+filename = "ptw-1.3.0-mc+1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NjeQiqVJ/versions/TdEoZqC3/ptw-1.3.0-mc%2B1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "a02900618b4b37ea4275512dc0e38bb5ad05d3ff68fb7557105978c233857011289df0d0bc94ee838d9a53cfced1ed6bcadeeff07089a18c22dbaf75d563a64f"
+
+[update]
+[update.modrinth]
+mod-id = "NjeQiqVJ"
+version = "TdEoZqC3"

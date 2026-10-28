@@ -20,11 +20,24 @@ ServerEvents.recipes((event) => {
     ],
   });
 
+  // more easily farmable amethyst, something mainly cosmetic in this pack
   event.custom({
     type: "createnuclear:enriched",
     ingredients: [{ item: "minecraft:amethyst_block" }],
     results: [{ id: "minecraft:budding_amethyst" }],
   });
+
+  event.recipes.createCrushing(
+    ["minecraft:amethyst_block", "galosphere:glinted_amethyst_cluster"],
+    "minecraft:budding_amethyst",
+  );
+  event.recipes.createMilling(
+    [
+      "minecraft:amethyst_shard x4",
+      CreateItem.of("minecraft:glowstone_dust x2", 0.8),
+    ],
+    "galosphere:glinted_amethyst_cluster",
+  );
 
   event.custom({
     type: "createnuclear:enriched",

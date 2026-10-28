@@ -1,5 +1,11 @@
 # Update Changelogs
 
+## Update v3.2.2c
+
+- [Paving the way](https://modrinth.com/mod/paving-the-way/gallery); more path variants
+- [FTB Ultimine Copycat compat](https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine-copycat-compat); does what it sounds like
+- Small recipe adjustments!
+
 ## Update v3.2.2b
 
 ### Recipe adjustment

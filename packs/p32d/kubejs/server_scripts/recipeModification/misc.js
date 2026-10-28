@@ -293,5 +293,11 @@ ServerEvents.recipes((event) => {
     input: "minecraft:paper",
   }); // #FIXME: doesnt work
 
+  // random hanging recipes
   event.remove({ mod: "create_vibrant_vaults" });
+  //return to normal tinted glass
+  event.stonecutting(
+    "minecraft:tinted_glass",
+    Ingredient.of("#createframed:tinted/glass"),
+  );
 });
