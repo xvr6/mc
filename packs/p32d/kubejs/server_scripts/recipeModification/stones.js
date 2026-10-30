@@ -175,10 +175,13 @@ ServerEvents.recipes((event) => {
   });
 
   // - Adjustments to obsidian powder
-  event.replaceInput(
-    { input: "si_refined_obsidian:obsidian_dust" },
+  event.shapeless(
     "si_refined_obsidian:obsidian_dust",
     "create:powdered_obsidian",
+  );
+  event.shapeless(
+    "create:powdered_obsidian",
+    "si_refined_obsidian:obsidian_dust",
   );
 
   event.remove({ id: "create:crushing/obsidian" });
@@ -212,4 +215,37 @@ ServerEvents.recipes((event) => {
 
   // automation of dacite
   event.blasting("biomeswevegone:dacite", "dndecor:gabbro");
+
+  // Add missing raw ore block crushing recipes
+  event.recipes.createCrushing(
+    [
+      Item.of("create:crushed_raw_uranium", 9),
+      CreateItem.of("create:experience_nugget x9", 0.75),
+    ],
+    "createnuclear:raw_uranium_block",
+  );
+  event.recipes.createCrushing(
+    [
+      Item.of("create:crushed_raw_lead", 9),
+      CreateItem.of("create:experience_nugget x9", 0.75),
+    ],
+    "createnuclear:raw_lead_block",
+  );
+
+  // modify platinum crushing recipes
+  event.remove({ id: "createpropulsion:crushing/raw_platinum_block" });
+  event.remove({ id: "create:crushing/raw_platinum_block" });
+  event.remove({ id: "create:crushing/platinum_ore" });
+  event.recipes.createCrushing(
+    [
+      Item.of("create:crushed_raw_platinum", 9),
+      CreateItem.of("create_sa:heap_of_experience x9", 0.75),
+    ],
+    "createpropulsion:raw_platinum_block",
+  );
+  event.replaceOutput(
+    { id: "create:crushing/raw_platinum" },
+    "create:experience_nugget",
+    "create_sa:heap_of_experience",
+  );
 });

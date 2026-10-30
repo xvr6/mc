@@ -2,9 +2,25 @@
 
 ## Update v3.2.2c
 
+### Mod Adjustments
+
 - [Paving the way](https://modrinth.com/mod/paving-the-way/gallery); more path variants
-- [FTB Ultimine Copycat compat](https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine-copycat-compat); does what it sounds like
-- Small recipe adjustments!
+  - These work with via romana!
+- Removed tool trims (added in previous update); bugged out all trim applications
+- Removal of Meta Logistics, simulated gauges & extra gauges
+  - Compatability issues with other logistics-enhancing mods; most commonly used
+    extra gauges features are generally un-needed with factory controller
+
+### Recipe fixes
+
+- Missing raw ore block crushing recipes for uranium and lead
+  - some others are missing, though they are unable to be added until
+    custom crushed ore items are added
+- Adjusted platinum ore crushing Recipes
+  - changed 4x output to just be an exp heap.
+  - modified crushing recipe for single raw ore inline with block
+- fixes to obsidian poweders; making them convertable instead of replacing one
+  powder with the other as this broke other recipes.
 
 ## Update v3.2.2b
 
@@ -30,7 +46,6 @@ you now respawn with regen for 20sec.
 ### Mod Additions
 
 - Create Colorful Packages
-- Tool Trims
 - Pottery
 - Create mixed casings
 
