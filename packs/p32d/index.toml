@@ -174,7 +174,7 @@ hash = "5becce9b6f4a7c83c4ffd6568562b81f613f14b9ea0455981478e42eb1aef1f5"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "e71780036abc69237101b00d2e1525e1c64e431459154ea09f68ebce00742a67"
+hash = "017d6d4938792ede2f5d25424bd4abec7e2ce2a74d57030019d6368bb3dd564f"
 
 [[files]]
 file = "config/yosbr/shaderpacks/ComplementaryUnbound_r5.9.3 + EuphoriaPatches_1.10.5.txt"
