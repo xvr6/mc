@@ -1340,11 +1340,6 @@ hash = "0bd6ac61f29d1a360231b921480f9038cdfc249400af7586d3eccea1a4ce8197"
 metafile = true
 
 [[files]]
-file = "mods/ftb-ultimine-copycat-compat.pw.toml"
-hash = "7920a5e44987d96ea6981fe592b95630348ffbf53aad6b4f3746065c272f36f8"
-metafile = true
-
-[[files]]
 file = "mods/ftb-ultimine-forge.pw.toml"
 hash = "d38e998adbac4c8a8a56929722db9a6e374e67e88c26eb880374c36850a3c804"
 metafile = true
