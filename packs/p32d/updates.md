@@ -19,8 +19,8 @@
 - Adjusted platinum ore crushing Recipes
   - changed 4x output to just be an exp heap.
   - modified crushing recipe for single raw ore inline with block
-- fixes to obsidian poweders; making them convertable instead of replacing one
-  powder with the other as this broke other recipes.
+- Fixes to obsidian powders; making them convertable instead of
+  bulk replacing one powder with the other as this broke recipes.
 
 ## Update v3.2.2b
 

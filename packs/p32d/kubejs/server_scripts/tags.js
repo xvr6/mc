@@ -90,6 +90,7 @@ ServerEvents.tags("item", (event) => {
   );
 
   event.add("c:vaults", "create:item_vault", "create_connected:item_silo");
+  event.add("c:seeds", "ratatouille_fried_delights:sunflower_seeds");
 });
 
 ServerEvents.recipes((event) => {
