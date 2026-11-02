@@ -150,7 +150,7 @@
 	#Change this value to modify the amount of stress units produced by stirling engine. Value of 16 corresponds to 4096 SU.
 	# Default: 16.0
 	# Range: 1.0 ~ 64.0
-	"Generated stress units" = 16.0
+	"Generated stress units" = 24.0
 
 ["Tilt Adapter"]
 	#Maximum absolute output angle in degrees, reached at full redstone differential.

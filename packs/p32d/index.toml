@@ -34,7 +34,7 @@ hash = "535b955e1ab30daeb87a758b1a814c7652cb882f55eb08013e242c4d8d4e3192"
 
 [[files]]
 file = "config/createpropulsion-common.toml"
-hash = "074a7223d2351698de8d4b66c0141194f1daddf8e0a591711c154a7d7d0563b8"
+hash = "721b8eaa5a038a356191061d37c6b8f1a7013f37d45ad360aa89e1a39c7f4790"
 
 [[files]]
 file = "config/cristellib/mr_dungeons_andtaverns/structure_placement_config.json5"
