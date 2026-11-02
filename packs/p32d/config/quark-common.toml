@@ -332,7 +332,7 @@
 	"Ancient Tomes" = false
 	"Beacon Redirection" = true
 	"Bottled Cloud" = false
-	"Color Runes" = false
+	"Color Runes" = true
 	"Endermosh Music Disc" = true
 	"Parrot Eggs" = true
 	"Pathfinder Maps" = false

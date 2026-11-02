@@ -66,7 +66,7 @@ hash = "58fcf29f45238b1117919fa4be5877c2c0d1506379d55618e73e8b45dd98342f"
 
 [[files]]
 file = "config/ftbessentials.snbt"
-hash = "bfe0a38541cf48e4f645218cc52943f43069676e2d5e80aafc32194443a3d074"
+hash = "9722eb8dace6ba98d6f0911140a9aabc5ae4123fcd7f7180aae5f3639572b85f"
 
 [[files]]
 file = "config/ftbultimine-client.snbt"
@@ -79,6 +79,10 @@ hash = "e94662237d5d8eaf8d347a4f97462a8bf406ad74c3c7fb7fe7f40d471a804ae6"
 [[files]]
 file = "config/global_packs.toml"
 hash = "df66ce21f4709cdb6f00b6c4a63ccc62628af61ee1424c937678d3769aa1aa11"
+
+[[files]]
+file = "config/jei/jei-client.ini"
+hash = "735a711752923b087827e4141db2685a09f975eb9c08e09d83c9db08f28c0b20"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
@@ -98,11 +102,11 @@ hash = "ccda7f85de5850bc2fb0ce05a6ff95cac14dd8f6546885fc303ee151e1e55610"
 
 [[files]]
 file = "config/packed_packs/profiles/resourcepacks/Default.profile.json"
-hash = "8cf6d55e8cc5635c792b2d4692e4673a3f45a3d46b873cac4d48fc7d5ca965a8"
+hash = "5a0192ad8efce16306cae7b04f99b40401075ac629844fd5c3cbd1ac57e0445e"
 
 [[files]]
 file = "config/packed_packs/profiles/resourcepacks/FA.profile.json"
-hash = "82436080fd73449a97c161f780ccd8e163a6915e2dca5cb6f692fcffc58114db"
+hash = "a76af623306744d0b4a22ec753d940040f0d0fe39ba59da68bcfd04816303072"
 
 [[files]]
 file = "config/petrolsparts-common.toml"
@@ -110,7 +114,7 @@ hash = "cbdec719d97a9409db321ada07c5d252a7948e3bb9220a182abf95ea6c174052"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "dcbad7253f79254df3a3a935c3168447f80c4b3e047a48e30288e3461819925d"
+hash = "68a9dc63050edf8a3a56ef4375cbfb86ee3c3e9cf98495a5def0e12a075ce1f2"
 
 [[files]]
 file = "config/sparsestructures.json5"
@@ -139,6 +143,10 @@ hash = "9665d3a25d795d1a03afff5c209f83182a9b4b4c9923d054d0e47c904969cddd"
 [[files]]
 file = "config/via_romana.json"
 hash = "f8217144339014955699d7c1c137ac484dfbd8b18c37428f8f8afed52f8b2c1d"
+
+[[files]]
+file = "config/vista-client.toml"
+hash = "50538d89db27d2bbdb353feacf3b8fe255977455333e65be214298dd9656dc9f"
 
 [[files]]
 file = "config/wands.json"
@@ -191,6 +199,11 @@ hash = "b1e398fb740f24fe67a2b32e8a228fd1e6eef0ac69267a6f0f74b6a11d3fe4d2"
 [[files]]
 file = "datapacks/poinky-additions/pack.mcmeta"
 hash = "e55e81dbcbe7422bedfbb049e684863c100430049f586e483ea6d9d2fe967972"
+
+[[files]]
+file = "datapacks/tool-trims.pw.toml"
+hash = "aaccf468e01ee8eba35fee84fa32e07080cee4538f6d5852bcfee8dd3e2f98de"
+metafile = true
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/asparagus_seed_bag_top.png"
@@ -350,11 +363,11 @@ hash = "181672b7728e8dd866d521597e8449a1a60293f9aef0520c9075a8b7f01a91f3"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/misc.js"
-hash = "da0a2bf10593591be83c87f0f7ca1f05a7a4c43e705ecfad861e5943525bb7d1"
+hash = "ee246867dab96a1a36a1c86c7e2d0158ea07a2ad7833d8316938b41dbdc35827"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/stones.js"
-hash = "f645fd4766f4c6fee3d54e32ca9124e71c5c394a501a2578bd8270196a2cff77"
+hash = "0643e3aaf2a0ac46e9728b0bd240febb35986e111fb511d5b2656e21bd89af7c"
 
 [[files]]
 file = "kubejs/server_scripts/respawn.js"
@@ -362,7 +375,7 @@ hash = "dba6b72e6bfc8b35ab3ab71f5611e32219e8b9cd987c73057ac1528b33e5dfbb"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "135eea34390b7502f91f72a246092cbc9b2c61b11623b01a1dfa843a79e5bf98"
+hash = "c2bf203a61c8ac3ca0b9bbe90da69ca8fbfd2e9c5d0ed43a57d357fb95a31a8a"
 
 [[files]]
 file = "kubejs/server_scripts/tooltips.js"
@@ -432,7 +445,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "aef2b0ee3884d9da84c099557f8f7529f965513d269d450f1f9f8e8cc78b5a47"
+hash = "d6c2790cc195eb3620ef71248c0f30b747eb654b24e55ada7eb35af531594c5e"
 metafile = true
 
 [[files]]
@@ -467,7 +480,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "603cdc47142b5aa5729cbbf265a473574c9e2b55561de4318e9842d3d4b3b995"
+hash = "fc8954e0d3fa66b917d2c84ee04d07b073a9eb6f719d09e1ff85527c1d61a10e"
 metafile = true
 
 [[files]]
@@ -622,7 +635,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "a3d1a9658b4f11b10280cfd580297db2d2b031b030053d58a0a028019311ea54"
+hash = "5a8bc750994fe63f5b722d2a62ef9a40fed636605e90f76636325fb987e98190"
 metafile = true
 
 [[files]]
@@ -632,7 +645,7 @@ metafile = true
 
 [[files]]
 file = "mods/colorwheel.pw.toml"
-hash = "6867922a8ccface85edc8df2268e4996c6ab6867b9da34258b6bf6efc0bc2efa"
+hash = "48d92eb61acf8e2b6b1a659765d6ee1386bf439cf32f8de0dfa6eb0d737f7778"
 metafile = true
 
 [[files]]
@@ -727,7 +740,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-aeronautics-transmission-linkage.pw.toml"
-hash = "fd78380d12b73953fccdf69abd7449233fcce19244dc34378e1f9a1147a976c8"
+hash = "0444cab2b465f9a1ed5fff83edfe5453efe75a0b1257492e10302465897b3a93"
 metafile = true
 
 [[files]]
@@ -886,8 +899,9 @@ hash = "774466d0a8b3e2aa118abe93d5c22bc9d608f62589cea10f1399f8d29e7ea5bd"
 metafile = true
 
 [[files]]
-file = "mods/create-integrated-farming-1.2.7.jar"
-hash = "19c2af31a67940fd45cc528ca4c9414bb0cd5154139c26c18c02704e1fb50a3c"
+file = "mods/create-integrated-farming.pw.toml"
+hash = "205ac4987dcaf6aa6a099c9dbcb97f9aea85b2f9b2f5953fc88c83d92afd90b5"
+metafile = true
 
 [[files]]
 file = "mods/create-let-the-adventure-begin.pw.toml"
@@ -1221,7 +1235,7 @@ metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "37ae0fc372cc387710fb7cb525f79a405e88f9e88786f83c1e0834e127997d35"
+hash = "ed1b9c3018ec4e6afbaafd1544138a4f11bc211683ecf9c5d28b42553f60e8c7"
 metafile = true
 
 [[files]]
@@ -1346,7 +1360,7 @@ metafile = true
 
 [[files]]
 file = "mods/fwa.pw.toml"
-hash = "8e4b90588ca1e3885dd86eb03bfe01ddfb39a69b5c2339a213f492076001e0ff"
+hash = "45ae319ab2a1f24565bff1be54df70c577c1145241ee371b2ee8e876a82629a7"
 metafile = true
 
 [[files]]
@@ -1386,7 +1400,7 @@ metafile = true
 
 [[files]]
 file = "mods/gouge.pw.toml"
-hash = "72a76c72f31582ef66550b910dc48c42f6d56daff836b3b1d5441576dcf89815"
+hash = "4e670317db8304bf8fe1690e2cb4211cf16780acdd7521c2980b7b8bb7391246"
 metafile = true
 
 [[files]]
@@ -1521,7 +1535,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "7e0eca275f27b6543f06c36dec433851a956960cbedd2be57d19e159d636bfc1"
+hash = "be9f3f981dd69822b4a3e5ab6fd677ec69a4e01dcf66c62e239b6ef65f31f0fd"
 metafile = true
 
 [[files]]
@@ -1695,8 +1709,13 @@ hash = "607da40a1b301721af35c07c3ee5eb06f82c2a13722037d0cd7d2584ab2dbe57"
 metafile = true
 
 [[files]]
+file = "mods/natures-compass.pw.toml"
+hash = "35acdf433fe8f8599f59975e848efdb717663c2c471d3a5dc18743799795a736"
+metafile = true
+
+[[files]]
 file = "mods/nether-descent.pw.toml"
-hash = "0aa6df7420d5f7925f6a877f5f70289d5cabb41ea37a01fb920aadeed2ff8a73"
+hash = "5e85308e91cc234ac92594eebacca815cf88990e01664f9c3730dfea6230324b"
 metafile = true
 
 [[files]]
@@ -1956,7 +1975,7 @@ metafile = true
 
 [[files]]
 file = "mods/shoulder-surfing-reloaded.pw.toml"
-hash = "eb5e0a5c64a2f14435f680836f3db1492bf7ae8509c3afd8a83d58a35fa9646a"
+hash = "a9319227d36c43b6f9865aa69c62310b549ae824af4ea2060914383e29435384"
 metafile = true
 
 [[files]]
@@ -1991,7 +2010,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "dbd66ccbed048e78e7d9690be924e3535ab7e1fc6335a6ac9be82e6b52956806"
+hash = "0bfca3aec886bd460a612127d14a8c2c1d64aea096fab5ef0643b16199a1231f"
 metafile = true
 
 [[files]]
@@ -2006,7 +2025,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "6a809a520b17246670a9ad1b0231c8575a5ceec9500e197b522725554a952a20"
+hash = "8b00d4fb15f45a7017726904b086af39523dabbb8c9f67d0e71fd8eda7f3f6f8"
 metafile = true
 
 [[files]]
@@ -2166,7 +2185,7 @@ metafile = true
 
 [[files]]
 file = "mods/vista_tv.pw.toml"
-hash = "45846eb3dc676bae24a193bd93c0cd4c6aaadb71138885e23cfde057f1dd15b0"
+hash = "4b1e0163390eeae1834e86c4aefbe595a85a368e55f4a036b96f771ff06d149e"
 metafile = true
 
 [[files]]
@@ -2276,12 +2295,12 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/fresh-animations-emissive.pw.toml"
-hash = "5f0008e179a95b38f1236bbb9008752967853350e424dffafa971cc120a7ee7a"
+hash = "a0eafd32ddde54b140408efe1afbea411de35e7de8f90599491b717850e99496"
 metafile = true
 
 [[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
-hash = "9470973363c3387e420f6c986c24014b0292cdd3b3f080d4c1ed28215be6bf4c"
+hash = "63cb1cb26ddca6155742989e6001f4686782a8e6a61f87c7eb0f9a3268f530d4"
 metafile = true
 
 [[files]]
@@ -2301,6 +2320,11 @@ hash = "8f65a361c41d35ade555ea00105f845b7e06d765a3b03e310dbd793acf1e5753"
 [[files]]
 file = "resourcepacks/poinky-additions/pack.mcmeta"
 hash = "142d6977e437deebd7b6adcb39d1bdacc30f423a767895e4d4f7e3abd45af5f0"
+
+[[files]]
+file = "resourcepacks/tool-trims.pw.toml"
+hash = "fd99a7ec4418b8560302cd68be88c7a44bd4fc69e3e1aad9d141e0dfcede10f8"
+metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-unbound.pw.toml"

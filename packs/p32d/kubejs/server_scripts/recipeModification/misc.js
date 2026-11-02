@@ -307,4 +307,42 @@ ServerEvents.recipes((event) => {
     "minecraft:light_gray_concrete",
     "clayworks:concrete",
   );
+
+  // replace electroenergetics magnet with simulated
+  event.replaceInput(
+    { input: "electroenergetics:magnet" },
+    "electroenergetics:magnet",
+    "simulated:redstone_magnet",
+  );
+  // coal block recipe replace with charcoal
+  event.replaceInput(
+    { id: "aeronautics:adjustable_burner" },
+    "minecraft:coal_block",
+    "quark:charcoal_block",
+  );
+
+  // resistive heater recipe change
+  event.remove({ id: "electroenergetics:crafting/resistive_heater" });
+  event.shaped(
+    Item.of("electroenergetics:resistive_heater"),
+    ["WKW", "CaC", "aia"],
+    {
+      K: "minecraft:dried_kelp",
+      W: "electroenergetics:heavily_insulated_wire",
+      C: "electroenergetics:connector",
+      a: "create:andesite_alloy",
+      i: "create:iron_sheet",
+    },
+  );
+
+  // change recipe for transformer core lamination due to just how much things already use iron sheets.
+  // Also to make transformers a bit more expensive as they should be.
+  event.remove({
+    id: "electroenergetics:stonecutting/transformer_core_lamination",
+  });
+
+  event.stonecutting(
+    "2x electroenergetics:transformer_core_lamination",
+    "minecraft:iron_trapdoor",
+  );
 });

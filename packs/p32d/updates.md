@@ -1,29 +1,45 @@
 # Update Changelogs
 
-## Update v3.2.2c
+## Update v3.2.3
+
+### Mod Additions
+
+- [Tool Trims](https://modrinth.com/datapack/tool-trims)
+  - Fixed! Now added as a datapack instead of a mod and that fixes it.
+  - Items do not show up in emi
+- Roller Coasters and more fun building/create things!
+  - [Create: Coasters Simulated](https://modrinth.com/mod/create-coasters-simulated)
+  - [Coasters: Engineered](https://modrinth.com/mod/coasters-engineered)
+- [Vista](https://modrinth.com/mod/vista_tv) added
+  - Note: this mod MAY not work in all cases, and is
+    known to cause major lag and/or visual bugs with shaders on.
+- [Create: Factory Controller](https://modrinth.com/mod/create-factory-controller)
+- [Paving the way](https://modrinth.com/mod/paving-the-way/gallery); more path variants
+  - These work with via romana!
+- [Create: Colored Packages](https://modrinth.com/mod/create-colored-packages)
+  - dye packagers for cosmetic colored package outputs.
+  - WARN: does NOT work with Create: Fluid can fillers, logistics
+    junctions; any non-base create packaging block
+- Pottery
+- Create mixed casings
+- Natures Compass (wayfinders just doesnt work reliably)
 
 ### Mod Adjustments
 
-- [Paving the way](https://modrinth.com/mod/paving-the-way/gallery); more path variants
-  - These work with via romana!
-- Removed tool trims (added in previous update); bugged out all trim applications
+- `/back /home /spawn` cooldowns reduced (30 -> 15 sec)
+- Re-enable of accidentaly disabled quark runes
+  - Enchantment glint color changing
+- Sterling Engines now give 6144 SU instead of 4096
+- Attempted fix for biblically accurate emi tags
+  - Its a known issue with emi and jei running at the same time; there is a pr
+    to fix it not merged into emi yet
+- Removed meta logistics chunk loader; power loaders is preferred
 - Removal of Meta Logistics, simulated gauges & extra gauges
   - Compatability issues with other logistics-enhancing mods; most commonly used
     extra gauges features are generally un-needed with factory controller
-
-### Recipe fixes
-
-- Electro energetics pole crafting recipe converted to clayworks concrete blocks
-- Missing raw ore block crushing recipes for uranium and lead
-  - some others are missing, though they are unable to be added until
-    custom crushed ore items are added
-- Adjusted platinum ore crushing Recipes
-  - changed 4x output to just be an exp heap.
-  - modified crushing recipe for single raw ore inline with block
-- Fixes to obsidian powders; making them convertable instead of
-  bulk replacing one powder with the other as this broke recipes.
-
-## Update v3.2.2b
+- Create fluid blocks are now dyeable again with bits'n'Bobs
+- Disable of fancy rendering for building wands as it is currently bugged. Now
+  you will only see a wireframe and no block preview
 
 ### Recipe adjustment
 
@@ -33,9 +49,27 @@
     and worse for quartz (\~9 per stack instead of \~30)
     since it gives so much quartz by default
 - Flint block haunting to blackstone
-  - way to get rid of excess flint waste as a useful stone builders use!
 - Dacite automation by blasting Gabbro
-  - preciously un-automatable stone type
+- Electro energetics:
+  - Pole crafting recipe converted to clayworks concrete blocks
+  - Magnet removed in favor of simulated magnet
+  - Resistive heater recipe adjusted to make more sense
+  - Changed transformer core lamination to use iron trapdoors instead of sheets
+- Adjustment to crushing recipe of Autunite since there is now ways to automate
+  lead in base create nuclear
+- Adjustments to Crimsite and Asurine recipe buff (~3x output probability, more
+  slag as compensation nerf)
+- Aeronautics hot air burner changed to use charcoal
+- Purify wither rose with channeling
+- Missing raw ore block crushing recipes for uranium and lead
+  - some others are missing, though they are unable to be added until
+    custom crushed ore items are added
+- Adjusted platinum ore crushing Recipes
+  - changed 4x output to just be an exp heap.
+  - modified crushing recipe for single raw ore inline with block
+- Fixes to obsidian powders; making them convertable instead of
+  bulk replacing one powder with the other as this broke recipes.
+- Removal of worse 6 way gearboxes from create connected
 
 ### Regen on respawn
 
@@ -43,28 +77,6 @@ There are currently a few issues known where you
 can just get softlocked and unable to /back to get your
 stuff. As a QoL and fix (but will be kept indefinitely)
 you now respawn with regen for 20sec.
-
-### Mod Additions
-
-- Create Colorful Packages
-- Pottery
-- Create mixed casings
-
-### Mod Fixes
-
-- Create fluid blocks are now dyeable again with bits'n'Bobs
-- Disable of fancy rendering for building wands as it is currently bugged. now you will only see a wireframe and no block preview
-
-## Update v3.2.2a
-
-- Roller Coasters and more fun building/create things!
-  - [Create: Coasters Simulated](https://modrinth.com/mod/create-coasters-simulated)
-  - [Coasters: Engineered](https://modrinth.com/mod/coasters-engineered)
-- Removed meta logistics chunk loader; power loaders is preferred
-- [Vista](https://modrinth.com/mod/vista_tv) added
-  - Note: this mod MAY not work in all cases, and is
-    known to cause major lag and/or visual bugs with shaders on.
-- [Create: Factory Controller](https://modrinth.com/mod/create-factory-controller)
 
 ## Update: v3.2.2
 
@@ -81,11 +93,9 @@ you now respawn with regen for 20sec.
   - _Why should something meant for building be so... hard to obtain early game
     when ur building the most?_
 - Vault recipe fixes:
-  - Bugged recipes removed, allowing for cheaper creation of frogports
+  - Bugged recipes removed that previously allowed for cheaper creation of frogports
   - Where it makes sense, reicpes that previously required item vaults now also
     accept item silos
-    - **_SOME BUGS MAY OCCUR_** as this was done with broad tags. If issues are
-      found contact me
 - Pumpkins
   - Since chipped pumpkins can be naturally found in the overworld, they can now
     be shapeless converted in any crafting interface to the normal minecraft

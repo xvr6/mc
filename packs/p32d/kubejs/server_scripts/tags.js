@@ -87,10 +87,22 @@ ServerEvents.tags("item", (event) => {
     "rusticdelight:honey_pancakes",
     "supplementaries:pancake",
     "creategarnished:pancakes",
+
+    // usage removed in favor of simulated in all crafting recipes that would have used things
+    "electroenergetics:magnet",
+
+    // remove worse 6 way gearbox
+    "create_connected:six_way_gearbox",
+    "create_connected:vertical_six_way_gearbox",
   );
 
   event.add("c:vaults", "create:item_vault", "create_connected:item_silo");
   event.add("c:seeds", "ratatouille_fried_delights:sunflower_seeds");
+  event.add(
+    "poinky:mechanical_pumps",
+    "create:mechanical_pump",
+    "fluid:centrifugal_pump",
+  );
 });
 
 ServerEvents.recipes((event) => {
@@ -129,7 +141,7 @@ ServerEvents.recipes((event) => {
   );
 
   // - change crafting to use tag instead
-  event.replaceInput("*", "create:mechanical_pump", "#create:mechanical_pumps");
+  event.replaceInput("*", "create:mechanical_pump", "#poinky:mechanical_pumps");
 
   // - remove things listed as non hand craftable
   event.remove({

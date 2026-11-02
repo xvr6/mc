@@ -3,9 +3,9 @@ ServerEvents.recipes((event) => {
   //                (output[], input)
   event.recipes.createCrushing(
     [
-      CreateItem.of("createnuclear:uranium_powder", 0.225),
-      CreateItem.of("createmetallurgy:dirty_zinc_dust", 0.55),
-      CreateItem.of("2x createnuclear:lead_nugget", 0.45),
+      Item.of("create:crushed_raw_uranium"),
+      CreateItem.of("create:crushed_raw_uranium", 0.25),
+      CreateItem.of("createnuclear:thorium_dust", 0.1),
     ],
     "createnuclear:autunite",
   );
@@ -47,6 +47,7 @@ ServerEvents.recipes((event) => {
     C: "electroenergetics:connector",
     A: "create:andesite_alloy",
   });
+
   // may just remove this bulb type entirely, but it has cool cosmetic applicatiions iirc
   event.replaceInput(
     { id: "bits_n_bobs:crafting/lightbulb" },
@@ -85,13 +86,14 @@ ServerEvents.recipes((event) => {
     .heated();
 
   // - Stone types automatable
+
   //Asurine
   event.recipes
     .createMixing(
       [
-        Item.of("create:asurine"),
-        CreateItem.of("create:asurine", 0.8),
-        Fluid.of("createmetallurgy:molten_slag", 35),
+        Item.of("create:asurine", 2),
+        CreateItem.of("2x create:asurine", 0.6),
+        Fluid.of("createmetallurgy:molten_slag", 180),
       ],
       ["minecraft:tuff", "create:veridium"],
     )
@@ -100,9 +102,9 @@ ServerEvents.recipes((event) => {
   event.recipes
     .createMixing(
       [
-        Item.of("create:crimsite"),
-        CreateItem.of("create:crimsite", 0.8),
-        Fluid.of("createmetallurgy:molten_slag", 35),
+        Item.of("create:crimsite", 2),
+        CreateItem.of("2x create:crimsite", 0.6),
+        Fluid.of("createmetallurgy:molten_slag", 180),
       ],
       ["minecraft:tuff", "minecraft:netherrack"],
     )
@@ -112,6 +114,12 @@ ServerEvents.recipes((event) => {
     type: "create_aquatic_ambitions:channeling",
     ingredients: [{ item: "minecraft:tuff" }],
     results: [{ id: "create:ochrum", chance: 0.8 }],
+  });
+  //purify wither roses
+  event.custom({
+    type: "create_aquatic_ambitions:channeling",
+    ingredients: [{ item: "minecraft:wither_rose" }],
+    results: [{ id: "biomeswevegone:rose", chance: 0.2 }],
   });
   //Dripstone
   event.recipes.createFilling("minecraft:dripstone_block", [
