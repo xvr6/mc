@@ -300,4 +300,11 @@ ServerEvents.recipes((event) => {
     "minecraft:tinted_glass",
     Ingredient.of("#createframed:tinted/glass"),
   );
+
+  // electroenergetics pole to actual concrete
+  event.replaceInput(
+    { id: "electroenergetics:crafting/concrete_pole" },
+    "minecraft:light_gray_concrete",
+    "clayworks:concrete",
+  );
 });

@@ -13,6 +13,7 @@
 
 ### Recipe fixes
 
+- Electro energetics pole crafting recipe converted to clayworks concrete blocks
 - Missing raw ore block crushing recipes for uranium and lead
   - some others are missing, though they are unable to be added until
     custom crushed ore items are added
