@@ -36,3 +36,4 @@ x 2026-10-07 2026-10-07 add item description for cobblestone generators listing 
 (B) expand botany pots to encompas all missing things (bullet pepper, etc)
 (C) Enchanting issues; some unobtainable (piglins untradable, some dont show up at all in enchanting setups/loot)
 (A) rice cutting only yielding straw
+2026-11-05 reclaimed bricks recipe to smoking instead of overlapping in furnase. allows for create processing asw ell.ii

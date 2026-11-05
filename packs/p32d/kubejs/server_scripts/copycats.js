@@ -4,6 +4,7 @@ ServerEvents.recipes((event) => {
     {
       or: [
         { type: "minecraft:stonecutting", mod: "copycats" },
+        { type: "minecraft:stonecutting", mod: "createmoregirder" },
         { output: "create:copycat_panel" },
         { output: "create:copycat_step" },
       ],

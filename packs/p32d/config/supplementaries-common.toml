@@ -455,7 +455,7 @@
 		unrestricted = false
 
 	[building.awning]
-		enabled = false
+		enabled = true
 		#Allows having slanted awnings. Disabled if you feel its cursed.
 		slant = true
 		#Allows entities to fall through awnings, when shifting.

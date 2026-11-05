@@ -1,13 +1,13 @@
 name = "Tool Trims"
-filename = "tooltrims.zip"
+filename = "tool-trims-v3.0.7-for-1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/uXeEiQk1/versions/jJdlQoD8/tool-trims-v3.0.7-for-1.21.1.zip"
+url = "https://cdn.modrinth.com/data/uXeEiQk1/versions/2MVXIAn7/tool-trims-v3.0.7-for-1.21.1.jar"
 hash-format = "sha512"
-hash = "01839d08d79bbd44c590cd800c176393f0c651daa0c14fed861a77df57ae9f3e3455b993cb5d215ad123e8f2afd909c5125cbbbb7b09b141c91d765db271ae1f"
+hash = "f4f9c557aaba2e9dc977775142a4b5583b56205f4e2c5a220bd304caba24187c89f9c8ab6712821b0554036ba416823aad8e2c2253bbd47ecbbbe0a08cdda6a6"
 
 [update]
 [update.modrinth]
 mod-id = "uXeEiQk1"
-version = "jJdlQoD8"
+version = "2MVXIAn7"

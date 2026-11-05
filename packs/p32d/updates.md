@@ -1,5 +1,23 @@
 # Update Changelogs
 
+## Update v3.2.4
+
+### Mod Additions
+
+- [Contraption Lights](https://modrinth.com/mod/contraption-lights)
+  - Lighting effects from sable and create contraptions
+- [Bits 'n' Tracks](https://modrinth.com/mod/bits-n-tracks-ce)
+  - tank treads and the like!
+- [Create More Girder](https://modrinth.com/mod/create-more-girder/gallery)
+  - more girder types
+- [Create Prismatic Shine](https://www.curseforge.com/minecraft/mc-mods/create-prismatic-shine)
+
+### Mod Fixes/Removals
+
+- Create mixed casings removed, it was breaking creates integration with ultimine. Replaced with Create Casings which is effectively the same but better
+- TT20 was causing weird ticking chunk errors and thus has been removed
+- Supplementaries awnings were re-enabled
+
 ## Update v3.2.3
 
 ### Mod Additions

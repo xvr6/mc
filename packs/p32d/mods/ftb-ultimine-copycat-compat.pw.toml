@@ -1,0 +1,13 @@
+name = "FTB Ultimine Copycat Compat"
+filename = "ftb_copycat_compat-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "86a4b701cd50c1be999dca71084c79e3ba77995236de6d99ca4043ecce5b1aa6818ef9f2a0df8c000304a7609d8af77f1485bfaca0cb72c3ef0b38c483cff8a9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8393495
+project-id = 1602429
