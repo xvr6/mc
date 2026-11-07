@@ -94,6 +94,12 @@ ServerEvents.tags("item", (event) => {
     // remove worse 6 way gearbox
     "create_connected:six_way_gearbox",
     "create_connected:vertical_six_way_gearbox",
+
+    "createfactorycontroller:cut_amethyst",
+    "createmetallurgy:refractory_mortar",
+    "createmetallurgy:refractory_mortar_ball",
+    "createmetallurgy:ladle_filter",
+    "#createmetallurgy:ladle",
   );
 
   event.add("c:vaults", "create:item_vault", "create_connected:item_silo");

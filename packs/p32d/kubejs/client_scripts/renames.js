@@ -22,12 +22,12 @@ ClientEvents.lang("en_us", (event) => {
   Color.DYE.forEach((color) => {
     event.renameItem(
       `interiors:${color}_chair`,
-      `${capitalizeFirstLetter(color)} Raised Chair`,
+      `${snakeToTitleCase(color)} Raised Chair`,
     );
 
     event.renameItem(
       `bits_n_bobs:${color}_chair`,
-      `${capitalizeFirstLetter(color)} Styled Floor Chair`,
+      `${snakeToTitleCase(color)} Styled Floor Chair`,
     );
   });
   event.renameItem("chipped:cobbled_obsidian", "Chipped Obsidian");
@@ -35,9 +35,15 @@ ClientEvents.lang("en_us", (event) => {
     "chipped:cobbled_crying_obsidian",
     "Chipped Crying Obsidian",
   );
+
+  event.renameItem("netherexp:black_ice", "Shade Ice");
+  event.renameItem("netherexp:thin_black_ice", "Thin Shade Ice");
 });
 
-function capitalizeFirstLetter(str) {
-  if (!str) return str; // Handle empty strings, null, or undefined
-  return str.charAt(0).toUpperCase() + str.slice(1);
+// "light_blue" -> "Light Blue"
+function snakeToTitleCase(str) {
+  return str
+    .split("_")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
 }

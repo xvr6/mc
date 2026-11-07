@@ -18,8 +18,8 @@ ServerEvents.recipes((event) => {
   );
   event.recipes.createCrushing(
     [
-      CreateItem.of("createmetallurgy:crushed_raw_tungsten", 0.4),
-      CreateItem.of("createmetallurgy:tungsten_nugget", 0.35),
+      CreateItem.of("createmetallurgy:crushed_raw_tungsten", 0.65),
+      CreateItem.of("createmetallurgy:dirty_tungsten_dust", 0.25),
     ],
     "create:scorchia",
   );
@@ -41,9 +41,9 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "electroenergetics:crafting/bulb" });
 
   // new recipe fpr electro bulb to use tungsten
-  event.shaped(Item.of("electroenergetics:bulb", 6), [" G ", " T ", "CAC"], {
+  event.shaped(Item.of("electroenergetics:bulb"), [" G ", " T ", "CAC"], {
     G: "minecraft:glass",
-    T: "createmetallurgy:tungsten_wire_spool",
+    T: "createmetallurgy:tungsten_wire",
     C: "electroenergetics:connector",
     A: "create:andesite_alloy",
   });
@@ -59,6 +59,14 @@ ServerEvents.recipes((event) => {
   event.recipes.create.cutting(
     [Item.of("createmetallurgy:tungsten_wire", 2)],
     "createmetallurgy:tungsten_sheet",
+  );
+
+  // tunsgen wire spool should use empty wire spool; parody of electro energetics
+
+  event.replaceInput(
+    { id: "createmetallurgy:crafting/materials/tungsten_wire_spool" },
+    "minecraft:stick",
+    "electroenergetics:empty_spool",
   );
 
   // - Diamond automation but evil
@@ -205,7 +213,7 @@ ServerEvents.recipes((event) => {
     id: "si_refined_obsidian:obsidian_dust_from_obsidian_stonecutting",
   });
 
-  //Useful (to me/builders) way to remove excess flint. Bandaid fix for now
+  //Useful way to remove excess flint. Bandaid fix for now
   event.recipes.createHaunting(
     CreateItem.of("minecraft:blackstone", 0.1),
     "supplementaries:flint_block",
@@ -223,6 +231,12 @@ ServerEvents.recipes((event) => {
 
   // automation of dacite
   event.blasting("biomeswevegone:dacite", "dndecor:gabbro");
+
+  // automation of white dacite
+  event.blasting("biomeswevegone:white_dacite", "minecraft:calcite");
+
+  // automation of soul slate
+  event.blasting("netherexp:soul_slate", "minecraft:soul_soil");
 
   // Add missing raw ore block crushing recipes
   event.recipes.createCrushing(

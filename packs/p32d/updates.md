@@ -1,5 +1,105 @@
 # Update Changelogs
 
+## Update v3.2.5
+
+> This is majorly a modification to crafting recipes with some other
+> minor things here and there.
+
+### Mod Changes
+
+- Added: [Create: Bionics](https://modrinth.com/mod/create-bionics/version/2.5.0)
+  - Pinned to v2.5.0 due to the newer version crashing server on boot. Will unpin once fixed!
+- Many more mods updated, none of which being of major note
+
+### Recipes
+
+#### New Botany Pot Inputs
+
+- Poplar sapling
+- Pale oak sapling
+- Cactus flower
+- Closed eyeblossom
+- Wildflowers
+- Vines
+- Hanging roots
+- Soul fruit
+- Pale pumpkin
+- Blue, Green, Red, Yellow glowcane shoot(s)
+- Glow shroom
+- Buttercup
+- Swamp daisy
+- Chorus fungus
+- Flowering chorus grass
+- Shiny spirea
+- Crystal flower
+- Arisian blossom
+- Tall arisian dandelions
+- Arisian dandelions
+- Embur lily
+- Willow sapling
+- Poplar sapling
+- Crabapple sapling
+- Sycamore sapling
+- Fluorescent maple sapling
+- Maize:
+- Cinnamon sapling
+- Asparagus
+- Sweet potato
+- Chili pepper
+- Peanuts
+
+#### New recipes for previously-non-renewable resources
+
+- Borealis Ice (Channeling ice)
+- Soul Slate (Blasting Soul Soil)
+- White Dacite (Blasting Calcite)
+- Quicksand production
+  - `fluid:quicksand_fluid`; mixing sand + water
+  - `fluid:quicksand`; Compacting `quicksand_fluid`
+  - `fluid:quicksand`; shapeless conversion to `biomeswevegone:quicksand`
+  - `biomeswevegone:red_quicksand`; Standard 8:1 dye recipe
+- Red Rock; 2x Red Sand + 2x Cobblestone pressing for 8x Red Rock
+- Cracked (red) Sand; Smoking (red) Sand
+- Peat; 2x Mud + 2x Dirt for 4x peat
+- Lush dirt; 2x Peat + 2x Dirt for 4x lush dirt
+  - More additons may be made for all variant grass types (overgorwn, podzoil, etc),
+    though it seems redundant as the blocks can just spread
+
+#### Misc
+
+- Removed create metalurgy Refactory mortar; repalcing all crafting recipes with
+  normal clay
+  - kinda pointless as half of this mods content is disabled (ladles; completely useless with fluid)
+- Replaced `createfactorycontroller:cut_amethyst` with
+  `createutilities:polished_amethyst` in all recipes
+- Adjusted crushing output for scorchia, providing more tungsten
+- Adjusted tungsten wire spool to use a wire spool item like electro energetics
+  for consistency
+- Removed peat having a burn time
+  - EDIT: currently still a fuel; kubejs appearts to not be able to modify this
+    value anymore
+- Made Packed black ice craftable with normal packed ice and black dye
+  - Parody of normal ice -> black ice
+- Removed custom washing recipe for powder snowsnowsnow
+  - This was done as create:fluid already adds in a way to do
+    mob-griefing-less large scale snow automation
+- Crushing Budding Amethyst
+  - 80% chance for an Amethyst block
+  - 100% chance for Glinted Amethyst Clusters
+- Crushing Glinted Amethyst Clusters
+  - 100% chance for 4 Amethyst shards
+  - 75% chance for 2 glowstone dust
+- Removed bugged cbc spring wire recipe
+- Fixed Create Interiors chair re-dyeing recipes
+
+### Respawning
+
+- Changed from regen -> resist; same duration (20sec) and strength (4)
+
+### Name changes
+
+- Jadens nether expansion (thin) Black Ice -> renamed to (thin) Shade Ice
+
 ## Update v3.2.4
 
 ### Mod Additions

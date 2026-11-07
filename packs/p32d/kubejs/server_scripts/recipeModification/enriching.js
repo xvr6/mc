@@ -28,13 +28,16 @@ ServerEvents.recipes((event) => {
   });
 
   event.recipes.createCrushing(
-    ["minecraft:amethyst_block", "galosphere:glinted_amethyst_cluster"],
+    [
+      CreateItem.of("minecraft:amethyst_block", 0.8),
+      "galosphere:glinted_amethyst_cluster",
+    ],
     "minecraft:budding_amethyst",
   );
   event.recipes.createMilling(
     [
-      "minecraft:amethyst_shard x4",
-      CreateItem.of("minecraft:glowstone_dust x2", 0.8),
+      "4x minecraft:amethyst_shard",
+      CreateItem.of("2x minecraft:glowstone_dust", 0.75),
     ],
     "galosphere:glinted_amethyst_cluster",
   );

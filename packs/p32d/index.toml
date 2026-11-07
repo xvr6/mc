@@ -327,7 +327,155 @@ hash = "ce526ffa2497b1fffc7952841c1a414c3d9dbbcf0e29c4762edb718caa7cdfe1"
 
 [[files]]
 file = "kubejs/client_scripts/renames.js"
-hash = "3b61a51cf4eb68bf5e5e0ae2679706a9c736988024abcb8429ad6bfdd321917d"
+hash = "e46144cab9e2494cf12c32eda513153cf5a655aef40fcdb85e5da29f9c0b39e1"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/plant/biomeswevegone/blue_glowcane_shoot.json"
+hash = "cda8d591ef37edf7a09d27ac88ada806563bc391f691820bddffc6e0538fdf0f"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/plant/biomeswevegone/green_glowcane_shoot.json"
+hash = "e5fa28e92dab9180e9c54e7602bcfc24eaa56c7ea7f24b693cc03b930c0590cf"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/plant/biomeswevegone/pale_pumpkin.json"
+hash = "bf13e52583f4d7f55d2332efd550194a2354cef72b379c707a35b9289c85aaed"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/plant/biomeswevegone/red_glowcane_shoot.json"
+hash = "dda128bc10321092e4aa7b70b48af982cf3cec19be9d087fd74f113d2306b436"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/plant/biomeswevegone/soul_fruit.json"
+hash = "9357052044c4d48ec7b77bae3b1cee74cf0feb37b879eaf397d8622c281023f0"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/plant/biomeswevegone/yellow_glowcane_shoot.json"
+hash = "fa350c67c2a61b170e0da05d852d7415def9a5548b88cf217536b2802851644d"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/plant/corn_delight/corn.json"
+hash = "aba5fb48c67700b0afb7c929124d524193a9e092fa1bd5ad2a6efa5cf340c722"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/plant/expandeddelight/asparagus.json"
+hash = "72c92d6df1d95b01eb212bf592b2019171340ffe985ebe3790db77f5c2d6973a"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/plant/expandeddelight/chili_pepper.json"
+hash = "da9939c6b1479f957a4fcde4501a69ccd0c69a0f1cf028bddef8c067845ba559"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/plant/expandeddelight/peanut.json"
+hash = "8a3ffba9e5379f8ee2ece7de180683fdb80a14185f7ae3f257c3afedd6f0f9d0"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/plant/expandeddelight/sweet_potato.json"
+hash = "1b63c942a8dadd0234c943bda03e464df7db67b38c2ec048b1781c7c81afd1cb"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/plant/friendsandfoes/buttercup.json"
+hash = "bcfe935cd257fae988a40350f1862f9640958464cbd47ac49b10ed1c9f5c5fea"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/plant/minecraft/cactus_flower.json"
+hash = "becbf2fa070a0f9922808d7af953595eb606196a5c16082f803a246f4919544d"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/plant/minecraft/closed_eyeblossom.json"
+hash = "c0eca3fb795a6228e5702d4efb35cef41d2519a556ccba87ff56fa53223805af"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/plant/minecraft/hanging_roots.json"
+hash = "ffea97f9335fbe46fda2b0aa20ce01f949cdd27eff1a74a15f53d023bf9b19f9"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/plant/minecraft/open_eyeblossom.json"
+hash = "405bba50e4942ab463b0cef494cc860192a290903f83f3ddb39a76e9dd5113ac"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/plant/minecraft/vine.json"
+hash = "9a87f0fc670f7ebed5d623d1eb3ff4fddf083c1c432c4c219f4263c4ca6a6294"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/plant/minecraft/wildflowers.json"
+hash = "07b3dbb2c077f10b25de56393639e0de5d1589a0a38cb993c9c4df9764f26c3f"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/plant/netherdescent/arisian_blossom.json"
+hash = "505a3c076f34e4b02da005da6f8e75e683187274395c5a7a8cdfc6907ee89dda"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/plant/netherdescent/arisian_dandelions.json"
+hash = "2ebc1dabb671eb73207c19f87e5f5170c89f6aee4a70c8dba1f67b05fa7fd59a"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/plant/netherdescent/embur_lily.json"
+hash = "756da2cd87bb1eadf3686fc99b3369145c8ffba75fd27b2a73d7c2761478cd09"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/plant/netherdescent/tall_arisian_dandelions.json"
+hash = "638f529b562900fa0d20248945bee65c4b2b261ebfd225ae59c0e2a971154686"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/plant/quark/glow_shroom.json"
+hash = "65dac2e05933384509246972ec255e5a555b0cbd2b653a776f18ae9035f72bb0"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/plant/ribbits/swamp_daisy.json"
+hash = "ef78eadf538ef4e1b50998a4ad6f20fdd463c9f8961a82ac2507edb8ffec798e"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/plant/unusualend/chorus_fungus.json"
+hash = "4f7edbe677604d7bdfde98131432814a5d4dd19af862379ec83c1a905cfac333"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/plant/unusualend/crystal_flower.json"
+hash = "b6a3f81c87d959b0eab2a8cc1e4d4ddad1345f9a1f615ebd4677076fd70cf19f"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/plant/unusualend/flowering_purpur_grass.json"
+hash = "0bebe368e79540fc22ac895c05369afdf7cff5c366ea08e0c0f51a7effc3c77b"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/plant/unusualend/shiny_spirea.json"
+hash = "0b069cd5b6cfcba8657c282e501c4ae91c885570b96a66ac8026c9a3911205e7"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/tree/cluttered/crabapple_sapling.json"
+hash = "43c8ff7dda2a7cb208732abadd8b8dc108eb10cfa04851ffe8546e61ca62c26e"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/tree/cluttered/fluorescent_maple_sapling.json"
+hash = "0c8728539da64e65542b695f2995521eb47c4df2eabc16b515c9d5222ec8842b"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/tree/cluttered/poplar_sapling.json"
+hash = "185b0414c9aa8defc54fba497640503db6d4fdc5166aa0c4f79072b5b3e14a11"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/tree/cluttered/sycamore_sapling.json"
+hash = "5b9cf6a43a0efc7f4bd5b5b0d0b3e714240c8bfb880d8940c77e0b08ea1c3170"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/tree/cluttered/willow_sapling.json"
+hash = "520728d742bf3ed17a27371c9421425d8069952d62ca813f490e02abefc7bcdc"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/tree/expandeddelight/cinnamon_sapling.json"
+hash = "48866c73d5a58ac805db8dee7f15dac340b0839a63555407374f80c10b3ffa8c"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/tree/minecraft/pale_oak_sapling.json"
+hash = "b322c0a905c147a35923452bb1e1192e90ea9b76cd7855d0dc2263ac74208221"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/botanypots/tree/minecraft/poplar_sapling.json"
+hash = "cf2b0b0b2a610f2b2734759842d9d65d7fe02d70a41707a69f1c21efadce207b"
+
+[[files]]
+file = "kubejs/server_scripts/botanypots.js"
+hash = "e4d506681652cbb6d5a955570249ff3c0778da91dcc9ffbd4caf27fa4a3c5f23"
 
 [[files]]
 file = "kubejs/server_scripts/cakes.js"
@@ -351,7 +499,7 @@ hash = "0fee6806e6c089e328bd6e97c55c8a57d6c50de3e4cb508213a0c57dab86279a"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/enriching.js"
-hash = "28f741c9044aec66262456b58ffec23ff31e08fbb8430a64aa2d9e924bd90319"
+hash = "89f1ef8959131acbc2a66984a9735ec9ae1ea4410f6e1e530ffeddc9619098e9"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/food.js"
@@ -359,23 +507,23 @@ hash = "1dd6b6dc6630459fd323dcf048360b46a6ae3eec070f5b6ce95f221a6c187713"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/freezing.js"
-hash = "181672b7728e8dd866d521597e8449a1a60293f9aef0520c9075a8b7f01a91f3"
+hash = "16494fedde59aea44e69091182cb1fe5755fb57501edc410313697b3ddfd69ba"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/misc.js"
-hash = "ee246867dab96a1a36a1c86c7e2d0158ea07a2ad7833d8316938b41dbdc35827"
+hash = "eb56fbf8c825473b2849ec5ace1669a9a4ab2ecc189f532d2e0c8cf04e8e050d"
 
 [[files]]
 file = "kubejs/server_scripts/recipeModification/stones.js"
-hash = "0643e3aaf2a0ac46e9728b0bd240febb35986e111fb511d5b2656e21bd89af7c"
+hash = "6606e0ed807580310a9985a61c790e47a479a748afb105ee618f67e17617b155"
 
 [[files]]
 file = "kubejs/server_scripts/respawn.js"
-hash = "dba6b72e6bfc8b35ab3ab71f5611e32219e8b9cd987c73057ac1528b33e5dfbb"
+hash = "093402e324d890b4db6ba5edf75a25f7de93246f79c6536de2b4db078e5b8181"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "c2bf203a61c8ac3ca0b9bbe90da69ca8fbfd2e9c5d0ed43a57d357fb95a31a8a"
+hash = "df5b01038c33f1fb13d3d015399748998328fd7f437442904ab51663b33baa4f"
 
 [[files]]
 file = "kubejs/server_scripts/tooltips.js"
@@ -392,6 +540,10 @@ hash = "c993c7821a01be3db4d49dbc2dd8c120c95477cc5451be6e8b4b4b80dcbb3644"
 [[files]]
 file = "kubejs/startup_scripts/items.js"
 hash = "5ed7eaeacfe7f5f991207b94def42acaf3ac810ad21490f1c617f3ec055e486a"
+
+[[files]]
+file = "kubejs/startup_scripts/modify_existing.js"
+hash = "c4e894bdf9deb073b03f69749526f20a5edfe47d6e1ce4517251c5f2cee197c2"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -510,7 +662,7 @@ metafile = true
 
 [[files]]
 file = "mods/bits-n-tracks-ce.pw.toml"
-hash = "9eeb8742db75c2e69f4b375b28234fe1d10ed59b19eac03748021276b40b8e1b"
+hash = "572842ab313bec0b3917b6ad57da6c6902611bc6bd3d9089e5201062da92d10e"
 metafile = true
 
 [[files]]
@@ -640,7 +792,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "dde728e0ab40be1270f746f5ee015c6862799b2baec48774c3ef8011b22836f4"
+hash = "805d142d8f5538834a81acd6d2c5a0e8f6697457a57b05bc3ad8ee4fcfd73d6d"
 metafile = true
 
 [[files]]
@@ -690,7 +842,7 @@ metafile = true
 
 [[files]]
 file = "mods/copycats.pw.toml"
-hash = "4892513825f87217b6cc3f4d3ec4dcd3965b96dede8cc10d6578c4769102ae8e"
+hash = "b6b702e432d0a9089ab5ccbf0c83951f6afe1315822c668659b8b04e4f3b99f7"
 metafile = true
 
 [[files]]
@@ -725,7 +877,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-aeronautics-climbable-rope.pw.toml"
-hash = "914f2efb2afa0113d5936b0e721fb5c291abb9c2e66944f33fc33be8e33c8a89"
+hash = "74458a17668530918172dce94e2e2066f9e6dd128131d85c417e32ff892e1b62"
 metafile = true
 
 [[files]]
@@ -791,6 +943,11 @@ metafile = true
 [[files]]
 file = "mods/create-big-cannons.pw.toml"
 hash = "a0e9ff95570cd9af3374ca8b44aa095447baf94e565f46ae99819d52a9b48dc1"
+metafile = true
+
+[[files]]
+file = "mods/create-bionics.pw.toml"
+hash = "5a283b06538a98c50fae99a41f41797313037a3981b8a6a5902761d23072b31d"
 metafile = true
 
 [[files]]
@@ -920,7 +1077,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-let-the-adventure-begin.pw.toml"
-hash = "3a99e0babeb75872334ed2abd96949fb9e993690f27eb51dcb30ec376186c719"
+hash = "3335da2dab4b7ce03ed925ca3c4237bc2a6b2b410109c14b1b1b5a3fef1221b9"
 metafile = true
 
 [[files]]
@@ -1070,12 +1227,12 @@ metafile = true
 
 [[files]]
 file = "mods/createnuclear.pw.toml"
-hash = "65aabaa29d30b7bf5dfb2485f1ed918fe925c10662686d9047e1d3f654f28058"
+hash = "70a3ec14e121837aefc0c7f32d934bdf50d214d5a8d4c0020ce2d7428a22a051"
 metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "301d380fd94d19d979d9fa118bbf86481e7f7092b0c97136bc01af9b6b6c59af"
+hash = "37aa8d7a4fc96de58a912a57708a341b6c1822aa9c1d2c713a2166c76c27d73d"
 metafile = true
 
 [[files]]
@@ -1425,7 +1582,7 @@ metafile = true
 
 [[files]]
 file = "mods/gouge.pw.toml"
-hash = "4e670317db8304bf8fe1690e2cb4211cf16780acdd7521c2980b7b8bb7391246"
+hash = "34e40aacc54b4ff4f1f39ec38948fa1d5d544b10c23ccb68a3e7f3b51cd2c2c4"
 metafile = true
 
 [[files]]
@@ -1435,7 +1592,7 @@ metafile = true
 
 [[files]]
 file = "mods/gravestone-x-curios-api-compat.pw.toml"
-hash = "ab17d6e36c0a7503693e512231e86685009d85953e1e8026a31d3241df565f83"
+hash = "8453a3b688360367868e7f5c7e641c1aa06d2967adfb88bc7cb8187c46e2179f"
 metafile = true
 
 [[files]]
@@ -1675,7 +1832,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "e3003f83463910a682f3ea1c419f850fed7bc2c6ff4831144db11228b98e2fb4"
+hash = "b14b3d7f88512f23bccca8e2f133e52e84307679b6eba4e818ce13e8f87e503d"
 metafile = true
 
 [[files]]
@@ -1690,7 +1847,7 @@ metafile = true
 
 [[files]]
 file = "mods/more-sniffer-flowers.pw.toml"
-hash = "a0d426e47f8f3d53d279ccc63fbadd7351a90c52b5dbdd94f63ac253f637c1a6"
+hash = "5eaec052a6f0c6a948d982c057d94e1c8955c1557e4ea7c1d47ca7ae734cd044"
 metafile = true
 
 [[files]]
@@ -2030,12 +2187,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "09ffd118babd4e9114f0c4bf9b0a1478f84a2470ebffec0104715c8bd66c9180"
+hash = "882a37f53c24ebad93b2fcd5feb972154f9c6df42d94e4b9282edfdafe595f41"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "899a6b03dc738f5638a4ad88015c6737bfa9abbe3d30d89e84cbdd5aa8ab40eb"
+hash = "9232af6b6fbd3a78bdcb640168966a36be6305f24bd2058f9e46c4fc1c8cb6bc"
 metafile = true
 
 [[files]]
@@ -2090,7 +2247,7 @@ metafile = true
 
 [[files]]
 file = "mods/streams-reflowing.pw.toml"
-hash = "e435e575d164b1310c0af181e820ae8728804f85e39b1ad15539137c83d0afff"
+hash = "c15f828f93a3ee5765f882d1be4a39fb1386f7e040e1d2e1d81e513c9af23f04"
 metafile = true
 
 [[files]]
@@ -2160,7 +2317,7 @@ metafile = true
 
 [[files]]
 file = "mods/tooltip-overhaul.pw.toml"
-hash = "3a217bf72b4b7402e20a8e179a507a805cfdf1dcef2957a4def2ac2c3cad1709"
+hash = "bf53377c4492dcb7a1c0e3c11cfca902013d41e6feceb215f87630196bc275fe"
 metafile = true
 
 [[files]]
@@ -2205,7 +2362,7 @@ metafile = true
 
 [[files]]
 file = "mods/vista_tv.pw.toml"
-hash = "d45c5e5b0f304ab27e3586f1e639ad87e3c2e2ac925ab223cc02b08448d80a35"
+hash = "19f792c2d244c74944b150625012a3e8c5a8ea9990301c8c3e557e3b91998c18"
 metafile = true
 
 [[files]]

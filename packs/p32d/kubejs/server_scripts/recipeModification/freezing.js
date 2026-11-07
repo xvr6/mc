@@ -5,10 +5,6 @@ ServerEvents.recipes((event) => {
     ingredients: [{ item: "minecraft:water_bucket" }],
     results: [{ id: "minecraft:powder_snow_bucket" }],
   });
-  event.recipes.createSplashing(
-    ["minecraft:snow_block", "minecraft:bucket"],
-    "minecraft:powder_snow_bucket",
-  );
   // - remove freezing block from ratatouille, use freezing instead
 
   event.remove({ id: "ratatouille:crafting/frozen_block" });

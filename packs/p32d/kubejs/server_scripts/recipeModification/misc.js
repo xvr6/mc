@@ -345,4 +345,146 @@ ServerEvents.recipes((event) => {
     "2x electroenergetics:transformer_core_lamination",
     "minecraft:iron_trapdoor",
   );
+
+  //bugged spring wire recipe
+  event.remove({ id: "createbigcannons:cutting/spring_steel_wire" });
+
+  // - Create Interiors re-dye recipes use nonexistent c:{color}_dyes tags
+  Color.DYE.forEach((color) => {
+    event.remove({
+      id: `interiors:crafting/chair/${color}_chair_from_other_chair`,
+    });
+    event
+      .shapeless(`interiors:${color}_chair`, [
+        "#interiors:chairs",
+        `#c:dyes/${color}`,
+      ])
+      .id(`interiors:crafting/chair/${color}_chair_from_other_chair`);
+
+    event.remove({
+      id: `interiors:crafting/floor_chair/${color}_floor_chair_from_other_floor_chair`,
+    });
+    event
+      .shapeless(`interiors:${color}_floor_chair`, [
+        "#interiors:floor_chairs",
+        `#c:dyes/${color}`,
+      ])
+      .id(
+        `interiors:crafting/floor_chair/${color}_floor_chair_from_other_floor_chair`,
+      );
+  });
+
+  event.custom({
+    type: "create_aquatic_ambitions:channeling",
+    ingredients: [{ item: "minecraft:ice" }],
+    results: [{ id: "biomeswevegone:borealis_ice", chance: 0.8 }],
+  });
+
+  /*
+- Quicksand production
+  - `fluid:quicksand_fluid`; mixing sand + water
+  - `fluid:quicksand`; Compacting `quicksand_fluid`
+  - `fluid:quicksand`; shapeless conversion to `biomeswevegone:quicksand`
+  - `biomeswevegone:red_quicksand`; Standard 8:1 dye recipe
+*/
+
+  event.recipes.createMixing(Fluid.of("fluid:quicksand_fluid", 1000), [
+    Fluid.of("minecraft:water", 500),
+    Item.of("minecraft:sand", 2),
+  ]);
+
+  event.recipes.createCompacting(
+    [Item.of("fluid:quicksand", 2), CreateItem.of("2x fluid:quicksand", 0.4)],
+    Fluid.of("fluid:quicksand_fluid", 1000),
+  );
+
+  event.shapeless("fluid:quicksand", "biomeswevegone:quicksand");
+  event.shapeless("biomeswevegone:quicksand", "fluid:quicksand");
+  event.shaped(
+    Item.of("biomeswevegone:red_quicksand", 8),
+    ["QQQ", "QDQ", "QQQ"],
+    {
+      Q: "biomeswevegone:quicksand",
+      D: "minecraft:red_dye",
+    },
+  );
+
+  // - Red Rock; 2x Red Sand + 2x Cobblestone pressing for 8x Red Rock
+  event.recipes.createCompacting(
+    [Item.of("biomeswevegone:red_rock", 8)],
+    [Item.of("minecraft:red_sand", 2), Item.of("minecraft:cobblestone", 2)],
+  );
+
+  // - Cracked Sand
+  event.smoking("minecraft:sand", "biomeswevegone:cracked_sand");
+  event.smoking("minecraft:red_sand", "biomeswevegone:cracked_red_sand");
+
+  // - Peat
+  event.shaped(Item.of("biomeswevegone:peat", 4), ["DM ", "MD ", "   "], {
+    M: "minecraft:mud",
+    D: "minecraft:dirt",
+  });
+  // - lush dirt
+
+  event.shaped(Item.of("biomeswevegone:lush_dirt", 4), ["DP ", "PD ", "   "], {
+    P: "biomeswevegone:peat",
+    D: "minecraft:dirt",
+  });
+
+  // - Replace cut amethyst with polished amethyst
+  event.replaceInput(
+    { input: "createfactorycontroller:cut_amethyst" },
+    "createfactorycontroller:cut_amethyst",
+    "createutilities:polished_amethyst",
+  );
+
+  event.replaceInput(
+    { input: "createmetallurgy:refractory_mortar" },
+    "createmetallurgy:refractory_mortar",
+    "minecraft:clay",
+  );
+
+  // - Industrial crucible: swap refractory mortar for clay
+  // replaceInput doesn't reach into sequenced assembly steps, so remove and re-add
+  event.remove({ id: "createmetallurgy:sequenced_assembly/industrial_crucible" });
+  const crucible = { item: "createmetallurgy:incomplete_industrial_crucible" };
+  const crucibleOut = [{ id: "createmetallurgy:incomplete_industrial_crucible" }];
+  event
+    .custom({
+      type: "create:sequenced_assembly",
+      ingredient: { item: "minecraft:deepslate_bricks" },
+      results: [{ id: "createmetallurgy:industrial_crucible" }],
+      sequence: [
+        {
+          type: "create:deploying",
+          ingredients: [crucible, { item: "minecraft:clay" }],
+          results: crucibleOut,
+        },
+        {
+          type: "create:deploying",
+          ingredients: [crucible, { tag: "c:plates/obdurium" }],
+          results: crucibleOut,
+        },
+        {
+          type: "createmetallurgy:grinding",
+          ingredients: [crucible],
+          processing_time: 80,
+          results: crucibleOut,
+        },
+        {
+          type: "create:filling",
+          ingredients: [
+            crucible,
+            {
+              type: "neoforge:single",
+              amount: 30,
+              fluid: "createmetallurgy:molten_tungsten",
+            },
+          ],
+          results: crucibleOut,
+        },
+      ],
+      transitional_item: { id: "createmetallurgy:incomplete_industrial_crucible" },
+    })
+    .id("kubejs:sequenced_assembly/industrial_crucible");
 });
