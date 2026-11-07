@@ -1,0 +1,13 @@
+@Oh the biomes we've gone:
+
+♦ Peat
+♦ Lush dirt
+♦ Cracked sand
+♦ Cracked red sand
+♦ Quicksand
+♦ Red quicksand
+ (Packed black ice could use a recipe to color packed ice directly. for now, you can color regular ice, but to get packed black ice, you have to exclusively pack the black ice)
+♦ Borealis ice
+♦ White dacite
+ (It's also sible to water spout lush dirt to make it have grass. i think there needs to be the same interaction for Overgrown dacite, White overgrown dacite, Overgrown stone; as well as Podzol dacite and White podzol dacite, but perhaps pour liquid fertilizer on them instead?)
+♦ Red rock

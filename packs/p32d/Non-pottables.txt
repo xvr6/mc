@@ -1,0 +1,66 @@
+@Minecraft:
+♦ Poplar sapling
+♦ Pale oak sapling
+♦ Cactus flower
+♦ Closed eyeblossom
+♦ Open eyeblossom
+♦ Wildflowers
+♦ Vines
+♦ Hanging roots
+
+@Oh the biomes we've gone:
+♦ Soul fruit ???
+♦ Pale pumpkin 
+♦ Blue, Green, Red, Yellow glowcane shoot(s)
+
+@Quark:
+♦ Glow shroom
+
+@Friends&Foes:
+♦ Buttercup
+
+@Ribbits:
+♦ Swamp daisy
+
+@Unusual end:
+♦ Chorus fungus
+♦ Flowering chorus grass
+♦ Shiny spirea
+♦ Crystal flower
+
+@Nether descent:
+♦ Arisian blossom
+♦ Tall arisian dandelions
+♦ Arisian dandelions
+♦ Embur lily
+
+@More sniffer flowers:
+♦ Vivicus sapling
+♦ Corrupted sapling
+
+@Cluttered:
+♦ Willow sapling 
+♦ Poplar sapling
+♦ Crabapple sapling
+♦ Sycamore sapling
+♦ Fluorescent maple sapling
+
+@Corn delight:
+♦ Maize
+
+@Expanded delight:
+♦ Cinnamon sapling
+♦ Asparagus
+♦ Sweet potato
+♦ Chili pepper
+♦ Peanuts
+
+(not sure about @create: garnished. i think nuts better off growing on trees, but they have limitations where they can grow only in respective biomes. i would personally keep it as is, because its kinda the literal point of the mod)
+
+(not sure about flowering variations of @Oh the biomes we've gone leaves and log. they appear when the trees grows, but is it viable to also be a part of the pot?)
+
+(not sure about rice panicle)
+
+(not sure about sunflower seeds. what do they even grow into??)
+
+(not sure about wild variations of @expanded delight plants. in theory, they all can already be duplicated with bone meal)

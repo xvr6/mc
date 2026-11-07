@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = "Non-pottables.txt"
+hash = "eda0458b620bc400bcba7c85e66fffbc8928959da6ef883467fbeb7eaeb2c444"
+
+[[files]]
+file = "Non-renewables.txt"
+hash = "a85f6a67125de2a20c15d297b1c87c19692f7b3d85e24daf70a26d625c65715a"
+
+[[files]]
 file = "config/adchimneys-common.toml"
 hash = "7def90b6724dc296bfd9e6227e363cb3f34d5f144f716872c70d81af68467dc6"
 
@@ -328,6 +336,10 @@ hash = "ce526ffa2497b1fffc7952841c1a414c3d9dbbcf0e29c4762edb718caa7cdfe1"
 [[files]]
 file = "kubejs/client_scripts/renames.js"
 hash = "3b61a51cf4eb68bf5e5e0ae2679706a9c736988024abcb8429ad6bfdd321917d"
+
+[[files]]
+file = "kubejs/server_scripts/botanypots.js"
+hash = "3cf155e48d6f9229f1198e421c0ab7324004539bf2a2b4cf300a2d8ba0f6fa75"
 
 [[files]]
 file = "kubejs/server_scripts/cakes.js"
@@ -791,6 +803,11 @@ metafile = true
 [[files]]
 file = "mods/create-big-cannons.pw.toml"
 hash = "a0e9ff95570cd9af3374ca8b44aa095447baf94e565f46ae99819d52a9b48dc1"
+metafile = true
+
+[[files]]
+file = "mods/create-bionics.pw.toml"
+hash = "124abaf71e87fc686427821889dcc65ba6b709003c426fbc069aeec5747c5a7a"
 metafile = true
 
 [[files]]
