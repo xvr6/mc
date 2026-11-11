@@ -109,6 +109,8 @@ ServerEvents.tags("item", (event) => {
     "create:mechanical_pump",
     "fluid:centrifugal_pump",
   );
+
+  event.add("botanypots:soil/nether", "netherdescent:blue_netherrack");
 });
 
 ServerEvents.recipes((event) => {

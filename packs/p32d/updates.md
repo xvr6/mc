@@ -1,5 +1,95 @@
 # Update Changelogs
 
+## Update v3.2.5a
+
+> Filling in Botany Pot support for the rest of the pack
+
+### Recipes
+
+#### New Botany Pot Inputs (Nether Descent)
+
+> All of these grow on any nylium or nether soil (netherrack, soul soil, etc)
+
+- Arisian sapling
+- Sythian fungus
+- Wailing fungus
+- Embur wart
+- Arisian sprouts
+- Tall arisian sprouts
+- Arisian tangle roots
+- Embur roots
+- Tall embur roots
+- Embur sprouts
+- Embur gel vines
+- Embur hanging moss
+- Embur cave moss
+- Fungal bulbs
+- Sythian roots
+- Hanging sythian roots
+- Sythian sprouts
+- Sythian stalk
+- Tall crimson fungi
+- Tall crimson roots
+- Thorn sprout
+- Wailing bulb blossom
+- Wailing gills
+- Wailing grass
+- Wailing vines
+- Crimson berries
+
+#### New Botany Pot Inputs (Everything Else)
+
+- Cola sapling
+- Cranberries
+- Wild asparagus, chili pepper, peanuts, sweet potato
+- Wild corn
+- Cave carrots
+- Wild cave carrots
+- Gossypium
+- Powder cannon (grows bullet peppers; soul sand)
+- Crimson & warped fungus colonies (nylium / nether soils)
+- Amberveil, Chorusflame, Ethereal saffron, Voidpepper (end stone)
+- Nether Expansion (nylium / nether soils):
+  - Sorroweed
+  - Soul torchflower
+  - Cerebrage kale
+  - Twisting & weeping ivy
+  - Crimson sprouts
+  - Warped wart (soul sand)
+  - Crimson & warped sporeshrooms
+  - Nether wart & warped wart beards
+- Lichen cordyceps, Lichen roots, Bowl lichen (lichen moss)
+- Unusual End (end stone):
+  - Chorus cane
+  - Chorus roots
+  - Endstone sprouts
+  - Warped sprouts
+  - Gloopilon seeds
+  - Gloopy bush
+  - Gloopy tendrils
+  - Warped bush
+  - Small warped algae
+  - Small warped squash (yields warped squash wedges)
+  - Purpur grass
+- Chorus weeds (end stone)
+- Frost lily (snow)
+- Prickly peach cactus (yields prickly peaches; sand)
+- Prickly vines (sand)
+- Poison ivy, Skyris vine, Spirit roots
+- Willow vines, Small bush
+
+#### New Botany Pot Soils
+
+- Lichen moss
+- Embur nylium
+- Sythian nylium
+- Wailing nylium
+- Crimson blackstone nylium
+- Sythian soil
+- Embur moss block
+- Arisian moss block
+- Blue Netherrack
+
 ## Update v3.2.5
 
 > This is majorly a modification to crafting recipes with some other
