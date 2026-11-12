@@ -1,5 +1,18 @@
 # Update Changelogs
 
+## Update v3.2.5b - literally just loconautics
+
+> Yeah, that's it (and misc mod bugfixes) :3
+
+### THIS MOD IS VERY VERY BETA, EXPECT SOME THINGS TO BE NON-FUNCTIONAL.
+
+- Watch ponders carefully, read the mod page and good luck!
+  - Ofc, if any resource loss occurs on our survival server they can be cheated back in by an admin.
+- Report issues directly to the loconautics devs on their [github](https://github.com/Lyccoriis/Create-Loconautics/issues)
+- Due to the mod being inaccessable via CFs api, it is downloaded from [here](https://www.curseforge.com/minecraft/mc-mods/createloconautics)
+  and redistributed here with packwiz as a raw file instead of a the usual download link.
+  Once mod is accepted onto modrinth, it will be downloaded through there!
+
 ## Update v3.2.5a
 
 > Filling in Botany Pot support for the rest of the pack

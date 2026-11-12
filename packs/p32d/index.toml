@@ -946,7 +946,7 @@ metafile = true
 
 [[files]]
 file = "mods/bits-n-tracks-ce.pw.toml"
-hash = "572842ab313bec0b3917b6ad57da6c6902611bc6bd3d9089e5201062da92d10e"
+hash = "c7916294254f19658955c2781468e89df4266e7c5267d1f5b5f11202937c10a1"
 metafile = true
 
 [[files]]
@@ -1011,7 +1011,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-redstone-link-bridge.pw.toml"
-hash = "791a6138f2501b4e3d2695bc6f95d207da57872cb7a32074a6236a264e43cb7f"
+hash = "9916cb3abec0c21edd314882cdd888d07f2797f4789f5fb9ac3cf688e4ae7aa2"
 metafile = true
 
 [[files]]
@@ -1076,7 +1076,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "805d142d8f5538834a81acd6d2c5a0e8f6697457a57b05bc3ad8ee4fcfd73d6d"
+hash = "1c9f21b7aa723402f2685c0cd531a90316b06bff0e78f20ab0b60712a56cc274"
 metafile = true
 
 [[files]]
@@ -1101,7 +1101,7 @@ metafile = true
 
 [[files]]
 file = "mods/contraption-lights.pw.toml"
-hash = "2ab3ebde1460819870da280e8ef619a70cc975b441ff43afbd282d43e84f2ea1"
+hash = "43776164891cfe7206bbb2a2d67afd80c22127b649c05e9642a4ad56a097b8fc"
 metafile = true
 
 [[files]]
@@ -1321,7 +1321,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-encased.pw.toml"
-hash = "cf8533b0310f49fc8db0a22bb56f6de8684ac817cc42ac195997abe91d37c99b"
+hash = "f3b613518dc7c420ddf22a0212bbb1df390d8e14c4899d7a11b3a938b67d0914"
 metafile = true
 
 [[files]]
@@ -1691,7 +1691,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "426238488c9ffd843f661f8bc74aa8e585fa6b4d342c43c4ba4cb8451298b725"
+hash = "b34c7d9a3c51520991b5cc91eb3ddb707a6d73fd76c0c2602f50fc114ab2d936"
 metafile = true
 
 [[files]]
@@ -1866,7 +1866,7 @@ metafile = true
 
 [[files]]
 file = "mods/gouge.pw.toml"
-hash = "34e40aacc54b4ff4f1f39ec38948fa1d5d544b10c23ccb68a3e7f3b51cd2c2c4"
+hash = "0ed637a5e7958cd2271111964dc90ac4996a19808312ecafad2c40e0426a6ac0"
 metafile = true
 
 [[files]]
@@ -2045,6 +2045,10 @@ hash = "35725a7bee95c5f0df1eeccd3ed406036c35fae26a7d7864fae1127a85957fdb"
 metafile = true
 
 [[files]]
+file = "mods/loconautics-0.1.2BETA.jar"
+hash = "789a0b652e0d32c6399c6dc1ef914d954820315f8a8fb795af87bb700e4d2fe7"
+
+[[files]]
 file = "mods/lodestonelib.pw.toml"
 hash = "f5d0701055478e980b50849f199f266e6ab1940277a17ad2e5060df0d978be83"
 metafile = true
@@ -2151,7 +2155,7 @@ metafile = true
 
 [[files]]
 file = "mods/moyai.pw.toml"
-hash = "373a12baaac68d7efc52dd53c9a9a7bf962ce62bfad29875a85d2c1d456e7cf1"
+hash = "e76ed7e8149645b2ea11da5a2d97a3be2f2c2d5acc4b7405c48adb5b574f4aeb"
 metafile = true
 
 [[files]]
@@ -2396,7 +2400,7 @@ metafile = true
 
 [[files]]
 file = "mods/rightclickharvest.pw.toml"
-hash = "9c0d37bfbfdda77af1946da1d80aa48e7dfea9611c43d5c81c70676b1d854af6"
+hash = "622eea3aa1b4b32c2ced604d70707bd3e7a02815367e87a7906b1468aae5a9f0"
 metafile = true
 
 [[files]]
@@ -2441,7 +2445,7 @@ metafile = true
 
 [[files]]
 file = "mods/shoulder-surfing-reloaded.pw.toml"
-hash = "a9319227d36c43b6f9865aa69c62310b549ae824af4ea2060914383e29435384"
+hash = "cf42db60370ef5d6bc70d935174a9c325552883c49cf2291105e990cc171e054"
 metafile = true
 
 [[files]]
@@ -2476,7 +2480,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "9232af6b6fbd3a78bdcb640168966a36be6305f24bd2058f9e46c4fc1c8cb6bc"
+hash = "37d7f4f675745426675aca481229e26706c4d9196db009070e27ce5c2db3563c"
 metafile = true
 
 [[files]]
@@ -2491,7 +2495,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "571bfc56ab43f32cb09fab3f9a04c0363dc82a5f9b9ca2785b15708e453e3be0"
+hash = "0f41c917f1091923bb27756879c51da6436fa660d66857be4523cc78ef5c0833"
 metafile = true
 
 [[files]]
