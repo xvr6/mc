@@ -1,13 +1,13 @@
 name = "Gouge"
-filename = "gouge-1.8.1-mc1.21.1-neoforge.jar"
+filename = "gouge-1.8.2-mc1.21.1-neoforge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/7ZwT9z3D/versions/Msgtfn8F/gouge-1.8.1-mc1.21.1-neoforge.jar"
+url = "https://cdn.modrinth.com/data/7ZwT9z3D/versions/B3rslNmS/gouge-1.8.2-mc1.21.1-neoforge.jar"
 hash-format = "sha512"
-hash = "6580ce0b0a8a17cb383a24ea484b63f94eb693bc34abaf9ba773276817ddd5b44fb3b3c801066be90967a876c13986dc0a4581d98929163f81ab63265e3863a8"
+hash = "2f844d981e451374781ace4c55f2f1f7dd32614cf2dd100169a8cae3df4e6bf98589198b0627d42a8582162841f8b3a8b14ed892a17fa512c007a8899c70fa59"
 
 [update]
 [update.modrinth]
 mod-id = "7ZwT9z3D"
-version = "Msgtfn8F"
+version = "B3rslNmS"

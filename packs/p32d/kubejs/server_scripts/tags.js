@@ -95,11 +95,19 @@ ServerEvents.tags("item", (event) => {
     "create_connected:six_way_gearbox",
     "create_connected:vertical_six_way_gearbox",
 
+    //replaced with utliities: polished amethyst
     "createfactorycontroller:cut_amethyst",
+
+    //refractory is mostly used for metallurgys logistics system, which we dont need.
+    // Recipes that require refractory were changed to use normal clay
     "createmetallurgy:refractory_mortar",
     "createmetallurgy:refractory_mortar_ball",
     "createmetallurgy:ladle_filter",
     "#createmetallurgy:ladle",
+    "createmetallurgy:labeling_station",
+
+    // non-functional station
+    "create_aeronautics_automated_logistics:train_station",
   );
 
   event.add("c:vaults", "create:item_vault", "create_connected:item_silo");

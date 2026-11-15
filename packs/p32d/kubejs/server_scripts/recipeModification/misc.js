@@ -446,9 +446,13 @@ ServerEvents.recipes((event) => {
 
   // - Industrial crucible: swap refractory mortar for clay
   // replaceInput doesn't reach into sequenced assembly steps, so remove and re-add
-  event.remove({ id: "createmetallurgy:sequenced_assembly/industrial_crucible" });
+  event.remove({
+    id: "createmetallurgy:sequenced_assembly/industrial_crucible",
+  });
   const crucible = { item: "createmetallurgy:incomplete_industrial_crucible" };
-  const crucibleOut = [{ id: "createmetallurgy:incomplete_industrial_crucible" }];
+  const crucibleOut = [
+    { id: "createmetallurgy:incomplete_industrial_crucible" },
+  ];
   event
     .custom({
       type: "create:sequenced_assembly",
@@ -484,7 +488,9 @@ ServerEvents.recipes((event) => {
           results: crucibleOut,
         },
       ],
-      transitional_item: { id: "createmetallurgy:incomplete_industrial_crucible" },
+      transitional_item: {
+        id: "createmetallurgy:incomplete_industrial_crucible",
+      },
     })
     .id("kubejs:sequenced_assembly/industrial_crucible");
 });

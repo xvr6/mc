@@ -270,4 +270,14 @@ ServerEvents.recipes((event) => {
     "create:experience_nugget",
     "create_sa:heap_of_experience",
   );
+
+  event.recipes.createMilling(
+    Item.of("minecraft:dirt"),
+    "minecraft:coarse_dirt",
+  );
+
+  event.recipes.createCompacting(Item.of("minecraft:coarse_dirt", 2), [
+    "minecraft:dirt",
+    "minecraft:gravel",
+  ]);
 });

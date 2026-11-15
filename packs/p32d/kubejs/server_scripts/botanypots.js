@@ -1,7 +1,7 @@
-// Botany Pots 21.1.x (MC 1.21.1) has no KubeJS recipe schema anymore;
+// Botany Pots 21.1.x (MC 1.21.1) has no KubeJS recipe builder;
 // so recipes are plain JSON registered with event.custom().
 
-// DISCLAIMER: This was claude-assisted due to the mass scale modification done
+// DISCLAIMER: This was claude-assisted and all still proper
 
 const path = (id) => id.replace(":", "/");
 

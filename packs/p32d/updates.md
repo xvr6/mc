@@ -1,10 +1,30 @@
 # Update Changelogs
 
+## Update v3.2.6
+
+### Mods
+
+- [Fairy Lights](https://modrinth.com/mod/fairy-lights-fabric/gallery)
+- [Let It Walk!](https://www.curseforge.com/minecraft/mc-mods/let-it-walk)
+- Major Update to: [Create Train Parts](https://modrinth.com/mod/create-train-parts/version/0.6.0)
+
+### Recipes/item changes
+
+- Removal of create: connected copycat blocks since they just... convert to the other anyways?
+- Dirt automation
+  - Just a much easier way to do this than normal
+  - Milling coarse dirt -> dirt
+  - Compacting dirt + gravel -> 2x Coarse Dirt
+- Removal of station that had no use
+- poinky: cake batters shouldnt be placeable anymore (kubejs wiki doesnt really say)
+
 ## Update v3.2.5b - literally just loconautics
 
 > Yeah, that's it (and misc mod bugfixes) :3
 
-### THIS MOD IS VERY VERY BETA, EXPECT SOME THINGS TO BE NON-FUNCTIONAL.
+### Loconautics
+
+> THIS MOD IS VERY VERY BETA, EXPECT SOME THINGS TO BE NON-FUNCTIONAL.
 
 - Watch ponders carefully, read the mod page and good luck!
   - Ofc, if any resource loss occurs on our survival server they can be cheated back in by an admin.
@@ -12,6 +32,11 @@
 - Due to the mod being inaccessable via CFs api, it is downloaded from [here](https://www.curseforge.com/minecraft/mc-mods/createloconautics)
   and redistributed here with packwiz as a raw file instead of a the usual download link.
   Once mod is accepted onto modrinth, it will be downloaded through there!
+
+### More item Removals
+
+- Simurail station; not utilized at all
+- All create metalurgy logistics were removed
 
 ## Update v3.2.5a
 
