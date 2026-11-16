@@ -108,6 +108,12 @@ ServerEvents.tags("item", (event) => {
 
     // non-functional station
     "create_aeronautics_automated_logistics:train_station",
+
+    // duplicate plate removals
+    "createaddition:zinc_sheet",
+    "createcasing:zinc_sheet",
+    "createcasing:andesite_sheet",
+    "createdeco:industurial_iron_sheet",
   );
 
   event.add("c:vaults", "create:item_vault", "create_connected:item_silo");

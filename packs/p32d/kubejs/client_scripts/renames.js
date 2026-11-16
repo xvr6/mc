@@ -38,6 +38,10 @@ ClientEvents.lang("en_us", (event) => {
 
   event.renameItem("netherexp:black_ice", "Shade Ice");
   event.renameItem("netherexp:thin_black_ice", "Thin Shade Ice");
+
+  // rename loconautics industrial iron to hardened iron
+  event.renameItem("loconautics:industrial_iron_sheet", "Hardened Iron Sheet");
+  event.renameItem("loconautics:industrial_iron_rod", "Hardened Iron Rod");
 });
 
 // "light_blue" -> "Light Blue"

@@ -1,16 +1,21 @@
 # Update Changelogs
 
-## Update v3.2.6a
+## Update v3.2.6a/b
 
 ### Mods
 
 - [Block Pack](https://modrinth.com/mod/block-pack)
-- [Loconautics v0.1.3](https://www.curseforge.com/minecraft/mc-mods/createloconautics/files/9627028)
+- Update to: [Loconautics (v0.1.3)](https://www.curseforge.com/minecraft/mc-mods/createloconautics/files/9627028)
+- Removed fairy lights, and create bionics
+  - Both have breaking issues ATM
+- Other small updates
 
 ### Item Changes
 
-- Removal of create: connected copycat blocks
-- Custom fluids used for cake batters no longer placeable
+- Removal of Create: Connected Copycat blocks
+- Removal of a few duplicate sheets
+- Custom fluids used for cake batters no longer placeable and now properly animated
+- Some internal kubejs script changes
 
 ## Update v3.2.6
 
