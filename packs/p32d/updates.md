@@ -1,5 +1,17 @@
 # Update Changelogs
 
+## Update v3.2.6a
+
+### Mods
+
+- [Block Pack](https://modrinth.com/mod/block-pack)
+- [Loconautics v0.1.3](https://www.curseforge.com/minecraft/mc-mods/createloconautics/files/9627028)
+
+### Item Changes
+
+- Removal of create: connected copycat blocks
+- Custom fluids used for cake batters no longer placeable
+
 ## Update v3.2.6
 
 ### Mods
@@ -10,13 +22,11 @@
 
 ### Recipes/item changes
 
-- Removal of create: connected copycat blocks since they just... convert to the other anyways?
 - Dirt automation
   - Just a much easier way to do this than normal
   - Milling coarse dirt -> dirt
   - Compacting dirt + gravel -> 2x Coarse Dirt
 - Removal of station that had no use
-- poinky: cake batters shouldnt be placeable anymore (kubejs wiki doesnt really say)
 
 ## Update v3.2.5b - literally just loconautics
 
@@ -29,7 +39,7 @@
 - Watch ponders carefully, read the mod page and good luck!
   - Ofc, if any resource loss occurs on our survival server they can be cheated back in by an admin.
 - Report issues directly to the loconautics devs on their [github](https://github.com/Lyccoriis/Create-Loconautics/issues)
-- Due to the mod being inaccessable via CFs api, it is downloaded from [here](https://www.curseforge.com/minecraft/mc-mods/createloconautics)
+- Due to the mod being inaccessable via CFs api, it is downloaded [here](https://www.curseforge.com/minecraft/mc-mods/createloconautics)
   and redistributed here with packwiz as a raw file instead of a the usual download link.
   Once mod is accepted onto modrinth, it will be downloaded through there!
 

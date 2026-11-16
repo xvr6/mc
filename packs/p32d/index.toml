@@ -807,7 +807,7 @@ hash = "093402e324d890b4db6ba5edf75a25f7de93246f79c6536de2b4db078e5b8181"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "552a6f3fff946d12baa4af1d39b74fa61bfe52e5f39ceeb52b67a689605be190"
+hash = "ffbb9521137dd3690cfc918f0b3fb5199e84d5f94458178ab9bb4e5acb73f0ab"
 
 [[files]]
 file = "kubejs/server_scripts/tooltips.js"
@@ -947,6 +947,11 @@ metafile = true
 [[files]]
 file = "mods/bits-n-tracks-ce.pw.toml"
 hash = "c7916294254f19658955c2781468e89df4266e7c5267d1f5b5f11202937c10a1"
+metafile = true
+
+[[files]]
+file = "mods/block-pack.pw.toml"
+hash = "3b452946a2e0e24c91af2ef56d70eb3411100b8a2dd613680db5ffe745441c19"
 metafile = true
 
 [[files]]
@@ -2055,8 +2060,8 @@ hash = "35725a7bee95c5f0df1eeccd3ed406036c35fae26a7d7864fae1127a85957fdb"
 metafile = true
 
 [[files]]
-file = "mods/loconautics-0.1.2BETA.jar"
-hash = "789a0b652e0d32c6399c6dc1ef914d954820315f8a8fb795af87bb700e4d2fe7"
+file = "mods/loconautics-0.1.3BETA.jar"
+hash = "2cd0b33189b2ebdb3551b59aa8fb5cfef6b4b89d238b99b0185cf45bec05e5de"
 
 [[files]]
 file = "mods/lodestonelib.pw.toml"
