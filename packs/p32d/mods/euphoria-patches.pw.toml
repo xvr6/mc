@@ -1,13 +1,13 @@
 name = "Euphoria Patches"
-filename = "EuphoriaPatcher-1.10.5-r5.9.3-neoforge.jar"
+filename = "EuphoriaPatcher-1.11.1-r5.10-neoforge.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/4H6sumDB/versions/QMsRXtSJ/EuphoriaPatcher-1.10.5-r5.9.3-neoforge.jar"
+url = "https://cdn.modrinth.com/data/4H6sumDB/versions/Gkv3fLVg/EuphoriaPatcher-1.11.1-r5.10-neoforge.jar"
 hash-format = "sha512"
-hash = "19e5528f6284f68d28e9e8b17a9531bb0f8e0ab862e3ab93a1b53fe3f18765cfa38cc512e66c2d4b308e6783307d132e8b5c337db4a39b016d75e6830376070a"
+hash = "fc920172bf56004909381c847b5efd73ecdf734eb0d9302da8e6ce39aa1c806ae50418b929e21550234d9dbcf614f3899938c75807e3afe98fa67e16239bbb88"
 
 [update]
 [update.modrinth]
 mod-id = "4H6sumDB"
-version = "QMsRXtSJ"
+version = "Gkv3fLVg"

@@ -1,5 +1,17 @@
 # Update Changelogs
 
+## Update v3.2.6c
+
+> c for cloud B)
+
+### Mods
+
+- [Create: Sky](https://www.curseforge.com/minecraft/mc-mods/create-sky)
+  - Aeronautics compatable custom weather system
+  - Voxel clouds (default config in pack)
+  - Local weather based on the clouds that form
+- Other misc updates
+
 ## Update v3.2.6a/b
 
 ### Mods

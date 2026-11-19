@@ -37,6 +37,10 @@ file = "config/createpropulsion-common.toml"
 hash = "721b8eaa5a038a356191061d37c6b8f1a7013f37d45ad360aa89e1a39c7f4790"
 
 [[files]]
+file = "config/createskys-server.toml"
+hash = "1fb35b0d049283f620366b38013caa8578a8511d1a3cc424a64a2c824eceb7aa"
+
+[[files]]
 file = "config/cristellib/mr_dungeons_andtaverns/structure_placement_config.json5"
 hash = "16fe2910555dc11975ca15c7892db174ad4a722cf889cd6a03187f66dc726f18"
 
@@ -161,6 +165,18 @@ file = "config/yosbr/config/accessories.json5"
 hash = "4374e93338f947dc9e4e12818877c28ab4994c9420d5462edf2da31d6c0c25af"
 
 [[files]]
+file = "config/yosbr/config/createskys-client.toml"
+hash = "5ab5e5dd85cda047bf2b98c075a128b459a3ae9e13e27a8c684dc201b886dde7"
+
+[[files]]
+file = "config/yosbr/config/euphoria_patcher/.data.json"
+hash = "440ca3473237df7c34a385003f78b2a884771704fabd02e3278ab9e10617c118"
+
+[[files]]
+file = "config/yosbr/config/euphoria_patcher/settings.toml"
+hash = "7f508f54983305b00a4b89ca57a8e6cdf59285d25cb495b27c5b30da0f78c4d0"
+
+[[files]]
 file = "config/yosbr/config/shouldersurfing-client.toml"
 hash = "bb247011c98bf9fd7203c37cb7e18bb5579cf1f9d41f165c7a9202da880d8501"
 
@@ -185,7 +201,7 @@ file = "config/yosbr/options.txt"
 hash = "017d6d4938792ede2f5d25424bd4abec7e2ce2a74d57030019d6368bb3dd564f"
 
 [[files]]
-file = "config/yosbr/shaderpacks/ComplementaryUnbound_r5.9.3 + EuphoriaPatches_1.10.5.txt"
+file = "config/yosbr/shaderpacks/ComplementaryUnbound_r5.10 + EuphoriaPatches_1.11.1.txt"
 hash = "313ea27e78f9cac42685b727bb2d905246f0e4312db72433e39309f49908e6e0"
 
 [[files]]
@@ -1038,7 +1054,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "594cf4ca23d3eca84b27092e170737cd6a51a99a3a83c864f68512b02e487efb"
+hash = "bef7f46e38b038b0ee236735061002f26eebc05da8ffabd14819cd9c31b312ec"
 metafile = true
 
 [[files]]
@@ -1333,7 +1349,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-encased.pw.toml"
-hash = "f3b613518dc7c420ddf22a0212bbb1df390d8e14c4899d7a11b3a938b67d0914"
+hash = "219c8225dfb1dd6096c1324993545041be6f6afabecf069f5074b75e0394c33b"
 metafile = true
 
 [[files]]
@@ -1343,7 +1359,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-factory-controller.pw.toml"
-hash = "2677237aa7c7c037f770bd15c33359e054cd27f5614a7667e02183ed23f3c4d1"
+hash = "20664fd723f20376fd61641ec72a621e8a577a9b4058f458c65a045bb4f23ac2"
 metafile = true
 
 [[files]]
@@ -1368,7 +1384,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-integrated-farming.pw.toml"
-hash = "205ac4987dcaf6aa6a099c9dbcb97f9aea85b2f9b2f5953fc88c83d92afd90b5"
+hash = "c9506b73dff84761324a0248757ebe255164a8c92f759360a4191e53e6228466"
 metafile = true
 
 [[files]]
@@ -1442,6 +1458,11 @@ hash = "d1160b7fd4395d2b1140c78791a6d974a9c804d17078d643cbb8f4d267505066"
 metafile = true
 
 [[files]]
+file = "mods/create-sky.pw.toml"
+hash = "9bb2b82340bffaa004d0dbb48b1f90e41e885d086af22f0ba8390f63d9b8177f"
+metafile = true
+
+[[files]]
 file = "mods/create-sound-of-steam.pw.toml"
 hash = "9b5fe0ca38315fe878004e1f14818c2b26a1233b03a067b292efd02a007e94ae"
 metafile = true
@@ -1493,7 +1514,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-ultimine.pw.toml"
-hash = "6adbe018fa82d595b6679edb045d66e266b031eca2bc1b6f243b1ae50bef92ab"
+hash = "c1d2531c4890309cf654f8ca40532042932fe7efd5779ebd6af797b226421888"
 metafile = true
 
 [[files]]
@@ -1553,7 +1574,7 @@ metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
+hash = "5b5063624d376f7deb8bbb5ecb8dcf3aa01a2edae137f76a208d1654ee130342"
 metafile = true
 
 [[files]]
@@ -1723,7 +1744,7 @@ metafile = true
 
 [[files]]
 file = "mods/euphoria-patches.pw.toml"
-hash = "a245469cf91e7f3c8aec3b0f5ad3d79b1846ac0696543f892b426faea5f91cab"
+hash = "295ca269062b568e7116810a21d92aa895172c95241c05733c7b5c9a250365d0"
 metafile = true
 
 [[files]]
@@ -1783,7 +1804,7 @@ metafile = true
 
 [[files]]
 file = "mods/forgeendertech.pw.toml"
-hash = "eff022d1ea12fd50b71ca1807775c5f47288bc333de0f1faee28d7769a99d2e0"
+hash = "12bc1d3690b502d5e4bc78aa21e1e78621482120319219ca6ea8212a2441fb54"
 metafile = true
 
 [[files]]
@@ -2497,12 +2518,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "882a37f53c24ebad93b2fcd5feb972154f9c6df42d94e4b9282edfdafe595f41"
+hash = "44fbfa6f8f0cda4f628d2f1488b758f84b27a05bbfde836cdfe6b176eb4e6b81"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "a9c525571077c7473c6f09bfe795d045d98b60092e779f259067a206a9190647"
+hash = "538402dccb562c05a3e126e2db0ee2d0d97e5227776c51c33834aeeb01c192a8"
 metafile = true
 
 [[files]]
@@ -2517,7 +2538,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "73534d02e03ffb423c3dd6abcae6cd85533306277774600a18a8691b8c5624a1"
+hash = "589ce9acb7d0fd2cb2323d871daba07615f5b7b5ed6a06cfa813740a4012c2fa"
 metafile = true
 
 [[files]]
@@ -2582,12 +2603,12 @@ metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
-hash = "33eab1ec1f2b6a02756c74817832b56960b689f112690ecf37f8ce7f8077589f"
+hash = "2c858567ef7b8f1f9cb8cb33917571d8027bc83b42e83ae38623a8f3af718e5f"
 metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "6b7fe7dddd1ae7b41e2de7ef622981a2a1daad26c9a164e084c8aeffb47e8c30"
+hash = "68f3056f4389704e386dd4c592a5cd9251fede39d9c022820442b9559b98e51b"
 metafile = true
 
 [[files]]
@@ -2602,7 +2623,7 @@ metafile = true
 
 [[files]]
 file = "mods/the-bumblezone.pw.toml"
-hash = "d308fbe204833c35cf398c18269c3a237992d28a10cad275155a1666711303eb"
+hash = "d36b2490e950976c1fbc0cbd2fb24411f5f0e5b22c889e694cbd6ae23c496db4"
 metafile = true
 
 [[files]]
@@ -2815,7 +2836,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-unbound.pw.toml"
-hash = "1a3d3663c44dc21e227c39c42ea9b5e3c4f3b2e3b5272ed55b45da9e247a46d7"
+hash = "9ceebab8640099bd51b9ad88bbf2d3938772ba03a836c6f6e116ba33924541e7"
 metafile = true
 
 [[files]]
