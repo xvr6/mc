@@ -1458,11 +1458,6 @@ hash = "d1160b7fd4395d2b1140c78791a6d974a9c804d17078d643cbb8f4d267505066"
 metafile = true
 
 [[files]]
-file = "mods/create-sky.pw.toml"
-hash = "9bb2b82340bffaa004d0dbb48b1f90e41e885d086af22f0ba8390f63d9b8177f"
-metafile = true
-
-[[files]]
 file = "mods/create-sound-of-steam.pw.toml"
 hash = "9b5fe0ca38315fe878004e1f14818c2b26a1233b03a067b292efd02a007e94ae"
 metafile = true
