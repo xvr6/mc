@@ -1,16 +1,18 @@
 # Update Changelogs
 
-## Update v3.2.6c
+## Update v3.2.6c/d
 
-> c for cloud B)
+> Amended update c
 
 ### Mods
 
-- [Create: Sky](https://www.curseforge.com/minecraft/mc-mods/create-sky)
-  - Aeronautics compatable custom weather system
-  - Voxel clouds (default config in pack)
-  - Local weather based on the clouds that form
+- Removed: [Create: Sky](https://www.curseforge.com/minecraft/mc-mods/create-sky)
+  - Currently rather stable, but has many annoying visual bugs
 - Other misc updates
+
+### Blocks
+
+- Added more blocks to `railways:semaphore_poles`
 
 ## Update v3.2.6a/b
 

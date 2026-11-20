@@ -835,7 +835,7 @@ hash = "093402e324d890b4db6ba5edf75a25f7de93246f79c6536de2b4db078e5b8181"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "be1d336bc633e6f53b940ddb163d0dbf738b513c83448d9bd6f3e84b3946d40f"
+hash = "6db0a7fb6ca0c3aeccf727be7c9bdc792fb7773869bd7bdb6405fa2dc7945b7c"
 
 [[files]]
 file = "kubejs/server_scripts/tooltips.js"
@@ -1455,11 +1455,6 @@ metafile = true
 [[files]]
 file = "mods/create-ratatouille.pw.toml"
 hash = "d1160b7fd4395d2b1140c78791a6d974a9c804d17078d643cbb8f4d267505066"
-metafile = true
-
-[[files]]
-file = "mods/create-sky.pw.toml"
-hash = "9bb2b82340bffaa004d0dbb48b1f90e41e885d086af22f0ba8390f63d9b8177f"
 metafile = true
 
 [[files]]

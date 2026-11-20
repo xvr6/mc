@@ -127,6 +127,17 @@ ServerEvents.tags("item", (event) => {
   event.add("botanypots:soil/nether", "netherdescent:blue_netherrack");
 });
 
+ServerEvents.tags("block", (event) => {
+  // Semaphore pole materials
+  event.add(
+    "railways:semaphore_poles",
+    "#createmoregirder:girder",
+    "electroenergetics:concrete_pole",
+    "create_train_parts:pole",
+    "create_train_parts:crossing",
+  );
+});
+
 ServerEvents.recipes((event) => {
   // - Disasble ALL crafting of anything in removed tag.
   event.remove({ output: Ingredient.of("#poinky:removed") });
