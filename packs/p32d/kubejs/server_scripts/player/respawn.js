@@ -1,7 +1,9 @@
+// Grace period after respawning.
+
 PlayerEvents.respawned((event) => {
   const player = event.player;
 
-  // 20sec
+  // 20 sec of Resistance V
   player.potionEffects.add("minecraft:resistance", 400, 4, false, true);
 
   player.tell(

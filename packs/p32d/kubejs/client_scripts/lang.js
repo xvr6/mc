@@ -1,4 +1,7 @@
+// Display-name overrides for items/blocks/entities from other mods.
+
 ClientEvents.lang("en_us", (event) => {
+  // --- Sunflower oil -> generic seed oil (pairs with recipes/food/cooking_oil.js) ---
   event.renameBlock(
     "ratatouille_fried_delights:sunflower_oil",
     "Food Grade Seed Oil",
@@ -19,17 +22,20 @@ ClientEvents.lang("en_us", (event) => {
     "ratatouille_fried_delights:flowing_sunflower_oil",
     "Food Grade Seed Oil (Flowing)",
   );
+
+  // --- Chairs: disambiguate Interiors vs Bits 'n' Bobs ---
   Color.DYE.forEach((color) => {
     event.renameItem(
       `interiors:${color}_chair`,
-      `${snakeToTitleCase(color)} Raised Chair`,
+      `${titleCase(color)} Raised Chair`,
     );
-
     event.renameItem(
       `bits_n_bobs:${color}_chair`,
-      `${snakeToTitleCase(color)} Styled Floor Chair`,
+      `${titleCase(color)} Styled Floor Chair`,
     );
   });
+
+  // --- Misc renames ---
   event.renameItem("chipped:cobbled_obsidian", "Chipped Obsidian");
   event.renameItem(
     "chipped:cobbled_crying_obsidian",
@@ -39,13 +45,13 @@ ClientEvents.lang("en_us", (event) => {
   event.renameItem("netherexp:black_ice", "Shade Ice");
   event.renameItem("netherexp:thin_black_ice", "Thin Shade Ice");
 
-  // rename loconautics industrial iron to hardened iron
+  // Loconautics industrial iron -> hardened iron
   event.renameItem("loconautics:industrial_iron_sheet", "Hardened Iron Sheet");
   event.renameItem("loconautics:industrial_iron_rod", "Hardened Iron Rod");
 });
 
 // "light_blue" -> "Light Blue"
-function snakeToTitleCase(str) {
+function titleCase(str) {
   return str
     .split("_")
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))

@@ -1,9 +1,9 @@
-// Botany Pots 21.1.x (MC 1.21.1) has no KubeJS recipe builder;
+// Botany Pots crops, trees and soils.
+// Botany Pots 21.1.x (MC 1.21.1) has no KubeJS recipe builder,
 // so recipes are plain JSON registered with event.custom().
+// Drops come from loot tables in kubejs/data/kubejs/loot_table/botanypots/.
 
 // DISCLAIMER: This was claude-assisted and all still proper
-
-const path = (id) => id.replace(":", "/");
 
 // Nylium (incl. Nether Descent's) or any nether soil, same as vanilla fungi.
 const NETHER = {
@@ -341,7 +341,7 @@ ServerEvents.recipes((event) => {
   SOILS.forEach((block) => {
     event
       .custom({ type: "botanypots:block_derived_soil", block: block })
-      .id(`kubejs:botanypots/soil/${path(block)}`);
+      .id(`kubejs:botanypots/soil/${idPath(block)}`);
   });
 
   SAPLINGS.forEach(([sapling, soil]) => {
@@ -352,12 +352,12 @@ ServerEvents.recipes((event) => {
       drops: [
         {
           type: "botanypots:loot_table",
-          table_id: `kubejs:botanypots/tree/${path(sapling)}`,
+          table_id: `kubejs:botanypots/tree/${idPath(sapling)}`,
         },
       ],
     };
     if (soil) recipe.soil = soil;
-    event.custom(recipe).id(`kubejs:botanypots/crop/${path(sapling)}`);
+    event.custom(recipe).id(`kubejs:botanypots/crop/${idPath(sapling)}`);
   });
 
   PLANTS.forEach(([block, output, seed]) => {
@@ -368,11 +368,11 @@ ServerEvents.recipes((event) => {
       drops: [
         {
           type: "botanypots:loot_table",
-          table_id: `kubejs:botanypots/plant/${path(output)}`,
+          table_id: `kubejs:botanypots/plant/${idPath(output)}`,
         },
       ],
     };
     if (seed) recipe.input = { item: seed };
-    event.custom(recipe).id(`kubejs:botanypots/crop/${path(block)}`);
+    event.custom(recipe).id(`kubejs:botanypots/crop/${idPath(block)}`);
   });
 });

@@ -1,3 +1,5 @@
+// Property changes to items from other mods.
+
 /* FIXME:
  * crashes on server launch
 

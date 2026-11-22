@@ -1,6 +1,7 @@
-const startingKit = [
-  // Define starting kit here! Entries are: [item:id, count]
+// Starter kit, given once per player on first login.
 
+// [item id, count]
+const STARTER_KIT = [
   ["minecraft:stone_sword", 1],
   ["minecraft:stone_pickaxe", 1],
   ["minecraft:stone_axe", 1],
@@ -11,21 +12,16 @@ const startingKit = [
   ["minecraft:torch", 32],
 ];
 
-// The actual event
-
 PlayerEvents.loggedIn((event) => {
   if (!event.player.stages.has("starterKitGiven")) {
     event.player.stages.add("starterKitGiven");
-    const entity = event.entity.username;
-    for (const item in startingKit) {
-      let element = startingKit[item];
-      event.server.runCommandSilent(
-        `give ${entity} ${element[0]} ${element[1]}`,
-      );
-    }
+    const username = event.entity.username;
+    STARTER_KIT.forEach(([item, count]) => {
+      event.server.runCommandSilent(`give ${username} ${item} ${count}`);
+    });
   }
-  // - mob bundle
 
+  // --- Mob bundle (disabled) ---
   //if (!event.player.stages.has("spawnEggsGiven")) {
   //  event.player.stages.add("spawnEggsGiven");
   //  event.server.runCommandSilent(
