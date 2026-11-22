@@ -1,15 +1,7 @@
-StartupEvents.init((event) => {
-  Platform.mods.kubejs.name = "Poinky";
-});
+// Custom items.
 
 StartupEvents.registry("item", (event) => {
-  // Filled cake mold bases
-  event.create("blaze_cake_mold_filled");
-  event.create("echo_cake_mold_filled");
-  event.create("experience_cake_mold_filled");
-
-  // Cooked cake mold bases
-  event.create("blaze_cake_mold_baked");
-  event.create("echo_cake_mold_baked");
-  event.create("experience_cake_mold_baked");
+  // --- Cake molds (see server_scripts/recipes/food/cakes.js) ---
+  CAKES.forEach((cake) => event.create(`${cake}_cake_mold_filled`));
+  CAKES.forEach((cake) => event.create(`${cake}_cake_mold_baked`));
 });

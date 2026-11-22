@@ -1,13 +1,13 @@
 name = "Nether Descent"
-filename = "Nether-Descent-NeoForge-1.0.9-mc1.21.1.jar"
+filename = "Nether-Descent-NeoForge-1.0.14-mc1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/OMC5QQv5/versions/2rWyEQRw/Nether-Descent-NeoForge-1.0.9-mc1.21.1.jar"
+url = "https://cdn.modrinth.com/data/OMC5QQv5/versions/Ox1oUivb/Nether-Descent-NeoForge-1.0.14-mc1.21.1.jar"
 hash-format = "sha512"
-hash = "355f48a61a608ea784ffec3429fa146ccaa8f8fef7996230c2bab08ff93198e133decd99809988cfe71e68a9efe23240bdb2550200e3962a454049fa05973803"
+hash = "d56cb3527dab7fe55712db926b2bd80965b1cc53c15fdfebc66f9cc8d15ea17a7686bb8e76591c1b22eedbecf67d56e01bd86af618fcd753393b642ce32c874c"
 
 [update]
 [update.modrinth]
 mod-id = "OMC5QQv5"
-version = "2rWyEQRw"
+version = "Ox1oUivb"

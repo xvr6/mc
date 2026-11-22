@@ -1,13 +1,13 @@
 name = "FindMe"
-filename = "findme-3.3.3-neoforge.jar"
+filename = "findme-3.3.5-neoforge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/rEuzehyH/versions/XqFomM19/findme-3.3.3-neoforge.jar"
+url = "https://cdn.modrinth.com/data/rEuzehyH/versions/wDtgcjdW/findme-3.3.5-neoforge.jar"
 hash-format = "sha512"
-hash = "5884a0ae58a5ec4dad7751697242125a2c96b88fa12edc0714ea60042fa74fa14493ebb735d5d06f74d7237e297d45cc1e17d3abc37d153d6c2304dbdb60ca99"
+hash = "ff89ef86766eb17cedb14bb636028f1681f3afea190e593defce023e1178b3bb5c3d26b2701ad8edaeaf4d10ceb84c037d84372f60d73e7564380c07275ff092"
 
 [update]
 [update.modrinth]
 mod-id = "rEuzehyH"
-version = "XqFomM19"
+version = "wDtgcjdW"

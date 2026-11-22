@@ -46,7 +46,7 @@
     "_torch",
     "_lantern",
     "chipped:",
-    "trmt:"
+    "ptw:"
   ],
   "block_string_blacklist": [
     "diagonalwalls:",

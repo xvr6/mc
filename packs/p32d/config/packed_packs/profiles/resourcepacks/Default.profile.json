@@ -4,6 +4,7 @@
   "overrides": {},
   "packIds": [
     "file/CSSB.zip",
+    "file/tooltrims.zip",
     "file/poinky-additions",
     "moonlight:merged_pack",
     "netherexp:jne_retextures",

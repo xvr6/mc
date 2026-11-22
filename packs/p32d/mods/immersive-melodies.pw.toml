@@ -1,13 +1,13 @@
 name = "Immersive Melodies"
-filename = "immersive_melodies-neoforge-0.8.0+1.21.1.jar"
+filename = "immersive_melodies-neoforge-0.8.4+1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/TaSmHw8V/versions/RLpigSXC/immersive_melodies-neoforge-0.8.0%2B1.21.1.jar"
+url = "https://cdn.modrinth.com/data/TaSmHw8V/versions/BLjuDDDL/immersive_melodies-neoforge-0.8.4%2B1.21.1.jar"
 hash-format = "sha512"
-hash = "79bf2f8dccb5b0db017f77956d73721d54e093416ebe4785f378515fc791ca9a2098d1039d6045c96e2f2c1eac7806de775b7ae84ab9b1b15e68adebebaeaff1"
+hash = "65deba71334e6a988b94d19bac7c3783fb4862aeffa58d7ec52e0e094f79940f98642374670f88e5a8c569322967b680df7f688d8b93863d440b043813f40980"
 
 [update]
 [update.modrinth]
 mod-id = "TaSmHw8V"
-version = "RLpigSXC"
+version = "BLjuDDDL"

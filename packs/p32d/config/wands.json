@@ -45,7 +45,7 @@
   "preview_opacity": 0.8,
   "wand_screen_x_offset": 0,
   "wand_screen_y_offset": 0,
-  "fancy_preview": true,
+  "fancy_preview": false,
   "block_outlines": true,
   "fill_outlines": true,
   "copy_outlines": true,
