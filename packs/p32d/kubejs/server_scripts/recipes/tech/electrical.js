@@ -19,14 +19,16 @@ ServerEvents.recipes((event) => {
   );
 
   // --- Resistive heater ---
-  event.remove({ id: "electroenergetics:crafting/resistive_heater" });
-  event.shaped("electroenergetics:resistive_heater", ["WKW", "CaC", "aia"], {
-    K: "minecraft:dried_kelp",
-    W: "electroenergetics:heavily_insulated_wire",
-    C: "electroenergetics:connector",
-    a: "create:andesite_alloy",
-    i: "create:iron_sheet",
-  });
+  // reuses the original id, replacing it
+  event
+    .shaped("electroenergetics:resistive_heater", ["WKW", "CaC", "aia"], {
+      K: "minecraft:dried_kelp",
+      W: "electroenergetics:heavily_insulated_wire",
+      C: "electroenergetics:connector",
+      a: "create:andesite_alloy",
+      i: "create:iron_sheet",
+    })
+    .id("electroenergetics:crafting/resistive_heater");
 
   // --- Transformer core lamination ---
   // So much already uses iron sheets; also makes transformers a bit more expensive, as they should be.

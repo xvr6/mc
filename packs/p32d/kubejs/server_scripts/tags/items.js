@@ -82,7 +82,7 @@ ServerEvents.tags("item", (event) => {
     "farmersdelight:tree_bark",
   );
   event.add(
-    "ratatouile:compostable_items_4to1",
+    "ratatouille:compostable_items_4to1",
     "farmersdelight:tree_bark",
     "corn_delight:corncob",
   );

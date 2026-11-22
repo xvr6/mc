@@ -1,9 +1,9 @@
 // Property changes to items from other mods.
+// (StartupEvents.modifyItem crashed on launch; ItemEvents.modification is the 1.21.1 event.)
 
-/* FIXME:
- * crashes on server launch
-
-StartupEvents.modifyItem("biomeswevegone:peat", (item) => {
-  item.burnTime = 0;
+ItemEvents.modification((event) => {
+  // Peat is not a fuel
+  event.modify("biomeswevegone:peat", (item) => {
+    item.burnTime = 0;
+  });
 });
-*/

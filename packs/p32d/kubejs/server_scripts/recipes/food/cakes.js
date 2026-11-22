@@ -16,8 +16,11 @@ const CAKE_BASES = [
 ServerEvents.recipes((event) => {
   // --- Plain cake: remove all ways to make it except 2 ---
   event.remove({
-    not: { id: "farmersdelight:cake_from_slices" },
-    not: { id: "ratatouille:filling/cake" },
+    // array = OR; two `not` keys in one object would keep only the last one
+    not: [
+      { id: "farmersdelight:cake_from_slices" },
+      { id: "ratatouille:filling/cake" },
+    ],
     output: "minecraft:cake",
   });
 

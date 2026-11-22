@@ -1,10 +1,10 @@
 // Crop bags: 9 seeds <-> 1 bag (blocks registered in startup_scripts/blocks.js).
 
-// [bag, contents, count returned when unpacking (default 9)]
+// [bag, contents]
 const SEED_BAGS = [
   ["kubejs:asparagus_seed_bag", "expandeddelight:asparagus_seeds"],
   ["kubejs:beetroot_seed_bag", "minecraft:beetroot_seeds"],
-  ["kubejs:blueberry_bag", "biomeswevegone:blueberries", 1],
+  ["kubejs:blueberry_bag", "biomeswevegone:blueberries"],
   ["kubejs:cabbage_seed_bag", "farmersdelight:cabbage_seeds"],
   ["kubejs:chili_pepper_seed_bag", "expandeddelight:chili_pepper_seeds"],
   ["kubejs:crimson_berry_bag", "netherdescent:crimson_berries"],
@@ -17,8 +17,8 @@ const SEED_BAGS = [
 ];
 
 ServerEvents.recipes((event) => {
-  SEED_BAGS.forEach(([bag, seed, unpackCount]) => {
+  SEED_BAGS.forEach(([bag, seed]) => {
     event.shapeless(bag, [`9x ${seed}`]);
-    event.shapeless(`${unpackCount || 9}x ${seed}`, [bag]);
+    event.shapeless(`9x ${seed}`, [bag]);
   });
 });

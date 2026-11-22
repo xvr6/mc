@@ -28,14 +28,14 @@ ServerEvents.recipes((event) => {
   event.recipes.create.crushing(
     [
       "9x create:crushed_raw_uranium",
-      CreateItem.of("create:experience_nugget x9", 0.75),
+      CreateItem.of("9x create:experience_nugget", 0.75),
     ],
     "createnuclear:raw_uranium_block",
   );
   event.recipes.create.crushing(
     [
       "9x create:crushed_raw_lead",
-      CreateItem.of("create:experience_nugget x9", 0.75),
+      CreateItem.of("9x create:experience_nugget", 0.75),
     ],
     "createnuclear:raw_lead_block",
   );
@@ -47,7 +47,7 @@ ServerEvents.recipes((event) => {
   event.recipes.create.crushing(
     [
       "9x create:crushed_raw_platinum",
-      CreateItem.of("create_sa:heap_of_experience x9", 0.75),
+      CreateItem.of("9x create_sa:heap_of_experience", 0.75),
     ],
     "createpropulsion:raw_platinum_block",
   );
@@ -58,7 +58,7 @@ ServerEvents.recipes((event) => {
   );
 
   // --- Soul sand washing: less quartz, slightly more gold ---
-  event.recipes.remove({ id: "create:splashing/soul_sand" });
+  event.remove({ id: "create:splashing/soul_sand" });
   event.recipes.create.splashing(
     [
       CreateItem.of("minecraft:quartz", 0.15),

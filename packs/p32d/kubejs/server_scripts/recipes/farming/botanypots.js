@@ -270,7 +270,7 @@ const PLANT_SOILS = {
   "quark:chorus_weeds": END_STONE,
   "endersdelight:amberveil_mushroom": END_STONE,
   "endersdelight:chorusflame_bush": END_STONE,
-  "endersdelight:ethereal_saffron_b.ush": END_STONE,
+  "endersdelight:ethereal_saffron_bush": END_STONE,
   "endersdelight:voidpepper_bush": END_STONE,
   // Caves
   "galosphere:lichen_cordyceps": LICHEN_MOSS,
@@ -285,7 +285,6 @@ const PLANT_SOILS = {
   "mynethersdelight:warped_fungus_colony": NETHER,
   "netherexp:warped_wart": SOUL_SAND,
   "netherexp:soul_torchflower": NETHER,
-  "netherexp:blightwart": NETHER,
   "netherexp:sorroweed": NETHER,
   "netherexp:cerebrage_kale": NETHER,
   "netherexp:twisting_ivy": NETHER,

@@ -34,45 +34,43 @@ ServerEvents.recipes((event) => {
     "industrially_plated:blank_instruction_sign",
   );
 
+  // Recipes below that reuse an existing id via .id() replace the original.
+
   // --- Tinted glass: cheaper ---
-  event.remove({ id: "minecraft:tinted_glass" });
-  event.shapeless("2x minecraft:tinted_glass", [
-    "#c:glass_blocks/colorless",
-    "minecraft:amethyst_shard",
-  ]);
+  event
+    .shapeless("2x minecraft:tinted_glass", [
+      "#c:glass_blocks/colorless",
+      "minecraft:amethyst_shard",
+    ])
+    .id("minecraft:tinted_glass");
   // return framed tinted glass to normal tinted glass
   event.stonecutting("minecraft:tinted_glass", "#createframed:tinted/glass");
 
   // --- Train light blocks: simpler & cheaper ---
-  event.remove({ id: "ctl:ilb_block" });
-  event.shaped("ctl:ilb_block", ["DG", " A"], {
-    D: "minecraft:glowstone_dust",
-    A: "minecraft:amethyst_shard",
-    G: "#c:glass_blocks/colorless",
-  });
-  event.remove({ id: "ctl:htlb_block" });
-  event.shaped("ctl:htlb_block", ["DG", "IA"], {
-    D: "minecraft:glowstone_dust",
-    A: "minecraft:amethyst_shard",
-    G: "#c:glass_blocks/colorless",
-    I: "minecraft:redstone",
-  });
+  event
+    .shaped("ctl:ilb_block", ["DG", " A"], {
+      D: "minecraft:glowstone_dust",
+      A: "minecraft:amethyst_shard",
+      G: "#c:glass_blocks/colorless",
+    })
+    .id("ctl:ilb_block");
+  event
+    .shaped("ctl:htlb_block", ["DG", "IA"], {
+      D: "minecraft:glowstone_dust",
+      A: "minecraft:amethyst_shard",
+      G: "#c:glass_blocks/colorless",
+      I: "minecraft:redstone",
+    })
+    .id("ctl:htlb_block");
 
   // --- Create Interiors: re-dye recipes use nonexistent c:{color}_dyes tags ---
   Color.DYE.forEach((color) => {
-    event.remove({
-      id: `interiors:crafting/chair/${color}_chair_from_other_chair`,
-    });
     event
       .shapeless(`interiors:${color}_chair`, [
         "#interiors:chairs",
         `#c:dyes/${color}`,
       ])
       .id(`interiors:crafting/chair/${color}_chair_from_other_chair`);
-
-    event.remove({
-      id: `interiors:crafting/floor_chair/${color}_floor_chair_from_other_floor_chair`,
-    });
     event
       .shapeless(`interiors:${color}_floor_chair`, [
         "#interiors:floor_chairs",
