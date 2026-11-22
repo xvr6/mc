@@ -786,16 +786,20 @@ file = "kubejs/data/kubejs/loot_table/botanypots/tree/ratatouille_fried_delights
 hash = "9fc7f33e8ce1b4ffa750a3dc08ba50c9dec9e263aa282509db41958e3071107a"
 
 [[files]]
+file = "kubejs/data/neoforge/data_maps/item/furnace_fuels.json"
+hash = "e09c36b052e2229f9bb47901fb2429f4afb32362917338c5e7c65fc487d6def4"
+
+[[files]]
 file = "kubejs/server_scripts/_helpers.js"
 hash = "59b738023fbbea742edda022e0c1d78d579f701dc526cfd88c5c24be757f2284"
 
 [[files]]
 file = "kubejs/server_scripts/player/kits.js"
-hash = "efe37482bca76f8ac33c54f240837d5a644d32d3481ca34bd6dc8c07c2e744d1"
+hash = "9d431536d03efd49f8bc691da756cc6e99eeaf0a6287d23e1ecad9272ee421aa"
 
 [[files]]
 file = "kubejs/server_scripts/player/respawn.js"
-hash = "3472fd31d08858114566276a7ea06877870236555e5e36a8a33203d08858f5b3"
+hash = "5db154c5c9d583be8f7a46e50c0951d95d8ffbd01dd9793ca97fdd75dce88f4f"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/decor/decorative.js"
@@ -819,7 +823,7 @@ hash = "fede813f679cde3dd6906f7d3881fa6a7b75c22d580cad15ff7048fa0183b0ab"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/food/cakes.js"
-hash = "03e252ee8d49b96a0450490248f1e6ae9feed2b8651c3667895c7abeb1ef42c3"
+hash = "5b7c81df1fe415036deed62ca4351475475ed5fb92690204fe58f3b54d6af990"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/food/cooking_oil.js"
@@ -879,7 +883,7 @@ hash = "85229de8b93818165f92c8920ceea567d3f206aa9cfb2c2c448741d396a600c4"
 
 [[files]]
 file = "kubejs/startup_scripts/_init.js"
-hash = "a38a16b60d664cc9a33c4342263055d179559c204fb992d0fdd0a9fbcbc53720"
+hash = "e54881e8053be34e3dc6fb47837ead2a25924346e1b314bdef51270c08f0ce66"
 
 [[files]]
 file = "kubejs/startup_scripts/blocks.js"
@@ -887,15 +891,11 @@ hash = "749832a507c4b10b9de33318f542bc8a4265d16af5187db619b42b0f84ac8815"
 
 [[files]]
 file = "kubejs/startup_scripts/fluids.js"
-hash = "8b54acb0163efc8efe393238be07a8ac0473d8c24c91c64fed6f782b7d52bb10"
-
-[[files]]
-file = "kubejs/startup_scripts/item_modification.js"
-hash = "cecc504f7a0548cbf48c073f835649a95bc6037131face70103a395cec67ffb9"
+hash = "df065444d9e87c07a04d555e9a05ab12572be567c8865380f82f812ad114dc8e"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
-hash = "21c3b8c09de065c434e31aa3ca525e50c5b3887d9894f0e8d077387659384daf"
+hash = "4bd9fbe101cf88153a795d267053215937b48a6e1ac2927427fdb4a2bb1038ea"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
