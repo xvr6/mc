@@ -1,5 +1,25 @@
 # Kubejs
 
+Written against the [KubeJS 1.21.1 wiki](https://kubejs-wiki.tysontheember.dev/1.21.1/).
+
+## Script layout
+
+All files of one script type share one top-level scope, so a top-level `const` name
+can only be used once per folder. Shared helpers live in the `_helpers.js` / `_init.js` files (`// priority: 100`).
+
+- `startup_scripts/`: registration (`items`, `blocks`, `fluids`) and `item_modification`
+- `client_scripts/lang.js`: renames
+- `server_scripts/`
+  - `_helpers.js`: `idPath()`, `processing()` (single-input `event.custom` recipes)
+  - `tags/`: item and block tags (`#poinky:removed` etc.)
+  - `player/`: starter kit, respawn grace
+  - `tooltips.js`
+  - `recipes/global.js`: tag-driven removals and pack-wide ingredient unification
+  - `recipes/{food,farming,resources,tech,decor}/`: recipes grouped by theme, not by mod or recipe type
+
+Conventions: `event.recipes.create.<type>()`, `"2x id"` / `"#tag"` strings, `CreateItem.of(id, chance)`,
+one `ServerEvents.recipes` per file, `// --- Section ---` dividers.
+
 ## Basic kit
 
 - notes

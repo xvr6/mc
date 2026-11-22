@@ -1,10 +1,10 @@
+// Fixed tooltip lines. ItemEvents.modifyTooltips runs server-side and is synced to clients.
+
 ItemEvents.modifyTooltips((event) => {
   event.add(
-    "rusticdelight:cooking_oil",
+    Ingredient.of("#poinky:removed"),
     { shift: false },
-    Text.gray(
-      "WIP: bandaid fix. Food Grade Oil is the intended input here. Shapeless 1:1 crafting is possible for now",
-    ),
+    Text.red("Recipe Removed"),
   );
 
   event.add(
@@ -13,12 +13,6 @@ ItemEvents.modifyTooltips((event) => {
     Text.white(
       "Can be set to: Cobblestone, Stone, Basalt, Limestone, and Scoria",
     ),
-  );
-
-  event.add(
-    Ingredient.of("#poinky:removed"),
-    { shift: false },
-    Text.red("Recipe Removed"),
   );
 
   event.add(

@@ -68,7 +68,7 @@
 		work_from_any_side = false
 
 	[redstone.turn_table]
-		enabled = true
+		enabled = false
 		#can rotate entities standing on it?
 		rotate_entities = true
 		#Allows turn table to shuffle containers content when rotated over horizontal axis

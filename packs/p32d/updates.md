@@ -1,5 +1,77 @@
 # Update Changelogs
 
+## Update v3.2.7
+
+> Rolls up the lettered v3.2.6a–d updates, plus a full cleanup of the pack's KubeJS scripts
+
+### Mods
+
+- Added:
+  - [Block Pack](https://modrinth.com/mod/block-pack)
+  - [Friends For Life](https://modrinth.com/mod/friends-for-life)
+  - [Create: Deep Seas](https://modrinth.com/mod/create-deep-seas)
+- Updated: [Loconautics (v0.1.3)](https://modrinth.com/mod/loconautics/version/0.1.3BETA)
+- Removed:
+  - Fairy Lights, Create Bionics; both have breaking issues ATM
+  - Create Smart Bounds
+  - Advanced Chimneys
+    - We have many other ways to create smoke particles; the main use of this mod was cosmetic
+  - [Create: Sky](https://www.curseforge.com/minecraft/mc-mods/create-sky); briefly added, but has many annoying visual bugs
+- Lots of other small mod updates
+
+### Config
+
+- Default config adjustments
+- Supplementaries turn table disabled
+
+### Kubejs
+
+> NOTE: The refactor was LLM/Claude-assisted. Everything was subsequently proofread and modified
+> Please report any un-caught issues, some may have slipped past my eyes!
+
+- KubeJS scripts reorganised by theme and updated to the new
+  [KubeJS 1.21.1 docs](https://kubejs-wiki.tysontheember.dev/1.21.1/); see `kubejs/README.md`
+- First join: a welcome message now comes with the starter kit, listing the useful commands
+  (`/sethome`, `/home`, `/spawn`, `/back`, `/crafting`, `/stonecutter`, `/trashcan`, `/nickname set`/`clear`)
+- Respawn resistance bumped up a level (still 20 seconds)
+- Added `/tamable` command; lists known list of tamable entities
+
+### Mobs
+
+> Infested-stone silverfish farms are no longer possible (they caused insane lag)
+
+- Infested blocks can no longer be made by haunting stone with Create
+- Infested blocks now only come from worldgen; breaking them (by hand or drill) still releases silverfish
+- Silverfish spawners are unchanged
+
+### Item/Recipe Changes
+
+- Rice cutting now yields straw
+- Removal of Create: Connected Copycat blocks
+- Removal of a few duplicate sheets
+- Custom fluids used for cake batters no longer placeable and now properly animated
+- Added more blocks to `railways:semaphore_poles`
+- Reclaimed bricks are now made by smoking bricks instead of smelting them
+  - No longer overlaps with cracked bricks in the furnace, and works with Create bulk smoking
+- Echo ingots now use void steel instead of netherite in their sequenced assembly
+- Rustic Delight cooking oil removed; Food Grade Seed Oil bottles now work directly in all fried food recipes
+- Liquid dye back to the standard Dragons+ rate; further modifications still in place
+
+### Fixes
+
+- Farmer's Delight cake-from-slices recipe works again (was accidentally removed)
+- Blueberry bags now unpack into 9 blueberries (was 1)
+- Ethereal Saffron in botany pots now needs end stone, like the other Ender's Delight crops
+- Tree bark and corncobs are compostable again (4:1); a typo'd tag had dropped them
+- Soul sand washing now properly replaces Create's recipe (less quartz, slightly more gold)
+- Crushing raw uranium/lead/platinum blocks gives the full 9x experience
+- Peat is no longer a furnace fuel (the old script never actually worked)
+- Tinted glass, train light blocks, the resistive heater and Interiors chair re-dyeing
+  now replace the original recipes in place instead of removing and re-adding them
+- Echo ingot cost increase actually applies now (it silently never worked)
+- Suspicious sand can no longer be crafted from sand + paper (previous removal never matched)
+- Fan coloring white dye into other colors should now work (recipes pointed at a non-existent dye color)
+
 ## Update v3.2.6
 
 ### Mods
@@ -10,13 +82,11 @@
 
 ### Recipes/item changes
 
-- Removal of create: connected copycat blocks since they just... convert to the other anyways?
 - Dirt automation
   - Just a much easier way to do this than normal
   - Milling coarse dirt -> dirt
   - Compacting dirt + gravel -> 2x Coarse Dirt
 - Removal of station that had no use
-- poinky: cake batters shouldnt be placeable anymore (kubejs wiki doesnt really say)
 
 ## Update v3.2.5b - literally just loconautics
 
@@ -29,7 +99,7 @@
 - Watch ponders carefully, read the mod page and good luck!
   - Ofc, if any resource loss occurs on our survival server they can be cheated back in by an admin.
 - Report issues directly to the loconautics devs on their [github](https://github.com/Lyccoriis/Create-Loconautics/issues)
-- Due to the mod being inaccessable via CFs api, it is downloaded from [here](https://www.curseforge.com/minecraft/mc-mods/createloconautics)
+- Due to the mod being inaccessable via CFs api, it is downloaded [here](https://www.curseforge.com/minecraft/mc-mods/createloconautics)
   and redistributed here with packwiz as a raw file instead of a the usual download link.
   Once mod is accepted onto modrinth, it will be downloaded through there!
 
