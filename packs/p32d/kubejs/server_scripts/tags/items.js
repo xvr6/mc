@@ -1,6 +1,6 @@
 // Item tags. Pack-specific tags use the `poinky:` namespace:
 //   #poinky:removed            every recipe producing these is removed (recipes/global.js) + tooltip
-//   #poinky:non_hand_craftable shaped crafting recipes producing these are removed
+//   **not used**: #poinky:non_hand_craftable shaped crafting recipes producing these are removed
 //   #poinky:mechanical_pumps   any pump; replaces create:mechanical_pump in all recipes
 
 ServerEvents.tags("item", (event) => {

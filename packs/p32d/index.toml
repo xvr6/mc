@@ -134,7 +134,7 @@ hash = "24441ff96f9d18cb6c03921742f292449a600077758b7bffc51a033dc15ed4e3"
 
 [[files]]
 file = "config/supplementaries-common.toml"
-hash = "c463a710aaf70602e9d71d8b7bb72d51de70d9bc31ef4fc0e07e753d244954d8"
+hash = "4aebf8fe3f04ba75e558496c14ae9a5851f82b68fe2f483fed2d198eaf4b9456"
 
 [[files]]
 file = "config/tectonic.json"
@@ -875,7 +875,7 @@ hash = "ff42eac6046248088a35cfad876b830aa0fb0953db09f8e9f686654aa09da07a"
 
 [[files]]
 file = "kubejs/server_scripts/tags/items.js"
-hash = "9a40bea0b800669788a052dd8d8a8864fdc5941e82659f14d0b4e07d5b3998d8"
+hash = "1e9affd73c991b6dee420f418b4ae13679183fbfb2ab64115f2386d5b46d6020"
 
 [[files]]
 file = "kubejs/server_scripts/tooltips.js"
