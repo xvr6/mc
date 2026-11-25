@@ -1,9 +1,6 @@
 // Plants, flowers, soils and farm byproducts (bone meal, string).
 
 ServerEvents.recipes((event) => {
-  const enriching = (input, results) =>
-    processing(event, "createnuclear:enriched", input, results);
-
   // --- Chipped variants -> vanilla (they spawn naturally; inventory relief) ---
   event.shapeless("minecraft:brown_mushroom", ["#chipped:brown_mushroom"]);
   event.shapeless("minecraft:red_mushroom", ["#chipped:red_mushroom"]);
@@ -14,10 +11,10 @@ ServerEvents.recipes((event) => {
   event.shapeless("minecraft:pumpkin", ["#chipped:pumpkin"]);
 
   // --- Wither roses: enrich flowers, purify back with channeling ---
-  enriching("#minecraft:small_flowers", [
+  enriching(event, "#minecraft:small_flowers", [
     { id: "minecraft:wither_rose", chance: 0.4 },
   ]);
-  enriching("#minecraft:tall_flowers", [
+  enriching(event, "#minecraft:tall_flowers", [
     { id: "minecraft:wither_rose", chance: 0.6 },
     { id: "minecraft:wither_rose", chance: 0.4 },
   ]);

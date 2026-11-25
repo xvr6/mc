@@ -1,0 +1,13 @@
+name = "Create: Sky"
+filename = "createsky-0.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "90f20712f7e1b301bf8f8338497ab88e45fa79fba1235e6fe51881b5ece6dcd169099b190b54012690ca0d8016e19416ad3a517594b9b8e0d1f07bcb98502185"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9772735
+project-id = 1809901

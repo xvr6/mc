@@ -23,3 +23,8 @@ function processing(event, type, input, results) {
     results: results,
   });
 }
+
+// Create: Nuclear enriching (fan + enriched fire). Same args as processing().
+function enriching(event, input, results) {
+  return processing(event, "createnuclear:enriched", input, results);
+}

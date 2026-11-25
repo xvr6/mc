@@ -33,6 +33,10 @@ file = "config/createpropulsion-common.toml"
 hash = "721b8eaa5a038a356191061d37c6b8f1a7013f37d45ad360aa89e1a39c7f4790"
 
 [[files]]
+file = "config/createskys-client.toml"
+hash = "5ab5e5dd85cda047bf2b98c075a128b459a3ae9e13e27a8c684dc201b886dde7"
+
+[[files]]
 file = "config/createskys-server.toml"
 hash = "1fb35b0d049283f620366b38013caa8578a8511d1a3cc424a64a2c824eceb7aa"
 
@@ -787,7 +791,7 @@ hash = "e09c36b052e2229f9bb47901fb2429f4afb32362917338c5e7c65fc487d6def4"
 
 [[files]]
 file = "kubejs/server_scripts/_helpers.js"
-hash = "59b738023fbbea742edda022e0c1d78d579f701dc526cfd88c5c24be757f2284"
+hash = "4156a6dfefb60c979997b569f7f244be387c798cc7bd218466e049a0f819ca06"
 
 [[files]]
 file = "kubejs/server_scripts/player/kits.js"
@@ -799,7 +803,7 @@ hash = "5db154c5c9d583be8f7a46e50c0951d95d8ffbd01dd9793ca97fdd75dce88f4f"
 
 [[files]]
 file = "kubejs/server_scripts/player/tameables.js"
-hash = "2aa870b060bbb3b77a7c8f9b28488f9c379b4b77318f1571288798c81737bb16"
+hash = "ffc51aec914416126b793f8f13a586a411bfa1d1bb015dcc2dfbd770c0f105b6"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/decor/decorative.js"
@@ -815,7 +819,7 @@ hash = "0671cc11171827444bdafa27e10c3fa539848e19eabe42136e945568531e9714"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/farming/plants.js"
-hash = "ee51922437fa627e0dc5fe0cfc008d00fbd4cfdb138bd5cb30df8b9e9fcca5e0"
+hash = "e862394182be93cd3b008cb3ab3a26ca2412c4a700612fd21c32712caf3d6989"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/farming/seed_bags.js"
@@ -839,11 +843,11 @@ hash = "9f7eacb0e3d0f8637da52ba152b9b7fd24cbe262e5181dcdce32321dc0f80030"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/resources/mob_drops.js"
-hash = "b68d00100861fe6750b2d8afffac00dcbedbe85a567f9aea4323ceb18c72ed92"
+hash = "69c5252eb192394266c43978b43db634b3538044fb99604a19b3421604eb090e"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/resources/ores.js"
-hash = "8e12ac55f2342e4e9b0a0777e2070bd74124f8e61d4ed4e137c433b83716a186"
+hash = "e9cb7b07eae9298c971497168399997951a5f085ae6b6055bc11eeb2935d08ef"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/resources/stone.js"
@@ -916,6 +920,10 @@ metafile = true
 file = "mods/advancedperipherals.pw.toml"
 hash = "73576662287c48ef64866be14445a6e8b52829a1da6e65800d0917f813206220"
 metafile = true
+
+[[files]]
+file = "mods/adventurers_harness-1.2-Sable-NeoForge-1.21.1.jar"
+hash = "0fbbe9c7f4332d6dc157e5a2e88d4512fae71b036a3453a5c3ea081204e8a2f1"
 
 [[files]]
 file = "mods/aero_cam_sync.pw.toml"
@@ -1035,6 +1043,11 @@ metafile = true
 [[files]]
 file = "mods/bookshelf-lib.pw.toml"
 hash = "68d6016fa3707c434b3aca5db041c7518c70feb53d0183faa2502cc6efd4c827"
+metafile = true
+
+[[files]]
+file = "mods/botania-revived.pw.toml"
+hash = "962946b3a569c7a95e27131ea8ac3dbb759eebb817b3d8e0daa1202046831ac9"
 metafile = true
 
 [[files]]
@@ -1498,6 +1511,11 @@ hash = "d1160b7fd4395d2b1140c78791a6d974a9c804d17078d643cbb8f4d267505066"
 metafile = true
 
 [[files]]
+file = "mods/create-sky.pw.toml"
+hash = "d16e8abf54b632d1a212ba09ed82dc88e64f7d7a8a07057bcfb41734b32db704"
+metafile = true
+
+[[files]]
 file = "mods/create-sound-of-steam.pw.toml"
 hash = "9b5fe0ca38315fe878004e1f14818c2b26a1233b03a067b292efd02a007e94ae"
 metafile = true
@@ -1561,6 +1579,18 @@ metafile = true
 file = "mods/create.pw.toml"
 hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
+
+[[files]]
+file = "mods/create_adventurers_harness-1.1-NeoForge-1.21.1.jar"
+hash = "42654dcf50e0591e13bf10ea069f62d69636a6efd00c324964b86f659db01475"
+
+[[files]]
+file = "mods/create_cranked_up-1.0-NeoForge-1.21.1.jar"
+hash = "2e8cf56606b0f9dfef8f22a17f001b39b178b24288674e99c7fe9e46c94de56f"
+
+[[files]]
+file = "mods/create_massive_turbines-1.0.2-NeoForge-1.21.1.jar"
+hash = "d05e2aa60b28e4517828bf482446a3e73b02f37e26ecdd9c9b87d30142c3fa98"
 
 [[files]]
 file = "mods/createaddition.pw.toml"

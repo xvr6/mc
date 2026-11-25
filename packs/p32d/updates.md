@@ -1,5 +1,27 @@
 # Update Changelogs
 
+## Update v3.2.8
+
+### Added Mods
+
+- [Adventurer's Harness](https://www.curseforge.com/minecraft/mc-mods/adventurers-harness) + its create addon
+  - Very short and to the point [tutorial video](https://youtu.be/rNsCfKmDchY) from the mods dev!
+  - In a future patch, this mods new way of building and vein mining MAY become
+    the only way to do so (no builders wands, no ftb ultimine). There are no
+    plans to do this until rigirous testing is made, but its a fun mod worth checking out.
+- [Botania Revived](https://www.curseforge.com/minecraft/mc-mods/botania-revived)
+  - A modern port of botania
+- [Create: Cranked Up](https://www.curseforge.com/minecraft/mc-mods/create-cranked-up)
+- [Create: Massive Turbines](https://www.curseforge.com/minecraft/mc-mods/create-massive-turbines)
+- [Create: Deep Seas](https://modrinth.com/mod/create-deep-seas)
+  - Techincally was added in the previous update, but was an undocumented
+    hotfix. Stated again here just to ensure it is known
+- [Create: Sky](https://www.curseforge.com/minecraft/mc-mods/create-sky) Readded after major bugfixes
+
+### KubeJS
+
+- `/tamable` command is much more user friendly now. Additionally fixed a few random errors within it
+
 ## Update v3.2.7
 
 > Rolls up the lettered v3.2.6a–d updates, plus a full cleanup of the pack's KubeJS scripts

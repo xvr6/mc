@@ -24,4 +24,9 @@ ServerEvents.recipes((event) => {
     ["3x supplementaries:ash", CreateItem.of("supplementaries:ash", 0.6)],
     "minecraft:charcoal",
   );
+
+  // --- Nether star: enriching a heart of the sea (rare) ---
+  enriching(event, "minecraft:heart_of_the_sea", [
+    { id: "minecraft:nether_star", chance: 0.25 },
+  ]);
 });

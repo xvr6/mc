@@ -1,11 +1,10 @@
 // Ores, raw materials, gems and crystals.
 
 ServerEvents.recipes((event) => {
-  const enriching = (input, results) =>
-    processing(event, "createnuclear:enriched", input, results);
-
   // --- Uranium: asurine -> autunite -> crushed uranium ---
-  enriching("create:asurine", [{ id: "createnuclear:autunite", chance: 0.25 }]);
+  enriching(event, "create:asurine", [
+    { id: "createnuclear:autunite", chance: 0.25 },
+  ]);
   event.recipes.create.crushing(
     [
       "create:crushed_raw_uranium",
@@ -108,7 +107,9 @@ ServerEvents.recipes((event) => {
   );
 
   // --- Amethyst (mainly cosmetic in this pack; easier to farm) ---
-  enriching("minecraft:amethyst_block", [{ id: "minecraft:budding_amethyst" }]);
+  enriching(event, "minecraft:amethyst_block", [
+    { id: "minecraft:budding_amethyst" },
+  ]);
   event.recipes.create.crushing(
     [
       CreateItem.of("minecraft:amethyst_block", 0.8),
@@ -125,13 +126,15 @@ ServerEvents.recipes((event) => {
   );
 
   // --- Citrine ---
-  enriching("unusualend:citrine_block", [{ id: "unusualend:budding_citrine" }]);
+  enriching(event, "unusualend:citrine_block", [
+    { id: "unusualend:budding_citrine" },
+  ]);
 
   // --- Enriched soul soil ---
-  enriching("minecraft:soul_soil", [
+  enriching(event, "minecraft:soul_soil", [
     { id: "createnuclear:enriched_soul_soil", chance: 0.15 },
   ]);
 
   // --- Cinder flour: should become the only way to automate netherrack (balance) ---
-  enriching("#c:flours", [{ id: "create:cinder_flour", chance: 0.35 }]);
+  enriching(event, "#c:flours", [{ id: "create:cinder_flour", chance: 0.35 }]);
 });

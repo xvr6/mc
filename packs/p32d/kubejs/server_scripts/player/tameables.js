@@ -8,9 +8,17 @@ const TAMEABLES = [
   ["crittersandcompanions:weevil", "Acorn Weevil", "acorn"],
   ["minecraft:allay", "Allay", "hand it an item (bonds)"],
   ["naturalist:bear", "Bear", "baby: salmon, honeycomb, sweet berries"],
-  ["the_bumblezone:beehemoth", "Beehemoth", "honey / bee bread / royal jelly (friendship)"],
+  [
+    "the_bumblezone:beehemoth",
+    "Beehemoth",
+    "honey / bee bread / royal jelly (friendship)",
+  ],
   ["naturalist:bird", "Bird", "drop seeds for it to eat"],
-  ["naturalist:black_bear", "Black Bear", "baby: salmon, honeycomb, sweet berries"],
+  [
+    "naturalist:black_bear",
+    "Black Bear",
+    "baby: salmon, honeycomb, sweet berries",
+  ],
   ["naturalist:capybara", "Capybara", "melon slice"],
   ["minecraft:cat", "Cat", "raw fish"],
   ["naturalist:crab", "Crab", "tropical fish"],
@@ -38,7 +46,11 @@ const TAMEABLES = [
   ["minecraft:ocelot", "Ocelot", "raw fish (trust only)"],
   ["naturalist:ostrich", "Ostrich", "baby: seeds"],
   ["minecraft:parrot", "Parrot", "seeds"],
-  ["endermanoverhaul:pet_enderman", "Pet Enderman", "throw an ancient pearl (all pet variants)"],
+  [
+    "endermanoverhaul:pet_enderman",
+    "Pet Enderman",
+    "throw an ancient pearl (all pet variants)",
+  ],
   ["naturalist:rat", "Rat", "bread"],
   ["crittersandcompanions:red_panda", "Red Panda", "sweet berries"],
   ["crittersandcompanions:roly_poly", "Roly-Poly", "mushroom"],
@@ -51,13 +63,21 @@ const TAMEABLES = [
   ["crittersandcompanions:stag_beetle", "Stag Beetle", "berries"],
   ["crittersandcompanions:stick_bug", "Stick Bug", "leaves"],
   ["naturalist:tiger", "Tiger", "baby: meat"],
-  ["naturalist:tortoise", "Tortoise", "bamboo, dandelion, brown mushroom, cactus"],
+  [
+    "naturalist:tortoise",
+    "Tortoise",
+    "bamboo, dandelion, brown mushroom, cactus",
+  ],
   ["minecraft:trader_llama", "Trader Llama", "ride"],
   ["wayfinder:wayfinder", "Wayfinder", "glow berries"],
   ["minecraft:wolf", "Wolf", "bone"],
   ["naturalist:zebra", "Zebra", "ride"],
   ["minecraft:zombie_horse", "Zombie Horse", "ride"],
-  ["minecraft:zombie_nautilus", "Zombie Nautilus", "pufferfish / pufferfish bucket"],
+  [
+    "minecraft:zombie_nautilus",
+    "Zombie Nautilus",
+    "pufferfish / pufferfish bucket",
+  ],
 ];
 
 const TAME_NAMES_PER_LINE = 6;
@@ -94,7 +114,10 @@ ServerEvents.commandRegistry((event) => {
       // No argument: names only, a few per line, each clickable for details
       .executes((ctx) => {
         const list = loadedTameables();
-        tameSend(ctx, Text.of("§6§lTamable mobs §7- click one, or /tamable <mob>"));
+        tameSend(
+          ctx,
+          Text.of("§6§lTamable mobs §7- click one, or /tamable <mob>"),
+        );
         for (let i = 0; i < list.length; i += TAME_NAMES_PER_LINE) {
           let line = Text.of(" ");
           list.slice(i, i + TAME_NAMES_PER_LINE).forEach(([, name], j) => {
@@ -128,7 +151,12 @@ ServerEvents.commandRegistry((event) => {
                 name.toLowerCase() === query || id.split(":")[1] === query,
             );
             if (!entry) {
-              tameSend(ctx, Text.of(`§c"${query}" isn't tamable. §7Run /tamable for the list.`));
+              tameSend(
+                ctx,
+                Text.of(
+                  `§c"${query}" isn't tamable. §7Run /tamable for the list.`,
+                ),
+              );
               return 0;
             }
             tameSend(ctx, Text.of(`§a${entry[1]}§7: ${entry[2]}`));
