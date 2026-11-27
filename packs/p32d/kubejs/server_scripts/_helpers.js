@@ -13,7 +13,9 @@ function ingredientJson(input) {
 
 // Single-input Create-style custom recipe (`ingredients[]` + `results[]` JSON),
 // used for addon recipe types with no KubeJS builder
-// (createnuclear:enriched, create_aquatic_ambitions:channeling, ...).
+// (create_aquatic_ambitions:channeling, create_dragons_plus:freezing, ...).
+// Create: Nuclear enriching has a native builder since CN 2.0.2:
+//   event.recipes.createnuclear.enriched(results, input)
 //   input:   "mod:item" or "#tag"
 //   results: [{ id, chance? }, ...]
 function processing(event, type, input, results) {
@@ -22,9 +24,4 @@ function processing(event, type, input, results) {
     ingredients: [ingredientJson(input)],
     results: results,
   });
-}
-
-// Create: Nuclear enriching (fan + enriched fire). Same args as processing().
-function enriching(event, input, results) {
-  return processing(event, "createnuclear:enriched", input, results);
 }

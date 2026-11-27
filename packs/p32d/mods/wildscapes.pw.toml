@@ -1,0 +1,13 @@
+name = "Wildscapes"
+filename = "wildscapes-neoforge-1.21.1-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "8830f449c61625f789417a76b256a08b67f73952fde36cc4b356ca5b0b2d7a398a3ed0dd758143f6744699f0bab2286d4f2758d10a98c2bbe59a57e2710bb253"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9732722
+project-id = 1756287

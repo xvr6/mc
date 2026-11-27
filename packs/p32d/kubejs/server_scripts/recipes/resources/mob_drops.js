@@ -26,7 +26,8 @@ ServerEvents.recipes((event) => {
   );
 
   // --- Nether star: enriching a heart of the sea (rare) ---
-  enriching(event, "minecraft:heart_of_the_sea", [
-    { id: "minecraft:nether_star", chance: 0.25 },
-  ]);
+  event.recipes.createnuclear.enriched(
+    CreateItem.of("minecraft:nether_star", 0.25),
+    "minecraft:heart_of_the_sea",
+  );
 });

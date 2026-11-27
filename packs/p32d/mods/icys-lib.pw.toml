@@ -1,0 +1,13 @@
+name = "Icy's Lib"
+filename = "icys_lib-neoforge-1.21.1-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "a795fd94c4cd554f121be5b9d6402b1074cde2505df8ebf888843ea38efb9419fc3a36dd9ef51976d4aebfab0b4888abff2251637b3ba5acbdbcc4d6955c4752"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9509844
+project-id = 1756391

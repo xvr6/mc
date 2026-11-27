@@ -1,5 +1,15 @@
 # Update Changelogs
 
+## Update v3.2.8 amendments
+
+- Loconautics coupler recipe adjusted
+- Notable Mod Additions:
+  - Windswept
+  - Wildscapes
+- Many mod updates
+
+- Internal pack fixes to config files
+
 ## Update v3.2.8
 
 ### Added Mods

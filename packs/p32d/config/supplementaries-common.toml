@@ -806,3 +806,4 @@
 		cooperative_pistons = false
 		#If true, pushing an empty cauldron into a water or lava source (with a piston or a pulley) fills it with that fluid, instead of leaving it empty. Also tops up cauldrons being moved.
 		moved_cauldron_filling = false
+

@@ -45,4 +45,12 @@ ServerEvents.recipes((event) => {
     "minecraft:light_gray_concrete",
     "clayworks:concrete",
   );
+
+  event.replaceInput(
+    {
+      id: "create_massive_turbines:industrial_alternator_casing",
+    },
+    "create:copper_sheet",
+    "create:brass_sheet",
+  );
 });

@@ -397,3 +397,4 @@
 	[integrations.epicfight]
 		#Whether to allow target lock-on when camera is decoupled.
 		decoupled_camera_lock_on = false
+

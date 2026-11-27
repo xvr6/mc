@@ -1,13 +1,13 @@
 name = "Create Aeronautics: Throwable Rope Connector"
-filename = "create_aeronautics_throwable_rope_connector-0.5.0.jar"
+filename = "create_aeronautics_throwable_rope_connector-0.5.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/9xiCbKmM/versions/xWhHGjw5/create_aeronautics_throwable_rope_connector-0.5.0.jar"
+url = "https://cdn.modrinth.com/data/9xiCbKmM/versions/appTe0Pt/create_aeronautics_throwable_rope_connector-0.5.1.jar"
 hash-format = "sha512"
-hash = "cdf8eb1b5dae7463fc0dc82331a647d00cc3d840022b8912f43a38d6970e5dc3e9f218aa456b8d689e74eddffedae9c403cacaf5064bbdfad5ef168fdd1226ca"
+hash = "23573e4b4ffd36851d76627cf8069751c0a6ea43d34b4eaea57204731f1ce8171049baf90839995f83be25ec382f41fc5daaa66bc432ee7bf5fa083f2ed6808d"
 
 [update]
 [update.modrinth]
 mod-id = "9xiCbKmM"
-version = "xWhHGjw5"
+version = "appTe0Pt"

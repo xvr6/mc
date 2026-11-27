@@ -62,4 +62,5 @@
 
 [Debug]
 	#toggle debug features
-	debug = true
+	debug = false
+

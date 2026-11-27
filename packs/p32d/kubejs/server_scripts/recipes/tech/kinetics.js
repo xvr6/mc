@@ -60,6 +60,15 @@ ServerEvents.recipes((event) => {
   );
   event.shapeless("create:andesite_alloy", ["copycats:copycat_block"]);
 
+  // Specific alternate recipe for a few other copycats
+  event
+    .shaped("loconautics:knuckle", [" A ", "SIS", "   "], {
+      A: "create:andesite_alloy",
+      S: "loconautics:industrial_iron_sheet",
+      I: "create:industrial_iron_block",
+    })
+    .id("loconautics:knuckle");
+
   // --- Aeronautics burner: charcoal block instead of coal block ---
   event.replaceInput(
     { id: "aeronautics:adjustable_burner" },

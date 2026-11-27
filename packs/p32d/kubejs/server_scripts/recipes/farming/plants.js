@@ -11,13 +11,17 @@ ServerEvents.recipes((event) => {
   event.shapeless("minecraft:pumpkin", ["#chipped:pumpkin"]);
 
   // --- Wither roses: enrich flowers, purify back with channeling ---
-  enriching(event, "#minecraft:small_flowers", [
-    { id: "minecraft:wither_rose", chance: 0.4 },
-  ]);
-  enriching(event, "#minecraft:tall_flowers", [
-    { id: "minecraft:wither_rose", chance: 0.6 },
-    { id: "minecraft:wither_rose", chance: 0.4 },
-  ]);
+  event.recipes.createnuclear.enriched(
+    CreateItem.of("minecraft:wither_rose", 0.4),
+    "#minecraft:small_flowers",
+  );
+  event.recipes.createnuclear.enriched(
+    [
+      CreateItem.of("minecraft:wither_rose", 0.6),
+      CreateItem.of("minecraft:wither_rose", 0.4),
+    ],
+    "#minecraft:tall_flowers",
+  );
   processing(
     event,
     "create_aquatic_ambitions:channeling",
